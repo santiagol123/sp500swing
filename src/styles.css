@@ -493,6 +493,32 @@ tbody tr:hover {
 .setting strong {
   font-size: 13px;
   text-align: right;
+  word-break: break-word;
+}
+
+.empty-state {
+  display: grid;
+  min-height: 170px;
+  place-items: center;
+  gap: 8px;
+  padding: 32px 18px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.empty-state svg {
+  color: var(--blue);
+}
+
+.empty-state strong {
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.empty-state span {
+  max-width: 460px;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .bar-list,

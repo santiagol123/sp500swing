@@ -40,6 +40,7 @@ export function actionTone(action = "") {
   if (action.includes("COMPRAR")) return "buy";
   if (action.includes("INVALIDADA")) return "bad";
   if (action.includes("BLOQUEADA")) return "muted";
+  if (action.includes("CARTERA") || action.includes("MANTENER")) return "neutral";
   if (action.includes("ESPERAR")) return "wait";
   return "neutral";
 }
@@ -78,22 +79,64 @@ export function mapApiRow(row, index = 0) {
   };
 }
 
-export function mergeApiData(mock, payload) {
-  if (!payload || payload.ok === false) return mock;
+function uniqueRows(rows) {
+  const seen = new Set();
+  const out = [];
+  for (const row of rows) {
+    const key = row.ticker || `${row.name}-${out.length}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(row);
+  }
+  return out;
+}
+
+export function mergeApiData(base, payload) {
+  if (!payload || payload.ok === false) {
+    return {
+      ...base,
+      meta: {
+        ...base.meta,
+        mode: "error",
+        generatedAt: payload?.generated_at || new Date().toISOString(),
+        error: payload?.error || "Respuesta API invalida",
+      },
+    };
+  }
+
   const mappedBuys = (payload.recommendations || []).map(mapApiRow);
   const mappedTechnical = (payload.technical_entries || []).map(mapApiRow);
-  const mappedWatch = (payload.watch || payload.top_ranked || []).slice(0, 20).map(mapApiRow);
+  const mappedWatch = (payload.watch || []).slice(0, 20).map(mapApiRow);
+  const mappedTopRanked = payload.top_ranked || [];
+  const buyToday = uniqueRows(mappedBuys).slice(0, 12);
+  const technicalEntries = uniqueRows(mappedTechnical).slice(0, 20);
+  const watchlist = mappedWatch.length ? mappedWatch : mappedTopRanked.slice(0, 20).map(mapApiRow);
+
   return {
-    ...mock,
-    buyToday: mappedBuys.length ? mappedBuys.concat(mappedTechnical.slice(mappedBuys.length, 8)) : mock.buyToday,
-    watchlist: mappedWatch.length ? mappedWatch : mock.watchlist,
+    ...base,
+    buyToday,
+    technicalEntries,
+    watchlist,
+    topRanked: mappedTopRanked,
+    portfolio: payload.portfolio?.open_positions || [],
+    closedTrades: payload.portfolio?.closed_trades || [],
+    portfolioSummary: payload.portfolio?.summary || base.portfolioSummary,
+    portfolioSource: {
+      asOf: payload.portfolio?.as_of,
+      source: payload.portfolio?.source,
+      ticketSize: payload.portfolio?.ticket_size,
+      commissionPerSide: payload.portfolio?.commission_per_side,
+    },
+    failed: payload.failed || [],
     meta: {
       mode: "api",
       generatedAt: payload.generated_at,
       latestMarketDate: payload.latest_market_date,
+      universeSource: payload.universe_source,
       universeCount: payload.universe_count,
       downloadedCount: payload.downloaded_count,
       failedCount: payload.failed_count,
+      elapsedMs: payload.elapsed_ms,
       dashboard: payload.dashboard,
       rules: payload.rules,
     },

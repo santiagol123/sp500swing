@@ -13,7 +13,8 @@ Bot autonomo para escoger acciones del S&P 500 sin ChatGPT y sin tokens de API.
   - maximo 3 compras nuevas al dia
   - maximo 2 compras por sector
 - Expone `/api/signals` en JSON.
-- Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, estrategias, backtest y watchlist.
+- Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, radar, ranking tecnico, ejecucion y configuracion con datos reales de `/api/signals`.
+- Lee la cartera real desde `data/portfolio.json`, extraida del documento `Script bolsa sp500 codex.docx`, y la valora con los ultimos precios descargados de Yahoo Finance.
 - Vercel Cron llama `/api/signals` en dias laborables para calentar cache.
 
 ## Importante sobre Vercel sin tokens
@@ -29,14 +30,24 @@ cd vercel_bot
 npm install
 ```
 
-Arranca el mockup Vite:
+Arranca el front Vite:
 
 ```bash
 cd vercel_bot
 npm run dev
 ```
 
-La app intenta leer `/api/signals`. Si no hay API local, usa datos demo de mockup.
+La app intenta leer `/api/signals`. Si quieres apuntar el front local a un despliegue de Vercel, define `VITE_SIGNALS_API_URL` con la URL completa de `/api/signals`.
+
+No hay datos demo en el front: si la API real no responde, la interfaz muestra estado vacio y el error de carga.
+
+## Cartera actual
+
+La cartera operativa se guarda en `data/portfolio.json`.
+
+- Posiciones abiertas a 17/07/2026: `MNST`, `CPAY`, `V`, `CTVA`, `EG`, `CFG`.
+- Operaciones cerradas cargadas: `MAR`, `NTRS`, `HWM`, `SPG`, `MS`.
+- El scanner cuenta las compras ya ejecutadas hoy y no recomienda duplicar tickers abiertos.
 
 Ejecuta el scanner por consola:
 
