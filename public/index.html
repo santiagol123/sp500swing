@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Market Radar Bot</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #617083;
+        --line: #d9e2ec;
+        --panel: #f7fafc;
+        --blue: #17365d;
+        --green: #19734a;
+        --amber: #9a6400;
+        --red: #a12626;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--ink);
+        background: #ffffff;
+      }
+      header {
+        padding: 18px 22px;
+        background: var(--blue);
+        color: white;
+      }
+      h1 {
+        margin: 0;
+        font-size: 22px;
+      }
+      main {
+        padding: 18px 22px 36px;
+      }
+      .status {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        margin-bottom: 18px;
+      }
+      .metric {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        padding: 12px;
+      }
+      .metric b {
+        display: block;
+        font-size: 20px;
+        margin-top: 4px;
+      }
+      .toolbar {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 14px;
+      }
+      button {
+        border: 0;
+        background: var(--blue);
+        color: white;
+        padding: 9px 12px;
+        cursor: pointer;
+        font-weight: 700;
+      }
+      .note {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      h2 {
+        margin: 24px 0 10px;
+        font-size: 17px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 13px;
+      }
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 7px 8px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      th {
+        background: #e9f1f8;
+        color: #102a43;
+        position: sticky;
+        top: 0;
+      }
+      .scroll {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+      }
+      .buy {
+        color: var(--green);
+        font-weight: 700;
+      }
+      .wait {
+        color: var(--amber);
+        font-weight: 700;
+      }
+      .bad {
+        color: var(--red);
+        font-weight: 700;
+      }
+      .error {
+        border: 1px solid #f2c0c0;
+        background: #fff5f5;
+        color: var(--red);
+        padding: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Market Radar Bot</h1>
+    </header>
+    <main>
+      <div class="toolbar">
+        <button id="refresh">Actualizar</button>
+        <span class="note" id="stamp">Cargando señales...</span>
+      </div>
+      <div id="error"></div>
+      <section class="status" id="metrics"></section>
+      <section>
+        <h2>Compras autorizadas</h2>
+        <div class="scroll"><table id="recommendations"></table></div>
+      </section>
+      <section>
+        <h2>Entradas técnicas no autorizadas o en espera</h2>
+        <div class="scroll"><table id="watch"></table></div>
+      </section>
+    </main>
+    <script>
+      const fmt = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 2 });
+      const pct = new Intl.NumberFormat("es-ES", { style: "percent", maximumFractionDigits: 1 });
+
+      function n(value) {
+        return Number.isFinite(Number(value)) ? fmt.format(Number(value)) : "";
+      }
+
+      function p(value) {
+        return Number.isFinite(Number(value)) ? pct.format(Number(value)) : "";
+      }
+
+      function renderMetrics(data) {
+        const d = data.dashboard || {};
+        const metrics = [
+          ["Fecha mercado", data.latest_market_date || "-"],
+          ["Descargadas", data.downloaded_count || 0],
+          ["Señales", d.candidates_total || 0],
+          ["CORE", d.core_count || 0],
+          ["BREAKOUT", d.breakout_count || 0],
+          ["Entradas técnicas", d.technical_entry_count || 0],
+          ["Autorizadas", d.portfolio_entry_count || 0],
+          ["Tiempo", `${data.elapsed_ms || 0} ms`],
+        ];
+        document.getElementById("metrics").innerHTML = metrics
+          .map(([label, value]) => `<div class="metric"><span>${label}</span><b>${value}</b></div>`)
+          .join("");
+      }
+
+      function renderTable(id, rows) {
+        const table = document.getElementById(id);
+        if (!rows || !rows.length) {
+          table.innerHTML = "<tbody><tr><td>Sin registros</td></tr></tbody>";
+          return;
+        }
+        const headers = ["Acción", "Ticker", "Nombre", "Sector", "Último", "Máx compra", "Stop", "TP", "RR", "RSI", "MACD hist", "Tamaño", "Motivo"];
+        const htmlRows = rows
+          .map((r) => {
+            const klass = r.portfolio_allowed ? "buy" : r.Accion_Ejecucion && r.Accion_Ejecucion.startsWith("ESPERAR") ? "wait" : "bad";
+            return `<tr>
+              <td class="${klass}">${r.Accion_Ejecucion || ""}</td>
+              <td><b>${r.ticker || ""}</b></td>
+              <td>${r.name || ""}</td>
+              <td>${r.gics_sector || ""}</td>
+              <td>${n(r.last_close)}</td>
+              <td>${n(r.entry_zone_high)}</td>
+              <td>${n(r.invalid_below_price)}</td>
+              <td>${n(r.target_price)}</td>
+              <td>${n(r.risk_reward_ratio)}</td>
+              <td>${n(r.rsi14)}</td>
+              <td>${n(r.macd_hist)}</td>
+              <td>${p(r.tamano_entrada_pct)}</td>
+              <td>${r.Motivo_Ejecucion || r.portfolio_limit_reason || ""}</td>
+            </tr>`;
+          })
+          .join("");
+        table.innerHTML = `<thead><tr>${headers.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${htmlRows}</tbody>`;
+      }
+
+      async function load() {
+        document.getElementById("error").innerHTML = "";
+        document.getElementById("stamp").textContent = "Calculando señales...";
+        try {
+          const response = await fetch("/api/signals", { cache: "no-store" });
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error || `HTTP ${response.status}`);
+          document.getElementById("stamp").textContent = `Generado: ${new Date(data.generated_at).toLocaleString("es-ES")} · universo: ${data.universe_source}`;
+          renderMetrics(data);
+          renderTable("recommendations", data.recommendations);
+          renderTable("watch", data.watch);
+        } catch (error) {
+          document.getElementById("error").innerHTML = `<div class="error">${error.message}</div>`;
+          document.getElementById("stamp").textContent = "Error al calcular señales";
+        }
+      }
+
+      document.getElementById("refresh").addEventListener("click", load);
+      load();
+    </script>
+  </body>
+</html>
