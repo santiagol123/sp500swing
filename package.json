@@ -4,10 +4,19 @@
   "private": true,
   "description": "Autonomous SP500 trading signal scanner for Vercel, without paid API tokens.",
   "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
     "scan": "node scripts/run-local.js",
     "scan:fast": "node scripts/run-local.js --maxSymbols=120",
-    "dev": "vercel dev",
+    "vercel:dev": "vercel dev",
     "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.11"
   },
   "engines": {
     "node": ">=20"

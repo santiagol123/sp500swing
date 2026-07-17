@@ -1,4 +1,4 @@
-# Market Radar Bot para Vercel
+# Market Radar Quant Bot para Vercel
 
 Bot autonomo para escoger acciones del S&P 500 sin ChatGPT y sin tokens de API.
 
@@ -13,7 +13,7 @@ Bot autonomo para escoger acciones del S&P 500 sin ChatGPT y sin tokens de API.
   - maximo 3 compras nuevas al dia
   - maximo 2 compras por sector
 - Expone `/api/signals` en JSON.
-- Tiene una pagina simple en `/` para ver la decision.
+- Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, estrategias, backtest y watchlist.
 - Vercel Cron llama `/api/signals` en dias laborables para calentar cache.
 
 ## Importante sobre Vercel sin tokens
@@ -21,6 +21,24 @@ Bot autonomo para escoger acciones del S&P 500 sin ChatGPT y sin tokens de API.
 Sin base de datos ni storage no hay historico persistente en Vercel. La funcion calcula y devuelve la senal actual; Vercel puede cachear la respuesta, pero si quieres guardar historico real dia a dia hace falta almacenamiento externo, por ejemplo Vercel KV/Postgres/Blob o GitHub, y eso normalmente requiere credenciales.
 
 ## Probar local
+
+Instala dependencias la primera vez:
+
+```bash
+cd vercel_bot
+npm install
+```
+
+Arranca el mockup Vite:
+
+```bash
+cd vercel_bot
+npm run dev
+```
+
+La app intenta leer `/api/signals`. Si no hay API local, usa datos demo de mockup.
+
+Ejecuta el scanner por consola:
 
 ```bash
 cd vercel_bot
@@ -37,6 +55,7 @@ npm run scan:fast
 
 ```bash
 cd vercel_bot
+npm run build
 npx vercel deploy --prod
 ```
 
@@ -60,7 +79,7 @@ En Vercel Hobby conviene mantener la funcion por debajo de 60 segundos. Este sca
 
 ## Uso operativo
 
-La tabla que manda es `recommendations`.
+La tabla que manda el bot es `recommendations`, y el front la muestra en Dashboard cuando `/api/signals` esta disponible.
 
 - Comprar solo si `Accion_Ejecucion = COMPRAR_LIMITADA`.
 - No comprar a mercado.
