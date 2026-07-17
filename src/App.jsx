@@ -233,13 +233,14 @@ function PortfolioView({ data, onSelect }) {
 
 function HistoryView({ data }) {
   const summary = data.portfolioSummary || initialData.portfolioSummary;
+  const autoClosed = data.portfolioSource.automation?.auto_closed_count || 0;
   return (
     <section className="page-stack">
       <div className="kpi-grid">
         <MetricCard icon={History} label="Operaciones cerradas" value={summary.closed_trades || 0} detail={`${number(summary.win_rate || 0, 1)}% win rate`} />
         <MetricCard icon={TrendingUp} label="P&L cerrado" value={money(summary.closed_pnl || 0)} detail="Con comisiones" tone={(summary.closed_pnl || 0) >= 0 ? "good" : "bad"} />
         <MetricCard icon={Activity} label="P&L total" value={money(summary.total_pnl || 0)} detail="Abierto + cerrado" tone={(summary.total_pnl || 0) >= 0 ? "good" : "bad"} />
-        <MetricCard icon={ShieldCheck} label="Fuente" value={data.portfolioSource.asOf || "-"} detail="Fecha de cartera" />
+        <MetricCard icon={ShieldCheck} label="Auto cierres" value={autoClosed} detail={data.portfolioSource.asOf || "Fecha de cartera"} />
       </div>
 
       <Panel title="Historico de operaciones">
@@ -313,6 +314,7 @@ function RunView({ data }) {
 
 function SettingsView({ data }) {
   const rules = data.meta.rules || {};
+  const automation = data.portfolioSource.automation || {};
   return (
     <section className="page-stack">
       <Panel title="Parametros del bot">
@@ -323,6 +325,7 @@ function SettingsView({ data }) {
           <Setting label="Max compras por dia" value={rules.max_new_buys_per_day || 3} />
           <Setting label="Max compras por sector" value={rules.max_buys_per_sector_per_day || 2} />
           <Setting label="Fuente cartera" value={data.portfolioSource.asOf || "Sin cartera"} />
+          <Setting label="Auto cartera" value={automation.mode || "Sin automatizacion"} />
         </div>
       </Panel>
 
@@ -413,7 +416,7 @@ function PortfolioTable({ rows, onSelect }) {
         <tbody>
           {rows.map((row) => (
             <tr key={row.ticker}>
-              <td><strong>{row.ticker}</strong><span className="muted-cell">{row.name}</span></td>
+              <td><strong>{row.ticker}</strong><span className="muted-cell">{row.auto_closed ? "Auto - " : ""}{row.name}</span></td>
               <td>{row.entry_date} - {usd(row.entry)}</td>
               <td>{row.shares}</td>
               <td>{usd(row.current)}</td>

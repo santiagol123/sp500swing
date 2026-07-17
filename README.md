@@ -49,6 +49,19 @@ La cartera operativa se guarda en `data/portfolio.json`.
 - Operaciones cerradas cargadas: `MAR`, `NTRS`, `HWM`, `SPG`, `MS`.
 - El scanner cuenta las compras ya ejecutadas hoy y no recomienda duplicar tickers abiertos.
 
+## Actualizacion automatica de cartera en Vercel Free
+
+Vercel Free no ofrece disco persistente para que `/api/signals` edite archivos en produccion. Para mantenerlo gratis, la cartera se actualiza de forma derivada en cada ejecucion:
+
+- `data/portfolio.json` es el ledger base versionado.
+- Cada llamada a `/api/signals` descarga historico Yahoo para las posiciones.
+- Si una vela posterior al dia de entrada toca `stop`, la posicion se mueve a cerradas en la respuesta como `STOP`.
+- Si una vela posterior al dia de entrada toca `target`, se mueve a cerradas como `TP`.
+- Si supera `max_sessions`, se mueve a cerradas como `TIME_EXIT`.
+- La API devuelve `portfolio.automation.auto_closed_count` para indicar cuantos cierres detecto automaticamente.
+
+La funcion no escribe en disco en Vercel; recalcula el estado actual cada vez usando datos reales de mercado.
+
 Ejecuta el scanner por consola:
 
 ```bash

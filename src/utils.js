@@ -126,6 +126,7 @@ export function mergeApiData(base, payload) {
       source: payload.portfolio?.source,
       ticketSize: payload.portfolio?.ticket_size,
       commissionPerSide: payload.portfolio?.commission_per_side,
+      automation: payload.portfolio?.automation,
     },
     failed: payload.failed || [],
     meta: {
