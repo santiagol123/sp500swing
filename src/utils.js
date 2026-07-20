@@ -120,6 +120,7 @@ export function mergeApiData(base, payload) {
     topRanked: mappedTopRanked,
     portfolio: payload.portfolio?.open_positions || [],
     closedTrades: payload.portfolio?.closed_trades || [],
+    movements: payload.portfolio?.movements || [],
     portfolioSummary: payload.portfolio?.summary || base.portfolioSummary,
     portfolioSource: {
       asOf: payload.portfolio?.as_of,

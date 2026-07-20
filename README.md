@@ -54,13 +54,15 @@ La cartera operativa se guarda en `data/portfolio.json`.
 Vercel Free no ofrece disco persistente para que `/api/signals` edite archivos en produccion. Para mantenerlo gratis, la cartera se actualiza de forma derivada en cada ejecucion:
 
 - `data/portfolio.json` es el ledger base versionado.
-- Cada llamada a `/api/signals` descarga historico Yahoo para las posiciones.
+- Cada llamada a `/api/signals` descarga historico Yahoo y reconstruye el ledger desde `data/portfolio.json.as_of` hasta la ultima vela disponible.
+- Las recomendaciones autorizadas de cada dia reproducido (`COMPRAR_LIMITADA` / `COMPRAR_1_2_PULLBACK`) se agregan a la cartera de la respuesta como compras automaticas.
 - Si una vela posterior al dia de entrada toca `stop`, la posicion se mueve a cerradas en la respuesta como `STOP`.
 - Si una vela posterior al dia de entrada toca `target`, se mueve a cerradas como `TP`.
 - Si supera `max_sessions`, se mueve a cerradas como `TIME_EXIT`.
-- La API devuelve `portfolio.automation.auto_closed_count` para indicar cuantos cierres detecto automaticamente.
+- La API devuelve `portfolio.movements` con altas y bajas de cartera (`BUY_AUTO`, `SELL_AUTO_STOP`, `SELL_AUTO_TP`, etc.).
+- La API devuelve `portfolio.automation.auto_opened_count` y `portfolio.automation.auto_closed_count` para indicar cuantos movimientos detecto automaticamente.
 
-La funcion no escribe en disco en Vercel; recalcula el estado actual cada vez usando datos reales de mercado.
+La funcion no escribe en disco en Vercel; recalcula el estado actual cada vez usando datos reales de mercado. Esto permite que una compra automatica de ayer siga apareciendo manana aunque ya no salga como recomendacion nueva.
 
 Ejecuta el scanner por consola:
 

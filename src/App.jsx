@@ -29,6 +29,7 @@ const initialData = {
   topRanked: [],
   portfolio: [],
   closedTrades: [],
+  movements: [],
   portfolioSummary: {
     open_positions: 0,
     market_value: 0,
@@ -234,14 +235,19 @@ function PortfolioView({ data, onSelect }) {
 function HistoryView({ data }) {
   const summary = data.portfolioSummary || initialData.portfolioSummary;
   const autoClosed = data.portfolioSource.automation?.auto_closed_count || 0;
+  const autoOpened = data.portfolioSource.automation?.auto_opened_count || 0;
   return (
     <section className="page-stack">
       <div className="kpi-grid">
         <MetricCard icon={History} label="Operaciones cerradas" value={summary.closed_trades || 0} detail={`${number(summary.win_rate || 0, 1)}% win rate`} />
         <MetricCard icon={TrendingUp} label="P&L cerrado" value={money(summary.closed_pnl || 0)} detail="Con comisiones" tone={(summary.closed_pnl || 0) >= 0 ? "good" : "bad"} />
         <MetricCard icon={Activity} label="P&L total" value={money(summary.total_pnl || 0)} detail="Abierto + cerrado" tone={(summary.total_pnl || 0) >= 0 ? "good" : "bad"} />
-        <MetricCard icon={ShieldCheck} label="Auto cierres" value={autoClosed} detail={data.portfolioSource.asOf || "Fecha de cartera"} />
+        <MetricCard icon={ShieldCheck} label="Auto altas/bajas" value={`${autoOpened}/${autoClosed}`} detail={data.portfolioSource.asOf || "Fecha de cartera"} />
       </div>
+
+      <Panel title="Movimientos de cartera">
+        <MovementsTable rows={data.movements} />
+      </Panel>
 
       <Panel title="Historico de operaciones">
         <ClosedTradesTable rows={data.closedTrades} />
@@ -416,7 +422,7 @@ function PortfolioTable({ rows, onSelect }) {
         <tbody>
           {rows.map((row) => (
             <tr key={row.ticker}>
-              <td><strong>{row.ticker}</strong><span className="muted-cell">{row.auto_closed ? "Auto - " : ""}{row.name}</span></td>
+              <td><strong>{row.ticker}</strong><span className="muted-cell">{row.auto_opened ? "Auto - " : ""}{row.name}</span></td>
               <td>{row.entry_date} - {usd(row.entry)}</td>
               <td>{row.shares}</td>
               <td>{usd(row.current)}</td>
@@ -466,6 +472,43 @@ function ClosedTradesTable({ rows }) {
               <td><Badge tone={row.result === "TP" ? "buy" : "bad"}>{row.result}</Badge></td>
               <td className={row.pnl >= 0 ? "positive" : "negative"}>{money(row.pnl)} - {pct(row.pnl_pct)}</td>
               <td>{row.strategy}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function MovementsTable({ rows }) {
+  if (!rows.length) {
+    return <EmptyState icon={ClipboardList} title="Sin movimientos" detail="Todavia no hay movimientos de cartera cargados." />;
+  }
+
+  return (
+    <div className="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Tipo</th>
+            <th>Ticker</th>
+            <th>Precio</th>
+            <th>Acciones</th>
+            <th>P&L</th>
+            <th>Nota</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, index) => (
+            <tr key={`${row.date}-${row.type}-${row.ticker}-${index}`}>
+              <td>{row.date}</td>
+              <td><Badge tone={movementTone(row.type)}>{row.type}</Badge></td>
+              <td><strong>{row.ticker}</strong><span className="muted-cell">{row.name}</span></td>
+              <td>{usd(row.price)}</td>
+              <td>{row.shares}</td>
+              <td className={(row.pnl || 0) >= 0 ? "positive" : "negative"}>{row.pnl == null ? "-" : money(row.pnl)}</td>
+              <td>{row.note || "-"}</td>
             </tr>
           ))}
         </tbody>
@@ -598,6 +641,14 @@ function positionToSignal(position) {
     Motivo_Ejecucion: `Posicion abierta desde ${position.entry_date}. P&L ${money(position.pnl)} (${pct(position.pnl_pct)}).`,
     Plan_Orden: position.note || "Gestionar segun stop, take profit y tiempo maximo.",
   });
+}
+
+function movementTone(type = "") {
+  if (type.includes("BUY")) return "buy";
+  if (type.includes("STOP")) return "bad";
+  if (type.includes("TP")) return "buy";
+  if (type.includes("TIME")) return "wait";
+  return "neutral";
 }
 
 function MetricCard({ icon: Icon, label, value, detail, tone = "neutral" }) {
