@@ -11,7 +11,6 @@ import {
   Eye,
   Gauge,
   History,
-  RefreshCw,
   Settings,
   ShieldCheck,
   SlidersHorizontal,
@@ -73,11 +72,9 @@ function App() {
   const [view, setView] = useState("dashboard");
   const [data, setData] = useState(initialData);
   const [selected, setSelected] = useState(null);
-  const [loading, setLoading] = useState(false);
   const [statusMessage, setStatusMessage] = useState("Cargando datos reales");
 
   async function refreshSignals() {
-    setLoading(true);
     try {
       const response = await fetch(signalsEndpoint, {
         headers: { accept: "application/json" },
@@ -99,8 +96,6 @@ function App() {
         },
       });
       setStatusMessage("API real no disponible");
-    } finally {
-      setLoading(false);
     }
   }
 
@@ -134,10 +129,8 @@ function App() {
           })}
         </nav>
 
-        <div className="sidebar-card">
-          <span className="sidebar-label">Ticket base</span>
-          <strong>{money(data.portfolioSource.ticketSize || ticketSize)}</strong>
-          <span>{money(data.portfolioSource.commissionPerSide || commissionPerSide)} compra + venta</span>
+        <div className="sidebar-image">
+          <img src="/elissir.jpg" alt="Elissir" />
         </div>
       </aside>
 
@@ -151,10 +144,6 @@ function App() {
           </div>
           <div className="topbar-actions">
             <StatusPill tone={statusTone} label={statusMessage} />
-            <StatusPill tone="neutral" label={data.meta.universeSource || "scanner"} />
-            <button className="icon-button" onClick={refreshSignals} aria-label="Refrescar senales">
-              <RefreshCw size={18} className={loading ? "spin" : ""} />
-            </button>
           </div>
         </header>
 

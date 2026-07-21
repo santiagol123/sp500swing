@@ -109,27 +109,22 @@ button {
   color: white;
 }
 
-.sidebar-card {
-  margin-top: 26px;
-  padding: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
+.sidebar-image {
+  width: 132px;
+  margin: 26px auto 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
-.sidebar-card span,
-.sidebar-card strong {
+.sidebar-image img {
   display: block;
-}
-
-.sidebar-card strong {
-  margin: 4px 0;
-  font-size: 20px;
-}
-
-.sidebar-card span {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 12px;
+  width: 100%;
+  aspect-ratio: 132 / 184;
+  object-fit: cover;
+  object-position: center 45%;
 }
 
 .workspace {
@@ -188,16 +183,6 @@ button {
 .row-action:hover {
   border-color: #aac0d8;
   color: var(--navy);
-}
-
-.spin {
-  animation: spin 0.9s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .page-stack {
@@ -748,6 +733,11 @@ tbody tr:hover {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .sidebar-image {
+    width: 112px;
+    margin: 18px 8px 0;
+  }
+
   .workspace {
     padding: 0 16px 24px;
   }
@@ -786,6 +776,10 @@ tbody tr:hover {
   .topbar-actions {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .sidebar-image {
+    width: 96px;
   }
 
   .daily-row {
