@@ -141,6 +141,7 @@ export function mergeApiData(base, payload) {
       elapsedMs: payload.elapsed_ms,
       dashboard: payload.dashboard,
       rules: payload.rules,
+      marketRegime: payload.market_regime,
     },
   };
 }

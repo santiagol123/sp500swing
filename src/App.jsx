@@ -55,6 +55,7 @@ const initialData = {
     elapsedMs: 0,
     dashboard: {},
     rules: {},
+    marketRegime: {},
   },
 };
 
@@ -296,6 +297,7 @@ function RunView({ data }) {
           <Setting label="Descargados" value={number(data.meta.downloadedCount || 0, 0)} />
           <Setting label="Fallos" value={number(data.meta.failedCount || 0, 0)} />
           <Setting label="Duracion" value={formatMs(data.meta.elapsedMs)} />
+          <Setting label="Regimen mercado" value={data.meta.marketRegime?.state || "-"} />
           <Setting label="Modo" value={data.meta.mode} />
         </div>
       </Panel>
@@ -310,6 +312,7 @@ function RunView({ data }) {
 function SettingsView({ data }) {
   const rules = data.meta.rules || {};
   const automation = data.portfolioSource.automation || {};
+  const marketRegime = data.meta.marketRegime || {};
   return (
     <section className="page-stack">
       <Panel title="Parametros del bot">
@@ -319,6 +322,10 @@ function SettingsView({ data }) {
           <Setting label="Comision venta" value={money(data.portfolioSource.commissionPerSide || commissionPerSide)} />
           <Setting label="Max compras por dia" value={rules.max_new_buys_per_day || 3} />
           <Setting label="Max compras por sector" value={rules.max_buys_per_sector_per_day || 2} />
+          <Setting label="Max posiciones abiertas" value={rules.max_open_positions || "-"} />
+          <Setting label="Max posiciones por sector" value={rules.max_open_positions_per_sector || "-"} />
+          <Setting label="Max momentum abierto" value={rules.max_open_momentum_positions || "-"} />
+          <Setting label="Riesgo auto por trade" value={usd(automation.auto_risk_budget_per_trade || 0)} />
           <Setting label="Fuente cartera" value={data.portfolioSource.asOf || "Sin cartera"} />
           <Setting label="Auto cartera" value={automation.mode || "Sin automatizacion"} />
         </div>
@@ -327,11 +334,11 @@ function SettingsView({ data }) {
       <Panel title="Reglas operativas activas">
         <div className="rules-grid">
           <Setting label="Entrada" value="Solo limitada dentro de zona" />
-          <Setting label="Tamano" value={`Acciones enteras sobre ticket de ${money(data.portfolioSource.ticketSize || ticketSize)}`} />
+          <Setting label="Tamano" value="Ticket maximo y presupuesto de riesgo automatico" />
           <Setting label="Stop" value="No ampliar stop tras entrar" />
           <Setting label="Salida" value="TP, stop o tiempo maximo" />
-          <Setting label="Filtro" value="Evitar RSI extremo y MACD deteriorado" />
-          <Setting label="Nota" value={rules.note || "No comprar a mercado"} />
+          <Setting label="Filtro mercado" value={marketRegime.reason || "SPY/QQQ controlan compras nuevas"} />
+          <Setting label="Filtro senal" value={`RR core ${number(rules.min_core_rr || 0, 2)} / momentum ${number(rules.min_momentum_rr || 0, 2)}`} />
         </div>
       </Panel>
     </section>
