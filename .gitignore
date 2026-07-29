@@ -5,3 +5,5 @@ dist/
 .vite-real.*
 npm-debug.log*
 signals.local.json
+
+.vercel
