@@ -1,0 +1,1084 @@
+{
+  "computed_at": "2026-07-31T22:49:12.714Z",
+  "market_date": "2026-07-31",
+  "signals": [
+    {
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-01, demasiado antiguo (60 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 18.53,
+      "entry_zone_low": 18.25205,
+      "entry_zone_high": 18.9006,
+      "invalid_below_price": 17.084559662651905,
+      "target_price": 21.420880674696193,
+      "risk_reward_ratio": 2.0000000000000004,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 80,
+      "meta": {
+        "insider_count": 7,
+        "buy_count": 7,
+        "total_value_usd": 29163646,
+        "first_buy": "2026-05-07",
+        "last_buy": "2026-06-01",
+        "stale_days": 60,
+        "insiders": [
+          {
+            "name": "PAGLIUCA STEPHEN G",
+            "title": "Director",
+            "shares": 1380000,
+            "value_usd": 24992300,
+            "date": "2026-06-01"
+          },
+          {
+            "name": "CHIDSEY JOHN",
+            "title": "President and CEO",
+            "shares": 153000,
+            "value_usd": 2504610,
+            "date": "2026-05-22"
+          },
+          {
+            "name": "COHEN JONATHAN Z",
+            "title": "Director",
+            "shares": 30000,
+            "value_usd": 474900,
+            "date": "2026-05-20"
+          },
+          {
+            "name": "Cil Jose E.",
+            "title": "Director",
+            "shares": 15000,
+            "value_usd": 225350,
+            "date": "2026-05-18"
+          },
+          {
+            "name": "MacDonald Brian P",
+            "title": "Director",
+            "shares": 15000,
+            "value_usd": 248100,
+            "date": "2026-05-11"
+          },
+          {
+            "name": "Lansberry Kevin Allen",
+            "title": "Director",
+            "shares": 11400,
+            "value_usd": 196992,
+            "date": "2026-05-07"
+          },
+          {
+            "name": "Byng-Thorne Zillah",
+            "title": "Director",
+            "shares": 29467,
+            "value_usd": 521394,
+            "date": "2026-05-07"
+          }
+        ],
+        "rsi14": 42.78886814856891,
+        "volatility_20d": 0.5628625326405878
+      }
+    },
+    {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-17, demasiado antiguo (44 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 53.94,
+      "entry_zone_low": 53.1309,
+      "entry_zone_high": 55.0188,
+      "invalid_below_price": 50.703599999999994,
+      "target_price": 60.412800000000004,
+      "risk_reward_ratio": 1.9999999999999998,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 78.8,
+      "meta": {
+        "insider_count": 6,
+        "buy_count": 6,
+        "total_value_usd": 1723401,
+        "first_buy": "2026-06-16",
+        "last_buy": "2026-06-17",
+        "stale_days": 44,
+        "insiders": [
+          {
+            "name": "Todd Paul M",
+            "title": "Chief Financial Officer",
+            "shares": 10060,
+            "value_usd": 499982,
+            "date": "2026-06-17"
+          },
+          {
+            "name": "Mamilli Wafaa",
+            "title": "Director",
+            "shares": 2960,
+            "value_usd": 149746,
+            "date": "2026-06-17"
+          },
+          {
+            "name": "Rosman Adam L.",
+            "title": "Chief Admin. and Legal Officer",
+            "shares": 10150,
+            "value_usd": 500700,
+            "date": "2026-06-16"
+          },
+          {
+            "name": "Yarkoni Charlotte",
+            "title": "Director",
+            "shares": 2023,
+            "value_usd": 100118,
+            "date": "2026-06-16"
+          },
+          {
+            "name": "DiSimone Harry",
+            "title": "Director",
+            "shares": 2088,
+            "value_usd": 101080,
+            "date": "2026-06-16"
+          },
+          {
+            "name": "Nixon Gordon M.",
+            "title": "Director",
+            "shares": 7500,
+            "value_usd": 371775,
+            "date": "2026-06-16"
+          }
+        ],
+        "rsi14": 56.70149986889257,
+        "volatility_20d": 0.3722471338543455
+      }
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-23, demasiado antiguo (38 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 234.2,
+      "entry_zone_low": 230.68699999999998,
+      "entry_zone_high": 238.884,
+      "invalid_below_price": 218.39314313250594,
+      "target_price": 265.8137137349881,
+      "risk_reward_ratio": 1.9999999999999984,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 70,
+      "meta": {
+        "insider_count": 4,
+        "buy_count": 4,
+        "total_value_usd": 2165173,
+        "first_buy": "2026-05-29",
+        "last_buy": "2026-06-23",
+        "stale_days": 38,
+        "insiders": [
+          {
+            "name": "CAHILL JOHN T",
+            "title": "Director",
+            "shares": 2000,
+            "value_usd": 378400,
+            "date": "2026-06-23"
+          },
+          {
+            "name": "Anagnost Andrew",
+            "title": "President and CEO",
+            "shares": 2460,
+            "value_usd": 498544,
+            "date": "2026-06-16"
+          },
+          {
+            "name": "Moorjani Janesh",
+            "title": "EVP, Chief Financial Officer",
+            "shares": 2500,
+            "value_usd": 494175,
+            "date": "2026-06-15"
+          },
+          {
+            "name": "Smith Stacy J",
+            "title": "Director",
+            "shares": 3435,
+            "value_usd": 794054,
+            "date": "2026-05-29"
+          }
+        ],
+        "rsi14": 61.204476341336836,
+        "volatility_20d": 0.4870081392863454
+      }
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-22, demasiado antiguo (70 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 68.02,
+      "entry_zone_low": 66.99969999999999,
+      "entry_zone_high": 69.3804,
+      "invalid_below_price": 62.42059337627885,
+      "target_price": 79.21881324744228,
+      "risk_reward_ratio": 1.999999999999999,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 70,
+      "meta": {
+        "insider_count": 5,
+        "buy_count": 5,
+        "total_value_usd": 5866936,
+        "first_buy": "2026-05-06",
+        "last_buy": "2026-05-22",
+        "stale_days": 70,
+        "insiders": [
+          {
+            "name": "Lobo Kevin",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 641800,
+            "date": "2026-05-22"
+          },
+          {
+            "name": "Hochman Rodney F",
+            "title": "Director",
+            "shares": 1618,
+            "value_usd": 100365,
+            "date": "2026-05-12"
+          },
+          {
+            "name": "Yang Watkin Phoebe L.",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 63006,
+            "date": "2026-05-08"
+          },
+          {
+            "name": "CULP H LAWRENCE JR",
+            "title": "Director",
+            "shares": 80805,
+            "value_usd": 5000076,
+            "date": "2026-05-06"
+          },
+          {
+            "name": "Stromberg William J",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 61689,
+            "date": "2026-05-06"
+          }
+        ],
+        "rsi14": 57.851313449649545,
+        "volatility_20d": 0.5939952453513926
+      }
+    },
+    {
+      "ticker": "TKO",
+      "name": "TKO Group Holdings",
+      "sector": "Communication Services",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-14, demasiado antiguo (78 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 181.81,
+      "entry_zone_low": 179.08285,
+      "entry_zone_high": 185.4462,
+      "invalid_below_price": 170.9014,
+      "target_price": 203.62720000000002,
+      "risk_reward_ratio": 2.0000000000000004,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 70,
+      "meta": {
+        "insider_count": 4,
+        "buy_count": 4,
+        "total_value_usd": 5487494,
+        "first_buy": "2026-05-13",
+        "last_buy": "2026-05-14",
+        "stale_days": 78,
+        "insiders": [
+          {
+            "name": "KRAFT JONATHAN",
+            "title": "Director",
+            "shares": 5200,
+            "value_usd": 987797,
+            "date": "2026-05-14"
+          },
+          {
+            "name": "Emanuel Ariel",
+            "title": "Chief Executive Officer",
+            "shares": 10805,
+            "value_usd": 1999875,
+            "date": "2026-05-13"
+          },
+          {
+            "name": "SHAPIRO MARK S",
+            "title": "See Remarks",
+            "shares": 10807,
+            "value_usd": 1999868,
+            "date": "2026-05-13"
+          },
+          {
+            "name": "Schleimer Andrew M",
+            "title": "Chief Financial Officer",
+            "shares": 2696,
+            "value_usd": 499953,
+            "date": "2026-05-13"
+          }
+        ],
+        "rsi14": 40.79875153572313,
+        "volatility_20d": 0.20435233610959588
+      }
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "sector": "Real Estate",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (31 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 229.37,
+      "entry_zone_low": 225.92945,
+      "entry_zone_high": 233.9574,
+      "invalid_below_price": 215.6078,
+      "target_price": 256.8944,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 59.2,
+      "meta": {
+        "insider_count": 11,
+        "buy_count": 11,
+        "total_value_usd": 533051,
+        "first_buy": "2026-06-30",
+        "last_buy": "2026-06-30",
+        "stale_days": 31,
+        "insiders": [
+          {
+            "name": "SELIG STEFAN M",
+            "title": "Director",
+            "shares": 220,
+            "value_usd": 49120,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "Roe Peggy",
+            "title": "Director",
+            "shares": 89,
+            "value_usd": 19861,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "LEIBOWITZ REUBEN S",
+            "title": "Director",
+            "shares": 508,
+            "value_usd": 113475,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "GLASSCOCK LARRY C",
+            "title": "Director",
+            "shares": 397,
+            "value_usd": 88682,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "Cicco Martin J",
+            "title": "Director",
+            "shares": 15,
+            "value_usd": 3348,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "STEWART MARTA R",
+            "title": "Director",
+            "shares": 182,
+            "value_usd": 40614,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "Smith Daniel C.",
+            "title": "Director",
+            "shares": 372,
+            "value_usd": 83070,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "RODKIN GARY M",
+            "title": "Director",
+            "shares": 256,
+            "value_usd": 57175,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "LEWIS RANDALL J",
+            "title": "Director",
+            "shares": 62,
+            "value_usd": 13836,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "Jones Nina P",
+            "title": "Director",
+            "shares": 43,
+            "value_usd": 9596,
+            "date": "2026-06-30"
+          },
+          {
+            "name": "Aeppel Glyn",
+            "title": "Director",
+            "shares": 243,
+            "value_usd": 54275,
+            "date": "2026-06-30"
+          }
+        ],
+        "rsi14": 56.888851231126765,
+        "volatility_20d": 0.227077560801754
+      }
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab",
+      "sector": "Materials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-11, demasiado antiguo (50 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 277.63,
+      "entry_zone_low": 273.46555,
+      "entry_zone_high": 283.1826,
+      "invalid_below_price": 260.9722,
+      "target_price": 310.9456,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 50,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 2513981,
+        "first_buy": "2026-05-13",
+        "last_buy": "2026-06-11",
+        "stale_days": 50,
+        "insiders": [
+          {
+            "name": "Clark Benjamin M.",
+            "title": "EVP - Global Supply Chain",
+            "shares": 1000,
+            "value_usd": 263831,
+            "date": "2026-06-11"
+          },
+          {
+            "name": "Doukeris Michel D",
+            "title": "Director",
+            "shares": 7750,
+            "value_usd": 1999500,
+            "date": "2026-06-10"
+          },
+          {
+            "name": "MacLennan David",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 250650,
+            "date": "2026-05-13"
+          }
+        ],
+        "rsi14": 55.09973941460141,
+        "volatility_20d": 0.2609335726122857
+      }
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 1,368,280 USD entre 2026-07-17 y 2026-07-17",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 375.84,
+      "entry_zone_low": 370.20239999999995,
+      "entry_zone_high": 383.35679999999996,
+      "invalid_below_price": 353.28959999999995,
+      "target_price": 420.9408,
+      "risk_reward_ratio": 1.9999999999999996,
+      "size_pct": 0.07,
+      "authorized": true,
+      "opt_score": 48.2,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1368280,
+        "first_buy": "2026-07-17",
+        "last_buy": "2026-07-17",
+        "stale_days": 14,
+        "insiders": [
+          {
+            "name": "PERU RAMIRO G",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 366050,
+            "date": "2026-07-17"
+          },
+          {
+            "name": "BOUDREAUX GAIL",
+            "title": "President and CEO",
+            "shares": 2725,
+            "value_usd": 1002230,
+            "date": "2026-07-17"
+          }
+        ],
+        "rsi14": 42.140556183823946,
+        "volatility_20d": 0.4312790362029411
+      }
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-01, demasiado antiguo (91 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 411.93,
+      "entry_zone_low": 405.75105,
+      "entry_zone_high": 420.1686,
+      "invalid_below_price": 387.2142,
+      "target_price": 461.36160000000007,
+      "risk_reward_ratio": 2.0000000000000018,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 48.1,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1578476,
+        "first_buy": "2026-04-30",
+        "last_buy": "2026-05-01",
+        "stale_days": 91,
+        "insiders": [
+          {
+            "name": "Clay Catherine R",
+            "title": "CEO, S&amp;P Dow Jones Indices",
+            "shares": 2500,
+            "value_usd": 1078475,
+            "date": "2026-05-01"
+          },
+          {
+            "name": "Moritz Robert Edward Jr.",
+            "title": "Director",
+            "shares": 1151.996,
+            "value_usd": 500001,
+            "date": "2026-04-30"
+          }
+        ],
+        "rsi14": 44.44713436823928,
+        "volatility_20d": 0.31018645122508165
+      }
+    },
+    {
+      "ticker": "WTW",
+      "name": "Willis Towers Watson",
+      "sector": "Financials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-06, demasiado antiguo (86 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 335.92,
+      "entry_zone_low": 330.88120000000004,
+      "entry_zone_high": 342.63840000000005,
+      "invalid_below_price": 315.7648,
+      "target_price": 376.23040000000003,
+      "risk_reward_ratio": 1.9999999999999984,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 44.4,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1009500,
+        "first_buy": "2026-05-04",
+        "last_buy": "2026-05-06",
+        "stale_days": 86,
+        "insiders": [
+          {
+            "name": "Clarke Lucy",
+            "title": "President of Risk &amp; Broking",
+            "shares": 1896,
+            "value_usd": 499340,
+            "date": "2026-05-06"
+          },
+          {
+            "name": "Hess Carl Aaron",
+            "title": "Chief Executive Officer",
+            "shares": 2000,
+            "value_usd": 510160,
+            "date": "2026-05-04"
+          }
+        ],
+        "rsi14": 80.1007709846703,
+        "volatility_20d": 0.3462448398216946
+      }
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-13, demasiado antiguo (79 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 77.29,
+      "entry_zone_low": 76.13065,
+      "entry_zone_high": 78.8358,
+      "invalid_below_price": 72.6526,
+      "target_price": 86.56480000000002,
+      "risk_reward_ratio": 2.000000000000002,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 43.4,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 886367,
+        "first_buy": "2026-05-11",
+        "last_buy": "2026-05-13",
+        "stale_days": 79,
+        "insiders": [
+          {
+            "name": "DAMELIO FRANK A",
+            "title": "Director",
+            "shares": 6650,
+            "value_usd": 501344,
+            "date": "2026-05-13"
+          },
+          {
+            "name": "Bisaro Paul",
+            "title": "Director",
+            "shares": 2000,
+            "value_usd": 151750,
+            "date": "2026-05-13"
+          },
+          {
+            "name": "MCCALLISTER MICHAEL B",
+            "title": "Director",
+            "shares": 3000,
+            "value_usd": 233273,
+            "date": "2026-05-11"
+          }
+        ],
+        "rsi14": 52.858972785581045,
+        "volatility_20d": 0.22103875532117556
+      }
+    },
+    {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-27, demasiado antiguo (65 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 147.81,
+      "entry_zone_low": 145.59285,
+      "entry_zone_high": 150.7662,
+      "invalid_below_price": 138.9414,
+      "target_price": 165.54720000000003,
+      "risk_reward_ratio": 1.9999999999999984,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 40,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 2505138,
+        "first_buy": "2026-05-18",
+        "last_buy": "2026-05-27",
+        "stale_days": 65,
+        "insiders": [
+          {
+            "name": "NELMS DAVID W",
+            "title": "Director",
+            "shares": 18000,
+            "value_usd": 2005740,
+            "date": "2026-05-27"
+          },
+          {
+            "name": "LEAHY CHRISTINE A",
+            "title": "See Remarks",
+            "shares": 4830,
+            "value_usd": 499398,
+            "date": "2026-05-18"
+          }
+        ],
+        "rsi14": 64.17413568689508,
+        "volatility_20d": 0.4209895008598061
+      }
+    },
+    {
+      "ticker": "COR",
+      "name": "Cencora",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-22, demasiado antiguo (39 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 311.34,
+      "entry_zone_low": 306.6699,
+      "entry_zone_high": 317.5668,
+      "invalid_below_price": 292.65959999999995,
+      "target_price": 348.7008,
+      "risk_reward_ratio": 1.9999999999999996,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 40,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 3,
+        "total_value_usd": 2310427,
+        "first_buy": "2026-05-28",
+        "last_buy": "2026-06-22",
+        "stale_days": 39,
+        "insiders": [
+          {
+            "name": "Tyler Lauren M",
+            "title": "Director",
+            "shares": 550,
+            "value_usd": 148627,
+            "date": "2026-06-22"
+          },
+          {
+            "name": "DURCAN DERMOT MARK",
+            "title": "Director",
+            "shares": 4000,
+            "value_usd": 1065040,
+            "date": "2026-05-28"
+          }
+        ],
+        "rsi14": 59.2357776403097,
+        "volatility_20d": 0.25965585109881756
+      }
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-20, demasiado antiguo (72 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 46.73,
+      "entry_zone_low": 46.02905,
+      "entry_zone_high": 47.6646,
+      "invalid_below_price": 43.926199999999994,
+      "target_price": 52.3376,
+      "risk_reward_ratio": 1.9999999999999998,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 39.6,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 554000,
+        "first_buy": "2026-05-19",
+        "last_buy": "2026-05-20",
+        "stale_days": 72,
+        "insiders": [
+          {
+            "name": "Pegus Cheryl",
+            "title": "Director",
+            "shares": 1770,
+            "value_usd": 99987,
+            "date": "2026-05-20"
+          },
+          {
+            "name": "LUDWIG EDWARD J",
+            "title": "Director",
+            "shares": 3580,
+            "value_usd": 202914,
+            "date": "2026-05-20"
+          },
+          {
+            "name": "Habiger David C",
+            "title": "Director",
+            "shares": 4450,
+            "value_usd": 251098,
+            "date": "2026-05-19"
+          }
+        ],
+        "rsi14": 58.19614262286654,
+        "volatility_20d": 0.2827628735526573
+      }
+    },
+    {
+      "ticker": "J",
+      "name": "Jacobs Solutions",
+      "sector": "Industrials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-15, demasiado antiguo (77 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 134.93,
+      "entry_zone_low": 132.90605,
+      "entry_zone_high": 137.6286,
+      "invalid_below_price": 126.8342,
+      "target_price": 151.12160000000003,
+      "risk_reward_ratio": 1.9999999999999991,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 38.4,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 3,
+        "total_value_usd": 477650,
+        "first_buy": "2026-05-08",
+        "last_buy": "2026-05-15",
+        "stale_days": 77,
+        "insiders": [
+          {
+            "name": "PRAGADA ROBERT V",
+            "title": "Chair &amp; CEO",
+            "shares": 3601,
+            "value_usd": 400035,
+            "date": "2026-05-15"
+          },
+          {
+            "name": "Fernandez Manuel J",
+            "title": "Director",
+            "shares": 403,
+            "value_usd": 49137,
+            "date": "2026-05-08"
+          }
+        ],
+        "rsi14": 58.274256828181706,
+        "volatility_20d": 0.28774965779168915
+      }
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy",
+      "sector": "Energy",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-12, demasiado antiguo (49 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 94.03,
+      "entry_zone_low": 92.61955,
+      "entry_zone_high": 95.9106,
+      "invalid_below_price": 88.3882,
+      "target_price": 105.31360000000001,
+      "risk_reward_ratio": 2.0000000000000004,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 36.2,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 3,
+        "total_value_usd": 368020,
+        "first_buy": "2026-06-04",
+        "last_buy": "2026-06-12",
+        "stale_days": 49,
+        "insiders": [
+          {
+            "name": "Wichterich Michael",
+            "title": "Interim President and CEO",
+            "shares": 1000,
+            "value_usd": 93360,
+            "date": "2026-06-04"
+          },
+          {
+            "name": "Teunissen Marcel",
+            "title": "EVP &amp; CFO",
+            "shares": 2000,
+            "value_usd": 185760,
+            "date": "2026-06-04"
+          }
+        ],
+        "rsi14": 60.57440412512867,
+        "volatility_20d": 0.31362747474366165
+      }
+    },
+    {
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-06, demasiado antiguo (86 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 51.45,
+      "entry_zone_low": 50.678250000000006,
+      "entry_zone_high": 52.479000000000006,
+      "invalid_below_price": 48.363,
+      "target_price": 57.62400000000001,
+      "risk_reward_ratio": 1.9999999999999998,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 36,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 4,
+        "total_value_usd": 1221674,
+        "first_buy": "2026-04-30",
+        "last_buy": "2026-05-06",
+        "stale_days": 86,
+        "insiders": [
+          {
+            "name": "MARCUS JOEL S",
+            "title": "Executive Chairman",
+            "shares": 10000,
+            "value_usd": 410200,
+            "date": "2026-05-04"
+          },
+          {
+            "name": "Thomas Gregory Calvin",
+            "title": "EVP - CTO",
+            "shares": 3500,
+            "value_usd": 143500,
+            "date": "2026-04-30"
+          }
+        ],
+        "rsi14": 52.672521174256595,
+        "volatility_20d": 0.3630692193565858
+      }
+    },
+    {
+      "ticker": "JKHY",
+      "name": "Jack Henry & Associates",
+      "sector": "Financials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-14, demasiado antiguo (78 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 154.04,
+      "entry_zone_low": 151.7294,
+      "entry_zone_high": 157.1208,
+      "invalid_below_price": 144.7976,
+      "target_price": 172.5248,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 35,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 317135,
+        "first_buy": "2026-05-14",
+        "last_buy": "2026-05-14",
+        "stale_days": 78,
+        "insiders": [
+          {
+            "name": "Adelson Gregory R.",
+            "title": "President &amp; CEO",
+            "shares": 2000,
+            "value_usd": 266840,
+            "date": "2026-05-14"
+          },
+          {
+            "name": "Carsley Mimi",
+            "title": "CFO and Treasurer",
+            "shares": 375,
+            "value_usd": 50295,
+            "date": "2026-05-14"
+          }
+        ],
+        "rsi14": 58.25399051490286,
+        "volatility_20d": 0.3390780804152413
+      }
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-03, demasiado antiguo (58 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 165.35,
+      "entry_zone_low": 162.86974999999998,
+      "entry_zone_high": 168.657,
+      "invalid_below_price": 155.42899999999997,
+      "target_price": 185.192,
+      "risk_reward_ratio": 1.9999999999999976,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 33.5,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 897883,
+        "first_buy": "2026-06-03",
+        "last_buy": "2026-06-03",
+        "stale_days": 58,
+        "insiders": [
+          {
+            "name": "STONESIFER TIMOTHY C.",
+            "title": "Director",
+            "shares": 2790,
+            "value_usd": 400393,
+            "date": "2026-06-03"
+          },
+          {
+            "name": "WEATHERMAN ELIZABETH H",
+            "title": "Director",
+            "shares": 3450,
+            "value_usd": 497490,
+            "date": "2026-06-03"
+          }
+        ],
+        "rsi14": 54.937184331015445,
+        "volatility_20d": 0.3175581450866667
+      }
+    }
+  ],
+  "watch": [],
+  "diagnostics": {
+    "universe_source": "wikipedia",
+    "universe_count": 503,
+    "elapsed_ms": 1007506,
+    "companies_with_buys": 71,
+    "clusters_found": 19,
+    "signals_fresh": 1,
+    "portfolio_entry_count": 1,
+    "price_download_failed": 0,
+    "filings_seen": 8248,
+    "filings_fetched": 7515,
+    "missing_cik": 0,
+    "scanned": 503
+  },
+  "extra": {
+    "rules": {
+      "lookback_days": 90,
+      "cluster_window_days": 30,
+      "min_cluster_insiders": 2,
+      "min_cluster_value_usd": 50000,
+      "signal_fresh_days": 15,
+      "max_new_buys_per_day": 3,
+      "max_buys_per_sector_per_day": 2,
+      "note": "Solo compras en mercado abierto (codigo P) de directivos o consejeros."
+    }
+  }
+}
