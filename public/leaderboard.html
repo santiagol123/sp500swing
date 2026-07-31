@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ranking de estrategias</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #617083;
+        --line: #d9e2ec;
+        --panel: #f7fafc;
+        --blue: #17365d;
+        --green: #19734a;
+        --amber: #9a6400;
+        --red: #a12626;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--ink);
+        background: #ffffff;
+      }
+      header {
+        padding: 18px 22px;
+        background: var(--blue);
+        color: white;
+      }
+      h1 {
+        margin: 0;
+        font-size: 22px;
+      }
+      header nav {
+        margin-top: 10px;
+        display: flex;
+        gap: 16px;
+        font-size: 14px;
+      }
+      header nav a {
+        color: #cfe0f0;
+        text-decoration: none;
+      }
+      header nav a.active {
+        color: white;
+        font-weight: 700;
+        text-decoration: underline;
+      }
+      main {
+        padding: 18px 22px 36px;
+      }
+      h2 {
+        margin: 26px 0 10px;
+        font-size: 17px;
+      }
+      .verdict {
+        border-left: 4px solid var(--blue);
+        background: var(--panel);
+        padding: 14px 16px;
+        margin-bottom: 8px;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+      .verdict.empty {
+        border-left-color: var(--amber);
+        background: #fffaef;
+      }
+      .method {
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.55;
+        max-width: 900px;
+        margin-bottom: 18px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 14px;
+        margin-bottom: 10px;
+      }
+      .card {
+        border: 1px solid var(--line);
+        padding: 16px;
+        background: var(--panel);
+      }
+      .card.leader {
+        border-color: var(--green);
+        border-width: 2px;
+      }
+      .card h3 {
+        margin: 0 0 2px;
+        font-size: 16px;
+      }
+      .card .rank {
+        font-size: 12px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .big {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 10px 0 2px;
+      }
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 14px;
+        margin-top: 12px;
+        font-size: 13px;
+      }
+      .grid2 div {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 3px;
+      }
+      .grid2 span:first-child {
+        color: var(--muted);
+      }
+      .pos {
+        color: var(--green);
+      }
+      .neg {
+        color: var(--red);
+      }
+      .badge {
+        display: inline-block;
+        font-size: 11px;
+        padding: 3px 8px;
+        margin-top: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .badge.insuficiente {
+        background: #fdecea;
+        color: var(--red);
+      }
+      .badge.baja {
+        background: #fff4dd;
+        color: var(--amber);
+      }
+      .badge.media {
+        background: #e7f1fb;
+        color: var(--blue);
+      }
+      .badge.alta {
+        background: #e3f4ec;
+        color: var(--green);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 13px;
+      }
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 7px 8px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      th {
+        background: #e9f1f8;
+        color: #102a43;
+      }
+      .scroll {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+      }
+      .error {
+        border: 1px solid #f2c0c0;
+        background: #fff5f5;
+        color: var(--red);
+        padding: 12px;
+      }
+      .chart {
+        border: 1px solid var(--line);
+        padding: 12px;
+        overflow-x: auto;
+      }
+      .legend {
+        display: flex;
+        gap: 18px;
+        font-size: 13px;
+        margin-top: 8px;
+        flex-wrap: wrap;
+      }
+      .legend i {
+        display: inline-block;
+        width: 12px;
+        height: 3px;
+        vertical-align: middle;
+        margin-right: 6px;
+      }
+      .note {
+        color: var(--muted);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ranking de estrategias</h1>
+      <nav>
+        <a href="/">Senales</a>
+        <a href="/leaderboard.html" class="active">Ranking de estrategias</a>
+      </nav>
+    </header>
+    <main>
+      <div id="error"></div>
+      <div id="verdict"></div>
+      <p class="method" id="method"></p>
+
+      <section class="cards" id="cards"></section>
+
+      <h2>Curva de capital</h2>
+      <div class="chart" id="chart"></div>
+      <div class="legend" id="legend"></div>
+
+      <h2>Comparativa detallada</h2>
+      <div class="scroll"><table id="table"></table></div>
+
+      <h2>Ultimas operaciones cerradas</h2>
+      <div class="scroll"><table id="trades"></table></div>
+      <p class="note" id="stamp"></p>
+    </main>
+
+    <script>
+      const fmt = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 2 });
+      const pct = new Intl.NumberFormat("es-ES", { style: "percent", maximumFractionDigits: 2 });
+      const COLORS = ["#17365d", "#19734a", "#9a6400", "#a12626"];
+
+      const n = (v) => (Number.isFinite(Number(v)) ? fmt.format(Number(v)) : "-");
+      const p = (v) => (Number.isFinite(Number(v)) ? pct.format(Number(v)) : "-");
+      const esc = (v) =>
+        String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+      const sign = (v) => (Number(v) >= 0 ? "pos" : "neg");
+
+      function renderCards(data) {
+        document.getElementById("cards").innerHTML = data.ranking
+          .map((m) => {
+            const isLeader = m.workspace === data.leader && m.closed_trades > 0;
+            return `<div class="card ${isLeader ? "leader" : ""}">
+              <div class="rank">#${m.rank}${isLeader ? " · lider" : ""}</div>
+              <h3>${esc(m.label)}</h3>
+              <div class="big ${sign(m.total_return_pct)}">${p(m.total_return_pct)}</div>
+              <div class="note">${n(m.equity)} $ sobre ${n(m.initial_equity)} $</div>
+              <div class="grid2">
+                <div><span>Operaciones</span><span>${m.closed_trades}</span></div>
+                <div><span>Abiertas</span><span>${m.open_positions}</span></div>
+                <div><span>Acierto</span><span>${m.win_rate == null ? "-" : p(m.win_rate)}</span></div>
+                <div><span>R medio</span><span>${m.avg_r == null ? "-" : n(m.avg_r)}</span></div>
+                <div><span>Profit factor</span><span>${m.profit_factor == null ? "-" : n(m.profit_factor)}</span></div>
+                <div><span>Max drawdown</span><span class="neg">${p(m.max_drawdown_pct)}</span></div>
+                <div><span>Dias medios</span><span>${m.avg_hold_days == null ? "-" : n(m.avg_hold_days)}</span></div>
+                <div><span>Por operacion</span><span class="${sign(m.expectancy)}">${m.expectancy == null ? "-" : n(m.expectancy) + " $"}</span></div>
+              </div>
+              <div class="badge ${esc(m.confidence)}">Fiabilidad: ${esc(m.confidence)}</div>
+              <div class="note" style="margin-top:6px">${esc(m.confidence_note)}</div>
+            </div>`;
+          })
+          .join("");
+      }
+
+      // Curva de capital normalizada a base 100 para poder comparar.
+      function renderChart(curves) {
+        const series = (curves || []).filter((c) => c.points && c.points.length > 1);
+        const box = document.getElementById("chart");
+        const legend = document.getElementById("legend");
+
+        if (!series.length) {
+          box.innerHTML = `<p class="note">Todavia no hay suficientes dias registrados para dibujar una curva. El tracker necesita al menos dos sesiones.</p>`;
+          legend.innerHTML = "";
+          return;
+        }
+
+        const W = 900;
+        const H = 280;
+        const PAD = 40;
+        const dates = [...new Set(series.flatMap((s) => s.points.map((p) => p.date)))].sort();
+        const xFor = (date) => PAD + (dates.indexOf(date) / Math.max(1, dates.length - 1)) * (W - PAD * 2);
+
+        const normalized = series.map((s) => {
+          const base = s.points[0].equity || 1;
+          return { ...s, points: s.points.map((p) => ({ ...p, value: (p.equity / base) * 100 })) };
+        });
+
+        const values = normalized.flatMap((s) => s.points.map((p) => p.value));
+        const min = Math.min(100, ...values);
+        const max = Math.max(100, ...values);
+        const span = max - min || 1;
+        const yFor = (v) => H - PAD - ((v - min) / span) * (H - PAD * 2);
+
+        const paths = normalized
+          .map(
+            (s, i) =>
+              `<path fill="none" stroke="${COLORS[i % COLORS.length]}" stroke-width="2" d="${s.points
+                .map((p, j) => `${j === 0 ? "M" : "L"}${xFor(p.date).toFixed(1)},${yFor(p.value).toFixed(1)}`)
+                .join(" ")}" />`,
+          )
+          .join("");
+
+        box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" style="min-width:600px" role="img" aria-label="Curva de capital comparada">
+          <line x1="${PAD}" y1="${yFor(100).toFixed(1)}" x2="${W - PAD}" y2="${yFor(100).toFixed(1)}" stroke="#c3ced9" stroke-dasharray="4 4" />
+          <text x="${PAD}" y="${(yFor(100) - 6).toFixed(1)}" font-size="11" fill="#617083">base 100</text>
+          <text x="${PAD}" y="${H - 12}" font-size="11" fill="#617083">${esc(dates[0])}</text>
+          <text x="${W - PAD}" y="${H - 12}" font-size="11" fill="#617083" text-anchor="end">${esc(dates[dates.length - 1])}</text>
+          ${paths}
+        </svg>`;
+
+        legend.innerHTML = normalized
+          .map((s, i) => `<span><i style="background:${COLORS[i % COLORS.length]}"></i>${esc(s.label)}</span>`)
+          .join("");
+      }
+
+      function renderTable(ranking) {
+        const headers = ["#", "Estrategia", "Rentabilidad", "Capital", "Ops", "Acierto", "R medio", "Profit factor", "Max DD", "Dias medios", "Fiabilidad"];
+        const body = ranking
+          .map(
+            (m) => `<tr>
+              <td>${m.rank}</td>
+              <td><b>${esc(m.label)}</b></td>
+              <td class="${sign(m.total_return_pct)}">${p(m.total_return_pct)}</td>
+              <td>${n(m.equity)} $</td>
+              <td>${m.closed_trades}</td>
+              <td>${m.win_rate == null ? "-" : p(m.win_rate)}</td>
+              <td>${m.avg_r == null ? "-" : n(m.avg_r)}</td>
+              <td>${m.profit_factor == null ? "-" : n(m.profit_factor)}</td>
+              <td class="neg">${p(m.max_drawdown_pct)}</td>
+              <td>${m.avg_hold_days == null ? "-" : n(m.avg_hold_days)}</td>
+              <td>${esc(m.confidence)}</td>
+            </tr>`,
+          )
+          .join("");
+        document.getElementById("table").innerHTML =
+          `<thead><tr>${headers.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${body}</tbody>`;
+      }
+
+      function renderTrades(trades) {
+        const table = document.getElementById("trades");
+        if (!trades || !trades.length) {
+          table.innerHTML = "<tbody><tr><td>Todavia no se ha cerrado ninguna operacion</td></tr></tbody>";
+          return;
+        }
+        const headers = ["Estrategia", "Ticker", "Entrada", "Salida", "Motivo", "P/L", "P/L %", "R", "Dias"];
+        const body = trades
+          .map(
+            (t) => `<tr>
+              <td>${esc(t.workspace_label)}</td>
+              <td><b>${esc(t.ticker)}</b></td>
+              <td>${esc(t.entry_date)}</td>
+              <td>${esc(t.exit_date)}</td>
+              <td>${esc(t.exit_reason)}</td>
+              <td class="${sign(t.pnl)}">${n(t.pnl)} $</td>
+              <td class="${sign(t.pnl_pct)}">${p(t.pnl_pct)}</td>
+              <td class="${sign(t.r_multiple)}">${t.r_multiple == null ? "-" : n(t.r_multiple)}</td>
+              <td>${t.hold_days}</td>
+            </tr>`,
+          )
+          .join("");
+        table.innerHTML = `<thead><tr>${headers.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${body}</tbody>`;
+      }
+
+      async function load() {
+        try {
+          const response = await fetch("/api/leaderboard", { cache: "no-store" });
+          const data = await response.json();
+          if (!response.ok || !data.ok) throw new Error(data.error || `HTTP ${response.status}`);
+
+          const empty = !data.total_closed_trades;
+          document.getElementById("verdict").innerHTML =
+            `<div class="verdict ${empty ? "empty" : ""}">${esc(data.verdict)}</div>`;
+          document.getElementById("method").textContent = `${data.method.note} ${data.method.shared_rules}`;
+
+          renderCards(data);
+          renderChart(data.equity_curves);
+          renderTable(data.ranking);
+          renderTrades(data.recent_trades);
+
+          document.getElementById("stamp").textContent =
+            `${data.tracked_days} dias registrados · ${data.total_closed_trades} operaciones cerradas · actualizado ${new Date(data.generated_at).toLocaleString("es-ES")}`;
+        } catch (error) {
+          document.getElementById("error").innerHTML = `<div class="error">${esc(error.message)}</div>`;
+        }
+      }
+
+      load();
+    </script>
+  </body>
+</html>

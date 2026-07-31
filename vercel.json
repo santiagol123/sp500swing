@@ -12,7 +12,12 @@
   ],
   "functions": {
     "api/signals.js": {
-      "maxDuration": 60
+      "maxDuration": 60,
+      "includeFiles": "data/**"
+    },
+    "api/leaderboard.js": {
+      "maxDuration": 15,
+      "includeFiles": "data/**"
     }
   }
 }

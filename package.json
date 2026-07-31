@@ -1,11 +1,15 @@
 {
   "name": "market-radar-vercel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Autonomous SP500 trading signal scanner for Vercel, without paid API tokens.",
+  "description": "Escaner de senales para el S&P 500 en Vercel, sin tokens de pago. Dos estrategias (momentum y compras de directivos) con paper trading y ranking.",
   "scripts": {
     "scan": "node scripts/run-local.js",
     "scan:fast": "node scripts/run-local.js --maxSymbols=120",
+    "scan:insider": "node scripts/run-local.js --workspace=insider",
+    "track": "node scripts/track.js",
+    "track:momentum": "node scripts/track.js --workspace=momentum",
+    "track:insider": "node scripts/track.js --workspace=insider",
     "dev": "vercel dev",
     "deploy": "vercel deploy --prod"
   },

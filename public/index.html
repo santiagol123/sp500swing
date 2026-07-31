@@ -34,8 +34,50 @@
         margin: 0;
         font-size: 22px;
       }
+      header nav {
+        margin-top: 10px;
+        display: flex;
+        gap: 16px;
+        font-size: 14px;
+      }
+      header nav a {
+        color: #cfe0f0;
+        text-decoration: none;
+      }
+      header nav a.active {
+        color: white;
+        font-weight: 700;
+        text-decoration: underline;
+      }
       main {
         padding: 18px 22px 36px;
+      }
+      .tabs {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+      }
+      .tab {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        padding: 9px 14px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .tab.active {
+        background: var(--blue);
+        border-color: var(--blue);
+        color: white;
+      }
+      .ws-desc {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 14px;
+        max-width: 900px;
+        line-height: 1.5;
       }
       .status {
         display: grid;
@@ -47,6 +89,10 @@
         border: 1px solid var(--line);
         background: var(--panel);
         padding: 12px;
+      }
+      .metric span {
+        font-size: 13px;
+        color: var(--muted);
       }
       .metric b {
         display: block;
@@ -114,102 +160,208 @@
         background: #fff5f5;
         color: var(--red);
         padding: 12px;
+        margin-bottom: 14px;
+      }
+      .warn {
+        border: 1px solid #f0dcae;
+        background: #fffaef;
+        color: var(--amber);
+        padding: 12px;
+        margin-bottom: 14px;
+        font-size: 13px;
+        line-height: 1.5;
       }
     </style>
   </head>
   <body>
     <header>
       <h1>Market Radar Bot</h1>
+      <nav>
+        <a href="/" class="active">Senales</a>
+        <a href="/leaderboard.html">Ranking de estrategias</a>
+      </nav>
     </header>
     <main>
+      <div class="tabs" id="tabs"></div>
+      <p class="ws-desc" id="wsDesc"></p>
+
       <div class="toolbar">
         <button id="refresh">Actualizar</button>
-        <span class="note" id="stamp">Cargando señales...</span>
+        <span class="note" id="stamp">Cargando senales...</span>
       </div>
+
       <div id="error"></div>
+      <div id="warning"></div>
       <section class="status" id="metrics"></section>
+
       <section>
         <h2>Compras autorizadas</h2>
         <div class="scroll"><table id="recommendations"></table></div>
       </section>
+
       <section>
-        <h2>Entradas técnicas no autorizadas o en espera</h2>
+        <h2>En espera o bloqueadas</h2>
         <div class="scroll"><table id="watch"></table></div>
       </section>
+
+      <section>
+        <h2>Posiciones abiertas (paper trading)</h2>
+        <div class="scroll"><table id="positions"></table></div>
+      </section>
     </main>
+
     <script>
       const fmt = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 2 });
       const pct = new Intl.NumberFormat("es-ES", { style: "percent", maximumFractionDigits: 1 });
 
-      function n(value) {
-        return Number.isFinite(Number(value)) ? fmt.format(Number(value)) : "";
-      }
+      let workspace = new URLSearchParams(location.search).get("workspace") || "momentum";
 
-      function p(value) {
-        return Number.isFinite(Number(value)) ? pct.format(Number(value)) : "";
+      const n = (v) => (Number.isFinite(Number(v)) ? fmt.format(Number(v)) : "");
+      const p = (v) => (Number.isFinite(Number(v)) ? pct.format(Number(v)) : "");
+      const esc = (v) =>
+        String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+      function renderTabs(workspaces, current) {
+        document.getElementById("tabs").innerHTML = (workspaces || [])
+          .map(
+            (w) =>
+              `<button class="tab ${w.id === current ? "active" : ""}" data-ws="${esc(w.id)}">${esc(w.label)}</button>`,
+          )
+          .join("");
+        document.querySelectorAll(".tab").forEach((btn) =>
+          btn.addEventListener("click", () => {
+            workspace = btn.dataset.ws;
+            history.replaceState(null, "", `?workspace=${encodeURIComponent(workspace)}`);
+            load();
+          }),
+        );
       }
 
       function renderMetrics(data) {
-        const d = data.dashboard || {};
-        const metrics = [
-          ["Fecha mercado", data.latest_market_date || "-"],
-          ["Descargadas", data.downloaded_count || 0],
-          ["Señales", d.candidates_total || 0],
-          ["CORE", d.core_count || 0],
-          ["BREAKOUT", d.breakout_count || 0],
-          ["Entradas técnicas", d.technical_entry_count || 0],
-          ["Autorizadas", d.portfolio_entry_count || 0],
-          ["Tiempo", `${data.elapsed_ms || 0} ms`],
+        const d = data.diagnostics || {};
+        const rows = [
+          ["Fecha mercado", data.market_date || "-"],
+          ["Autorizadas", (data.recommendations || []).length],
+          ["En espera", (data.watch || []).length],
         ];
-        document.getElementById("metrics").innerHTML = metrics
-          .map(([label, value]) => `<div class="metric"><span>${label}</span><b>${value}</b></div>`)
+
+        if (workspace === "insider") {
+          rows.push(
+            ["Empresas con compras", d.companies_with_buys ?? "-"],
+            ["Clusters detectados", d.clusters_found ?? "-"],
+            ["Formularios leidos", d.filings_seen ?? "-"],
+          );
+        } else {
+          rows.push(
+            ["Descargadas", d.downloaded_count ?? "-"],
+            ["Candidatas", d.candidates_total ?? "-"],
+            ["Entradas tecnicas", d.technical_entry_count ?? "-"],
+          );
+        }
+
+        rows.push(
+          ["Cartera papel", data.portfolio ? n(data.portfolio.equity) + " $" : "-"],
+          ["Dias seguidos", data.portfolio?.tracked_days ?? 0],
+        );
+
+        document.getElementById("metrics").innerHTML = rows
+          .map(([label, value]) => `<div class="metric"><span>${esc(label)}</span><b>${esc(value)}</b></div>`)
           .join("");
       }
 
-      function renderTable(id, rows) {
+      function actionClass(action) {
+        if (!action) return "";
+        if (action.startsWith("COMPRAR")) return "buy";
+        if (action.startsWith("ESPERAR")) return "wait";
+        return "bad";
+      }
+
+      function renderSignals(id, rows) {
         const table = document.getElementById(id);
         if (!rows || !rows.length) {
           table.innerHTML = "<tbody><tr><td>Sin registros</td></tr></tbody>";
           return;
         }
-        const headers = ["Acción", "Ticker", "Nombre", "Sector", "Último", "Máx compra", "Stop", "TP", "RR", "RSI", "MACD hist", "Tamaño", "Motivo"];
-        const htmlRows = rows
+        const isInsider = workspace === "insider";
+        const headers = ["Accion", "Ticker", "Nombre", "Sector", "Ultimo", "Max compra", "Stop", "TP", "RR", "Tamano"]
+          .concat(isInsider ? ["Insiders", "Importe", "Ultima compra"] : ["RSI"])
+          .concat(["Motivo"]);
+
+        const body = rows
           .map((r) => {
-            const klass = r.portfolio_allowed ? "buy" : r.Accion_Ejecucion && r.Accion_Ejecucion.startsWith("ESPERAR") ? "wait" : "bad";
+            const m = r.meta || {};
+            const specific = isInsider
+              ? `<td>${esc(m.insider_count ?? "")}</td><td>${m.total_value_usd ? n(m.total_value_usd) + " $" : ""}</td><td>${esc(m.last_buy ?? "")}</td>`
+              : `<td>${n(m.rsi14)}</td>`;
             return `<tr>
-              <td class="${klass}">${r.Accion_Ejecucion || ""}</td>
-              <td><b>${r.ticker || ""}</b></td>
-              <td>${r.name || ""}</td>
-              <td>${r.gics_sector || ""}</td>
+              <td class="${actionClass(r.action)}">${esc(r.action)}</td>
+              <td><b>${esc(r.ticker)}</b></td>
+              <td>${esc(r.name)}</td>
+              <td>${esc(r.sector)}</td>
               <td>${n(r.last_close)}</td>
               <td>${n(r.entry_zone_high)}</td>
               <td>${n(r.invalid_below_price)}</td>
               <td>${n(r.target_price)}</td>
               <td>${n(r.risk_reward_ratio)}</td>
-              <td>${n(r.rsi14)}</td>
-              <td>${n(r.macd_hist)}</td>
-              <td>${p(r.tamano_entrada_pct)}</td>
-              <td>${r.Motivo_Ejecucion || r.portfolio_limit_reason || ""}</td>
+              <td>${p(r.size_pct)}</td>
+              ${specific}
+              <td>${esc(r.reason)}</td>
             </tr>`;
           })
           .join("");
-        table.innerHTML = `<thead><tr>${headers.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${htmlRows}</tbody>`;
+
+        table.innerHTML = `<thead><tr>${headers.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${body}</tbody>`;
+      }
+
+      function renderPositions(rows) {
+        const table = document.getElementById("positions");
+        if (!rows || !rows.length) {
+          table.innerHTML = "<tbody><tr><td>Sin posiciones abiertas</td></tr></tbody>";
+          return;
+        }
+        const headers = ["Ticker", "Nombre", "Entrada", "Precio entrada", "Ultimo", "Stop", "TP", "P/L", "P/L %"];
+        const body = rows
+          .map(
+            (r) => `<tr>
+              <td><b>${esc(r.ticker)}</b></td>
+              <td>${esc(r.name)}</td>
+              <td>${esc(r.entry_date)}</td>
+              <td>${n(r.entry_price)}</td>
+              <td>${n(r.last_price)}</td>
+              <td>${n(r.stop_price)}</td>
+              <td>${n(r.target_price)}</td>
+              <td class="${r.unrealized_pnl >= 0 ? "buy" : "bad"}">${n(r.unrealized_pnl)}</td>
+              <td class="${r.unrealized_pct >= 0 ? "buy" : "bad"}">${p(r.unrealized_pct)}</td>
+            </tr>`,
+          )
+          .join("");
+        table.innerHTML = `<thead><tr>${headers.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${body}</tbody>`;
       }
 
       async function load() {
         document.getElementById("error").innerHTML = "";
-        document.getElementById("stamp").textContent = "Calculando señales...";
+        document.getElementById("warning").innerHTML = "";
+        document.getElementById("stamp").textContent = "Calculando senales...";
         try {
-          const response = await fetch("/api/signals", { cache: "no-store" });
+          const response = await fetch(`/api/signals?workspace=${encodeURIComponent(workspace)}`, { cache: "no-store" });
           const data = await response.json();
-          if (!response.ok) throw new Error(data.error || `HTTP ${response.status}`);
-          document.getElementById("stamp").textContent = `Generado: ${new Date(data.generated_at).toLocaleString("es-ES")} · universo: ${data.universe_source}`;
+          if (!response.ok || !data.ok) throw new Error(data.error || `HTTP ${response.status}`);
+
+          renderTabs(data.workspaces, data.workspace.id);
+          document.getElementById("wsDesc").textContent = data.workspace.description || "";
+
+          const origin = data.source === "live" ? "calculado en vivo" : `snapshot del Action${data.computed_at ? " (" + new Date(data.computed_at).toLocaleString("es-ES") + ")" : ""}`;
+          document.getElementById("stamp").textContent = `${origin} · ${new Date(data.generated_at).toLocaleString("es-ES")}`;
+
+          if (data.warning) document.getElementById("warning").innerHTML = `<div class="warn">${esc(data.warning)}</div>`;
+
           renderMetrics(data);
-          renderTable("recommendations", data.recommendations);
-          renderTable("watch", data.watch);
+          renderSignals("recommendations", data.recommendations);
+          renderSignals("watch", data.watch);
+          renderPositions(data.portfolio?.open_positions);
         } catch (error) {
-          document.getElementById("error").innerHTML = `<div class="error">${error.message}</div>`;
-          document.getElementById("stamp").textContent = "Error al calcular señales";
+          document.getElementById("error").innerHTML = `<div class="error">${esc(error.message)}</div>`;
+          document.getElementById("stamp").textContent = "Error al calcular senales";
         }
       }
 
