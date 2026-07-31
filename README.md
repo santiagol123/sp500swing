@@ -1,23 +1,44 @@
-# Market Radar Bot para Vercel
+# Market Radar Quant Bot para Vercel
 
 Bot autonomo para escoger acciones del S&P 500 sin ChatGPT y sin tokens de API.
 
 Dos estrategias independientes, cada una con su cartera de paper trading, y una
 pantalla que las compara.
 
+## Que hace
+
+- Descarga universo S&P 500 desde Wikipedia.
+- Usa Yahoo Finance public chart API, sin token.
+- Calcula momentum, setups, RSI, MACD, stops, take profit y beneficio/riesgo.
+- Detecta compras agrupadas de directivos en SEC EDGAR (formulario 4), sin token.
+- Expone `/api/signals` y `/api/leaderboard` en JSON.
+- Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, radar, ranking tecnico, ejecucion y configuracion con datos reales de `/api/signals`.
+- Lee la cartera real desde `data/portfolio.json` y la valora con los ultimos precios descargados de Yahoo Finance.
+- Vercel Cron llama `/api/signals` en dias laborables para calentar cache.
+
 ## Workspaces
 
-Un workspace es una estrategia + su cartera aislada. Se cambia con el selector
-de la pagina o con `?workspace=<id>` en la API.
+Un workspace es una estrategia + su cartera simulada aislada. Se cambia con el
+selector de la app o con `?workspace=<id>` en la API.
 
 | Workspace  | Que busca | Fuente | Se calcula |
 |------------|-----------|--------|------------|
-| `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), por ranking transversal de momentum, fuerza relativa y volumen. | Yahoo Finance chart API | En vivo, en cada peticion |
+| `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo, en cada peticion |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
 
 Anadir una tercera estrategia es crear `lib/strategies/<id>.js` con la misma
 interfaz (`{ id, label, run }`), registrarla en `lib/strategies/index.js` y
-anadir su entrada en `lib/workspaces.js`.
+anadir su entrada en `lib/workspaces.js`. La API traduce sola la forma comun de
+senal al contrato que consume el frontend, asi que no hay que tocar la UI.
+
+### Ojo con los dos "portfolio"
+
+Son cosas distintas y conviven a proposito:
+
+- `lib/portfolio.js` + `data/portfolio.json`: la cartera **real**, con precios de
+  compra reales. Es la que sale en `payload.portfolio` y en la vista Cartera.
+- `lib/papertrading.js` + `data/history/`: el **simulador** que alimenta el
+  ranking. Sale en `payload.paper_portfolio`. No es dinero real.
 
 ## La estrategia de insiders
 
@@ -45,41 +66,62 @@ operaciones despacio.
 `/leaderboard.html` compara las estrategias. Es importante entender que mide:
 
 - Es **paper trading hacia delante, no un backtest**. No reproduce el pasado:
-  registra lo que pasa a partir del dia que lo despliegas. Todo lo que aparece
-  ahi es out-of-sample por construccion.
+  registra lo que pasa a partir del dia que lo despliegas.
 - **Empieza vacio.** Hasta que el tracker no acumule dias y operaciones cerradas,
   la pantalla lo dice en vez de coronar a un ganador inventado.
 - Cada estrategia lleva una etiqueta de fiabilidad segun operaciones cerradas
-  (`insuficiente` <10, `baja` <30, `media` <100, `alta` >=100). Con menos de 10
-  operaciones el ranking no significa nada y la pantalla lo advierte.
+  (`insuficiente` <10, `baja` <30, `media` <100, `alta` >=100).
 - Ambos workspaces usan **el mismo capital inicial, los mismos limites de
   posiciones y sector, y los mismos costes**. Lo unico que cambia es que acciones
   elige cada estrategia, que es justo lo que se quiere comparar.
 
-Reglas del motor de cartera (`lib/portfolio.js`): entrada al cierre del dia de la
+Reglas del simulador (`lib/papertrading.js`): entrada al cierre del dia de la
 senal, salida por stop, objetivo o limite de dias. Si una vela toca stop y
 objetivo el mismo dia se asume el stop, porque con velas diarias no se sabe cual
-llego antes y suponer lo contrario infla los resultados. Se aplica un coste de
-0,05% por lado.
+llego antes y suponer lo contrario infla los resultados. Coste de 0,05% por lado.
+
+## Cartera real
+
+La cartera operativa se guarda en `data/portfolio.json` y el scanner la
+reconstruye en cada ejecucion desde `as_of` hasta la ultima vela disponible:
+
+- Las recomendaciones autorizadas de cada dia reproducido se agregan como compras automaticas.
+- Si una vela posterior toca `stop` o `target`, la posicion pasa a cerradas (`STOP` / `TP`).
+- Si supera `max_sessions`, se cierra como `TIME_EXIT`.
+- `portfolio.movements` lista altas y bajas; `portfolio.automation` cuenta cuantas detecto.
+
+La funcion no escribe en disco en Vercel: recalcula el estado actual cada vez con
+datos reales de mercado.
 
 ## Endpoints
 
-- `GET /api/signals?workspace=momentum` - senales del workspace + posiciones abiertas
+- `GET /api/signals?workspace=momentum` - senales del workspace, cartera real y cartera simulada
 - `GET /api/leaderboard` - ranking, metricas y curvas de capital
 - `GET /api/health`
-- `/` - pantalla de senales con selector de workspace
+- `/` - app Vite/React
 - `/leaderboard.html` - pantalla de ranking
 
 ## Probar local
 
+Instala dependencias la primera vez:
+
 ```bash
-npm run scan
+npm install
 ```
 
-Menos simbolos para iterar rapido:
+Arranca el front Vite (sirve tambien `/api/signals` y `/api/leaderboard`):
 
 ```bash
-npm run scan:fast
+npm run dev
+```
+
+Para apuntar el front local a un despliegue de Vercel, define `VITE_SIGNALS_API_URL`
+con la URL completa de `/api/signals`.
+
+Ejecutar el scanner por consola:
+
+```bash
+npm run scan
 ```
 
 Escanear insiders (tarda: la SEC limita a 10 peticiones por segundo):
@@ -123,12 +165,13 @@ la cache es permanente.
 
 Es gratis y sin token, pero la SEC exige un User-Agent identificable con un
 contacto real y limita a 10 peticiones por segundo. Ambas cosas estan en
-`lib/edgar.js`. Para cambiar el contacto, define la variable `SEC_USER_AGENT`
-(en local, o como repository variable para el Action).
+`lib/edgar.js`. Para cambiar el contacto, define `SEC_USER_AGENT` (en local, o
+como repository variable para el Action).
 
 ## Desplegar
 
 ```bash
+npm run build
 npx vercel deploy --prod
 ```
 
@@ -139,21 +182,31 @@ No hacen falta variables de entorno. Opcionales:
 - `SEC_USER_AGENT`: contacto que se envia a la SEC.
 - `SEC_RPS`: peticiones por segundo a la SEC. Por defecto `8`, no subir de `10`.
 
+## Cron
+
+`vercel.json` programa dos llamadas de lunes a viernes:
+
+- `14:35 UTC`, poco despues de la apertura USA.
+- `18:00 UTC`, revision intradia.
+
+La ruta programada es `/api/signals`.
+
 ## Limites
 
 En Vercel Hobby la funcion debe quedar por debajo de 60 segundos. El escaner de
-momentum entra de sobra (unos 3 segundos para 500 simbolos). El de insiders **no
-cabe**: recorrer el S&P 500 contra la SEC son mas de 500 peticiones a 10/s. Por eso
-`insider` se calcula en el Action y la API sirve el ultimo snapshot; la pagina
-indica siempre si lo que ves es calculo en vivo o snapshot, y de cuando.
+momentum entra de sobra. El de insiders **no cabe**: recorrer el S&P 500 contra
+la SEC son mas de 500 peticiones a 10/s. Por eso `insider` se calcula en el
+Action y la API sirve el ultimo snapshot; la app indica siempre si lo que ves es
+calculo en vivo o snapshot, y de cuando.
 
 Si Yahoo empieza a limitar, baja `SCANNER_CONCURRENCY` a `12` o `8`.
 
 ## Uso operativo
 
-La tabla que manda es `recommendations`.
+La tabla que manda el bot es `recommendations`, y el front la muestra en
+Dashboard cuando `/api/signals` esta disponible.
 
-- Comprar solo si `action = COMPRAR_LIMITADA`.
+- Comprar solo si `Accion_Ejecucion = COMPRAR_LIMITADA`.
 - No comprar a mercado.
 - Usar `entry_zone_high` como precio maximo.
 - Usar `invalid_below_price` como stop.

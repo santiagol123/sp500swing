@@ -1,0 +1,143 @@
+{
+  "as_of": "2026-07-17",
+  "source": "C:/Users/Santiago/Desktop/Script bolsa sp500 codex.docx",
+  "ticket_size": 2000,
+  "commission_per_side": 2,
+  "currency": "USD",
+  "open_positions": [
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "strategy": "CORE_PULLBACK",
+      "entry_date": "2026-07-06",
+      "entry": 96,
+      "stop": 92,
+      "target": 103,
+      "max_sessions": 15,
+      "note": "Compra documentada el 06/07/2026."
+    },
+    {
+      "ticker": "CPAY",
+      "name": "Corpay",
+      "sector": "Financials",
+      "strategy": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-07-15",
+      "entry": 367,
+      "stop": 357,
+      "target": 391,
+      "max_sessions": 15,
+      "note": "Compra documentada el 15/07/2026."
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "sector": "Financials",
+      "strategy": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-07-16",
+      "entry": 362.5,
+      "stop": 350,
+      "target": 383.5,
+      "max_sessions": 15,
+      "note": "Compra documentada el 16/07/2026."
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "strategy": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-07-16",
+      "entry": 86.5,
+      "stop": 83.2,
+      "target": 91.24,
+      "max_sessions": 15,
+      "note": "Compra documentada el 16/07/2026."
+    },
+    {
+      "ticker": "EG",
+      "name": "Everest Group",
+      "sector": "Financials",
+      "strategy": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-07-17",
+      "entry": 381,
+      "stop": 366.8,
+      "target": 402,
+      "max_sessions": 15,
+      "note": "Compra documentada el 17/07/2026."
+    },
+    {
+      "ticker": "CFG",
+      "name": "Citizens Financial Group",
+      "sector": "Financials",
+      "strategy": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-07-17",
+      "entry": 72.5,
+      "stop": 69.83,
+      "target": 76.5,
+      "max_sessions": 15,
+      "note": "Compra documentada el 17/07/2026."
+    }
+  ],
+  "closed_trades": [
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "sector": "Consumer Discretionary",
+      "strategy": "CORE_PULLBACK",
+      "entry_date": "2026-06-22",
+      "exit_date": "2026-06-26",
+      "entry": 385,
+      "exit": 378,
+      "result": "STOP",
+      "note": "Salta stop loss el 26/06/2026."
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Financials",
+      "strategy": "CORE_PULLBACK",
+      "entry_date": "2026-06-23",
+      "exit_date": "2026-07-09",
+      "entry": 173,
+      "exit": 186,
+      "result": "TP",
+      "note": "Take profit documentado el 09/07/2026."
+    },
+    {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace",
+      "sector": "Industrials",
+      "strategy": "CORE_PULLBACK",
+      "entry_date": "2026-06-24",
+      "exit_date": "2026-06-26",
+      "entry": 276,
+      "exit": 264,
+      "result": "STOP",
+      "note": "Salta stop loss el 26/06/2026."
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "sector": "Real Estate",
+      "strategy": "CORE_PULLBACK",
+      "entry_date": "2026-07-06",
+      "exit_date": "2026-07-10",
+      "entry": 225,
+      "exit": 216,
+      "result": "STOP",
+      "note": "Salta stop loss el 10/07/2026."
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "sector": "Financials",
+      "strategy": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-07-15",
+      "exit_date": "2026-07-17",
+      "entry": 227,
+      "exit": 221,
+      "result": "STOP",
+      "note": "Salta stop loss el 17/07/2026."
+    }
+  ]
+}

@@ -1,4 +1,13 @@
 node_modules/
 .vercel/
+dist/
+.vite-dev.*
+.vite-real.*
 npm-debug.log*
 signals.local.json
+
+.vercel
+
+# El proyecto usa pnpm (pnpm-lock.yaml). Un package-lock.json suelto haria
+# que Vercel dudase de que gestor usar en el build.
+package-lock.json

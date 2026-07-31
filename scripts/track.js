@@ -12,7 +12,7 @@
 const { WORKSPACES, resolveWorkspace } = require("../lib/workspaces");
 const { runStrategy } = require("../lib/runtime");
 const { readState, writeState, writeJson, readJson } = require("../lib/store");
-const { trackDay } = require("../lib/portfolio");
+const { trackDay } = require("../lib/papertrading");
 const { computeMetrics, rankWorkspaces } = require("../lib/metrics");
 
 function arg(name, fallback = null) {
