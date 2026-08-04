@@ -1,10 +1,33 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-08-03T22:33:25.021Z",
+  "updated_at": "2026-08-04T22:35:18.070Z",
   "initial_equity": 100000,
-  "cash": 100000,
-  "positions": [],
+  "cash": 90000,
+  "positions": [
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "sector": "Real Estate",
+      "family": "CORE_PULLBACK",
+      "entry_date": "2026-08-04",
+      "entry_price": 24.98,
+      "qty": 400.120196,
+      "cost_basis": 10000,
+      "stop_price": 23.731,
+      "target_price": 27.3531,
+      "last_price": 24.98,
+      "last_marked_date": "2026-08-04",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "signal_meta": {
+        "rank_today": 38,
+        "rsi14": 61.178973,
+        "macd_hist": 0.04977,
+        "macd_hist_slope": -0.032455
+      }
+    }
+  ],
   "trades": [],
   "equity_curve": [
     {
@@ -18,8 +41,14 @@
       "equity": 100000,
       "cash": 100000,
       "open_positions": 0
+    },
+    {
+      "date": "2026-08-04",
+      "equity": 99995,
+      "cash": 90000,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 2,
-  "last_market_date": "2026-08-03"
+  "tracked_days": 3,
+  "last_market_date": "2026-08-04"
 }
