@@ -20,6 +20,10 @@ function arg(name, fallback = null) {
   return hit ? hit.split("=").slice(1).join("=") : fallback;
 }
 
+function flag(name) {
+  return process.argv.includes(`--${name}`) || arg(name, "false") === "true";
+}
+
 async function trackWorkspace(workspace, options) {
   const started = Date.now();
   console.log(`\n=== ${workspace.label} (${workspace.id}) ===`);
@@ -27,6 +31,12 @@ async function trackWorkspace(workspace, options) {
   // El escaneo de insiders cachea los formularios 4 ya procesados. Sin esto
   // cada ejecucion volveria a descargar miles de documentos a la SEC.
   const cache = workspace.id === "insider" ? readJson(workspace.id, "filings", {}) || {} : {};
+  const state = readState(workspace);
+  const bootstrapSignals =
+    workspace.id === "insider" &&
+    !state.last_market_date &&
+    !state.positions.length &&
+    !state.trades.length;
 
   const result = await runStrategy(workspace, {
     ...options,
@@ -34,6 +44,8 @@ async function trackWorkspace(workspace, options) {
     // detectar stops y objetivos. Sin esto no abriria ni cerraria nada.
     includeCharts: true,
     cache,
+    cacheOnly: workspace.id === "insider" && Boolean(options.cacheOnly),
+    bootstrapSignals: workspace.id === "insider" && (bootstrapSignals || Boolean(options.bootstrapSignals)),
     onProgress: ({ done, total, filingsFetched }) =>
       console.log(`  ... ${done}/${total} empresas, ${filingsFetched} formularios nuevos`),
   });
@@ -53,7 +65,6 @@ async function trackWorkspace(workspace, options) {
   });
   if (result.cache) writeJson(workspace.id, "filings", result.cache);
 
-  const state = readState(workspace);
   const outcome = trackDay(state, {
     signals: result.signals,
     charts: result.charts,
@@ -83,13 +94,15 @@ async function main() {
   const only = arg("workspace");
   const maxSymbols = Number(arg("maxSymbols", 0));
   const concurrency = Number(arg("concurrency", 24));
+  const cacheOnly = flag("cacheOnly");
+  const bootstrapSignals = flag("bootstrapSignals");
 
   const targets = only ? [resolveWorkspace(only)] : Object.values(WORKSPACES);
   console.log(`Tracking: ${targets.map((w) => w.id).join(", ")}`);
 
   for (const workspace of targets) {
     try {
-      await trackWorkspace(workspace, { maxSymbols, concurrency });
+      await trackWorkspace(workspace, { maxSymbols, concurrency, cacheOnly, bootstrapSignals });
     } catch (error) {
       // Si una estrategia falla, la otra debe seguir registrandose igualmente.
       console.error(`  ERROR en ${workspace.id}: ${error.message}`);

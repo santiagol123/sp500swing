@@ -39,8 +39,10 @@ function paperPortfolio(workspace) {
   return {
     equity: Number(currentEquity(state).toFixed(2)),
     initial_equity: state.initial_equity,
+    cash: state.cash,
     open_positions: state.positions,
     closed_trades: state.trades.length,
+    closed_trade_rows: state.trades,
     tracked_days: state.tracked_days,
     last_tracked_date: state.last_market_date,
   };
