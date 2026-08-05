@@ -1,7 +1,7 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-08-04T22:35:18.070Z",
+  "updated_at": "2026-08-05T22:34:19.709Z",
   "initial_equity": 100000,
   "cash": 90000,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 10000,
       "stop_price": 23.731,
       "target_price": 27.3531,
-      "last_price": 24.98,
-      "last_marked_date": "2026-08-04",
-      "unrealized_pnl": 0,
-      "unrealized_pct": 0,
+      "last_price": 25.13,
+      "last_marked_date": "2026-08-05",
+      "unrealized_pnl": 55.02,
+      "unrealized_pct": 0.006005,
       "signal_meta": {
         "rank_today": 38,
         "rsi14": 61.178973,
@@ -47,8 +47,14 @@
       "equity": 99995,
       "cash": 90000,
       "open_positions": 1
+    },
+    {
+      "date": "2026-08-05",
+      "equity": 100055.02,
+      "cash": 90000,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 3,
-  "last_market_date": "2026-08-04"
+  "tracked_days": 4,
+  "last_market_date": "2026-08-05"
 }

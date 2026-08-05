@@ -1,6 +1,6 @@
 {
-  "computed_at": "2026-08-04T22:36:50.969Z",
-  "market_date": "2026-08-04",
+  "computed_at": "2026-08-05T22:35:43.749Z",
+  "market_date": "2026-08-05",
   "signals": [
     {
       "ticker": "NCLH",
@@ -9,14 +9,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-01, demasiado antiguo (64 dias > 15)",
+      "reason": "Cluster de 2026-06-01, demasiado antiguo (65 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 20.07,
-      "entry_zone_low": 19.76895,
-      "entry_zone_high": 20.4714,
-      "invalid_below_price": 18.399700509606944,
-      "target_price": 23.410598980786116,
-      "risk_reward_ratio": 2.000000000000002,
+      "last_close": 20.3,
+      "entry_zone_low": 19.9955,
+      "entry_zone_high": 20.706,
+      "invalid_below_price": 18.62673460628917,
+      "target_price": 23.64653078742166,
+      "risk_reward_ratio": 1.999999999999998,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 80,
@@ -26,7 +26,8 @@
         "total_value_usd": 29163646,
         "first_buy": "2026-05-07",
         "last_buy": "2026-06-01",
-        "stale_days": 64,
+        "stale_days": 65,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "PAGLIUCA STEPHEN G",
@@ -78,8 +79,8 @@
             "date": "2026-05-07"
           }
         ],
-        "rsi14": 53.127154930118955,
-        "volatility_20d": 0.6005159758904672
+        "rsi14": 54.52870510287283,
+        "volatility_20d": 0.5947663379985804
       }
     },
     {
@@ -89,14 +90,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-17, demasiado antiguo (48 dias > 15)",
+      "reason": "Cluster de 2026-06-17, demasiado antiguo (49 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 55.78,
-      "entry_zone_low": 54.9433,
-      "entry_zone_high": 56.8956,
-      "invalid_below_price": 52.4332,
-      "target_price": 62.473600000000005,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 54.11,
+      "entry_zone_low": 53.29835,
+      "entry_zone_high": 55.1922,
+      "invalid_below_price": 50.8634,
+      "target_price": 60.60320000000001,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 78.8,
@@ -106,7 +107,8 @@
         "total_value_usd": 1723401,
         "first_buy": "2026-06-16",
         "last_buy": "2026-06-17",
-        "stale_days": 48,
+        "stale_days": 49,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "Todd Paul M",
@@ -151,8 +153,61 @@
             "date": "2026-06-16"
           }
         ],
-        "rsi14": 61.885104505905964,
-        "volatility_20d": 0.3755792414488756
+        "rsi14": 55.308495356784775,
+        "volatility_20d": 0.36165887575653843
+      }
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 9,285,694 USD entre 2026-07-31 y 2026-08-03",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 47.74,
+      "entry_zone_low": 47.023900000000005,
+      "entry_zone_high": 48.6948,
+      "invalid_below_price": 44.8756,
+      "target_price": 53.46880000000001,
+      "risk_reward_ratio": 1.9999999999999996,
+      "size_pct": 0.07,
+      "authorized": true,
+      "opt_score": 77.3,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 9285694,
+        "first_buy": "2026-07-31",
+        "last_buy": "2026-08-03",
+        "stale_days": 2,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Habiger David C",
+            "title": "Director",
+            "shares": 1182,
+            "value_usd": 56887,
+            "date": "2026-08-03"
+          },
+          {
+            "name": "Mahoney Michael F",
+            "title": "Chairman, President &amp; CEO",
+            "shares": 186240,
+            "value_usd": 9001408,
+            "date": "2026-08-03"
+          },
+          {
+            "name": "LUDWIG EDWARD J",
+            "title": "Director",
+            "shares": 5000,
+            "value_usd": 227400,
+            "date": "2026-07-31"
+          }
+        ],
+        "rsi14": 58.98551604933034,
+        "volatility_20d": 0.31815955497301585
       }
     },
     {
@@ -162,14 +217,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-23, demasiado antiguo (42 dias > 15)",
+      "reason": "Cluster de 2026-06-23, demasiado antiguo (43 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 237.21,
-      "entry_zone_low": 233.65185,
-      "entry_zone_high": 241.95420000000001,
-      "invalid_below_price": 221.3308049868182,
-      "target_price": 268.96839002636364,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 240.03,
+      "entry_zone_low": 236.42955,
+      "entry_zone_high": 244.8306,
+      "invalid_below_price": 224.58423553038492,
+      "target_price": 270.92152893923014,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -179,7 +234,8 @@
         "total_value_usd": 2165173,
         "first_buy": "2026-05-29",
         "last_buy": "2026-06-23",
-        "stale_days": 42,
+        "stale_days": 43,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "CAHILL JOHN T",
@@ -210,8 +266,8 @@
             "date": "2026-05-29"
           }
         ],
-        "rsi14": 62.83655034803417,
-        "volatility_20d": 0.48302885848875055
+        "rsi14": 64.36749729742951,
+        "volatility_20d": 0.4643243639531308
       }
     },
     {
@@ -221,14 +277,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-22, demasiado antiguo (74 dias > 15)",
+      "reason": "Cluster de 2026-05-22, demasiado antiguo (75 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 70.26,
-      "entry_zone_low": 69.2061,
-      "entry_zone_high": 71.66520000000001,
-      "invalid_below_price": 64.44816989325807,
-      "target_price": 81.88366021348388,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 70.24,
+      "entry_zone_low": 69.18639999999999,
+      "entry_zone_high": 71.64479999999999,
+      "invalid_below_price": 64.43397221940688,
+      "target_price": 81.85205556118622,
+      "risk_reward_ratio": 1.9999999999999993,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -238,7 +294,8 @@
         "total_value_usd": 5866936,
         "first_buy": "2026-05-06",
         "last_buy": "2026-05-22",
-        "stale_days": 74,
+        "stale_days": 75,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "Lobo Kevin",
@@ -276,8 +333,8 @@
             "date": "2026-05-06"
           }
         ],
-        "rsi14": 61.84212949635477,
-        "volatility_20d": 0.59687357831679
+        "rsi14": 61.782634339418806,
+        "volatility_20d": 0.5964474637314269
       }
     },
     {
@@ -287,14 +344,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-14, demasiado antiguo (82 dias > 15)",
+      "reason": "Cluster de 2026-05-14, demasiado antiguo (83 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 184.51,
-      "entry_zone_low": 181.74235,
-      "entry_zone_high": 188.2002,
-      "invalid_below_price": 173.43939999999998,
-      "target_price": 206.65120000000002,
-      "risk_reward_ratio": 1.9999999999999993,
+      "last_close": 183.07,
+      "entry_zone_low": 180.32395,
+      "entry_zone_high": 186.7314,
+      "invalid_below_price": 172.08579999999998,
+      "target_price": 205.03840000000002,
+      "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -304,7 +361,8 @@
         "total_value_usd": 5487494,
         "first_buy": "2026-05-13",
         "last_buy": "2026-05-14",
-        "stale_days": 82,
+        "stale_days": 83,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "KRAFT JONATHAN",
@@ -335,8 +393,107 @@
             "date": "2026-05-13"
           }
         ],
-        "rsi14": 45.310477874565976,
-        "volatility_20d": 0.20716548071367522
+        "rsi14": 43.3035023862998,
+        "volatility_20d": 0.20805582617337107
+      }
+    },
+    {
+      "ticker": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 33.41,
+      "entry_zone_low": 32.908849999999994,
+      "entry_zone_high": 34.078199999999995,
+      "invalid_below_price": 31.405399999999997,
+      "target_price": 37.4192,
+      "risk_reward_ratio": 2.0000000000000018,
+      "size_pct": 0.07,
+      "authorized": true,
+      "opt_score": 69.6,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 652394,
+        "first_buy": "2026-08-03",
+        "last_buy": "2026-08-04",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "MORRIS EDNA",
+            "title": "Director",
+            "shares": 1560,
+            "value_usd": 50606,
+            "date": "2026-08-04"
+          },
+          {
+            "name": "Lawton III Harry A",
+            "title": "President &amp; CEO",
+            "shares": 15600,
+            "value_usd": 501524,
+            "date": "2026-08-04"
+          },
+          {
+            "name": "Hawaux Andre J",
+            "title": "Director",
+            "shares": 3150,
+            "value_usd": 100265,
+            "date": "2026-08-03"
+          }
+        ],
+        "rsi14": 64.12818323155193,
+        "volatility_20d": 0.3279020195257347
+      }
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 1,959,190 USD entre 2026-08-05 y 2026-08-05",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 25.81,
+      "entry_zone_low": 25.422849999999997,
+      "entry_zone_high": 26.3262,
+      "invalid_below_price": 24.2614,
+      "target_price": 28.9072,
+      "risk_reward_ratio": 2.0000000000000013,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 59.8,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1959190,
+        "first_buy": "2026-08-05",
+        "last_buy": "2026-08-05",
+        "stale_days": 0,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "BLAYLOCK RONALD E",
+            "title": "Director",
+            "shares": 39231,
+            "value_usd": 998821,
+            "date": "2026-08-05"
+          },
+          {
+            "name": "Buckley Mortimer J",
+            "title": "Director",
+            "shares": 37632,
+            "value_usd": 960369,
+            "date": "2026-08-05"
+          }
+        ],
+        "rsi14": 66.7928505297947,
+        "volatility_20d": 0.16830131742248808
       }
     },
     {
@@ -346,14 +503,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (35 dias > 15)",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (36 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 225.9,
-      "entry_zone_low": 222.5115,
-      "entry_zone_high": 230.418,
-      "invalid_below_price": 212.346,
-      "target_price": 253.00800000000004,
-      "risk_reward_ratio": 2.0000000000000018,
+      "last_close": 224.81,
+      "entry_zone_low": 221.43785,
+      "entry_zone_high": 229.30620000000002,
+      "invalid_below_price": 211.32139999999998,
+      "target_price": 251.7872,
+      "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 59.2,
@@ -363,7 +520,8 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 35,
+        "stale_days": 36,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "SELIG STEFAN M",
@@ -443,8 +601,8 @@
             "date": "2026-06-30"
           }
         ],
-        "rsi14": 50.754251600330846,
-        "volatility_20d": 0.2299622524984584
+        "rsi14": 48.96047797355256,
+        "volatility_20d": 0.18934882979237352
       }
     },
     {
@@ -454,14 +612,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-11, demasiado antiguo (54 dias > 15)",
+      "reason": "Cluster de 2026-06-11, demasiado antiguo (55 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 283.14,
-      "entry_zone_low": 278.8929,
-      "entry_zone_high": 288.8028,
-      "invalid_below_price": 266.1516,
-      "target_price": 317.1168,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 285.47,
+      "entry_zone_low": 281.18795,
+      "entry_zone_high": 291.17940000000004,
+      "invalid_below_price": 268.34180000000003,
+      "target_price": 319.72640000000007,
+      "risk_reward_ratio": 2.0000000000000027,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 50,
@@ -471,7 +629,8 @@
         "total_value_usd": 2513981,
         "first_buy": "2026-05-13",
         "last_buy": "2026-06-11",
-        "stale_days": 54,
+        "stale_days": 55,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "Clark Benjamin M.",
@@ -495,8 +654,8 @@
             "date": "2026-05-13"
           }
         ],
-        "rsi14": 60.11272401817682,
-        "volatility_20d": 0.26664437275710523
+        "rsi14": 62.08644064397906,
+        "volatility_20d": 0.23979774068907114
       }
     },
     {
@@ -506,14 +665,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (18 dias > 15)",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (19 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 378,
-      "entry_zone_low": 372.33,
-      "entry_zone_high": 385.56,
-      "invalid_below_price": 355.32,
-      "target_price": 423.36,
-      "risk_reward_ratio": 2.0000000000000013,
+      "last_close": 391.24,
+      "entry_zone_low": 385.3714,
+      "entry_zone_high": 399.0648,
+      "invalid_below_price": 367.2033042537011,
+      "target_price": 439.3133914925978,
+      "risk_reward_ratio": 1.9999999999999993,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 46.9,
@@ -523,7 +682,8 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 18,
+        "stale_days": 19,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "PERU RAMIRO G",
@@ -540,8 +700,8 @@
             "date": "2026-07-17"
           }
         ],
-        "rsi14": 43.99670146060179,
-        "volatility_20d": 0.4203686251750273
+        "rsi14": 51.49070931861335,
+        "volatility_20d": 0.4433116102956868
       }
     },
     {
@@ -551,14 +711,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-13, demasiado antiguo (83 dias > 15)",
+      "reason": "Cluster de 2026-05-13, demasiado antiguo (84 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 76.04,
-      "entry_zone_low": 74.8994,
-      "entry_zone_high": 77.56080000000001,
-      "invalid_below_price": 71.4776,
-      "target_price": 85.16480000000001,
-      "risk_reward_ratio": 1.9999999999999973,
+      "last_close": 74.39,
+      "entry_zone_low": 73.27415,
+      "entry_zone_high": 75.87780000000001,
+      "invalid_below_price": 69.9266,
+      "target_price": 83.31680000000001,
+      "risk_reward_ratio": 1.9999999999999987,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 43.4,
@@ -568,7 +728,8 @@
         "total_value_usd": 886367,
         "first_buy": "2026-05-11",
         "last_buy": "2026-05-13",
-        "stale_days": 83,
+        "stale_days": 84,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "DAMELIO FRANK A",
@@ -592,8 +753,8 @@
             "date": "2026-05-11"
           }
         ],
-        "rsi14": 48.166480616836836,
-        "volatility_20d": 0.22337159901851253
+        "rsi14": 42.71666517045976,
+        "volatility_20d": 0.23007161082682862
       }
     },
     {
@@ -603,14 +764,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-27, demasiado antiguo (69 dias > 15)",
+      "reason": "Cluster de 2026-05-27, demasiado antiguo (70 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 154,
-      "entry_zone_low": 151.69,
-      "entry_zone_high": 157.08,
-      "invalid_below_price": 144.76,
-      "target_price": 172.48000000000002,
-      "risk_reward_ratio": 1.9999999999999998,
+      "last_close": 140.1,
+      "entry_zone_low": 137.99849999999998,
+      "entry_zone_high": 142.902,
+      "invalid_below_price": 129.53467140716202,
+      "target_price": 161.23065718567594,
+      "risk_reward_ratio": 2.000000000000001,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 40,
@@ -620,7 +781,8 @@
         "total_value_usd": 2505138,
         "first_buy": "2026-05-18",
         "last_buy": "2026-05-27",
-        "stale_days": 69,
+        "stale_days": 70,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "NELMS DAVID W",
@@ -637,8 +799,8 @@
             "date": "2026-05-18"
           }
         ],
-        "rsi14": 69.27107327846771,
-        "volatility_20d": 0.427104872677557
+        "rsi14": 51.38217071736645,
+        "volatility_20d": 0.5441547980597486
       }
     },
     {
@@ -648,14 +810,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-22, demasiado antiguo (43 dias > 15)",
+      "reason": "Cluster de 2026-06-22, demasiado antiguo (44 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 306.28,
-      "entry_zone_low": 301.6858,
-      "entry_zone_high": 312.4056,
-      "invalid_below_price": 287.90319999999997,
-      "target_price": 343.0336,
-      "risk_reward_ratio": 2.0000000000000013,
+      "last_close": 317.22,
+      "entry_zone_low": 312.4617,
+      "entry_zone_high": 323.56440000000003,
+      "invalid_below_price": 298.1868,
+      "target_price": 355.28640000000007,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 40,
@@ -665,7 +827,8 @@
         "total_value_usd": 2310427,
         "first_buy": "2026-05-28",
         "last_buy": "2026-06-22",
-        "stale_days": 43,
+        "stale_days": 44,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "Tyler Lauren M",
@@ -682,60 +845,8 @@
             "date": "2026-05-28"
           }
         ],
-        "rsi14": 53.562436179338384,
-        "volatility_20d": 0.25511225945800575
-      }
-    },
-    {
-      "ticker": "BSX",
-      "name": "Boston Scientific",
-      "sector": "Health Care",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-20, demasiado antiguo (76 dias > 15)",
-      "plan": "Solo seguimiento",
-      "last_close": 49.09,
-      "entry_zone_low": 48.35365,
-      "entry_zone_high": 50.0718,
-      "invalid_below_price": 46.144600000000004,
-      "target_price": 54.98080000000001,
-      "risk_reward_ratio": 2.000000000000002,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 39.6,
-      "meta": {
-        "insider_count": 3,
-        "buy_count": 3,
-        "total_value_usd": 554000,
-        "first_buy": "2026-05-19",
-        "last_buy": "2026-05-20",
-        "stale_days": 76,
-        "insiders": [
-          {
-            "name": "Pegus Cheryl",
-            "title": "Director",
-            "shares": 1770,
-            "value_usd": 99987,
-            "date": "2026-05-20"
-          },
-          {
-            "name": "LUDWIG EDWARD J",
-            "title": "Director",
-            "shares": 3580,
-            "value_usd": 202914,
-            "date": "2026-05-20"
-          },
-          {
-            "name": "Habiger David C",
-            "title": "Director",
-            "shares": 4450,
-            "value_usd": 251098,
-            "date": "2026-05-19"
-          }
-        ],
-        "rsi14": 67.63636815289789,
-        "volatility_20d": 0.30178415614771525
+        "rsi14": 62.33038876278354,
+        "volatility_20d": 0.2790126487410362
       }
     },
     {
@@ -745,14 +856,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-15, demasiado antiguo (81 dias > 15)",
+      "reason": "Cluster de 2026-05-15, demasiado antiguo (82 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 142.68,
-      "entry_zone_low": 140.5398,
-      "entry_zone_high": 145.5336,
-      "invalid_below_price": 134.1192,
-      "target_price": 159.80160000000004,
-      "risk_reward_ratio": 2.0000000000000018,
+      "last_close": 144.67,
+      "entry_zone_low": 142.49994999999998,
+      "entry_zone_high": 147.5634,
+      "invalid_below_price": 135.98979999999997,
+      "target_price": 162.03040000000001,
+      "risk_reward_ratio": 1.9999999999999987,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 38.4,
@@ -762,7 +873,8 @@
         "total_value_usd": 477650,
         "first_buy": "2026-05-08",
         "last_buy": "2026-05-15",
-        "stale_days": 81,
+        "stale_days": 82,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "PRAGADA ROBERT V",
@@ -779,8 +891,8 @@
             "date": "2026-05-08"
           }
         ],
-        "rsi14": 67.62578774390852,
-        "volatility_20d": 0.3129327526734301
+        "rsi14": 69.5793398078062,
+        "volatility_20d": 0.3125492594938624
       }
     },
     {
@@ -790,14 +902,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-12, demasiado antiguo (53 dias > 15)",
+      "reason": "Cluster de 2026-06-12, demasiado antiguo (54 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 93.07,
-      "entry_zone_low": 91.67394999999999,
-      "entry_zone_high": 94.9314,
-      "invalid_below_price": 87.48579999999998,
-      "target_price": 104.2384,
-      "risk_reward_ratio": 1.9999999999999982,
+      "last_close": 90.82,
+      "entry_zone_low": 89.45769999999999,
+      "entry_zone_high": 92.6364,
+      "invalid_below_price": 85.37079999999999,
+      "target_price": 101.7184,
+      "risk_reward_ratio": 2,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 36.2,
@@ -807,7 +919,8 @@
         "total_value_usd": 368020,
         "first_buy": "2026-06-04",
         "last_buy": "2026-06-12",
-        "stale_days": 53,
+        "stale_days": 54,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "Wichterich Michael",
@@ -824,8 +937,8 @@
             "date": "2026-06-04"
           }
         ],
-        "rsi14": 56.56766163384619,
-        "volatility_20d": 0.3105027447107387
+        "rsi14": 49.94750478750694,
+        "volatility_20d": 0.3236682886202946
       }
     },
     {
@@ -835,14 +948,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-14, demasiado antiguo (82 dias > 15)",
+      "reason": "Cluster de 2026-05-14, demasiado antiguo (83 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 156.63,
-      "entry_zone_low": 154.28055,
-      "entry_zone_high": 159.7626,
-      "invalid_below_price": 147.23219999999998,
-      "target_price": 175.4256,
-      "risk_reward_ratio": 1.999999999999998,
+      "last_close": 154.35,
+      "entry_zone_low": 152.03475,
+      "entry_zone_high": 157.43699999999998,
+      "invalid_below_price": 145.089,
+      "target_price": 172.872,
+      "risk_reward_ratio": 2.0000000000000027,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 35,
@@ -852,7 +965,8 @@
         "total_value_usd": 317135,
         "first_buy": "2026-05-14",
         "last_buy": "2026-05-14",
-        "stale_days": 82,
+        "stale_days": 83,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "Adelson Gregory R.",
@@ -869,8 +983,8 @@
             "date": "2026-05-14"
           }
         ],
-        "rsi14": 61.03719231009404,
-        "volatility_20d": 0.34173430677019273
+        "rsi14": 57.15814600647195,
+        "volatility_20d": 0.3476375169344716
       }
     },
     {
@@ -880,14 +994,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-03, demasiado antiguo (62 dias > 15)",
+      "reason": "Cluster de 2026-06-03, demasiado antiguo (63 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 166.82,
-      "entry_zone_low": 164.3177,
-      "entry_zone_high": 170.1564,
-      "invalid_below_price": 156.81079999999997,
-      "target_price": 186.8384,
-      "risk_reward_ratio": 1.9999999999999976,
+      "last_close": 133.26,
+      "entry_zone_low": 131.2611,
+      "entry_zone_high": 135.9252,
+      "invalid_below_price": 118.75736355272005,
+      "target_price": 162.26527289455987,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 33.5,
@@ -897,7 +1011,8 @@
         "total_value_usd": 897883,
         "first_buy": "2026-06-03",
         "last_buy": "2026-06-03",
-        "stale_days": 62,
+        "stale_days": 63,
+        "bootstrap_signal": false,
         "insiders": [
           {
             "name": "STONESIFER TIMOTHY C.",
@@ -914,8 +1029,8 @@
             "date": "2026-06-03"
           }
         ],
-        "rsi14": 55.48406933347098,
-        "volatility_20d": 0.31704864223016277
+        "rsi14": 30.31281574781667,
+        "volatility_20d": 0.7852803690860796
       }
     }
   ],
@@ -923,14 +1038,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 92872,
+    "elapsed_ms": 83982,
+    "cache_only": false,
+    "bootstrap_signals": false,
     "companies_with_buys": 67,
-    "clusters_found": 16,
-    "signals_fresh": 0,
-    "portfolio_entry_count": 0,
+    "clusters_found": 18,
+    "signals_fresh": 3,
+    "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 8022,
-    "filings_fetched": 225,
+    "filings_seen": 7984,
+    "filings_fetched": 147,
     "missing_cik": 1,
     "scanned": 503
   },
@@ -941,6 +1058,7 @@
       "min_cluster_insiders": 2,
       "min_cluster_value_usd": 50000,
       "signal_fresh_days": 15,
+      "bootstrap_signal_fresh_days": 120,
       "max_new_buys_per_day": 3,
       "max_buys_per_sector_per_day": 2,
       "note": "Solo compras en mercado abierto (codigo P) de directivos o consejeros."
