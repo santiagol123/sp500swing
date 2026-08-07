@@ -68,6 +68,13 @@ desde su tabla publica de insider transactions, con filtro de compras (`po=1`) y
 paginas recientes, y despues se filtra al S&P 500 para que el ranking compare
 universos equivalentes.
 
+Ademas lee la vista semanal de Dataroma (`t=w`) con compras y ventas. Para las
+compras publicadas en el ultimo filing date disponible, calcula el flujo semanal
+por ticker: valor comprado, valor vendido, neto comprador y ratio compra/venta.
+Solo genera senal extra si las compras del dia y de la semana superan un minimo,
+el neto comprador es claro y el valor comprado es sustancialmente mayor que el
+vendido.
+
 ## El ranking
 
 `/leaderboard.html` compara las estrategias. Es importante entender que mide:
@@ -200,6 +207,11 @@ No hacen falta variables de entorno. Opcionales:
 - `SEC_RPS`: peticiones por segundo a la SEC. Por defecto `8`, no subir de `10`.
 - `DATAROMA_TIMEFRAME`: rango de Dataroma. Por defecto `y`.
 - `DATAROMA_MAX_PAGES`: maximo de paginas recientes de Dataroma. Por defecto `25`.
+- `DATAROMA_FLOW_MAX_PAGES`: paginas de la vista semanal compra/venta. Por defecto `25`.
+- `DATAROMA_FLOW_MIN_TODAY_PURCHASE_USD`: compra minima publicada en el dia. Por defecto `250000`.
+- `DATAROMA_FLOW_MIN_PURCHASE_USD`: compras minimas semanales del ticker. Por defecto `500000`.
+- `DATAROMA_FLOW_MIN_NET_USD`: neto comprador minimo tras restar ventas. Por defecto `250000`.
+- `DATAROMA_FLOW_MIN_BUY_SELL_RATIO`: ratio compra/venta minimo si hubo ventas. Por defecto `1.75`.
 
 ## Cron
 
