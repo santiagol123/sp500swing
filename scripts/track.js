@@ -24,16 +24,24 @@ function flag(name) {
   return process.argv.includes(`--${name}`) || arg(name, "false") === "true";
 }
 
+function usesInsiderFilingsCache(workspace) {
+  return workspace.strategy === "insider" || workspace.strategy === "insider_total";
+}
+
+function filingsCacheWorkspaceId(workspace) {
+  return usesInsiderFilingsCache(workspace) ? "insider" : workspace.id;
+}
+
 async function trackWorkspace(workspace, options) {
   const started = Date.now();
   console.log(`\n=== ${workspace.label} (${workspace.id}) ===`);
 
   // El escaneo de insiders cachea los formularios 4 ya procesados. Sin esto
   // cada ejecucion volveria a descargar miles de documentos a la SEC.
-  const cache = workspace.id === "insider" ? readJson(workspace.id, "filings", {}) || {} : {};
+  const cache = usesInsiderFilingsCache(workspace) ? readJson(filingsCacheWorkspaceId(workspace), "filings", {}) || {} : {};
   const state = readState(workspace);
   const bootstrapSignals =
-    workspace.id === "insider" &&
+    usesInsiderFilingsCache(workspace) &&
     !state.last_market_date &&
     !state.positions.length &&
     !state.trades.length;
@@ -44,8 +52,8 @@ async function trackWorkspace(workspace, options) {
     // detectar stops y objetivos. Sin esto no abriria ni cerraria nada.
     includeCharts: true,
     cache,
-    cacheOnly: workspace.id === "insider" && Boolean(options.cacheOnly),
-    bootstrapSignals: workspace.id === "insider" && (bootstrapSignals || Boolean(options.bootstrapSignals)),
+    cacheOnly: usesInsiderFilingsCache(workspace) && Boolean(options.cacheOnly),
+    bootstrapSignals: usesInsiderFilingsCache(workspace) && (bootstrapSignals || Boolean(options.bootstrapSignals)),
     onProgress: ({ done, total, filingsFetched }) =>
       console.log(`  ... ${done}/${total} empresas, ${filingsFetched} formularios nuevos`),
   });
@@ -63,7 +71,7 @@ async function trackWorkspace(workspace, options) {
     diagnostics: result.diagnostics,
     extra: result.extra || {},
   });
-  if (result.cache) writeJson(workspace.id, "filings", result.cache);
+  if (result.cache && usesInsiderFilingsCache(workspace)) writeJson(filingsCacheWorkspaceId(workspace), "filings", result.cache);
 
   const outcome = trackDay(state, {
     signals: result.signals,

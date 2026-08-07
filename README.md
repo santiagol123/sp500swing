@@ -2,7 +2,7 @@
 
 Bot autonomo para escoger acciones del S&P 500 sin ChatGPT y sin tokens de API.
 
-Dos estrategias independientes, cada una con su cartera de paper trading, y una
+Tres estrategias independientes, cada una con su cartera de paper trading, y una
 pantalla que las compara.
 
 ## Que hace
@@ -10,7 +10,7 @@ pantalla que las compara.
 - Descarga universo S&P 500 desde Wikipedia.
 - Usa Yahoo Finance public chart API, sin token.
 - Calcula momentum, setups, RSI, MACD, stops, take profit y beneficio/riesgo.
-- Detecta compras agrupadas de directivos en SEC EDGAR (formulario 4), sin token.
+- Detecta compras agrupadas de directivos en SEC EDGAR (formulario 4), sin token, y una variante combinada con Dataroma.
 - Expone `/api/signals` y `/api/leaderboard` en JSON.
 - Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, radar, ranking tecnico, ejecucion y configuracion con datos reales de `/api/signals`.
 - Lee la cartera real desde `data/portfolio.json` y la valora con los ultimos precios descargados de Yahoo Finance.
@@ -25,6 +25,7 @@ selector de la app o con `?workspace=<id>` en la API.
 |------------|-----------|--------|------------|
 | `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo, en cada peticion |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
+| `insider_total` | La misma logica de clusters, pero combinando las compras de SEC EDGAR con las compras publicadas por Dataroma. | SEC EDGAR + Dataroma | Por el GitHub Action (ver abajo) |
 
 Anadir una tercera estrategia es crear `lib/strategies/<id>.js` con la misma
 interfaz (`{ id, label, run }`), registrarla en `lib/strategies/index.js` y
@@ -60,6 +61,12 @@ formularios 4 leidos, 41 compras de insider, y solo 3 empresas con cluster.
 Extrapolado al indice completo son del orden de 2 a 4 senales accionables al mes.
 Es lo normal en esta estrategia, pero significa que su cartera acumulara
 operaciones despacio.
+
+`insider_total` usa las mismas reglas de cluster, freshness, stops y tamano de
+posicion que `insider`, pero suma Dataroma como fuente adicional. Dataroma se lee
+desde su tabla publica de insider transactions, con filtro de compras (`po=1`) y
+paginas recientes, y despues se filtra al S&P 500 para que el ranking compare
+universos equivalentes.
 
 ## El ranking
 
@@ -130,6 +137,12 @@ Escanear insiders (tarda: la SEC limita a 10 peticiones por segundo):
 npm run scan:insider
 ```
 
+Escanear insiders total (SEC + Dataroma):
+
+```bash
+npm run scan:insider-total
+```
+
 Registrar un dia de paper trading en ambos workspaces:
 
 ```bash
@@ -161,6 +174,10 @@ peticiones por segundo: unos 25 minutos. Despues, la cache de accessions
 baja a 2-3 minutos por dia. Un formulario ya presentado no cambia nunca, asi que
 la cache es permanente.
 
+`insider_total` reutiliza esa misma cache de formularios SEC y solo anade unas
+paginas HTML de Dataroma por ejecucion, asi que no requiere base de datos ni
+servicios externos de pago.
+
 ## SEC EDGAR
 
 Es gratis y sin token, pero la SEC exige un User-Agent identificable con un
@@ -181,6 +198,8 @@ No hacen falta variables de entorno. Opcionales:
 - `MAX_SYMBOLS`: limite de simbolos para depurar. En produccion no lo uses.
 - `SEC_USER_AGENT`: contacto que se envia a la SEC.
 - `SEC_RPS`: peticiones por segundo a la SEC. Por defecto `8`, no subir de `10`.
+- `DATAROMA_TIMEFRAME`: rango de Dataroma. Por defecto `y`.
+- `DATAROMA_MAX_PAGES`: maximo de paginas recientes de Dataroma. Por defecto `25`.
 
 ## Cron
 

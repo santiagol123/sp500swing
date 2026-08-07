@@ -40,7 +40,7 @@ module.exports = async function handler(req, res) {
       method: {
         note: "Paper trading hacia delante, no backtest. Todo lo que aparece aqui ocurrio despues de escribir la estrategia.",
         shared_rules:
-          "Ambos workspaces usan el mismo capital inicial, los mismos limites de posiciones y sector, y los mismos costes por operacion. Lo unico que cambia es que acciones elige cada estrategia.",
+          "Todos los workspaces usan el mismo capital inicial, los mismos limites de posiciones y sector, y los mismos costes por operacion. Lo unico que cambia es que acciones elige cada estrategia.",
       },
     };
 

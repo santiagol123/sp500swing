@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       workspace:
-        description: "Solo un workspace (momentum | insider). Vacio = todos."
+        description: "Solo un workspace (momentum | insider | insider_total). Vacio = todos."
         required: false
         default: ""
 

@@ -1,0 +1,1460 @@
+{
+  "computed_at": "2026-08-07T17:14:31.326Z",
+  "market_date": "2026-08-07",
+  "signals": [
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 9,285,694 USD entre 2026-07-31 y 2026-08-04 | fuentes: Dataroma 3 + SEC EDGAR 1",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 49.44,
+      "entry_zone_low": 48.6984,
+      "entry_zone_high": 50.428799999999995,
+      "invalid_below_price": 46.4736,
+      "target_price": 55.372800000000005,
+      "risk_reward_ratio": 2.0000000000000018,
+      "size_pct": 0.07,
+      "authorized": true,
+      "opt_score": 76,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 4,
+        "total_value_usd": 9285694,
+        "first_buy": "2026-07-31",
+        "last_buy": "2026-08-04",
+        "stale_days": 3,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 3,
+          "sec_edgar": 1
+        },
+        "insiders": [
+          {
+            "name": "HABIGER DAVID C",
+            "title": "Director",
+            "shares": 1042,
+            "value_usd": 50084,
+            "date": "2026-08-03",
+            "source": "dataroma"
+          },
+          {
+            "name": "MAHONEY MICHAEL F",
+            "title": "Chairman, President & CEO",
+            "shares": 186240,
+            "value_usd": 9001408,
+            "date": "2026-08-03",
+            "source": "dataroma"
+          },
+          {
+            "name": "LUDWIG EDWARD J",
+            "title": "Director",
+            "shares": 5000,
+            "value_usd": 227400,
+            "date": "2026-07-31",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 65.08069974061476,
+        "volatility_20d": 0.3329246724581153
+      }
+    },
+    {
+      "ticker": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04 | fuentes: Dataroma 3 + SEC EDGAR 1",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 34.185,
+      "entry_zone_low": 33.672225000000005,
+      "entry_zone_high": 34.868700000000004,
+      "invalid_below_price": 32.1339,
+      "target_price": 38.287200000000006,
+      "risk_reward_ratio": 1.9999999999999967,
+      "size_pct": 0.07,
+      "authorized": true,
+      "opt_score": 66.9,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 4,
+        "total_value_usd": 652394,
+        "first_buy": "2026-08-03",
+        "last_buy": "2026-08-04",
+        "stale_days": 3,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 3,
+          "sec_edgar": 1
+        },
+        "insiders": [
+          {
+            "name": "MORRIS EDNA",
+            "title": "Director",
+            "shares": 1560,
+            "value_usd": 50606,
+            "date": "2026-08-04",
+            "source": "dataroma"
+          },
+          {
+            "name": "LAWTON III HARRY A",
+            "title": "President & CEO",
+            "shares": 2655,
+            "value_usd": 84694,
+            "date": "2026-08-04",
+            "source": "dataroma"
+          },
+          {
+            "name": "Hawaux Andre J",
+            "title": "Director",
+            "shares": 3150,
+            "value_usd": 100265,
+            "date": "2026-08-03",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 67.33456438740447,
+        "volatility_20d": 0.32890323619946676
+      }
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "sector": "Health Care",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 1,959,190 USD entre 2026-08-05 y 2026-08-05 | fuentes: Dataroma 2",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 26.475,
+      "entry_zone_low": 26.077875000000002,
+      "entry_zone_high": 27.0045,
+      "invalid_below_price": 24.8865,
+      "target_price": 29.652000000000005,
+      "risk_reward_ratio": 2.000000000000002,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 57.2,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1959190,
+        "first_buy": "2026-08-05",
+        "last_buy": "2026-08-05",
+        "stale_days": 2,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 2
+        },
+        "insiders": [
+          {
+            "name": "BLAYLOCK RONALD E",
+            "title": "Director",
+            "shares": 39231,
+            "value_usd": 998821,
+            "date": "2026-08-05",
+            "source": "dataroma"
+          },
+          {
+            "name": "BUCKLEY MORTIMER J",
+            "title": "Director",
+            "shares": 37632,
+            "value_usd": 960369,
+            "date": "2026-08-05",
+            "source": "dataroma"
+          }
+        ],
+        "rsi14": 72.71286933423562,
+        "volatility_20d": 0.17039824472455403
+      }
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 850,450 USD entre 2026-07-31 y 2026-08-04 | fuentes: Dataroma 1 + SEC EDGAR 1 | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 110.01,
+      "entry_zone_low": 108.35985000000001,
+      "entry_zone_high": 112.2102,
+      "invalid_below_price": 103.4094,
+      "target_price": 123.21120000000002,
+      "risk_reward_ratio": 2.0000000000000018,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 49,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 850450,
+        "first_buy": "2026-07-31",
+        "last_buy": "2026-08-04",
+        "stale_days": 3,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 1,
+          "sec_edgar": 1
+        },
+        "insiders": [
+          {
+            "name": "MAHONEY CHRISTOPHER",
+            "title": "Director",
+            "shares": 1500,
+            "value_usd": 161400,
+            "date": "2026-08-04",
+            "source": "dataroma"
+          },
+          {
+            "name": "Mahoney Christopher",
+            "title": "Director",
+            "shares": 6500,
+            "value_usd": 689050,
+            "date": "2026-07-31",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 44.07121010753549,
+        "volatility_20d": 0.39409643843382336
+      }
+    },
+    {
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "7 insiders compraron 29,163,646 USD entre 2026-05-07 y 2026-06-01 | fuentes: SEC EDGAR 7 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 19.155,
+      "entry_zone_low": 18.867675000000002,
+      "entry_zone_high": 19.5381,
+      "invalid_below_price": 17.640619678716998,
+      "target_price": 22.183760642566007,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 80,
+      "meta": {
+        "insider_count": 7,
+        "buy_count": 7,
+        "total_value_usd": 29163646,
+        "first_buy": "2026-05-07",
+        "last_buy": "2026-06-01",
+        "stale_days": 67,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 7
+        },
+        "insiders": [
+          {
+            "name": "PAGLIUCA STEPHEN G",
+            "title": "Director",
+            "shares": 1380000,
+            "value_usd": 24992300,
+            "date": "2026-06-01",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "CHIDSEY JOHN",
+            "title": "President and CEO",
+            "shares": 153000,
+            "value_usd": 2504610,
+            "date": "2026-05-22",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "COHEN JONATHAN Z",
+            "title": "Director",
+            "shares": 30000,
+            "value_usd": 474900,
+            "date": "2026-05-20",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Cil Jose E.",
+            "title": "Director",
+            "shares": 15000,
+            "value_usd": 225350,
+            "date": "2026-05-18",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "MacDonald Brian P",
+            "title": "Director",
+            "shares": 15000,
+            "value_usd": 248100,
+            "date": "2026-05-11",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Lansberry Kevin Allen",
+            "title": "Director",
+            "shares": 11400,
+            "value_usd": 196992,
+            "date": "2026-05-07",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Byng-Thorne Zillah",
+            "title": "Director",
+            "shares": 29467,
+            "value_usd": 521394,
+            "date": "2026-05-07",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 46.90151403941693,
+        "volatility_20d": 0.570466821454392
+      }
+    },
+    {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "6 insiders compraron 1,723,401 USD entre 2026-06-16 y 2026-06-17 | fuentes: SEC EDGAR 6 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 51.76,
+      "entry_zone_low": 50.983599999999996,
+      "entry_zone_high": 52.7952,
+      "invalid_below_price": 48.654399999999995,
+      "target_price": 57.9712,
+      "risk_reward_ratio": 2,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 78.8,
+      "meta": {
+        "insider_count": 6,
+        "buy_count": 6,
+        "total_value_usd": 1723401,
+        "first_buy": "2026-06-16",
+        "last_buy": "2026-06-17",
+        "stale_days": 51,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 6
+        },
+        "insiders": [
+          {
+            "name": "Todd Paul M",
+            "title": "Chief Financial Officer",
+            "shares": 10060,
+            "value_usd": 499982,
+            "date": "2026-06-17",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Mamilli Wafaa",
+            "title": "Director",
+            "shares": 2960,
+            "value_usd": 149746,
+            "date": "2026-06-17",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Rosman Adam L.",
+            "title": "Chief Admin. and Legal Officer",
+            "shares": 10150,
+            "value_usd": 500700,
+            "date": "2026-06-16",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Yarkoni Charlotte",
+            "title": "Director",
+            "shares": 2023,
+            "value_usd": 100118,
+            "date": "2026-06-16",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "DiSimone Harry",
+            "title": "Director",
+            "shares": 2088,
+            "value_usd": 101080,
+            "date": "2026-06-16",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Nixon Gordon M.",
+            "title": "Director",
+            "shares": 7500,
+            "value_usd": 371775,
+            "date": "2026-06-16",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 47.13383714553038,
+        "volatility_20d": 0.38176944581480504
+      }
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "4 insiders compraron 2,165,173 USD entre 2026-05-29 y 2026-06-23 | fuentes: SEC EDGAR 4 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 248.545,
+      "entry_zone_low": 244.816825,
+      "entry_zone_high": 253.5159,
+      "invalid_below_price": 232.46703692701635,
+      "target_price": 280.7009261459673,
+      "risk_reward_ratio": 2.0000000000000004,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 70,
+      "meta": {
+        "insider_count": 4,
+        "buy_count": 4,
+        "total_value_usd": 2165173,
+        "first_buy": "2026-05-29",
+        "last_buy": "2026-06-23",
+        "stale_days": 45,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 4
+        },
+        "insiders": [
+          {
+            "name": "CAHILL JOHN T",
+            "title": "Director",
+            "shares": 2000,
+            "value_usd": 378400,
+            "date": "2026-06-23",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Anagnost Andrew",
+            "title": "President and CEO",
+            "shares": 2460,
+            "value_usd": 498544,
+            "date": "2026-06-16",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Moorjani Janesh",
+            "title": "EVP, Chief Financial Officer",
+            "shares": 2500,
+            "value_usd": 494175,
+            "date": "2026-06-15",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Smith Stacy J",
+            "title": "Director",
+            "shares": 3435,
+            "value_usd": 794054,
+            "date": "2026-05-29",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 68.77924937951107,
+        "volatility_20d": 0.4667706986983648
+      }
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare",
+      "sector": "Health Care",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "5 insiders compraron 5,866,936 USD entre 2026-05-06 y 2026-05-22 | fuentes: SEC EDGAR 5 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 70.96,
+      "entry_zone_low": 69.89559999999999,
+      "entry_zone_high": 72.3792,
+      "invalid_below_price": 65.09599608448478,
+      "target_price": 82.68800783103042,
+      "risk_reward_ratio": 1.999999999999999,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 70,
+      "meta": {
+        "insider_count": 5,
+        "buy_count": 5,
+        "total_value_usd": 5866936,
+        "first_buy": "2026-05-06",
+        "last_buy": "2026-05-22",
+        "stale_days": 77,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 5
+        },
+        "insiders": [
+          {
+            "name": "Lobo Kevin",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 641800,
+            "date": "2026-05-22",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Hochman Rodney F",
+            "title": "Director",
+            "shares": 1618,
+            "value_usd": 100365,
+            "date": "2026-05-12",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Yang Watkin Phoebe L.",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 63006,
+            "date": "2026-05-08",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "CULP H LAWRENCE JR",
+            "title": "Director",
+            "shares": 80805,
+            "value_usd": 5000076,
+            "date": "2026-05-06",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Stromberg William J",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 61689,
+            "date": "2026-05-06",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 63.24851141727398,
+        "volatility_20d": 0.5962909724132265
+      }
+    },
+    {
+      "ticker": "TKO",
+      "name": "TKO Group Holdings",
+      "sector": "Communication Services",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "4 insiders compraron 5,487,494 USD entre 2026-05-13 y 2026-05-14 | fuentes: SEC EDGAR 4 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 188.24,
+      "entry_zone_low": 185.4164,
+      "entry_zone_high": 192.00480000000002,
+      "invalid_below_price": 176.94559999999998,
+      "target_price": 210.82880000000003,
+      "risk_reward_ratio": 1.9999999999999976,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 70,
+      "meta": {
+        "insider_count": 4,
+        "buy_count": 4,
+        "total_value_usd": 5487494,
+        "first_buy": "2026-05-13",
+        "last_buy": "2026-05-14",
+        "stale_days": 85,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 4
+        },
+        "insiders": [
+          {
+            "name": "KRAFT JONATHAN",
+            "title": "Director",
+            "shares": 5200,
+            "value_usd": 987797,
+            "date": "2026-05-14",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Emanuel Ariel",
+            "title": "Chief Executive Officer",
+            "shares": 10805,
+            "value_usd": 1999875,
+            "date": "2026-05-13",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "SHAPIRO MARK S",
+            "title": "See Remarks",
+            "shares": 10807,
+            "value_usd": 1999868,
+            "date": "2026-05-13",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Schleimer Andrew M",
+            "title": "Chief Financial Officer",
+            "shares": 2696,
+            "value_usd": 499953,
+            "date": "2026-05-13",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 51.6934257381216,
+        "volatility_20d": 0.1967960182546694
+      }
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "sector": "Real Estate",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "11 insiders compraron 533,051 USD entre 2026-06-30 y 2026-06-30 | fuentes: SEC EDGAR 11 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 222.18,
+      "entry_zone_low": 218.8473,
+      "entry_zone_high": 226.6236,
+      "invalid_below_price": 208.8492,
+      "target_price": 248.84160000000003,
+      "risk_reward_ratio": 2.0000000000000004,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 59.2,
+      "meta": {
+        "insider_count": 11,
+        "buy_count": 11,
+        "total_value_usd": 533051,
+        "first_buy": "2026-06-30",
+        "last_buy": "2026-06-30",
+        "stale_days": 38,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 11
+        },
+        "insiders": [
+          {
+            "name": "SELIG STEFAN M",
+            "title": "Director",
+            "shares": 220,
+            "value_usd": 49120,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Roe Peggy",
+            "title": "Director",
+            "shares": 89,
+            "value_usd": 19861,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "LEIBOWITZ REUBEN S",
+            "title": "Director",
+            "shares": 508,
+            "value_usd": 113475,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "GLASSCOCK LARRY C",
+            "title": "Director",
+            "shares": 397,
+            "value_usd": 88682,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Cicco Martin J",
+            "title": "Director",
+            "shares": 15,
+            "value_usd": 3348,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "STEWART MARTA R",
+            "title": "Director",
+            "shares": 182,
+            "value_usd": 40614,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Smith Daniel C.",
+            "title": "Director",
+            "shares": 372,
+            "value_usd": 83070,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "RODKIN GARY M",
+            "title": "Director",
+            "shares": 256,
+            "value_usd": 57175,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "LEWIS RANDALL J",
+            "title": "Director",
+            "shares": 62,
+            "value_usd": 13836,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Jones Nina P",
+            "title": "Director",
+            "shares": 43,
+            "value_usd": 9596,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Aeppel Glyn",
+            "title": "Director",
+            "shares": 243,
+            "value_usd": 54275,
+            "date": "2026-06-30",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 45.001621969453396,
+        "volatility_20d": 0.1953617835252857
+      }
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab",
+      "sector": "Materials",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "3 insiders compraron 2,513,981 USD entre 2026-05-13 y 2026-06-11 | fuentes: SEC EDGAR 3 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 285.02,
+      "entry_zone_low": 280.74469999999997,
+      "entry_zone_high": 290.7204,
+      "invalid_below_price": 267.9188,
+      "target_price": 319.2224,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 50,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 2513981,
+        "first_buy": "2026-05-13",
+        "last_buy": "2026-06-11",
+        "stale_days": 57,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 3
+        },
+        "insiders": [
+          {
+            "name": "Clark Benjamin M.",
+            "title": "EVP - Global Supply Chain",
+            "shares": 1000,
+            "value_usd": 263831,
+            "date": "2026-06-11",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Doukeris Michel D",
+            "title": "Director",
+            "shares": 7750,
+            "value_usd": 1999500,
+            "date": "2026-06-10",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "MacLennan David",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 250650,
+            "date": "2026-05-13",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 60.797811528637446,
+        "volatility_20d": 0.2412161000269428
+      }
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Care",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 1,368,280 USD entre 2026-07-17 y 2026-07-17 | fuentes: SEC EDGAR 2 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 394.258,
+      "entry_zone_low": 388.34412999999995,
+      "entry_zone_high": 402.14315999999997,
+      "invalid_below_price": 370.13034462457694,
+      "target_price": 442.5133107508461,
+      "risk_reward_ratio": 2,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 46.9,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1368280,
+        "first_buy": "2026-07-17",
+        "last_buy": "2026-07-17",
+        "stale_days": 21,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 2
+        },
+        "insiders": [
+          {
+            "name": "PERU RAMIRO G",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 366050,
+            "date": "2026-07-17",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "BOUDREAUX GAIL",
+            "title": "President and CEO",
+            "shares": 2725,
+            "value_usd": 1002230,
+            "date": "2026-07-17",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 53.14205068688452,
+        "volatility_20d": 0.44158284798122605
+      }
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "3 insiders compraron 886,367 USD entre 2026-05-11 y 2026-05-13 | fuentes: SEC EDGAR 3 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 73.06,
+      "entry_zone_low": 71.9641,
+      "entry_zone_high": 74.52120000000001,
+      "invalid_below_price": 68.6764,
+      "target_price": 81.8272,
+      "risk_reward_ratio": 2.0000000000000013,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 43.4,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 886367,
+        "first_buy": "2026-05-11",
+        "last_buy": "2026-05-13",
+        "stale_days": 86,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 3
+        },
+        "insiders": [
+          {
+            "name": "DAMELIO FRANK A",
+            "title": "Director",
+            "shares": 6650,
+            "value_usd": 501344,
+            "date": "2026-05-13",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Bisaro Paul",
+            "title": "Director",
+            "shares": 2000,
+            "value_usd": 151750,
+            "date": "2026-05-13",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "MCCALLISTER MICHAEL B",
+            "title": "Director",
+            "shares": 3000,
+            "value_usd": 233273,
+            "date": "2026-05-11",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 41.3473245200657,
+        "volatility_20d": 0.333627288631629
+      }
+    },
+    {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 2,505,138 USD entre 2026-05-18 y 2026-05-27 | fuentes: SEC EDGAR 2 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 136.9,
+      "entry_zone_low": 134.8465,
+      "entry_zone_high": 139.638,
+      "invalid_below_price": 126.53172747518289,
+      "target_price": 157.63654504963424,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 40,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 2505138,
+        "first_buy": "2026-05-18",
+        "last_buy": "2026-05-27",
+        "stale_days": 72,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 2
+        },
+        "insiders": [
+          {
+            "name": "NELMS DAVID W",
+            "title": "Director",
+            "shares": 18000,
+            "value_usd": 2005740,
+            "date": "2026-05-27",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "LEAHY CHRISTINE A",
+            "title": "See Remarks",
+            "shares": 4830,
+            "value_usd": 499398,
+            "date": "2026-05-18",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 48.07331435959274,
+        "volatility_20d": 0.5464878934725386
+      }
+    },
+    {
+      "ticker": "COR",
+      "name": "Cencora",
+      "sector": "Health Care",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 2,310,427 USD entre 2026-05-28 y 2026-06-22 | fuentes: SEC EDGAR 3 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 321.7,
+      "entry_zone_low": 316.8745,
+      "entry_zone_high": 328.134,
+      "invalid_below_price": 302.39799999999997,
+      "target_price": 360.30400000000003,
+      "risk_reward_ratio": 1.9999999999999996,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 40,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 3,
+        "total_value_usd": 2310427,
+        "first_buy": "2026-05-28",
+        "last_buy": "2026-06-22",
+        "stale_days": 46,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 3
+        },
+        "insiders": [
+          {
+            "name": "Tyler Lauren M",
+            "title": "Director",
+            "shares": 550,
+            "value_usd": 148627,
+            "date": "2026-06-22",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "DURCAN DERMOT MARK",
+            "title": "Director",
+            "shares": 4000,
+            "value_usd": 1065040,
+            "date": "2026-05-28",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 63.42408221824294,
+        "volatility_20d": 0.27942652018059155
+      }
+    },
+    {
+      "ticker": "J",
+      "name": "Jacobs Solutions",
+      "sector": "Industrials",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 477,650 USD entre 2026-05-08 y 2026-05-15 | fuentes: SEC EDGAR 3 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 146.193,
+      "entry_zone_low": 144.00010500000002,
+      "entry_zone_high": 149.11686,
+      "invalid_below_price": 137.42142,
+      "target_price": 163.73616000000004,
+      "risk_reward_ratio": 2.0000000000000018,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 38.4,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 3,
+        "total_value_usd": 477650,
+        "first_buy": "2026-05-08",
+        "last_buy": "2026-05-15",
+        "stale_days": 84,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 3
+        },
+        "insiders": [
+          {
+            "name": "PRAGADA ROBERT V",
+            "title": "Chair &amp; CEO",
+            "shares": 3601,
+            "value_usd": 400035,
+            "date": "2026-05-15",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Fernandez Manuel J",
+            "title": "Director",
+            "shares": 403,
+            "value_usd": 49137,
+            "date": "2026-05-08",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 70.36317665357201,
+        "volatility_20d": 0.2864168038423476
+      }
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy",
+      "sector": "Energy",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 368,020 USD entre 2026-06-04 y 2026-06-12 | fuentes: SEC EDGAR 3 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 93.605,
+      "entry_zone_low": 92.200925,
+      "entry_zone_high": 95.47710000000001,
+      "invalid_below_price": 87.9887,
+      "target_price": 104.83760000000001,
+      "risk_reward_ratio": 1.9999999999999984,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 36.2,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 3,
+        "total_value_usd": 368020,
+        "first_buy": "2026-06-04",
+        "last_buy": "2026-06-12",
+        "stale_days": 56,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 3
+        },
+        "insiders": [
+          {
+            "name": "Wichterich Michael",
+            "title": "Interim President and CEO",
+            "shares": 1000,
+            "value_usd": 93360,
+            "date": "2026-06-04",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Teunissen Marcel",
+            "title": "EVP &amp; CFO",
+            "shares": 2000,
+            "value_usd": 185760,
+            "date": "2026-06-04",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 56.965895278491175,
+        "volatility_20d": 0.3170130469463063
+      }
+    },
+    {
+      "ticker": "JKHY",
+      "name": "Jack Henry & Associates",
+      "sector": "Financials",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 317,135 USD entre 2026-05-14 y 2026-05-14 | fuentes: SEC EDGAR 2 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 155.67,
+      "entry_zone_low": 153.33495,
+      "entry_zone_high": 158.7834,
+      "invalid_below_price": 146.32979999999998,
+      "target_price": 174.3504,
+      "risk_reward_ratio": 1.9999999999999996,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 35,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 317135,
+        "first_buy": "2026-05-14",
+        "last_buy": "2026-05-14",
+        "stale_days": 85,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 2
+        },
+        "insiders": [
+          {
+            "name": "Adelson Gregory R.",
+            "title": "President &amp; CEO",
+            "shares": 2000,
+            "value_usd": 266840,
+            "date": "2026-05-14",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "Carsley Mimi",
+            "title": "CFO and Treasurer",
+            "shares": 375,
+            "value_usd": 50295,
+            "date": "2026-05-14",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 58.0377980318139,
+        "volatility_20d": 0.3480916596514339
+      }
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "sector": "Health Care",
+      "strategy": "insider_total",
+      "family": "INSIDER_TOTAL_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 897,883 USD entre 2026-06-03 y 2026-06-03 | fuentes: SEC EDGAR 2 | bootstrap cartera insider total | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 140.28,
+      "entry_zone_low": 138.1758,
+      "entry_zone_high": 143.0856,
+      "invalid_below_price": 124.8492,
+      "target_price": 171.1416,
+      "risk_reward_ratio": 1.9999999999999993,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 33.5,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 897883,
+        "first_buy": "2026-06-03",
+        "last_buy": "2026-06-03",
+        "stale_days": 65,
+        "bootstrap_signal": true,
+        "sources": {
+          "sec_edgar": 2
+        },
+        "insiders": [
+          {
+            "name": "STONESIFER TIMOTHY C.",
+            "title": "Director",
+            "shares": 2790,
+            "value_usd": 400393,
+            "date": "2026-06-03",
+            "source": "sec_edgar"
+          },
+          {
+            "name": "WEATHERMAN ELIZABETH H",
+            "title": "Director",
+            "shares": 3450,
+            "value_usd": 497490,
+            "date": "2026-06-03",
+            "source": "sec_edgar"
+          }
+        ],
+        "rsi14": 36.83716127997552,
+        "volatility_20d": 0.8026050281356784
+      }
+    }
+  ],
+  "watch": [],
+  "diagnostics": {
+    "universe_source": "wikipedia",
+    "universe_count": 503,
+    "scanned_universe_count": 503,
+    "elapsed_ms": 12149,
+    "cache_only": true,
+    "bootstrap_signals": true,
+    "companies_with_sec_buys": 67,
+    "companies_with_dataroma_buys": 35,
+    "companies_with_buys": 74,
+    "clusters_found": 19,
+    "signals_fresh": 3,
+    "portfolio_entry_count": 3,
+    "price_download_failed": 0,
+    "dataroma_ok": true,
+    "filings_seen": 0,
+    "filings_fetched": 0,
+    "missing_cik": 0,
+    "scanned": 0,
+    "accessions_cached": 7962,
+    "buy_rows_cached": 123,
+    "tickers_with_cached_buys": 67,
+    "dataroma_url": "https://dataroma.com/m/ins/ins.php",
+    "dataroma_timeframe": "y",
+    "dataroma_since_date": "2026-05-09",
+    "dataroma_pages_fetched": 25,
+    "dataroma_rows_raw": 2256,
+    "dataroma_rows_after_filters": 124,
+    "dataroma_pages": [
+      {
+        "page": 1,
+        "url": "https://dataroma.com/m/ins/ins.php?L=1&po=1&t=y",
+        "raw_rows": 90,
+        "rows_after_filters": 15,
+        "newest": "2026-08-06",
+        "oldest": "2026-06-04"
+      },
+      {
+        "page": 2,
+        "url": "https://dataroma.com/m/ins/ins.php?L=2&po=1&t=y",
+        "raw_rows": 92,
+        "rows_after_filters": 8,
+        "newest": "2026-08-04",
+        "oldest": "2026-04-13"
+      },
+      {
+        "page": 3,
+        "url": "https://dataroma.com/m/ins/ins.php?L=3&po=1&t=y",
+        "raw_rows": 90,
+        "rows_after_filters": 3,
+        "newest": "2026-08-03",
+        "oldest": "2026-03-25"
+      },
+      {
+        "page": 4,
+        "url": "https://dataroma.com/m/ins/ins.php?L=4&po=1&t=y",
+        "raw_rows": 83,
+        "rows_after_filters": 4,
+        "newest": "2026-07-30",
+        "oldest": "2026-02-25"
+      },
+      {
+        "page": 5,
+        "url": "https://dataroma.com/m/ins/ins.php?L=5&po=1&t=y",
+        "raw_rows": 87,
+        "rows_after_filters": 2,
+        "newest": "2026-07-28",
+        "oldest": "2026-01-22"
+      },
+      {
+        "page": 6,
+        "url": "https://dataroma.com/m/ins/ins.php?L=6&po=1&t=y",
+        "raw_rows": 90,
+        "rows_after_filters": 3,
+        "newest": "2026-07-24",
+        "oldest": "2025-03-07"
+      },
+      {
+        "page": 7,
+        "url": "https://dataroma.com/m/ins/ins.php?L=7&po=1&t=y",
+        "raw_rows": 94,
+        "rows_after_filters": 2,
+        "newest": "2026-07-22",
+        "oldest": "2025-03-07"
+      },
+      {
+        "page": 8,
+        "url": "https://dataroma.com/m/ins/ins.php?L=8&po=1&t=y",
+        "raw_rows": 83,
+        "rows_after_filters": 7,
+        "newest": "2026-07-20",
+        "oldest": "2026-06-25"
+      },
+      {
+        "page": 9,
+        "url": "https://dataroma.com/m/ins/ins.php?L=9&po=1&t=y",
+        "raw_rows": 99,
+        "rows_after_filters": 1,
+        "newest": "2026-07-15",
+        "oldest": "2024-12-27"
+      },
+      {
+        "page": 10,
+        "url": "https://dataroma.com/m/ins/ins.php?L=10&po=1&t=y",
+        "raw_rows": 80,
+        "rows_after_filters": 2,
+        "newest": "2026-07-13",
+        "oldest": "2026-05-15"
+      },
+      {
+        "page": 11,
+        "url": "https://dataroma.com/m/ins/ins.php?L=11&po=1&t=y",
+        "raw_rows": 98,
+        "rows_after_filters": 2,
+        "newest": "2026-07-10",
+        "oldest": "2026-06-26"
+      },
+      {
+        "page": 12,
+        "url": "https://dataroma.com/m/ins/ins.php?L=12&po=1&t=y",
+        "raw_rows": 93,
+        "rows_after_filters": 2,
+        "newest": "2026-07-08",
+        "oldest": "2025-06-29"
+      },
+      {
+        "page": 13,
+        "url": "https://dataroma.com/m/ins/ins.php?L=13&po=1&t=y",
+        "raw_rows": 93,
+        "rows_after_filters": 1,
+        "newest": "2026-07-02",
+        "oldest": "2026-05-19"
+      },
+      {
+        "page": 14,
+        "url": "https://dataroma.com/m/ins/ins.php?L=14&po=1&t=y",
+        "raw_rows": 85,
+        "rows_after_filters": 8,
+        "newest": "2026-07-02",
+        "oldest": "2026-01-12"
+      },
+      {
+        "page": 15,
+        "url": "https://dataroma.com/m/ins/ins.php?L=15&po=1&t=y",
+        "raw_rows": 74,
+        "rows_after_filters": 23,
+        "newest": "2026-07-01",
+        "oldest": "2026-06-17"
+      },
+      {
+        "page": 16,
+        "url": "https://dataroma.com/m/ins/ins.php?L=16&po=1&t=y",
+        "raw_rows": 96,
+        "rows_after_filters": 4,
+        "newest": "2026-06-30",
+        "oldest": "2026-05-11"
+      },
+      {
+        "page": 17,
+        "url": "https://dataroma.com/m/ins/ins.php?L=17&po=1&t=y",
+        "raw_rows": 84,
+        "rows_after_filters": 3,
+        "newest": "2026-06-29",
+        "oldest": "2026-03-13"
+      },
+      {
+        "page": 18,
+        "url": "https://dataroma.com/m/ins/ins.php?L=18&po=1&t=y",
+        "raw_rows": 96,
+        "rows_after_filters": 5,
+        "newest": "2026-06-25",
+        "oldest": "2026-05-06"
+      },
+      {
+        "page": 19,
+        "url": "https://dataroma.com/m/ins/ins.php?L=19&po=1&t=y",
+        "raw_rows": 91,
+        "rows_after_filters": 2,
+        "newest": "2026-06-23",
+        "oldest": "2026-02-27"
+      },
+      {
+        "page": 20,
+        "url": "https://dataroma.com/m/ins/ins.php?L=20&po=1&t=y",
+        "raw_rows": 82,
+        "rows_after_filters": 4,
+        "newest": "2026-06-22",
+        "oldest": "2025-05-25"
+      },
+      {
+        "page": 21,
+        "url": "https://dataroma.com/m/ins/ins.php?L=21&po=1&t=y",
+        "raw_rows": 96,
+        "rows_after_filters": 5,
+        "newest": "2026-06-17",
+        "oldest": "2022-09-06"
+      },
+      {
+        "page": 22,
+        "url": "https://dataroma.com/m/ins/ins.php?L=22&po=1&t=y",
+        "raw_rows": 95,
+        "rows_after_filters": 9,
+        "newest": "2026-06-16",
+        "oldest": "2026-06-11"
+      },
+      {
+        "page": 23,
+        "url": "https://dataroma.com/m/ins/ins.php?L=23&po=1&t=y",
+        "raw_rows": 94,
+        "rows_after_filters": 5,
+        "newest": "2026-06-15",
+        "oldest": "2025-12-31"
+      },
+      {
+        "page": 24,
+        "url": "https://dataroma.com/m/ins/ins.php?L=24&po=1&t=y",
+        "raw_rows": 98,
+        "rows_after_filters": 3,
+        "newest": "2026-06-15",
+        "oldest": "2026-05-12"
+      },
+      {
+        "page": 25,
+        "url": "https://dataroma.com/m/ins/ins.php?L=25&po=1&t=y",
+        "raw_rows": 93,
+        "rows_after_filters": 1,
+        "newest": "2026-06-11",
+        "oldest": "2025-08-05"
+      }
+    ],
+    "sec_buy_rows": 123,
+    "dataroma_buy_rows_added": 55,
+    "dataroma_duplicates": 69
+  },
+  "extra": {
+    "rules": {
+      "lookback_days": 90,
+      "cluster_window_days": 30,
+      "min_cluster_insiders": 2,
+      "min_cluster_value_usd": 50000,
+      "signal_fresh_days": 15,
+      "bootstrap_signal_fresh_days": 120,
+      "max_new_buys_per_day": 3,
+      "max_buys_per_sector_per_day": 2,
+      "dataroma_timeframe": "y",
+      "dataroma_max_pages": 25,
+      "note": "Combina compras SEC EDGAR (formulario 4, codigo P) y compras publicadas por Dataroma; filtra al universo S&P 500."
+    }
+  }
+}

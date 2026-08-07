@@ -217,6 +217,10 @@ function usesPaperPortfolio(data) {
   return Boolean(data.paperPortfolio && data.meta.workspace?.id && data.meta.workspace.id !== "momentum");
 }
 
+function workspaceShortLabel(data, fallback = "Paper") {
+  return data.meta.workspace?.short || data.meta.workspace?.label || fallback;
+}
+
 function paperPortfolioStats(paper = {}) {
   const positions = paper.open_positions || [];
   const marketValue = positions.reduce((sum, row) => sum + Number(row.qty || 0) * Number(row.last_price || row.entry_price || 0), 0);
@@ -359,6 +363,7 @@ function Dashboard({ data, onSelect }) {
   const summary = data.portfolioSummary || initialData.portfolioSummary;
   const paper = data.paperPortfolio ? paperPortfolioStats(data.paperPortfolio) : null;
   const showPaper = usesPaperPortfolio(data);
+  const paperLabel = workspaceShortLabel(data, "Paper");
   const executable = dashboard.portfolio_entry_count ?? data.buyToday.filter((item) => item.action.includes("COMPRAR")).length;
   const technical = dashboard.technical_entry_count ?? data.technicalEntries.length;
   const candidates = dashboard.candidates_total ?? data.buyToday.length + data.watchlist.length;
@@ -373,7 +378,7 @@ function Dashboard({ data, onSelect }) {
       <div className="kpi-grid">
         <MetricCard
           icon={Briefcase}
-          label={showPaper ? "Cartera insiders" : "Cartera abierta"}
+          label={showPaper ? `Cartera ${paperLabel}` : "Cartera abierta"}
           value={showPaper ? paper.openPositions : summary.open_positions || 0}
           detail={showPaper ? `${usd(paper.marketValue)} valor actual` : `${money(summary.market_value || 0)} valor actual`}
         />
@@ -412,6 +417,7 @@ function Dashboard({ data, onSelect }) {
 function PortfolioView({ data, onSelect }) {
   if (usesPaperPortfolio(data)) {
     const paper = paperPortfolioStats(data.paperPortfolio);
+    const paperLabel = workspaceShortLabel(data, "Paper");
     return (
       <section className="page-stack">
         <div className="kpi-grid">
@@ -421,8 +427,8 @@ function PortfolioView({ data, onSelect }) {
           <MetricCard icon={CalendarDays} label="Ultimo tracking" value={data.paperPortfolio.last_tracked_date || "-"} detail={`${data.paperPortfolio.tracked_days || 0} dias registrados`} />
         </div>
 
-        <Panel title="Cartera insiders abierta" right={<span className="panel-note">Paper trading del workspace Insiders</span>}>
-          <PaperPortfolioTable rows={data.paperPortfolio.open_positions || []} />
+        <Panel title={`Cartera ${paperLabel} abierta`} right={<span className="panel-note">Paper trading del workspace</span>}>
+          <PaperPortfolioTable rows={data.paperPortfolio.open_positions || []} label={paperLabel} />
         </Panel>
       </section>
     );
@@ -448,17 +454,18 @@ function PortfolioView({ data, onSelect }) {
 function HistoryView({ data }) {
   if (usesPaperPortfolio(data)) {
     const paper = paperPortfolioStats(data.paperPortfolio);
+    const paperLabel = workspaceShortLabel(data, "Paper");
     return (
       <section className="page-stack">
         <div className="kpi-grid">
-          <MetricCard icon={History} label="Operaciones cerradas" value={data.paperPortfolio.closed_trades || 0} detail="Paper trading insiders" />
+          <MetricCard icon={History} label="Operaciones cerradas" value={data.paperPortfolio.closed_trades || 0} detail={`Paper trading ${paperLabel}`} />
           <MetricCard icon={TrendingUp} label="P&L abierto" value={usd(paper.openPnl)} detail={pct(paper.openPnlPct * 100)} tone={paper.openPnl >= 0 ? "good" : "bad"} />
           <MetricCard icon={Activity} label="Equity" value={usd(data.paperPortfolio.equity || 0)} detail={`Inicial ${usd(data.paperPortfolio.initial_equity || 0)}`} />
           <MetricCard icon={CalendarDays} label="Ultimo tracking" value={data.paperPortfolio.last_tracked_date || "-"} detail={`${data.paperPortfolio.tracked_days || 0} dias`} />
         </div>
 
-        <Panel title="Historico insiders">
-          <PaperClosedTradesTable rows={data.paperPortfolio.closed_trade_rows || []} />
+        <Panel title={`Historico ${paperLabel}`}>
+          <PaperClosedTradesTable rows={data.paperPortfolio.closed_trade_rows || []} label={paperLabel} />
         </Panel>
       </section>
     );
@@ -680,9 +687,9 @@ function PortfolioTable({ rows, onSelect }) {
   );
 }
 
-function PaperPortfolioTable({ rows }) {
+function PaperPortfolioTable({ rows, label = "insider" }) {
   if (!rows.length) {
-    return <EmptyState icon={Briefcase} title="Sin posiciones insider" detail="La cartera insider no tiene posiciones abiertas." />;
+    return <EmptyState icon={Briefcase} title={`Sin posiciones ${label}`} detail={`La cartera ${label} no tiene posiciones abiertas.`} />;
   }
 
   return (
@@ -730,9 +737,9 @@ function PaperPortfolioTable({ rows }) {
   );
 }
 
-function PaperClosedTradesTable({ rows }) {
+function PaperClosedTradesTable({ rows, label = "insider" }) {
   if (!rows.length) {
-    return <EmptyState icon={History} title="Sin operaciones cerradas" detail="La cartera insider todavia no ha cerrado operaciones." />;
+    return <EmptyState icon={History} title="Sin operaciones cerradas" detail={`La cartera ${label} todavia no ha cerrado operaciones.`} />;
   }
 
   return (

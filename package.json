@@ -2,7 +2,7 @@
   "name": "market-radar-vercel",
   "version": "2.0.0",
   "private": true,
-  "description": "Escaner de senales para el S&P 500 en Vercel, sin tokens de pago. Dos estrategias (momentum y compras de directivos) con paper trading y ranking.",
+  "description": "Escaner de senales para el S&P 500 en Vercel, sin tokens de pago. Estrategias momentum e insiders con paper trading y ranking.",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
@@ -10,9 +10,11 @@
     "scan": "node scripts/run-local.js",
     "scan:fast": "node scripts/run-local.js --maxSymbols=120",
     "scan:insider": "node scripts/run-local.js --workspace=insider",
+    "scan:insider-total": "node scripts/run-local.js --workspace=insider_total",
     "track": "node scripts/track.js",
     "track:momentum": "node scripts/track.js --workspace=momentum",
     "track:insider": "node scripts/track.js --workspace=insider",
+    "track:insider-total": "node scripts/track.js --workspace=insider_total",
     "vercel:dev": "vercel dev",
     "deploy": "vercel deploy --prod"
   },
