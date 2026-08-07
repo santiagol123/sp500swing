@@ -1,7 +1,7 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-08-07T01:03:33.266Z",
+  "updated_at": "2026-08-07T22:05:34.798Z",
   "initial_equity": 100000,
   "cash": 99490.5,
   "positions": [],
@@ -63,8 +63,14 @@
       "equity": 99490.5,
       "cash": 99490.5,
       "open_positions": 0
+    },
+    {
+      "date": "2026-08-07",
+      "equity": 99490.5,
+      "cash": 99490.5,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 5,
-  "last_market_date": "2026-08-06"
+  "tracked_days": 6,
+  "last_market_date": "2026-08-07"
 }

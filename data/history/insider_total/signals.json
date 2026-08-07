@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-07T17:47:39.350Z",
+  "computed_at": "2026-08-07T22:07:55.515Z",
   "market_date": "2026-08-07",
   "signals": [
     {
@@ -9,38 +9,29 @@
       "strategy": "insider_total",
       "family": "INSIDER_TOTAL_CLUSTER",
       "action": "COMPRAR_LIMITADA",
-      "reason": "4 insiders compraron 9,292,496 USD entre 2026-07-31 y 2026-08-04 | fuentes: Dataroma 1 + SEC EDGAR 3",
+      "reason": "3 insiders compraron 9,385,631 USD entre 2026-07-31 y 2026-08-05 | fuentes: SEC EDGAR 4",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 49.39,
-      "entry_zone_low": 48.64915,
-      "entry_zone_high": 50.3778,
-      "invalid_below_price": 46.4266,
-      "target_price": 55.31680000000001,
-      "risk_reward_ratio": 2.0000000000000018,
+      "last_close": 49.31,
+      "entry_zone_low": 48.570350000000005,
+      "entry_zone_high": 50.296200000000006,
+      "invalid_below_price": 46.3514,
+      "target_price": 55.22720000000001,
+      "risk_reward_ratio": 1.9999999999999991,
       "size_pct": 0.07,
       "authorized": true,
-      "opt_score": 86,
+      "opt_score": 77.3,
       "meta": {
-        "insider_count": 4,
+        "insider_count": 3,
         "buy_count": 4,
-        "total_value_usd": 9292496,
+        "total_value_usd": 9385631,
         "first_buy": "2026-07-31",
-        "last_buy": "2026-08-04",
-        "stale_days": 3,
+        "last_buy": "2026-08-05",
+        "stale_days": 2,
         "bootstrap_signal": false,
         "sources": {
-          "dataroma": 1,
-          "sec_edgar": 3
+          "sec_edgar": 4
         },
         "insiders": [
-          {
-            "name": "HABIGER DAVID C",
-            "title": "Director",
-            "shares": 140,
-            "value_usd": 6802,
-            "date": "2026-08-04",
-            "source": "dataroma"
-          },
           {
             "name": "Habiger David C",
             "title": "Director",
@@ -66,8 +57,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 64.91659756051335,
-        "volatility_20d": 0.333038779981662
+        "rsi14": 64.6508015848265,
+        "volatility_20d": 0.3333021607071237
       }
     },
     {
@@ -79,12 +70,12 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04 | fuentes: SEC EDGAR 3",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 34.17,
-      "entry_zone_low": 33.657450000000004,
-      "entry_zone_high": 34.8534,
-      "invalid_below_price": 32.1198,
-      "target_price": 38.2704,
-      "risk_reward_ratio": 1.9999999999999982,
+      "last_close": 34.56,
+      "entry_zone_low": 34.0416,
+      "entry_zone_high": 35.251200000000004,
+      "invalid_below_price": 32.4864,
+      "target_price": 38.70720000000001,
+      "risk_reward_ratio": 2.0000000000000027,
       "size_pct": 0.07,
       "authorized": true,
       "opt_score": 66.9,
@@ -125,8 +116,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 67.27416244816825,
-        "volatility_20d": 0.32896461391155246
+        "rsi14": 68.77534487623221,
+        "volatility_20d": 0.32977802647960813
       }
     },
     {
@@ -138,12 +129,12 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "2 insiders compraron 1,959,190 USD entre 2026-08-05 y 2026-08-05 | fuentes: SEC EDGAR 2",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 26.485,
-      "entry_zone_low": 26.087725,
-      "entry_zone_high": 27.0147,
-      "invalid_below_price": 24.895899999999997,
-      "target_price": 29.663200000000003,
-      "risk_reward_ratio": 1.9999999999999993,
+      "last_close": 26.76,
+      "entry_zone_low": 26.358600000000003,
+      "entry_zone_high": 27.2952,
+      "invalid_below_price": 25.1544,
+      "target_price": 29.971200000000003,
+      "risk_reward_ratio": 1.9999999999999987,
       "size_pct": 0.1,
       "authorized": true,
       "opt_score": 57.2,
@@ -176,60 +167,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 72.7890068115305,
-        "volatility_20d": 0.17055226506632176
-      }
-    },
-    {
-      "ticker": "BG",
-      "name": "Bunge Global",
-      "sector": "Consumer Staples",
-      "strategy": "insider_total",
-      "family": "INSIDER_TOTAL_CLUSTER",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "2 insiders compraron 850,450 USD entre 2026-07-31 y 2026-08-04 | fuentes: Dataroma 1 + SEC EDGAR 1 | bloqueada por limite diario o de sector",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 109.84,
-      "entry_zone_low": 108.1924,
-      "entry_zone_high": 112.0368,
-      "invalid_below_price": 103.2496,
-      "target_price": 123.02080000000002,
-      "risk_reward_ratio": 2.0000000000000013,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 49,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 850450,
-        "first_buy": "2026-07-31",
-        "last_buy": "2026-08-04",
-        "stale_days": 3,
-        "bootstrap_signal": false,
-        "sources": {
-          "dataroma": 1,
-          "sec_edgar": 1
-        },
-        "insiders": [
-          {
-            "name": "MAHONEY CHRISTOPHER",
-            "title": "Director",
-            "shares": 1500,
-            "value_usd": 161400,
-            "date": "2026-08-04",
-            "source": "dataroma"
-          },
-          {
-            "name": "Mahoney Christopher",
-            "title": "Director",
-            "shares": 6500,
-            "value_usd": 689050,
-            "date": "2026-07-31",
-            "source": "sec_edgar"
-          }
-        ],
-        "rsi14": 43.71849214820777,
-        "volatility_20d": 0.39356367644880924
+        "rsi14": 74.72815431564797,
+        "volatility_20d": 0.1788038289836072
       }
     },
     {
@@ -241,12 +180,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-01, demasiado antiguo (67 dias > 15) | fuentes: SEC EDGAR 7",
       "plan": "Solo seguimiento",
-      "last_close": 19.155,
-      "entry_zone_low": 18.867675000000002,
-      "entry_zone_high": 19.5381,
-      "invalid_below_price": 17.640619678716998,
-      "target_price": 22.183760642566007,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 19.25,
+      "entry_zone_low": 18.96125,
+      "entry_zone_high": 19.635,
+      "invalid_below_price": 17.730611552613116,
+      "target_price": 22.28877689477377,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 80,
@@ -319,8 +258,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 46.90151403941693,
-        "volatility_20d": 0.570466821454392
+        "rsi14": 47.4865531303546,
+        "volatility_20d": 0.5695287806408842
       }
     },
     {
@@ -332,12 +271,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-17, demasiado antiguo (51 dias > 15) | fuentes: SEC EDGAR 6",
       "plan": "Solo seguimiento",
-      "last_close": 51.75,
-      "entry_zone_low": 50.97375,
-      "entry_zone_high": 52.785000000000004,
-      "invalid_below_price": 48.644999999999996,
-      "target_price": 57.96000000000001,
-      "risk_reward_ratio": 1.9999999999999993,
+      "last_close": 52.41,
+      "entry_zone_low": 51.62385,
+      "entry_zone_high": 53.4582,
+      "invalid_below_price": 49.26539999999999,
+      "target_price": 58.699200000000005,
+      "risk_reward_ratio": 1.9999999999999991,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 78.8,
@@ -402,8 +341,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 47.10421137694923,
-        "volatility_20d": 0.3820587479551844
+        "rsi14": 49.14285417918454,
+        "volatility_20d": 0.3650076311119189
       }
     },
     {
@@ -415,12 +354,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-23, demasiado antiguo (45 dias > 15) | fuentes: SEC EDGAR 4",
       "plan": "Solo seguimiento",
-      "last_close": 248.9,
-      "entry_zone_low": 245.1665,
-      "entry_zone_high": 253.87800000000001,
-      "invalid_below_price": 232.7753991195855,
-      "target_price": 281.14920176082904,
-      "risk_reward_ratio": 2.0000000000000013,
+      "last_close": 249.08,
+      "entry_zone_low": 245.34380000000002,
+      "entry_zone_high": 254.06160000000003,
+      "invalid_below_price": 232.9309778157862,
+      "target_price": 281.3780443684276,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -469,8 +408,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 68.9429124089895,
-        "volatility_20d": 0.46745699901110255
+        "rsi14": 69.02524266437874,
+        "volatility_20d": 0.467826656090356
       }
     },
     {
@@ -482,12 +421,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-14, demasiado antiguo (85 dias > 15) | fuentes: SEC EDGAR 4",
       "plan": "Solo seguimiento",
-      "last_close": 188.31,
-      "entry_zone_low": 185.48535,
-      "entry_zone_high": 192.0762,
-      "invalid_below_price": 177.01139999999998,
-      "target_price": 210.90720000000002,
-      "risk_reward_ratio": 1.999999999999998,
+      "last_close": 186.56,
+      "entry_zone_low": 183.7616,
+      "entry_zone_high": 190.2912,
+      "invalid_below_price": 175.3664,
+      "target_price": 208.9472,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -536,8 +475,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 51.79598658394444,
-        "volatility_20d": 0.19690042368951197
+        "rsi14": 49.13446819361863,
+        "volatility_20d": 0.19697267823135645
       }
     },
     {
@@ -549,11 +488,11 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-30, demasiado antiguo (38 dias > 15) | fuentes: SEC EDGAR 11",
       "plan": "Solo seguimiento",
-      "last_close": 222.41,
-      "entry_zone_low": 219.07385,
-      "entry_zone_high": 226.8582,
-      "invalid_below_price": 209.06539999999998,
-      "target_price": 249.09920000000002,
+      "last_close": 222.91,
+      "entry_zone_low": 219.56635,
+      "entry_zone_high": 227.3682,
+      "invalid_below_price": 209.53539999999998,
+      "target_price": 249.65920000000003,
       "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
@@ -659,8 +598,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 45.42412407776926,
-        "volatility_20d": 0.1954479987820842
+        "rsi14": 46.32058017585264,
+        "volatility_20d": 0.1958740077540601
       }
     },
     {
@@ -672,12 +611,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-11, demasiado antiguo (57 dias > 15) | fuentes: SEC EDGAR 3",
       "plan": "Solo seguimiento",
-      "last_close": 285.25,
-      "entry_zone_low": 280.97125,
-      "entry_zone_high": 290.955,
-      "invalid_below_price": 268.135,
-      "target_price": 319.48,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 285.17,
+      "entry_zone_low": 280.89245,
+      "entry_zone_high": 290.8734,
+      "invalid_below_price": 268.0598,
+      "target_price": 319.39040000000006,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 50,
@@ -718,8 +657,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 61.00154037452489,
-        "volatility_20d": 0.2413884042910179
+        "rsi14": 60.93091871201538,
+        "volatility_20d": 0.2413245875065352
       }
     },
     {
@@ -731,12 +670,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-07-17, demasiado antiguo (21 dias > 15) | fuentes: SEC EDGAR 2",
       "plan": "Solo seguimiento",
-      "last_close": 393.965,
-      "entry_zone_low": 388.055525,
-      "entry_zone_high": 401.8443,
-      "invalid_below_price": 369.8666658979244,
-      "target_price": 442.1616682041511,
-      "risk_reward_ratio": 1.9999999999999991,
+      "last_close": 394.2,
+      "entry_zone_low": 388.287,
+      "entry_zone_high": 402.084,
+      "invalid_below_price": 370.0782191057779,
+      "target_price": 442.44356178844413,
+      "risk_reward_ratio": 2.000000000000001,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 46.9,
@@ -769,8 +708,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 52.98608311230379,
-        "volatility_20d": 0.4413742271408899
+        "rsi14": 53.111258649114035,
+        "volatility_20d": 0.44154028937388196
       }
     },
     {
@@ -782,12 +721,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-13, demasiado antiguo (86 dias > 15) | fuentes: SEC EDGAR 3",
       "plan": "Solo seguimiento",
-      "last_close": 72.84,
-      "entry_zone_low": 71.7474,
-      "entry_zone_high": 74.2968,
-      "invalid_below_price": 68.4696,
-      "target_price": 81.58080000000001,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 72.66,
+      "entry_zone_low": 71.5701,
+      "entry_zone_high": 74.11319999999999,
+      "invalid_below_price": 68.3004,
+      "target_price": 81.3792,
+      "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 43.4,
@@ -828,8 +767,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 40.88507097404771,
-        "volatility_20d": 0.3397637573271335
+        "rsi14": 40.51448174182447,
+        "volatility_20d": 0.34492358594207917
       }
     },
     {
@@ -841,12 +780,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-22, demasiado antiguo (77 dias > 15) | fuentes: SEC EDGAR 3",
       "plan": "Solo seguimiento",
-      "last_close": 71.36,
-      "entry_zone_low": 70.2896,
-      "entry_zone_high": 72.7872,
-      "invalid_below_price": 65.45463380882009,
-      "target_price": 83.17073238235982,
-      "risk_reward_ratio": 1.999999999999999,
+      "last_close": 71.77,
+      "entry_zone_low": 70.69345,
+      "entry_zone_high": 73.2054,
+      "invalid_below_price": 65.81511759635458,
+      "target_price": 83.67976480729084,
+      "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 42.6,
@@ -887,8 +826,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 64.02056176235286,
-        "volatility_20d": 0.5971309497030705
+        "rsi14": 64.77895901288557,
+        "volatility_20d": 0.5986980351380162
       }
     },
     {
@@ -900,11 +839,11 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-27, demasiado antiguo (72 dias > 15) | fuentes: SEC EDGAR 2",
       "plan": "Solo seguimiento",
-      "last_close": 137.16,
-      "entry_zone_low": 135.1026,
-      "entry_zone_high": 139.9032,
-      "invalid_below_price": 126.7997498367428,
-      "target_price": 157.88050032651438,
+      "last_close": 135.81,
+      "entry_zone_low": 133.77285,
+      "entry_zone_high": 138.52620000000002,
+      "invalid_below_price": 125.39437168864683,
+      "target_price": 156.64125662270635,
       "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
@@ -938,8 +877,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 48.30933879622566,
-        "volatility_20d": 0.5450299342319821
+        "rsi14": 47.108424781264716,
+        "volatility_20d": 0.5533900086415677
       }
     },
     {
@@ -951,12 +890,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-22, demasiado antiguo (46 dias > 15) | fuentes: SEC EDGAR 3",
       "plan": "Solo seguimiento",
-      "last_close": 322.367,
-      "entry_zone_low": 317.531495,
-      "entry_zone_high": 328.81434,
-      "invalid_below_price": 303.02498,
-      "target_price": 361.05104000000006,
-      "risk_reward_ratio": 2.0000000000000027,
+      "last_close": 320.46,
+      "entry_zone_low": 315.6531,
+      "entry_zone_high": 326.8692,
+      "invalid_below_price": 301.2324,
+      "target_price": 358.9152,
+      "risk_reward_ratio": 2.000000000000002,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 40,
@@ -989,8 +928,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 64.13107647854659,
-        "volatility_20d": 0.2782276246565509
+        "rsi14": 62.15032502335859,
+        "volatility_20d": 0.28214209599457113
       }
     },
     {
@@ -1002,12 +941,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-15, demasiado antiguo (84 dias > 15) | fuentes: SEC EDGAR 3",
       "plan": "Solo seguimiento",
-      "last_close": 146.485,
-      "entry_zone_low": 144.28772500000002,
-      "entry_zone_high": 149.4147,
-      "invalid_below_price": 137.6959,
-      "target_price": 164.06320000000002,
-      "risk_reward_ratio": 1.9999999999999978,
+      "last_close": 145.07,
+      "entry_zone_low": 142.89395,
+      "entry_zone_high": 147.9714,
+      "invalid_below_price": 136.36579999999998,
+      "target_price": 162.47840000000002,
+      "risk_reward_ratio": 1.9999999999999984,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 38.4,
@@ -1040,8 +979,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 70.63803968681563,
-        "volatility_20d": 0.2871947942745821
+        "rsi14": 69.2563393461107,
+        "volatility_20d": 0.2851025520005303
       }
     },
     {
@@ -1053,12 +992,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-12, demasiado antiguo (56 dias > 15) | fuentes: SEC EDGAR 3",
       "plan": "Solo seguimiento",
-      "last_close": 93.54,
-      "entry_zone_low": 92.13690000000001,
-      "entry_zone_high": 95.41080000000001,
-      "invalid_below_price": 87.9276,
-      "target_price": 104.76480000000002,
-      "risk_reward_ratio": 1.9999999999999991,
+      "last_close": 92.84,
+      "entry_zone_low": 91.4474,
+      "entry_zone_high": 94.69680000000001,
+      "invalid_below_price": 87.2696,
+      "target_price": 103.98080000000002,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 36.2,
@@ -1091,8 +1030,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 56.82032703693132,
-        "volatility_20d": 0.31660337734670413
+        "rsi14": 55.18789980184595,
+        "volatility_20d": 0.31343286806568366
       }
     },
     {
@@ -1104,12 +1043,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-14, demasiado antiguo (85 dias > 15) | fuentes: SEC EDGAR 2",
       "plan": "Solo seguimiento",
-      "last_close": 156.01,
-      "entry_zone_low": 153.66985,
-      "entry_zone_high": 159.1302,
-      "invalid_below_price": 146.64939999999999,
-      "target_price": 174.7312,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 155.95,
+      "entry_zone_low": 153.61075,
+      "entry_zone_high": 159.069,
+      "invalid_below_price": 146.593,
+      "target_price": 174.66400000000002,
+      "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 35,
@@ -1142,8 +1081,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 58.61362110445207,
-        "volatility_20d": 0.34734439007668805
+        "rsi14": 58.51117654102624,
+        "volatility_20d": 0.3474640109362006
       }
     },
     {
@@ -1155,12 +1094,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-03, demasiado antiguo (65 dias > 15) | fuentes: SEC EDGAR 2",
       "plan": "Solo seguimiento",
-      "last_close": 140.15,
-      "entry_zone_low": 138.04775,
-      "entry_zone_high": 142.953,
-      "invalid_below_price": 124.7335,
-      "target_price": 170.983,
-      "risk_reward_ratio": 2,
+      "last_close": 141.17,
+      "entry_zone_low": 139.05245,
+      "entry_zone_high": 143.99339999999998,
+      "invalid_below_price": 125.64129999999999,
+      "target_price": 172.2274,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 33.5,
@@ -1193,8 +1132,8 @@
             "source": "sec_edgar"
           }
         ],
-        "rsi14": 36.7202650163864,
-        "volatility_20d": 0.8024171840948036
+        "rsi14": 37.62599640464564,
+        "volatility_20d": 0.8042564082011625
       }
     }
   ],
@@ -1203,499 +1142,33 @@
     "universe_source": "wikipedia",
     "universe_count": 503,
     "scanned_universe_count": 503,
-    "elapsed_ms": 12249,
-    "cache_only": true,
+    "elapsed_ms": 66874,
+    "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_sec_buys": 67,
-    "companies_with_dataroma_buys": 35,
-    "companies_with_dataroma_flow": 108,
-    "companies_with_buys": 69,
-    "clusters_found": 19,
+    "companies_with_dataroma_buys": 0,
+    "companies_with_dataroma_flow": 0,
+    "companies_with_buys": 67,
+    "clusters_found": 18,
     "dataroma_flow_candidates": 0,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "dataroma_ok": true,
-    "dataroma_flow_ok": true,
-    "filings_seen": 0,
+    "dataroma_ok": false,
+    "dataroma_flow_ok": false,
+    "filings_seen": 7756,
     "filings_fetched": 0,
-    "missing_cik": 0,
-    "scanned": 0,
-    "accessions_cached": 7614,
-    "buy_rows_cached": 124,
-    "tickers_with_cached_buys": 67,
-    "dataroma_url": "https://dataroma.com/m/ins/ins.php",
-    "dataroma_timeframe": "y",
-    "dataroma_since_date": "2026-05-09",
-    "dataroma_pages_fetched": 25,
-    "dataroma_rows_raw": 2256,
-    "dataroma_rows_after_filters": 124,
-    "dataroma_pages": [
-      {
-        "page": 1,
-        "url": "https://dataroma.com/m/ins/ins.php?L=1&t=y&po=1",
-        "raw_rows": 90,
-        "rows_after_filters": 15,
-        "newest": "2026-08-06",
-        "oldest": "2026-06-04"
-      },
-      {
-        "page": 2,
-        "url": "https://dataroma.com/m/ins/ins.php?L=2&t=y&po=1",
-        "raw_rows": 92,
-        "rows_after_filters": 8,
-        "newest": "2026-08-04",
-        "oldest": "2026-04-13"
-      },
-      {
-        "page": 3,
-        "url": "https://dataroma.com/m/ins/ins.php?L=3&t=y&po=1",
-        "raw_rows": 90,
-        "rows_after_filters": 3,
-        "newest": "2026-08-03",
-        "oldest": "2026-03-25"
-      },
-      {
-        "page": 4,
-        "url": "https://dataroma.com/m/ins/ins.php?L=4&t=y&po=1",
-        "raw_rows": 83,
-        "rows_after_filters": 4,
-        "newest": "2026-07-30",
-        "oldest": "2026-02-25"
-      },
-      {
-        "page": 5,
-        "url": "https://dataroma.com/m/ins/ins.php?L=5&t=y&po=1",
-        "raw_rows": 87,
-        "rows_after_filters": 2,
-        "newest": "2026-07-28",
-        "oldest": "2026-01-22"
-      },
-      {
-        "page": 6,
-        "url": "https://dataroma.com/m/ins/ins.php?L=6&t=y&po=1",
-        "raw_rows": 90,
-        "rows_after_filters": 3,
-        "newest": "2026-07-24",
-        "oldest": "2025-03-07"
-      },
-      {
-        "page": 7,
-        "url": "https://dataroma.com/m/ins/ins.php?L=7&t=y&po=1",
-        "raw_rows": 94,
-        "rows_after_filters": 2,
-        "newest": "2026-07-22",
-        "oldest": "2025-03-07"
-      },
-      {
-        "page": 8,
-        "url": "https://dataroma.com/m/ins/ins.php?L=8&t=y&po=1",
-        "raw_rows": 83,
-        "rows_after_filters": 7,
-        "newest": "2026-07-20",
-        "oldest": "2026-06-25"
-      },
-      {
-        "page": 9,
-        "url": "https://dataroma.com/m/ins/ins.php?L=9&t=y&po=1",
-        "raw_rows": 99,
-        "rows_after_filters": 1,
-        "newest": "2026-07-15",
-        "oldest": "2024-12-27"
-      },
-      {
-        "page": 10,
-        "url": "https://dataroma.com/m/ins/ins.php?L=10&t=y&po=1",
-        "raw_rows": 80,
-        "rows_after_filters": 2,
-        "newest": "2026-07-13",
-        "oldest": "2026-05-15"
-      },
-      {
-        "page": 11,
-        "url": "https://dataroma.com/m/ins/ins.php?L=11&t=y&po=1",
-        "raw_rows": 98,
-        "rows_after_filters": 2,
-        "newest": "2026-07-10",
-        "oldest": "2026-06-26"
-      },
-      {
-        "page": 12,
-        "url": "https://dataroma.com/m/ins/ins.php?L=12&t=y&po=1",
-        "raw_rows": 93,
-        "rows_after_filters": 2,
-        "newest": "2026-07-08",
-        "oldest": "2025-06-29"
-      },
-      {
-        "page": 13,
-        "url": "https://dataroma.com/m/ins/ins.php?L=13&t=y&po=1",
-        "raw_rows": 93,
-        "rows_after_filters": 1,
-        "newest": "2026-07-02",
-        "oldest": "2026-05-19"
-      },
-      {
-        "page": 14,
-        "url": "https://dataroma.com/m/ins/ins.php?L=14&t=y&po=1",
-        "raw_rows": 85,
-        "rows_after_filters": 8,
-        "newest": "2026-07-02",
-        "oldest": "2026-01-12"
-      },
-      {
-        "page": 15,
-        "url": "https://dataroma.com/m/ins/ins.php?L=15&t=y&po=1",
-        "raw_rows": 74,
-        "rows_after_filters": 23,
-        "newest": "2026-07-01",
-        "oldest": "2026-06-17"
-      },
-      {
-        "page": 16,
-        "url": "https://dataroma.com/m/ins/ins.php?L=16&t=y&po=1",
-        "raw_rows": 96,
-        "rows_after_filters": 4,
-        "newest": "2026-06-30",
-        "oldest": "2026-05-11"
-      },
-      {
-        "page": 17,
-        "url": "https://dataroma.com/m/ins/ins.php?L=17&t=y&po=1",
-        "raw_rows": 84,
-        "rows_after_filters": 3,
-        "newest": "2026-06-29",
-        "oldest": "2026-03-13"
-      },
-      {
-        "page": 18,
-        "url": "https://dataroma.com/m/ins/ins.php?L=18&t=y&po=1",
-        "raw_rows": 96,
-        "rows_after_filters": 5,
-        "newest": "2026-06-25",
-        "oldest": "2026-05-06"
-      },
-      {
-        "page": 19,
-        "url": "https://dataroma.com/m/ins/ins.php?L=19&t=y&po=1",
-        "raw_rows": 91,
-        "rows_after_filters": 2,
-        "newest": "2026-06-23",
-        "oldest": "2026-02-27"
-      },
-      {
-        "page": 20,
-        "url": "https://dataroma.com/m/ins/ins.php?L=20&t=y&po=1",
-        "raw_rows": 82,
-        "rows_after_filters": 4,
-        "newest": "2026-06-22",
-        "oldest": "2025-05-25"
-      },
-      {
-        "page": 21,
-        "url": "https://dataroma.com/m/ins/ins.php?L=21&t=y&po=1",
-        "raw_rows": 96,
-        "rows_after_filters": 5,
-        "newest": "2026-06-17",
-        "oldest": "2022-09-06"
-      },
-      {
-        "page": 22,
-        "url": "https://dataroma.com/m/ins/ins.php?L=22&t=y&po=1",
-        "raw_rows": 95,
-        "rows_after_filters": 9,
-        "newest": "2026-06-16",
-        "oldest": "2026-06-11"
-      },
-      {
-        "page": 23,
-        "url": "https://dataroma.com/m/ins/ins.php?L=23&t=y&po=1",
-        "raw_rows": 94,
-        "rows_after_filters": 5,
-        "newest": "2026-06-15",
-        "oldest": "2025-12-31"
-      },
-      {
-        "page": 24,
-        "url": "https://dataroma.com/m/ins/ins.php?L=24&t=y&po=1",
-        "raw_rows": 98,
-        "rows_after_filters": 3,
-        "newest": "2026-06-15",
-        "oldest": "2026-05-12"
-      },
-      {
-        "page": 25,
-        "url": "https://dataroma.com/m/ins/ins.php?L=25&t=y&po=1",
-        "raw_rows": 93,
-        "rows_after_filters": 1,
-        "newest": "2026-06-11",
-        "oldest": "2025-08-05"
-      }
-    ],
-    "dataroma_flow_url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d",
-    "dataroma_flow_latest_filing_date": "2026-08-07",
-    "dataroma_flow_pages_fetched": 25,
-    "dataroma_flow_rows_raw": 2454,
-    "dataroma_flow_rows_after_filters": 525,
-    "dataroma_flow_purchase_rows": 26,
-    "dataroma_flow_sale_rows": 499,
-    "dataroma_flow_purchase_value_usd": 22895692,
-    "dataroma_flow_sale_value_usd": 1190401344,
-    "dataroma_flow_pages": [
-      {
-        "page": 1,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d",
-        "raw_rows": 96,
-        "rows_after_filters": 37,
-        "newest_filing": "2026-08-07",
-        "oldest_filing": "2026-08-06",
-        "newest_transaction": "2026-08-07",
-        "oldest_transaction": "2026-08-04"
-      },
-      {
-        "page": 2,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=2",
-        "raw_rows": 100,
-        "rows_after_filters": 0,
-        "newest_filing": "2026-08-06",
-        "oldest_filing": "2026-08-06",
-        "newest_transaction": "2026-08-06",
-        "oldest_transaction": "2026-06-04"
-      },
-      {
-        "page": 3,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=3",
-        "raw_rows": 100,
-        "rows_after_filters": 7,
-        "newest_filing": "2026-08-06",
-        "oldest_filing": "2026-08-06",
-        "newest_transaction": "2026-08-06",
-        "oldest_transaction": "2026-08-04"
-      },
-      {
-        "page": 4,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=4",
-        "raw_rows": 100,
-        "rows_after_filters": 14,
-        "newest_filing": "2026-08-06",
-        "oldest_filing": "2026-08-06",
-        "newest_transaction": "2026-08-06",
-        "oldest_transaction": "2026-07-31"
-      },
-      {
-        "page": 5,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=5",
-        "raw_rows": 98,
-        "rows_after_filters": 31,
-        "newest_filing": "2026-08-06",
-        "oldest_filing": "2026-08-06",
-        "newest_transaction": "2026-08-06",
-        "oldest_transaction": "2025-11-24"
-      },
-      {
-        "page": 6,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=6",
-        "raw_rows": 100,
-        "rows_after_filters": 25,
-        "newest_filing": "2026-08-06",
-        "oldest_filing": "2026-08-06",
-        "newest_transaction": "2026-08-06",
-        "oldest_transaction": "2026-08-04"
-      },
-      {
-        "page": 7,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=7",
-        "raw_rows": 93,
-        "rows_after_filters": 4,
-        "newest_filing": "2026-08-06",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-06",
-        "oldest_transaction": "2026-08-03"
-      },
-      {
-        "page": 8,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=8",
-        "raw_rows": 100,
-        "rows_after_filters": 1,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-08-03"
-      },
-      {
-        "page": 9,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=9",
-        "raw_rows": 97,
-        "rows_after_filters": 17,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-08-03"
-      },
-      {
-        "page": 10,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=10",
-        "raw_rows": 100,
-        "rows_after_filters": 22,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-07-27"
-      },
-      {
-        "page": 11,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=11",
-        "raw_rows": 100,
-        "rows_after_filters": 31,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-06-04"
-      },
-      {
-        "page": 12,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=12",
-        "raw_rows": 99,
-        "rows_after_filters": 0,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-08-03"
-      },
-      {
-        "page": 13,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=13",
-        "raw_rows": 100,
-        "rows_after_filters": 18,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-08-03"
-      },
-      {
-        "page": 14,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=14",
-        "raw_rows": 95,
-        "rows_after_filters": 29,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-07-31"
-      },
-      {
-        "page": 15,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=15",
-        "raw_rows": 98,
-        "rows_after_filters": 27,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-07-17"
-      },
-      {
-        "page": 16,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=16",
-        "raw_rows": 97,
-        "rows_after_filters": 12,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-05",
-        "newest_transaction": "2026-08-05",
-        "oldest_transaction": "2026-06-15"
-      },
-      {
-        "page": 17,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=17",
-        "raw_rows": 100,
-        "rows_after_filters": 41,
-        "newest_filing": "2026-08-05",
-        "oldest_filing": "2026-08-04",
-        "newest_transaction": "2026-08-04",
-        "oldest_transaction": "2026-07-22"
-      },
-      {
-        "page": 18,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=18",
-        "raw_rows": 100,
-        "rows_after_filters": 47,
-        "newest_filing": "2026-08-04",
-        "oldest_filing": "2026-08-04",
-        "newest_transaction": "2026-08-04",
-        "oldest_transaction": "2026-07-31"
-      },
-      {
-        "page": 19,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=19",
-        "raw_rows": 100,
-        "rows_after_filters": 39,
-        "newest_filing": "2026-08-04",
-        "oldest_filing": "2026-08-04",
-        "newest_transaction": "2026-08-04",
-        "oldest_transaction": "2026-04-13"
-      },
-      {
-        "page": 20,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=20",
-        "raw_rows": 99,
-        "rows_after_filters": 12,
-        "newest_filing": "2026-08-04",
-        "oldest_filing": "2026-08-04",
-        "newest_transaction": "2026-08-04",
-        "oldest_transaction": "2026-07-31"
-      },
-      {
-        "page": 21,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=21",
-        "raw_rows": 99,
-        "rows_after_filters": 29,
-        "newest_filing": "2026-08-04",
-        "oldest_filing": "2026-08-04",
-        "newest_transaction": "2026-08-04",
-        "oldest_transaction": "2024-09-18"
-      },
-      {
-        "page": 22,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=22",
-        "raw_rows": 92,
-        "rows_after_filters": 31,
-        "newest_filing": "2026-08-04",
-        "oldest_filing": "2026-08-03",
-        "newest_transaction": "2026-08-04",
-        "oldest_transaction": "2026-07-30"
-      },
-      {
-        "page": 23,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=23",
-        "raw_rows": 99,
-        "rows_after_filters": 8,
-        "newest_filing": "2026-08-03",
-        "oldest_filing": "2026-08-03",
-        "newest_transaction": "2026-08-03",
-        "oldest_transaction": "2026-07-30"
-      },
-      {
-        "page": 24,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=24",
-        "raw_rows": 100,
-        "rows_after_filters": 23,
-        "newest_filing": "2026-08-03",
-        "oldest_filing": "2026-08-03",
-        "newest_transaction": "2026-08-03",
-        "oldest_transaction": "2026-07-30"
-      },
-      {
-        "page": 25,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=25",
-        "raw_rows": 92,
-        "rows_after_filters": 20,
-        "newest_filing": "2026-08-03",
-        "oldest_filing": "2026-08-03",
-        "newest_transaction": "2026-08-03",
-        "oldest_transaction": "2026-07-27"
-      }
-    ],
-    "sec_buy_rows": 124,
-    "dataroma_buy_rows_added": 43,
-    "dataroma_duplicates": 81
+    "missing_cik": 1,
+    "scanned": 503,
+    "dataroma_error": "HTTP 409 fetching https://dataroma.com/m/ins/ins.php?L=1&t=y&po=1",
+    "dataroma_rows_after_filters": 0,
+    "dataroma_pages_fetched": 0,
+    "dataroma_flow_error": "HTTP 409 fetching https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d",
+    "dataroma_flow_rows_after_filters": 0,
+    "dataroma_flow_pages_fetched": 0,
+    "sec_buy_rows": 125,
+    "dataroma_buy_rows_added": 0,
+    "dataroma_duplicates": 0
   },
   "extra": {
     "rules": {
