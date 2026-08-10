@@ -1,6 +1,6 @@
 {
-  "computed_at": "2026-08-07T22:06:48.633Z",
-  "market_date": "2026-08-07",
+  "computed_at": "2026-08-10T22:07:33.867Z",
+  "market_date": "2026-08-10",
   "signals": [
     {
       "ticker": "NCLH",
@@ -9,24 +9,24 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-01, demasiado antiguo (67 dias > 15)",
+      "reason": "Cluster de 2026-06-01, demasiado antiguo (70 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 19.25,
-      "entry_zone_low": 18.96125,
-      "entry_zone_high": 19.635,
-      "invalid_below_price": 17.730611552613116,
-      "target_price": 22.28877689477377,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 18.55,
+      "entry_zone_low": 18.27175,
+      "entry_zone_high": 18.921,
+      "invalid_below_price": 17.049536060371857,
+      "target_price": 21.55092787925629,
+      "risk_reward_ratio": 2.000000000000001,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 80,
       "meta": {
-        "insider_count": 7,
-        "buy_count": 7,
-        "total_value_usd": 29163646,
-        "first_buy": "2026-05-07",
+        "insider_count": 5,
+        "buy_count": 5,
+        "total_value_usd": 28445260,
+        "first_buy": "2026-05-11",
         "last_buy": "2026-06-01",
-        "stale_days": 67,
+        "stale_days": 70,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -35,7 +35,12 @@
             "shares": 1380000,
             "value_usd": 24992300,
             "date": "2026-06-01",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-03",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "CHIDSEY JOHN",
@@ -43,7 +48,12 @@
             "shares": 153000,
             "value_usd": 2504610,
             "date": "2026-05-22",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-26",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "COHEN JONATHAN Z",
@@ -51,7 +61,12 @@
             "shares": 30000,
             "value_usd": 474900,
             "date": "2026-05-20",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-21",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Cil Jose E.",
@@ -59,7 +74,12 @@
             "shares": 15000,
             "value_usd": 225350,
             "date": "2026-05-18",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-19",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "MacDonald Brian P",
@@ -67,27 +87,16 @@
             "shares": 15000,
             "value_usd": 248100,
             "date": "2026-05-11",
-            "source": "sec_edgar"
-          },
-          {
-            "name": "Lansberry Kevin Allen",
-            "title": "Director",
-            "shares": 11400,
-            "value_usd": 196992,
-            "date": "2026-05-07",
-            "source": "sec_edgar"
-          },
-          {
-            "name": "Byng-Thorne Zillah",
-            "title": "Director",
-            "shares": 29467,
-            "value_usd": 521394,
-            "date": "2026-05-07",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-12",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 47.4865531303546,
-        "volatility_20d": 0.5695287806408842
+        "rsi14": 43.20957466208161,
+        "volatility_20d": 0.5836590691707386
       }
     },
     {
@@ -97,14 +106,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-17, demasiado antiguo (51 dias > 15)",
+      "reason": "Cluster de 2026-06-17, demasiado antiguo (54 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 52.41,
-      "entry_zone_low": 51.62385,
-      "entry_zone_high": 53.4582,
-      "invalid_below_price": 49.26539999999999,
-      "target_price": 58.699200000000005,
-      "risk_reward_ratio": 1.9999999999999991,
+      "last_close": 52.22,
+      "entry_zone_low": 51.436699999999995,
+      "entry_zone_high": 53.2644,
+      "invalid_below_price": 49.0868,
+      "target_price": 58.4864,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 78.8,
@@ -114,7 +123,7 @@
         "total_value_usd": 1723401,
         "first_buy": "2026-06-16",
         "last_buy": "2026-06-17",
-        "stale_days": 51,
+        "stale_days": 54,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -123,7 +132,12 @@
             "shares": 10060,
             "value_usd": 499982,
             "date": "2026-06-17",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-18",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Mamilli Wafaa",
@@ -131,7 +145,12 @@
             "shares": 2960,
             "value_usd": 149746,
             "date": "2026-06-17",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-17",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Rosman Adam L.",
@@ -139,7 +158,12 @@
             "shares": 10150,
             "value_usd": 500700,
             "date": "2026-06-16",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-16",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Yarkoni Charlotte",
@@ -147,7 +171,12 @@
             "shares": 2023,
             "value_usd": 100118,
             "date": "2026-06-16",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-16",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "DiSimone Harry",
@@ -155,7 +184,12 @@
             "shares": 2088,
             "value_usd": 101080,
             "date": "2026-06-16",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-16",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Nixon Gordon M.",
@@ -163,11 +197,16 @@
             "shares": 7500,
             "value_usd": 371775,
             "date": "2026-06-16",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-16",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.14285417918454,
-        "volatility_20d": 0.3650076311119189
+        "rsi14": 48.49220398286144,
+        "volatility_20d": 0.36255636428194077
       }
     },
     {
@@ -179,22 +218,22 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "3 insiders compraron 9,385,631 USD entre 2026-07-31 y 2026-08-05",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 49.31,
-      "entry_zone_low": 48.570350000000005,
-      "entry_zone_high": 50.296200000000006,
-      "invalid_below_price": 46.3514,
-      "target_price": 55.22720000000001,
-      "risk_reward_ratio": 1.9999999999999991,
+      "last_close": 50.46,
+      "entry_zone_low": 49.7031,
+      "entry_zone_high": 51.4692,
+      "invalid_below_price": 47.4324,
+      "target_price": 56.51520000000001,
+      "risk_reward_ratio": 2.000000000000002,
       "size_pct": 0.07,
       "authorized": true,
-      "opt_score": 77.3,
+      "opt_score": 73.3,
       "meta": {
         "insider_count": 3,
         "buy_count": 4,
         "total_value_usd": 9385631,
         "first_buy": "2026-07-31",
         "last_buy": "2026-08-05",
-        "stale_days": 2,
+        "stale_days": 5,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -203,7 +242,12 @@
             "shares": 1182,
             "value_usd": 56887,
             "date": "2026-08-03",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Mahoney Michael F",
@@ -211,7 +255,12 @@
             "shares": 186240,
             "value_usd": 9001408,
             "date": "2026-08-03",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "LUDWIG EDWARD J",
@@ -219,11 +268,16 @@
             "shares": 5000,
             "value_usd": 227400,
             "date": "2026-07-31",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-03",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 64.6508015848265,
-        "volatility_20d": 0.3333021607071237
+        "rsi14": 68.36149539255292,
+        "volatility_20d": 0.3380485573996751
       }
     },
     {
@@ -233,14 +287,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-23, demasiado antiguo (45 dias > 15)",
+      "reason": "Cluster de 2026-06-23, demasiado antiguo (48 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 249.08,
-      "entry_zone_low": 245.34380000000002,
-      "entry_zone_high": 254.06160000000003,
-      "invalid_below_price": 232.9309778157862,
-      "target_price": 281.3780443684276,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 256.07,
+      "entry_zone_low": 252.22895,
+      "entry_zone_high": 261.1914,
+      "invalid_below_price": 239.3330770692056,
+      "target_price": 289.5438458615888,
+      "risk_reward_ratio": 1.9999999999999991,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -250,7 +304,7 @@
         "total_value_usd": 2165173,
         "first_buy": "2026-05-29",
         "last_buy": "2026-06-23",
-        "stale_days": 45,
+        "stale_days": 48,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -259,7 +313,12 @@
             "shares": 2000,
             "value_usd": 378400,
             "date": "2026-06-23",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-23",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Anagnost Andrew",
@@ -267,7 +326,12 @@
             "shares": 2460,
             "value_usd": 498544,
             "date": "2026-06-16",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-17",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Moorjani Janesh",
@@ -275,7 +339,12 @@
             "shares": 2500,
             "value_usd": 494175,
             "date": "2026-06-15",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-15",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Smith Stacy J",
@@ -283,11 +352,16 @@
             "shares": 3435,
             "value_usd": 794054,
             "date": "2026-05-29",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-29",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 69.02524266437874,
-        "volatility_20d": 0.467826656090356
+        "rsi14": 72.11650049074112,
+        "volatility_20d": 0.4716224873241652
       }
     },
     {
@@ -297,14 +371,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-14, demasiado antiguo (85 dias > 15)",
+      "reason": "Cluster de 2026-05-14, demasiado antiguo (88 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 186.56,
-      "entry_zone_low": 183.7616,
-      "entry_zone_high": 190.2912,
-      "invalid_below_price": 175.3664,
-      "target_price": 208.9472,
-      "risk_reward_ratio": 2.0000000000000013,
+      "last_close": 189.42,
+      "entry_zone_low": 186.5787,
+      "entry_zone_high": 193.20839999999998,
+      "invalid_below_price": 178.05479999999997,
+      "target_price": 212.15040000000002,
+      "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -314,7 +388,7 @@
         "total_value_usd": 5487494,
         "first_buy": "2026-05-13",
         "last_buy": "2026-05-14",
-        "stale_days": 85,
+        "stale_days": 88,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -323,7 +397,12 @@
             "shares": 5200,
             "value_usd": 987797,
             "date": "2026-05-14",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-18",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Emanuel Ariel",
@@ -331,7 +410,12 @@
             "shares": 10805,
             "value_usd": 1999875,
             "date": "2026-05-13",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-13",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "SHAPIRO MARK S",
@@ -339,7 +423,12 @@
             "shares": 10807,
             "value_usd": 1999868,
             "date": "2026-05-13",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-13",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Schleimer Andrew M",
@@ -347,11 +436,16 @@
             "shares": 2696,
             "value_usd": 499953,
             "date": "2026-05-13",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-13",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.134468193619135,
-        "volatility_20d": 0.19697267823135645
+        "rsi14": 53.51547004153043,
+        "volatility_20d": 0.18958565798106783
       }
     },
     {
@@ -363,22 +457,22 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 34.56,
-      "entry_zone_low": 34.0416,
-      "entry_zone_high": 35.251200000000004,
-      "invalid_below_price": 32.4864,
-      "target_price": 38.70720000000001,
-      "risk_reward_ratio": 2.0000000000000027,
+      "last_close": 34.62,
+      "entry_zone_low": 34.100699999999996,
+      "entry_zone_high": 35.3124,
+      "invalid_below_price": 32.54279999999999,
+      "target_price": 38.7744,
+      "risk_reward_ratio": 1.999999999999997,
       "size_pct": 0.07,
       "authorized": true,
-      "opt_score": 66.9,
+      "opt_score": 62.9,
       "meta": {
         "insider_count": 3,
         "buy_count": 3,
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 3,
+        "stale_days": 6,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -387,7 +481,12 @@
             "shares": 1560,
             "value_usd": 50606,
             "date": "2026-08-04",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Lawton III Harry A",
@@ -395,7 +494,12 @@
             "shares": 15600,
             "value_usd": 501524,
             "date": "2026-08-04",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Hawaux Andre J",
@@ -403,11 +507,16 @@
             "shares": 3150,
             "value_usd": 100265,
             "date": "2026-08-03",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-04",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 68.77534487319477,
-        "volatility_20d": 0.32977802647960813
+        "rsi14": 69.01086213460252,
+        "volatility_20d": 0.3268636694078966
       }
     },
     {
@@ -417,14 +526,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (38 dias > 15)",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (41 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 222.91,
-      "entry_zone_low": 219.56635,
-      "entry_zone_high": 227.3682,
-      "invalid_below_price": 209.53539999999998,
-      "target_price": 249.65920000000003,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 220.55,
+      "entry_zone_low": 217.24175,
+      "entry_zone_high": 224.961,
+      "invalid_below_price": 207.317,
+      "target_price": 247.01600000000005,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 59.2,
@@ -434,7 +543,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 38,
+        "stale_days": 41,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -443,7 +552,12 @@
             "shares": 220,
             "value_usd": 49120,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Roe Peggy",
@@ -451,7 +565,12 @@
             "shares": 89,
             "value_usd": 19861,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "LEIBOWITZ REUBEN S",
@@ -459,7 +578,12 @@
             "shares": 508,
             "value_usd": 113475,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "GLASSCOCK LARRY C",
@@ -467,7 +591,12 @@
             "shares": 397,
             "value_usd": 88682,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Cicco Martin J",
@@ -475,7 +604,12 @@
             "shares": 15,
             "value_usd": 3348,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "STEWART MARTA R",
@@ -483,7 +617,12 @@
             "shares": 182,
             "value_usd": 40614,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Smith Daniel C.",
@@ -491,7 +630,12 @@
             "shares": 372,
             "value_usd": 83070,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "RODKIN GARY M",
@@ -499,7 +643,12 @@
             "shares": 256,
             "value_usd": 57175,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "LEWIS RANDALL J",
@@ -507,7 +656,12 @@
             "shares": 62,
             "value_usd": 13836,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Jones Nina P",
@@ -515,7 +669,12 @@
             "shares": 43,
             "value_usd": 9596,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Aeppel Glyn",
@@ -523,11 +682,16 @@
             "shares": 243,
             "value_usd": 54275,
             "date": "2026-06-30",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-01",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 46.320580173501874,
-        "volatility_20d": 0.1958740077540601
+        "rsi14": 42.75112200504768,
+        "volatility_20d": 0.1998840341631565
       }
     },
     {
@@ -539,22 +703,22 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "2 insiders compraron 1,959,190 USD entre 2026-08-05 y 2026-08-05",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 26.76,
-      "entry_zone_low": 26.358600000000003,
-      "entry_zone_high": 27.2952,
-      "invalid_below_price": 25.1544,
-      "target_price": 29.971200000000003,
-      "risk_reward_ratio": 1.9999999999999987,
+      "last_close": 27.05,
+      "entry_zone_low": 26.64425,
+      "entry_zone_high": 27.591,
+      "invalid_below_price": 25.427,
+      "target_price": 30.296000000000003,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0.1,
       "authorized": true,
-      "opt_score": 57.2,
+      "opt_score": 53.2,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 1959190,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-05",
-        "stale_days": 2,
+        "stale_days": 5,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -563,7 +727,12 @@
             "shares": 39231,
             "value_usd": 998821,
             "date": "2026-08-05",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Buckley Mortimer J",
@@ -571,11 +740,16 @@
             "shares": 37632,
             "value_usd": 960369,
             "date": "2026-08-05",
-            "source": "sec_edgar"
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 74.72815431509022,
-        "volatility_20d": 0.1788038289836072
+        "rsi14": 76.6203031612624,
+        "volatility_20d": 0.1779393020399241
       }
     },
     {
@@ -585,14 +759,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-11, demasiado antiguo (57 dias > 15)",
+      "reason": "Cluster de 2026-06-11, demasiado antiguo (60 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 285.17,
-      "entry_zone_low": 280.89245,
-      "entry_zone_high": 290.8734,
-      "invalid_below_price": 268.0598,
-      "target_price": 319.39040000000006,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 284.4,
+      "entry_zone_low": 280.13399999999996,
+      "entry_zone_high": 290.08799999999997,
+      "invalid_below_price": 267.33599999999996,
+      "target_price": 318.528,
+      "risk_reward_ratio": 1.9999999999999991,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 50,
@@ -602,7 +776,7 @@
         "total_value_usd": 2513981,
         "first_buy": "2026-05-13",
         "last_buy": "2026-06-11",
-        "stale_days": 57,
+        "stale_days": 60,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -611,7 +785,12 @@
             "shares": 1000,
             "value_usd": 263831,
             "date": "2026-06-11",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-15",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Doukeris Michel D",
@@ -619,7 +798,12 @@
             "shares": 7750,
             "value_usd": 1999500,
             "date": "2026-06-10",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-11",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "MacLennan David",
@@ -627,11 +811,16 @@
             "shares": 1000,
             "value_usd": 250650,
             "date": "2026-05-13",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-14",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 60.930918711043624,
-        "volatility_20d": 0.2413245875065352
+        "rsi14": 59.808280810929574,
+        "volatility_20d": 0.23853803321197464
       }
     },
     {
@@ -641,14 +830,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (21 dias > 15)",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (24 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 394.2,
-      "entry_zone_low": 388.287,
-      "entry_zone_high": 402.084,
-      "invalid_below_price": 370.0782191057779,
-      "target_price": 442.44356178844413,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 397.7,
+      "entry_zone_low": 391.73449999999997,
+      "entry_zone_high": 405.654,
+      "invalid_below_price": 373.7388896651999,
+      "target_price": 445.62222066960015,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 46.9,
@@ -658,7 +847,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 21,
+        "stale_days": 24,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -667,7 +856,12 @@
             "shares": 1000,
             "value_usd": 366050,
             "date": "2026-07-17",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-17",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "BOUDREAUX GAIL",
@@ -675,11 +869,16 @@
             "shares": 2725,
             "value_usd": 1002230,
             "date": "2026-07-17",
-            "source": "sec_edgar"
+            "filing_date": "2026-07-17",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.111258649114106,
-        "volatility_20d": 0.44154028937388196
+        "rsi14": 55.03163054552416,
+        "volatility_20d": 0.43473933583692986
       }
     },
     {
@@ -689,14 +888,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-13, demasiado antiguo (86 dias > 15)",
+      "reason": "Cluster de 2026-05-13, demasiado antiguo (89 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 72.66,
-      "entry_zone_low": 71.5701,
-      "entry_zone_high": 74.11319999999999,
-      "invalid_below_price": 68.3004,
-      "target_price": 81.3792,
-      "risk_reward_ratio": 2.0000000000000018,
+      "last_close": 74.83,
+      "entry_zone_low": 73.70755,
+      "entry_zone_high": 76.3266,
+      "invalid_below_price": 70.3402,
+      "target_price": 83.8096,
+      "risk_reward_ratio": 2.000000000000001,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 43.4,
@@ -706,7 +905,7 @@
         "total_value_usd": 886367,
         "first_buy": "2026-05-11",
         "last_buy": "2026-05-13",
-        "stale_days": 86,
+        "stale_days": 89,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -715,7 +914,12 @@
             "shares": 6650,
             "value_usd": 501344,
             "date": "2026-05-13",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-13",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Bisaro Paul",
@@ -723,7 +927,12 @@
             "shares": 2000,
             "value_usd": 151750,
             "date": "2026-05-13",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-13",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "MCCALLISTER MICHAEL B",
@@ -731,67 +940,16 @@
             "shares": 3000,
             "value_usd": 233273,
             "date": "2026-05-11",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-12",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 40.51448171994249,
-        "volatility_20d": 0.34492358594207917
-      }
-    },
-    {
-      "ticker": "GEHC",
-      "name": "GE HealthCare",
-      "sector": "Health Care",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-22, demasiado antiguo (77 dias > 15)",
-      "plan": "Solo seguimiento",
-      "last_close": 71.77,
-      "entry_zone_low": 70.69345,
-      "entry_zone_high": 73.2054,
-      "invalid_below_price": 65.81511759635458,
-      "target_price": 83.67976480729084,
-      "risk_reward_ratio": 2.0000000000000018,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 42.6,
-      "meta": {
-        "insider_count": 3,
-        "buy_count": 3,
-        "total_value_usd": 805171,
-        "first_buy": "2026-05-08",
-        "last_buy": "2026-05-22",
-        "stale_days": 77,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Lobo Kevin",
-            "title": "Director",
-            "shares": 10000,
-            "value_usd": 641800,
-            "date": "2026-05-22",
-            "source": "sec_edgar"
-          },
-          {
-            "name": "Hochman Rodney F",
-            "title": "Director",
-            "shares": 1618,
-            "value_usd": 100365,
-            "date": "2026-05-12",
-            "source": "sec_edgar"
-          },
-          {
-            "name": "Yang Watkin Phoebe L.",
-            "title": "Director",
-            "shares": 1000,
-            "value_usd": 63006,
-            "date": "2026-05-08",
-            "source": "sec_edgar"
-          }
-        ],
-        "rsi14": 64.77895901288557,
-        "volatility_20d": 0.5986980351380162
+        "rsi14": 46.77764887854792,
+        "volatility_20d": 0.3622538160063367
       }
     },
     {
@@ -801,14 +959,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-27, demasiado antiguo (72 dias > 15)",
+      "reason": "Cluster de 2026-05-27, demasiado antiguo (75 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 135.81,
-      "entry_zone_low": 133.77285,
-      "entry_zone_high": 138.52620000000002,
-      "invalid_below_price": 125.39437168864683,
-      "target_price": 156.64125662270635,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 136.43,
+      "entry_zone_low": 134.38355,
+      "entry_zone_high": 139.1586,
+      "invalid_below_price": 125.95703551116178,
+      "target_price": 157.37592897767647,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 40,
@@ -818,7 +976,7 @@
         "total_value_usd": 2505138,
         "first_buy": "2026-05-18",
         "last_buy": "2026-05-27",
-        "stale_days": 72,
+        "stale_days": 75,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -827,7 +985,12 @@
             "shares": 18000,
             "value_usd": 2005740,
             "date": "2026-05-27",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-29",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "LEAHY CHRISTINE A",
@@ -835,11 +998,16 @@
             "shares": 4830,
             "value_usd": 499398,
             "date": "2026-05-18",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-19",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 47.10842478126463,
-        "volatility_20d": 0.5533900086415677
+        "rsi14": 47.750821324049056,
+        "volatility_20d": 0.5539076221654123
       }
     },
     {
@@ -849,14 +1017,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-22, demasiado antiguo (46 dias > 15)",
+      "reason": "Cluster de 2026-06-22, demasiado antiguo (49 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 320.46,
-      "entry_zone_low": 315.6531,
-      "entry_zone_high": 326.8692,
-      "invalid_below_price": 301.2324,
-      "target_price": 358.9152,
-      "risk_reward_ratio": 2.000000000000002,
+      "last_close": 325,
+      "entry_zone_low": 320.125,
+      "entry_zone_high": 331.5,
+      "invalid_below_price": 305.5,
+      "target_price": 364.00000000000006,
+      "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 40,
@@ -866,7 +1034,7 @@
         "total_value_usd": 2310427,
         "first_buy": "2026-05-28",
         "last_buy": "2026-06-22",
-        "stale_days": 46,
+        "stale_days": 49,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -875,7 +1043,12 @@
             "shares": 550,
             "value_usd": 148627,
             "date": "2026-06-22",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-24",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "DURCAN DERMOT MARK",
@@ -883,11 +1056,16 @@
             "shares": 4000,
             "value_usd": 1065040,
             "date": "2026-05-28",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-28",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 62.1503250237833,
-        "volatility_20d": 0.28214209599457113
+        "rsi14": 64.92758385576269,
+        "volatility_20d": 0.28425347416597024
       }
     },
     {
@@ -897,14 +1075,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-15, demasiado antiguo (84 dias > 15)",
+      "reason": "Cluster de 2026-05-15, demasiado antiguo (87 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 145.07,
-      "entry_zone_low": 142.89395,
-      "entry_zone_high": 147.9714,
-      "invalid_below_price": 136.36579999999998,
-      "target_price": 162.47840000000002,
-      "risk_reward_ratio": 1.9999999999999984,
+      "last_close": 147.33,
+      "entry_zone_low": 145.12005000000002,
+      "entry_zone_high": 150.2766,
+      "invalid_below_price": 138.49020000000002,
+      "target_price": 165.00960000000003,
+      "risk_reward_ratio": 2.0000000000000027,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 38.4,
@@ -914,7 +1092,7 @@
         "total_value_usd": 477650,
         "first_buy": "2026-05-08",
         "last_buy": "2026-05-15",
-        "stale_days": 84,
+        "stale_days": 87,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -923,7 +1101,12 @@
             "shares": 3601,
             "value_usd": 400035,
             "date": "2026-05-15",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-18",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Fernandez Manuel J",
@@ -931,11 +1114,16 @@
             "shares": 403,
             "value_usd": 49137,
             "date": "2026-05-08",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-12",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 69.25633934509885,
-        "volatility_20d": 0.2851025520005303
+        "rsi14": 71.55841297307424,
+        "volatility_20d": 0.28651788786925103
       }
     },
     {
@@ -945,14 +1133,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-12, demasiado antiguo (56 dias > 15)",
+      "reason": "Cluster de 2026-06-12, demasiado antiguo (59 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 92.84,
-      "entry_zone_low": 91.4474,
-      "entry_zone_high": 94.69680000000001,
-      "invalid_below_price": 87.2696,
-      "target_price": 103.98080000000002,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 97.56,
+      "entry_zone_low": 96.0966,
+      "entry_zone_high": 99.5112,
+      "invalid_below_price": 91.7064,
+      "target_price": 109.26720000000002,
+      "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 36.2,
@@ -962,7 +1150,7 @@
         "total_value_usd": 368020,
         "first_buy": "2026-06-04",
         "last_buy": "2026-06-12",
-        "stale_days": 56,
+        "stale_days": 59,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -971,7 +1159,12 @@
             "shares": 1000,
             "value_usd": 93360,
             "date": "2026-06-04",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-04",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Teunissen Marcel",
@@ -979,11 +1172,16 @@
             "shares": 2000,
             "value_usd": 185760,
             "date": "2026-06-04",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-04",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.18789980086014,
-        "volatility_20d": 0.31343286806568366
+        "rsi14": 64.84017802624271,
+        "volatility_20d": 0.35504993210873315
       }
     },
     {
@@ -993,13 +1191,13 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-14, demasiado antiguo (85 dias > 15)",
+      "reason": "Cluster de 2026-05-14, demasiado antiguo (88 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 155.95,
-      "entry_zone_low": 153.61075,
-      "entry_zone_high": 159.069,
-      "invalid_below_price": 146.593,
-      "target_price": 174.66400000000002,
+      "last_close": 155.08,
+      "entry_zone_low": 152.7538,
+      "entry_zone_high": 158.1816,
+      "invalid_below_price": 145.7752,
+      "target_price": 173.68960000000004,
       "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0,
       "authorized": false,
@@ -1010,7 +1208,7 @@
         "total_value_usd": 317135,
         "first_buy": "2026-05-14",
         "last_buy": "2026-05-14",
-        "stale_days": 85,
+        "stale_days": 88,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -1019,7 +1217,12 @@
             "shares": 2000,
             "value_usd": 266840,
             "date": "2026-05-14",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-14",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "Carsley Mimi",
@@ -1027,11 +1230,16 @@
             "shares": 375,
             "value_usd": 50295,
             "date": "2026-05-14",
-            "source": "sec_edgar"
+            "filing_date": "2026-05-14",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 58.51117654099523,
-        "volatility_20d": 0.3474640109362006
+        "rsi14": 56.95668629436729,
+        "volatility_20d": 0.34850460569535596
       }
     },
     {
@@ -1041,14 +1249,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-03, demasiado antiguo (65 dias > 15)",
+      "reason": "Cluster de 2026-06-03, demasiado antiguo (68 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 141.17,
-      "entry_zone_low": 139.05245,
-      "entry_zone_high": 143.99339999999998,
-      "invalid_below_price": 125.64129999999999,
-      "target_price": 172.2274,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 142.85,
+      "entry_zone_low": 140.70725,
+      "entry_zone_high": 145.707,
+      "invalid_below_price": 127.1365,
+      "target_price": 174.277,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 33.5,
@@ -1058,7 +1266,7 @@
         "total_value_usd": 897883,
         "first_buy": "2026-06-03",
         "last_buy": "2026-06-03",
-        "stale_days": 65,
+        "stale_days": 68,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -1067,7 +1275,12 @@
             "shares": 2790,
             "value_usd": 400393,
             "date": "2026-06-03",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-04",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           },
           {
             "name": "WEATHERMAN ELIZABETH H",
@@ -1075,11 +1288,74 @@
             "shares": 3450,
             "value_usd": 497490,
             "date": "2026-06-03",
-            "source": "sec_edgar"
+            "filing_date": "2026-06-03",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 37.62599640464564,
-        "volatility_20d": 0.8042564082011625
+        "rsi14": 39.170340307100325,
+        "volatility_20d": 0.8058228778108054
+      }
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-05-22, demasiado antiguo (80 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 72.94,
+      "entry_zone_low": 71.8459,
+      "entry_zone_high": 74.3988,
+      "invalid_below_price": 66.87756265812746,
+      "target_price": 85.06487468374506,
+      "risk_reward_ratio": 1.9999999999999987,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 31.9,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 742165,
+        "first_buy": "2026-05-12",
+        "last_buy": "2026-05-22",
+        "stale_days": 80,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Lobo Kevin",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 641800,
+            "date": "2026-05-22",
+            "filing_date": "2026-05-26",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Hochman Rodney F",
+            "title": "Director",
+            "shares": 1618,
+            "value_usd": 100365,
+            "date": "2026-05-12",
+            "filing_date": "2026-05-13",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 66.92171224188115,
+        "volatility_20d": 0.5997345842974123
       }
     }
   ],
@@ -1087,16 +1363,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 73830,
+    "elapsed_ms": 75909,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 67,
+    "companies_with_buys": 66,
     "clusters_found": 18,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 7756,
-    "filings_fetched": 79,
+    "filings_seen": 7564,
+    "filings_fetched": 81,
     "missing_cik": 1,
     "scanned": 503
   },
