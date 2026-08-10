@@ -25,7 +25,7 @@ selector de la app o con `?workspace=<id>` en la API.
 |------------|-----------|--------|------------|
 | `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo, en cada peticion |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
-| `insider_total` | Orden programada ChatGPT S&P 500: el scanner tecnico actual en una cartera paper separada, para medirla sin mezclarla con Momentum ni Insiders. | Yahoo Finance chart API | En vivo y por el GitHub Action |
+| `insider_total` | ChatGPT SP500: compras fuertes de insiders del S&P 500, filtrando Form 4 codigo P/Dataroma por clusters, seniority, importe material y filing reciente; salida a 5 sesiones. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
 
 Anadir una tercera estrategia es crear `lib/strategies/<id>.js` con la misma
 interfaz (`{ id, label, run }`), registrarla en `lib/strategies/index.js` y
@@ -62,10 +62,11 @@ Extrapolado al indice completo son del orden de 2 a 4 senales accionables al mes
 Es lo normal en esta estrategia, pero significa que su cartera acumulara
 operaciones despacio.
 
-`insider_total` ya no usa Dataroma ni la estrategia combinada de insiders: se ha
-reutilizado como cartera independiente de la orden programada ChatGPT S&P 500.
-El codigo antiguo sigue en `lib/strategies/insider_total.js` por si se quiere
-recuperar, pero no esta conectado al selector de la app.
+`insider_total` se reutiliza como la pestaña `ChatGPT SP500`. Automatiza el chat
+de conviccion insider: no compra cualquier insider buying, sino solo senales con
+Form 4 codigo P/Dataroma, varios insiders o directivos senior, importe material,
+filing reciente y sin plan 10b5-1 cuando ese dato aparece en el Form 4. La tesis
+es de evento corto: si no toca stop ni take profit antes, se cierra a 5 sesiones.
 
 ## El ranking
 
@@ -136,7 +137,7 @@ Escanear insiders (tarda: la SEC limita a 10 peticiones por segundo):
 npm run scan:insider
 ```
 
-Escanear la orden programada ChatGPT S&P 500:
+Escanear la estrategia ChatGPT SP500:
 
 ```bash
 npm run scan:chatgpt-sp500
@@ -173,8 +174,9 @@ peticiones por segundo: unos 25 minutos. Despues, la cache de accessions
 baja a 2-3 minutos por dia. Un formulario ya presentado no cambia nunca, asi que
 la cache es permanente.
 
-La orden ChatGPT S&P 500 no usa la SEC, asi que cabe en la funcion de Vercel y
-tambien se registra por el Action para alimentar el ranking.
+ChatGPT SP500 reutiliza la cache SEC de `insider` y anade Dataroma/Yahoo para
+puntuar conviccion. Como toca SEC EDGAR, tambien se calcula en el Action y la
+app sirve el ultimo snapshot, sin base de datos ni servicios extra.
 
 ## SEC EDGAR
 
@@ -196,6 +198,10 @@ No hacen falta variables de entorno. Opcionales:
 - `MAX_SYMBOLS`: limite de simbolos para depurar. En produccion no lo uses.
 - `SEC_USER_AGENT`: contacto que se envia a la SEC.
 - `SEC_RPS`: peticiones por segundo a la SEC. Por defecto `8`, no subir de `10`.
+- `CHATGPT_SP500_MIN_VALUE_USD`: importe minimo agregado para la pestaña ChatGPT SP500. Por defecto `250000`.
+- `CHATGPT_SP500_MIN_INSIDERS`: minimo de insiders distintos. Por defecto `2`.
+- `CHATGPT_SP500_SIGNAL_FILING_FRESH_DAYS`: antiguedad maxima normal del filing. Por defecto `20`.
+- `CHATGPT_SP500_MAX_HOLD_DAYS`: sesiones maximas antes de cierre temporal. Por defecto `5`.
 
 ## Cron
 

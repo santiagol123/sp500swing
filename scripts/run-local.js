@@ -12,7 +12,7 @@ function flag(name) {
 }
 
 function usesInsiderFilingsCache(workspace) {
-  return workspace.strategy === "insider" || workspace.strategy === "insider_total";
+  return workspace.strategy === "insider" || workspace.strategy === "insider_total" || workspace.strategy === "chatgpt_sp500";
 }
 
 async function main() {

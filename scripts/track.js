@@ -25,7 +25,7 @@ function flag(name) {
 }
 
 function usesInsiderFilingsCache(workspace) {
-  return workspace.strategy === "insider" || workspace.strategy === "insider_total";
+  return workspace.strategy === "insider" || workspace.strategy === "insider_total" || workspace.strategy === "chatgpt_sp500";
 }
 
 function filingsCacheWorkspaceId(workspace) {
@@ -42,6 +42,7 @@ async function trackWorkspace(workspace, options) {
   const state = readState(workspace);
   const bootstrapSignals =
     usesInsiderFilingsCache(workspace) &&
+    workspace.strategy !== "chatgpt_sp500" &&
     !state.last_market_date &&
     !state.positions.length &&
     !state.trades.length;
