@@ -1,6 +1,6 @@
 # Market Radar Quant Bot para Vercel
 
-Bot autonomo para escoger acciones del S&P 500 sin ChatGPT y sin tokens de API.
+Bot autonomo para escoger acciones del S&P 500 sin tokens de API.
 
 Tres estrategias independientes, cada una con su cartera de paper trading, y una
 pantalla que las compara.
@@ -10,7 +10,7 @@ pantalla que las compara.
 - Descarga universo S&P 500 desde Wikipedia.
 - Usa Yahoo Finance public chart API, sin token.
 - Calcula momentum, setups, RSI, MACD, stops, take profit y beneficio/riesgo.
-- Detecta compras agrupadas de directivos en SEC EDGAR (formulario 4), sin token, y una variante combinada con Dataroma.
+- Detecta compras agrupadas de directivos en SEC EDGAR (formulario 4), sin token.
 - Expone `/api/signals` y `/api/leaderboard` en JSON.
 - Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, radar, ranking tecnico, ejecucion y configuracion con datos reales de `/api/signals`.
 - Lee la cartera real desde `data/portfolio.json` y la valora con los ultimos precios descargados de Yahoo Finance.
@@ -25,7 +25,7 @@ selector de la app o con `?workspace=<id>` en la API.
 |------------|-----------|--------|------------|
 | `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo, en cada peticion |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
-| `insider_total` | La misma logica de clusters, pero combinando las compras de SEC EDGAR con las compras publicadas por Dataroma. | SEC EDGAR + Dataroma | Por el GitHub Action (ver abajo) |
+| `insider_total` | Orden programada ChatGPT S&P 500: el scanner tecnico actual en una cartera paper separada, para medirla sin mezclarla con Momentum ni Insiders. | Yahoo Finance chart API | En vivo y por el GitHub Action |
 
 Anadir una tercera estrategia es crear `lib/strategies/<id>.js` con la misma
 interfaz (`{ id, label, run }`), registrarla en `lib/strategies/index.js` y
@@ -62,18 +62,10 @@ Extrapolado al indice completo son del orden de 2 a 4 senales accionables al mes
 Es lo normal en esta estrategia, pero significa que su cartera acumulara
 operaciones despacio.
 
-`insider_total` usa las mismas reglas de cluster, freshness, stops y tamano de
-posicion que `insider`, pero suma Dataroma como fuente adicional. Dataroma se lee
-desde su tabla publica de insider transactions, con filtro de compras (`po=1`) y
-paginas recientes, y despues se filtra al S&P 500 para que el ranking compare
-universos equivalentes.
-
-Ademas lee la vista semanal de Dataroma (`t=w`) con compras y ventas. Para las
-compras publicadas en el ultimo filing date disponible, calcula el flujo semanal
-por ticker: valor comprado, valor vendido, neto comprador y ratio compra/venta.
-Solo genera senal extra si las compras del dia y de la semana superan un minimo,
-el neto comprador es claro y el valor comprado es sustancialmente mayor que el
-vendido.
+`insider_total` ya no usa Dataroma ni la estrategia combinada de insiders: se ha
+reutilizado como cartera independiente de la orden programada ChatGPT S&P 500.
+El codigo antiguo sigue en `lib/strategies/insider_total.js` por si se quiere
+recuperar, pero no esta conectado al selector de la app.
 
 ## El ranking
 
@@ -144,10 +136,10 @@ Escanear insiders (tarda: la SEC limita a 10 peticiones por segundo):
 npm run scan:insider
 ```
 
-Escanear insiders total (SEC + Dataroma):
+Escanear la orden programada ChatGPT S&P 500:
 
 ```bash
-npm run scan:insider-total
+npm run scan:chatgpt-sp500
 ```
 
 Registrar un dia de paper trading en ambos workspaces:
@@ -181,9 +173,8 @@ peticiones por segundo: unos 25 minutos. Despues, la cache de accessions
 baja a 2-3 minutos por dia. Un formulario ya presentado no cambia nunca, asi que
 la cache es permanente.
 
-`insider_total` reutiliza esa misma cache de formularios SEC y solo anade unas
-paginas HTML de Dataroma por ejecucion, asi que no requiere base de datos ni
-servicios externos de pago.
+La orden ChatGPT S&P 500 no usa la SEC, asi que cabe en la funcion de Vercel y
+tambien se registra por el Action para alimentar el ranking.
 
 ## SEC EDGAR
 
@@ -205,13 +196,6 @@ No hacen falta variables de entorno. Opcionales:
 - `MAX_SYMBOLS`: limite de simbolos para depurar. En produccion no lo uses.
 - `SEC_USER_AGENT`: contacto que se envia a la SEC.
 - `SEC_RPS`: peticiones por segundo a la SEC. Por defecto `8`, no subir de `10`.
-- `DATAROMA_TIMEFRAME`: rango de Dataroma. Por defecto `y`.
-- `DATAROMA_MAX_PAGES`: maximo de paginas recientes de Dataroma. Por defecto `25`.
-- `DATAROMA_FLOW_MAX_PAGES`: paginas de la vista semanal compra/venta. Por defecto `25`.
-- `DATAROMA_FLOW_MIN_TODAY_PURCHASE_USD`: compra minima publicada en el dia. Por defecto `250000`.
-- `DATAROMA_FLOW_MIN_PURCHASE_USD`: compras minimas semanales del ticker. Por defecto `500000`.
-- `DATAROMA_FLOW_MIN_NET_USD`: neto comprador minimo tras restar ventas. Por defecto `250000`.
-- `DATAROMA_FLOW_MIN_BUY_SELL_RATIO`: ratio compra/venta minimo si hubo ventas. Por defecto `1.75`.
 
 ## Cron
 
