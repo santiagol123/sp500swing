@@ -67,7 +67,10 @@ de conviccion insider: no compra cualquier insider buying, sino solo senales con
 Form 4 codigo P/Dataroma, varios insiders o una compra individual muy material
 de CEO/fundador/C-level, importe material, filing reciente y sin plan 10b5-1
 cuando ese dato aparece en el Form 4. La tesis es de evento corto: si no toca
-stop ni take profit antes, se cierra a 5 sesiones.
+stop ni take profit antes, se cierra a 5 sesiones. En esta pestaña, las senales
+que pasan filtro no se sustituyen por otras con mejor puntuacion: se mantienen
+en cartera hasta su salida temporal, stop u objetivo, mientras quepa en el
+limite global de posiciones.
 
 ## El ranking
 
@@ -201,7 +204,10 @@ No hacen falta variables de entorno. Opcionales:
 - `SEC_RPS`: peticiones por segundo a la SEC. Por defecto `8`, no subir de `10`.
 - `CHATGPT_SP500_MIN_VALUE_USD`: importe minimo agregado para la pestaña ChatGPT SP500. Por defecto `250000`.
 - `CHATGPT_SP500_MIN_INSIDERS`: minimo de insiders distintos. Por defecto `2`.
-- `CHATGPT_SP500_MIN_SINGLE_SENIOR_VALUE_USD`: compra individual minima para aceptar un CEO/fundador/C-level aunque no haya cluster. Por defecto `1000000`.
+- `CHATGPT_SP500_MIN_SINGLE_SENIOR_VALUE_USD`: compra individual minima para aceptar un CEO/fundador/C-level aunque no haya cluster. Por defecto `500000`.
+- `CHATGPT_SP500_MAX_AUTHORIZED_BUYS`: maximo de senales ChatGPT SP500 autorizadas por snapshot. Por defecto `12`.
+- `CHATGPT_SP500_MAX_NEW_POSITIONS_PER_DAY`: maximo de aperturas diarias para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
+- `CHATGPT_SP500_MAX_POSITIONS_PER_SECTOR`: maximo de posiciones por sector para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
 - `CHATGPT_SP500_SIGNAL_FILING_FRESH_DAYS`: antiguedad maxima normal del filing. Por defecto `20`.
 - `CHATGPT_SP500_MAX_HOLD_DAYS`: sesiones maximas antes de cierre temporal. Por defecto `5`.
 

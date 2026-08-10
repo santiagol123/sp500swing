@@ -1,9 +1,9 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-08-10T19:31:18.114Z",
+  "updated_at": "2026-08-10T19:41:23.858Z",
   "initial_equity": 100000,
-  "cash": 81000,
+  "cash": 64001.614191220746,
   "positions": [
     {
       "ticker": "BSX",
@@ -237,15 +237,152 @@
         "benchmark": "SPY",
         "rule_source": "chat_pasted_text_insider_conviction"
       }
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "sector": "Health Care",
+      "family": "INSIDER_CONVICTION",
+      "entry_date": "2026-08-10",
+      "entry_price": 27.055,
+      "qty": 369.397651,
+      "cost_basis": 9999.05,
+      "stop_price": 25.4317,
+      "target_price": 30.3016,
+      "last_price": 27.055,
+      "last_marked_date": "2026-08-10",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1959190,
+        "first_buy": "2026-08-05",
+        "last_buy": "2026-08-05",
+        "stale_days": 5,
+        "bootstrap_signal": false,
+        "sources": {
+          "sec_edgar": 2
+        },
+        "insiders": [
+          {
+            "name": "BLAYLOCK RONALD E",
+            "title": "Director",
+            "shares": 39231,
+            "value_usd": 998821,
+            "date": "2026-08-05",
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Buckley Mortimer J",
+            "title": "Director",
+            "shares": 37632,
+            "value_usd": 960369,
+            "date": "2026-08-05",
+            "filing_date": "2026-08-05",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "first_filing": "2026-08-05",
+        "last_filing": "2026-08-05",
+        "has_10b5_1_plan": false,
+        "rsi14": 76.65044505469481,
+        "volatility_20d": 0.17800879325661487,
+        "conviction_score": 77.8,
+        "conviction_filing_date": "2026-08-05",
+        "conviction_filing_age_days": 5,
+        "conviction_rejection_reasons": [],
+        "target_holding_sessions": 5,
+        "benchmark": "SPY",
+        "rule_source": "chat_pasted_text_insider_conviction"
+      }
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
+      "family": "INSIDER_CONVICTION",
+      "entry_date": "2026-08-10",
+      "entry_price": 112.91,
+      "qty": 61.959414,
+      "cost_basis": 6999.34,
+      "stop_price": 106.1354,
+      "target_price": 126.4592,
+      "last_price": 112.91,
+      "last_marked_date": "2026-08-10",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 850450,
+        "first_buy": "2026-07-31",
+        "last_buy": "2026-08-04",
+        "stale_days": 6,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 1,
+          "sec_edgar": 1
+        },
+        "insiders": [
+          {
+            "name": "MAHONEY CHRISTOPHER",
+            "title": "Director",
+            "shares": 1500,
+            "value_usd": 161400,
+            "date": "2026-08-04",
+            "filing_date": "2026-08-04",
+            "source": "dataroma",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Mahoney Christopher",
+            "title": "Director",
+            "shares": 6500,
+            "value_usd": 689050,
+            "date": "2026-07-31",
+            "filing_date": "2026-08-04",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "first_filing": "2026-08-04",
+        "last_filing": "2026-08-04",
+        "has_10b5_1_plan": false,
+        "rsi14": 50.05055416332112,
+        "volatility_20d": 0.4100510415363778,
+        "conviction_score": 74.4,
+        "conviction_filing_date": "2026-08-04",
+        "conviction_filing_age_days": 6,
+        "conviction_rejection_reasons": [],
+        "target_holding_sessions": 5,
+        "benchmark": "SPY",
+        "rule_source": "chat_pasted_text_insider_conviction"
+      }
     }
   ],
   "trades": [],
   "equity_curve": [
     {
       "date": "2026-08-10",
-      "equity": 99990.5,
-      "cash": 81000,
-      "open_positions": 3
+      "equity": 99982.01,
+      "cash": 64001.61,
+      "open_positions": 5
     }
   ],
   "tracked_days": 1,
