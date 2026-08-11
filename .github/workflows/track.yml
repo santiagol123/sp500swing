@@ -1,12 +1,11 @@
-name: Paper trading diario
+name: Paper trading y escaneo insiders
 
-# Registra el rendimiento de cada estrategia dia a dia y commitea el historial.
-# Es la unica fuente del ranking: sin esto, /leaderboard.html esta vacio.
+# Registra el rendimiento y refresca los snapshots que lee Vercel.
 on:
   schedule:
-    # 21:30 UTC de lunes a viernes: despues del cierre USA en horario de verano
-    # (16:00 ET) y tambien en invierno (la vela del dia ya esta cerrada).
-    - cron: "30 21 * * 1-5"
+    # Cada hora de lunes a viernes. Se usa GitHub Actions porque Vercel Hobby
+    # no permite cron horario; Vercel solo lee los snapshots commiteados.
+    - cron: "7 * * * 1-5"
   workflow_dispatch:
     inputs:
       workspace:
@@ -41,7 +40,10 @@ jobs:
           # La SEC exige un User-Agent identificable con contacto real.
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'sp500swing paper-trading research danielsilvaiglesias@gmail.com' }}
         run: |
-          if [ -n "${{ github.event.inputs.workspace }}" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            node scripts/track.js --workspace=insider
+            node scripts/track.js --workspace=insider_total --cacheOnly
+          elif [ -n "${{ github.event.inputs.workspace }}" ]; then
             node scripts/track.js --workspace=${{ github.event.inputs.workspace }}
           else
             node scripts/track.js
@@ -55,6 +57,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Sin cambios en el historial."
           else
-            git commit -m "chore: paper trading $(date -u +%Y-%m-%d)"
+            git commit -m "chore: hourly insider scan $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi

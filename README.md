@@ -14,7 +14,8 @@ pantalla que las compara.
 - Expone `/api/signals` y `/api/leaderboard` en JSON.
 - Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, radar, ranking tecnico, ejecucion y configuracion con datos reales de `/api/signals`.
 - Lee la cartera real desde `data/portfolio.json` y la valora con los ultimos precios descargados de Yahoo Finance.
-- Vercel Cron llama `/api/signals` en dias laborables para calentar cache.
+- GitHub Actions refresca `Insiders` y `ChatGPT SP500` cada hora en dias laborables, commiteando snapshots para Vercel.
+- Vercel Cron llama `/api/signals` en dias laborables para calentar cache de la API.
 
 ## Workspaces
 
@@ -156,15 +157,19 @@ npm run track
 ## El tracker y el historial
 
 El ranking sale de `data/history/<workspace>/state.json`, que escribe
-`scripts/track.js` y commitea el workflow `.github/workflows/track.yml` de lunes
-a viernes a las 21:30 UTC, despues del cierre USA.
+`scripts/track.js` y commitea el workflow `.github/workflows/track.yml`.
+Programado cada hora de lunes a viernes, el Action escanea primero `insider`
+contra SEC EDGAR y luego `ChatGPT SP500` reutilizando esa cache mas
+Dataroma/Yahoo. Cada commit de snapshots dispara un despliegue nuevo en Vercel,
+asi la app desplegada ve la ultima hora sin base de datos.
 
 Se hace asi, y no con base de datos, para que la app desplegada siga sin
 necesitar ninguna variable de entorno ni token: el Action escribe, Vercel solo
-lee. El precio es un commit diario en el historial de git.
+lee. El precio es un commit horario cuando cambia el snapshot.
 
-El tracker es idempotente por dia de mercado: si corre dos veces el mismo dia, la
-segunda no duplica operaciones.
+El tracker es idempotente por ticker y dia de mercado: si corre varias veces el
+mismo dia, no duplica posiciones ni dias de curva, pero si puede abrir senales
+nuevas que aparezcan despues.
 
 **Para activarlo hace falta dar permiso de escritura al Action**: en GitHub,
 Settings > Actions > General > Workflow permissions > Read and write permissions.
@@ -174,9 +179,9 @@ Sin eso el `git push` del ultimo paso falla.
 
 La primera vez, el escaneo de insiders descarga unos 11.000 formularios 4 a 8
 peticiones por segundo: unos 25 minutos. Despues, la cache de accessions
-(`data/history/insider/filings.json`) hace que solo se descarguen los nuevos, y
-baja a 2-3 minutos por dia. Un formulario ya presentado no cambia nunca, asi que
-la cache es permanente.
+(`data/history/insider/filings.json`) hace que solo se descarguen formularios
+nuevos, y baja mucho el coste de cada escaneo horario. Un formulario ya
+presentado no cambia nunca, asi que la cache es permanente.
 
 ChatGPT SP500 reutiliza la cache SEC de `insider` y anade Dataroma/Yahoo para
 puntuar conviccion. Como toca SEC EDGAR, tambien se calcula en el Action y la
@@ -219,6 +224,10 @@ No hacen falta variables de entorno. Opcionales:
 - `18:00 UTC`, revision intradia.
 
 La ruta programada es `/api/signals`.
+
+Los escaneos horarios de insiders no usan Vercel Cron porque el plan Hobby solo
+permite cron diario. Se ejecutan en GitHub Actions (`7 * * * 1-5`) y se publican
+en Vercel mediante el commit automatico de `data/history`.
 
 ## Limites
 

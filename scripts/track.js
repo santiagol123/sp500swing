@@ -1,13 +1,13 @@
-// Tracker diario de paper trading.
+// Tracker de paper trading y snapshots.
 //
-// Lo ejecuta el GitHub Action despues del cierre USA:
+// Lo ejecuta el GitHub Action:
 //   1. corre cada estrategia
 //   2. marca a mercado las posiciones abiertas y cierra las que toquen
 //   3. abre las nuevas senales autorizadas
 //   4. guarda el estado en data/history/<workspace>/state.json
 //
-// Es idempotente por dia de mercado: si se ejecuta dos veces el mismo dia, la
-// segunda no duplica operaciones.
+// Es idempotente por ticker y dia de mercado: si se ejecuta varias veces el
+// mismo dia, no duplica posiciones, pero si puede abrir senales nuevas.
 
 const { WORKSPACES, resolveWorkspace } = require("../lib/workspaces");
 const { runStrategy } = require("../lib/runtime");
@@ -84,6 +84,7 @@ async function trackWorkspace(workspace, options) {
   if (outcome.skipped) {
     console.log(`  SALTADO: ${outcome.reason}`);
   } else {
+    if (outcome.same_day_update) console.log("  actualizacion intradia del mismo dia de mercado");
     for (const t of outcome.closed) {
       console.log(`  CIERRE  ${t.ticker} ${t.exit_reason} ${t.pnl >= 0 ? "+" : ""}${t.pnl} $ (${(t.pnl_pct * 100).toFixed(2)}%)`);
     }
