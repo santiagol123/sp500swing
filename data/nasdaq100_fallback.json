@@ -1,0 +1,614 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "AMAT",
+    "name": "Applied Materials, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "AMGN",
+    "name": "Amgen Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CMCSA",
+    "name": "Comcast Corporation Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "PCAR",
+    "name": "PACCAR Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CTAS",
+    "name": "Cintas Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "PAYX",
+    "name": "Paychex, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ADSK",
+    "name": "Autodesk, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ROST",
+    "name": "Ross Stores, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MNST",
+    "name": "Monster Beverage Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ADBE",
+    "name": "Adobe Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "FAST",
+    "name": "Fastenal Company",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco Systems, Inc. (DE)",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "REGN",
+    "name": "Regeneron Pharmaceuticals, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "IDXX",
+    "name": "IDEXX Laboratories, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals Incorporated",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ODFL",
+    "name": "Old Dominion Freight Line, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "QCOM",
+    "name": "QUALCOMM Incorporated",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "GILD",
+    "name": "Gilead Sciences, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "SNPS",
+    "name": "Synopsys, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "SBUX",
+    "name": "Starbucks Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "INTU",
+    "name": "Intuit Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MCHP",
+    "name": "Microchip Technology Incorporated",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ORLY",
+    "name": "O'Reilly Automotive, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco Wholesale Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CPRT",
+    "name": "Copart, Inc. (DE)",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ASML",
+    "name": "ASML Holding N.V. New York Registry Shares",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "TTWO",
+    "name": "Take-Two Interactive Software, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MSTR",
+    "name": "Strategy Inc Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "BKNG",
+    "name": "Booking Holdings Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ISRG",
+    "name": "Intuitive Surgical, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MRVL",
+    "name": "Marvell Technology, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ADI",
+    "name": "Analog Devices, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "AEP",
+    "name": "American Electric Power Company, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ADP",
+    "name": "Automatic Data Processing, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CDNS",
+    "name": "Cadence Design Systems, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CSX",
+    "name": "CSX Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "HON",
+    "name": "Honeywell International Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MAR",
+    "name": "Marriott International Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "XEL",
+    "name": "Xcel Energy Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "EXC",
+    "name": "Exelon Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "PEP",
+    "name": "PepsiCo, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ROP",
+    "name": "Roper Technologies, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "TER",
+    "name": "Teradyne, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "TXN",
+    "name": "Texas Instruments Incorporated",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "WDC",
+    "name": "Western Digital Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "AXON",
+    "name": "Axon Enterprise, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MDLZ",
+    "name": "Mondelez International, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Netflix, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "STX",
+    "name": "Seagate Technology Holdings PLC (Ireland)",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ALNY",
+    "name": "Alnylam Pharmaceuticals, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MPWR",
+    "name": "Monolithic Power Systems, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "DXCM",
+    "name": "DexCom, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "TMUS",
+    "name": "T-Mobile US, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "MELI",
+    "name": "MercadoLibre, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "NBIS",
+    "name": "Nebius Group N.V. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "FTNT",
+    "name": "Fortinet, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "NXPI",
+    "name": "NXP Semiconductors N.V.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "FANG",
+    "name": "Diamondback Energy, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "WDAY",
+    "name": "Workday, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "GOOG",
+    "name": "Alphabet Inc. Class C Capital Stock",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal Holdings, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "SHOP",
+    "name": "Shopify Inc. Class A Subordinate Voting Shares",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "KHC",
+    "name": "The Kraft Heinz Company",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "LITE",
+    "name": "Lumentum Holdings Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CCEP",
+    "name": "Coca-Cola Europacific Partners plc",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "BKR",
+    "name": "Baker Hughes Company Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "PDD",
+    "name": "PDD Holdings Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "DDOG",
+    "name": "Datadog, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "RKLB",
+    "name": "Rocket Lab Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ABNB",
+    "name": "Airbnb, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "DASH",
+    "name": "DoorDash, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "APP",
+    "name": "Applovin Corporation Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CEG",
+    "name": "Constellation Energy Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "WBD",
+    "name": "Warner Bros. Discovery, Inc. Series A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "GEHC",
+    "name": "GE HealthCare Technologies Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "LIN",
+    "name": "Linde plc",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ARM",
+    "name": "Arm Holdings plc",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "TRI",
+    "name": "Thomson Reuters Corporation Common Shares",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "FER",
+    "name": "Ferrovial N.V.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "ALAB",
+    "name": "Astera Labs, Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "SNDK",
+    "name": "Sandisk Corporation",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "CRWV",
+    "name": "CoreWeave, Inc. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "SPCX",
+    "name": "Space Exploration Technologies Corp. Class A",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  },
+  {
+    "ticker": "HONA",
+    "name": "Honeywell Aerospace Inc.",
+    "gics_sector": "Nasdaq-100",
+    "gics_sub_industry": "Nasdaq-100"
+  }
+]

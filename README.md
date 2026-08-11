@@ -2,7 +2,7 @@
 
 Bot autonomo para escoger acciones del S&P 500 sin tokens de API.
 
-Tres estrategias independientes, cada una con su cartera de paper trading, y una
+Cuatro estrategias independientes, cada una con su cartera de paper trading, y una
 pantalla que las compara.
 
 ## Que hace
@@ -14,7 +14,7 @@ pantalla que las compara.
 - Expone `/api/signals` y `/api/leaderboard` en JSON.
 - Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, radar, ranking tecnico, ejecucion y configuracion con datos reales de `/api/signals`.
 - Lee la cartera real desde `data/portfolio.json` y la valora con los ultimos precios descargados de Yahoo Finance.
-- GitHub Actions refresca `Insiders` y `ChatGPT SP500` cada hora en dias laborables, commiteando snapshots para Vercel.
+- GitHub Actions refresca `Insiders`, `ChatGPT SP500` e `Insiders SP500+Nasdaq` cada hora en dias laborables, commiteando snapshots para Vercel.
 - Vercel Cron llama `/api/signals` en dias laborables para calentar cache de la API.
 
 ## Workspaces
@@ -27,8 +27,9 @@ selector de la app o con `?workspace=<id>` en la API.
 | `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo, en cada peticion |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
 | `insider_total` | ChatGPT SP500: compras fuertes de insiders del S&P 500, filtrando Form 4 codigo P/Dataroma por clusters, seniority, importe material y filing reciente; salida a 5 sesiones. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
+| `insider_sp500_nasdaq` | Insiders SP500+Nasdaq: misma regla ChatGPT, pero con universo S&P 500 + Nasdaq-100 para no meter small caps fuera de broker. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
 
-Anadir una tercera estrategia es crear `lib/strategies/<id>.js` con la misma
+Anadir otra estrategia es crear `lib/strategies/<id>.js` con la misma
 interfaz (`{ id, label, run }`), registrarla en `lib/strategies/index.js` y
 anadir su entrada en `lib/workspaces.js`. La API traduce sola la forma comun de
 senal al contrato que consume el frontend, asi que no hay que tocar la UI.
@@ -148,6 +149,12 @@ Escanear la estrategia ChatGPT SP500:
 npm run scan:chatgpt-sp500
 ```
 
+Escanear la estrategia Insiders SP500+Nasdaq:
+
+```bash
+npm run scan:insider-sp500-nasdaq
+```
+
 Registrar un dia de paper trading en ambos workspaces:
 
 ```bash
@@ -159,8 +166,9 @@ npm run track
 El ranking sale de `data/history/<workspace>/state.json`, que escribe
 `scripts/track.js` y commitea el workflow `.github/workflows/track.yml`.
 Programado cada hora de lunes a viernes, el Action escanea primero `insider`
-contra SEC EDGAR y luego `ChatGPT SP500` reutilizando esa cache mas
-Dataroma/Yahoo. Cada commit de snapshots dispara un despliegue nuevo en Vercel,
+contra SEC EDGAR, luego `ChatGPT SP500` reutilizando esa cache mas
+Dataroma/Yahoo, y despues `Insiders SP500+Nasdaq` con universo S&P 500 +
+Nasdaq-100. Cada commit de snapshots dispara un despliegue nuevo en Vercel,
 asi la app desplegada ve la ultima hora sin base de datos.
 
 Se hace asi, y no con base de datos, para que la app desplegada siga sin
@@ -184,8 +192,10 @@ nuevos, y baja mucho el coste de cada escaneo horario. Un formulario ya
 presentado no cambia nunca, asi que la cache es permanente.
 
 ChatGPT SP500 reutiliza la cache SEC de `insider` y anade Dataroma/Yahoo para
-puntuar conviccion. Como toca SEC EDGAR, tambien se calcula en el Action y la
-app sirve el ultimo snapshot, sin base de datos ni servicios extra.
+puntuar conviccion. `Insiders SP500+Nasdaq` usa la misma regla, pero carga el
+S&P 500 mas Nasdaq-100 desde fuentes vivas con fallback local. Como toca SEC
+EDGAR, tambien se calcula en el Action y la app sirve el ultimo snapshot, sin
+base de datos ni servicios extra.
 
 ## SEC EDGAR
 

@@ -12,11 +12,13 @@
     "scan:insider": "node scripts/run-local.js --workspace=insider",
     "scan:insider-total": "node scripts/run-local.js --workspace=insider_total",
     "scan:chatgpt-sp500": "node scripts/run-local.js --workspace=insider_total",
+    "scan:insider-sp500-nasdaq": "node scripts/run-local.js --workspace=insider_sp500_nasdaq",
     "track": "node scripts/track.js",
     "track:momentum": "node scripts/track.js --workspace=momentum",
     "track:insider": "node scripts/track.js --workspace=insider",
     "track:insider-total": "node scripts/track.js --workspace=insider_total",
     "track:chatgpt-sp500": "node scripts/track.js --workspace=insider_total",
+    "track:insider-sp500-nasdaq": "node scripts/track.js --workspace=insider_sp500_nasdaq",
     "vercel:dev": "vercel dev",
     "deploy": "vercel deploy --prod"
   },

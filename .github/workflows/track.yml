@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       workspace:
-        description: "Solo un workspace (momentum | insider | insider_total). Vacio = todos."
+        description: "Solo un workspace (momentum | insider | insider_total | insider_sp500_nasdaq). Vacio = todos."
         required: false
         default: ""
 
@@ -43,6 +43,7 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ]; then
             node scripts/track.js --workspace=insider
             node scripts/track.js --workspace=insider_total --cacheOnly
+            node scripts/track.js --workspace=insider_sp500_nasdaq
           elif [ -n "${{ github.event.inputs.workspace }}" ]; then
             node scripts/track.js --workspace=${{ github.event.inputs.workspace }}
           else
