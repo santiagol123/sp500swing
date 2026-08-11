@@ -37,7 +37,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2000,
-      "value_usd": 173640
+      "value_usd": 173640,
+      "filing_datetime": "2026-06-18T21:08:30.000Z",
+      "filing_acceptance_datetime": "2026-06-18T21:08:30.000Z"
     }
   ],
   "0001171780-26-000012": [],
@@ -108,7 +110,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 10000,
-      "value_usd": 1945130
+      "value_usd": 1945130,
+      "filing_datetime": "2026-06-26T20:20:09.000Z",
+      "filing_acceptance_datetime": "2026-06-26T20:20:09.000Z"
     }
   ],
   "0002140626-26-000004": [],
@@ -592,7 +596,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 105631,
-      "value_usd": 4999958.8802000005
+      "value_usd": 4999958.8802000005,
+      "filing_datetime": "2026-08-06T20:05:30.000Z",
+      "filing_acceptance_datetime": "2026-08-06T20:05:30.000Z"
     }
   ],
   "0001193125-26-304805": [],
@@ -763,7 +769,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2000,
-      "value_usd": 378400
+      "value_usd": 378400,
+      "filing_datetime": "2026-06-23T20:48:10.000Z",
+      "filing_acceptance_datetime": "2026-06-23T20:48:10.000Z"
     }
   ],
   "0000769397-26-000052": [],
@@ -790,7 +798,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 2460,
-      "value_usd": 498543.6
+      "value_usd": 498543.6,
+      "filing_datetime": "2026-06-17T20:05:27.000Z",
+      "filing_acceptance_datetime": "2026-06-17T20:05:27.000Z"
     }
   ],
   "0001662734-26-000006": [
@@ -807,7 +817,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 2500,
-      "value_usd": 494174.99999999994
+      "value_usd": 494174.99999999994,
+      "filing_datetime": "2026-06-15T22:41:15.000Z",
+      "filing_acceptance_datetime": "2026-06-15T22:41:15.000Z"
     }
   ],
   "0000769397-26-000046": [
@@ -824,7 +836,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 3435,
-      "value_usd": 794054.34
+      "value_usd": 794054.34,
+      "filing_datetime": "2026-05-29T23:34:30.000Z",
+      "filing_acceptance_datetime": "2026-05-29T23:34:30.000Z"
     }
   ],
   "0001225208-26-007018": [],
@@ -862,7 +876,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 165,
-      "value_usd": 492855
+      "value_usd": 492855,
+      "filing_datetime": "2026-05-29T21:22:37.000Z",
+      "filing_acceptance_datetime": "2026-05-29T21:22:37.000Z"
     }
   ],
   "0001193125-26-333043": [],
@@ -1036,7 +1052,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 438.8438,
-      "value_usd": 53973.90788682
+      "value_usd": 53973.90788682,
+      "filing_datetime": "2026-05-13T20:38:52.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:38:52.000Z"
     }
   ],
   "0001628280-26-054918": [],
@@ -1112,7 +1130,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1370,
-      "value_usd": 299345
+      "value_usd": 299345,
+      "filing_datetime": "2026-05-22T20:10:15.000Z",
+      "filing_acceptance_datetime": "2026-05-22T20:10:15.000Z"
     }
   ],
   "0001214607-26-000014": [],
@@ -1146,7 +1166,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2100,
-      "value_usd": 99936.9
+      "value_usd": 99936.9,
+      "filing_datetime": "2026-08-07T20:16:03.000Z",
+      "filing_acceptance_datetime": "2026-08-07T20:16:03.000Z"
     }
   ],
   "0001225208-26-006951": [
@@ -1163,7 +1185,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1182,
-      "value_usd": 56886.55699999999
+      "value_usd": 56886.55699999999,
+      "filing_datetime": "2026-08-05T20:15:54.000Z",
+      "filing_acceptance_datetime": "2026-08-05T20:15:54.000Z"
     }
   ],
   "0001225208-26-006950": [
@@ -1180,7 +1204,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 186240,
-      "value_usd": 9001407.552
+      "value_usd": 9001407.552,
+      "filing_datetime": "2026-08-05T20:15:51.000Z",
+      "filing_acceptance_datetime": "2026-08-05T20:15:51.000Z"
     }
   ],
   "0001225208-26-006882": [
@@ -1197,7 +1223,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 5000,
-      "value_usd": 227399.5
+      "value_usd": 227399.5,
+      "filing_datetime": "2026-08-03T20:29:44.000Z",
+      "filing_acceptance_datetime": "2026-08-03T20:29:44.000Z"
     }
   ],
   "0001225208-26-006881": [],
@@ -1217,7 +1245,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1770,
-      "value_usd": 99987.3
+      "value_usd": 99987.3,
+      "filing_datetime": "2026-05-21T21:21:12.000Z",
+      "filing_acceptance_datetime": "2026-05-21T21:21:12.000Z"
     }
   ],
   "0001225208-26-005547": [
@@ -1234,7 +1264,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 3580,
-      "value_usd": 202914.4
+      "value_usd": 202914.4,
+      "filing_datetime": "2026-05-21T21:21:10.000Z",
+      "filing_acceptance_datetime": "2026-05-21T21:21:10.000Z"
     }
   ],
   "0001225208-26-005546": [
@@ -1251,7 +1283,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 4450,
-      "value_usd": 251098.09499999997
+      "value_usd": 251098.09499999997,
+      "filing_datetime": "2026-05-21T21:20:09.000Z",
+      "filing_acceptance_datetime": "2026-05-21T21:20:09.000Z"
     }
   ],
   "0002080176-26-000004": [],
@@ -1286,7 +1320,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1000,
-      "value_usd": 373570
+      "value_usd": 373570,
+      "filing_datetime": "2026-06-15T21:11:58.000Z",
+      "filing_acceptance_datetime": "2026-06-15T21:11:58.000Z"
     }
   ],
   "0001225208-26-006446": [],
@@ -1317,7 +1353,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 860,
-      "value_usd": 49923
+      "value_usd": 49923,
+      "filing_datetime": "2026-06-10T21:00:04.000Z",
+      "filing_acceptance_datetime": "2026-06-10T21:00:04.000Z"
     }
   ],
   "0000014693-26-000043": [],
@@ -1391,7 +1429,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 6500,
-      "value_usd": 689050
+      "value_usd": 689050,
+      "filing_datetime": "2026-08-04T20:13:38.000Z",
+      "filing_acceptance_datetime": "2026-08-04T20:13:38.000Z"
     }
   ],
   "0001628280-26-040325": [],
@@ -1517,7 +1557,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 25000,
-      "value_usd": 1544981.37
+      "value_usd": 1544981.37,
+      "filing_datetime": "2026-08-04T21:04:24.000Z",
+      "filing_acceptance_datetime": "2026-08-04T21:04:24.000Z"
     }
   ],
   "0001700548-26-000018": [],
@@ -1548,7 +1590,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 5,
-      "value_usd": 2206.8
+      "value_usd": 2206.8,
+      "filing_datetime": "2026-06-04T22:30:17.000Z",
+      "filing_acceptance_datetime": "2026-06-04T22:30:17.000Z"
     }
   ],
   "0001700537-26-000014": [],
@@ -1580,7 +1624,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 256,
-      "value_usd": 199375.36
+      "value_usd": 199375.36,
+      "filing_datetime": "2026-06-29T20:35:13.000Z",
+      "filing_acceptance_datetime": "2026-06-29T20:35:13.000Z"
     }
   ],
   "0001484697-26-000007": [],
@@ -1673,7 +1719,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 18000,
-      "value_usd": 2005740.0000000002
+      "value_usd": 2005740.0000000002,
+      "filing_datetime": "2026-05-29T20:03:28.000Z",
+      "filing_acceptance_datetime": "2026-05-29T20:03:28.000Z"
     }
   ],
   "0001402057-26-000034": [
@@ -1690,7 +1738,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 4830,
-      "value_usd": 499397.85
+      "value_usd": 499397.85,
+      "filing_datetime": "2026-05-19T20:13:00.000Z",
+      "filing_acceptance_datetime": "2026-05-19T20:13:00.000Z"
     }
   ],
   "0002129822-26-000003": [],
@@ -1715,7 +1765,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 550,
-      "value_usd": 148626.5
+      "value_usd": 148626.5,
+      "filing_datetime": "2026-06-24T20:04:15.000Z",
+      "filing_acceptance_datetime": "2026-06-24T20:04:15.000Z"
     }
   ],
   "0001202358-26-000006": [
@@ -1732,7 +1784,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 4000,
-      "value_usd": 1096760
+      "value_usd": 1096760,
+      "filing_datetime": "2026-06-22T20:05:32.000Z",
+      "filing_acceptance_datetime": "2026-06-22T20:05:32.000Z"
     }
   ],
   "0001202358-26-000004": [
@@ -1749,7 +1803,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 4000,
-      "value_usd": 1065040
+      "value_usd": 1065040,
+      "filing_datetime": "2026-05-28T20:23:34.000Z",
+      "filing_acceptance_datetime": "2026-05-28T20:23:34.000Z"
     }
   ],
   "0001071739-26-000158": [],
@@ -1839,7 +1895,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 21959,
-      "value_usd": 1849512.1463000001
+      "value_usd": 1849512.1463000001,
+      "filing_datetime": "2026-05-28T20:24:48.000Z",
+      "filing_acceptance_datetime": "2026-05-28T20:24:48.000Z"
     }
   ],
   "0001804183-26-000010": [],
@@ -1874,7 +1932,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 9929,
-      "value_usd": 1399307.8706
+      "value_usd": 1399307.8706,
+      "filing_datetime": "2026-05-18T20:27:30.000Z",
+      "filing_acceptance_datetime": "2026-05-18T20:27:30.000Z"
     }
   ],
   "0001104659-26-061248": [],
@@ -2069,7 +2129,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 339.09999999999997,
-      "value_usd": 78186.28699999998
+      "value_usd": 78186.28699999998,
+      "filing_datetime": "2026-06-29T20:28:58.000Z",
+      "filing_acceptance_datetime": "2026-06-29T20:28:58.000Z"
     }
   ],
   "0001812194-26-000003": [],
@@ -2103,7 +2165,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 200,
-      "value_usd": 14491
+      "value_usd": 14491,
+      "filing_datetime": "2026-08-03T16:07:19.000Z",
+      "filing_acceptance_datetime": "2026-08-03T16:07:19.000Z"
     }
   ],
   "0002137913-26-000006": [],
@@ -2145,7 +2209,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 4034,
-      "value_usd": 209768
+      "value_usd": 209768,
+      "filing_datetime": "2026-06-12T20:01:20.000Z",
+      "filing_acceptance_datetime": "2026-06-12T20:01:20.000Z"
     }
   ],
   "0001478037-26-000006": [],
@@ -2263,7 +2329,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 1.031,
-      "value_usd": 110.18297
+      "value_usd": 110.18297,
+      "filing_datetime": "2026-06-16T20:32:42.000Z",
+      "filing_acceptance_datetime": "2026-06-16T20:32:42.000Z"
     }
   ],
   "0001047862-26-000118": [],
@@ -2348,7 +2416,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 83300,
-      "value_usd": 2489837
+      "value_usd": 2489837,
+      "filing_datetime": "2026-08-05T13:27:00.000Z",
+      "filing_acceptance_datetime": "2026-08-05T13:27:00.000Z"
     }
   ],
   "0002146463-26-000005": [],
@@ -2925,7 +2995,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 40,
-      "value_usd": 6237.4
+      "value_usd": 6237.4,
+      "filing_datetime": "2026-06-08T20:10:05.000Z",
+      "filing_acceptance_datetime": "2026-06-08T20:10:05.000Z"
     }
   ],
   "0001832614-26-000019": [],
@@ -3047,7 +3119,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 1000,
-      "value_usd": 263831
+      "value_usd": 263831,
+      "filing_datetime": "2026-06-15T20:30:28.000Z",
+      "filing_acceptance_datetime": "2026-06-15T20:30:28.000Z"
     }
   ],
   "0002058857-26-000008": [
@@ -3064,7 +3138,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 7750,
-      "value_usd": 1999500
+      "value_usd": 1999500,
+      "filing_datetime": "2026-06-11T20:30:16.000Z",
+      "filing_acceptance_datetime": "2026-06-11T20:30:16.000Z"
     }
   ],
   "0001727287-26-000007": [],
@@ -3095,7 +3171,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1000,
-      "value_usd": 250650
+      "value_usd": 250650,
+      "filing_datetime": "2026-05-14T21:03:53.000Z",
+      "filing_acceptance_datetime": "2026-05-14T21:03:53.000Z"
     }
   ],
   "0001536528-26-000008": [],
@@ -3127,7 +3205,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1000,
-      "value_usd": 366050
+      "value_usd": 366050,
+      "filing_datetime": "2026-07-17T19:04:55.000Z",
+      "filing_acceptance_datetime": "2026-07-17T19:04:55.000Z"
     }
   ],
   "0001287920-26-000006": [
@@ -3144,7 +3224,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 2725,
-      "value_usd": 1002230.05
+      "value_usd": 1002230.05,
+      "filing_datetime": "2026-07-17T17:50:44.000Z",
+      "filing_acceptance_datetime": "2026-07-17T17:50:44.000Z"
     }
   ],
   "0001659075-26-000006": [],
@@ -3192,7 +3274,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1000,
-      "value_usd": 106075
+      "value_usd": 106075,
+      "filing_datetime": "2026-08-06T22:08:39.000Z",
+      "filing_acceptance_datetime": "2026-08-06T22:08:39.000Z"
     }
   ],
   "0000065984-26-000285": [],
@@ -3331,7 +3415,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 7000,
-      "value_usd": 1433500
+      "value_usd": 1433500,
+      "filing_datetime": "2026-06-04T15:07:34.000Z",
+      "filing_acceptance_datetime": "2026-06-04T15:07:34.000Z"
     }
   ],
   "0001628280-26-039409": [],
@@ -3397,7 +3483,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 1000,
-      "value_usd": 88900
+      "value_usd": 88900,
+      "filing_datetime": "2026-06-15T20:41:48.000Z",
+      "filing_acceptance_datetime": "2026-06-15T20:41:48.000Z"
     }
   ],
   "0001705186-26-000002": [],
@@ -3422,7 +3510,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 1000,
-      "value_usd": 93360
+      "value_usd": 93360,
+      "filing_datetime": "2026-06-04T20:15:24.000Z",
+      "filing_acceptance_datetime": "2026-06-04T20:15:24.000Z"
     }
   ],
   "0001730935-26-000011": [
@@ -3439,7 +3529,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 2000,
-      "value_usd": 185760
+      "value_usd": 185760,
+      "filing_datetime": "2026-06-04T20:11:38.000Z",
+      "filing_acceptance_datetime": "2026-06-04T20:11:38.000Z"
     }
   ],
   "0001225208-26-006632": [],
@@ -3582,7 +3674,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1386,
-      "value_usd": 57366.54
+      "value_usd": 57366.54,
+      "filing_datetime": "2026-07-16T20:23:46.000Z",
+      "filing_acceptance_datetime": "2026-07-16T20:23:46.000Z"
     }
   ],
   "0001193125-26-274186": [],
@@ -3647,7 +3741,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 10060,
-      "value_usd": 499982
+      "value_usd": 499982,
+      "filing_datetime": "2026-06-18T20:06:43.000Z",
+      "filing_acceptance_datetime": "2026-06-18T20:06:43.000Z"
     }
   ],
   "0001800960-26-000008": [
@@ -3664,7 +3760,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2960,
-      "value_usd": 149746.40000000002
+      "value_usd": 149746.40000000002,
+      "filing_datetime": "2026-06-17T20:03:48.000Z",
+      "filing_acceptance_datetime": "2026-06-17T20:03:48.000Z"
     }
   ],
   "0001549373-26-000010": [
@@ -3681,7 +3779,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 10150,
-      "value_usd": 500699.5
+      "value_usd": 500699.5,
+      "filing_datetime": "2026-06-16T20:11:17.000Z",
+      "filing_acceptance_datetime": "2026-06-16T20:11:17.000Z"
     }
   ],
   "0001987329-26-000014": [
@@ -3698,7 +3798,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2023,
-      "value_usd": 100118.27
+      "value_usd": 100118.27,
+      "filing_datetime": "2026-06-16T20:10:06.000Z",
+      "filing_acceptance_datetime": "2026-06-16T20:10:06.000Z"
     }
   ],
   "0001732108-26-000008": [
@@ -3715,7 +3817,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2088,
-      "value_usd": 101080.07999999999
+      "value_usd": 101080.07999999999,
+      "filing_datetime": "2026-06-16T20:09:10.000Z",
+      "filing_acceptance_datetime": "2026-06-16T20:09:10.000Z"
     }
   ],
   "0001655046-26-000012": [
@@ -3732,7 +3836,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 7500,
-      "value_usd": 371775
+      "value_usd": 371775,
+      "filing_datetime": "2026-06-16T20:08:05.000Z",
+      "filing_acceptance_datetime": "2026-06-16T20:08:05.000Z"
     }
   ],
   "0002064218-26-000011": [],
@@ -3793,7 +3899,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 10600,
-      "value_usd": 148880.18
+      "value_usd": 148880.18,
+      "filing_datetime": "2026-06-24T16:16:30.000Z",
+      "filing_acceptance_datetime": "2026-06-24T16:16:30.000Z"
     }
   ],
   "0000037996-26-000146": [],
@@ -3951,7 +4059,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 10000,
-      "value_usd": 641800.0000000001
+      "value_usd": 641800.0000000001,
+      "filing_datetime": "2026-05-26T22:44:54.000Z",
+      "filing_acceptance_datetime": "2026-05-26T22:44:54.000Z"
     }
   ],
   "0002027284-26-000008": [],
@@ -3970,7 +4080,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1618,
-      "value_usd": 100364.54000000001
+      "value_usd": 100364.54000000001,
+      "filing_datetime": "2026-05-13T20:19:13.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:19:13.000Z"
     }
   ],
   "0001996810-26-000134": [],
@@ -4006,7 +4118,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 3000,
-      "value_usd": 81171
+      "value_usd": 81171,
+      "filing_datetime": "2026-06-05T21:40:53.000Z",
+      "filing_acceptance_datetime": "2026-06-05T21:40:53.000Z"
     }
   ],
   "0000849399-26-000020": [],
@@ -4480,7 +4594,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 22000,
-      "value_usd": 401225.18000000005
+      "value_usd": 401225.18000000005,
+      "filing_datetime": "2026-06-04T21:46:06.000Z",
+      "filing_acceptance_datetime": "2026-06-04T21:46:06.000Z"
     }
   ],
   "0001225208-26-005765": [],
@@ -4555,7 +4671,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 806,
-      "value_usd": 199879.7788
+      "value_usd": 199879.7788,
+      "filing_datetime": "2026-06-04T20:22:45.000Z",
+      "filing_acceptance_datetime": "2026-06-04T20:22:45.000Z"
     }
   ],
   "0001205703-26-000025": [],
@@ -4615,7 +4733,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 11538,
-      "value_usd": 1000090.764
+      "value_usd": 1000090.764,
+      "filing_datetime": "2026-08-05T23:00:31.000Z",
+      "filing_acceptance_datetime": "2026-08-05T23:00:31.000Z"
     }
   ],
   "0001145197-26-000165": [],
@@ -4635,7 +4755,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2790,
-      "value_usd": 400392.89999999997
+      "value_usd": 400392.89999999997,
+      "filing_datetime": "2026-06-04T20:25:37.000Z",
+      "filing_acceptance_datetime": "2026-06-04T20:25:37.000Z"
     }
   ],
   "0001145197-26-000142": [],
@@ -4653,7 +4775,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 3450,
-      "value_usd": 497489.99999999994
+      "value_usd": 497489.99999999994,
+      "filing_datetime": "2026-06-03T20:19:18.000Z",
+      "filing_acceptance_datetime": "2026-06-03T20:19:18.000Z"
     }
   ],
   "0001145197-26-000129": [],
@@ -4696,7 +4820,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 25,
-      "value_usd": 2175.75
+      "value_usd": 2175.75,
+      "filing_datetime": "2026-08-04T20:01:04.000Z",
+      "filing_acceptance_datetime": "2026-08-04T20:01:04.000Z"
     }
   ],
   "0001381197-26-000113": [
@@ -4713,7 +4839,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 25,
-      "value_usd": 2200.75
+      "value_usd": 2200.75,
+      "filing_datetime": "2026-07-01T20:01:03.000Z",
+      "filing_acceptance_datetime": "2026-07-01T20:01:03.000Z"
     }
   ],
   "0001381197-26-000111": [
@@ -4730,7 +4858,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 25,
-      "value_usd": 2152.5
+      "value_usd": 2152.5,
+      "filing_datetime": "2026-06-02T20:09:02.000Z",
+      "filing_acceptance_datetime": "2026-06-02T20:09:02.000Z"
     }
   ],
   "0001381197-26-000108": [],
@@ -4772,7 +4902,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 273500,
-      "value_usd": 20317854.5
+      "value_usd": 20317854.5,
+      "filing_datetime": "2026-06-02T21:22:26.000Z",
+      "filing_acceptance_datetime": "2026-06-02T21:22:26.000Z"
     }
   ],
   "0000051434-26-000125": [],
@@ -4825,7 +4957,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1750,
-      "value_usd": 541665.125
+      "value_usd": 541665.125,
+      "filing_datetime": "2026-05-26T21:18:15.000Z",
+      "filing_acceptance_datetime": "2026-05-26T21:18:15.000Z"
     }
   ],
   "0001561733-26-000014": [],
@@ -4903,7 +5037,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 500,
-      "value_usd": 149814.95
+      "value_usd": 149814.95,
+      "filing_datetime": "2026-08-05T20:04:40.000Z",
+      "filing_acceptance_datetime": "2026-08-05T20:04:40.000Z"
     }
   ],
   "0001225208-26-006697": [],
@@ -4929,7 +5065,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 2000,
-      "value_usd": 266840
+      "value_usd": 266840,
+      "filing_datetime": "2026-05-14T21:40:26.000Z",
+      "filing_acceptance_datetime": "2026-05-14T21:40:26.000Z"
     }
   ],
   "0000779152-26-000030": [
@@ -4946,7 +5084,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 375,
-      "value_usd": 50295
+      "value_usd": 50295,
+      "filing_datetime": "2026-05-14T21:40:20.000Z",
+      "filing_acceptance_datetime": "2026-05-14T21:40:20.000Z"
     }
   ],
   "0001949067-26-000005": [],
@@ -4967,7 +5107,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 3601,
-      "value_usd": 400035.09
+      "value_usd": 400035.09,
+      "filing_datetime": "2026-05-18T10:10:05.000Z",
+      "filing_acceptance_datetime": "2026-05-18T10:10:05.000Z"
     }
   ],
   "0001825457-26-000007": [
@@ -4984,7 +5126,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 253,
-      "value_usd": 28477.68
+      "value_usd": 28477.68,
+      "filing_datetime": "2026-05-14T21:31:38.000Z",
+      "filing_acceptance_datetime": "2026-05-14T21:31:38.000Z"
     }
   ],
   "0000200406-26-000171": [],
@@ -5166,7 +5310,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 213106,
-      "value_usd": 4999807.7296
+      "value_usd": 4999807.7296,
+      "filing_datetime": "2026-05-13T20:08:04.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:08:04.000Z"
     }
   ],
   "0001586651-26-000002": [],
@@ -5320,7 +5466,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 5000,
-      "value_usd": 523700
+      "value_usd": 523700,
+      "filing_datetime": "2026-06-01T12:59:04.000Z",
+      "filing_acceptance_datetime": "2026-06-01T12:59:04.000Z"
     }
   ],
   "0000060667-26-000107": [],
@@ -5369,7 +5517,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 4275,
-      "value_usd": 500383.62
+      "value_usd": 500383.62,
+      "filing_datetime": "2026-06-16T21:55:44.000Z",
+      "filing_acceptance_datetime": "2026-06-16T21:55:44.000Z"
     }
   ],
   "0001397187-26-000084": [],
@@ -5545,7 +5695,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1100,
-      "value_usd": 55227.369999999995
+      "value_usd": 55227.369999999995,
+      "filing_datetime": "2026-07-27T12:26:30.000Z",
+      "filing_acceptance_datetime": "2026-07-27T12:26:30.000Z"
     }
   ],
   "0000063754-26-000282": [],
@@ -5571,6 +5723,8 @@
   "0001685800-26-000015": [],
   "0001723937-26-000005": [],
   "0001685800-26-000013": [],
+  "0000927653-26-000240": [],
+  "0000927653-26-000239": [],
   "0000927653-26-000209": [],
   "0000927653-26-000208": [],
   "0000927653-26-000207": [],
@@ -5817,7 +5971,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1100,
-      "value_usd": 141400
+      "value_usd": 141400,
+      "filing_datetime": "2026-05-21T20:30:37.000Z",
+      "filing_acceptance_datetime": "2026-05-21T20:30:37.000Z"
     }
   ],
   "0000912595-26-000085": [],
@@ -5963,7 +6119,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 4000,
-      "value_usd": 2249591.42
+      "value_usd": 2249591.42,
+      "filing_datetime": "2026-05-18T20:10:12.000Z",
+      "filing_acceptance_datetime": "2026-05-18T20:10:12.000Z"
     }
   ],
   "0001193125-26-335033": [],
@@ -6145,7 +6303,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 255,
-      "value_usd": 45790.35
+      "value_usd": 45790.35,
+      "filing_datetime": "2026-07-30T20:06:43.000Z",
+      "filing_acceptance_datetime": "2026-07-30T20:06:43.000Z"
     }
   ],
   "0001323371-26-000008": [],
@@ -6187,7 +6347,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1380000,
-      "value_usd": 24992300
+      "value_usd": 24992300,
+      "filing_datetime": "2026-06-03T20:15:15.000Z",
+      "filing_acceptance_datetime": "2026-06-03T20:15:15.000Z"
     }
   ],
   "0001104659-26-066326": [
@@ -6204,7 +6366,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 153000,
-      "value_usd": 2504610
+      "value_usd": 2504610,
+      "filing_datetime": "2026-05-26T20:49:51.000Z",
+      "filing_acceptance_datetime": "2026-05-26T20:49:51.000Z"
     }
   ],
   "0001104659-26-065152": [
@@ -6221,7 +6385,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 30000,
-      "value_usd": 474900
+      "value_usd": 474900,
+      "filing_datetime": "2026-05-21T20:15:20.000Z",
+      "filing_acceptance_datetime": "2026-05-21T20:15:20.000Z"
     }
   ],
   "0001104659-26-063829": [
@@ -6238,7 +6404,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 15000,
-      "value_usd": 225350
+      "value_usd": 225350,
+      "filing_datetime": "2026-05-19T20:15:14.000Z",
+      "filing_acceptance_datetime": "2026-05-19T20:15:14.000Z"
     }
   ],
   "0001225208-26-006985": [],
@@ -6334,7 +6502,9 @@
       "is_director": true,
       "has_10b5_1_plan": false,
       "shares": 63,
-      "value_usd": 405185.13
+      "value_usd": 405185.13,
+      "filing_datetime": "2026-08-11T09:40:24.000Z",
+      "filing_acceptance_datetime": "2026-08-11T09:40:24.000Z"
     }
   ],
   "0000906163-26-000088": [],
@@ -6392,7 +6562,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 4770,
-      "value_usd": 249852.6
+      "value_usd": 249852.6,
+      "filing_datetime": "2026-06-24T23:04:01.000Z",
+      "filing_acceptance_datetime": "2026-06-24T23:04:01.000Z"
     }
   ],
   "0001628280-26-040570": [],
@@ -6618,7 +6790,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 39231,
-      "value_usd": 998821.26
+      "value_usd": 998821.26,
+      "filing_datetime": "2026-08-05T20:03:40.000Z",
+      "filing_acceptance_datetime": "2026-08-05T20:03:40.000Z"
     }
   ],
   "0001225208-26-006943": [
@@ -6635,7 +6809,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 37632,
-      "value_usd": 960368.64
+      "value_usd": 960368.64,
+      "filing_datetime": "2026-08-05T20:02:38.000Z",
+      "filing_acceptance_datetime": "2026-08-05T20:02:38.000Z"
     }
   ],
   "0001225208-26-006900": [],
@@ -6738,7 +6914,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 11.5394,
-      "value_usd": 1343.77466
+      "value_usd": 1343.77466,
+      "filing_datetime": "2026-06-16T17:37:08.000Z",
+      "filing_acceptance_datetime": "2026-06-16T17:37:08.000Z"
     }
   ],
   "0000079879-26-000213": [],
@@ -7156,7 +7334,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 250000,
-      "value_usd": 20184200
+      "value_usd": 20184200,
+      "filing_datetime": "2026-06-09T20:05:26.000Z",
+      "filing_acceptance_datetime": "2026-06-09T20:05:26.000Z"
     }
   ],
   "0000950103-26-008629": [],
@@ -7176,7 +7356,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 181000,
-      "value_usd": 15103852.700000001
+      "value_usd": 15103852.700000001,
+      "filing_datetime": "2026-06-03T22:50:34.000Z",
+      "filing_acceptance_datetime": "2026-06-03T22:50:34.000Z"
     }
   ],
   "0002059531-26-000006": [],
@@ -7204,7 +7386,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 249000,
-      "value_usd": 20018205.6
+      "value_usd": 20018205.6,
+      "filing_datetime": "2026-06-01T20:44:12.000Z",
+      "filing_acceptance_datetime": "2026-06-01T20:44:12.000Z"
     }
   ],
   "0001104659-26-067045": [],
@@ -7386,7 +7570,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 220,
-      "value_usd": 49119.51
+      "value_usd": 49119.51,
+      "filing_datetime": "2026-07-01T18:16:45.000Z",
+      "filing_acceptance_datetime": "2026-07-01T18:16:45.000Z"
     }
   ],
   "0001898688-26-000009": [
@@ -7403,7 +7589,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 89,
-      "value_usd": 19860.749999999996
+      "value_usd": 19860.749999999996,
+      "filing_datetime": "2026-07-01T18:14:38.000Z",
+      "filing_acceptance_datetime": "2026-07-01T18:14:38.000Z"
     }
   ],
   "0001210982-26-000008": [
@@ -7420,7 +7608,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 508,
-      "value_usd": 113475.29
+      "value_usd": 113475.29,
+      "filing_datetime": "2026-07-01T18:11:16.000Z",
+      "filing_acceptance_datetime": "2026-07-01T18:11:16.000Z"
     }
   ],
   "0001189793-26-000011": [
@@ -7437,7 +7627,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 397,
-      "value_usd": 88682.18
+      "value_usd": 88682.18,
+      "filing_datetime": "2026-07-01T18:07:53.000Z",
+      "filing_acceptance_datetime": "2026-07-01T18:07:53.000Z"
     }
   ],
   "0002109729-26-000008": [
@@ -7454,7 +7646,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 15,
-      "value_usd": 3347.5599999999995
+      "value_usd": 3347.5599999999995,
+      "filing_datetime": "2026-07-01T18:05:32.000Z",
+      "filing_acceptance_datetime": "2026-07-01T18:05:32.000Z"
     }
   ],
   "0001272064-26-000010": [
@@ -7471,7 +7665,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 182,
-      "value_usd": 40614.299999999996
+      "value_usd": 40614.299999999996,
+      "filing_datetime": "2026-07-01T18:03:20.000Z",
+      "filing_acceptance_datetime": "2026-07-01T18:03:20.000Z"
     }
   ],
   "0001464273-26-000008": [
@@ -7488,7 +7684,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 372,
-      "value_usd": 83069.75
+      "value_usd": 83069.75,
+      "filing_datetime": "2026-07-01T17:58:21.000Z",
+      "filing_acceptance_datetime": "2026-07-01T17:58:21.000Z"
     }
   ],
   "0001199045-26-000008": [
@@ -7505,7 +7703,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 256,
-      "value_usd": 57174.59
+      "value_usd": 57174.59,
+      "filing_datetime": "2026-07-01T17:51:03.000Z",
+      "filing_acceptance_datetime": "2026-07-01T17:51:03.000Z"
     }
   ],
   "0001123485-26-000008": [
@@ -7522,7 +7722,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 62,
-      "value_usd": 13836.16
+      "value_usd": 13836.16,
+      "filing_datetime": "2026-07-01T17:47:54.000Z",
+      "filing_acceptance_datetime": "2026-07-01T17:47:54.000Z"
     }
   ],
   "0002007895-26-000014": [
@@ -7539,7 +7741,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 43,
-      "value_usd": 9595.72
+      "value_usd": 9595.72,
+      "filing_datetime": "2026-07-01T17:45:37.000Z",
+      "filing_acceptance_datetime": "2026-07-01T17:45:37.000Z"
     }
   ],
   "0001340262-26-000011": [
@@ -7556,7 +7760,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 243,
-      "value_usd": 54275.380000000005
+      "value_usd": 54275.380000000005,
+      "filing_datetime": "2026-07-01T17:43:44.000Z",
+      "filing_acceptance_datetime": "2026-07-01T17:43:44.000Z"
     }
   ],
   "0001803666-26-000008": [],
@@ -7858,7 +8064,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 13304,
-      "value_usd": 1000035.072
+      "value_usd": 1000035.072,
+      "filing_datetime": "2026-05-27T20:39:32.000Z",
+      "filing_acceptance_datetime": "2026-05-27T20:39:32.000Z"
     }
   ],
   "0001283699-26-000106": [],
@@ -7997,7 +8205,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 4,
-      "value_usd": 1527.8
+      "value_usd": 1527.8,
+      "filing_datetime": "2026-06-17T18:18:03.000Z",
+      "filing_acceptance_datetime": "2026-06-17T18:18:03.000Z"
     }
   ],
   "0001437749-26-020754": [],
@@ -8085,7 +8295,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 5200,
-      "value_usd": 987797.0000000001
+      "value_usd": 987797.0000000001,
+      "filing_datetime": "2026-05-18T20:15:02.000Z",
+      "filing_acceptance_datetime": "2026-05-18T20:15:02.000Z"
     }
   ],
   "0001193125-26-221765": [
@@ -8102,7 +8314,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 10805,
-      "value_usd": 1999875.12
+      "value_usd": 1999875.12,
+      "filing_datetime": "2026-05-13T20:32:24.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:32:24.000Z"
     }
   ],
   "0001193125-26-221759": [
@@ -8119,7 +8333,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 10807,
-      "value_usd": 1999868.3399999999
+      "value_usd": 1999868.3399999999,
+      "filing_datetime": "2026-05-13T20:30:56.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:30:56.000Z"
     }
   ],
   "0001193125-26-221732": [
@@ -8136,7 +8352,9 @@
       "is_officer": true,
       "is_director": false,
       "shares": 2696,
-      "value_usd": 499953.04000000004
+      "value_usd": 499953.04000000004,
+      "filing_datetime": "2026-05-13T20:29:01.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:29:01.000Z"
     }
   ],
   "0001534034-26-000003": [],
@@ -8167,7 +8385,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 1560,
-      "value_usd": 50606.399999999994
+      "value_usd": 50606.399999999994,
+      "filing_datetime": "2026-08-05T20:41:02.000Z",
+      "filing_acceptance_datetime": "2026-08-05T20:41:02.000Z"
     }
   ],
   "0001647222-26-000012": [
@@ -8184,7 +8404,9 @@
       "is_officer": true,
       "is_director": true,
       "shares": 15600,
-      "value_usd": 501523.50000000006
+      "value_usd": 501523.50000000006,
+      "filing_datetime": "2026-08-05T20:40:16.000Z",
+      "filing_acceptance_datetime": "2026-08-05T20:40:16.000Z"
     }
   ],
   "0001327043-26-000006": [
@@ -8201,7 +8423,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 3150,
-      "value_usd": 100264.5
+      "value_usd": 100264.5,
+      "filing_datetime": "2026-08-04T20:42:55.000Z",
+      "filing_acceptance_datetime": "2026-08-04T20:42:55.000Z"
     }
   ],
   "0001689525-26-000011": [],
@@ -8232,7 +8456,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 400,
-      "value_usd": 172176
+      "value_usd": 172176,
+      "filing_datetime": "2026-06-09T21:06:09.000Z",
+      "filing_acceptance_datetime": "2026-06-09T21:06:09.000Z"
     }
   ],
   "0001628280-26-041963": [],
@@ -8470,7 +8696,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2500,
-      "value_usd": 197025
+      "value_usd": 197025,
+      "filing_datetime": "2026-06-05T20:15:26.000Z",
+      "filing_acceptance_datetime": "2026-06-05T20:15:26.000Z"
     }
   ],
   "0001841752-26-000013": [],
@@ -8541,7 +8769,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 16.119,
-      "value_usd": 4929.3796134
+      "value_usd": 4929.3796134,
+      "filing_datetime": "2026-05-29T20:38:08.000Z",
+      "filing_acceptance_datetime": "2026-05-29T20:38:08.000Z"
     }
   ],
   "0001530819-26-000008": [],
@@ -9110,7 +9340,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 6650,
-      "value_usd": 501343.5
+      "value_usd": 501343.5,
+      "filing_datetime": "2026-05-13T20:35:23.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:35:23.000Z"
     }
   ],
   "0001628280-26-034642": [
@@ -9127,7 +9359,9 @@
       "is_officer": false,
       "is_director": true,
       "shares": 2000,
-      "value_usd": 151750
+      "value_usd": 151750,
+      "filing_datetime": "2026-05-13T20:35:16.000Z",
+      "filing_acceptance_datetime": "2026-05-13T20:35:16.000Z"
     }
   ]
 }

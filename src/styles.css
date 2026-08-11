@@ -298,7 +298,7 @@ button {
 
 table {
   width: 100%;
-  min-width: 980px;
+  min-width: 1120px;
   border-collapse: collapse;
   font-size: 13px;
 }
@@ -332,6 +332,22 @@ tbody tr:hover {
   color: var(--muted);
   font-size: 12px;
   text-overflow: ellipsis;
+}
+
+.timing-cell {
+  display: grid;
+  gap: 2px;
+  min-width: 150px;
+}
+
+.timing-cell strong {
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.timing-cell span {
+  color: var(--muted);
+  font-size: 11px;
 }
 
 .badge,

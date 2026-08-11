@@ -598,6 +598,8 @@ function SignalTable({ rows, onSelect, emptyTitle = "Sin datos reales" }) {
     return <EmptyState icon={Activity} title={emptyTitle} detail="La tabla se llenara cuando /api/signals devuelva filas reales." />;
   }
 
+  const showInsiderTiming = rows.some((row) => row.insiderPublicationDate || row.insiderTransactionDate || row.signalDetectedAt);
+
   return (
     <div className="table-wrap">
       <table>
@@ -607,6 +609,7 @@ function SignalTable({ rows, onSelect, emptyTitle = "Sin datos reales" }) {
             <th>Empresa</th>
             <th>Accion</th>
             <th>Estrategia</th>
+            {showInsiderTiming && <th>Comprar desde</th>}
             <th>Precio</th>
             <th>Zona</th>
             <th>Stop</th>
@@ -623,6 +626,7 @@ function SignalTable({ rows, onSelect, emptyTitle = "Sin datos reales" }) {
               <td>{row.name}</td>
               <td><Badge tone={actionTone(row.action)}>{row.action}</Badge></td>
               <td>{row.strategy}</td>
+              {showInsiderTiming && <td><SignalTiming row={row} /></td>}
               <td>{usd(row.price)}</td>
               <td>{usd(row.entryLow)} / {usd(row.entryHigh)}</td>
               <td>{usd(row.stop)}</td>
@@ -638,6 +642,17 @@ function SignalTable({ rows, onSelect, emptyTitle = "Sin datos reales" }) {
           ))}
         </tbody>
       </table>
+    </div>
+  );
+}
+
+function SignalTiming({ row }) {
+  if (!row.insiderPublicationDate && !row.insiderTransactionDate && !row.signalDetectedAt) return <span className="muted-cell">-</span>;
+  return (
+    <div className="timing-cell">
+      <strong>{formatFilingDateTime(row.insiderPublicationDateTime || row.insiderPublicationDate || row.signalDetectedAt)}</strong>
+      <span>Operacion: {formatDateOnly(row.insiderTransactionDate)}</span>
+      <span>Bot: {formatDateTime(row.signalDetectedAt)}</span>
     </div>
   );
 }
@@ -726,7 +741,8 @@ function PaperPortfolioTable({ rows, label = "insider" }) {
                 <td>{usd(row.target_price)}</td>
                 <td>
                   {row.signal_meta?.insider_count || "-"} insiders
-                  <span className="muted-cell">{row.signal_meta?.first_buy || "-"} / {row.signal_meta?.last_buy || "-"}</span>
+                  <span className="muted-cell">Publicado: {formatFilingDateTime(row.signal_meta?.last_filing_datetime || row.signal_meta?.last_filing)}</span>
+                  <span className="muted-cell">Operacion: {formatDateOnly(row.signal_meta?.first_buy)} / {formatDateOnly(row.signal_meta?.last_buy)}</span>
                 </td>
               </tr>
             );
@@ -936,6 +952,11 @@ function DetailDrawer({ item, onClose }) {
         <InfoRow label="Entrada maxima" value={usd(item.entryHigh)} />
         <InfoRow label="Stop" value={usd(item.stop)} />
         <InfoRow label="Take profit" value={usd(item.target)} />
+        {item.insiderPublicationDate || item.signalDetectedAt ? (
+          <InfoRow label="Comprar desde" value={formatFilingDateTime(item.insiderPublicationDateTime || item.insiderPublicationDate || item.signalDetectedAt)} />
+        ) : null}
+        {item.insiderTransactionDate ? <InfoRow label="Operacion insider" value={formatDateOnly(item.insiderTransactionDate)} /> : null}
+        {item.signalDetectedAt ? <InfoRow label="Detectado bot" value={formatDateTime(item.signalDetectedAt)} /> : null}
         <InfoRow label="RSI" value={number(item.rsi, 1)} />
         <InfoRow label="MACD hist" value={number(item.macdHist, 3)} />
         <InfoRow label="R/R" value={number(item.rr, 2)} />
@@ -1050,6 +1071,22 @@ function formatDateTime(value) {
     hour: "2-digit",
     minute: "2-digit",
   }).format(new Date(value));
+}
+
+function formatDateOnly(value) {
+  if (!value) return "-";
+  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (match) return `${match[3]}/${match[2]}/${match[1]}`;
+  return formatDate(value);
+}
+
+function formatFilingDateTime(value) {
+  if (!value) return "-";
+  const text = String(value);
+  const secMatch = text.match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})(?::\d{2})?\s*(ET)?$/i);
+  if (secMatch) return `${secMatch[3]}/${secMatch[2]}/${secMatch[1]} ${secMatch[4]}:${secMatch[5]}${secMatch[6] ? " ET" : ""}`;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return formatDateOnly(text);
+  return formatDateTime(text);
 }
 
 function formatDate(value) {

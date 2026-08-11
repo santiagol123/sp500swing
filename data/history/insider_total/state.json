@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-08-11T18:03:57.918Z",
+  "updated_at": "2026-08-11T18:28:05.432Z",
   "initial_equity": 100000,
   "cash": 64001.614191220746,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 7000,
       "stop_price": 47.5311,
       "target_price": 56.6328,
-      "last_price": 51.13,
+      "last_price": 51.225,
       "last_marked_date": "2026-08-11",
-      "unrealized_pnl": 74.68,
-      "unrealized_pct": 0.011174,
+      "unrealized_pnl": 87.82,
+      "unrealized_pct": 0.013053,
       "signal_meta": {
         "insider_count": 4,
         "buy_count": 5,
@@ -44,7 +44,8 @@
             "is_officer": false,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-05T20:15:54.000Z"
           },
           {
             "name": "HABIGER DAVID C",
@@ -70,7 +71,8 @@
             "is_officer": true,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-05T20:15:51.000Z"
           },
           {
             "name": "LUDWIG EDWARD J",
@@ -83,7 +85,8 @@
             "is_officer": false,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-03T20:29:44.000Z"
           }
         ],
         "first_filing": "2026-08-03",
@@ -97,7 +100,9 @@
         "conviction_rejection_reasons": [],
         "target_holding_sessions": 5,
         "benchmark": "SPY",
-        "rule_source": "chat_pasted_text_insider_conviction"
+        "rule_source": "chat_pasted_text_insider_conviction",
+        "first_filing_datetime": "2026-08-03T20:29:44.000Z",
+        "last_filing_datetime": "2026-08-07T20:16:03.000Z"
       }
     },
     {
@@ -111,10 +116,10 @@
       "cost_basis": 7000,
       "stop_price": 32.5569,
       "target_price": 38.7912,
-      "last_price": 35.495,
+      "last_price": 35.455,
       "last_marked_date": "2026-08-11",
-      "unrealized_pnl": 170.23,
-      "unrealized_pct": 0.02483,
+      "unrealized_pnl": 162.15,
+      "unrealized_pct": 0.023675,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -138,7 +143,8 @@
             "is_officer": false,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-05T20:41:02.000Z"
           },
           {
             "name": "Lawton III Harry A",
@@ -151,7 +157,8 @@
             "is_officer": true,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-05T20:40:16.000Z"
           },
           {
             "name": "Hawaux Andre J",
@@ -164,7 +171,8 @@
             "is_officer": false,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-04T20:42:55.000Z"
           }
         ],
         "first_filing": "2026-08-04",
@@ -178,7 +186,9 @@
         "conviction_rejection_reasons": [],
         "target_holding_sessions": 5,
         "benchmark": "SPY",
-        "rule_source": "chat_pasted_text_insider_conviction"
+        "rule_source": "chat_pasted_text_insider_conviction",
+        "first_filing_datetime": "2026-08-04T20:42:55.000Z",
+        "last_filing_datetime": "2026-08-05T20:41:02.000Z"
       }
     },
     {
@@ -192,10 +202,10 @@
       "cost_basis": 5000,
       "stop_price": 28.9965,
       "target_price": 35.5771,
-      "last_price": 31.26,
+      "last_price": 31.305,
       "last_marked_date": "2026-08-11",
-      "unrealized_pnl": 8.72,
-      "unrealized_pct": 0.002244,
+      "unrealized_pnl": 15.93,
+      "unrealized_pct": 0.003687,
       "signal_meta": {
         "insider_count": 1,
         "buy_count": 1,
@@ -219,7 +229,8 @@
             "is_officer": true,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-05T13:27:00.000Z"
           }
         ],
         "first_filing": "2026-08-05",
@@ -235,7 +246,9 @@
         "conviction_rejection_reasons": [],
         "target_holding_sessions": 5,
         "benchmark": "SPY",
-        "rule_source": "chat_pasted_text_insider_conviction"
+        "rule_source": "chat_pasted_text_insider_conviction",
+        "first_filing_datetime": "2026-08-05T13:27:00.000Z",
+        "last_filing_datetime": "2026-08-05T13:27:00.000Z"
       }
     },
     {
@@ -249,10 +262,10 @@
       "cost_basis": 9999.05,
       "stop_price": 25.4317,
       "target_price": 30.3016,
-      "last_price": 26.615,
+      "last_price": 26.603,
       "last_marked_date": "2026-08-11",
-      "unrealized_pnl": -167.53,
-      "unrealized_pct": -0.016263,
+      "unrealized_pnl": -171.96,
+      "unrealized_pct": -0.016707,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -276,7 +289,8 @@
             "is_officer": false,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-05T20:03:40.000Z"
           },
           {
             "name": "Buckley Mortimer J",
@@ -289,7 +303,8 @@
             "is_officer": false,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-05T20:02:38.000Z"
           }
         ],
         "first_filing": "2026-08-05",
@@ -303,7 +318,9 @@
         "conviction_rejection_reasons": [],
         "target_holding_sessions": 5,
         "benchmark": "SPY",
-        "rule_source": "chat_pasted_text_insider_conviction"
+        "rule_source": "chat_pasted_text_insider_conviction",
+        "first_filing_datetime": "2026-08-05T20:02:38.000Z",
+        "last_filing_datetime": "2026-08-05T20:03:40.000Z"
       }
     },
     {
@@ -317,10 +334,10 @@
       "cost_basis": 6999.34,
       "stop_price": 106.1354,
       "target_price": 126.4592,
-      "last_price": 112.03,
+      "last_price": 111.9,
       "last_marked_date": "2026-08-11",
-      "unrealized_pnl": -58.03,
-      "unrealized_pct": -0.007794,
+      "unrealized_pnl": -66.08,
+      "unrealized_pct": -0.008945,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -358,7 +375,8 @@
             "is_officer": false,
             "is_director": true,
             "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
+            "has_10b5_1_plan": false,
+            "filing_datetime": "2026-08-04T20:13:38.000Z"
           }
         ],
         "first_filing": "2026-08-04",
@@ -372,7 +390,9 @@
         "conviction_rejection_reasons": [],
         "target_holding_sessions": 5,
         "benchmark": "SPY",
-        "rule_source": "chat_pasted_text_insider_conviction"
+        "rule_source": "chat_pasted_text_insider_conviction",
+        "first_filing_datetime": "2026-08-04T20:13:38.000Z",
+        "last_filing_datetime": "2026-08-04T20:13:38.000Z"
       }
     }
   ],
@@ -386,7 +406,7 @@
     },
     {
       "date": "2026-08-11",
-      "equity": 100028.07,
+      "equity": 100027.86,
       "cash": 64001.61,
       "open_positions": 5
     }

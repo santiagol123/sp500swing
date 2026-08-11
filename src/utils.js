@@ -57,6 +57,7 @@ export function makeSeries(seed = 1, length = 28, base = 100) {
 }
 
 export function mapApiRow(row, index = 0) {
+  const insider = row.insider || null;
   return {
     ticker: row.ticker,
     name: row.name || row.ticker,
@@ -76,6 +77,12 @@ export function mapApiRow(row, index = 0) {
     allocation: row.portfolio_allowed ? 2000 : 0,
     reason: row.Motivo_Ejecucion || row.risk_flags || "Senal generada por scanner.",
     risk: row.Plan_Orden || row.portfolio_limit_reason || "Revisar gap de apertura y liquidez antes de ejecutar.",
+    insider,
+    insiderTransactionDate: row.insider_transaction_date || insider?.last_buy || null,
+    insiderPublicationDate: row.insider_publication_date || insider?.conviction_filing_date || insider?.last_filing || null,
+    insiderPublicationDateTime: row.insider_publication_datetime || insider?.last_filing_datetime || null,
+    signalDetectedAt: row.signal_detected_at || null,
+    signalActionableAt: row.signal_actionable_at || row.insider_publication_datetime || row.insider_publication_date || null,
   };
 }
 

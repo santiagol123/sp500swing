@@ -3,10 +3,34 @@ const { getSignals } = require("../lib/runtime");
 const { readState } = require("../lib/store");
 const { currentEquity } = require("../lib/papertrading");
 
+function latestValue(rows = [], field) {
+  return rows
+    .map((row) => row?.[field])
+    .filter(Boolean)
+    .sort()
+    .at(-1) || null;
+}
+
+function signalTiming(signal, detectedAt = null) {
+  const meta = signal.meta || {};
+  const insiders = meta.insiders || [];
+  const publicationDate =
+    meta.conviction_filing_date || meta.last_filing || meta.dataroma_flow?.latest_filing_date || latestValue(insiders, "filing_date");
+  const publicationDateTime = meta.last_filing_datetime || latestValue(insiders, "filing_datetime") || null;
+  const transactionDate = meta.last_buy || latestValue(insiders, "date") || null;
+  return {
+    insider_transaction_date: transactionDate,
+    insider_publication_date: publicationDate,
+    insider_publication_datetime: publicationDateTime,
+    signal_detected_at: detectedAt,
+    signal_actionable_at: publicationDateTime || publicationDate || detectedAt,
+  };
+}
+
 // El frontend (src/utils.js mapApiRow) lee nombres de campo heredados. Las
 // estrategias trabajan internamente con una forma comun, asi que aqui se
 // traduce de vuelta: asi una estrategia nueva se pinta sola, sin tocar la UI.
-function toLegacyRow(signal, index = 0) {
+function toLegacyRow(signal, index = 0, detectedAt = null) {
   return {
     Accion_Ejecucion: signal.action,
     Accion: signal.family,
@@ -29,6 +53,7 @@ function toLegacyRow(signal, index = 0) {
     tamano_entrada_pct: signal.size_pct,
     Plan_Orden: signal.plan,
     Motivo_Ejecucion: signal.reason,
+    ...signalTiming(signal, detectedAt),
     // Detalle propio de insiders; el frontend lo ignora si no lo conoce.
     insider: signal.meta?.insider_count ? signal.meta : undefined,
   };
@@ -68,13 +93,15 @@ module.exports = async function handler(req, res) {
 
     const recommendations = isMomentum
       ? base.recommendations || []
-      : result.signals.filter((s) => s.authorized).map(toLegacyRow);
+      : result.signals.filter((s) => s.authorized).map((signal, index) => toLegacyRow(signal, index, result.computed_at));
     const technicalEntries = isMomentum
       ? base.technical_entries || []
-      : result.signals.filter((s) => s.action === "COMPRAR_LIMITADA" || s.authorized).map(toLegacyRow);
+      : result.signals
+          .filter((s) => s.action === "COMPRAR_LIMITADA" || s.authorized)
+          .map((signal, index) => toLegacyRow(signal, index, result.computed_at));
     const watch = isMomentum
       ? base.watch || []
-      : result.signals.filter((s) => !s.authorized).map(toLegacyRow).slice(0, 20);
+      : result.signals.filter((s) => !s.authorized).map((signal, index) => toLegacyRow(signal, index, result.computed_at)).slice(0, 20);
 
     const payload = {
       ok: true,
