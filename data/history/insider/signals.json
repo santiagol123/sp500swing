@@ -1,7 +1,81 @@
 {
-  "computed_at": "2026-08-12T19:14:06.642Z",
+  "computed_at": "2026-08-12T20:56:46.447Z",
   "market_date": "2026-08-12",
   "signals": [
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 2,960,110 USD entre 2026-08-05 y 2026-08-12",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 26.31,
+      "entry_zone_low": 25.91535,
+      "entry_zone_high": 26.836199999999998,
+      "invalid_below_price": 24.731399999999997,
+      "target_price": 29.467200000000002,
+      "risk_reward_ratio": 1.9999999999999998,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 80,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 2960110,
+        "first_buy": "2026-08-05",
+        "last_buy": "2026-08-12",
+        "stale_days": 0,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "BOURLA ALBERT",
+            "title": "Chairman &amp; CEO",
+            "shares": 38000,
+            "value_usd": 1000920,
+            "date": "2026-08-12",
+            "filing_date": "2026-08-12",
+            "filing_datetime": "2026-08-12T16:04:39.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "BLAYLOCK RONALD E",
+            "title": "Director",
+            "shares": 39231,
+            "value_usd": 998821,
+            "date": "2026-08-05",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:03:40.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Buckley Mortimer J",
+            "title": "Director",
+            "shares": 37632,
+            "value_usd": 960369,
+            "date": "2026-08-05",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:02:38.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 63.198329286412154,
+        "volatility_20d": 0.18363321271855268
+      }
+    },
     {
       "ticker": "FISV",
       "name": "Fiserv",
@@ -11,12 +85,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-17, demasiado antiguo (56 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 51.255,
-      "entry_zone_low": 50.486175,
-      "entry_zone_high": 52.280100000000004,
-      "invalid_below_price": 48.1797,
-      "target_price": 57.40560000000001,
-      "risk_reward_ratio": 1.9999999999999982,
+      "last_close": 51.56,
+      "entry_zone_low": 50.7866,
+      "entry_zone_high": 52.5912,
+      "invalid_below_price": 48.4664,
+      "target_price": 57.74720000000001,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 78.8,
@@ -114,8 +188,82 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 45.197297488815565,
-        "volatility_20d": 0.3545954870882948
+        "rsi14": 46.182099711584534,
+        "volatility_20d": 0.3488891147233423
+      }
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 8,055,326 USD entre 2026-08-05 y 2026-08-11",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 48.48,
+      "entry_zone_low": 47.75279999999999,
+      "entry_zone_high": 49.4496,
+      "invalid_below_price": 43.81762881155912,
+      "target_price": 57.80474237688176,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0.05,
+      "authorized": true,
+      "opt_score": 78.7,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 8055326,
+        "first_buy": "2026-08-05",
+        "last_buy": "2026-08-11",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Mahoney Sean O",
+            "title": "Director",
+            "shares": 11000,
+            "value_usd": 552683,
+            "date": "2026-08-11",
+            "filing_date": "2026-08-12",
+            "filing_datetime": "2026-08-12T16:04:33.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "CLARK KEVIN P",
+            "title": "Chair and CEO",
+            "shares": 51190,
+            "value_usd": 2502684,
+            "date": "2026-08-10",
+            "filing_date": "2026-08-11",
+            "filing_datetime": "2026-08-11T16:05:07.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "MEISTER PAUL M",
+            "title": "Director",
+            "shares": 105631,
+            "value_usd": 4999959,
+            "date": "2026-08-05",
+            "filing_date": "2026-08-06",
+            "filing_datetime": "2026-08-06T20:05:30.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 33.140195888406325,
+        "volatility_20d": 0.6939398449869059
       }
     },
     {
@@ -127,12 +275,12 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "3 insiders compraron 9,385,631 USD entre 2026-07-31 y 2026-08-05",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 51.66,
-      "entry_zone_low": 50.885099999999994,
-      "entry_zone_high": 52.6932,
-      "invalid_below_price": 48.560399999999994,
-      "target_price": 57.8592,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 51.42,
+      "entry_zone_low": 50.6487,
+      "entry_zone_high": 52.4484,
+      "invalid_below_price": 48.3348,
+      "target_price": 57.59040000000001,
+      "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0.1,
       "authorized": true,
       "opt_score": 70.7,
@@ -188,8 +336,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 71.78953092974707,
-        "volatility_20d": 0.2783573583109916
+        "rsi14": 71.1356256476296,
+        "volatility_20d": 0.27888406992255416
       }
     },
     {
@@ -201,12 +349,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-23, demasiado antiguo (50 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 247.83,
-      "entry_zone_low": 244.11255,
-      "entry_zone_high": 252.78660000000002,
-      "invalid_below_price": 231.7485385732842,
-      "target_price": 279.99292285343165,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 249.51,
+      "entry_zone_low": 245.76735,
+      "entry_zone_high": 254.5002,
+      "invalid_below_price": 233.45577004201374,
+      "target_price": 281.6184599159725,
+      "risk_reward_ratio": 2,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -276,8 +424,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 63.75542775333136,
-        "volatility_20d": 0.4682192080374158
+        "rsi14": 65.36289641857562,
+        "volatility_20d": 0.4642790774588144
       }
     },
     {
@@ -289,12 +437,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-01, demasiado antiguo (72 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 18.935,
-      "entry_zone_low": 18.650975,
-      "entry_zone_high": 19.3137,
-      "invalid_below_price": 17.390318806073704,
-      "target_price": 22.024362387852587,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 18.92,
+      "entry_zone_low": 18.636200000000002,
+      "entry_zone_high": 19.2984,
+      "invalid_below_price": 17.389928501877367,
+      "target_price": 21.98014299624527,
+      "risk_reward_ratio": 2,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -364,68 +512,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 46.08576365661153,
-        "volatility_20d": 0.5886418552474703
-      }
-    },
-    {
-      "ticker": "APTV",
-      "name": "Aptiv",
-      "sector": "Consumer Discretionary",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "2 insiders compraron 7,502,643 USD entre 2026-08-05 y 2026-08-10",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 48.21,
-      "entry_zone_low": 47.48685,
-      "entry_zone_high": 49.1742,
-      "invalid_below_price": 43.48915006126564,
-      "target_price": 57.65169987746872,
-      "risk_reward_ratio": 2.000000000000001,
-      "size_pct": 0.05,
-      "authorized": true,
-      "opt_score": 67.3,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 7502643,
-        "first_buy": "2026-08-05",
-        "last_buy": "2026-08-10",
-        "stale_days": 2,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "CLARK KEVIN P",
-            "title": "Chair and CEO",
-            "shares": 51190,
-            "value_usd": 2502684,
-            "date": "2026-08-10",
-            "filing_date": "2026-08-11",
-            "filing_datetime": "2026-08-11T16:05:07.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "MEISTER PAUL M",
-            "title": "Director",
-            "shares": 105631,
-            "value_usd": 4999959,
-            "date": "2026-08-05",
-            "filing_date": "2026-08-06",
-            "filing_datetime": "2026-08-06T20:05:30.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 33.331751241574935,
-        "volatility_20d": 0.7065788829974331
+        "rsi14": 46.09939866844009,
+        "volatility_20d": 0.58353671038543
       }
     },
     {
@@ -434,17 +522,17 @@
       "sector": "Consumer Discretionary",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04 | bloqueada por limite diario o de sector",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 36.22,
-      "entry_zone_low": 35.6767,
-      "entry_zone_high": 36.9444,
-      "invalid_below_price": 34.0468,
-      "target_price": 40.5664,
-      "risk_reward_ratio": 2.0000000000000004,
-      "size_pct": 0.07,
-      "authorized": true,
+      "last_close": 36.43,
+      "entry_zone_low": 35.88355,
+      "entry_zone_high": 37.1586,
+      "invalid_below_price": 34.2442,
+      "target_price": 40.8016,
+      "risk_reward_ratio": 2.0000000000000013,
+      "size_pct": 0,
+      "authorized": false,
       "opt_score": 60.2,
       "meta": {
         "insider_count": 3,
@@ -498,8 +586,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 74.72946649346972,
-        "volatility_20d": 0.32737739920371994
+        "rsi14": 74.71318168451384,
+        "volatility_20d": 0.347394546589706
       }
     },
     {
@@ -511,12 +599,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-30, demasiado antiguo (43 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 219.63,
-      "entry_zone_low": 216.33554999999998,
-      "entry_zone_high": 224.0226,
-      "invalid_below_price": 206.45219999999998,
-      "target_price": 245.9856,
-      "risk_reward_ratio": 1.999999999999999,
+      "last_close": 220.56,
+      "entry_zone_low": 217.2516,
+      "entry_zone_high": 224.9712,
+      "invalid_below_price": 207.32639999999998,
+      "target_price": 247.02720000000002,
+      "risk_reward_ratio": 1.9999999999999982,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 59.2,
@@ -684,68 +772,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 41.48475981068502,
-        "volatility_20d": 0.19794600408958968
-      }
-    },
-    {
-      "ticker": "PFE",
-      "name": "Pfizer",
-      "sector": "Health Care",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "2 insiders compraron 1,959,190 USD entre 2026-08-05 y 2026-08-05 | bloqueada por limite diario o de sector",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 26.325,
-      "entry_zone_low": 25.930125,
-      "entry_zone_high": 26.8515,
-      "invalid_below_price": 24.745499999999996,
-      "target_price": 29.484,
-      "risk_reward_ratio": 1.999999999999998,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 50.5,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 1959190,
-        "first_buy": "2026-08-05",
-        "last_buy": "2026-08-05",
-        "stale_days": 7,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "BLAYLOCK RONALD E",
-            "title": "Director",
-            "shares": 39231,
-            "value_usd": 998821,
-            "date": "2026-08-05",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:03:40.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Buckley Mortimer J",
-            "title": "Director",
-            "shares": 37632,
-            "value_usd": 960369,
-            "date": "2026-08-05",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:02:38.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 63.43332532694625,
-        "volatility_20d": 0.18301230989303738
+        "rsi14": 43.402017756161,
+        "volatility_20d": 0.1987768332657973
       }
     },
     {
@@ -757,12 +785,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-11, demasiado antiguo (62 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 280.48,
-      "entry_zone_low": 276.2728,
-      "entry_zone_high": 286.0896,
-      "invalid_below_price": 263.6512,
-      "target_price": 314.1376000000001,
-      "risk_reward_ratio": 2.0000000000000018,
+      "last_close": 278.43,
+      "entry_zone_low": 274.25355,
+      "entry_zone_high": 283.9986,
+      "invalid_below_price": 261.7242,
+      "target_price": 311.8416,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 50,
@@ -818,8 +846,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.8768418348937,
-        "volatility_20d": 0.24361014097885064
+        "rsi14": 50.92014190794732,
+        "volatility_20d": 0.24939893852568637
       }
     },
     {
@@ -831,12 +859,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-07-17, demasiado antiguo (26 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 396.51,
-      "entry_zone_low": 390.56235,
-      "entry_zone_high": 404.4402,
-      "invalid_below_price": 372.71939999999995,
-      "target_price": 444.0912,
-      "risk_reward_ratio": 1.9999999999999984,
+      "last_close": 399.14,
+      "entry_zone_low": 393.1529,
+      "entry_zone_high": 407.1228,
+      "invalid_below_price": 375.1916,
+      "target_price": 447.0368,
+      "risk_reward_ratio": 2.000000000000002,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 46.9,
@@ -878,8 +906,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.8950604321026,
-        "volatility_20d": 0.31918508303759074
+        "rsi14": 54.62294999395137,
+        "volatility_20d": 0.4318353509060677
       }
     },
     {
@@ -891,12 +919,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-27, demasiado antiguo (77 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 136.8,
-      "entry_zone_low": 134.74800000000002,
-      "entry_zone_high": 139.536,
-      "invalid_below_price": 126.54811040607215,
-      "target_price": 157.30377918785572,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 136.67,
+      "entry_zone_low": 134.61995,
+      "entry_zone_high": 139.40339999999998,
+      "invalid_below_price": 126.1502871829389,
+      "target_price": 157.70942563412217,
+      "risk_reward_ratio": 2.000000000000001,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 40,
@@ -938,8 +966,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 48.15550365104061,
-        "volatility_20d": 0.5407486111248816
+        "rsi14": 48.64965856302601,
+        "volatility_20d": 0.5554030739823671
       }
     },
     {
@@ -951,12 +979,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-22, demasiado antiguo (51 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 315.9,
-      "entry_zone_low": 311.1615,
-      "entry_zone_high": 322.21799999999996,
-      "invalid_below_price": 296.94599999999997,
-      "target_price": 353.808,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 314.17,
+      "entry_zone_low": 309.45745,
+      "entry_zone_high": 320.45340000000004,
+      "invalid_below_price": 295.3198,
+      "target_price": 351.8704000000001,
+      "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 40,
@@ -998,8 +1026,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.89289195887386,
-        "volatility_20d": 0.3490611939720774
+        "rsi14": 53.155531628294085,
+        "volatility_20d": 0.3692949304012613
       }
     },
     {
@@ -1058,7 +1086,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 66.1859783056957,
+        "rsi14": 66.18597820346974,
         "volatility_20d": 0.2929892949315565
       }
     },
@@ -1071,12 +1099,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-12, demasiado antiguo (61 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 96.5,
-      "entry_zone_low": 95.0525,
-      "entry_zone_high": 98.43,
-      "invalid_below_price": 90.71,
-      "target_price": 108.08000000000001,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 96.28,
+      "entry_zone_low": 94.8358,
+      "entry_zone_high": 98.2056,
+      "invalid_below_price": 90.50319999999999,
+      "target_price": 107.83360000000002,
+      "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 36.2,
@@ -1118,8 +1146,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 61.62967915167887,
-        "volatility_20d": 0.3598491957791567
+        "rsi14": 59.958601832652064,
+        "volatility_20d": 0.365790123470911
       }
     },
     {
@@ -1131,12 +1159,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-05-14, demasiado antiguo (90 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 152.105,
-      "entry_zone_low": 149.823425,
-      "entry_zone_high": 155.1471,
-      "invalid_below_price": 142.97869999999998,
-      "target_price": 170.3576,
-      "risk_reward_ratio": 1.9999999999999984,
+      "last_close": 152.31,
+      "entry_zone_low": 150.02535,
+      "entry_zone_high": 155.3562,
+      "invalid_below_price": 143.1714,
+      "target_price": 170.58720000000002,
+      "risk_reward_ratio": 2.0000000000000027,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 35,
@@ -1178,8 +1206,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 51.6991648916982,
-        "volatility_20d": 0.3183126657195079
+        "rsi14": 52.70497912123286,
+        "volatility_20d": 0.3463754780991914
       }
     },
     {
@@ -1191,12 +1219,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-06-03, demasiado antiguo (70 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 144.59,
-      "entry_zone_low": 142.42115,
-      "entry_zone_high": 147.4818,
-      "invalid_below_price": 128.6851,
-      "target_price": 176.3998,
-      "risk_reward_ratio": 2,
+      "last_close": 145.06,
+      "entry_zone_low": 142.8841,
+      "entry_zone_high": 147.9612,
+      "invalid_below_price": 129.1034,
+      "target_price": 176.9732,
+      "risk_reward_ratio": 1.9999999999999987,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 33.5,
@@ -1238,8 +1266,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 40.830901198436635,
-        "volatility_20d": 0.8065090517225583
+        "rsi14": 41.256631492857395,
+        "volatility_20d": 0.8067350080886789
       }
     }
   ],
@@ -1247,16 +1275,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 67530,
+    "elapsed_ms": 71322,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 63,
+    "companies_with_buys": 64,
     "clusters_found": 16,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 7298,
-    "filings_fetched": 6,
+    "filings_seen": 7343,
+    "filings_fetched": 45,
     "missing_cik": 1,
     "scanned": 503
   },
