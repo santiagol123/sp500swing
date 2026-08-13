@@ -43,7 +43,7 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ]; then
             node scripts/track.js --workspace=insider
             node scripts/track.js --workspace=insider_total --cacheOnly
-            node scripts/track.js --workspace=insider_sp500_nasdaq
+            node scripts/track.js --workspace=insider_sp500_nasdaq --cacheOnly
           elif [ -n "${{ github.event.inputs.workspace }}" ]; then
             node scripts/track.js --workspace=${{ github.event.inputs.workspace }}
           else

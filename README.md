@@ -14,7 +14,7 @@ pantalla que las compara.
 - Expone `/api/signals` y `/api/leaderboard` en JSON.
 - Incluye una app Vite/React en `/` para ver dashboard, cartera, historico, radar, ranking tecnico, ejecucion y configuracion con datos reales de `/api/signals`.
 - Lee la cartera real desde `data/portfolio.json` y la valora con los ultimos precios descargados de Yahoo Finance.
-- GitHub Actions refresca `Insiders`, `ChatGPT SP500` e `Insiders SP500+Nasdaq` cada hora en dias laborables, commiteando snapshots para Vercel.
+- GitHub Actions refresca `Insiders`, `ChatGPT SP500` e `Insiders SP500+Nasdaq+NYSE` cada hora en dias laborables, commiteando snapshots para Vercel.
 - Vercel Cron llama `/api/signals` en dias laborables para calentar cache de la API.
 
 ## Workspaces
@@ -27,7 +27,7 @@ selector de la app o con `?workspace=<id>` en la API.
 | `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo, en cada peticion |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
 | `insider_total` | ChatGPT SP500: compras fuertes de insiders del S&P 500, filtrando Form 4 codigo P/Dataroma por clusters, seniority, importe material y filing reciente; salida a 5 sesiones. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
-| `insider_sp500_nasdaq` | Insiders SP500+Nasdaq: misma regla ChatGPT, pero con universo S&P 500 + Nasdaq-100 para no meter small caps fuera de broker. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
+| `insider_sp500_nasdaq` | Insiders SP500+Nasdaq+NYSE: misma regla ChatGPT, pero con universo S&P 500 + Nasdaq-100 + NYSE para comparar si ampliar cobertura mejora resultados. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
 
 Anadir otra estrategia es crear `lib/strategies/<id>.js` con la misma
 interfaz (`{ id, label, run }`), registrarla en `lib/strategies/index.js` y
@@ -149,10 +149,10 @@ Escanear la estrategia ChatGPT SP500:
 npm run scan:chatgpt-sp500
 ```
 
-Escanear la estrategia Insiders SP500+Nasdaq:
+Escanear la estrategia Insiders SP500+Nasdaq+NYSE:
 
 ```bash
-npm run scan:insider-sp500-nasdaq
+npm run scan:insider-sp500-nasdaq-nyse
 ```
 
 Registrar un dia de paper trading en ambos workspaces:
@@ -167,9 +167,11 @@ El ranking sale de `data/history/<workspace>/state.json`, que escribe
 `scripts/track.js` y commitea el workflow `.github/workflows/track.yml`.
 Programado cada hora de lunes a viernes, el Action escanea primero `insider`
 contra SEC EDGAR, luego `ChatGPT SP500` reutilizando esa cache mas
-Dataroma/Yahoo, y despues `Insiders SP500+Nasdaq` con universo S&P 500 +
-Nasdaq-100. Cada commit de snapshots dispara un despliegue nuevo en Vercel,
-asi la app desplegada ve la ultima hora sin base de datos.
+Dataroma/Yahoo, y despues `Insiders SP500+Nasdaq+NYSE` con universo S&P 500 +
+Nasdaq-100 + NYSE. En esta pestana ampliada el Action usa `--cacheOnly` para
+leer SEC desde la cache y consultar Dataroma/Yahoo en vivo, manteniendo velocidad
+horaria. Cada commit de snapshots dispara un despliegue nuevo en Vercel, asi la
+app desplegada ve la ultima hora sin base de datos.
 
 Se hace asi, y no con base de datos, para que la app desplegada siga sin
 necesitar ninguna variable de entorno ni token: el Action escribe, Vercel solo
@@ -192,10 +194,11 @@ nuevos, y baja mucho el coste de cada escaneo horario. Un formulario ya
 presentado no cambia nunca, asi que la cache es permanente.
 
 ChatGPT SP500 reutiliza la cache SEC de `insider` y anade Dataroma/Yahoo para
-puntuar conviccion. `Insiders SP500+Nasdaq` usa la misma regla, pero carga el
-S&P 500 mas Nasdaq-100 desde fuentes vivas con fallback local. Como toca SEC
-EDGAR, tambien se calcula en el Action y la app sirve el ultimo snapshot, sin
-base de datos ni servicios extra.
+puntuar conviccion. `Insiders SP500+Nasdaq+NYSE` usa la misma regla, pero carga
+el S&P 500 mas Nasdaq-100 mas NYSE desde fuentes vivas con fallback local. Para
+que el escaneo horario siga siendo rapido, la pestana ampliada usa SEC desde
+cache y Dataroma/Yahoo en vivo; la app sirve el ultimo snapshot, sin base de
+datos ni servicios extra.
 
 ## SEC EDGAR
 
