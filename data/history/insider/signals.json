@@ -1,81 +1,7 @@
 {
-  "computed_at": "2026-08-12T23:52:32.792Z",
+  "computed_at": "2026-08-13T02:37:15.640Z",
   "market_date": "2026-08-12",
   "signals": [
-    {
-      "ticker": "PFE",
-      "name": "Pfizer",
-      "sector": "Health Care",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "3 insiders compraron 2,960,110 USD entre 2026-08-05 y 2026-08-12",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 26.31,
-      "entry_zone_low": 25.91535,
-      "entry_zone_high": 26.836199999999998,
-      "invalid_below_price": 24.731399999999997,
-      "target_price": 29.467200000000002,
-      "risk_reward_ratio": 1.9999999999999998,
-      "size_pct": 0.1,
-      "authorized": true,
-      "opt_score": 80,
-      "meta": {
-        "insider_count": 3,
-        "buy_count": 3,
-        "total_value_usd": 2960110,
-        "first_buy": "2026-08-05",
-        "last_buy": "2026-08-12",
-        "stale_days": 0,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "BOURLA ALBERT",
-            "title": "Chairman &amp; CEO",
-            "shares": 38000,
-            "value_usd": 1000920,
-            "date": "2026-08-12",
-            "filing_date": "2026-08-12",
-            "filing_datetime": "2026-08-12T16:04:39.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "BLAYLOCK RONALD E",
-            "title": "Director",
-            "shares": 39231,
-            "value_usd": 998821,
-            "date": "2026-08-05",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:03:40.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Buckley Mortimer J",
-            "title": "Director",
-            "shares": 37632,
-            "value_usd": 960369,
-            "date": "2026-08-05",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:02:38.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 63.19832928615789,
-        "volatility_20d": 0.18363321271855268
-      }
-    },
     {
       "ticker": "FISV",
       "name": "Fiserv",
@@ -83,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-17, demasiado antiguo (56 dias > 15)",
+      "reason": "Cluster de 2026-06-17, demasiado antiguo (57 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 51.56,
       "entry_zone_low": 50.7866,
@@ -100,7 +26,7 @@
         "total_value_usd": 1723401,
         "first_buy": "2026-06-16",
         "last_buy": "2026-06-17",
-        "stale_days": 56,
+        "stale_days": 57,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -193,6 +119,80 @@
       }
     },
     {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 2,960,110 USD entre 2026-08-05 y 2026-08-12",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 26.31,
+      "entry_zone_low": 25.91535,
+      "entry_zone_high": 26.836199999999998,
+      "invalid_below_price": 24.731399999999997,
+      "target_price": 29.467200000000002,
+      "risk_reward_ratio": 1.9999999999999998,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 78.7,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 2960110,
+        "first_buy": "2026-08-05",
+        "last_buy": "2026-08-12",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "BOURLA ALBERT",
+            "title": "Chairman &amp; CEO",
+            "shares": 38000,
+            "value_usd": 1000920,
+            "date": "2026-08-12",
+            "filing_date": "2026-08-12",
+            "filing_datetime": "2026-08-12T16:04:39.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "BLAYLOCK RONALD E",
+            "title": "Director",
+            "shares": 39231,
+            "value_usd": 998821,
+            "date": "2026-08-05",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:03:40.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Buckley Mortimer J",
+            "title": "Director",
+            "shares": 37632,
+            "value_usd": 960369,
+            "date": "2026-08-05",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:02:38.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 63.198329286412154,
+        "volatility_20d": 0.18363321271855268
+      }
+    },
+    {
       "ticker": "APTV",
       "name": "Aptiv",
       "sector": "Consumer Discretionary",
@@ -204,19 +204,19 @@
       "last_close": 48.48,
       "entry_zone_low": 47.75279999999999,
       "entry_zone_high": 49.4496,
-      "invalid_below_price": 43.81762881155912,
-      "target_price": 57.80474237688176,
-      "risk_reward_ratio": 2.000000000000001,
+      "invalid_below_price": 43.744275780879924,
+      "target_price": 57.951448438240135,
+      "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0.05,
       "authorized": true,
-      "opt_score": 78.7,
+      "opt_score": 77.3,
       "meta": {
         "insider_count": 3,
         "buy_count": 3,
         "total_value_usd": 8055326,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-11",
-        "stale_days": 1,
+        "stale_days": 2,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -262,82 +262,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 33.140195888406325,
-        "volatility_20d": 0.6939398449869059
-      }
-    },
-    {
-      "ticker": "BSX",
-      "name": "Boston Scientific",
-      "sector": "Health Care",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "3 insiders compraron 9,385,631 USD entre 2026-07-31 y 2026-08-05",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 51.42,
-      "entry_zone_low": 50.6487,
-      "entry_zone_high": 52.4484,
-      "invalid_below_price": 48.3348,
-      "target_price": 57.59040000000001,
-      "risk_reward_ratio": 2.0000000000000018,
-      "size_pct": 0.1,
-      "authorized": true,
-      "opt_score": 70.7,
-      "meta": {
-        "insider_count": 3,
-        "buy_count": 4,
-        "total_value_usd": 9385631,
-        "first_buy": "2026-07-31",
-        "last_buy": "2026-08-05",
-        "stale_days": 7,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Habiger David C",
-            "title": "Director",
-            "shares": 1182,
-            "value_usd": 56887,
-            "date": "2026-08-03",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:15:54.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Mahoney Michael F",
-            "title": "Chairman, President &amp; CEO",
-            "shares": 186240,
-            "value_usd": 9001408,
-            "date": "2026-08-03",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:15:51.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "LUDWIG EDWARD J",
-            "title": "Director",
-            "shares": 5000,
-            "value_usd": 227400,
-            "date": "2026-07-31",
-            "filing_date": "2026-08-03",
-            "filing_datetime": "2026-08-03T20:29:44.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 71.1356256476296,
-        "volatility_20d": 0.27888406992255416
+        "rsi14": 33.76778693445593,
+        "volatility_20d": 0.704857592347956
       }
     },
     {
@@ -347,14 +273,14 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-23, demasiado antiguo (50 dias > 15)",
+      "reason": "Cluster de 2026-06-23, demasiado antiguo (51 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 249.51,
       "entry_zone_low": 245.76735,
       "entry_zone_high": 254.5002,
-      "invalid_below_price": 232.33933962981288,
-      "target_price": 283.8513207403742,
-      "risk_reward_ratio": 1.9999999999999991,
+      "invalid_below_price": 233.45577004201374,
+      "target_price": 281.6184599159725,
+      "risk_reward_ratio": 2,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -364,7 +290,7 @@
         "total_value_usd": 2165173,
         "first_buy": "2026-05-29",
         "last_buy": "2026-06-23",
-        "stale_days": 50,
+        "stale_days": 51,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -424,8 +350,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 64.76921234824431,
-        "volatility_20d": 0.49656560152007784
+        "rsi14": 65.36289641857562,
+        "volatility_20d": 0.4642790774588144
       }
     },
     {
@@ -435,7 +361,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-01, demasiado antiguo (72 dias > 15)",
+      "reason": "Cluster de 2026-06-01, demasiado antiguo (73 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 18.92,
       "entry_zone_low": 18.636200000000002,
@@ -452,7 +378,7 @@
         "total_value_usd": 28197160,
         "first_buy": "2026-05-18",
         "last_buy": "2026-06-01",
-        "stale_days": 72,
+        "stale_days": 73,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -517,40 +443,40 @@
       }
     },
     {
-      "ticker": "TSCO",
-      "name": "Tractor Supply",
-      "sector": "Consumer Discretionary",
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04 | bloqueada por limite diario o de sector",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 9,385,631 USD entre 2026-07-31 y 2026-08-05",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 36.43,
-      "entry_zone_low": 35.88355,
-      "entry_zone_high": 37.1586,
-      "invalid_below_price": 34.2442,
-      "target_price": 40.8016,
-      "risk_reward_ratio": 2.0000000000000013,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 60.2,
+      "last_close": 51.42,
+      "entry_zone_low": 50.6487,
+      "entry_zone_high": 52.4484,
+      "invalid_below_price": 48.3348,
+      "target_price": 57.59040000000001,
+      "risk_reward_ratio": 2.0000000000000018,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 69.3,
       "meta": {
         "insider_count": 3,
-        "buy_count": 3,
-        "total_value_usd": 652394,
-        "first_buy": "2026-08-03",
-        "last_buy": "2026-08-04",
+        "buy_count": 4,
+        "total_value_usd": 9385631,
+        "first_buy": "2026-07-31",
+        "last_buy": "2026-08-05",
         "stale_days": 8,
         "bootstrap_signal": false,
         "insiders": [
           {
-            "name": "MORRIS EDNA",
+            "name": "Habiger David C",
             "title": "Director",
-            "shares": 1560,
-            "value_usd": 50606,
-            "date": "2026-08-04",
+            "shares": 1182,
+            "value_usd": 56887,
+            "date": "2026-08-03",
             "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:41:02.000Z",
+            "filing_datetime": "2026-08-05T20:15:54.000Z",
             "source": "sec_edgar",
             "is_officer": false,
             "is_director": true,
@@ -558,13 +484,13 @@
             "has_10b5_1_plan": false
           },
           {
-            "name": "Lawton III Harry A",
-            "title": "President &amp; CEO",
-            "shares": 15600,
-            "value_usd": 501524,
-            "date": "2026-08-04",
+            "name": "Mahoney Michael F",
+            "title": "Chairman, President &amp; CEO",
+            "shares": 186240,
+            "value_usd": 9001408,
+            "date": "2026-08-03",
             "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:40:16.000Z",
+            "filing_datetime": "2026-08-05T20:15:51.000Z",
             "source": "sec_edgar",
             "is_officer": true,
             "is_director": true,
@@ -572,13 +498,13 @@
             "has_10b5_1_plan": false
           },
           {
-            "name": "Hawaux Andre J",
+            "name": "LUDWIG EDWARD J",
             "title": "Director",
-            "shares": 3150,
-            "value_usd": 100265,
-            "date": "2026-08-03",
-            "filing_date": "2026-08-04",
-            "filing_datetime": "2026-08-04T20:42:55.000Z",
+            "shares": 5000,
+            "value_usd": 227400,
+            "date": "2026-07-31",
+            "filing_date": "2026-08-03",
+            "filing_datetime": "2026-08-03T20:29:44.000Z",
             "source": "sec_edgar",
             "is_officer": false,
             "is_director": true,
@@ -586,8 +512,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 75.34502964087909,
-        "volatility_20d": 0.3321162375152522
+        "rsi14": 71.1356256476296,
+        "volatility_20d": 0.27888406992255416
       }
     },
     {
@@ -597,7 +523,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (43 dias > 15)",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (44 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 220.56,
       "entry_zone_low": 217.2516,
@@ -614,7 +540,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 43,
+        "stale_days": 44,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -772,59 +698,45 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 44.26593983321119,
-        "volatility_20d": 0.20482373402895176
+        "rsi14": 43.40201775910518,
+        "volatility_20d": 0.1987768332657973
       }
     },
     {
-      "ticker": "ECL",
-      "name": "Ecolab",
-      "sector": "Materials",
+      "ticker": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
-      "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-11, demasiado antiguo (62 dias > 15)",
-      "plan": "Solo seguimiento",
-      "last_close": 278.43,
-      "entry_zone_low": 274.25355,
-      "entry_zone_high": 283.9986,
-      "invalid_below_price": 261.7242,
-      "target_price": 311.8416,
-      "risk_reward_ratio": 2.0000000000000004,
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "3 insiders compraron 652,394 USD entre 2026-08-03 y 2026-08-04 | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 36.43,
+      "entry_zone_low": 35.88355,
+      "entry_zone_high": 37.1586,
+      "invalid_below_price": 34.2442,
+      "target_price": 40.8016,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 50,
+      "opt_score": 58.9,
       "meta": {
         "insider_count": 3,
         "buy_count": 3,
-        "total_value_usd": 2513981,
-        "first_buy": "2026-05-13",
-        "last_buy": "2026-06-11",
-        "stale_days": 62,
+        "total_value_usd": 652394,
+        "first_buy": "2026-08-03",
+        "last_buy": "2026-08-04",
+        "stale_days": 9,
         "bootstrap_signal": false,
         "insiders": [
           {
-            "name": "Clark Benjamin M.",
-            "title": "EVP - Global Supply Chain",
-            "shares": 1000,
-            "value_usd": 263831,
-            "date": "2026-06-11",
-            "filing_date": "2026-06-15",
-            "filing_datetime": "2026-06-15T20:30:28.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Doukeris Michel D",
+            "name": "MORRIS EDNA",
             "title": "Director",
-            "shares": 7750,
-            "value_usd": 1999500,
-            "date": "2026-06-10",
-            "filing_date": "2026-06-11",
-            "filing_datetime": "2026-06-11T20:30:16.000Z",
+            "shares": 1560,
+            "value_usd": 50606,
+            "date": "2026-08-04",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:41:02.000Z",
             "source": "sec_edgar",
             "is_officer": false,
             "is_director": true,
@@ -832,13 +744,27 @@
             "has_10b5_1_plan": false
           },
           {
-            "name": "MacLennan David",
+            "name": "Lawton III Harry A",
+            "title": "President &amp; CEO",
+            "shares": 15600,
+            "value_usd": 501524,
+            "date": "2026-08-04",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:40:16.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Hawaux Andre J",
             "title": "Director",
-            "shares": 1000,
-            "value_usd": 250650,
-            "date": "2026-05-13",
-            "filing_date": "2026-05-14",
-            "filing_datetime": "2026-05-14T21:03:53.000Z",
+            "shares": 3150,
+            "value_usd": 100265,
+            "date": "2026-08-03",
+            "filing_date": "2026-08-04",
+            "filing_datetime": "2026-08-04T20:42:55.000Z",
             "source": "sec_edgar",
             "is_officer": false,
             "is_director": true,
@@ -846,8 +772,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 51.27491854384943,
-        "volatility_20d": 0.25131956575217007
+        "rsi14": 74.71318168458532,
+        "volatility_20d": 0.347394546589706
       }
     },
     {
@@ -857,7 +783,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (26 dias > 15)",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (27 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 399.14,
       "entry_zone_low": 393.1529,
@@ -874,7 +800,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 26,
+        "stale_days": 27,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -906,8 +832,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 54.62294999397091,
-        "volatility_20d": 0.4318353509060677
+        "rsi14": 55.253489505613175,
+        "volatility_20d": 0.324171358380991
       }
     },
     {
@@ -917,7 +843,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-27, demasiado antiguo (77 dias > 15)",
+      "reason": "Cluster de 2026-05-27, demasiado antiguo (78 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 136.67,
       "entry_zone_low": 134.61995,
@@ -934,7 +860,7 @@
         "total_value_usd": 2505138,
         "first_buy": "2026-05-18",
         "last_buy": "2026-05-27",
-        "stale_days": 77,
+        "stale_days": 78,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -966,7 +892,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 48.6496585628768,
+        "rsi14": 48.64965856302601,
         "volatility_20d": 0.5554030739823671
       }
     },
@@ -977,7 +903,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-22, demasiado antiguo (51 dias > 15)",
+      "reason": "Cluster de 2026-06-22, demasiado antiguo (52 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 314.17,
       "entry_zone_low": 309.45745,
@@ -994,7 +920,7 @@
         "total_value_usd": 2310427,
         "first_buy": "2026-05-28",
         "last_buy": "2026-06-22",
-        "stale_days": 51,
+        "stale_days": 52,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -1026,59 +952,59 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.155531628289644,
+        "rsi14": 53.155531628036755,
         "volatility_20d": 0.3692949304012613
       }
     },
     {
-      "ticker": "J",
-      "name": "Jacobs Solutions",
-      "sector": "Industrials",
+      "ticker": "ECL",
+      "name": "Ecolab",
+      "sector": "Materials",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-15, demasiado antiguo (89 dias > 15)",
+      "reason": "Cluster de 2026-06-11, demasiado antiguo (63 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 145.37,
-      "entry_zone_low": 143.18945,
-      "entry_zone_high": 148.2774,
-      "invalid_below_price": 136.6478,
-      "target_price": 162.81440000000003,
-      "risk_reward_ratio": 1.9999999999999984,
+      "last_close": 278.43,
+      "entry_zone_low": 274.25355,
+      "entry_zone_high": 283.9986,
+      "invalid_below_price": 261.7242,
+      "target_price": 311.8416,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 37.5,
+      "opt_score": 40,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
-        "total_value_usd": 428513,
-        "first_buy": "2026-05-13",
-        "last_buy": "2026-05-15",
-        "stale_days": 89,
+        "total_value_usd": 2263331,
+        "first_buy": "2026-06-10",
+        "last_buy": "2026-06-11",
+        "stale_days": 63,
         "bootstrap_signal": false,
         "insiders": [
           {
-            "name": "PRAGADA ROBERT V",
-            "title": "Chair &amp; CEO",
-            "shares": 3601,
-            "value_usd": 400035,
-            "date": "2026-05-15",
-            "filing_date": "2026-05-18",
-            "filing_datetime": "2026-05-18T10:10:05.000Z",
+            "name": "Clark Benjamin M.",
+            "title": "EVP - Global Supply Chain",
+            "shares": 1000,
+            "value_usd": 263831,
+            "date": "2026-06-11",
+            "filing_date": "2026-06-15",
+            "filing_datetime": "2026-06-15T20:30:28.000Z",
             "source": "sec_edgar",
             "is_officer": true,
-            "is_director": true,
+            "is_director": false,
             "is_ten_percent_owner": false,
             "has_10b5_1_plan": false
           },
           {
-            "name": "Fernandez Manuel J",
+            "name": "Doukeris Michel D",
             "title": "Director",
-            "shares": 253,
-            "value_usd": 28478,
-            "date": "2026-05-13",
-            "filing_date": "2026-05-14",
-            "filing_datetime": "2026-05-14T21:31:38.000Z",
+            "shares": 7750,
+            "value_usd": 1999500,
+            "date": "2026-06-10",
+            "filing_date": "2026-06-11",
+            "filing_datetime": "2026-06-11T20:30:16.000Z",
             "source": "sec_edgar",
             "is_officer": false,
             "is_director": true,
@@ -1086,8 +1012,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 65.51598134469913,
-        "volatility_20d": 0.32013783491434256
+        "rsi14": 51.27491854450223,
+        "volatility_20d": 0.25131956575217007
       }
     },
     {
@@ -1097,7 +1023,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-12, demasiado antiguo (61 dias > 15)",
+      "reason": "Cluster de 2026-06-12, demasiado antiguo (62 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 96.28,
       "entry_zone_low": 94.8358,
@@ -1114,7 +1040,7 @@
         "total_value_usd": 368020,
         "first_buy": "2026-06-04",
         "last_buy": "2026-06-12",
-        "stale_days": 61,
+        "stale_days": 62,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -1146,68 +1072,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.95860183264702,
+        "rsi14": 59.958601832294924,
         "volatility_20d": 0.365790123470911
-      }
-    },
-    {
-      "ticker": "JKHY",
-      "name": "Jack Henry & Associates",
-      "sector": "Financials",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-05-14, demasiado antiguo (90 dias > 15)",
-      "plan": "Solo seguimiento",
-      "last_close": 152.31,
-      "entry_zone_low": 150.02535,
-      "entry_zone_high": 155.3562,
-      "invalid_below_price": 143.1714,
-      "target_price": 170.58720000000002,
-      "risk_reward_ratio": 2.0000000000000027,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 35,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 317135,
-        "first_buy": "2026-05-14",
-        "last_buy": "2026-05-14",
-        "stale_days": 90,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Adelson Gregory R.",
-            "title": "President &amp; CEO",
-            "shares": 2000,
-            "value_usd": 266840,
-            "date": "2026-05-14",
-            "filing_date": "2026-05-14",
-            "filing_datetime": "2026-05-14T21:40:26.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Carsley Mimi",
-            "title": "CFO and Treasurer",
-            "shares": 375,
-            "value_usd": 50295,
-            "date": "2026-05-14",
-            "filing_date": "2026-05-14",
-            "filing_datetime": "2026-05-14T21:40:20.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 52.70497911994735,
-        "volatility_20d": 0.3463754780991914
       }
     },
     {
@@ -1217,7 +1083,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-03, demasiado antiguo (70 dias > 15)",
+      "reason": "Cluster de 2026-06-03, demasiado antiguo (71 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 145.06,
       "entry_zone_low": 142.8841,
@@ -1234,7 +1100,7 @@
         "total_value_usd": 897883,
         "first_buy": "2026-06-03",
         "last_buy": "2026-06-03",
-        "stale_days": 70,
+        "stale_days": 71,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -1275,16 +1141,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 69138,
+    "elapsed_ms": 64698,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 66,
-    "clusters_found": 16,
+    "companies_with_buys": 65,
+    "clusters_found": 14,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 7381,
-    "filings_fetched": 2,
+    "filings_seen": 7272,
+    "filings_fetched": 11,
     "missing_cik": 1,
     "scanned": 503
   },
