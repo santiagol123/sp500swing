@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-14T22:32:33.660Z",
+  "computed_at": "2026-08-14T23:29:49.620Z",
   "market_date": "2026-08-14",
   "signals": [
     {
@@ -188,7 +188,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 67.27108809231677,
+        "rsi14": 67.27108809240875,
         "volatility_20d": 0.18703574850919089
       }
     },
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 42.14490783153812,
+        "rsi14": 42.144907831552906,
         "volatility_20d": 0.1684376113391929
       }
     },
@@ -772,8 +772,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 69.38907308587197,
-        "volatility_20d": 0.3423483578992541
+        "rsi14": 69.87924034937939,
+        "volatility_20d": 0.32425880292525644
       }
     },
     {
@@ -832,7 +832,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.8386402000185,
+        "rsi14": 55.83864020003709,
         "volatility_20d": 0.27533769957951504
       }
     },
@@ -892,7 +892,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 50.97871987732133,
+        "rsi14": 50.97871987729777,
         "volatility_20d": 0.5075548184094599
       }
     },
@@ -1012,8 +1012,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 48.41131642913092,
-        "volatility_20d": 0.24013706213965233
+        "rsi14": 48.09537305102331,
+        "volatility_20d": 0.24950784345024177
       }
     },
     {
@@ -1072,7 +1072,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 57.23282574535357,
+        "rsi14": 57.23282574638052,
         "volatility_20d": 0.3697014067944152
       }
     },
@@ -1141,7 +1141,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 63767,
+    "elapsed_ms": 63746,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 69,
@@ -1149,8 +1149,8 @@
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 7165,
-    "filings_fetched": 2,
+    "filings_seen": 7166,
+    "filings_fetched": 1,
     "missing_cik": 1,
     "scanned": 503
   },
