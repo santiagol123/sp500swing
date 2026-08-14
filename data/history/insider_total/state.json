@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-08-14T20:39:06.990Z",
+  "updated_at": "2026-08-14T21:33:51.292Z",
   "initial_equity": 100000,
   "cash": 46970.434911621895,
   "positions": [
@@ -698,7 +698,7 @@
       "target_price": 125.05,
       "last_price": 102.5,
       "last_marked_date": "2026-08-14",
-      "unrealized_pnl": 0,
+      "unrealized_pnl": -2.52,
       "unrealized_pct": 0,
       "signal_meta": {
         "insider_count": 1,
