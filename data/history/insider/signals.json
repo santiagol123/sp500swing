@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-14T02:35:15.240Z",
+  "computed_at": "2026-08-14T04:57:27.709Z",
   "market_date": "2026-08-13",
   "signals": [
     {
@@ -188,7 +188,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 67.44155005914354,
+        "rsi14": 67.441550059432,
         "volatility_20d": 0.1884394970339533
       }
     },
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 45.29093990385813,
+        "rsi14": 45.290939903822064,
         "volatility_20d": 0.16689386882484367
       }
     },
@@ -772,7 +772,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 72.97490680359253,
+        "rsi14": 72.97490680620017,
         "volatility_20d": 0.3299457663418181
       }
     },
@@ -832,7 +832,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 54.64692971554751,
+        "rsi14": 54.646929712861606,
         "volatility_20d": 0.27546295255567704
       }
     },
@@ -892,7 +892,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.65074471433105,
+        "rsi14": 53.65074471432492,
         "volatility_20d": 0.5076883209483681
       }
     },
@@ -952,7 +952,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.99071020956944,
+        "rsi14": 49.99071020956895,
         "volatility_20d": 0.3394571533773884
       }
     },
@@ -1012,7 +1012,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 48.599366597505224,
+        "rsi14": 48.599366597506354,
         "volatility_20d": 0.2433708605581935
       }
     },
@@ -1072,7 +1072,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 58.02359547434748,
+        "rsi14": 58.02359547352072,
         "volatility_20d": 0.36473859688722265
       }
     },
@@ -1141,7 +1141,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 66122,
+    "elapsed_ms": 66433,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 67,
@@ -1150,7 +1150,7 @@
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
     "filings_seen": 7122,
-    "filings_fetched": 2,
+    "filings_fetched": 0,
     "missing_cik": 1,
     "scanned": 503
   },
