@@ -68,15 +68,6 @@ async function trackWorkspace(workspace, options) {
   console.log(`  senales: ${result.signals.length} (autorizadas: ${authorized.length})`);
   if (result.diagnostics) console.log(`  diagnostico: ${JSON.stringify(result.diagnostics)}`);
 
-  // El snapshot permite que la API sirva insiders sin recalcular.
-  writeJson(workspace.id, "signals", {
-    computed_at: new Date().toISOString(),
-    market_date: result.market_date,
-    signals: result.signals,
-    watch: result.watch || [],
-    diagnostics: result.diagnostics,
-    extra: result.extra || {},
-  });
   if (result.cache && usesInsiderFilingsCache(workspace)) writeJson(filingsCacheWorkspaceId(workspace), "filings", result.cache);
 
   const outcome = trackDay(state, {
@@ -96,10 +87,34 @@ async function trackWorkspace(workspace, options) {
     for (const p of outcome.opened) {
       console.log(`  APERTURA ${p.ticker} @ ${p.entry_price} stop ${p.stop_price} tp ${p.target_price}`);
     }
+    for (const p of outcome.pruned_reentries || []) {
+      console.log(`  ANULA REAPERTURA ${p.ticker}: evento ${p.signal_event_date || "sin fecha"} <= cierre ${p.last_exit_date}`);
+    }
+    for (const p of outcome.blocked_reentries || []) {
+      console.log(`  BLOQUEA REENTRADA ${p.ticker}: ${p.reason}`);
+    }
     if (!outcome.closed.length && !outcome.opened.length) console.log("  sin movimientos");
     console.log(`  capital: ${outcome.equity.toFixed(2)} $`);
     writeState(workspace, state);
   }
+
+  if (result.diagnostics) {
+    result.diagnostics.reentry_blocked_count = outcome.blocked_reentries?.length || 0;
+    result.diagnostics.reentry_pruned_count = outcome.pruned_reentries?.length || 0;
+    result.diagnostics.reentry_blocked_tickers = (outcome.blocked_reentries || []).map((row) => row.ticker);
+    result.diagnostics.reentry_pruned_tickers = (outcome.pruned_reentries || []).map((row) => row.ticker);
+  }
+
+  // El snapshot permite que la API sirva insiders sin recalcular. Se escribe
+  // despues del paper trading para que incluya senales bloqueadas por reentrada.
+  writeJson(workspace.id, "signals", {
+    computed_at: new Date().toISOString(),
+    market_date: result.market_date,
+    signals: result.signals,
+    watch: result.watch || [],
+    diagnostics: result.diagnostics,
+    extra: result.extra || {},
+  });
 
   console.log(`  ${((Date.now() - started) / 1000).toFixed(1)}s`);
   return state;

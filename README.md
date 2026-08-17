@@ -72,7 +72,9 @@ cuando ese dato aparece en el Form 4. La tesis es de evento corto: si no toca
 stop ni take profit antes, se cierra a 5 sesiones. En esta pestaña, las senales
 que pasan filtro no se sustituyen por otras con mejor puntuacion: se mantienen
 en cartera hasta su salida temporal, stop u objetivo, mientras quepa en el
-limite global de posiciones.
+limite global de posiciones. Si una posicion se cierra, no puede reabrirse por
+la misma senal antigua: el ticker queda bloqueado hasta que aparezca una compra
+o filing insider publicado despues de la fecha de salida.
 
 ## El ranking
 
