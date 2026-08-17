@@ -74,7 +74,9 @@ que pasan filtro no se sustituyen por otras con mejor puntuacion: se mantienen
 en cartera hasta su salida temporal, stop u objetivo, mientras quepa en el
 limite global de posiciones. Si una posicion se cierra, no puede reabrirse por
 la misma senal antigua: el ticker queda bloqueado hasta que aparezca una compra
-o filing insider publicado despues de la fecha de salida.
+o filing insider publicado despues de la fecha de salida. En las pestanas
+ChatGPT, el stop tambien queda capado a una perdida maxima del 2,4% desde la
+entrada, porque la tesis es demasiado corta para aguantar caidas mas amplias.
 
 ## El ranking
 
@@ -230,6 +232,7 @@ No hacen falta variables de entorno. Opcionales:
 - `CHATGPT_SP500_MAX_POSITIONS_PER_SECTOR`: maximo de posiciones por sector para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
 - `CHATGPT_SP500_SIGNAL_FILING_FRESH_DAYS`: antiguedad maxima normal del filing. Por defecto `20`.
 - `CHATGPT_SP500_MAX_HOLD_DAYS`: sesiones maximas antes de cierre temporal. Por defecto `5`.
+- `CHATGPT_SP500_STOP_LOSS_PCT`: stop maximo de las pestanas ChatGPT. Por defecto `0.024` (2,4%).
 
 ## Cron
 

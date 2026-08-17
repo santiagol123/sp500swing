@@ -1,9 +1,9 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-08-17T16:54:54.546Z",
+  "updated_at": "2026-08-17T17:06:06.008Z",
   "initial_equity": 100000,
-  "cash": 41122.0827366834,
+  "cash": 45926.822736683396,
   "positions": [
     {
       "ticker": "AMRZ",
@@ -14,12 +14,12 @@
       "entry_price": 46.575,
       "qty": 150.367269,
       "cost_basis": 7006.86,
-      "stop_price": 43.7305,
+      "stop_price": 45.4572,
       "target_price": 52.264,
-      "last_price": 45.93,
+      "last_price": 45.94,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": -100.49,
-      "unrealized_pct": -0.013849,
+      "unrealized_pnl": -98.99,
+      "unrealized_pct": -0.013634,
       "signal_meta": {
         "insider_count": 5,
         "buy_count": 7,
@@ -210,8 +210,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 45.4572,
+        "original_stop_price": 43.7305
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "XRN",
@@ -222,12 +228,12 @@
       "entry_price": 36.635,
       "qty": 273.093862,
       "cost_basis": 10009.8,
-      "stop_price": 34.4369,
+      "stop_price": 35.7558,
       "target_price": 41.0312,
-      "last_price": 36.13,
+      "last_price": 36.295,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": -142.92,
-      "unrealized_pct": -0.013785,
+      "unrealized_pnl": -97.86,
+      "unrealized_pct": -0.009281,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 4,
@@ -334,8 +340,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 35.7558,
+        "original_stop_price": 34.4369
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "TSM",
@@ -346,12 +358,12 @@
       "entry_price": 434.345,
       "qty": 16.123947,
       "cost_basis": 7006.86,
-      "stop_price": 407.8918,
+      "stop_price": 423.9207,
       "target_price": 487.2513,
-      "last_price": 433.33,
+      "last_price": 432.65,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": -19.87,
-      "unrealized_pct": -0.002337,
+      "unrealized_pnl": -30.83,
+      "unrealized_pct": -0.003902,
       "signal_meta": {
         "insider_count": 30,
         "buy_count": 46,
@@ -799,8 +811,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 423.9207,
+        "original_stop_price": 407.8918
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "CC",
@@ -811,12 +829,12 @@
       "entry_price": 15.225,
       "qty": 328.564652,
       "cost_basis": 5004.9,
-      "stop_price": 13.5503,
+      "stop_price": 14.8596,
       "target_price": 18.5745,
-      "last_price": 15.49,
+      "last_price": 15.521,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": 84.57,
-      "unrealized_pct": 0.017406,
+      "unrealized_pnl": 94.75,
+      "unrealized_pct": 0.019442,
       "signal_meta": {
         "insider_count": 5,
         "buy_count": 5,
@@ -914,8 +932,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 14.8596,
+        "original_stop_price": 13.5503
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "ACI",
@@ -926,12 +950,12 @@
       "entry_price": 12.34,
       "qty": 405.380618,
       "cost_basis": 5004.9,
-      "stop_price": 10.9826,
+      "stop_price": 12.0438,
       "target_price": 15.0548,
-      "last_price": 12.245,
+      "last_price": 12.21,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": -41.01,
-      "unrealized_pct": -0.007699,
+      "unrealized_pnl": -55.2,
+      "unrealized_pct": -0.010535,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 4,
@@ -1001,8 +1025,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 12.0438,
+        "original_stop_price": 10.9826
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "ONON",
@@ -1013,12 +1043,12 @@
       "entry_price": 32.035,
       "qty": 156.203528,
       "cost_basis": 5006.48,
-      "stop_price": 28.5111,
+      "stop_price": 31.2662,
       "target_price": 39.0827,
-      "last_price": 31.45,
+      "last_price": 31.435,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": -93.88,
-      "unrealized_pct": -0.018261,
+      "unrealized_pnl": -96.22,
+      "unrealized_pct": -0.01873,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -1125,8 +1155,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 31.2662,
+        "original_stop_price": 28.5111
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "BORR",
@@ -1137,7 +1173,7 @@
       "entry_price": 4.455,
       "qty": 1123.227839,
       "cost_basis": 5006.48,
-      "stop_price": 4.0945,
+      "stop_price": 4.3481,
       "target_price": 5.1761,
       "last_price": 4.41,
       "last_marked_date": "2026-08-17",
@@ -1249,8 +1285,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 4.3481,
+        "original_stop_price": 4.0945
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "INTC",
@@ -1261,12 +1303,12 @@
       "entry_price": 102.64,
       "qty": 48.752728,
       "cost_basis": 5006.48,
-      "stop_price": 91.3496,
+      "stop_price": 100.1766,
       "target_price": 125.2208,
-      "last_price": 104.962,
+      "last_price": 105.03,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": 110.7,
-      "unrealized_pct": 0.022623,
+      "unrealized_pnl": 114.02,
+      "unrealized_pct": 0.023285,
       "signal_meta": {
         "insider_count": 1,
         "buy_count": 1,
@@ -1310,123 +1352,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
-    },
-    {
-      "ticker": "KMPR",
-      "name": "Kemper Corporation",
-      "sector": "Finance",
-      "family": "INSIDER_CONVICTION",
-      "entry_date": "2026-08-17",
-      "entry_price": 27.075,
-      "qty": 184.819207,
-      "cost_basis": 5006.48,
-      "stop_price": 25.1972,
-      "target_price": 30.8306,
-      "last_price": 25.925,
-      "last_marked_date": "2026-08-17",
-      "unrealized_pnl": -215.04,
-      "unrealized_pct": -0.042475,
-      "signal_meta": {
-        "insider_count": 5,
-        "buy_count": 5,
-        "total_value_usd": 367880,
-        "first_buy": "2026-08-10",
-        "last_buy": "2026-08-13",
-        "stale_days": 4,
-        "bootstrap_signal": false,
-        "sources": {
-          "dataroma": 5
-        },
-        "insiders": [
-          {
-            "name": "MCANENA STEPHEN J",
-            "title": "President and CEO",
-            "shares": 3000,
-            "value_usd": 79500,
-            "date": "2026-08-13",
-            "filing_date": "2026-08-13",
-            "filing_datetime": null,
-            "source": "dataroma",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "EVANS CARL THOMAS JR.",
-            "title": "EVP, Sec. & General Counsel",
-            "shares": 1000,
-            "value_usd": 26530,
-            "date": "2026-08-11",
-            "filing_date": "2026-08-11",
-            "filing_datetime": null,
-            "source": "dataroma",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "CAMDEN BRADLEY T",
-            "title": "EVP and CFO",
-            "shares": 1000,
-            "value_usd": 26340,
-            "date": "2026-08-11",
-            "filing_date": "2026-08-11",
-            "filing_datetime": null,
-            "source": "dataroma",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "LADERMAN GERALD",
-            "title": "Director",
-            "shares": 4000,
-            "value_usd": 105960,
-            "date": "2026-08-11",
-            "filing_date": "2026-08-11",
-            "filing_datetime": null,
-            "source": "dataroma",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "GOREVIC JASON N",
-            "title": "Director",
-            "shares": 5000,
-            "value_usd": 129550,
-            "date": "2026-08-10",
-            "filing_date": "2026-08-11",
-            "filing_datetime": null,
-            "source": "dataroma",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "first_filing": "2026-08-11",
-        "last_filing": "2026-08-13",
-        "first_filing_datetime": null,
-        "last_filing_datetime": null,
-        "has_10b5_1_plan": false,
-        "rsi14": 44.59114851605836,
-        "volatility_20d": 0.5004520549998708,
-        "conviction_score": 82.8,
-        "conviction_filing_date": "2026-08-13",
-        "conviction_filing_age_days": 4,
-        "conviction_rejection_reasons": [],
-        "target_holding_sessions": 5,
-        "benchmark": "QQQ",
-        "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 100.1766,
+        "original_stop_price": 91.3496
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     },
     {
       "ticker": "REZI",
@@ -1437,11 +1370,11 @@
       "entry_price": 21.35,
       "qty": 233.361274,
       "cost_basis": 4984.75,
-      "stop_price": 19.0015,
+      "stop_price": 20.8376,
       "target_price": 26.047,
       "last_price": 21.35,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": 0,
+      "unrealized_pnl": -2.49,
       "unrealized_pct": 0,
       "signal_event_date": "2026-08-17",
       "signal_meta": {
@@ -1550,8 +1483,14 @@
         "target_holding_sessions": 5,
         "benchmark": "QQQ",
         "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
-        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse"
-      }
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 20.8376,
+        "original_stop_price": 19.0015
+      },
+      "max_loss_stop_applied": true,
+      "stop_loss_pct": 0.024
     }
   ],
   "trades": [
@@ -2269,6 +2208,129 @@
         "universe_label": "S&P 500 + Nasdaq-100",
         "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100"
       }
+    },
+    {
+      "ticker": "KMPR",
+      "name": "Kemper Corporation",
+      "sector": "Finance",
+      "family": "INSIDER_CONVICTION",
+      "entry_date": "2026-08-17",
+      "entry_price": 27.075,
+      "exit_date": "2026-08-17",
+      "exit_price": 26.01,
+      "exit_reason": "STOP_MAX_LOSS",
+      "qty": 184.819207,
+      "cost_basis": 5006.48,
+      "proceeds": 4804.74,
+      "pnl": -201.74,
+      "pnl_pct": -0.040295,
+      "r_multiple": -1.639,
+      "hold_days": 0,
+      "stop_price": 26.4252,
+      "target_price": 30.8306,
+      "signal_meta": {
+        "insider_count": 5,
+        "buy_count": 5,
+        "total_value_usd": 367880,
+        "first_buy": "2026-08-10",
+        "last_buy": "2026-08-13",
+        "stale_days": 4,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 5
+        },
+        "insiders": [
+          {
+            "name": "MCANENA STEPHEN J",
+            "title": "President and CEO",
+            "shares": 3000,
+            "value_usd": 79500,
+            "date": "2026-08-13",
+            "filing_date": "2026-08-13",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "EVANS CARL THOMAS JR.",
+            "title": "EVP, Sec. & General Counsel",
+            "shares": 1000,
+            "value_usd": 26530,
+            "date": "2026-08-11",
+            "filing_date": "2026-08-11",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "CAMDEN BRADLEY T",
+            "title": "EVP and CFO",
+            "shares": 1000,
+            "value_usd": 26340,
+            "date": "2026-08-11",
+            "filing_date": "2026-08-11",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "LADERMAN GERALD",
+            "title": "Director",
+            "shares": 4000,
+            "value_usd": 105960,
+            "date": "2026-08-11",
+            "filing_date": "2026-08-11",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "GOREVIC JASON N",
+            "title": "Director",
+            "shares": 5000,
+            "value_usd": 129550,
+            "date": "2026-08-10",
+            "filing_date": "2026-08-11",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "first_filing": "2026-08-11",
+        "last_filing": "2026-08-13",
+        "first_filing_datetime": null,
+        "last_filing_datetime": null,
+        "has_10b5_1_plan": false,
+        "rsi14": 44.59114851605836,
+        "volatility_20d": 0.5004520549998708,
+        "conviction_score": 82.8,
+        "conviction_filing_date": "2026-08-13",
+        "conviction_filing_age_days": 4,
+        "conviction_rejection_reasons": [],
+        "target_holding_sessions": 5,
+        "benchmark": "QQQ",
+        "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.024,
+        "max_loss_stop_price": 26.4252,
+        "original_stop_price": 25.1972
+      }
     }
   ],
   "equity_curve": [
@@ -2298,9 +2360,9 @@
     },
     {
       "date": "2026-08-17",
-      "equity": 99692.6,
-      "cash": 41122.08,
-      "open_positions": 10
+      "equity": 99738.47,
+      "cash": 45926.82,
+      "open_positions": 9
     }
   ],
   "tracked_days": 5,

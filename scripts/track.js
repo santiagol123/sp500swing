@@ -87,6 +87,9 @@ async function trackWorkspace(workspace, options) {
     for (const p of outcome.opened) {
       console.log(`  APERTURA ${p.ticker} @ ${p.entry_price} stop ${p.stop_price} tp ${p.target_price}`);
     }
+    for (const p of outcome.tightened_stops || []) {
+      console.log(`  AJUSTA STOP ${p.ticker}: ${p.previous_stop} -> ${p.stop_price} (${(p.max_loss_pct * 100).toFixed(1)}%)`);
+    }
     for (const p of outcome.pruned_reentries || []) {
       console.log(`  ANULA REAPERTURA ${p.ticker}: evento ${p.signal_event_date || "sin fecha"} <= cierre ${p.last_exit_date}`);
     }
@@ -103,6 +106,10 @@ async function trackWorkspace(workspace, options) {
     result.diagnostics.reentry_pruned_count = outcome.pruned_reentries?.length || 0;
     result.diagnostics.reentry_blocked_tickers = (outcome.blocked_reentries || []).map((row) => row.ticker);
     result.diagnostics.reentry_pruned_tickers = (outcome.pruned_reentries || []).map((row) => row.ticker);
+    result.diagnostics.stop_loss_pct = workspace.portfolio.max_loss_pct || null;
+    result.diagnostics.stop_loss_adjusted_signal_count = outcome.signal_stop_adjustments?.length || 0;
+    result.diagnostics.stop_loss_tightened_position_count = outcome.tightened_stops?.length || 0;
+    result.diagnostics.stop_loss_tightened_tickers = (outcome.tightened_stops || []).map((row) => row.ticker);
   }
 
   // El snapshot permite que la API sirva insiders sin recalcular. Se escribe
