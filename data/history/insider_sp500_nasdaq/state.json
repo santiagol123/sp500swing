@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-08-17T21:34:20.822Z",
+  "updated_at": "2026-08-17T22:33:49.532Z",
   "initial_equity": 100000,
   "cash": 50643.72353104122,
   "positions": [
@@ -1244,7 +1244,7 @@
       "target_price": 5.7462,
       "last_price": 4.71,
       "last_marked_date": "2026-08-17",
-      "unrealized_pnl": 0,
+      "unrealized_pnl": -2.49,
       "unrealized_pct": 0,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.024,
