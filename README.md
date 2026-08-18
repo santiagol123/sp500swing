@@ -24,7 +24,7 @@ selector de la app o con `?workspace=<id>` en la API.
 
 | Workspace  | Que busca | Fuente | Se calcula |
 |------------|-----------|--------|------------|
-| `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`) y continuaciones de ruptura (`BREAKOUT_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo, en cada peticion |
+| `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`), continuaciones de ruptura (`BREAKOUT_CONTINUATION`) y lideres de fuerza relativa (`LEADER_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo y snapshot horario |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
 | `insider_total` | ChatGPT SP500: compras fuertes de insiders del S&P 500, filtrando Form 4 codigo P/Dataroma por clusters, seniority, importe material y filing reciente; salida a 5 sesiones. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
 | `insider_sp500_nasdaq` | Insiders SP500+Nasdaq+NYSE: misma regla ChatGPT, pero con universo S&P 500 + Nasdaq-100 + NYSE para comparar si ampliar cobertura mejora resultados. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
@@ -232,7 +232,7 @@ No hacen falta variables de entorno. Opcionales:
 - `CHATGPT_SP500_MAX_POSITIONS_PER_SECTOR`: maximo de posiciones por sector para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
 - `CHATGPT_SP500_SIGNAL_FILING_FRESH_DAYS`: antiguedad maxima normal del filing. Por defecto `20`.
 - `CHATGPT_SP500_MAX_HOLD_DAYS`: sesiones maximas antes de cierre temporal. Por defecto `5`.
-- `CHATGPT_SP500_STOP_LOSS_PCT`: stop maximo de las pestanas ChatGPT. Por defecto `0.024` (2,4%).
+- `CHATGPT_SP500_STOP_LOSS_PCT`: stop maximo de las pestanas ChatGPT. Por defecto `0.02` (2%).
 
 ## Cron
 

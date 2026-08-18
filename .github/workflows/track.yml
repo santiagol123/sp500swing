@@ -41,6 +41,7 @@ jobs:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'sp500swing paper-trading research danielsilvaiglesias@gmail.com' }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
+            node scripts/track.js --workspace=momentum
             node scripts/track.js --workspace=insider
             node scripts/track.js --workspace=insider_total --cacheOnly
             node scripts/track.js --workspace=insider_sp500_nasdaq --cacheOnly
