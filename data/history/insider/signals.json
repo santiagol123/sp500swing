@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-18T01:44:33.297Z",
+  "computed_at": "2026-08-18T03:04:24.326Z",
   "market_date": "2026-08-17",
   "signals": [
     {
@@ -276,7 +276,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 67.968634294514,
+        "rsi14": 67.96863429494152,
         "volatility_20d": 0.17704095241245085
       }
     },
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 46.565145060396944,
+        "rsi14": 46.565145060407254,
         "volatility_20d": 0.17329784599299605
       }
     },
@@ -832,7 +832,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.16116605551167,
+        "rsi14": 49.16116605576049,
         "volatility_20d": 0.2819415783522372
       }
     },
@@ -892,7 +892,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 51.881658058623046,
+        "rsi14": 51.88165807809556,
         "volatility_20d": 0.33959463774921134
       }
     },
@@ -952,7 +952,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 48.05090539333399,
+        "rsi14": 48.05090539386328,
         "volatility_20d": 0.23272392679433632
       }
     },
@@ -1012,7 +1012,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 56.363224905258626,
+        "rsi14": 56.36322490947632,
         "volatility_20d": 0.36643823651575785
       }
     },
@@ -1080,8 +1080,8 @@
   "watch": [],
   "diagnostics": {
     "universe_source": "wikipedia",
-    "universe_count": 503,
-    "elapsed_ms": 82406,
+    "universe_count": 502,
+    "elapsed_ms": 66152,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 66,
@@ -1089,10 +1089,10 @@
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 6781,
-    "filings_fetched": 4,
+    "filings_seen": 6745,
+    "filings_fetched": 0,
     "missing_cik": 1,
-    "scanned": 503,
+    "scanned": 502,
     "reentry_blocked_count": 0,
     "reentry_pruned_count": 0,
     "reentry_blocked_tickers": [],
