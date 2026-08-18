@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-18T05:37:23.807Z",
+  "computed_at": "2026-08-18T06:57:39.858Z",
   "market_date": "2026-08-17",
   "signals": [
     {
@@ -276,7 +276,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 67.96863424607602,
+        "rsi14": 67.96863429480177,
         "volatility_20d": 0.17704095241245085
       }
     },
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 46.5651450604062,
+        "rsi14": 46.56514505881486,
         "volatility_20d": 0.17329784599299605
       }
     },
@@ -772,7 +772,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 60.526665829126976,
+        "rsi14": 60.5266658291298,
         "volatility_20d": 0.35111976656153865
       }
     },
@@ -832,7 +832,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.16116605576776,
+        "rsi14": 49.16116605551607,
         "volatility_20d": 0.2819415783522372
       }
     },
@@ -952,7 +952,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 48.050905393320285,
+        "rsi14": 48.050905393310295,
         "volatility_20d": 0.23272392679433632
       }
     },
@@ -1012,8 +1012,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.379377836168956,
-        "volatility_20d": 0.36609982876666447
+        "rsi14": 56.36322490560133,
+        "volatility_20d": 0.36643823651575785
       }
     },
     {
@@ -1072,16 +1072,16 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 38.587082383553856,
-        "volatility_20d": 0.8255327744894784
+        "rsi14": 37.71603028738773,
+        "volatility_20d": 0.7965689949397708
       }
     }
   ],
   "watch": [],
   "diagnostics": {
     "universe_source": "wikipedia",
-    "universe_count": 502,
-    "elapsed_ms": 66205,
+    "universe_count": 503,
+    "elapsed_ms": 68733,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 66,
@@ -1089,10 +1089,10 @@
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 6745,
-    "filings_fetched": 0,
-    "missing_cik": 1,
-    "scanned": 502,
+    "filings_seen": 6763,
+    "filings_fetched": 27,
+    "missing_cik": 2,
+    "scanned": 503,
     "reentry_blocked_count": 0,
     "reentry_pruned_count": 0,
     "reentry_blocked_tickers": [],
