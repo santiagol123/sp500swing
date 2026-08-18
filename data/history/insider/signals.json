@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-18T22:33:03.476Z",
+  "computed_at": "2026-08-18T23:30:30.073Z",
   "market_date": "2026-08-18",
   "signals": [
     {
@@ -276,7 +276,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 71.11747203813727,
+        "rsi14": 71.1174719854403,
         "volatility_20d": 0.1797806878018731
       }
     },
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 44.699821041270496,
+        "rsi14": 44.69982103923739,
         "volatility_20d": 0.17287258016525134
       }
     },
@@ -772,7 +772,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 60.723573582244796,
+        "rsi14": 60.72357358086848,
         "volatility_20d": 0.3352598903704037
       }
     },
@@ -832,7 +832,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.89156062905403,
+        "rsi14": 53.89156063085916,
         "volatility_20d": 0.27188913346313814
       }
     },
@@ -892,7 +892,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 54.28556188904115,
+        "rsi14": 54.285561901120786,
         "volatility_20d": 0.34084300403715573
       }
     },
@@ -952,7 +952,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.76254752269815,
+        "rsi14": 53.7625475227266,
         "volatility_20d": 0.227331713228813
       }
     },
@@ -1012,8 +1012,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.33411322497546,
-        "volatility_20d": 0.3620549224500855
+        "rsi14": 58.434367223694274,
+        "volatility_20d": 0.36388102119418836
       }
     },
     {
@@ -1072,8 +1072,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 46.287430862996644,
-        "volatility_20d": 0.829156871549176
+        "rsi14": 46.65057567820489,
+        "volatility_20d": 0.8473454075041634
       }
     }
   ],
@@ -1081,7 +1081,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 70127,
+    "elapsed_ms": 65388,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 67,
@@ -1089,8 +1089,8 @@
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 6962,
-    "filings_fetched": 30,
+    "filings_seen": 6972,
+    "filings_fetched": 10,
     "missing_cik": 1,
     "scanned": 503,
     "reentry_blocked_count": 0,
