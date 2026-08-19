@@ -1,7 +1,7 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-08-19T13:02:26.583Z",
+  "updated_at": "2026-08-19T13:51:24.820Z",
   "initial_equity": 100000,
   "cash": 73902.26309276912,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 7000,
       "stop_price": 353.2896,
       "target_price": 420.9408,
-      "last_price": 398.27,
-      "last_marked_date": "2026-08-18",
-      "unrealized_pnl": 414.05,
-      "unrealized_pct": 0.05968,
+      "last_price": 399.42,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": 435.46,
+      "unrealized_pct": 0.062739,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -58,10 +58,10 @@
       "cost_basis": 7019.82,
       "stop_price": 44.8756,
       "target_price": 53.4688,
-      "last_price": 50.47,
-      "last_marked_date": "2026-08-18",
-      "unrealized_pnl": 397.72,
-      "unrealized_pct": 0.057185,
+      "last_price": 51.74,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": 584.37,
+      "unrealized_pct": 0.083787,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -108,10 +108,10 @@
       "cost_basis": 7019.82,
       "stop_price": 31.4054,
       "target_price": 37.4192,
-      "last_price": 34.72,
-      "last_marked_date": "2026-08-18",
-      "unrealized_pnl": 271.6,
-      "unrealized_pct": 0.03921,
+      "last_price": 35.69,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": 475.31,
+      "unrealized_pct": 0.068243,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -158,10 +158,10 @@
       "cost_basis": 5058.09,
       "stop_price": 44.7529,
       "target_price": 59.3542,
-      "last_price": 48.6,
-      "last_marked_date": "2026-08-18",
-      "unrealized_pnl": -106.45,
-      "unrealized_pct": -0.020556,
+      "last_price": 48.775,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": -88.62,
+      "unrealized_pct": -0.017029,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -284,8 +284,14 @@
       "equity": 100976.92,
       "cash": 73902.26,
       "open_positions": 4
+    },
+    {
+      "date": "2026-08-19",
+      "equity": 101406.51,
+      "cash": 73902.26,
+      "open_positions": 4
     }
   ],
-  "tracked_days": 13,
-  "last_market_date": "2026-08-18"
+  "tracked_days": 14,
+  "last_market_date": "2026-08-19"
 }

@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-08-19T13:01:22.047Z",
+  "updated_at": "2026-08-19T13:50:12.934Z",
   "initial_equity": 100000,
-  "cash": 87551.13593543568,
+  "cash": 75597.53275585841,
   "positions": [
     {
       "ticker": "VLO",
@@ -16,10 +16,10 @@
       "cost_basis": 5969.43,
       "stop_price": 338.2511,
       "target_price": 367.1347,
-      "last_price": 350.05,
-      "last_marked_date": "2026-08-18",
-      "unrealized_pnl": 32.25,
-      "unrealized_pct": 0.005905,
+      "last_price": 345.315,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": -48.93,
+      "unrealized_pct": -0.007701,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -41,10 +41,10 @@
       "cost_basis": 5969.93,
       "stop_price": 414.1449,
       "target_price": 449.5091,
-      "last_price": 425.28,
-      "last_marked_date": "2026-08-18",
-      "unrealized_pnl": -14.11,
-      "unrealized_pct": -0.001866,
+      "last_price": 438.555,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": 171.8,
+      "unrealized_pct": 0.029291,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -53,6 +53,56 @@
         "rsi14": 74.414252,
         "macd_hist": 1.530265,
         "macd_hist_slope": 0.030595
+      }
+    },
+    {
+      "ticker": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-19",
+      "entry_price": 120.465,
+      "qty": 49.589629,
+      "cost_basis": 5976.8,
+      "stop_price": 117.092,
+      "target_price": 127.0906,
+      "last_price": 120.465,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 25,
+        "rsi14": 63.248452,
+        "macd_hist": 0.104944,
+        "macd_hist_slope": 0.264912
+      }
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-19",
+      "entry_price": 160.03,
+      "qty": 37.329343,
+      "cost_basis": 5976.8,
+      "stop_price": 155.5492,
+      "target_price": 168.8316,
+      "last_price": 160.03,
+      "last_marked_date": "2026-08-19",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 18,
+        "rsi14": 73.165771,
+        "macd_hist": 0.516011,
+        "macd_hist_slope": 0.306889
       }
     }
   ],
@@ -132,8 +182,14 @@
       "equity": 99508.63,
       "cash": 87551.14,
       "open_positions": 2
+    },
+    {
+      "date": "2026-08-19",
+      "equity": 99607.39,
+      "cash": 75597.53,
+      "open_positions": 4
     }
   ],
-  "tracked_days": 8,
-  "last_market_date": "2026-08-18"
+  "tracked_days": 9,
+  "last_market_date": "2026-08-19"
 }
