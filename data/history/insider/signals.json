@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-19T21:34:07.573Z",
+  "computed_at": "2026-08-19T22:33:29.671Z",
   "market_date": "2026-08-19",
   "signals": [
     {
@@ -276,7 +276,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 77.36143224408366,
+        "rsi14": 77.36143229972792,
         "volatility_20d": 0.20624251518134598
       }
     },
@@ -698,8 +698,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.936177467522924,
-        "volatility_20d": 0.1787892086228328
+        "rsi14": 50.329495364279744,
+        "volatility_20d": 0.18380339758186978
       }
     },
     {
@@ -772,7 +772,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 63.879381984535655,
+        "rsi14": 63.87938198450485,
         "volatility_20d": 0.3313429818147233
       }
     },
@@ -832,7 +832,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.52424542464581,
+        "rsi14": 53.52424542671779,
         "volatility_20d": 0.2625441949928407
       }
     },
@@ -892,7 +892,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.22012412215032,
+        "rsi14": 55.22012413406566,
         "volatility_20d": 0.34086346518682015
       }
     },
@@ -952,7 +952,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.83790428118578,
+        "rsi14": 59.83790428118709,
         "volatility_20d": 0.24156034601236492
       }
     },
@@ -1012,7 +1012,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.78327801806751,
+        "rsi14": 59.78327802482261,
         "volatility_20d": 0.31796539164596677
       }
     },
@@ -1081,7 +1081,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 71548,
+    "elapsed_ms": 69398,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 69,
@@ -1089,8 +1089,8 @@
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 6981,
-    "filings_fetched": 60,
+    "filings_seen": 6993,
+    "filings_fetched": 12,
     "missing_cik": 1,
     "scanned": 503,
     "reentry_blocked_count": 0,
