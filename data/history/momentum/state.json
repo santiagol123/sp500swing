@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-08-20T13:03:55.218Z",
+  "updated_at": "2026-08-20T13:52:57.146Z",
   "initial_equity": 100000,
-  "cash": 75597.53275585841,
+  "cash": 87204.8327558584,
   "positions": [
     {
       "ticker": "VLO",
@@ -16,10 +16,10 @@
       "cost_basis": 5969.43,
       "stop_price": 338.2511,
       "target_price": 367.1347,
-      "last_price": 346.26,
-      "last_marked_date": "2026-08-19",
-      "unrealized_pnl": -32.73,
-      "unrealized_pct": -0.004986,
+      "last_price": 347.195,
+      "last_marked_date": "2026-08-20",
+      "unrealized_pnl": -16.7,
+      "unrealized_pct": -0.002299,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -41,10 +41,10 @@
       "cost_basis": 5969.93,
       "stop_price": 414.1449,
       "target_price": 449.5091,
-      "last_price": 442.36,
-      "last_marked_date": "2026-08-19",
-      "unrealized_pnl": 225.08,
-      "unrealized_pct": 0.038221,
+      "last_price": 437.18,
+      "last_marked_date": "2026-08-20",
+      "unrealized_pnl": 152.54,
+      "unrealized_pct": 0.026063,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -53,56 +53,6 @@
         "rsi14": 74.414252,
         "macd_hist": 1.530265,
         "macd_hist_slope": 0.030595
-      }
-    },
-    {
-      "ticker": "RVTY",
-      "name": "Revvity",
-      "sector": "Health Care",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-08-19",
-      "entry_price": 120.465,
-      "qty": 49.589629,
-      "cost_basis": 5976.8,
-      "stop_price": 117.092,
-      "target_price": 127.0906,
-      "last_price": 119.45,
-      "last_marked_date": "2026-08-19",
-      "unrealized_pnl": -53.32,
-      "unrealized_pct": -0.008426,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 25,
-        "rsi14": 63.248452,
-        "macd_hist": 0.104944,
-        "macd_hist_slope": 0.264912
-      }
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target Corporation",
-      "sector": "Consumer Staples",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-08-19",
-      "entry_price": 160.03,
-      "qty": 37.329343,
-      "cost_basis": 5976.8,
-      "stop_price": 155.5492,
-      "target_price": 168.8316,
-      "last_price": 159,
-      "last_marked_date": "2026-08-19",
-      "unrealized_pnl": -41.43,
-      "unrealized_pct": -0.006436,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 18,
-        "rsi14": 73.165771,
-        "macd_hist": 0.516011,
-        "macd_hist_slope": 0.306889
       }
     }
   ],
@@ -131,6 +81,58 @@
         "rsi14": 61.178973,
         "macd_hist": 0.04977,
         "macd_hist_slope": -0.032455
+      }
+    },
+    {
+      "ticker": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-19",
+      "entry_price": 120.465,
+      "exit_date": "2026-08-20",
+      "exit_price": 117.092,
+      "exit_reason": "STOP",
+      "qty": 49.589629,
+      "cost_basis": 5976.8,
+      "proceeds": 5803.65,
+      "pnl": -173.15,
+      "pnl_pct": -0.028971,
+      "r_multiple": -1,
+      "hold_days": 1,
+      "stop_price": 117.092,
+      "target_price": 127.0906,
+      "signal_meta": {
+        "rank_today": 25,
+        "rsi14": 63.248452,
+        "macd_hist": 0.104944,
+        "macd_hist_slope": 0.264912
+      }
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-19",
+      "entry_price": 160.03,
+      "exit_date": "2026-08-20",
+      "exit_price": 155.5492,
+      "exit_reason": "STOP",
+      "qty": 37.329343,
+      "cost_basis": 5976.8,
+      "proceeds": 5803.65,
+      "pnl": -173.15,
+      "pnl_pct": -0.028971,
+      "r_multiple": -1,
+      "hold_days": 1,
+      "stop_price": 155.5492,
+      "target_price": 168.8316,
+      "signal_meta": {
+        "rank_today": 18,
+        "rsi14": 73.165771,
+        "macd_hist": 0.516011,
+        "macd_hist_slope": 0.306889
       }
     }
   ],
@@ -188,8 +190,14 @@
       "equity": 99588.09,
       "cash": 75597.53,
       "open_positions": 4
+    },
+    {
+      "date": "2026-08-20",
+      "equity": 99280.03,
+      "cash": 87204.83,
+      "open_positions": 2
     }
   ],
-  "tracked_days": 9,
-  "last_market_date": "2026-08-19"
+  "tracked_days": 10,
+  "last_market_date": "2026-08-20"
 }
