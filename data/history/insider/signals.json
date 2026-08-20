@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-20T08:50:25.623Z",
+  "computed_at": "2026-08-20T09:43:28.960Z",
   "market_date": "2026-08-19",
   "signals": [
     {
@@ -14,9 +14,9 @@
       "last_close": 48.92,
       "entry_zone_low": 48.1862,
       "entry_zone_high": 49.8984,
-      "invalid_below_price": 44.1093658587766,
-      "target_price": 58.54126828244681,
-      "risk_reward_ratio": 2,
+      "invalid_below_price": 44.20109931936128,
+      "target_price": 58.35780136127744,
+      "risk_reward_ratio": 1.9999999999999998,
       "size_pct": 0.05,
       "authorized": true,
       "opt_score": 80.7,
@@ -86,8 +86,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 37.15723125331631,
-        "volatility_20d": 0.709567099505346
+        "rsi14": 36.640995546012455,
+        "volatility_20d": 0.696036441458233
       }
     },
     {
@@ -364,7 +364,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 77.36143229935249,
+        "rsi14": 77.36143224407121,
         "volatility_20d": 0.20624251518134598
       }
     },
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 63.87938198450485,
+        "rsi14": 63.879381986058384,
         "volatility_20d": 0.3313429818147233
       }
     },
@@ -818,8 +818,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.52424542672964,
-        "volatility_20d": 0.2625441949928407
+        "rsi14": 53.9948965744476,
+        "volatility_20d": 0.2683066698752908
       }
     },
     {
@@ -998,7 +998,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.783278024167274,
+        "rsi14": 59.78327801705256,
         "volatility_20d": 0.31796539164596677
       }
     },
@@ -1058,8 +1058,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.41913426377017,
-        "volatility_20d": 0.8286383516504912
+        "rsi14": 49.62625804534359,
+        "volatility_20d": 0.8528595827703285
       }
     }
   ],
@@ -1067,7 +1067,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 63631,
+    "elapsed_ms": 63530,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 68,
