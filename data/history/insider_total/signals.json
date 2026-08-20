@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-20T11:36:07.186Z",
+  "computed_at": "2026-08-20T13:05:08.828Z",
   "market_date": "2026-08-19",
   "signals": [
     {
@@ -307,7 +307,7 @@
         "first_filing_datetime": "2026-08-05T20:02:38.000Z",
         "last_filing_datetime": "2026-08-12T16:04:39.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 77.36143229934575,
+        "rsi14": 77.36143224403789,
         "volatility_20d": 0.20624251518134598,
         "conviction_score": 83.5,
         "conviction_filing_date": "2026-08-12",
@@ -1099,7 +1099,7 @@
         "first_filing_datetime": "2026-07-01T17:43:44.000Z",
         "last_filing_datetime": "2026-07-01T18:16:45.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 50.32949536427978,
+        "rsi14": 50.3294953636999,
         "volatility_20d": 0.18380339758186978,
         "conviction_score": 74.7,
         "conviction_filing_date": "2026-07-01",
@@ -1183,7 +1183,7 @@
         "first_filing_datetime": "2026-06-11T20:30:16.000Z",
         "last_filing_datetime": "2026-06-15T20:30:28.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 59.83790428118585,
+        "rsi14": 59.83790428186561,
         "volatility_20d": 0.24156034601236492,
         "conviction_score": 73.8,
         "conviction_filing_date": "2026-06-15",
@@ -1267,7 +1267,7 @@
         "first_filing_datetime": "2026-07-17T17:50:44.000Z",
         "last_filing_datetime": "2026-07-17T19:04:55.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 53.524245426743995,
+        "rsi14": 53.52424542464093,
         "volatility_20d": 0.2625441949928407,
         "conviction_score": 73.5,
         "conviction_filing_date": "2026-07-17",
@@ -1351,7 +1351,7 @@
         "first_filing_datetime": "2026-05-28T20:23:34.000Z",
         "last_filing_datetime": "2026-06-24T20:04:15.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 55.22012413406566,
+        "rsi14": 55.220124134351046,
         "volatility_20d": 0.34086346518682015,
         "conviction_score": 72.3,
         "conviction_filing_date": "2026-06-24",
@@ -1508,7 +1508,7 @@
         "first_filing_datetime": "2026-08-04T20:13:38.000Z",
         "last_filing_datetime": "2026-08-04T20:13:38.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 53.697394562015965,
+        "rsi14": 53.69739456201915,
         "volatility_20d": 0.38830085941105236,
         "conviction_score": 70.4,
         "conviction_filing_date": "2026-08-04",
@@ -1592,7 +1592,7 @@
         "first_filing_datetime": "2026-08-14T16:15:06.000Z",
         "last_filing_datetime": "2026-08-14T16:15:06.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 48.50127648649847,
+        "rsi14": 48.501276481682034,
         "volatility_20d": 0.5720283931387449,
         "conviction_score": 70.1,
         "conviction_filing_date": "2026-08-14",
@@ -1759,7 +1759,7 @@
         "first_filing_datetime": "2026-06-04T20:11:38.000Z",
         "last_filing_datetime": "2026-06-15T20:41:48.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 59.783278024825535,
+        "rsi14": 59.7832780180741,
         "volatility_20d": 0.31796539164596677,
         "conviction_score": 68.9,
         "conviction_filing_date": "2026-06-15",
@@ -2307,7 +2307,7 @@
         "first_filing_datetime": "2026-07-01T17:43:44.000Z",
         "last_filing_datetime": "2026-07-01T18:16:45.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 50.32949536427978,
+        "rsi14": 50.3294953636999,
         "volatility_20d": 0.18380339758186978,
         "conviction_score": 74.7,
         "conviction_filing_date": "2026-07-01",
@@ -2391,7 +2391,7 @@
         "first_filing_datetime": "2026-06-11T20:30:16.000Z",
         "last_filing_datetime": "2026-06-15T20:30:28.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 59.83790428118585,
+        "rsi14": 59.83790428186561,
         "volatility_20d": 0.24156034601236492,
         "conviction_score": 73.8,
         "conviction_filing_date": "2026-06-15",
@@ -2475,7 +2475,7 @@
         "first_filing_datetime": "2026-07-17T17:50:44.000Z",
         "last_filing_datetime": "2026-07-17T19:04:55.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 53.524245426743995,
+        "rsi14": 53.52424542464093,
         "volatility_20d": 0.2625441949928407,
         "conviction_score": 73.5,
         "conviction_filing_date": "2026-07-17",
@@ -2559,7 +2559,7 @@
         "first_filing_datetime": "2026-05-28T20:23:34.000Z",
         "last_filing_datetime": "2026-06-24T20:04:15.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 55.22012413406566,
+        "rsi14": 55.220124134351046,
         "volatility_20d": 0.34086346518682015,
         "conviction_score": 72.3,
         "conviction_filing_date": "2026-06-24",
@@ -2716,7 +2716,7 @@
         "first_filing_datetime": "2026-08-04T20:13:38.000Z",
         "last_filing_datetime": "2026-08-04T20:13:38.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 53.697394562015965,
+        "rsi14": 53.69739456201915,
         "volatility_20d": 0.38830085941105236,
         "conviction_score": 70.4,
         "conviction_filing_date": "2026-08-04",
@@ -2800,7 +2800,7 @@
         "first_filing_datetime": "2026-08-14T16:15:06.000Z",
         "last_filing_datetime": "2026-08-14T16:15:06.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 48.50127648649847,
+        "rsi14": 48.501276481682034,
         "volatility_20d": 0.5720283931387449,
         "conviction_score": 70.1,
         "conviction_filing_date": "2026-08-14",
@@ -2967,7 +2967,7 @@
         "first_filing_datetime": "2026-06-04T20:11:38.000Z",
         "last_filing_datetime": "2026-06-15T20:41:48.000Z",
         "has_10b5_1_plan": false,
-        "rsi14": 59.783278024825535,
+        "rsi14": 59.7832780180741,
         "volatility_20d": 0.31796539164596677,
         "conviction_score": 68.9,
         "conviction_filing_date": "2026-06-15",
@@ -2996,7 +2996,7 @@
     "nyse_count": null,
     "universe_overlap_count": null,
     "scanned_universe_count": 503,
-    "elapsed_ms": 7940,
+    "elapsed_ms": 8438,
     "cache_only": true,
     "bootstrap_signals": false,
     "companies_with_sec_buys": 68,
@@ -3015,14 +3015,14 @@
     "filings_fetched": 0,
     "missing_cik": 0,
     "scanned": 0,
-    "accessions_cached": 6807,
+    "accessions_cached": 6809,
     "buy_rows_cached": 110,
     "tickers_with_cached_buys": 68,
     "dataroma_url": "https://dataroma.com/m/ins/ins.php",
     "dataroma_timeframe": "y",
     "dataroma_since_date": "2026-05-22",
     "dataroma_pages_fetched": 25,
-    "dataroma_rows_raw": 2297,
+    "dataroma_rows_raw": 2298,
     "dataroma_rows_after_filters": 136,
     "dataroma_pages": [
       {
@@ -3055,7 +3055,7 @@
         "raw_rows": 93,
         "rows_after_filters": 11,
         "newest": "2026-08-14",
-        "oldest": "2026-07-01"
+        "oldest": "2026-07-07"
       },
       {
         "page": 5,
@@ -3063,28 +3063,28 @@
         "raw_rows": 97,
         "rows_after_filters": 5,
         "newest": "2026-08-13",
-        "oldest": "2026-07-31"
+        "oldest": "2026-07-01"
       },
       {
         "page": 6,
         "url": "https://dataroma.com/m/ins/ins.php?L=6&t=y&po=1",
         "raw_rows": 100,
-        "rows_after_filters": 17,
+        "rows_after_filters": 13,
         "newest": "2026-08-12",
         "oldest": "2018-03-12"
       },
       {
         "page": 7,
         "url": "https://dataroma.com/m/ins/ins.php?L=7&t=y&po=1",
-        "raw_rows": 87,
-        "rows_after_filters": 3,
+        "raw_rows": 88,
+        "rows_after_filters": 6,
         "newest": "2026-08-11",
         "oldest": "2025-03-07"
       },
       {
         "page": 8,
         "url": "https://dataroma.com/m/ins/ins.php?L=8&t=y&po=1",
-        "raw_rows": 98,
+        "raw_rows": 97,
         "rows_after_filters": 3,
         "newest": "2026-08-10",
         "oldest": "2026-07-01"
@@ -3094,29 +3094,29 @@
         "url": "https://dataroma.com/m/ins/ins.php?L=9&t=y&po=1",
         "raw_rows": 98,
         "rows_after_filters": 1,
-        "newest": "2026-08-07",
+        "newest": "2026-08-10",
         "oldest": "2026-05-28"
       },
       {
         "page": 10,
         "url": "https://dataroma.com/m/ins/ins.php?L=10&t=y&po=1",
-        "raw_rows": 91,
-        "rows_after_filters": 11,
+        "raw_rows": 94,
+        "rows_after_filters": 9,
         "newest": "2026-08-06",
         "oldest": "2026-06-04"
       },
       {
         "page": 11,
         "url": "https://dataroma.com/m/ins/ins.php?L=11&t=y&po=1",
-        "raw_rows": 93,
-        "rows_after_filters": 11,
+        "raw_rows": 90,
+        "rows_after_filters": 14,
         "newest": "2026-08-05",
         "oldest": "2026-04-13"
       },
       {
         "page": 12,
         "url": "https://dataroma.com/m/ins/ins.php?L=12&t=y&po=1",
-        "raw_rows": 88,
+        "raw_rows": 89,
         "rows_after_filters": 4,
         "newest": "2026-08-04",
         "oldest": "2026-03-25"
@@ -3132,9 +3132,9 @@
       {
         "page": 14,
         "url": "https://dataroma.com/m/ins/ins.php?L=14&t=y&po=1",
-        "raw_rows": 88,
+        "raw_rows": 87,
         "rows_after_filters": 2,
-        "newest": "2026-07-28",
+        "newest": "2026-07-29",
         "oldest": "2026-01-22"
       },
       {
@@ -3157,22 +3157,22 @@
         "page": 17,
         "url": "https://dataroma.com/m/ins/ins.php?L=17&t=y&po=1",
         "raw_rows": 91,
-        "rows_after_filters": 6,
+        "rows_after_filters": 5,
         "newest": "2026-07-20",
         "oldest": "2026-06-25"
       },
       {
         "page": 18,
         "url": "https://dataroma.com/m/ins/ins.php?L=18&t=y&po=1",
-        "raw_rows": 91,
-        "rows_after_filters": 2,
-        "newest": "2026-07-15",
-        "oldest": "2025-07-21"
+        "raw_rows": 92,
+        "rows_after_filters": 3,
+        "newest": "2026-07-16",
+        "oldest": "2025-09-22"
       },
       {
         "page": 19,
         "url": "https://dataroma.com/m/ins/ins.php?L=19&t=y&po=1",
-        "raw_rows": 80,
+        "raw_rows": 83,
         "rows_after_filters": 2,
         "newest": "2026-07-13",
         "oldest": "2024-12-27"
@@ -3180,7 +3180,7 @@
       {
         "page": 20,
         "url": "https://dataroma.com/m/ins/ins.php?L=20&t=y&po=1",
-        "raw_rows": 98,
+        "raw_rows": 94,
         "rows_after_filters": 2,
         "newest": "2026-07-10",
         "oldest": "2026-06-26"
@@ -3188,7 +3188,7 @@
       {
         "page": 21,
         "url": "https://dataroma.com/m/ins/ins.php?L=21&t=y&po=1",
-        "raw_rows": 96,
+        "raw_rows": 97,
         "rows_after_filters": 1,
         "newest": "2026-07-08",
         "oldest": "2025-06-29"
@@ -3196,7 +3196,7 @@
       {
         "page": 22,
         "url": "https://dataroma.com/m/ins/ins.php?L=22&t=y&po=1",
-        "raw_rows": 91,
+        "raw_rows": 90,
         "rows_after_filters": 2,
         "newest": "2026-07-06",
         "oldest": "2026-05-19"
@@ -3204,7 +3204,7 @@
       {
         "page": 23,
         "url": "https://dataroma.com/m/ins/ins.php?L=23&t=y&po=1",
-        "raw_rows": 85,
+        "raw_rows": 88,
         "rows_after_filters": 1,
         "newest": "2026-07-02",
         "oldest": "2026-01-23"
@@ -3212,7 +3212,7 @@
       {
         "page": 24,
         "url": "https://dataroma.com/m/ins/ins.php?L=24&t=y&po=1",
-        "raw_rows": 73,
+        "raw_rows": 77,
         "rows_after_filters": 30,
         "newest": "2026-07-01",
         "oldest": "2026-01-12"
@@ -3220,7 +3220,7 @@
       {
         "page": 25,
         "url": "https://dataroma.com/m/ins/ins.php?L=25&t=y&po=1",
-        "raw_rows": 97,
+        "raw_rows": 91,
         "rows_after_filters": 1,
         "newest": "2026-06-30",
         "oldest": "2026-05-11"
@@ -3229,7 +3229,7 @@
     "dataroma_flow_url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d",
     "dataroma_flow_latest_filing_date": "2026-08-20",
     "dataroma_flow_pages_fetched": 25,
-    "dataroma_flow_rows_raw": 2454,
+    "dataroma_flow_rows_raw": 2455,
     "dataroma_flow_rows_after_filters": 390,
     "dataroma_flow_purchase_rows": 14,
     "dataroma_flow_sale_rows": 376,
@@ -3240,17 +3240,17 @@
         "page": 1,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d",
         "raw_rows": 100,
-        "rows_after_filters": 36,
+        "rows_after_filters": 33,
         "newest_filing": "2026-08-20",
         "oldest_filing": "2026-08-19",
         "newest_transaction": "2026-08-19",
-        "oldest_transaction": "2026-08-17"
+        "oldest_transaction": "2026-07-31"
       },
       {
         "page": 2,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=2",
         "raw_rows": 100,
-        "rows_after_filters": 20,
+        "rows_after_filters": 21,
         "newest_filing": "2026-08-19",
         "oldest_filing": "2026-08-19",
         "newest_transaction": "2026-08-19",
@@ -3260,7 +3260,7 @@
         "page": 3,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=3",
         "raw_rows": 100,
-        "rows_after_filters": 1,
+        "rows_after_filters": 3,
         "newest_filing": "2026-08-19",
         "oldest_filing": "2026-08-19",
         "newest_transaction": "2026-08-19",
@@ -3280,7 +3280,7 @@
         "page": 5,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=5",
         "raw_rows": 100,
-        "rows_after_filters": 4,
+        "rows_after_filters": 3,
         "newest_filing": "2026-08-19",
         "oldest_filing": "2026-08-19",
         "newest_transaction": "2026-08-19",
@@ -3290,7 +3290,7 @@
         "page": 6,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=6",
         "raw_rows": 100,
-        "rows_after_filters": 31,
+        "rows_after_filters": 32,
         "newest_filing": "2026-08-19",
         "oldest_filing": "2026-08-19",
         "newest_transaction": "2026-08-19",
@@ -3334,17 +3334,17 @@
         "newest_filing": "2026-08-18",
         "oldest_filing": "2026-08-18",
         "newest_transaction": "2026-08-18",
-        "oldest_transaction": "2026-04-17"
+        "oldest_transaction": "2026-08-13"
       },
       {
         "page": 11,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=11",
         "raw_rows": 100,
-        "rows_after_filters": 8,
+        "rows_after_filters": 6,
         "newest_filing": "2026-08-18",
         "oldest_filing": "2026-08-18",
         "newest_transaction": "2026-08-18",
-        "oldest_transaction": "2026-05-18"
+        "oldest_transaction": "2026-04-17"
       },
       {
         "page": 12,
@@ -3360,7 +3360,7 @@
         "page": 13,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=13",
         "raw_rows": 99,
-        "rows_after_filters": 23,
+        "rows_after_filters": 24,
         "newest_filing": "2026-08-18",
         "oldest_filing": "2026-08-18",
         "newest_transaction": "2026-08-18",
@@ -3370,7 +3370,7 @@
         "page": 14,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=14",
         "raw_rows": 99,
-        "rows_after_filters": 28,
+        "rows_after_filters": 29,
         "newest_filing": "2026-08-18",
         "oldest_filing": "2026-08-18",
         "newest_transaction": "2026-08-18",
@@ -3380,11 +3380,11 @@
         "page": 15,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=15",
         "raw_rows": 97,
-        "rows_after_filters": 20,
+        "rows_after_filters": 19,
         "newest_filing": "2026-08-18",
         "oldest_filing": "2026-08-18",
         "newest_transaction": "2026-08-18",
-        "oldest_transaction": "2026-03-02"
+        "oldest_transaction": "2026-08-14"
       },
       {
         "page": 16,
@@ -3394,13 +3394,13 @@
         "newest_filing": "2026-08-18",
         "oldest_filing": "2026-08-17",
         "newest_transaction": "2026-08-18",
-        "oldest_transaction": "2026-04-23"
+        "oldest_transaction": "2026-03-02"
       },
       {
         "page": 17,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=17",
         "raw_rows": 98,
-        "rows_after_filters": 6,
+        "rows_after_filters": 4,
         "newest_filing": "2026-08-17",
         "oldest_filing": "2026-08-17",
         "newest_transaction": "2026-08-17",
@@ -3410,7 +3410,7 @@
         "page": 18,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=18",
         "raw_rows": 86,
-        "rows_after_filters": 2,
+        "rows_after_filters": 5,
         "newest_filing": "2026-08-17",
         "oldest_filing": "2026-08-17",
         "newest_transaction": "2026-08-17",
@@ -3420,7 +3420,7 @@
         "page": 19,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=19",
         "raw_rows": 94,
-        "rows_after_filters": 32,
+        "rows_after_filters": 25,
         "newest_filing": "2026-08-17",
         "oldest_filing": "2026-08-17",
         "newest_transaction": "2026-08-17",
@@ -3430,7 +3430,7 @@
         "page": 20,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=20",
         "raw_rows": 99,
-        "rows_after_filters": 12,
+        "rows_after_filters": 18,
         "newest_filing": "2026-08-17",
         "oldest_filing": "2026-08-17",
         "newest_transaction": "2026-08-17",
@@ -3444,13 +3444,13 @@
         "newest_filing": "2026-08-17",
         "oldest_filing": "2026-08-17",
         "newest_transaction": "2026-08-17",
-        "oldest_transaction": "2026-08-03"
+        "oldest_transaction": "2026-08-13"
       },
       {
         "page": 22,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=22",
         "raw_rows": 100,
-        "rows_after_filters": 0,
+        "rows_after_filters": 1,
         "newest_filing": "2026-08-17",
         "oldest_filing": "2026-08-14",
         "newest_transaction": "2026-08-14",
@@ -3460,27 +3460,27 @@
         "page": 23,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=23",
         "raw_rows": 99,
-        "rows_after_filters": 21,
+        "rows_after_filters": 16,
+        "newest_filing": "2026-08-14",
+        "oldest_filing": "2026-08-14",
+        "newest_transaction": "2026-08-14",
+        "oldest_transaction": "2026-08-06"
+      },
+      {
+        "page": 24,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=24",
+        "raw_rows": 99,
+        "rows_after_filters": 14,
         "newest_filing": "2026-08-14",
         "oldest_filing": "2026-08-14",
         "newest_transaction": "2026-08-14",
         "oldest_transaction": "2026-08-04"
       },
       {
-        "page": 24,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=24",
-        "raw_rows": 94,
-        "rows_after_filters": 13,
-        "newest_filing": "2026-08-14",
-        "oldest_filing": "2026-08-14",
-        "newest_transaction": "2026-08-14",
-        "oldest_transaction": "2026-08-12"
-      },
-      {
         "page": 25,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=25",
-        "raw_rows": 95,
-        "rows_after_filters": 10,
+        "raw_rows": 91,
+        "rows_after_filters": 15,
         "newest_filing": "2026-08-14",
         "oldest_filing": "2026-08-14",
         "newest_transaction": "2026-08-14",
