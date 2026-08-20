@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-20T01:43:51.534Z",
+  "computed_at": "2026-08-20T03:04:48.787Z",
   "market_date": "2026-08-19",
   "signals": [
     {
@@ -431,7 +431,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 32,
-        "rsi14": 72.097037,
+        "rsi14": 72.097036,
         "macd_hist": 2.644279,
         "macd_hist_slope": -0.367325
       }
