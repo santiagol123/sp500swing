@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-20T06:58:43.819Z",
+  "computed_at": "2026-08-20T07:49:51.336Z",
   "market_date": "2026-08-19",
   "signals": [
     {
@@ -218,9 +218,9 @@
       "last_close": 251.29,
       "entry_zone_low": 247.52065,
       "entry_zone_high": 256.3158,
-      "invalid_below_price": 233.17204081835087,
-      "target_price": 287.5259183632983,
-      "risk_reward_ratio": 2.000000000000001,
+      "invalid_below_price": 235.29789125612044,
+      "target_price": 283.2742174877591,
+      "risk_reward_ratio": 1.9999999999999996,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -290,8 +290,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 60.459571666619375,
-        "volatility_20d": 0.5202494863811418
+        "rsi14": 60.64110974311607,
+        "volatility_20d": 0.45920659588313584
       }
     },
     {
@@ -364,7 +364,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 77.36143224379423,
+        "rsi14": 77.36143229935414,
         "volatility_20d": 0.20624251518134598
       }
     },
@@ -624,8 +624,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 50.32949536372017,
-        "volatility_20d": 0.18380339758186978
+        "rsi14": 49.936177468133735,
+        "volatility_20d": 0.1787892086228328
       }
     },
     {
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 64.18663553050706,
+        "rsi14": 64.18663553054222,
         "volatility_20d": 0.3313429818147233
       }
     },
@@ -818,8 +818,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.52424542671796,
-        "volatility_20d": 0.2625441949928407
+        "rsi14": 53.9948965744476,
+        "volatility_20d": 0.2683066698752908
       }
     },
     {
@@ -878,8 +878,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.220124134287865,
-        "volatility_20d": 0.34086346518682015
+        "rsi14": 54.93700346803258,
+        "volatility_20d": 0.33851386993580795
       }
     },
     {
@@ -938,8 +938,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.8379042818647,
-        "volatility_20d": 0.24156034601236492
+        "rsi14": 60.13874287257743,
+        "volatility_20d": 0.23409727148451698
       }
     },
     {
@@ -998,8 +998,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.78327801807628,
-        "volatility_20d": 0.31796539164596677
+        "rsi14": 60.64666853275278,
+        "volatility_20d": 0.3585523058651777
       }
     },
     {
@@ -1067,7 +1067,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 63136,
+    "elapsed_ms": 65486,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 68,
