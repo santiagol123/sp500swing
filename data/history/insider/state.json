@@ -1,7 +1,7 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-08-20T17:38:07.139Z",
+  "updated_at": "2026-08-20T18:52:51.669Z",
   "initial_equity": 100000,
   "cash": 73902.26309276912,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 7000,
       "stop_price": 353.2896,
       "target_price": 420.9408,
-      "last_price": 396.175,
+      "last_price": 397.12,
       "last_marked_date": "2026-08-20",
-      "unrealized_pnl": 375.05,
-      "unrealized_pct": 0.054105,
+      "unrealized_pnl": 392.64,
+      "unrealized_pct": 0.05662,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -58,10 +58,10 @@
       "cost_basis": 7019.82,
       "stop_price": 44.8756,
       "target_price": 53.4688,
-      "last_price": 49.81,
+      "last_price": 49.765,
       "last_marked_date": "2026-08-20",
-      "unrealized_pnl": 300.72,
-      "unrealized_pct": 0.04336,
+      "unrealized_pnl": 294.11,
+      "unrealized_pct": 0.042417,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -108,10 +108,10 @@
       "cost_basis": 7019.82,
       "stop_price": 31.4054,
       "target_price": 37.4192,
-      "last_price": 34.835,
+      "last_price": 34.815,
       "last_marked_date": "2026-08-20",
-      "unrealized_pnl": 295.75,
-      "unrealized_pct": 0.042652,
+      "unrealized_pnl": 291.55,
+      "unrealized_pct": 0.042053,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -158,10 +158,10 @@
       "cost_basis": 5058.09,
       "stop_price": 44.7529,
       "target_price": 59.3542,
-      "last_price": 47.255,
+      "last_price": 47.265,
       "last_marked_date": "2026-08-20",
-      "unrealized_pnl": -243.49,
-      "unrealized_pct": -0.047662,
+      "unrealized_pnl": -242.47,
+      "unrealized_pct": -0.047461,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -293,7 +293,7 @@
     },
     {
       "date": "2026-08-20",
-      "equity": 100728.03,
+      "equity": 100735.83,
       "cash": 73902.26,
       "open_positions": 4
     }
