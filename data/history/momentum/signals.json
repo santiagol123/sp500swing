@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-21T21:31:49.551Z",
+  "computed_at": "2026-08-21T22:32:52.998Z",
   "market_date": "2026-08-21",
   "signals": [],
   "watch": [
@@ -980,7 +980,7 @@
         "ret_1w": -0.011506,
         "ret_1m": 0.212868,
         "dist_sma50": 0.114668,
-        "pct_from_52w_high": -0.076222,
+        "pct_from_52w_high": -0.076221,
         "volume_ratio_20_60": 0.855647,
         "risk_flags": ""
       },
@@ -1025,7 +1025,7 @@
         "ret_1w": 0.057921,
         "ret_1m": 0.229341,
         "dist_sma50": 0.166841,
-        "pct_from_52w_high": -0.202856,
+        "pct_from_52w_high": -0.202855,
         "volume_ratio_20_60": 0.909152,
         "risk_flags": ""
       },
