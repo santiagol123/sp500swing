@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-08-21T13:04:21.522Z",
+  "updated_at": "2026-08-21T13:52:55.929Z",
   "initial_equity": 100000,
   "cash": 77104.94811133448,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 4957.84,
       "stop_price": 23.1672,
       "target_price": 27.0899,
-      "last_price": 23.56,
-      "last_marked_date": "2026-08-20",
-      "unrealized_pnl": -19.25,
-      "unrealized_pct": -0.003384,
+      "last_price": 24.14,
+      "last_marked_date": "2026-08-21",
+      "unrealized_pnl": 102.33,
+      "unrealized_pct": 0.021151,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-08-18",
@@ -125,10 +125,10 @@
       "cost_basis": 9908.46,
       "stop_price": 22.344,
       "target_price": 25.536,
-      "last_price": 22.83,
-      "last_marked_date": "2026-08-20",
-      "unrealized_pnl": 8.08,
-      "unrealized_pct": 0.001316,
+      "last_price": 22.79,
+      "last_marked_date": "2026-08-21",
+      "unrealized_pnl": -9.29,
+      "unrealized_pct": -0.000439,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-08-19",
@@ -224,10 +224,10 @@
       "cost_basis": 6935.58,
       "stop_price": 403.8482,
       "target_price": 461.5408,
-      "last_price": 416,
-      "last_marked_date": "2026-08-20",
-      "unrealized_pnl": 62.3,
-      "unrealized_pct": 0.009488,
+      "last_price": 420.09,
+      "last_marked_date": "2026-08-21",
+      "unrealized_pnl": 131.11,
+      "unrealized_pct": 0.019413,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-08-20",
@@ -3241,8 +3241,14 @@
       "equity": 98957.96,
       "cash": 77104.95,
       "open_positions": 3
+    },
+    {
+      "date": "2026-08-21",
+      "equity": 99130.97,
+      "cash": 77104.95,
+      "open_positions": 3
     }
   ],
-  "tracked_days": 8,
-  "last_market_date": "2026-08-20"
+  "tracked_days": 9,
+  "last_market_date": "2026-08-21"
 }
