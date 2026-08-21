@@ -1,9 +1,9 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-08-21T20:35:03.976Z",
+  "updated_at": "2026-08-21T21:33:14.332Z",
   "initial_equity": 100000,
-  "cash": 77104.94811133448,
+  "cash": 72150.27158887376,
   "positions": [
     {
       "ticker": "ELAN",
@@ -684,6 +684,103 @@
         "max_loss_stop_price": 403.8482,
         "max_loss_reference_price": 412.09,
         "original_invalid_below_price": 387.3646
+      }
+    },
+    {
+      "ticker": "ALK",
+      "name": "Alaska Air Group Inc.",
+      "sector": "Consumer Discretionary",
+      "family": "INSIDER_CONVICTION",
+      "entry_date": "2026-08-21",
+      "entry_price": 40.41,
+      "qty": 122.548884,
+      "cost_basis": 4954.68,
+      "stop_price": 39.6018,
+      "target_price": 46.3227,
+      "last_price": 40.41,
+      "last_marked_date": "2026-08-21",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": 0.02,
+      "signal_event_date": "2026-08-21",
+      "signal_meta": {
+        "insider_count": 1,
+        "buy_count": 1,
+        "total_value_usd": 1001510,
+        "first_buy": "2026-08-20",
+        "last_buy": "2026-08-20",
+        "stale_days": 0,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma_flow": 1
+        },
+        "insiders": [
+          {
+            "name": "MINICUCCI BENITO",
+            "title": "CEO AND PRESIDENT",
+            "shares": 25000,
+            "value_usd": 1001510,
+            "date": "2026-08-20",
+            "filing_date": "2026-08-21",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "dataroma_flow": {
+          "ticker": "ALK",
+          "latest_filing_date": "2026-08-21",
+          "purchase_value_usd": 1001510,
+          "sale_value_usd": 0,
+          "net_value_usd": 1001510,
+          "today_purchase_value_usd": 1001510,
+          "purchase_sale_ratio": null,
+          "purchase_orders": 1,
+          "sale_orders": 0,
+          "today_purchase_orders": 1,
+          "purchase_insider_count": 1,
+          "sale_insider_count": 0,
+          "first_purchase": "2026-08-20",
+          "last_purchase": "2026-08-20",
+          "first_sale": null,
+          "last_sale": null,
+          "insiders": [
+            {
+              "name": "MINICUCCI BENITO",
+              "title": "CEO AND PRESIDENT",
+              "shares": 25000,
+              "value_usd": 1001510,
+              "date": "2026-08-20",
+              "filing_date": "2026-08-21",
+              "filing_datetime": null,
+              "source": "dataroma",
+              "is_officer": true,
+              "is_director": false,
+              "is_ten_percent_owner": false,
+              "has_10b5_1_plan": false
+            }
+          ],
+          "opt_score": 73.3
+        },
+        "rsi14": 32.468747251152976,
+        "volatility_20d": 0.5278942910800093,
+        "conviction_score": 83.9,
+        "conviction_filing_date": "2026-08-21",
+        "conviction_filing_age_days": 0,
+        "conviction_rejection_reasons": [],
+        "target_holding_sessions": 5,
+        "benchmark": "QQQ",
+        "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.02,
+        "max_loss_stop_price": 39.6018,
+        "max_loss_reference_price": 40.41,
+        "original_invalid_below_price": 37.4536
       }
     }
   ],
@@ -3244,9 +3341,9 @@
     },
     {
       "date": "2026-08-21",
-      "equity": 99093.53,
-      "cash": 77104.95,
-      "open_positions": 3
+      "equity": 99091.05,
+      "cash": 72150.27,
+      "open_positions": 4
     }
   ],
   "tracked_days": 9,
