@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-21T22:34:00.031Z",
+  "computed_at": "2026-08-21T23:32:27.497Z",
   "market_date": "2026-08-21",
   "signals": [
     {
@@ -364,7 +364,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 71.76850471841784,
+        "rsi14": 71.76850471858621,
         "volatility_20d": 0.2206496851451791
       }
     },
@@ -624,7 +624,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 41.650219960739825,
+        "rsi14": 41.65021996285825,
         "volatility_20d": 0.16798036926376828
       }
     },
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 60.474979494575514,
+        "rsi14": 60.47497949343114,
         "volatility_20d": 0.323554974596326
       }
     },
@@ -818,7 +818,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.14920582463765,
+        "rsi14": 55.14920582463321,
         "volatility_20d": 0.2515334884858729
       }
     },
@@ -878,7 +878,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.37290610765078,
+        "rsi14": 55.37290609846461,
         "volatility_20d": 0.33508305346995504
       }
     },
@@ -938,7 +938,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 54.383881431890835,
+        "rsi14": 54.38388143143194,
         "volatility_20d": 0.22502020007308762
       }
     },
@@ -998,7 +998,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.93185514321434,
+        "rsi14": 59.93185515039125,
         "volatility_20d": 0.3109153701750408
       }
     },
@@ -1067,7 +1067,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 66944,
+    "elapsed_ms": 69426,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 67,
@@ -1075,8 +1075,8 @@
     "signals_fresh": 2,
     "portfolio_entry_count": 2,
     "price_download_failed": 0,
-    "filings_seen": 6787,
-    "filings_fetched": 15,
+    "filings_seen": 6795,
+    "filings_fetched": 8,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
