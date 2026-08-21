@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-21T03:10:44.390Z",
+  "computed_at": "2026-08-21T04:47:36.080Z",
   "market_date": "2026-08-20",
   "signals": [],
   "watch": [
@@ -153,9 +153,9 @@
       "sector": "Consumer Staples",
       "strategy": "momentum",
       "family": "LEADER_CONTINUATION",
-      "action": "YA_EN_CARTERA",
-      "reason": "El ticker ya esta abierto en la cartera actual",
-      "plan": "No duplicar posicion; gestionar stop, objetivo y tiempo maximo",
+      "action": "ESPERAR_MERCADO",
+      "reason": "Filtro mercado activo (neutral): no abrir nuevas compras de este tipo",
+      "plan": "Esperar nueva entrada; no comprar a mercado",
       "last_close": 158.25,
       "entry_zone_low": 156.6675,
       "entry_zone_high": 158.72475,
@@ -437,7 +437,7 @@
     "leader_count": 17,
     "technical_entry_count": 0,
     "portfolio_entry_count": 0,
-    "open_positions_count": 4,
+    "open_positions_count": 3,
     "buys_today_count": 0,
     "hot_momentum_count": 34,
     "pullback_count": 14,
