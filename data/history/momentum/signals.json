@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-21T23:31:17.996Z",
+  "computed_at": "2026-08-24T01:50:04.507Z",
   "market_date": "2026-08-21",
   "signals": [],
   "watch": [
@@ -94,7 +94,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 30,
-        "rsi14": 76.55068,
+        "rsi14": 76.550679,
         "macd_hist": 2.262681,
         "macd_hist_slope": -0.575216
       }
@@ -141,10 +141,10 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 12,
-        "rsi14": 73.448716,
-        "macd_hist": 2.086564,
-        "macd_hist_slope": -0.044019
+        "rank_today": 11,
+        "rsi14": 74.2464,
+        "macd_hist": 2.237338,
+        "macd_hist_slope": 0.119135
       }
     },
     {
@@ -189,7 +189,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 26,
+        "rank_today": 27,
         "rsi14": 78.52612,
         "macd_hist": 0.779418,
         "macd_hist_slope": 0.160794
@@ -237,7 +237,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 11,
+        "rank_today": 12,
         "rsi14": 75.735474,
         "macd_hist": 0.417222,
         "macd_hist_slope": 0.263265
@@ -313,6 +313,30 @@
         "rsi14": 77.906318,
         "macd_hist": 2.091501,
         "macd_hist_slope": 0.315364
+      }
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "strategy": "momentum",
+      "family": "LEADER_CONTINUATION",
+      "action": "ESPERAR_MERCADO",
+      "reason": "Filtro mercado activo (neutral): no abrir nuevas compras de este tipo",
+      "plan": "Esperar nueva entrada; no comprar a mercado",
+      "last_close": 209.62,
+      "entry_zone_low": 207.5238,
+      "entry_zone_high": 210.24886,
+      "invalid_below_price": 202.482645,
+      "target_price": 223.180975,
+      "risk_reward_ratio": 1.9,
+      "size_pct": 0,
+      "authorized": false,
+      "meta": {
+        "rank_today": 37,
+        "rsi14": 60.793395,
+        "macd_hist": -0.638103,
+        "macd_hist_slope": -0.246207
       }
     },
     {
@@ -407,10 +431,10 @@
         "error": "historial insuficiente: 206"
       }
     ],
-    "candidates_total": 16,
+    "candidates_total": 17,
     "core_count": 0,
     "breakout_count": 0,
-    "leader_count": 16,
+    "leader_count": 17,
     "technical_entry_count": 0,
     "portfolio_entry_count": 0,
     "open_positions_count": 5,
@@ -441,7 +465,7 @@
         "ret_1m": 0.361489,
         "dist_sma50": 0.219419,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.269965,
+        "volume_ratio_20_60": 1.271119,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -486,7 +510,7 @@
         "ret_1m": 0.310159,
         "dist_sma50": 0.189513,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.1037,
+        "volume_ratio_20_60": 1.103716,
         "risk_flags": ""
       },
       {
@@ -495,7 +519,7 @@
         "sector": "Consumer Staples",
         "rank_today": 5,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.878892,
+        "score": 0.878252,
         "price": 165.44,
         "ret_1w": 0.070948,
         "ret_1m": 0.239663,
@@ -510,13 +534,13 @@
         "sector": "Consumer Discretionary",
         "rank_today": 6,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.876185,
+        "score": 0.876665,
         "price": 321.63,
         "ret_1w": -0.033244,
         "ret_1m": 0.248515,
         "dist_sma50": 0.152505,
         "pct_from_52w_high": -0.033244,
-        "volume_ratio_20_60": 1.031052,
+        "volume_ratio_20_60": 1.033526,
         "risk_flags": ""
       },
       {
@@ -525,7 +549,7 @@
         "sector": "Energy",
         "rank_today": 7,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.869883,
+        "score": 0.869593,
         "price": 242.87,
         "ret_1w": 0.045157,
         "ret_1m": 0.179626,
@@ -540,7 +564,7 @@
         "sector": "Energy",
         "rank_today": 8,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.86158,
+        "score": 0.86134,
         "price": 360.72,
         "ret_1w": 0.017691,
         "ret_1m": 0.158317,
@@ -555,13 +579,13 @@
         "sector": "Information Technology",
         "rank_today": 9,
         "setup_type": "EXTENDED",
-        "score": 0.858414,
+        "score": 0.858654,
         "price": 368.51,
         "ret_1w": -0.019998,
         "ret_1m": 0.43417,
         "dist_sma50": 0.266869,
         "pct_from_52w_high": -0.037984,
-        "volume_ratio_20_60": 0.991342,
+        "volume_ratio_20_60": 0.992962,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -580,10 +604,25 @@
         "risk_flags": ""
       },
       {
+        "ticker": "AMGN",
+        "name": "Amgen",
+        "sector": "Health Care",
+        "rank_today": 11,
+        "setup_type": "HOT_MOMENTUM",
+        "score": 0.844055,
+        "price": 439.33,
+        "ret_1w": 0.064275,
+        "ret_1m": 0.189495,
+        "dist_sma50": 0.165927,
+        "pct_from_52w_high": -0.001046,
+        "volume_ratio_20_60": 1.013935,
+        "risk_flags": ""
+      },
+      {
         "ticker": "LH",
         "name": "Labcorp",
         "sector": "Health Care",
-        "rank_today": 11,
+        "rank_today": 12,
         "setup_type": "HOT_MOMENTUM",
         "score": 0.84298,
         "price": 336.34,
@@ -592,21 +631,6 @@
         "dist_sma50": 0.150825,
         "pct_from_52w_high": 0,
         "volume_ratio_20_60": 1.006942,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "AMGN",
-        "name": "Amgen",
-        "sector": "Health Care",
-        "rank_today": 12,
-        "setup_type": "HOT_MOMENTUM",
-        "score": 0.836975,
-        "price": 439.33,
-        "ret_1w": 0.058091,
-        "ret_1m": 0.182584,
-        "dist_sma50": 0.15931,
-        "pct_from_52w_high": -0.00685,
-        "volume_ratio_20_60": 1.01106,
         "risk_flags": ""
       },
       {
@@ -630,7 +654,7 @@
         "sector": "Health Care",
         "rank_today": 14,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.82948,
+        "score": 0.82884,
         "price": 124.75,
         "ret_1w": 0.067699,
         "ret_1m": 0.102324,
@@ -645,7 +669,7 @@
         "sector": "Industrials",
         "rank_today": 15,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.821665,
+        "score": 0.82162,
         "price": 100.02,
         "ret_1w": -0.020084,
         "ret_1m": 0.144263,
@@ -660,7 +684,7 @@
         "sector": "Information Technology",
         "rank_today": 16,
         "setup_type": "EXTENDED",
-        "score": 0.82127,
+        "score": 0.82063,
         "price": 179.94,
         "ret_1w": 0.0339,
         "ret_1m": 0.458539,
@@ -675,7 +699,7 @@
         "sector": "Energy",
         "rank_today": 17,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.818945,
+        "score": 0.818415,
         "price": 348.86,
         "ret_1w": 0.021044,
         "ret_1m": 0.147246,
@@ -705,13 +729,13 @@
         "sector": "Financials",
         "rank_today": 19,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.81414,
+        "score": 0.81434,
         "price": 341.99,
         "ret_1w": 0.031364,
         "ret_1m": 0.185942,
         "dist_sma50": 0.142693,
         "pct_from_52w_high": -0.01315,
-        "volume_ratio_20_60": 0.958763,
+        "volume_ratio_20_60": 0.960971,
         "risk_flags": ""
       },
       {
@@ -720,7 +744,7 @@
         "sector": "Materials",
         "rank_today": 20,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.810657,
+        "score": 0.810417,
         "price": 76.66,
         "ret_1w": 0.152955,
         "ret_1m": 0.207244,
@@ -741,7 +765,7 @@
         "ret_1m": 1.545247,
         "dist_sma50": 1.146782,
         "pct_from_52w_high": -0.167737,
-        "volume_ratio_20_60": 1.820886,
+        "volume_ratio_20_60": 1.82174,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -750,13 +774,13 @@
         "sector": "Information Technology",
         "rank_today": 22,
         "setup_type": "EXTENDED",
-        "score": 0.802592,
+        "score": 0.802352,
         "price": 200.01,
         "ret_1w": 0.006694,
         "ret_1m": 0.564167,
         "dist_sma50": 0.329164,
         "pct_from_52w_high": -0.192499,
-        "volume_ratio_20_60": 1.032988,
+        "volume_ratio_20_60": 1.033017,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -771,7 +795,7 @@
         "ret_1m": 0.316428,
         "dist_sma50": 0.166818,
         "pct_from_52w_high": -0.206751,
-        "volume_ratio_20_60": 0.984089,
+        "volume_ratio_20_60": 0.984423,
         "risk_flags": ""
       },
       {
@@ -780,13 +804,13 @@
         "sector": "Industrials",
         "rank_today": 24,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.794625,
+        "score": 0.795345,
         "price": 280.81,
         "ret_1w": 0.028759,
         "ret_1m": 0.156168,
         "dist_sma50": 0.125718,
-        "pct_from_52w_high": -0.06279,
-        "volume_ratio_20_60": 0.939892,
+        "pct_from_52w_high": -0.062791,
+        "volume_ratio_20_60": 0.941577,
         "risk_flags": ""
       },
       {
@@ -805,25 +829,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "BDX",
-        "name": "Becton Dickinson",
-        "sector": "Health Care",
-        "rank_today": 26,
-        "setup_type": "HOT_MOMENTUM",
-        "score": 0.79096,
-        "price": 192,
-        "ret_1w": 0.046892,
-        "ret_1m": 0.255148,
-        "dist_sma50": 0.189556,
-        "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.856869,
-        "risk_flags": ""
-      },
-      {
         "ticker": "APA",
         "name": "APA Corporation",
         "sector": "Energy",
-        "rank_today": 27,
+        "rank_today": 26,
         "setup_type": "NEAR_BREAKOUT",
         "score": 0.790869,
         "price": 43.39,
@@ -831,8 +840,23 @@
         "ret_1m": 0.191378,
         "dist_sma50": 0.204841,
         "pct_from_52w_high": -0.022528,
-        "volume_ratio_20_60": 1.080417,
+        "volume_ratio_20_60": 1.081645,
         "risk_flags": "EXTENDED_FROM_SMA50"
+      },
+      {
+        "ticker": "BDX",
+        "name": "Becton Dickinson",
+        "sector": "Health Care",
+        "rank_today": 27,
+        "setup_type": "HOT_MOMENTUM",
+        "score": 0.79008,
+        "price": 192,
+        "ret_1w": 0.046892,
+        "ret_1m": 0.255148,
+        "dist_sma50": 0.189556,
+        "pct_from_52w_high": 0,
+        "volume_ratio_20_60": 0.856869,
+        "risk_flags": ""
       },
       {
         "ticker": "INCY",
@@ -846,7 +870,7 @@
         "ret_1m": 0.095295,
         "dist_sma50": 0.099922,
         "pct_from_52w_high": -0.016316,
-        "volume_ratio_20_60": 0.980167,
+        "volume_ratio_20_60": 0.98094,
         "risk_flags": ""
       },
       {
@@ -870,13 +894,13 @@
         "sector": "Health Care",
         "rank_today": 30,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.780621,
+        "score": 0.782061,
         "price": 834.04,
         "ret_1w": 0.039247,
         "ret_1m": 0.280873,
         "dist_sma50": 0.199133,
         "pct_from_52w_high": -0.008087,
-        "volume_ratio_20_60": 0.880708,
+        "volume_ratio_20_60": 0.883356,
         "risk_flags": ""
       },
       {
@@ -885,13 +909,13 @@
         "sector": "Industrials",
         "rank_today": 31,
         "setup_type": "NORMAL",
-        "score": 0.779033,
+        "score": 0.778753,
         "price": 627.75,
         "ret_1w": 0.024346,
         "ret_1m": 0.276174,
         "dist_sma50": 0.161514,
         "pct_from_52w_high": -0.197148,
-        "volume_ratio_20_60": 0.918284,
+        "volume_ratio_20_60": 0.918579,
         "risk_flags": ""
       },
       {
@@ -900,7 +924,7 @@
         "sector": "Health Care",
         "rank_today": 32,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.77625,
+        "score": 0.775775,
         "price": 159,
         "ret_1w": 0.070491,
         "ret_1m": 0.137827,
@@ -915,7 +939,7 @@
         "sector": "Materials",
         "rank_today": 33,
         "setup_type": "EXTENDED",
-        "score": 0.772183,
+        "score": 0.771943,
         "price": 131.58,
         "ret_1w": 0.117357,
         "ret_1m": 0.389147,
@@ -930,7 +954,7 @@
         "sector": "Information Technology",
         "rank_today": 34,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.77081,
+        "score": 0.77039,
         "price": 480.47,
         "ret_1w": 0.029924,
         "ret_1m": 0.180458,
@@ -945,7 +969,7 @@
         "sector": "Health Care",
         "rank_today": 35,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.769635,
+        "score": 0.769355,
         "price": 629.27,
         "ret_1w": 0.06966,
         "ret_1m": 0.099507,
@@ -960,7 +984,7 @@
         "sector": "Financials",
         "rank_today": 36,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.76831,
+        "score": 0.76807,
         "price": 93.49,
         "ret_1w": 0.004729,
         "ret_1m": 0.200745,
@@ -975,13 +999,13 @@
         "sector": "Consumer Discretionary",
         "rank_today": 37,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.759735,
+        "score": 0.761175,
         "price": 209.62,
         "ret_1w": -0.011506,
         "ret_1m": 0.212868,
         "dist_sma50": 0.114668,
-        "pct_from_52w_high": -0.076222,
-        "volume_ratio_20_60": 0.855647,
+        "pct_from_52w_high": -0.076221,
+        "volume_ratio_20_60": 0.859342,
         "risk_flags": ""
       },
       {
@@ -996,31 +1020,16 @@
         "ret_1m": 0.167821,
         "dist_sma50": 0.111935,
         "pct_from_52w_high": -0.071518,
-        "volume_ratio_20_60": 0.801676,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "CPAY",
-        "name": "Corpay",
-        "sector": "Financials",
-        "rank_today": 39,
-        "setup_type": "HOT_MOMENTUM",
-        "score": 0.759455,
-        "price": 417.13,
-        "ret_1w": -0.001125,
-        "ret_1m": 0.143449,
-        "dist_sma50": 0.121862,
-        "pct_from_52w_high": -0.019072,
-        "volume_ratio_20_60": 0.940151,
+        "volume_ratio_20_60": 0.801677,
         "risk_flags": ""
       },
       {
         "ticker": "FDS",
         "name": "FactSet",
         "sector": "Financials",
-        "rank_today": 40,
+        "rank_today": 39,
         "setup_type": "NORMAL",
-        "score": 0.759377,
+        "score": 0.759137,
         "price": 299.91,
         "ret_1w": 0.057921,
         "ret_1m": 0.229341,
@@ -1030,18 +1039,33 @@
         "risk_flags": ""
       },
       {
+        "ticker": "CPAY",
+        "name": "Corpay",
+        "sector": "Financials",
+        "rank_today": 40,
+        "setup_type": "HOT_MOMENTUM",
+        "score": 0.758795,
+        "price": 417.13,
+        "ret_1w": -0.001125,
+        "ret_1m": 0.143449,
+        "dist_sma50": 0.121862,
+        "pct_from_52w_high": -0.019072,
+        "volume_ratio_20_60": 0.940151,
+        "risk_flags": ""
+      },
+      {
         "ticker": "VRTX",
         "name": "Vertex Pharmaceuticals",
         "sector": "Health Care",
         "rank_today": 41,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.757235,
+        "score": 0.757955,
         "price": 548.05,
         "ret_1w": 0.083638,
         "ret_1m": 0.158448,
         "dist_sma50": 0.116508,
         "pct_from_52w_high": -0.007264,
-        "volume_ratio_20_60": 0.856931,
+        "volume_ratio_20_60": 0.860013,
         "risk_flags": ""
       },
       {
@@ -1050,13 +1074,13 @@
         "sector": "Industrials",
         "rank_today": 42,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.75636,
+        "score": 0.756845,
         "price": 332.24,
         "ret_1w": 0.076186,
         "ret_1m": 0.137419,
         "dist_sma50": 0.113025,
         "pct_from_52w_high": -0.00735,
-        "volume_ratio_20_60": 1.010822,
+        "volume_ratio_20_60": 1.016199,
         "risk_flags": ""
       },
       {
@@ -1065,13 +1089,13 @@
         "sector": "Industrials",
         "rank_today": 43,
         "setup_type": "NORMAL",
-        "score": 0.75312,
+        "score": 0.75284,
         "price": 124.475,
         "ret_1w": 0.02012,
         "ret_1m": 0.136554,
         "dist_sma50": 0.128363,
         "pct_from_52w_high": -0.077072,
-        "volume_ratio_20_60": 0.86703,
+        "volume_ratio_20_60": 0.867031,
         "risk_flags": ""
       },
       {
@@ -1080,7 +1104,7 @@
         "sector": "Health Care",
         "rank_today": 44,
         "setup_type": "NORMAL",
-        "score": 0.74762,
+        "score": 0.74738,
         "price": 244.39,
         "ret_1w": 0.042619,
         "ret_1m": 0.072356,
@@ -1135,25 +1159,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "SW",
-        "name": "Smurfit Westrock",
-        "sector": "Materials",
-        "rank_today": 48,
-        "setup_type": "HOT_MOMENTUM",
-        "score": 0.73975,
-        "price": 49.39,
-        "ret_1w": 0.002843,
-        "ret_1m": 0.140251,
-        "dist_sma50": 0.078838,
-        "pct_from_52w_high": -0.02759,
-        "volume_ratio_20_60": 0.897632,
-        "risk_flags": ""
-      },
-      {
         "ticker": "EL",
         "name": "Estée Lauder Companies (The)",
         "sector": "Consumer Staples",
-        "rank_today": 49,
+        "rank_today": 48,
         "setup_type": "NORMAL",
         "score": 0.739524,
         "price": 101.94,
@@ -1165,12 +1174,27 @@
         "risk_flags": ""
       },
       {
+        "ticker": "SW",
+        "name": "Smurfit Westrock",
+        "sector": "Materials",
+        "rank_today": 49,
+        "setup_type": "HOT_MOMENTUM",
+        "score": 0.73887,
+        "price": 49.39,
+        "ret_1w": 0.002843,
+        "ret_1m": 0.140251,
+        "dist_sma50": 0.078838,
+        "pct_from_52w_high": -0.02759,
+        "volume_ratio_20_60": 0.897632,
+        "risk_flags": ""
+      },
+      {
         "ticker": "VEEV",
         "name": "Veeva Systems",
         "sector": "Health Care",
         "rank_today": 50,
         "setup_type": "EXTENDED",
-        "score": 0.735236,
+        "score": 0.735026,
         "price": 247.9,
         "ret_1w": 0.017026,
         "ret_1m": 0.380443,
