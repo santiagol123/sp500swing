@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-08-24T09:57:32.850Z",
+  "updated_at": "2026-08-24T10:45:34.497Z",
   "initial_equity": 100000,
   "cash": 72150.27158887376,
   "positions": [
@@ -780,7 +780,9 @@
         "max_loss_pct": 0.02,
         "max_loss_stop_price": 39.6018,
         "max_loss_reference_price": 40.41,
-        "original_invalid_below_price": 37.4536
+        "original_invalid_below_price": 37.4536,
+        "first_filing": "2026-08-21",
+        "last_filing": "2026-08-21"
       }
     }
   ],
