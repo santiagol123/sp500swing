@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-24T04:54:14.907Z",
+  "computed_at": "2026-08-24T05:45:12.676Z",
   "market_date": "2026-08-21",
   "signals": [],
   "watch": [
@@ -94,7 +94,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 30,
-        "rsi14": 76.55068,
+        "rsi14": 76.550679,
         "macd_hist": 2.262681,
         "macd_hist_slope": -0.575216
       }
@@ -809,7 +809,7 @@
         "ret_1w": 0.028759,
         "ret_1m": 0.156168,
         "dist_sma50": 0.125718,
-        "pct_from_52w_high": -0.062791,
+        "pct_from_52w_high": -0.06279,
         "volume_ratio_20_60": 0.941577,
         "risk_flags": ""
       },
@@ -1004,7 +1004,7 @@
         "ret_1w": -0.011506,
         "ret_1m": 0.212868,
         "dist_sma50": 0.114668,
-        "pct_from_52w_high": -0.076221,
+        "pct_from_52w_high": -0.076222,
         "volume_ratio_20_60": 0.859342,
         "risk_flags": ""
       },
