@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-24T01:50:04.507Z",
+  "computed_at": "2026-08-24T03:11:39.104Z",
   "market_date": "2026-08-21",
   "signals": [],
   "watch": [
@@ -406,7 +406,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 8,
-        "rsi14": 72.223132,
+        "rsi14": 72.223133,
         "macd_hist": 2.471158,
         "macd_hist_slope": -0.617725
       }
@@ -809,7 +809,7 @@
         "ret_1w": 0.028759,
         "ret_1m": 0.156168,
         "dist_sma50": 0.125718,
-        "pct_from_52w_high": -0.062791,
+        "pct_from_52w_high": -0.06279,
         "volume_ratio_20_60": 0.941577,
         "risk_flags": ""
       },
