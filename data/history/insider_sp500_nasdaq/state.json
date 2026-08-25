@@ -1,9 +1,9 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-08-25T10:42:22.723Z",
+  "updated_at": "2026-08-25T11:36:50.117Z",
   "initial_equity": 100000,
-  "cash": 94112.70158887377,
+  "cash": 89152.40992847808,
   "positions": [
     {
       "ticker": "ALK",
@@ -102,6 +102,124 @@
         "original_invalid_below_price": 37.4536,
         "first_filing": "2026-08-21",
         "last_filing": "2026-08-21"
+      }
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Limited",
+      "sector": "Energy",
+      "family": "INSIDER_CONVICTION",
+      "entry_date": "2026-08-24",
+      "entry_price": 4.38,
+      "qty": 1131.92072,
+      "cost_basis": 4960.29,
+      "stop_price": 4.2924,
+      "target_price": 5.081,
+      "last_price": 4.38,
+      "last_marked_date": "2026-08-24",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": 0.02,
+      "signal_event_date": "2026-08-25",
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 4,
+        "total_value_usd": 9606407,
+        "first_buy": "2026-08-13",
+        "last_buy": "2026-08-25",
+        "stale_days": 0,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 4,
+          "dataroma_flow": 1
+        },
+        "insiders": [
+          {
+            "name": "TROIM TOR OLAV",
+            "title": "Director",
+            "shares": 1500000,
+            "value_usd": 6036750,
+            "date": "2026-08-13",
+            "filing_date": "2026-08-14",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "CURRIE JEFFREY",
+            "title": "Director",
+            "shares": 125000,
+            "value_usd": 501637,
+            "date": "2026-08-13",
+            "filing_date": "2026-08-14",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "first_filing": "2026-08-14",
+        "last_filing": "2026-08-25",
+        "first_filing_datetime": null,
+        "last_filing_datetime": null,
+        "has_10b5_1_plan": false,
+        "rsi14": 54.16803127042548,
+        "volatility_20d": 0.5774426948368908,
+        "dataroma_flow": {
+          "ticker": "BORR",
+          "latest_filing_date": "2026-08-25",
+          "purchase_value_usd": 874620,
+          "sale_value_usd": 0,
+          "net_value_usd": 874620,
+          "today_purchase_value_usd": 874620,
+          "purchase_sale_ratio": null,
+          "purchase_orders": 1,
+          "sale_orders": 0,
+          "today_purchase_orders": 1,
+          "purchase_insider_count": 1,
+          "sale_insider_count": 0,
+          "first_purchase": "2026-08-25",
+          "last_purchase": "2026-08-25",
+          "first_sale": null,
+          "last_sale": null,
+          "insiders": [
+            {
+              "name": "TROIM TOR OLAV",
+              "title": "Director",
+              "shares": 200000,
+              "value_usd": 874620,
+              "date": "2026-08-25",
+              "filing_date": "2026-08-25",
+              "filing_datetime": null,
+              "source": "dataroma",
+              "is_officer": false,
+              "is_director": true,
+              "is_ten_percent_owner": false,
+              "has_10b5_1_plan": false
+            }
+          ],
+          "opt_score": 72.3
+        },
+        "flow_confirmed": true,
+        "conviction_score": 90.5,
+        "conviction_filing_date": "2026-08-25",
+        "conviction_filing_age_days": 0,
+        "conviction_rejection_reasons": [],
+        "target_holding_sessions": 5,
+        "benchmark": "QQQ",
+        "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.02,
+        "max_loss_stop_price": 4.2924,
+        "max_loss_reference_price": 4.38,
+        "original_invalid_below_price": 4.0295
       }
     }
   ],
@@ -3352,9 +3470,9 @@
     },
     {
       "date": "2026-08-24",
-      "equity": 99205.83,
-      "cash": 94112.7,
-      "open_positions": 1
+      "equity": 99203.35,
+      "cash": 89152.41,
+      "open_positions": 2
     }
   ],
   "tracked_days": 10,
