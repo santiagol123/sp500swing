@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-27T20:18:18.799Z",
+  "computed_at": "2026-08-28T05:14:01.253Z",
   "market_date": "2026-08-27",
   "signals": [
     {
@@ -19,14 +19,14 @@
       "risk_reward_ratio": 1.9999999999999991,
       "size_pct": 0.07,
       "authorized": true,
-      "opt_score": 87.3,
+      "opt_score": 86,
       "meta": {
         "insider_count": 4,
         "buy_count": 5,
         "total_value_usd": 9486038,
         "first_buy": "2026-07-31",
         "last_buy": "2026-08-25",
-        "stale_days": 2,
+        "stale_days": 3,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -97,7 +97,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-17, demasiado antiguo (71 dias > 15)",
+      "reason": "Cluster de 2026-06-17, demasiado antiguo (72 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 52.58,
       "entry_zone_low": 51.7913,
@@ -114,7 +114,7 @@
         "total_value_usd": 1723401,
         "first_buy": "2026-06-16",
         "last_buy": "2026-06-17",
-        "stale_days": 71,
+        "stale_days": 72,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -223,14 +223,14 @@
       "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0.05,
       "authorized": true,
-      "opt_score": 71.3,
+      "opt_score": 70,
       "meta": {
         "insider_count": 4,
         "buy_count": 4,
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 14,
+        "stale_days": 15,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -295,110 +295,22 @@
       }
     },
     {
-      "ticker": "ADSK",
-      "name": "Autodesk",
-      "sector": "Information Technology",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-23, demasiado antiguo (65 dias > 15)",
-      "plan": "Solo seguimiento",
-      "last_close": 270.58,
-      "entry_zone_low": 266.5213,
-      "entry_zone_high": 275.9916,
-      "invalid_below_price": 254.34519999999998,
-      "target_price": 303.0496,
-      "risk_reward_ratio": 2.000000000000001,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 70,
-      "meta": {
-        "insider_count": 4,
-        "buy_count": 4,
-        "total_value_usd": 2165173,
-        "first_buy": "2026-05-29",
-        "last_buy": "2026-06-23",
-        "stale_days": 65,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "CAHILL JOHN T",
-            "title": "Director",
-            "shares": 2000,
-            "value_usd": 378400,
-            "date": "2026-06-23",
-            "filing_date": "2026-06-23",
-            "filing_datetime": "2026-06-23T20:48:10.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Anagnost Andrew",
-            "title": "President and CEO",
-            "shares": 2460,
-            "value_usd": 498544,
-            "date": "2026-06-16",
-            "filing_date": "2026-06-17",
-            "filing_datetime": "2026-06-17T20:05:27.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Moorjani Janesh",
-            "title": "EVP, Chief Financial Officer",
-            "shares": 2500,
-            "value_usd": 494175,
-            "date": "2026-06-15",
-            "filing_date": "2026-06-15",
-            "filing_datetime": "2026-06-15T22:41:15.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Smith Stacy J",
-            "title": "Director",
-            "shares": 3435,
-            "value_usd": 794054,
-            "date": "2026-05-29",
-            "filing_date": "2026-05-29",
-            "filing_datetime": "2026-05-29T23:34:30.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 69.89115773856452,
-        "volatility_20d": 0.35804053912832917
-      }
-    },
-    {
       "ticker": "PFE",
       "name": "Pfizer",
       "sector": "Health Care",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "3 insiders compraron 2,960,110 USD entre 2026-08-05 y 2026-08-12",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 28.01,
-      "entry_zone_low": 27.589850000000002,
-      "entry_zone_high": 28.570200000000003,
-      "invalid_below_price": 26.3294,
-      "target_price": 31.371200000000005,
-      "risk_reward_ratio": 1.9999999999999998,
-      "size_pct": 0.1,
-      "authorized": true,
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (16 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 28.02,
+      "entry_zone_low": 27.5997,
+      "entry_zone_high": 28.5804,
+      "invalid_below_price": 26.3388,
+      "target_price": 31.382400000000004,
+      "risk_reward_ratio": 2.0000000000000013,
+      "size_pct": 0,
+      "authorized": false,
       "opt_score": 60,
       "meta": {
         "insider_count": 3,
@@ -406,7 +318,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 15,
+        "stale_days": 16,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -452,8 +364,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 65.24779801384855,
-        "volatility_20d": 0.22654822978195846
+        "rsi14": 65.3901798245048,
+        "volatility_20d": 0.22621580413610026
       }
     },
     {
@@ -463,7 +375,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (58 dias > 15)",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (59 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 214.89,
       "entry_zone_low": 211.66664999999998,
@@ -480,7 +392,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 58,
+        "stale_days": 59,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -638,8 +550,82 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 37.63080214694718,
+        "rsi14": 37.63080214694984,
         "volatility_20d": 0.13323285557308917
+      }
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-06-23, demasiado antiguo (66 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 270.58,
+      "entry_zone_low": 266.5213,
+      "entry_zone_high": 275.9916,
+      "invalid_below_price": 254.34519999999998,
+      "target_price": 303.0496,
+      "risk_reward_ratio": 2.000000000000001,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 56.9,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 1371119,
+        "first_buy": "2026-06-15",
+        "last_buy": "2026-06-23",
+        "stale_days": 66,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "CAHILL JOHN T",
+            "title": "Director",
+            "shares": 2000,
+            "value_usd": 378400,
+            "date": "2026-06-23",
+            "filing_date": "2026-06-23",
+            "filing_datetime": "2026-06-23T20:48:10.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Anagnost Andrew",
+            "title": "President and CEO",
+            "shares": 2460,
+            "value_usd": 498544,
+            "date": "2026-06-16",
+            "filing_date": "2026-06-17",
+            "filing_datetime": "2026-06-17T20:05:27.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Moorjani Janesh",
+            "title": "EVP, Chief Financial Officer",
+            "shares": 2500,
+            "value_usd": 494175,
+            "date": "2026-06-15",
+            "filing_date": "2026-06-15",
+            "filing_datetime": "2026-06-15T22:41:15.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 69.89115773856452,
+        "volatility_20d": 0.35804053912832917
       }
     },
     {
@@ -649,7 +635,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (23 dias > 15)",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (24 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 34.7,
       "entry_zone_low": 34.179500000000004,
@@ -666,7 +652,7 @@
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 23,
+        "stale_days": 24,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -712,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 56.47328386378455,
+        "rsi14": 56.47328383730268,
         "volatility_20d": 0.3154869836730004
       }
     },
@@ -723,7 +709,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (41 dias > 15)",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (42 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 399.11,
       "entry_zone_low": 393.12335,
@@ -740,7 +726,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 41,
+        "stale_days": 42,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -772,7 +758,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.08661541133814,
+        "rsi14": 53.086615411339466,
         "volatility_20d": 0.23098063939417615
       }
     },
@@ -783,7 +769,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-11, demasiado antiguo (77 dias > 15)",
+      "reason": "Cluster de 2026-06-11, demasiado antiguo (78 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 285.91,
       "entry_zone_low": 281.62135,
@@ -800,7 +786,7 @@
         "total_value_usd": 2263331,
         "first_buy": "2026-06-10",
         "last_buy": "2026-06-11",
-        "stale_days": 77,
+        "stale_days": 78,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -832,7 +818,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 56.466441427384744,
+        "rsi14": 56.46644142706003,
         "volatility_20d": 0.18132260088731356
       }
     },
@@ -843,7 +829,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-12, demasiado antiguo (76 dias > 15)",
+      "reason": "Cluster de 2026-06-12, demasiado antiguo (77 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 98,
       "entry_zone_low": 96.53,
@@ -860,7 +846,7 @@
         "total_value_usd": 368020,
         "first_buy": "2026-06-04",
         "last_buy": "2026-06-12",
-        "stale_days": 76,
+        "stale_days": 77,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -892,7 +878,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 62.97815209957782,
+        "rsi14": 62.978152098595935,
         "volatility_20d": 0.27199494240549393
       }
     },
@@ -903,7 +889,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-22, demasiado antiguo (66 dias > 15)",
+      "reason": "Cluster de 2026-06-22, demasiado antiguo (67 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 321.23,
       "entry_zone_low": 316.41155000000003,
@@ -920,7 +906,7 @@
         "total_value_usd": 1245387,
         "first_buy": "2026-06-18",
         "last_buy": "2026-06-22",
-        "stale_days": 66,
+        "stale_days": 67,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -952,7 +938,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.256607891165075,
+        "rsi14": 55.25660789103815,
         "volatility_20d": 0.3297529960713316
       }
     },
@@ -963,7 +949,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-03, demasiado antiguo (85 dias > 15)",
+      "reason": "Cluster de 2026-06-03, demasiado antiguo (86 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 143.41,
       "entry_zone_low": 141.25885,
@@ -980,7 +966,7 @@
         "total_value_usd": 897883,
         "first_buy": "2026-06-03",
         "last_buy": "2026-06-03",
-        "stale_days": 85,
+        "stale_days": 86,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -1021,16 +1007,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 70975,
+    "elapsed_ms": 79062,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 66,
+    "companies_with_buys": 65,
     "clusters_found": 12,
-    "signals_fresh": 3,
-    "portfolio_entry_count": 3,
+    "signals_fresh": 2,
+    "portfolio_entry_count": 2,
     "price_download_failed": 0,
-    "filings_seen": 6611,
-    "filings_fetched": 23,
+    "filings_seen": 6563,
+    "filings_fetched": 64,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
