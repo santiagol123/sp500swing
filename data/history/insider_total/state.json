@@ -1,10 +1,130 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-09-02T09:28:23.663Z",
+  "updated_at": "2026-09-02T14:19:58.834Z",
   "initial_equity": 100000,
-  "cash": 99733.18710330962,
-  "positions": [],
+  "cash": 89759.86839297866,
+  "positions": [
+    {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "family": "INSIDER_CONVICTION",
+      "entry_date": "2026-09-02",
+      "entry_price": 141.2,
+      "qty": 70.59727,
+      "cost_basis": 9973.32,
+      "stop_price": 138.376,
+      "target_price": 158.144,
+      "last_price": 141.2,
+      "last_marked_date": "2026-09-02",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": 0.02,
+      "signal_event_date": "2026-09-02",
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 3,
+        "total_value_usd": 1776960,
+        "first_buy": "2026-08-24",
+        "last_buy": "2026-09-01",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma": 1,
+          "sec_edgar": 2,
+          "dataroma_flow": 2
+        },
+        "insiders": [
+          {
+            "name": "BURKE JAMES A",
+            "title": "President and CEO",
+            "shares": 4465,
+            "value_usd": 603891,
+            "date": "2026-09-01",
+            "filing_date": "2026-09-02",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "BURKE JAMES A",
+            "title": "President and CEO",
+            "shares": 2000,
+            "value_usd": 270000,
+            "date": "2026-08-24",
+            "filing_date": "2026-08-24",
+            "filing_datetime": "2026-08-24T16:03:39.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "first_filing": "2026-08-24",
+        "last_filing": "2026-09-02",
+        "first_filing_datetime": "2026-08-24T16:03:39.000Z",
+        "last_filing_datetime": "2026-09-02T09:38:31.000Z",
+        "has_10b5_1_plan": false,
+        "rsi14": 46.640274085615594,
+        "volatility_20d": 0.26759639025269943,
+        "dataroma_flow": {
+          "ticker": "VST",
+          "latest_filing_date": "2026-09-02",
+          "purchase_value_usd": 903069,
+          "sale_value_usd": 0,
+          "net_value_usd": 903069,
+          "today_purchase_value_usd": 903069,
+          "purchase_sale_ratio": null,
+          "purchase_orders": 2,
+          "sale_orders": 0,
+          "today_purchase_orders": 2,
+          "purchase_insider_count": 1,
+          "sale_insider_count": 0,
+          "first_purchase": "2026-08-31",
+          "last_purchase": "2026-09-01",
+          "first_sale": null,
+          "last_sale": null,
+          "insiders": [
+            {
+              "name": "BURKE JAMES A",
+              "title": "President and CEO",
+              "shares": 6665,
+              "value_usd": 903069,
+              "date": "2026-09-01",
+              "filing_date": "2026-09-02",
+              "filing_datetime": null,
+              "source": "dataroma",
+              "is_officer": true,
+              "is_director": false,
+              "is_ten_percent_owner": false,
+              "has_10b5_1_plan": false
+            }
+          ],
+          "opt_score": 72.5
+        },
+        "flow_confirmed": true,
+        "conviction_score": 88.4,
+        "conviction_filing_date": "2026-09-02",
+        "conviction_filing_age_days": 0,
+        "conviction_rejection_reasons": [],
+        "target_holding_sessions": 5,
+        "benchmark": "SPY",
+        "universe_label": "S&P 500",
+        "rule_source": "chat_pasted_text_insider_conviction",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.02,
+        "max_loss_stop_price": 138.376,
+        "max_loss_reference_price": 141.2,
+        "original_invalid_below_price": 132.728
+      }
+    }
+  ],
   "trades": [
     {
       "ticker": "BSX",
@@ -1131,8 +1251,14 @@
       "equity": 99733.19,
       "cash": 99733.19,
       "open_positions": 0
+    },
+    {
+      "date": "2026-09-02",
+      "equity": 99728.2,
+      "cash": 89759.87,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 17,
-  "last_market_date": "2026-09-01"
+  "tracked_days": 18,
+  "last_market_date": "2026-09-02"
 }
