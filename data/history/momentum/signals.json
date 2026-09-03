@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-03T21:38:48.546Z",
+  "computed_at": "2026-09-03T23:56:06.448Z",
   "market_date": "2026-09-03",
   "signals": [
     {
@@ -730,7 +730,7 @@
         "ret_1m": 0.305698,
         "dist_sma50": 0.216764,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.083419,
+        "volume_ratio_20_60": 1.083424,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -745,7 +745,7 @@
         "ret_1m": 0.263943,
         "dist_sma50": 0.202073,
         "pct_from_52w_high": -0.005584,
-        "volume_ratio_20_60": 1.008431,
+        "volume_ratio_20_60": 1.008454,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -760,7 +760,7 @@
         "ret_1m": 0.214834,
         "dist_sma50": 0.14238,
         "pct_from_52w_high": -0.027559,
-        "volume_ratio_20_60": 1.305705,
+        "volume_ratio_20_60": 1.305709,
         "risk_flags": ""
       },
       {
@@ -790,7 +790,7 @@
         "ret_1m": 0.370246,
         "dist_sma50": 0.395633,
         "pct_from_52w_high": -0.001707,
-        "volume_ratio_20_60": 1.077973,
+        "volume_ratio_20_60": 1.078118,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -805,7 +805,7 @@
         "ret_1m": 0.116036,
         "dist_sma50": 0.181874,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.065251,
+        "volume_ratio_20_60": 1.065339,
         "risk_flags": ""
       },
       {
@@ -814,13 +814,13 @@
         "sector": "Health Care",
         "rank_today": 7,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.88553,
+        "score": 0.88529,
         "price": 130.63,
         "ret_1w": 0.007093,
         "ret_1m": 0.135716,
         "dist_sma50": 0.125712,
         "pct_from_52w_high": -0.002368,
-        "volume_ratio_20_60": 1.000579,
+        "volume_ratio_20_60": 1.000862,
         "risk_flags": ""
       },
       {
@@ -835,7 +835,7 @@
         "ret_1m": 0.187096,
         "dist_sma50": 0.136086,
         "pct_from_52w_high": -0.02627,
-        "volume_ratio_20_60": 1.037299,
+        "volume_ratio_20_60": 1.037307,
         "risk_flags": ""
       },
       {
@@ -850,7 +850,7 @@
         "ret_1m": 0.225867,
         "dist_sma50": 0.187588,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.841079,
+        "volume_ratio_20_60": 0.841119,
         "risk_flags": ""
       },
       {
@@ -865,7 +865,7 @@
         "ret_1m": 0.11895,
         "dist_sma50": 0.124599,
         "pct_from_52w_high": -0.034611,
-        "volume_ratio_20_60": 1.094582,
+        "volume_ratio_20_60": 1.094583,
         "risk_flags": ""
       },
       {
@@ -874,7 +874,7 @@
         "sector": "Health Care",
         "rank_today": 11,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.876106,
+        "score": 0.875626,
         "price": 271.62,
         "ret_1w": 0.035216,
         "ret_1m": 0.150688,
@@ -895,7 +895,7 @@
         "ret_1m": 0.331928,
         "dist_sma50": 0.306508,
         "pct_from_52w_high": -0.071321,
-        "volume_ratio_20_60": 0.976041,
+        "volume_ratio_20_60": 0.976042,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -904,7 +904,7 @@
         "sector": "Information Technology",
         "rank_today": 13,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.868401,
+        "score": 0.868161,
         "price": 31.93,
         "ret_1w": 0.077624,
         "ret_1m": 0.119565,
@@ -919,13 +919,13 @@
         "sector": "Information Technology",
         "rank_today": 14,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.86053,
+        "score": 0.86029,
         "price": 31.33,
         "ret_1w": 0.027213,
         "ret_1m": 0.125872,
         "dist_sma50": 0.139152,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.039892,
+        "volume_ratio_20_60": 1.040329,
         "risk_flags": ""
       },
       {
@@ -940,7 +940,7 @@
         "ret_1m": 0.186874,
         "dist_sma50": 0.146457,
         "pct_from_52w_high": -0.010483,
-        "volume_ratio_20_60": 1.006146,
+        "volume_ratio_20_60": 1.006372,
         "risk_flags": ""
       },
       {
@@ -955,7 +955,7 @@
         "ret_1m": 0.212611,
         "dist_sma50": 0.260568,
         "pct_from_52w_high": -0.164601,
-        "volume_ratio_20_60": 1.024528,
+        "volume_ratio_20_60": 1.024536,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -970,7 +970,7 @@
         "ret_1m": 0.134657,
         "dist_sma50": 0.124621,
         "pct_from_52w_high": -0.00567,
-        "volume_ratio_20_60": 1.097665,
+        "volume_ratio_20_60": 1.097667,
         "risk_flags": ""
       },
       {
@@ -985,7 +985,7 @@
         "ret_1m": 0.274668,
         "dist_sma50": 0.176226,
         "pct_from_52w_high": -0.011633,
-        "volume_ratio_20_60": 0.950636,
+        "volume_ratio_20_60": 0.95064,
         "risk_flags": ""
       },
       {
@@ -1000,7 +1000,7 @@
         "ret_1m": 0.095347,
         "dist_sma50": 0.128394,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.842047,
+        "volume_ratio_20_60": 0.842703,
         "risk_flags": ""
       },
       {
@@ -1015,7 +1015,7 @@
         "ret_1m": 0.250647,
         "dist_sma50": 0.224734,
         "pct_from_52w_high": -0.034853,
-        "volume_ratio_20_60": 1.012478,
+        "volume_ratio_20_60": 1.012479,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1030,7 +1030,7 @@
         "ret_1m": 1.646342,
         "dist_sma50": 0.776916,
         "pct_from_52w_high": -0.14629,
-        "volume_ratio_20_60": 2.050427,
+        "volume_ratio_20_60": 2.050442,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1075,7 +1075,7 @@
         "ret_1m": 0.098721,
         "dist_sma50": 0.150545,
         "pct_from_52w_high": -0.010047,
-        "volume_ratio_20_60": 0.834319,
+        "volume_ratio_20_60": 0.83432,
         "risk_flags": ""
       },
       {
@@ -1090,7 +1090,7 @@
         "ret_1m": 0.085289,
         "dist_sma50": 0.109759,
         "pct_from_52w_high": -0.028482,
-        "volume_ratio_20_60": 0.874824,
+        "volume_ratio_20_60": 0.875673,
         "risk_flags": ""
       },
       {
@@ -1105,7 +1105,7 @@
         "ret_1m": 0.343965,
         "dist_sma50": 0.224178,
         "pct_from_52w_high": -0.181949,
-        "volume_ratio_20_60": 0.82651,
+        "volume_ratio_20_60": 0.826658,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1114,13 +1114,13 @@
         "sector": "Health Care",
         "rank_today": 27,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.798148,
+        "score": 0.798149,
         "price": 557.96,
         "ret_1w": 0.019012,
         "ret_1m": 0.150836,
         "dist_sma50": 0.099547,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.748166,
+        "volume_ratio_20_60": 0.74819,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1135,7 +1135,7 @@
         "ret_1m": 0.187632,
         "dist_sma50": 0.139871,
         "pct_from_52w_high": -0.010787,
-        "volume_ratio_20_60": 0.933994,
+        "volume_ratio_20_60": 0.934463,
         "risk_flags": ""
       },
       {
@@ -1144,7 +1144,7 @@
         "sector": "Health Care",
         "rank_today": 29,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.785545,
+        "score": 0.785305,
         "price": 331.5,
         "ret_1w": -0.012864,
         "ret_1m": 0.058131,
@@ -1165,7 +1165,7 @@
         "ret_1m": 0.128879,
         "dist_sma50": 0.066915,
         "pct_from_52w_high": -0.018795,
-        "volume_ratio_20_60": 0.994195,
+        "volume_ratio_20_60": 0.995232,
         "risk_flags": ""
       },
       {
@@ -1174,13 +1174,13 @@
         "sector": "Health Care",
         "rank_today": 31,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.784305,
+        "score": 0.784065,
         "price": 278.43,
         "ret_1w": 0.047635,
         "ret_1m": 0.086235,
         "dist_sma50": 0.070504,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.814475,
+        "volume_ratio_20_60": 0.815031,
         "risk_flags": ""
       },
       {
@@ -1189,13 +1189,13 @@
         "sector": "Information Technology",
         "rank_today": 32,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.781138,
+        "score": 0.780898,
         "price": 182.53,
         "ret_1w": -0.018286,
         "ret_1m": 0.152118,
         "dist_sma50": 0.228763,
         "pct_from_52w_high": -0.118979,
-        "volume_ratio_20_60": 0.862584,
+        "volume_ratio_20_60": 0.862608,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1204,7 +1204,7 @@
         "sector": "Financials",
         "rank_today": 33,
         "setup_type": "NORMAL",
-        "score": 0.779399,
+        "score": 0.779159,
         "price": 312.96,
         "ret_1w": 0.031758,
         "ret_1m": 0.129876,
@@ -1219,7 +1219,7 @@
         "sector": "Health Care",
         "rank_today": 34,
         "setup_type": "NORMAL",
-        "score": 0.77335,
+        "score": 0.77311,
         "price": 618.43,
         "ret_1w": -0.019455,
         "ret_1m": 0.070263,
@@ -1234,7 +1234,7 @@
         "sector": "Consumer Staples",
         "rank_today": 35,
         "setup_type": "EARLY_MOMENTUM",
-        "score": 0.772445,
+        "score": 0.772205,
         "price": 100.86,
         "ret_1w": -0.047146,
         "ret_1m": 0.163783,
@@ -1249,13 +1249,13 @@
         "sector": "Energy",
         "rank_today": 36,
         "setup_type": "NORMAL",
-        "score": 0.76905,
+        "score": 0.76881,
         "price": 211.32,
         "ret_1w": 0.057816,
         "ret_1m": 0.143524,
         "dist_sma50": 0.116887,
         "pct_from_52w_high": -0.002172,
-        "volume_ratio_20_60": 0.9218,
+        "volume_ratio_20_60": 0.921821,
         "risk_flags": ""
       },
       {
@@ -1264,7 +1264,7 @@
         "sector": "Financials",
         "rank_today": 37,
         "setup_type": "NORMAL",
-        "score": 0.76273,
+        "score": 0.76249,
         "price": 91.77,
         "ret_1w": -0.010459,
         "ret_1m": 0.04904,
@@ -1279,13 +1279,13 @@
         "sector": "Health Care",
         "rank_today": 38,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.761555,
+        "score": 0.762046,
         "price": 187.62,
         "ret_1w": -0.002711,
         "ret_1m": 0.099379,
         "dist_sma50": 0.107984,
         "pct_from_52w_high": -0.022813,
-        "volume_ratio_20_60": 0.776792,
+        "volume_ratio_20_60": 0.777368,
         "risk_flags": ""
       },
       {
@@ -1300,7 +1300,7 @@
         "ret_1m": 0.128523,
         "dist_sma50": 0.060516,
         "pct_from_52w_high": -0.028817,
-        "volume_ratio_20_60": 0.985755,
+        "volume_ratio_20_60": 0.985876,
         "risk_flags": ""
       },
       {
@@ -1309,7 +1309,7 @@
         "sector": "Financials",
         "rank_today": 40,
         "setup_type": "NORMAL",
-        "score": 0.757855,
+        "score": 0.757615,
         "price": 123.2,
         "ret_1w": 0.023511,
         "ret_1m": 0.037136,
@@ -1330,7 +1330,7 @@
         "ret_1m": 0.049761,
         "dist_sma50": 0.087277,
         "pct_from_52w_high": -0.032474,
-        "volume_ratio_20_60": 0.810225,
+        "volume_ratio_20_60": 0.812256,
         "risk_flags": ""
       },
       {
@@ -1345,29 +1345,14 @@
         "ret_1m": 0.071067,
         "dist_sma50": 0.09395,
         "pct_from_52w_high": -0.212039,
-        "volume_ratio_20_60": 0.952979,
+        "volume_ratio_20_60": 0.95303,
         "risk_flags": ""
-      },
-      {
-        "ticker": "HUM",
-        "name": "Humana",
-        "sector": "Health Care",
-        "rank_today": 43,
-        "setup_type": "NORMAL",
-        "score": 0.749676,
-        "price": 406.52,
-        "ret_1w": 0.035377,
-        "ret_1m": 0.117366,
-        "dist_sma50": 0.048221,
-        "pct_from_52w_high": -0.007083,
-        "volume_ratio_20_60": 0.740842,
-        "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
         "ticker": "CRWD",
         "name": "CrowdStrike",
         "sector": "Information Technology",
-        "rank_today": 44,
+        "rank_today": 43,
         "setup_type": "PULLBACK_IN_TREND",
         "score": 0.749369,
         "price": 214.97,
@@ -1375,8 +1360,23 @@
         "ret_1m": 0.02435,
         "dist_sma50": 0.075146,
         "pct_from_52w_high": -0.069394,
-        "volume_ratio_20_60": 1.022658,
+        "volume_ratio_20_60": 1.022948,
         "risk_flags": ""
+      },
+      {
+        "ticker": "HUM",
+        "name": "Humana",
+        "sector": "Health Care",
+        "rank_today": 44,
+        "setup_type": "NORMAL",
+        "score": 0.749197,
+        "price": 406.52,
+        "ret_1w": 0.035377,
+        "ret_1m": 0.117366,
+        "dist_sma50": 0.048221,
+        "pct_from_52w_high": -0.007083,
+        "volume_ratio_20_60": 0.740906,
+        "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
         "ticker": "INCY",
@@ -1384,13 +1384,13 @@
         "sector": "Health Care",
         "rank_today": 45,
         "setup_type": "NORMAL",
-        "score": 0.745365,
+        "score": 0.745369,
         "price": 128,
         "ret_1w": 0.002035,
         "ret_1m": 0.068447,
         "dist_sma50": 0.062923,
         "pct_from_52w_high": -0.014854,
-        "volume_ratio_20_60": 0.695448,
+        "volume_ratio_20_60": 0.695655,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1429,13 +1429,13 @@
         "sector": "Health Care",
         "rank_today": 48,
         "setup_type": "NORMAL",
-        "score": 0.737636,
+        "score": 0.737637,
         "price": 151.22,
         "ret_1w": 0.015854,
         "ret_1m": 0.147693,
         "dist_sma50": 0.111413,
         "pct_from_52w_high": -0.017469,
-        "volume_ratio_20_60": 0.778184,
+        "volume_ratio_20_60": 0.778246,
         "risk_flags": ""
       },
       {
@@ -1450,7 +1450,7 @@
         "ret_1m": 0.015095,
         "dist_sma50": 0.055639,
         "pct_from_52w_high": -0.022857,
-        "volume_ratio_20_60": 0.87587,
+        "volume_ratio_20_60": 0.876348,
         "risk_flags": ""
       },
       {
@@ -1459,7 +1459,7 @@
         "sector": "Utilities",
         "rank_today": 50,
         "setup_type": "NORMAL",
-        "score": 0.73541,
+        "score": 0.73493,
         "price": 140.89,
         "ret_1w": 0.030726,
         "ret_1m": 0.057149,
