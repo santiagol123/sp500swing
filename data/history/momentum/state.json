@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-09-03T09:37:05.523Z",
+  "updated_at": "2026-09-03T14:21:55.039Z",
   "initial_equity": 100000,
-  "cash": 63053.365299849735,
+  "cash": 62890.950503320244,
   "positions": [
     {
       "ticker": "AMGN",
@@ -16,10 +16,10 @@
       "cost_basis": 5969.93,
       "stop_price": 414.1449,
       "target_price": 449.5091,
-      "last_price": 442.84,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": 231.81,
-      "unrealized_pct": 0.039348,
+      "last_price": 440.135,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": 193.92,
+      "unrealized_pct": 0.032999,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -41,10 +41,10 @@
       "cost_basis": 5958.74,
       "stop_price": 159.5149,
       "target_price": 173.1361,
-      "last_price": 163.36,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": -30.2,
-      "unrealized_pct": -0.00457,
+      "last_price": 163.07,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": -40.73,
+      "unrealized_pct": -0.006337,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -53,31 +53,6 @@
         "rsi14": 75.614161,
         "macd_hist": 0.814141,
         "macd_hist_slope": 0.327236
-      }
-    },
-    {
-      "ticker": "MSI",
-      "name": "Motorola Solutions",
-      "sector": "Information Technology",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-08-26",
-      "entry_price": 489.49,
-      "qty": 12.16289,
-      "cost_basis": 5956.59,
-      "stop_price": 475.7843,
-      "target_price": 516.412,
-      "last_price": 478.92,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": -131.54,
-      "unrealized_pct": -0.021594,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 25,
-        "rsi14": 69.409099,
-        "macd_hist": 1.176147,
-        "macd_hist_slope": 0.078648
       }
     },
     {
@@ -91,10 +66,10 @@
       "cost_basis": 5965.35,
       "stop_price": 29.646,
       "target_price": 32.1775,
-      "last_price": 30.65,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": 26.34,
-      "unrealized_pct": 0.004918,
+      "last_price": 31.335,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": 160.25,
+      "unrealized_pct": 0.027377,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -116,10 +91,10 @@
       "cost_basis": 5935.92,
       "stop_price": 93.3217,
       "target_price": 101.2905,
-      "last_price": 96.01,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": -2.97,
-      "unrealized_pct": 0,
+      "last_price": 96.17,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": 6.92,
+      "unrealized_pct": 0.001666,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -141,10 +116,10 @@
       "cost_basis": 5935.74,
       "stop_price": 348.8702,
       "target_price": 378.6606,
-      "last_price": 366.09,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": 115.55,
-      "unrealized_pct": 0.019977,
+      "last_price": 370.22,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": 183.82,
+      "unrealized_pct": 0.031483,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -153,6 +128,31 @@
         "rsi14": 70.588104,
         "macd_hist": 0.061885,
         "macd_hist_slope": 0.457502
+      }
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-03",
+      "entry_price": 88.48,
+      "qty": 67.172955,
+      "cost_basis": 5946.43,
+      "stop_price": 86.0026,
+      "target_price": 93.3464,
+      "last_price": 88.48,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 31,
+        "rsi14": 66.973744,
+        "macd_hist": 1.250705,
+        "macd_hist_slope": -0.03414
       }
     }
   ],
@@ -364,6 +364,32 @@
         "macd_hist": 0.025048,
         "macd_hist_slope": 0.067396
       }
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-26",
+      "entry_price": 489.49,
+      "exit_date": "2026-09-03",
+      "exit_price": 475.7843,
+      "exit_reason": "STOP",
+      "qty": 12.16289,
+      "cost_basis": 5956.59,
+      "proceeds": 5784.02,
+      "pnl": -172.57,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 8,
+      "stop_price": 475.7843,
+      "target_price": 516.412,
+      "signal_meta": {
+        "rank_today": 25,
+        "rsi14": 69.409099,
+        "macd_hist": 1.176147,
+        "macd_hist_slope": 0.078648
+      }
     }
   ],
   "equity_curve": [
@@ -480,8 +506,14 @@
       "equity": 98984.62,
       "cash": 63053.37,
       "open_positions": 6
+    },
+    {
+      "date": "2026-09-03",
+      "equity": 99104.27,
+      "cash": 62890.95,
+      "open_positions": 6
     }
   ],
-  "tracked_days": 19,
-  "last_market_date": "2026-09-02"
+  "tracked_days": 20,
+  "last_market_date": "2026-09-03"
 }

@@ -1,7 +1,7 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-09-03T09:38:09.312Z",
+  "updated_at": "2026-09-03T14:23:04.440Z",
   "initial_equity": 100000,
   "cash": 78459.66309276911,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 7000,
       "stop_price": 353.2896,
       "target_price": 420.9408,
-      "last_price": 405.84,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": 554.97,
-      "unrealized_pct": 0.079821,
+      "last_price": 407.461,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": 585.15,
+      "unrealized_pct": 0.084134,
       "signal_meta": {
         "insider_count": 2,
         "buy_count": 2,
@@ -58,10 +58,10 @@
       "cost_basis": 7019.82,
       "stop_price": 44.8756,
       "target_price": 53.4688,
-      "last_price": 48.37,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": 89.09,
-      "unrealized_pct": 0.013196,
+      "last_price": 47.395,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": -54.21,
+      "unrealized_pct": -0.007227,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -108,10 +108,10 @@
       "cost_basis": 7019.82,
       "stop_price": 31.4054,
       "target_price": 37.4192,
-      "last_price": 34.86,
-      "last_marked_date": "2026-09-02",
-      "unrealized_pnl": 301,
-      "unrealized_pct": 0.0434,
+      "last_price": 34.255,
+      "last_marked_date": "2026-09-03",
+      "unrealized_pnl": 173.95,
+      "unrealized_pct": 0.025292,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -355,8 +355,14 @@
       "equity": 100444.36,
       "cash": 78459.66,
       "open_positions": 3
+    },
+    {
+      "date": "2026-09-03",
+      "equity": 100204.19,
+      "cash": 78459.66,
+      "open_positions": 3
     }
   ],
-  "tracked_days": 24,
-  "last_market_date": "2026-09-02"
+  "tracked_days": 25,
+  "last_market_date": "2026-09-03"
 }
