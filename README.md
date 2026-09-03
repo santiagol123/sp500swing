@@ -228,11 +228,20 @@ No hacen falta variables de entorno. Opcionales:
 - `CHATGPT_SP500_MIN_INSIDERS`: minimo de insiders distintos. Por defecto `2`.
 - `CHATGPT_SP500_MIN_SINGLE_SENIOR_VALUE_USD`: compra individual minima para aceptar un CEO/fundador/C-level aunque no haya cluster. Por defecto `500000`.
 - `CHATGPT_SP500_MAX_AUTHORIZED_BUYS`: maximo de senales ChatGPT SP500 autorizadas por snapshot. Por defecto `12`.
+- `CHATGPT_SP500_NASDAQ_MAX_AUTHORIZED_BUYS`: maximo de senales autorizadas en SP500+Nasdaq+NYSE. Por defecto `6`.
+- `CHATGPT_SP500_NASDAQ_MIN_VALUE_USD`: importe minimo agregado en SP500+Nasdaq+NYSE. Por defecto `500000`.
 - `CHATGPT_SP500_MAX_NEW_POSITIONS_PER_DAY`: maximo de aperturas diarias para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
 - `CHATGPT_SP500_MAX_POSITIONS_PER_SECTOR`: maximo de posiciones por sector para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
 - `CHATGPT_SP500_SIGNAL_FILING_FRESH_DAYS`: antiguedad maxima normal del filing. Por defecto `20`.
 - `CHATGPT_SP500_MAX_HOLD_DAYS`: sesiones maximas antes de cierre temporal. Por defecto `5`.
 - `CHATGPT_SP500_STOP_LOSS_PCT`: stop maximo de las pestanas ChatGPT. Por defecto `0.02` (2%).
+- `CHATGPT_SP500_MAX_VOLATILITY_20D`: volatilidad anualizada maxima para nuevas entradas. Por defecto `0.60` (60%).
+- `CHATGPT_SP500_MAX_ENTRY_GAP_PCT`: gap maximo permitido frente al cierre anterior. Por defecto `0.03` (3%).
+- `CHATGPT_SP500_MIN_RSI`: RSI minimo usado junto a SMA20 para bloquear rebotes debiles. Por defecto `45`.
+- `CHATGPT_SP500_STOP_REENTRY_COOLDOWN_DAYS`: sesiones de espera tras un stop antes de reabrir si no hay recuperacion tecnica. Por defecto `7`.
+- `CHATGPT_SP500_PROFIT_LOCK_TRIGGER_PCT`: al subir esto desde entrada, sube stop a breakeven. Por defecto `0.025` (2,5%).
+- `CHATGPT_SP500_PROFIT_LOCK_SECOND_TRIGGER_PCT`: segundo gatillo de profit lock. Por defecto `0.04` (4%).
+- `CHATGPT_SP500_PROFIT_LOCK_SECOND_LOCK_PCT`: beneficio que se asegura tras el segundo gatillo. Por defecto `0.015` (1,5%).
 
 ## Cron
 
