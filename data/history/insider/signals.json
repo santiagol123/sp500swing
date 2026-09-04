@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-03T23:57:15.435Z",
+  "computed_at": "2026-09-04T04:18:21.757Z",
   "market_date": "2026-09-03",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-17, demasiado antiguo (78 dias > 15)",
+      "reason": "Cluster de 2026-06-17, demasiado antiguo (79 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 52.73,
       "entry_zone_low": 51.939049999999995,
@@ -26,7 +26,7 @@
         "total_value_usd": 1723401,
         "first_buy": "2026-06-16",
         "last_buy": "2026-06-17",
-        "stale_days": 78,
+        "stale_days": 79,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -135,14 +135,14 @@
       "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0.07,
       "authorized": true,
-      "opt_score": 78,
+      "opt_score": 76.7,
       "meta": {
         "insider_count": 4,
         "buy_count": 5,
         "total_value_usd": 9486038,
         "first_buy": "2026-07-31",
         "last_buy": "2026-08-25",
-        "stale_days": 9,
+        "stale_days": 10,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -213,7 +213,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (21 dias > 15)",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (22 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 46.53,
       "entry_zone_low": 45.83205,
@@ -230,7 +230,7 @@
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 21,
+        "stale_days": 22,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -301,7 +301,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-12, demasiado antiguo (22 dias > 15)",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (23 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 28.81,
       "entry_zone_low": 28.37785,
@@ -318,7 +318,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 22,
+        "stale_days": 23,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -364,7 +364,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 68.85157447428463,
+        "rsi14": 68.85157445720448,
         "volatility_20d": 0.23146096015362427
       }
     },
@@ -375,7 +375,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (65 dias > 15)",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (66 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 211.52,
       "entry_zone_low": 208.34720000000002,
@@ -392,7 +392,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 65,
+        "stale_days": 66,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -550,7 +550,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 34.917342572976736,
+        "rsi14": 34.91734257298654,
         "volatility_20d": 0.1293017946075021
       }
     },
@@ -561,7 +561,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-23, demasiado antiguo (72 dias > 15)",
+      "reason": "Cluster de 2026-06-23, demasiado antiguo (73 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 237.52,
       "entry_zone_low": 233.9572,
@@ -578,7 +578,7 @@
         "total_value_usd": 1371119,
         "first_buy": "2026-06-15",
         "last_buy": "2026-06-23",
-        "stale_days": 72,
+        "stale_days": 73,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -635,7 +635,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (30 dias > 15)",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (31 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 34.6,
       "entry_zone_low": 34.081,
@@ -652,7 +652,7 @@
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 30,
+        "stale_days": 31,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -698,7 +698,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 54.63455854534487,
+        "rsi14": 54.63455856072514,
         "volatility_20d": 0.25768212123206025
       }
     },
@@ -709,7 +709,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (48 dias > 15)",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (49 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 414.78,
       "entry_zone_low": 408.5583,
@@ -726,7 +726,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 48,
+        "stale_days": 49,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -769,7 +769,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-11, demasiado antiguo (84 dias > 15)",
+      "reason": "Cluster de 2026-06-11, demasiado antiguo (85 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 278.97,
       "entry_zone_low": 274.78545,
@@ -786,7 +786,7 @@
         "total_value_usd": 2263331,
         "first_buy": "2026-06-10",
         "last_buy": "2026-06-11",
-        "stale_days": 84,
+        "stale_days": 85,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -818,7 +818,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 46.73760630916965,
+        "rsi14": 46.737606309167674,
         "volatility_20d": 0.17870879208627086
       }
     },
@@ -829,7 +829,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-22, demasiado antiguo (73 dias > 15)",
+      "reason": "Cluster de 2026-06-22, demasiado antiguo (74 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 337.22,
       "entry_zone_low": 332.1617,
@@ -846,7 +846,7 @@
         "total_value_usd": 1245387,
         "first_buy": "2026-06-18",
         "last_buy": "2026-06-22",
-        "stale_days": 73,
+        "stale_days": 74,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -878,7 +878,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 66.2088683928379,
+        "rsi14": 66.2088684008538,
         "volatility_20d": 0.30392871590666254
       }
     }
@@ -887,16 +887,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 68891,
+    "elapsed_ms": 66793,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 63,
+    "companies_with_buys": 62,
     "clusters_found": 10,
     "signals_fresh": 1,
     "portfolio_entry_count": 1,
     "price_download_failed": 0,
-    "filings_seen": 6338,
-    "filings_fetched": 40,
+    "filings_seen": 6241,
+    "filings_fetched": 12,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,

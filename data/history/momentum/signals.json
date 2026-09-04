@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-03T23:56:06.448Z",
+  "computed_at": "2026-09-04T04:17:14.879Z",
   "market_date": "2026-09-03",
   "signals": [
     {
@@ -72,30 +72,6 @@
         "rsi14": 74.808362,
         "macd_hist": 0.416859,
         "macd_hist_slope": -0.028239
-      }
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "sector": "Energy",
-      "strategy": "momentum",
-      "family": "LEADER_CONTINUATION",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "Entrada tecnicamente valida, pero excede limite diario o limite por sector",
-      "plan": "No abrir por limite de cartera/sector; mantener en radar",
-      "last_close": 387.71,
-      "entry_zone_low": 383.8329,
-      "entry_zone_high": 388.87313,
-      "invalid_below_price": 376.85412,
-      "target_price": 409.03405,
-      "risk_reward_ratio": 1.964286,
-      "size_pct": 0,
-      "authorized": false,
-      "meta": {
-        "rank_today": 1,
-        "rsi14": 77.862452,
-        "macd_hist": 1.124075,
-        "macd_hist_slope": 0.074754
       }
     },
     {
@@ -266,30 +242,6 @@
         "rsi14": 74.808362,
         "macd_hist": 0.416859,
         "macd_hist_slope": -0.028239
-      }
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "sector": "Energy",
-      "strategy": "momentum",
-      "family": "LEADER_CONTINUATION",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "Entrada tecnicamente valida, pero excede limite diario o limite por sector",
-      "plan": "No abrir por limite de cartera/sector; mantener en radar",
-      "last_close": 387.71,
-      "entry_zone_low": 383.8329,
-      "entry_zone_high": 388.87313,
-      "invalid_below_price": 376.85412,
-      "target_price": 409.03405,
-      "risk_reward_ratio": 1.964286,
-      "size_pct": 0,
-      "authorized": false,
-      "meta": {
-        "rank_today": 1,
-        "rsi14": 77.862452,
-        "macd_hist": 1.124075,
-        "macd_hist_slope": 0.074754
       }
     },
     {
@@ -533,6 +485,30 @@
       }
     },
     {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "strategy": "momentum",
+      "family": "LEADER_CONTINUATION",
+      "action": "YA_EN_CARTERA",
+      "reason": "El ticker ya esta abierto en la cartera actual",
+      "plan": "No duplicar posicion; gestionar stop, objetivo y tiempo maximo",
+      "last_close": 387.71,
+      "entry_zone_low": 383.8329,
+      "entry_zone_high": 388.87313,
+      "invalid_below_price": 376.85412,
+      "target_price": 409.03405,
+      "risk_reward_ratio": 1.964286,
+      "size_pct": 0,
+      "authorized": false,
+      "meta": {
+        "rank_today": 1,
+        "rsi14": 77.862452,
+        "macd_hist": 1.124075,
+        "macd_hist_slope": 0.074754
+      }
+    },
+    {
       "ticker": "COP",
       "name": "ConocoPhillips",
       "sector": "Energy",
@@ -700,9 +676,9 @@
     "core_count": 1,
     "breakout_count": 0,
     "leader_count": 19,
-    "technical_entry_count": 9,
+    "technical_entry_count": 8,
     "portfolio_entry_count": 1,
-    "open_positions_count": 3,
+    "open_positions_count": 4,
     "buys_today_count": 0,
     "hot_momentum_count": 21,
     "pullback_count": 16,
