@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-04T23:56:30.210Z",
+  "updated_at": "2026-09-07T04:22:11.204Z",
   "initial_equity": 100000,
   "cash": 60781.62355750575,
   "positions": [
@@ -14,7 +14,7 @@
       "entry_price": 57.68,
       "qty": 119.988466,
       "cost_basis": 6924.4,
-      "stop_price": 57.7377,
+      "stop_price": 58.5452,
       "target_price": 64.6016,
       "last_price": 59.15,
       "last_marked_date": "2026-09-04",
@@ -98,12 +98,12 @@
         "max_loss_stop_price": 56.5264,
         "max_loss_reference_price": 57.68,
         "original_invalid_below_price": 54.2192,
-        "profit_lock_stage": "BREAKEVEN",
-        "profit_lock_stop_price": 57.7377,
-        "profit_lock_trigger_high": 59.72
+        "profit_lock_stage": "LOCK_1_5",
+        "profit_lock_stop_price": 58.5452,
+        "profit_lock_trigger_high": 59.99
       },
-      "profit_lock_stage": "BREAKEVEN",
-      "profit_lock_trigger_high": 59.72
+      "profit_lock_stage": "LOCK_1_5",
+      "profit_lock_trigger_high": 59.99
     },
     {
       "ticker": "ITT",
