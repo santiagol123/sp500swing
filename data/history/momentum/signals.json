@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-08T05:53:19.110Z",
+  "computed_at": "2026-09-08T11:06:35.692Z",
   "market_date": "2026-09-04",
   "signals": [
     {
@@ -383,7 +383,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 3,
-        "rsi14": 75.043813,
+        "rsi14": 75.043812,
         "macd_hist": 0.300775,
         "macd_hist_slope": -0.116085
       }
@@ -588,12 +588,12 @@
     "failed_count": 3,
     "failed": [
       {
-        "symbol": "HONA",
-        "error": "historial insuficiente: 58"
-      },
-      {
         "symbol": "FDXF",
         "error": "historial insuficiente: 71"
+      },
+      {
+        "symbol": "HONA",
+        "error": "historial insuficiente: 58"
       },
       {
         "symbol": "Q",

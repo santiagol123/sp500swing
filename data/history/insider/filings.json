@@ -7039,6 +7039,26 @@
   "0001225208-26-006739": [],
   "0001225208-26-006706": [],
   "0001225208-26-006705": [],
+  "0002071761-26-000011": [
+    {
+      "symbol": "UBER",
+      "issuer_cik": "0001543151",
+      "issuer_name": "Uber Technologies, Inc",
+      "accession": "0002071761-26-000011",
+      "filing_date": "2026-09-08",
+      "filing_datetime": "2026-09-08T07:02:11.000Z",
+      "filing_acceptance_datetime": "2026-09-08T07:02:11.000Z",
+      "transaction_date": "2026-09-04",
+      "owner_cik": "0002071761",
+      "owner_name": "Macdonald Andrew",
+      "owner_title": "See Remarks",
+      "is_officer": true,
+      "is_director": false,
+      "has_10b5_1_plan": false,
+      "shares": 70000,
+      "value_usd": 5308063.682500001
+    }
+  ],
   "0001552781-26-000454": [],
   "0002111867-26-000012": [],
   "0002071761-26-000010": [],
