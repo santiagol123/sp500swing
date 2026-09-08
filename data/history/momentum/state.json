@@ -1,35 +1,10 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-09-08T11:06:35.670Z",
+  "updated_at": "2026-09-08T15:03:29.077Z",
   "initial_equity": 100000,
-  "cash": 52033.32761211502,
+  "cash": 63988.34461591112,
   "positions": [
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "sector": "Health Care",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-08-18",
-      "entry_price": 426.075,
-      "qty": 14.004461,
-      "cost_basis": 5969.93,
-      "stop_price": 414.1449,
-      "target_price": 449.5091,
-      "last_price": 437.23,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": 153.24,
-      "unrealized_pct": 0.026181,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 9,
-        "rsi14": 74.414252,
-        "macd_hist": 1.530265,
-        "macd_hist_slope": 0.030595
-      }
-    },
     {
       "ticker": "TGT",
       "name": "Target Corporation",
@@ -41,10 +16,10 @@
       "cost_basis": 5958.74,
       "stop_price": 159.5149,
       "target_price": 173.1361,
-      "last_price": 164.44,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": 8.99,
-      "unrealized_pct": 0.002011,
+      "last_price": 161.93,
+      "last_marked_date": "2026-09-08",
+      "unrealized_pnl": -82.1,
+      "unrealized_pct": -0.013284,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -53,31 +28,6 @@
         "rsi14": 75.614161,
         "macd_hist": 0.814141,
         "macd_hist_slope": 0.327236
-      }
-    },
-    {
-      "ticker": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-08-27",
-      "entry_price": 30.5,
-      "qty": 195.487396,
-      "cost_basis": 5965.35,
-      "stop_price": 29.646,
-      "target_price": 32.1775,
-      "last_price": 30.65,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": 26.34,
-      "unrealized_pct": 0.004918,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 11,
-        "rsi14": 69.007141,
-        "macd_hist": 0.101671,
-        "macd_hist_slope": 0.07321
       }
     },
     {
@@ -91,10 +41,10 @@
       "cost_basis": 5935.92,
       "stop_price": 93.3217,
       "target_price": 101.2905,
-      "last_price": 95.43,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": -38.81,
-      "unrealized_pct": -0.006041,
+      "last_price": 96.71,
+      "last_marked_date": "2026-09-08",
+      "unrealized_pnl": 40.29,
+      "unrealized_pct": 0.007291,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -103,31 +53,6 @@
         "rsi14": 61.308672,
         "macd_hist": 0.107922,
         "macd_hist_slope": 0.060224
-      }
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-08-31",
-      "entry_price": 358.92,
-      "qty": 16.529515,
-      "cost_basis": 5935.74,
-      "stop_price": 348.8702,
-      "target_price": 378.6606,
-      "last_price": 370.72,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": 192.08,
-      "unrealized_pct": 0.032876,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 5,
-        "rsi14": 70.588104,
-        "macd_hist": 0.061885,
-        "macd_hist_slope": 0.457502
       }
     },
     {
@@ -141,10 +66,10 @@
       "cost_basis": 5946.43,
       "stop_price": 86.0026,
       "target_price": 93.3464,
-      "last_price": 87.86,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": -44.61,
-      "unrealized_pct": -0.007007,
+      "last_price": 86.35,
+      "last_marked_date": "2026-09-08",
+      "unrealized_pnl": -146.05,
+      "unrealized_pct": -0.024073,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -166,10 +91,10 @@
       "cost_basis": 5922.34,
       "stop_price": 673.626,
       "target_price": 735.4512,
-      "last_price": 693.53,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": -15.01,
-      "unrealized_pct": -0.002036,
+      "last_price": 682.83,
+      "last_marked_date": "2026-09-08",
+      "unrealized_pnl": -106.15,
+      "unrealized_pct": -0.017433,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -191,10 +116,10 @@
       "cost_basis": 4935.28,
       "stop_price": 30.6632,
       "target_price": 33.873,
-      "last_price": 32.64,
-      "last_marked_date": "2026-09-04",
-      "unrealized_pnl": 132.62,
-      "unrealized_pct": 0.027384,
+      "last_price": 31.08,
+      "last_marked_date": "2026-09-08",
+      "unrealized_pnl": -109.6,
+      "unrealized_pct": -0.021719,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -203,6 +128,31 @@
         "rsi14": 62.811458,
         "macd_hist": 0.057914,
         "macd_hist_slope": 0.000837
+      }
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "sector": "Energy",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-08",
+      "entry_price": 211.49,
+      "qty": 27.838145,
+      "cost_basis": 5890.43,
+      "stop_price": 205.5683,
+      "target_price": 223.1219,
+      "last_price": 211.49,
+      "last_marked_date": "2026-09-08",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 27,
+        "rsi14": 68.091469,
+        "macd_hist": 0.321586,
+        "macd_hist_slope": -0.009135
       }
     }
   ],
@@ -440,6 +390,84 @@
         "macd_hist": 1.176147,
         "macd_hist_slope": 0.078648
       }
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "sector": "Health Care",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-18",
+      "entry_price": 426.075,
+      "exit_date": "2026-09-08",
+      "exit_price": 414.1449,
+      "exit_reason": "STOP",
+      "qty": 14.004461,
+      "cost_basis": 5969.93,
+      "proceeds": 5796.98,
+      "pnl": -172.95,
+      "pnl_pct": -0.028971,
+      "r_multiple": -1,
+      "hold_days": 21,
+      "stop_price": 414.1449,
+      "target_price": 449.5091,
+      "signal_meta": {
+        "rank_today": 9,
+        "rsi14": 74.414252,
+        "macd_hist": 1.530265,
+        "macd_hist_slope": 0.030595
+      }
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-27",
+      "entry_price": 30.5,
+      "exit_date": "2026-09-08",
+      "exit_price": 29.646,
+      "exit_reason": "STOP",
+      "qty": 195.487396,
+      "cost_basis": 5965.35,
+      "proceeds": 5792.52,
+      "pnl": -172.83,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 12,
+      "stop_price": 29.646,
+      "target_price": 32.1775,
+      "signal_meta": {
+        "rank_today": 11,
+        "rsi14": 69.007141,
+        "macd_hist": 0.101671,
+        "macd_hist_slope": 0.07321
+      }
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-08-31",
+      "entry_price": 358.92,
+      "exit_date": "2026-09-08",
+      "exit_price": 378.6606,
+      "exit_reason": "OBJETIVO",
+      "qty": 16.529515,
+      "cost_basis": 5935.74,
+      "proceeds": 6255.95,
+      "pnl": 320.21,
+      "pnl_pct": 0.053946,
+      "r_multiple": 1.964,
+      "hold_days": 8,
+      "stop_price": 348.8702,
+      "target_price": 378.6606,
+      "signal_meta": {
+        "rank_today": 5,
+        "rsi14": 70.588104,
+        "macd_hist": 0.061885,
+        "macd_hist_slope": 0.457502
+      }
     }
   ],
   "equity_curve": [
@@ -568,8 +596,14 @@
       "equity": 99017.89,
       "cash": 52033.33,
       "open_positions": 8
+    },
+    {
+      "date": "2026-09-08",
+      "equity": 98170.94,
+      "cash": 63988.34,
+      "open_positions": 6
     }
   ],
-  "tracked_days": 21,
-  "last_market_date": "2026-09-04"
+  "tracked_days": 22,
+  "last_market_date": "2026-09-08"
 }
