@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-09-09T09:34:24.047Z",
+  "updated_at": "2026-09-09T14:23:02.552Z",
   "initial_equity": 100000,
-  "cash": 63988.34461591112,
+  "cash": 69762.50461591112,
   "positions": [
     {
       "ticker": "TGT",
@@ -16,10 +16,10 @@
       "cost_basis": 5958.74,
       "stop_price": 159.5149,
       "target_price": 173.1361,
-      "last_price": 162.71,
-      "last_marked_date": "2026-09-08",
-      "unrealized_pnl": -53.79,
-      "unrealized_pct": -0.008531,
+      "last_price": 160.615,
+      "last_marked_date": "2026-09-09",
+      "unrealized_pnl": -129.82,
+      "unrealized_pct": -0.021297,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -41,10 +41,10 @@
       "cost_basis": 5935.92,
       "stop_price": 93.3217,
       "target_price": 101.2905,
-      "last_price": 97.51,
-      "last_marked_date": "2026-09-08",
-      "unrealized_pnl": 89.72,
-      "unrealized_pct": 0.015623,
+      "last_price": 97.18,
+      "last_marked_date": "2026-09-09",
+      "unrealized_pnl": 69.33,
+      "unrealized_pct": 0.012186,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -53,31 +53,6 @@
         "rsi14": 61.308672,
         "macd_hist": 0.107922,
         "macd_hist_slope": 0.060224
-      }
-    },
-    {
-      "ticker": "CTVA",
-      "name": "Corteva",
-      "sector": "Materials",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-09-03",
-      "entry_price": 88.48,
-      "qty": 67.172955,
-      "cost_basis": 5946.43,
-      "stop_price": 86.0026,
-      "target_price": 93.3464,
-      "last_price": 85.9,
-      "last_marked_date": "2026-09-08",
-      "unrealized_pnl": -176.27,
-      "unrealized_pct": -0.029159,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 31,
-        "rsi14": 66.973744,
-        "macd_hist": 1.250705,
-        "macd_hist_slope": -0.03414
       }
     },
     {
@@ -91,10 +66,10 @@
       "cost_basis": 5922.34,
       "stop_price": 673.626,
       "target_price": 735.4512,
-      "last_price": 680.73,
-      "last_marked_date": "2026-09-08",
-      "unrealized_pnl": -124.04,
-      "unrealized_pct": -0.020455,
+      "last_price": 679.945,
+      "last_marked_date": "2026-09-09",
+      "unrealized_pnl": -130.73,
+      "unrealized_pct": -0.021584,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -116,10 +91,10 @@
       "cost_basis": 4935.28,
       "stop_price": 30.6632,
       "target_price": 33.873,
-      "last_price": 31.17,
-      "last_marked_date": "2026-09-08",
-      "unrealized_pnl": -95.62,
-      "unrealized_pct": -0.018886,
+      "last_price": 31.79,
+      "last_marked_date": "2026-09-09",
+      "unrealized_pnl": 0.64,
+      "unrealized_pct": 0.00063,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -141,10 +116,10 @@
       "cost_basis": 5890.43,
       "stop_price": 205.5683,
       "target_price": 223.1219,
-      "last_price": 209.8,
-      "last_marked_date": "2026-09-08",
-      "unrealized_pnl": -49.99,
-      "unrealized_pct": -0.007991,
+      "last_price": 213.62,
+      "last_marked_date": "2026-09-09",
+      "unrealized_pnl": 56.35,
+      "unrealized_pct": 0.010071,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -468,6 +443,32 @@
         "macd_hist": 0.061885,
         "macd_hist_slope": 0.457502
       }
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-03",
+      "entry_price": 88.48,
+      "exit_date": "2026-09-09",
+      "exit_price": 86.0026,
+      "exit_reason": "STOP",
+      "qty": 67.172955,
+      "cost_basis": 5946.43,
+      "proceeds": 5774.16,
+      "pnl": -172.27,
+      "pnl_pct": -0.02897,
+      "r_multiple": -1,
+      "hold_days": 6,
+      "stop_price": 86.0026,
+      "target_price": 93.3464,
+      "signal_meta": {
+        "rank_today": 31,
+        "rsi14": 66.973744,
+        "macd_hist": 1.250705,
+        "macd_hist_slope": -0.03414
+      }
     }
   ],
   "equity_curve": [
@@ -602,8 +603,14 @@
       "equity": 98167.5,
       "cash": 63988.34,
       "open_positions": 6
+    },
+    {
+      "date": "2026-09-09",
+      "equity": 98271,
+      "cash": 69762.5,
+      "open_positions": 5
     }
   ],
-  "tracked_days": 22,
-  "last_market_date": "2026-09-08"
+  "tracked_days": 23,
+  "last_market_date": "2026-09-09"
 }
