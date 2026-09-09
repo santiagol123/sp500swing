@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-09T14:24:24.859Z",
+  "updated_at": "2026-09-09T18:30:09.118Z",
   "initial_equity": 100000,
   "cash": 87190.21495707383,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 6935.66,
       "stop_price": 51.2344,
       "target_price": 58.5536,
-      "last_price": 52.45,
+      "last_price": 52.14,
       "last_marked_date": "2026-09-09",
-      "unrealized_pnl": 19.08,
-      "unrealized_pct": 0.003252,
+      "unrealized_pnl": -22.03,
+      "unrealized_pct": -0.002678,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-08",
@@ -131,10 +131,10 @@
       "cost_basis": 4955,
       "stop_price": 25.7152,
       "target_price": 29.9495,
-      "last_price": 26.24,
+      "last_price": 26.622,
       "last_marked_date": "2026-09-09",
-      "unrealized_pnl": 0,
-      "unrealized_pct": 0,
+      "unrealized_pnl": 69.62,
+      "unrealized_pct": 0.014558,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-08",
@@ -6617,7 +6617,7 @@
     },
     {
       "date": "2026-09-09",
-      "equity": 99097.47,
+      "equity": 99128.47,
       "cash": 87190.21,
       "open_positions": 2
     }
