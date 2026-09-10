@@ -1,102 +1,10 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-09-10T09:35:23.255Z",
+  "updated_at": "2026-09-10T14:16:43.523Z",
   "initial_equity": 100000,
-  "cash": 78459.66309276911,
+  "cash": 92883.86309276911,
   "positions": [
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "sector": "Health Care",
-      "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-07-31",
-      "entry_price": 375.84,
-      "qty": 18.615639,
-      "cost_basis": 7000,
-      "stop_price": 353.2896,
-      "target_price": 420.9408,
-      "last_price": 396.9,
-      "last_marked_date": "2026-09-09",
-      "unrealized_pnl": 388.55,
-      "unrealized_pct": 0.056034,
-      "signal_meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 1368280,
-        "first_buy": "2026-07-17",
-        "last_buy": "2026-07-17",
-        "stale_days": 14,
-        "insiders": [
-          {
-            "name": "PERU RAMIRO G",
-            "title": "Director",
-            "shares": 1000,
-            "value_usd": 366050,
-            "date": "2026-07-17"
-          },
-          {
-            "name": "BOUDREAUX GAIL",
-            "title": "President and CEO",
-            "shares": 2725,
-            "value_usd": 1002230,
-            "date": "2026-07-17"
-          }
-        ],
-        "rsi14": 42.140556183823946,
-        "volatility_20d": 0.4312790362029411
-      }
-    },
-    {
-      "ticker": "BSX",
-      "name": "Boston Scientific",
-      "sector": "Health Care",
-      "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-08-05",
-      "entry_price": 47.74,
-      "qty": 146.969305,
-      "cost_basis": 7019.82,
-      "stop_price": 44.8756,
-      "target_price": 53.4688,
-      "last_price": 44.96,
-      "last_marked_date": "2026-09-09",
-      "unrealized_pnl": -412.08,
-      "unrealized_pct": -0.058232,
-      "signal_meta": {
-        "insider_count": 3,
-        "buy_count": 3,
-        "total_value_usd": 9285694,
-        "first_buy": "2026-07-31",
-        "last_buy": "2026-08-03",
-        "stale_days": 2,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Habiger David C",
-            "title": "Director",
-            "shares": 1182,
-            "value_usd": 56887,
-            "date": "2026-08-03"
-          },
-          {
-            "name": "Mahoney Michael F",
-            "title": "Chairman, President &amp; CEO",
-            "shares": 186240,
-            "value_usd": 9001408,
-            "date": "2026-08-03"
-          },
-          {
-            "name": "LUDWIG EDWARD J",
-            "title": "Director",
-            "shares": 5000,
-            "value_usd": 227400,
-            "date": "2026-07-31"
-          }
-        ],
-        "rsi14": 58.98551604933034,
-        "volatility_20d": 0.31815955497301585
-      }
-    },
     {
       "ticker": "TSCO",
       "name": "Tractor Supply",
@@ -108,10 +16,10 @@
       "cost_basis": 7019.82,
       "stop_price": 31.4054,
       "target_price": 37.4192,
-      "last_price": 34,
-      "last_marked_date": "2026-09-09",
-      "unrealized_pnl": 120.4,
-      "unrealized_pct": 0.017659,
+      "last_price": 33.365,
+      "last_marked_date": "2026-09-10",
+      "unrealized_pnl": -12.96,
+      "unrealized_pct": -0.001347,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -208,6 +116,106 @@
         ],
         "rsi14": 35.74195204374918,
         "volatility_20d": 0.7077683843429815
+      }
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Care",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-07-31",
+      "entry_price": 375.84,
+      "exit_date": "2026-09-10",
+      "exit_price": 420.9408,
+      "exit_reason": "OBJETIVO",
+      "qty": 18.615639,
+      "cost_basis": 7000,
+      "proceeds": 7832.16,
+      "pnl": 832.16,
+      "pnl_pct": 0.118881,
+      "r_multiple": 2,
+      "hold_days": 41,
+      "stop_price": 353.2896,
+      "target_price": 420.9408,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1368280,
+        "first_buy": "2026-07-17",
+        "last_buy": "2026-07-17",
+        "stale_days": 14,
+        "insiders": [
+          {
+            "name": "PERU RAMIRO G",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 366050,
+            "date": "2026-07-17"
+          },
+          {
+            "name": "BOUDREAUX GAIL",
+            "title": "President and CEO",
+            "shares": 2725,
+            "value_usd": 1002230,
+            "date": "2026-07-17"
+          }
+        ],
+        "rsi14": 42.140556183823946,
+        "volatility_20d": 0.4312790362029411
+      }
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-08-05",
+      "entry_price": 47.74,
+      "exit_date": "2026-09-10",
+      "exit_price": 44.8756,
+      "exit_reason": "STOP",
+      "qty": 146.969305,
+      "cost_basis": 7019.82,
+      "proceeds": 6592.04,
+      "pnl": -427.78,
+      "pnl_pct": -0.060939,
+      "r_multiple": -1,
+      "hold_days": 36,
+      "stop_price": 44.8756,
+      "target_price": 53.4688,
+      "signal_meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 9285694,
+        "first_buy": "2026-07-31",
+        "last_buy": "2026-08-03",
+        "stale_days": 2,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Habiger David C",
+            "title": "Director",
+            "shares": 1182,
+            "value_usd": 56887,
+            "date": "2026-08-03"
+          },
+          {
+            "name": "Mahoney Michael F",
+            "title": "Chairman, President &amp; CEO",
+            "shares": 186240,
+            "value_usd": 9001408,
+            "date": "2026-08-03"
+          },
+          {
+            "name": "LUDWIG EDWARD J",
+            "title": "Director",
+            "shares": 5000,
+            "value_usd": 227400,
+            "date": "2026-07-31"
+          }
+        ],
+        "rsi14": 58.98551604933034,
+        "volatility_20d": 0.31815955497301585
       }
     }
   ],
@@ -379,8 +387,14 @@
       "equity": 99596.17,
       "cash": 78459.66,
       "open_positions": 3
+    },
+    {
+      "date": "2026-09-10",
+      "equity": 99890.73,
+      "cash": 92883.86,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 28,
-  "last_market_date": "2026-09-09"
+  "tracked_days": 29,
+  "last_market_date": "2026-09-10"
 }
