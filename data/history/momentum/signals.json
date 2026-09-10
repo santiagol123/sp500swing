@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-09T21:37:34.116Z",
+  "computed_at": "2026-09-10T00:02:43.420Z",
   "market_date": "2026-09-09",
   "signals": [
     {
@@ -191,7 +191,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 3,
-        "rsi14": 78.034246,
+        "rsi14": 78.034245,
         "macd_hist": 0.386942,
         "macd_hist_slope": 0.020891
       }
@@ -287,7 +287,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 30,
-        "rsi14": 57.164981,
+        "rsi14": 57.164982,
         "macd_hist": 0.027135,
         "macd_hist_slope": -0.074235
       }
@@ -1002,7 +1002,7 @@
         "ret_1w": 0.008643,
         "ret_1m": 0.010005,
         "dist_sma50": 0.054256,
-        "pct_from_52w_high": -0.050909,
+        "pct_from_52w_high": -0.050908,
         "volume_ratio_20_60": 0.819599,
         "risk_flags": ""
       },
