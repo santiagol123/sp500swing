@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-09-11T09:31:01.142Z",
+  "updated_at": "2026-09-11T14:15:46.673Z",
   "initial_equity": 100000,
-  "cash": 69500.38010246624,
+  "cash": 80479.63010246624,
   "positions": [
     {
       "ticker": "OKE",
@@ -16,10 +16,10 @@
       "cost_basis": 5935.92,
       "stop_price": 93.3217,
       "target_price": 101.2905,
-      "last_price": 95.72,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": -20.89,
-      "unrealized_pct": -0.003021,
+      "last_price": 96.85,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": 48.94,
+      "unrealized_pct": 0.008749,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -28,31 +28,6 @@
         "rsi14": 61.308672,
         "macd_hist": 0.107922,
         "macd_hist_slope": 0.060224
-      }
-    },
-    {
-      "ticker": "HPQ",
-      "name": "HP Inc.",
-      "sector": "Information Technology",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-09-04",
-      "entry_price": 31.77,
-      "qty": 155.266501,
-      "cost_basis": 4935.28,
-      "stop_price": 30.6632,
-      "target_price": 33.873,
-      "last_price": 32.73,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": 146.59,
-      "unrealized_pct": 0.030217,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 9,
-        "rsi14": 62.811458,
-        "macd_hist": 0.057914,
-        "macd_hist_slope": 0.000837
       }
     },
     {
@@ -66,10 +41,10 @@
       "cost_basis": 5890.43,
       "stop_price": 205.5683,
       "target_price": 223.1219,
-      "last_price": 212.76,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": 32.41,
-      "unrealized_pct": 0.006005,
+      "last_price": 214.72,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": 86.98,
+      "unrealized_pct": 0.015273,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -78,31 +53,6 @@
         "rsi14": 68.091469,
         "macd_hist": 0.321586,
         "macd_hist_slope": -0.009135
-      }
-    },
-    {
-      "ticker": "CF",
-      "name": "CF Industries",
-      "sector": "Materials",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-09-09",
-      "entry_price": 137.7,
-      "qty": 42.776591,
-      "cost_basis": 5893.28,
-      "stop_price": 133.8444,
-      "target_price": 145.2735,
-      "last_price": 135.11,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": -113.73,
-      "unrealized_pct": -0.018809,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 5,
-        "rsi14": 65.49425,
-        "macd_hist": 0.873101,
-        "macd_hist_slope": -0.017282
       }
     },
     {
@@ -116,10 +66,10 @@
       "cost_basis": 5889.86,
       "stop_price": 84.1266,
       "target_price": 91.3102,
-      "last_price": 86.91,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": 21.55,
-      "unrealized_pct": 0.004159,
+      "last_price": 87.57,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": 66.44,
+      "unrealized_pct": 0.011785,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -521,6 +471,58 @@
         "macd_hist": 7.891193,
         "macd_hist_slope": -0.012958
       }
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-04",
+      "entry_price": 31.77,
+      "exit_date": "2026-09-11",
+      "exit_price": 33.873,
+      "exit_reason": "OBJETIVO",
+      "qty": 155.266501,
+      "cost_basis": 4935.28,
+      "proceeds": 5256.71,
+      "pnl": 321.43,
+      "pnl_pct": 0.06513,
+      "r_multiple": 1.9,
+      "hold_days": 7,
+      "stop_price": 30.6632,
+      "target_price": 33.873,
+      "signal_meta": {
+        "rank_today": 9,
+        "rsi14": 62.811458,
+        "macd_hist": 0.057914,
+        "macd_hist_slope": 0.000837
+      }
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "sector": "Materials",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-09",
+      "entry_price": 137.7,
+      "exit_date": "2026-09-11",
+      "exit_price": 133.8444,
+      "exit_reason": "STOP",
+      "qty": 42.776591,
+      "cost_basis": 5893.28,
+      "proceeds": 5722.54,
+      "pnl": -170.74,
+      "pnl_pct": -0.028971,
+      "r_multiple": -1,
+      "hold_days": 2,
+      "stop_price": 133.8444,
+      "target_price": 145.2735,
+      "signal_meta": {
+        "rank_today": 5,
+        "rsi14": 65.49425,
+        "macd_hist": 0.873101,
+        "macd_hist_slope": -0.017282
+      }
     }
   ],
   "equity_curve": [
@@ -667,8 +669,14 @@
       "equity": 98111.08,
       "cash": 69500.38,
       "open_positions": 5
+    },
+    {
+      "date": "2026-09-11",
+      "equity": 98398.19,
+      "cash": 80479.63,
+      "open_positions": 3
     }
   ],
-  "tracked_days": 24,
-  "last_market_date": "2026-09-10"
+  "tracked_days": 25,
+  "last_market_date": "2026-09-11"
 }

@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-11T09:32:23.289Z",
+  "updated_at": "2026-09-11T14:17:08.970Z",
   "initial_equity": 100000,
   "cash": 70326.1697322527,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 6935.66,
       "stop_price": 51.2344,
       "target_price": 58.5536,
-      "last_price": 52.46,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": 20.4,
-      "unrealized_pct": 0.003443,
+      "last_price": 52.43,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": 16.42,
+      "unrealized_pct": 0.002869,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-08",
@@ -129,12 +129,12 @@
       "entry_price": 26.24,
       "qty": 188.739375,
       "cost_basis": 4955,
-      "stop_price": 25.7152,
+      "stop_price": 26.6336,
       "target_price": 29.9495,
-      "last_price": 26.52,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": 50.37,
-      "unrealized_pct": 0.010671,
+      "last_price": 27.54,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": 242.88,
+      "unrealized_pct": 0.049543,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-08",
@@ -240,8 +240,13 @@
         "max_loss_pct": 0.02,
         "max_loss_stop_price": 25.7152,
         "max_loss_reference_price": 26.24,
-        "original_invalid_below_price": 24.3853
-      }
+        "original_invalid_below_price": 24.3853,
+        "profit_lock_stage": "LOCK_1_5",
+        "profit_lock_stop_price": 26.6336,
+        "profit_lock_trigger_high": 27.54
+      },
+      "profit_lock_stage": "LOCK_1_5",
+      "profit_lock_trigger_high": 27.54
     },
     {
       "ticker": "UBER",
@@ -254,10 +259,10 @@
       "cost_basis": 6943.44,
       "stop_price": 70.5208,
       "target_price": 80.5952,
-      "last_price": 72.56,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": 54.4,
-      "unrealized_pct": 0.008338,
+      "last_price": 71.67,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": -31.44,
+      "unrealized_pct": -0.00403,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-10",
@@ -398,12 +403,12 @@
       "entry_price": 20.39,
       "qty": 486.299474,
       "cost_basis": 9920.6,
-      "stop_price": 19.9822,
+      "stop_price": 20.6959,
       "target_price": 22.8368,
-      "last_price": 20.39,
-      "last_marked_date": "2026-09-10",
-      "unrealized_pnl": -4.95,
-      "unrealized_pct": 0,
+      "last_price": 21.175,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": 376.79,
+      "unrealized_pct": 0.038499,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-10",
@@ -588,8 +593,13 @@
         "max_loss_pct": 0.02,
         "max_loss_stop_price": 19.9822,
         "max_loss_reference_price": 20.39,
-        "original_invalid_below_price": 19.1666
-      }
+        "original_invalid_below_price": 19.1666,
+        "profit_lock_stage": "LOCK_1_5",
+        "profit_lock_stop_price": 20.6959,
+        "profit_lock_trigger_high": 21.35
+      },
+      "profit_lock_stage": "LOCK_1_5",
+      "profit_lock_trigger_high": 21.35
     }
   ],
   "trades": [
@@ -6974,8 +6984,14 @@
       "equity": 99201.08,
       "cash": 70326.17,
       "open_positions": 4
+    },
+    {
+      "date": "2026-09-11",
+      "equity": 99685.53,
+      "cash": 70326.17,
+      "open_positions": 4
     }
   ],
-  "tracked_days": 22,
-  "last_market_date": "2026-09-10"
+  "tracked_days": 23,
+  "last_market_date": "2026-09-11"
 }
