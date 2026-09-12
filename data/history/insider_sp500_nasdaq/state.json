@@ -1,9 +1,9 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-11T21:41:12.742Z",
+  "updated_at": "2026-09-12T00:07:00.732Z",
   "initial_equity": 100000,
-  "cash": 72363.28813761963,
+  "cash": 65393.302249329754,
   "positions": [
     {
       "ticker": "TSN",
@@ -486,7 +486,7 @@
       "target_price": 6.3983,
       "last_price": 5.45,
       "last_marked_date": "2026-09-11",
-      "unrealized_pnl": 0,
+      "unrealized_pnl": -1.49,
       "unrealized_pct": 0,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
@@ -617,6 +617,117 @@
         "max_loss_stop_price": 5.341,
         "max_loss_reference_price": 5.45,
         "original_invalid_below_price": 4.9758
+      }
+    },
+    {
+      "ticker": "PVH",
+      "name": "PVH Corp.",
+      "sector": "Industrials",
+      "family": "INSIDER_CONVICTION",
+      "entry_date": "2026-09-11",
+      "entry_price": 70.64,
+      "qty": 98.6198,
+      "cost_basis": 6969.99,
+      "stop_price": 69.2272,
+      "target_price": 79.2753,
+      "last_price": 70.64,
+      "last_marked_date": "2026-09-11",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": 0.02,
+      "signal_event_date": "2026-09-11",
+      "signal_meta": {
+        "insider_count": 1,
+        "buy_count": 1,
+        "total_value_usd": 1000001,
+        "first_buy": "2026-09-11",
+        "last_buy": "2026-09-11",
+        "stale_days": 0,
+        "bootstrap_signal": false,
+        "sources": {
+          "dataroma_flow": 1
+        },
+        "insiders": [
+          {
+            "name": "LARSSON STEFAN",
+            "title": "Chief Executive Officer",
+            "shares": 14179.1,
+            "value_usd": 1000001,
+            "date": "2026-09-11",
+            "filing_date": "2026-09-11",
+            "filing_datetime": null,
+            "source": "dataroma",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "dataroma_flow": {
+          "ticker": "PVH",
+          "latest_filing_date": "2026-09-11",
+          "purchase_value_usd": 1000001,
+          "sale_value_usd": 0,
+          "net_value_usd": 1000001,
+          "today_purchase_value_usd": 1000001,
+          "purchase_sale_ratio": null,
+          "purchase_orders": 1,
+          "sale_orders": 0,
+          "today_purchase_orders": 1,
+          "purchase_insider_count": 1,
+          "sale_insider_count": 0,
+          "first_purchase": "2026-09-11",
+          "last_purchase": "2026-09-11",
+          "first_sale": null,
+          "last_sale": null,
+          "insiders": [
+            {
+              "name": "LARSSON STEFAN",
+              "title": "Chief Executive Officer",
+              "shares": 14179.1,
+              "value_usd": 1000001,
+              "date": "2026-09-11",
+              "filing_date": "2026-09-11",
+              "filing_datetime": null,
+              "source": "dataroma",
+              "is_officer": true,
+              "is_director": false,
+              "is_ten_percent_owner": false,
+              "has_10b5_1_plan": false
+            }
+          ],
+          "opt_score": 73.3
+        },
+        "price": 70.64,
+        "prev_close": 69.3499984741211,
+        "entry_gap_1d": 0.01860132017681715,
+        "ret_1w": -0.02511729378233818,
+        "ret_1m": -0.1337558388213521,
+        "dist_sma20": -0.05833264200389454,
+        "dist_sma50": -0.1065370470524295,
+        "above_sma20": false,
+        "above_sma50": false,
+        "volume_ratio_20_60": 1.0677431292532558,
+        "dollar_volume_20d": 78879903.49520294,
+        "rsi14": 37.991818306029046,
+        "volatility_20d": 0.441034321058457,
+        "conviction_score": 83.5,
+        "conviction_filing_date": "2026-09-11",
+        "conviction_filing_age_days": 1,
+        "conviction_rejection_reasons": [],
+        "conviction_base_rejection_reasons": [],
+        "technical_risk_rejection_reasons": [],
+        "high_vol_exception": false,
+        "target_holding_sessions": 5,
+        "benchmark": "QQQ",
+        "universe_label": "S&P 500 + Nasdaq-100 + NYSE",
+        "rule_source": "chat_pasted_text_insider_conviction_sp500_nasdaq100_nyse",
+        "max_loss_stop_applied": true,
+        "max_loss_pct": 0.02,
+        "max_loss_stop_price": 69.2272,
+        "max_loss_reference_price": 70.64,
+        "original_invalid_below_price": 66.3224
       }
     }
   ],
@@ -7132,9 +7243,9 @@
     },
     {
       "date": "2026-09-11",
-      "equity": 99571.23,
-      "cash": 72363.29,
-      "open_positions": 4
+      "equity": 99567.74,
+      "cash": 65393.3,
+      "open_positions": 5
     }
   ],
   "tracked_days": 23,
