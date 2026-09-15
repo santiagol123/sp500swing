@@ -1,9 +1,9 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-09-15T18:53:47.611Z",
+  "updated_at": "2026-09-15T22:06:32.579Z",
   "initial_equity": 100000,
-  "cash": 85887.24904229488,
+  "cash": 80899.26954525414,
   "positions": [
     {
       "ticker": "TSCO",
@@ -16,10 +16,10 @@
       "cost_basis": 7019.82,
       "stop_price": 31.4054,
       "target_price": 37.4192,
-      "last_price": 32.65,
+      "last_price": 33.03,
       "last_marked_date": "2026-09-15",
-      "unrealized_pnl": -163.11,
-      "unrealized_pct": -0.022748,
+      "unrealized_pnl": -83.31,
+      "unrealized_pct": -0.011374,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -66,10 +66,10 @@
       "cost_basis": 6996.61,
       "stop_price": 67.6988,
       "target_price": 80.6624,
-      "last_price": 71.535,
+      "last_price": 71.43,
       "last_marked_date": "2026-09-15",
-      "unrealized_pnl": -50.59,
-      "unrealized_pct": -0.006734,
+      "unrealized_pnl": -60.78,
+      "unrealized_pct": -0.008192,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-09-10",
@@ -113,6 +113,80 @@
         ],
         "rsi14": 41.83263815722643,
         "volatility_20d": 0.32762767787289077
+      }
+    },
+    {
+      "ticker": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-09-15",
+      "entry_price": 53.27,
+      "qty": 93.589014,
+      "cost_basis": 4987.98,
+      "stop_price": 49.09,
+      "target_price": 61.6299,
+      "last_price": 53.27,
+      "last_marked_date": "2026-09-15",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": "2026-09-15",
+      "signal_meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 1330790,
+        "first_buy": "2026-09-11",
+        "last_buy": "2026-09-14",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Kurzius Lawrence Erik",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 539150,
+            "date": "2026-09-14",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:53:20.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Rosebrough Walter M Jr",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 541640,
+            "date": "2026-09-11",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:56:31.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Keel Paul A",
+            "title": "Director",
+            "shares": 4701.015,
+            "value_usd": 250000,
+            "date": "2026-09-11",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:46:05.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 15.03020507219739,
+        "volatility_20d": 0.5661959480629407
       }
     }
   ],
@@ -468,9 +542,9 @@
     },
     {
       "date": "2026-09-15",
-      "equity": 99689.98,
-      "cash": 85887.25,
-      "open_positions": 2
+      "equity": 99757.1,
+      "cash": 80899.27,
+      "open_positions": 3
     }
   ],
   "tracked_days": 32,
