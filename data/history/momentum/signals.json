@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-16T05:52:37.980Z",
+  "computed_at": "2026-09-16T11:21:51.830Z",
   "market_date": "2026-09-15",
   "signals": [],
   "watch": [
@@ -190,7 +190,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 21,
-        "rsi14": 70.13798,
+        "rsi14": 70.137981,
         "macd_hist": 0.156183,
         "macd_hist_slope": 0.097295
       }
@@ -334,7 +334,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 28,
-        "rsi14": 64.421662,
+        "rsi14": 64.421663,
         "macd_hist": 0.430281,
         "macd_hist_slope": -0.077216
       }
