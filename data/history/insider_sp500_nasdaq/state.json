@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-16T11:23:14.858Z",
+  "updated_at": "2026-09-16T16:43:35.945Z",
   "initial_equity": 100000,
   "cash": 89666.22192172511,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 4981.31,
       "stop_price": 29.9586,
       "target_price": 35.3989,
-      "last_price": 30.26,
-      "last_marked_date": "2026-09-15",
-      "unrealized_pnl": -52.98,
-      "unrealized_pct": -0.010141,
+      "last_price": 31.025,
+      "last_marked_date": "2026-09-16",
+      "unrealized_pnl": 71.61,
+      "unrealized_pct": 0.014884,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-10",
@@ -109,12 +109,12 @@
       "entry_price": 53.27,
       "qty": 93.414166,
       "cost_basis": 4978.66,
-      "stop_price": 52.2046,
+      "stop_price": 53.3233,
       "target_price": 61.6299,
-      "last_price": 53.27,
-      "last_marked_date": "2026-09-15",
-      "unrealized_pnl": -2.49,
-      "unrealized_pct": 0,
+      "last_price": 54.61,
+      "last_marked_date": "2026-09-16",
+      "unrealized_pnl": 122.69,
+      "unrealized_pct": 0.025155,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-15",
@@ -286,8 +286,13 @@
         "max_loss_pct": 0.02,
         "max_loss_stop_price": 52.2046,
         "max_loss_reference_price": 53.27,
-        "original_invalid_below_price": 49.09
-      }
+        "original_invalid_below_price": 49.09,
+        "profit_lock_stage": "BREAKEVEN",
+        "profit_lock_stop_price": 53.3233,
+        "profit_lock_trigger_high": 54.88
+      },
+      "profit_lock_stage": "BREAKEVEN",
+      "profit_lock_trigger_high": 54.88
     }
   ],
   "trades": [
@@ -7553,8 +7558,14 @@
       "equity": 99570.73,
       "cash": 89666.22,
       "open_positions": 2
+    },
+    {
+      "date": "2026-09-16",
+      "equity": 99820.49,
+      "cash": 89666.22,
+      "open_positions": 2
     }
   ],
-  "tracked_days": 25,
-  "last_market_date": "2026-09-15"
+  "tracked_days": 26,
+  "last_market_date": "2026-09-16"
 }

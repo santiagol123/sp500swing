@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-09-16T11:23:04.514Z",
+  "updated_at": "2026-09-16T16:43:24.891Z",
   "initial_equity": 100000,
   "cash": 94920.40807430331,
   "positions": [
@@ -14,12 +14,12 @@
       "entry_price": 53.27,
       "qty": 93.735954,
       "cost_basis": 4995.81,
-      "stop_price": 52.2046,
+      "stop_price": 53.3233,
       "target_price": 61.6299,
-      "last_price": 53.27,
-      "last_marked_date": "2026-09-15",
-      "unrealized_pnl": -2.5,
-      "unrealized_pct": 0,
+      "last_price": 54.61,
+      "last_marked_date": "2026-09-16",
+      "unrealized_pnl": 123.11,
+      "unrealized_pct": 0.025155,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-15",
@@ -191,8 +191,13 @@
         "max_loss_pct": 0.02,
         "max_loss_stop_price": 52.2046,
         "max_loss_reference_price": 53.27,
-        "original_invalid_below_price": 49.09
-      }
+        "original_invalid_below_price": 49.09,
+        "profit_lock_stage": "BREAKEVEN",
+        "profit_lock_stop_price": 53.3233,
+        "profit_lock_trigger_high": 54.88
+      },
+      "profit_lock_stage": "BREAKEVEN",
+      "profit_lock_trigger_high": 54.88
     }
   ],
   "trades": [
@@ -1761,8 +1766,14 @@
       "equity": 99913.72,
       "cash": 94920.41,
       "open_positions": 1
+    },
+    {
+      "date": "2026-09-16",
+      "equity": 100039.33,
+      "cash": 94920.41,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 26,
-  "last_market_date": "2026-09-15"
+  "tracked_days": 27,
+  "last_market_date": "2026-09-16"
 }
