@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-09-17T13:21:19.873Z",
+  "updated_at": "2026-09-17T18:07:51.334Z",
   "initial_equity": 100000,
-  "cash": 75438.7956319977,
+  "cash": 69533.21241973844,
   "positions": [
     {
       "ticker": "CVX",
@@ -16,10 +16,10 @@
       "cost_basis": 5890.43,
       "stop_price": 205.5683,
       "target_price": 223.1219,
-      "last_price": 211.54,
-      "last_marked_date": "2026-09-16",
-      "unrealized_pnl": -1.55,
-      "unrealized_pct": 0.000236,
+      "last_price": 211.53,
+      "last_marked_date": "2026-09-17",
+      "unrealized_pnl": -1.83,
+      "unrealized_pct": 0.000189,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -41,10 +41,10 @@
       "cost_basis": 5889.86,
       "stop_price": 84.1266,
       "target_price": 91.3102,
-      "last_price": 85,
-      "last_marked_date": "2026-09-16",
-      "unrealized_pnl": -108.37,
-      "unrealized_pct": -0.017909,
+      "last_price": 87.99,
+      "last_marked_date": "2026-09-17",
+      "unrealized_pnl": 95,
+      "unrealized_pct": 0.016638,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -66,10 +66,10 @@
       "cost_basis": 4917.76,
       "stop_price": 87.9281,
       "target_price": 96.2276,
-      "last_price": 92.45,
-      "last_marked_date": "2026-09-16",
-      "unrealized_pnl": 87.41,
-      "unrealized_pct": 0.018284,
+      "last_price": 94.37,
+      "last_marked_date": "2026-09-17",
+      "unrealized_pnl": 191.36,
+      "unrealized_pct": 0.039432,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -91,10 +91,10 @@
       "cost_basis": 5887.02,
       "stop_price": 629.4866,
       "target_price": 683.2391,
-      "last_price": 648.43,
-      "last_marked_date": "2026-09-16",
-      "unrealized_pnl": 4.42,
-      "unrealized_pct": 0.001251,
+      "last_price": 660.93,
+      "last_marked_date": "2026-09-17",
+      "unrealized_pnl": 117.99,
+      "unrealized_pct": 0.020552,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -103,6 +103,31 @@
         "rsi14": 69.2048,
         "macd_hist": 0.336327,
         "macd_hist_slope": 1.816701
+      }
+    },
+    {
+      "ticker": "VRSN",
+      "name": "Verisign",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-17",
+      "entry_price": 302.81,
+      "qty": 19.492857,
+      "cost_basis": 5905.58,
+      "stop_price": 294.3313,
+      "target_price": 319.4645,
+      "last_price": 302.81,
+      "last_marked_date": "2026-09-17",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 34,
+        "rsi14": 63.609901,
+        "macd_hist": 0.966308,
+        "macd_hist_slope": 0.321878
       }
     }
   ],
@@ -744,8 +769,14 @@
       "equity": 98005.77,
       "cash": 75438.8,
       "open_positions": 4
+    },
+    {
+      "date": "2026-09-17",
+      "equity": 98423.44,
+      "cash": 69533.21,
+      "open_positions": 5
     }
   ],
-  "tracked_days": 28,
-  "last_market_date": "2026-09-16"
+  "tracked_days": 29,
+  "last_market_date": "2026-09-17"
 }
