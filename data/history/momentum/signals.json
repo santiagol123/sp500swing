@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-17T01:17:30.207Z",
+  "computed_at": "2026-09-17T07:32:18.592Z",
   "market_date": "2026-09-16",
   "signals": [],
   "watch": [
@@ -593,7 +593,7 @@
         "sector": "Health Care",
         "rank_today": 23,
         "setup_type": "EXTENDED",
-        "score": 0.817772,
+        "score": 0.817692,
         "price": 145.62,
         "ret_1w": 0.073815,
         "ret_1m": 1.259075,
@@ -693,25 +693,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "ADM",
-        "name": "Archer Daniels Midland",
-        "sector": "Consumer Staples",
-        "rank_today": 30,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.790284,
-        "price": 85,
-        "ret_1w": -0.017909,
-        "ret_1m": 0.052276,
-        "dist_sma50": 0.037539,
-        "pct_from_52w_high": -0.021977,
-        "volume_ratio_20_60": 1.000687,
-        "risk_flags": ""
-      },
-      {
         "ticker": "HPE",
         "name": "Hewlett Packard Enterprise",
         "sector": "Information Technology",
-        "rank_today": 31,
+        "rank_today": 30,
         "setup_type": "PULLBACK_IN_TREND",
         "score": 0.79018,
         "price": 56.68,
@@ -720,6 +705,21 @@
         "dist_sma50": 0.091881,
         "pct_from_52w_high": -0.087132,
         "volume_ratio_20_60": 1.224313,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "ADM",
+        "name": "Archer Daniels Midland",
+        "sector": "Consumer Staples",
+        "rank_today": 31,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.790105,
+        "price": 85,
+        "ret_1w": -0.017909,
+        "ret_1m": 0.052276,
+        "dist_sma50": 0.037539,
+        "pct_from_52w_high": -0.021977,
+        "volume_ratio_20_60": 1.000687,
         "risk_flags": ""
       },
       {
@@ -983,7 +983,7 @@
         "sector": "Energy",
         "rank_today": 49,
         "setup_type": "NORMAL",
-        "score": 0.742425,
+        "score": 0.742246,
         "price": 284.77,
         "ret_1w": -0.022685,
         "ret_1m": 0.024574,
