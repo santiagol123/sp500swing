@@ -6815,6 +6815,26 @@
   "0000864749-26-000097": [],
   "0000864749-26-000096": [],
   "0000864749-26-000095": [],
+  "0001534574-26-000016": [
+    {
+      "symbol": "TFC",
+      "issuer_cik": "0000092230",
+      "issuer_name": "TRUIST FINANCIAL CORP",
+      "accession": "0001534574-26-000016",
+      "filing_date": "2026-09-18",
+      "filing_datetime": "2026-09-18T07:52:57.000Z",
+      "filing_acceptance_datetime": "2026-09-18T07:52:57.000Z",
+      "transaction_date": "2026-09-17",
+      "owner_cik": "0001534574",
+      "owner_name": "Lyons Michael P.",
+      "owner_title": "President &amp; CEO",
+      "is_officer": true,
+      "is_director": true,
+      "has_10b5_1_plan": false,
+      "shares": 21000,
+      "value_usd": 1015576.7999999999
+    }
+  ],
   "0001534574-26-000014": [],
   "0001681329-26-000006": [],
   "0001649626-26-000006": [],

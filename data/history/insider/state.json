@@ -1,7 +1,7 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-09-18T09:35:53.695Z",
+  "updated_at": "2026-09-18T14:21:03.245Z",
   "initial_equity": 100000,
   "cash": 80899.26954525414,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 7019.82,
       "stop_price": 31.4054,
       "target_price": 37.4192,
-      "last_price": 32.82,
-      "last_marked_date": "2026-09-17",
-      "unrealized_pnl": -127.41,
-      "unrealized_pct": -0.017659,
+      "last_price": 32.545,
+      "last_marked_date": "2026-09-18",
+      "unrealized_pnl": -185.16,
+      "unrealized_pct": -0.02589,
       "signal_meta": {
         "insider_count": 3,
         "buy_count": 3,
@@ -66,10 +66,10 @@
       "cost_basis": 6996.61,
       "stop_price": 67.6988,
       "target_price": 80.6624,
-      "last_price": 70.87,
-      "last_marked_date": "2026-09-17",
-      "unrealized_pnl": -115.16,
-      "unrealized_pct": -0.015968,
+      "last_price": 70.27,
+      "last_marked_date": "2026-09-18",
+      "unrealized_pnl": -173.42,
+      "unrealized_pct": -0.024299,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-09-10",
@@ -126,10 +126,10 @@
       "cost_basis": 4987.98,
       "stop_price": 49.09,
       "target_price": 61.6299,
-      "last_price": 53.775,
-      "last_marked_date": "2026-09-17",
-      "unrealized_pnl": 44.77,
-      "unrealized_pct": 0.00948,
+      "last_price": 54.755,
+      "last_marked_date": "2026-09-18",
+      "unrealized_pnl": 136.49,
+      "unrealized_pct": 0.027877,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-09-15",
@@ -557,8 +557,14 @@
       "equity": 99705.88,
       "cash": 80899.27,
       "open_positions": 3
+    },
+    {
+      "date": "2026-09-18",
+      "equity": 99681.59,
+      "cash": 80899.27,
+      "open_positions": 3
     }
   ],
-  "tracked_days": 34,
-  "last_market_date": "2026-09-17"
+  "tracked_days": 35,
+  "last_market_date": "2026-09-18"
 }
