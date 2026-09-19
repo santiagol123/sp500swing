@@ -1,7 +1,7 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-09-18T21:34:26.876Z",
+  "updated_at": "2026-09-19T00:07:23.989Z",
   "initial_equity": 100000,
   "cash": 57766.47367419915,
   "positions": [
@@ -168,7 +168,7 @@
       "target_price": 124.1419,
       "last_price": 117.67,
       "last_marked_date": "2026-09-18",
-      "unrealized_pnl": 0,
+      "unrealized_pnl": -2.94,
       "unrealized_pct": 0,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,

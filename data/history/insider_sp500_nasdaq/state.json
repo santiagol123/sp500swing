@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-18T21:35:53.109Z",
+  "updated_at": "2026-09-19T00:08:53.398Z",
   "initial_equity": 100000,
   "cash": 64626.02948383581,
   "positions": [
@@ -283,10 +283,10 @@
         "original_invalid_below_price": 3.9643,
         "profit_lock_stage": "LOCK_1_5",
         "profit_lock_stop_price": 4.2934,
-        "profit_lock_trigger_high": 4.525
+        "profit_lock_trigger_high": 4.46
       },
       "profit_lock_stage": "LOCK_1_5",
-      "profit_lock_trigger_high": 4.525
+      "profit_lock_trigger_high": 4.46
     },
     {
       "ticker": "AAT",

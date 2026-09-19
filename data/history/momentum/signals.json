@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-18T21:34:26.877Z",
+  "computed_at": "2026-09-19T00:07:23.989Z",
   "market_date": "2026-09-18",
   "signals": [
     {
@@ -69,7 +69,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 7,
-        "rsi14": 77.834036,
+        "rsi14": 77.834035,
         "macd_hist": 0.372683,
         "macd_hist_slope": 0.143342
       }
@@ -143,7 +143,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 7,
-        "rsi14": 77.834036,
+        "rsi14": 77.834035,
         "macd_hist": 0.372683,
         "macd_hist_slope": 0.143342
       }
@@ -314,7 +314,7 @@
     "leader_count": 8,
     "technical_entry_count": 5,
     "portfolio_entry_count": 2,
-    "open_positions_count": 3,
+    "open_positions_count": 4,
     "buys_today_count": 1,
     "hot_momentum_count": 9,
     "pullback_count": 11,
