@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-21T23:59:33.658Z",
+  "computed_at": "2026-09-22T04:38:07.433Z",
   "market_date": "2026-09-21",
   "signals": [
     {
@@ -95,7 +95,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 9,
-        "rsi14": 61.810268,
+        "rsi14": 61.810269,
         "macd_hist": -0.388663,
         "macd_hist_slope": -0.761347
       }
@@ -318,7 +318,7 @@
         "ret_1m": 0.310024,
         "dist_sma50": 0.196913,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.272751,
+        "volume_ratio_20_60": 1.272852,
         "risk_flags": ""
       },
       {
@@ -348,7 +348,7 @@
         "ret_1m": 0.323221,
         "dist_sma50": 0.235999,
         "pct_from_52w_high": -0.022247,
-        "volume_ratio_20_60": 1.340759,
+        "volume_ratio_20_60": 1.340865,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -363,7 +363,7 @@
         "ret_1m": 0.170471,
         "dist_sma50": 0.173704,
         "pct_from_52w_high": -0.00296,
-        "volume_ratio_20_60": 1.30669,
+        "volume_ratio_20_60": 1.306749,
         "risk_flags": ""
       },
       {
@@ -507,13 +507,13 @@
         "sector": "Communication Services",
         "rank_today": 14,
         "setup_type": "EXTENDED",
-        "score": 0.877689,
+        "score": 0.87777,
         "price": 741.245,
-        "ret_1w": 0.113649,
-        "ret_1m": 0.358014,
-        "dist_sma50": 0.217512,
-        "pct_from_52w_high": -0.028735,
-        "volume_ratio_20_60": 1.071521,
+        "ret_1w": 0.114528,
+        "ret_1m": 0.359086,
+        "dist_sma50": 0.218449,
+        "pct_from_52w_high": -0.027969,
+        "volume_ratio_20_60": 1.071603,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -537,35 +537,20 @@
         "sector": "Information Technology",
         "rank_today": 16,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.856816,
+        "score": 0.856527,
         "price": 371.76,
         "ret_1w": -0.00583,
         "ret_1m": 0.063508,
         "dist_sma50": 0.051072,
         "pct_from_52w_high": -0.061212,
-        "volume_ratio_20_60": 1.05842,
+        "volume_ratio_20_60": 1.05847,
         "risk_flags": ""
-      },
-      {
-        "ticker": "SWKS",
-        "name": "Skyworks Solutions",
-        "sector": "Information Technology",
-        "rank_today": 17,
-        "setup_type": "EXTENDED",
-        "score": 0.852356,
-        "price": 88.74,
-        "ret_1w": 0.119606,
-        "ret_1m": 0.306152,
-        "dist_sma50": 0.282626,
-        "pct_from_52w_high": -0.028252,
-        "volume_ratio_20_60": 1.276526,
-        "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
         "ticker": "TMO",
         "name": "Thermo Fisher Scientific",
         "sector": "Health Care",
-        "rank_today": 18,
+        "rank_today": 17,
         "setup_type": "NEAR_BREAKOUT",
         "score": 0.85225,
         "price": 658.76,
@@ -577,18 +562,33 @@
         "risk_flags": ""
       },
       {
+        "ticker": "SWKS",
+        "name": "Skyworks Solutions",
+        "sector": "Information Technology",
+        "rank_today": 18,
+        "setup_type": "EXTENDED",
+        "score": 0.852146,
+        "price": 88.74,
+        "ret_1w": 0.119606,
+        "ret_1m": 0.306152,
+        "dist_sma50": 0.282626,
+        "pct_from_52w_high": -0.028252,
+        "volume_ratio_20_60": 1.276526,
+        "risk_flags": "EXTENDED_FROM_SMA50"
+      },
+      {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "Information Technology",
         "rank_today": 19,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.847145,
+        "score": 0.846855,
         "price": 236.42,
         "ret_1w": -0.087091,
         "ret_1m": 0.152879,
         "dist_sma50": 0.13637,
         "pct_from_52w_high": -0.105882,
-        "volume_ratio_20_60": 1.192723,
+        "volume_ratio_20_60": 1.192754,
         "risk_flags": "SHARP_1W_DROP"
       },
       {
@@ -642,13 +642,13 @@
         "sector": "Communication Services",
         "rank_today": 23,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.818907,
+        "score": 0.818967,
         "price": 30.8,
         "ret_1w": 0.096085,
         "ret_1m": 0.091038,
         "dist_sma50": 0.121787,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.214555,
+        "volume_ratio_20_60": 1.21819,
         "risk_flags": ""
       },
       {
@@ -667,25 +667,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "DGX",
-        "name": "Quest Diagnostics",
-        "sector": "Health Care",
-        "rank_today": 25,
-        "setup_type": "NORMAL",
-        "score": 0.81231,
-        "price": 244.88,
-        "ret_1w": 0.029383,
-        "ret_1m": 0.014836,
-        "dist_sma50": 0.049268,
-        "pct_from_52w_high": -0.010386,
-        "volume_ratio_20_60": 1.005047,
-        "risk_flags": ""
-      },
-      {
         "ticker": "MRK",
         "name": "Merck & Co.",
         "sector": "Health Care",
-        "rank_today": 26,
+        "rank_today": 25,
         "setup_type": "NORMAL",
         "score": 0.811921,
         "price": 149.5,
@@ -693,7 +678,22 @@
         "ret_1m": 0.009346,
         "dist_sma50": 0.085983,
         "pct_from_52w_high": -0.038783,
-        "volume_ratio_20_60": 1.01182,
+        "volume_ratio_20_60": 1.011888,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "DGX",
+        "name": "Quest Diagnostics",
+        "sector": "Health Care",
+        "rank_today": 26,
+        "setup_type": "NORMAL",
+        "score": 0.811362,
+        "price": 244.88,
+        "ret_1w": 0.029383,
+        "ret_1m": 0.014836,
+        "dist_sma50": 0.049268,
+        "pct_from_52w_high": -0.010386,
+        "volume_ratio_20_60": 1.005047,
         "risk_flags": ""
       },
       {
@@ -768,7 +768,7 @@
         "ret_1m": 0.29653,
         "dist_sma50": 0.192438,
         "pct_from_52w_high": -0.191263,
-        "volume_ratio_20_60": 1.06246,
+        "volume_ratio_20_60": 1.062655,
         "risk_flags": ""
       },
       {
@@ -798,7 +798,7 @@
         "ret_1m": 0.049732,
         "dist_sma50": 0.060541,
         "pct_from_52w_high": -0.033258,
-        "volume_ratio_20_60": 1.056515,
+        "volume_ratio_20_60": 1.056668,
         "risk_flags": ""
       },
       {
@@ -813,7 +813,7 @@
         "ret_1m": 0.311123,
         "dist_sma50": 0.238472,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.818475,
+        "volume_ratio_20_60": 0.818593,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -837,13 +837,13 @@
         "sector": "Information Technology",
         "rank_today": 36,
         "setup_type": "NORMAL",
-        "score": 0.757956,
+        "score": 0.757957,
         "price": 205.42,
         "ret_1w": 0.093765,
         "ret_1m": 0.117932,
         "dist_sma50": 0.093248,
         "pct_from_52w_high": -0.024133,
-        "volume_ratio_20_60": 0.713854,
+        "volume_ratio_20_60": 0.71392,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -882,7 +882,7 @@
         "sector": "Information Technology",
         "rank_today": 39,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.749586,
+        "score": 0.749376,
         "price": 146.41,
         "ret_1w": -0.034871,
         "ret_1m": 0.101613,
@@ -912,13 +912,13 @@
         "sector": "Information Technology",
         "rank_today": 41,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.747532,
+        "score": 0.747534,
         "price": 501.61,
         "ret_1w": -0.007519,
         "ret_1m": 0.042523,
         "dist_sma50": 0.075161,
         "pct_from_52w_high": -0.067026,
-        "volume_ratio_20_60": 0.644682,
+        "volume_ratio_20_60": 0.644775,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -933,7 +933,7 @@
         "ret_1m": 0.088917,
         "dist_sma50": 0.057647,
         "pct_from_52w_high": -0.002375,
-        "volume_ratio_20_60": 0.817947,
+        "volume_ratio_20_60": 0.818054,
         "risk_flags": ""
       },
       {
@@ -972,7 +972,7 @@
         "sector": "Consumer Staples",
         "rank_today": 45,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.743872,
+        "score": 0.743398,
         "price": 157.71,
         "ret_1w": -0.006238,
         "ret_1m": -0.003412,
@@ -987,7 +987,7 @@
         "sector": "Consumer Discretionary",
         "rank_today": 46,
         "setup_type": "EARLY_MOMENTUM",
-        "score": 0.737838,
+        "score": 0.737793,
         "price": 557.86,
         "ret_1w": 0.016787,
         "ret_1m": 0.082929,
@@ -1032,13 +1032,13 @@
         "sector": "Information Technology",
         "rank_today": 49,
         "setup_type": "NORMAL",
-        "score": 0.735022,
+        "score": 0.735023,
         "price": 183.09,
         "ret_1w": 0.056431,
         "ret_1m": 0.052483,
         "dist_sma50": 0.148726,
         "pct_from_52w_high": -0.116276,
-        "volume_ratio_20_60": 0.730387,
+        "volume_ratio_20_60": 0.730461,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1047,7 +1047,7 @@
         "sector": "Health Care",
         "rank_today": 50,
         "setup_type": "NORMAL",
-        "score": 0.734999,
+        "score": 0.734959,
         "price": 72.47,
         "ret_1w": 0.002767,
         "ret_1m": 0.003739,
