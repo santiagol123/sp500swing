@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-21T20:56:55.559Z",
+  "computed_at": "2026-09-21T23:59:33.658Z",
   "market_date": "2026-09-21",
   "signals": [
     {
@@ -95,7 +95,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 9,
-        "rsi14": 61.810269,
+        "rsi14": 61.810268,
         "macd_hist": -0.388663,
         "macd_hist_slope": -0.761347
       }
@@ -318,7 +318,7 @@
         "ret_1m": 0.310024,
         "dist_sma50": 0.196913,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.272558,
+        "volume_ratio_20_60": 1.272751,
         "risk_flags": ""
       },
       {
@@ -333,7 +333,7 @@
         "ret_1m": 0.119959,
         "dist_sma50": 0.164782,
         "pct_from_52w_high": -0.02594,
-        "volume_ratio_20_60": 1.467229,
+        "volume_ratio_20_60": 1.467231,
         "risk_flags": ""
       },
       {
@@ -348,7 +348,7 @@
         "ret_1m": 0.323221,
         "dist_sma50": 0.235999,
         "pct_from_52w_high": -0.022247,
-        "volume_ratio_20_60": 1.340396,
+        "volume_ratio_20_60": 1.340759,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -363,7 +363,7 @@
         "ret_1m": 0.170471,
         "dist_sma50": 0.173704,
         "pct_from_52w_high": -0.00296,
-        "volume_ratio_20_60": 1.306618,
+        "volume_ratio_20_60": 1.30669,
         "risk_flags": ""
       },
       {
@@ -393,7 +393,7 @@
         "ret_1m": 0.123245,
         "dist_sma50": 0.153073,
         "pct_from_52w_high": -0.052978,
-        "volume_ratio_20_60": 1.151146,
+        "volume_ratio_20_60": 1.152054,
         "risk_flags": ""
       },
       {
@@ -402,13 +402,13 @@
         "sector": "Energy",
         "rank_today": 7,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.900105,
+        "score": 0.900344,
         "price": 393.27,
         "ret_1w": 0.026949,
         "ret_1m": 0.151562,
         "dist_sma50": 0.158093,
         "pct_from_52w_high": -0.048418,
-        "volume_ratio_20_60": 1.097104,
+        "volume_ratio_20_60": 1.097551,
         "risk_flags": ""
       },
       {
@@ -417,13 +417,13 @@
         "sector": "Health Care",
         "rank_today": 8,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.894102,
+        "score": 0.893862,
         "price": 269.88,
         "ret_1w": 0.015847,
         "ret_1m": 0.054013,
         "dist_sma50": 0.112541,
         "pct_from_52w_high": -0.006406,
-        "volume_ratio_20_60": 1.09727,
+        "volume_ratio_20_60": 1.097293,
         "risk_flags": ""
       },
       {
@@ -432,13 +432,13 @@
         "sector": "Energy",
         "rank_today": 9,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.891402,
+        "score": 0.891642,
         "price": 261.75,
         "ret_1w": 0.018245,
         "ret_1m": 0.090625,
         "dist_sma50": 0.134887,
         "pct_from_52w_high": -0.04544,
-        "volume_ratio_20_60": 1.098608,
+        "volume_ratio_20_60": 1.098781,
         "risk_flags": ""
       },
       {
@@ -453,7 +453,7 @@
         "ret_1m": 0.098777,
         "dist_sma50": 0.085877,
         "pct_from_52w_high": -0.014171,
-        "volume_ratio_20_60": 1.19448,
+        "volume_ratio_20_60": 1.194544,
         "risk_flags": ""
       },
       {
@@ -468,7 +468,7 @@
         "ret_1m": 0.128952,
         "dist_sma50": 0.132745,
         "pct_from_52w_high": -0.071308,
-        "volume_ratio_20_60": 1.174226,
+        "volume_ratio_20_60": 1.174261,
         "risk_flags": ""
       },
       {
@@ -483,7 +483,7 @@
         "ret_1m": 0.29718,
         "dist_sma50": 0.724915,
         "pct_from_52w_high": -0.008258,
-        "volume_ratio_20_60": 1.111838,
+        "volume_ratio_20_60": 1.11188,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -498,7 +498,7 @@
         "ret_1m": 0.033461,
         "dist_sma50": 0.228929,
         "pct_from_52w_high": -0.038084,
-        "volume_ratio_20_60": 1.644326,
+        "volume_ratio_20_60": 1.645554,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -513,7 +513,7 @@
         "ret_1m": 0.358014,
         "dist_sma50": 0.217512,
         "pct_from_52w_high": -0.028735,
-        "volume_ratio_20_60": 1.071215,
+        "volume_ratio_20_60": 1.071521,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -528,7 +528,7 @@
         "ret_1m": 0.036084,
         "dist_sma50": 0.109301,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.162569,
+        "volume_ratio_20_60": 1.164012,
         "risk_flags": ""
       },
       {
@@ -543,7 +543,7 @@
         "ret_1m": 0.063508,
         "dist_sma50": 0.051072,
         "pct_from_52w_high": -0.061212,
-        "volume_ratio_20_60": 1.05834,
+        "volume_ratio_20_60": 1.05842,
         "risk_flags": ""
       },
       {
@@ -558,7 +558,7 @@
         "ret_1m": 0.306152,
         "dist_sma50": 0.282626,
         "pct_from_52w_high": -0.028252,
-        "volume_ratio_20_60": 1.276075,
+        "volume_ratio_20_60": 1.276526,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -573,7 +573,7 @@
         "ret_1m": 0.050538,
         "dist_sma50": 0.110653,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.979848,
+        "volume_ratio_20_60": 0.979964,
         "risk_flags": ""
       },
       {
@@ -588,7 +588,7 @@
         "ret_1m": 0.152879,
         "dist_sma50": 0.13637,
         "pct_from_52w_high": -0.105882,
-        "volume_ratio_20_60": 1.19239,
+        "volume_ratio_20_60": 1.192723,
         "risk_flags": "SHARP_1W_DROP"
       },
       {
@@ -597,13 +597,13 @@
         "sector": "Information Technology",
         "rank_today": 20,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.835898,
+        "score": 0.835659,
         "price": 308.18,
         "ret_1w": 0.032083,
         "ret_1m": 0.112965,
         "dist_sma50": 0.07895,
         "pct_from_52w_high": -0.002953,
-        "volume_ratio_20_60": 0.949325,
+        "volume_ratio_20_60": 0.94948,
         "risk_flags": ""
       },
       {
@@ -612,13 +612,13 @@
         "sector": "Information Technology",
         "rank_today": 21,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.834825,
+        "score": 0.834586,
         "price": 175.23,
         "ret_1w": 0.029675,
         "ret_1m": 0.16208,
         "dist_sma50": 0.09166,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.923059,
+        "volume_ratio_20_60": 0.923076,
         "risk_flags": ""
       },
       {
@@ -633,7 +633,7 @@
         "ret_1m": 0.034422,
         "dist_sma50": 0.021423,
         "pct_from_52w_high": -0.071952,
-        "volume_ratio_20_60": 1.179613,
+        "volume_ratio_20_60": 1.179615,
         "risk_flags": ""
       },
       {
@@ -648,7 +648,7 @@
         "ret_1m": 0.091038,
         "dist_sma50": 0.121787,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.213879,
+        "volume_ratio_20_60": 1.214555,
         "risk_flags": ""
       },
       {
@@ -663,7 +663,7 @@
         "ret_1m": 0.027696,
         "dist_sma50": 0.071534,
         "pct_from_52w_high": -0.043123,
-        "volume_ratio_20_60": 0.986031,
+        "volume_ratio_20_60": 0.986037,
         "risk_flags": ""
       },
       {
@@ -672,13 +672,13 @@
         "sector": "Health Care",
         "rank_today": 25,
         "setup_type": "NORMAL",
-        "score": 0.812071,
+        "score": 0.81231,
         "price": 244.88,
         "ret_1w": 0.029383,
         "ret_1m": 0.014836,
         "dist_sma50": 0.049268,
         "pct_from_52w_high": -0.010386,
-        "volume_ratio_20_60": 1.004839,
+        "volume_ratio_20_60": 1.005047,
         "risk_flags": ""
       },
       {
@@ -693,7 +693,7 @@
         "ret_1m": 0.009346,
         "dist_sma50": 0.085983,
         "pct_from_52w_high": -0.038783,
-        "volume_ratio_20_60": 1.011085,
+        "volume_ratio_20_60": 1.01182,
         "risk_flags": ""
       },
       {
@@ -708,7 +708,7 @@
         "ret_1m": 0.102731,
         "dist_sma50": 0.083326,
         "pct_from_52w_high": -0.019531,
-        "volume_ratio_20_60": 1.050072,
+        "volume_ratio_20_60": 1.050074,
         "risk_flags": ""
       },
       {
@@ -723,7 +723,7 @@
         "ret_1m": 0.043029,
         "dist_sma50": 0.109371,
         "pct_from_52w_high": -0.146659,
-        "volume_ratio_20_60": 1.031862,
+        "volume_ratio_20_60": 1.032063,
         "risk_flags": ""
       },
       {
@@ -747,13 +747,13 @@
         "sector": "Information Technology",
         "rank_today": 30,
         "setup_type": "NORMAL",
-        "score": 0.790379,
+        "score": 0.790858,
         "price": 450.1,
         "ret_1w": 0.09383,
         "ret_1m": 0.191403,
         "dist_sma50": 0.111328,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.875989,
+        "volume_ratio_20_60": 0.876737,
         "risk_flags": ""
       },
       {
@@ -768,7 +768,7 @@
         "ret_1m": 0.29653,
         "dist_sma50": 0.192438,
         "pct_from_52w_high": -0.191263,
-        "volume_ratio_20_60": 1.0616,
+        "volume_ratio_20_60": 1.06246,
         "risk_flags": ""
       },
       {
@@ -792,13 +792,13 @@
         "sector": "Information Technology",
         "rank_today": 33,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.773473,
+        "score": 0.773234,
         "price": 227.38,
         "ret_1w": 0.077835,
         "ret_1m": 0.049732,
         "dist_sma50": 0.060541,
         "pct_from_52w_high": -0.033258,
-        "volume_ratio_20_60": 1.056307,
+        "volume_ratio_20_60": 1.056515,
         "risk_flags": ""
       },
       {
@@ -813,7 +813,7 @@
         "ret_1m": 0.311123,
         "dist_sma50": 0.238472,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.81814,
+        "volume_ratio_20_60": 0.818475,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -837,13 +837,13 @@
         "sector": "Information Technology",
         "rank_today": 36,
         "setup_type": "NORMAL",
-        "score": 0.757952,
+        "score": 0.757956,
         "price": 205.42,
         "ret_1w": 0.093765,
         "ret_1m": 0.117932,
         "dist_sma50": 0.093248,
         "pct_from_52w_high": -0.024133,
-        "volume_ratio_20_60": 0.713674,
+        "volume_ratio_20_60": 0.713854,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -858,7 +858,7 @@
         "ret_1m": 0.061658,
         "dist_sma50": 0.033048,
         "pct_from_52w_high": -0.017214,
-        "volume_ratio_20_60": 1.009338,
+        "volume_ratio_20_60": 1.009339,
         "risk_flags": ""
       },
       {
@@ -867,13 +867,13 @@
         "sector": "Information Technology",
         "rank_today": 38,
         "setup_type": "NORMAL",
-        "score": 0.755092,
+        "score": 0.754853,
         "price": 104.77,
         "ret_1w": 0.002872,
         "ret_1m": 0.067013,
         "dist_sma50": 0.093381,
         "pct_from_52w_high": -0.291281,
-        "volume_ratio_20_60": 1.020223,
+        "volume_ratio_20_60": 1.020234,
         "risk_flags": "FAR_FROM_52W_HIGH"
       },
       {
@@ -888,7 +888,7 @@
         "ret_1m": 0.101613,
         "dist_sma50": 0.034474,
         "pct_from_52w_high": -0.092288,
-        "volume_ratio_20_60": 0.894802,
+        "volume_ratio_20_60": 0.894817,
         "risk_flags": ""
       },
       {
@@ -903,7 +903,7 @@
         "ret_1m": 0.020563,
         "dist_sma50": 0.013193,
         "pct_from_52w_high": -0.053468,
-        "volume_ratio_20_60": 1.063875,
+        "volume_ratio_20_60": 1.063949,
         "risk_flags": ""
       },
       {
@@ -912,13 +912,13 @@
         "sector": "Information Technology",
         "rank_today": 41,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.747525,
+        "score": 0.747532,
         "price": 501.61,
         "ret_1w": -0.007519,
         "ret_1m": 0.042523,
         "dist_sma50": 0.075161,
         "pct_from_52w_high": -0.067026,
-        "volume_ratio_20_60": 0.644298,
+        "volume_ratio_20_60": 0.644682,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -927,13 +927,13 @@
         "sector": "Information Technology",
         "rank_today": 42,
         "setup_type": "NORMAL",
-        "score": 0.747236,
+        "score": 0.747475,
         "price": 338.98,
         "ret_1w": 0.017714,
         "ret_1m": 0.088917,
         "dist_sma50": 0.057647,
         "pct_from_52w_high": -0.002375,
-        "volume_ratio_20_60": 0.817577,
+        "volume_ratio_20_60": 0.817947,
         "risk_flags": ""
       },
       {
@@ -942,13 +942,13 @@
         "sector": "Health Care",
         "rank_today": 43,
         "setup_type": "NORMAL",
-        "score": 0.746455,
+        "score": 0.746456,
         "price": 423.92,
         "ret_1w": 0.033926,
         "ret_1m": 0.047518,
         "dist_sma50": 0.061248,
         "pct_from_52w_high": -0.013497,
-        "volume_ratio_20_60": 0.774611,
+        "volume_ratio_20_60": 0.774634,
         "risk_flags": ""
       },
       {
@@ -957,7 +957,7 @@
         "sector": "Industrials",
         "rank_today": 44,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.745729,
+        "score": 0.745489,
         "price": 192.15,
         "ret_1w": -0.007541,
         "ret_1m": 0.030848,
@@ -972,13 +972,13 @@
         "sector": "Consumer Staples",
         "rank_today": 45,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.744112,
+        "score": 0.743872,
         "price": 157.71,
         "ret_1w": -0.006238,
         "ret_1m": -0.003412,
         "dist_sma50": 0.039712,
         "pct_from_52w_high": -0.071693,
-        "volume_ratio_20_60": 0.923261,
+        "volume_ratio_20_60": 0.923264,
         "risk_flags": ""
       },
       {
@@ -993,7 +993,7 @@
         "ret_1m": 0.082929,
         "dist_sma50": 0.067978,
         "pct_from_52w_high": -0.210747,
-        "volume_ratio_20_60": 1.131174,
+        "volume_ratio_20_60": 1.131185,
         "risk_flags": ""
       },
       {
@@ -1008,7 +1008,7 @@
         "ret_1m": -0.011638,
         "dist_sma50": 0.059927,
         "pct_from_52w_high": -0.03433,
-        "volume_ratio_20_60": 0.852975,
+        "volume_ratio_20_60": 0.85312,
         "risk_flags": ""
       },
       {
@@ -1032,13 +1032,13 @@
         "sector": "Information Technology",
         "rank_today": 49,
         "setup_type": "NORMAL",
-        "score": 0.735018,
+        "score": 0.735022,
         "price": 183.09,
         "ret_1w": 0.056431,
         "ret_1m": 0.052483,
         "dist_sma50": 0.148726,
         "pct_from_52w_high": -0.116276,
-        "volume_ratio_20_60": 0.730177,
+        "volume_ratio_20_60": 0.730387,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
