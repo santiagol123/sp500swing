@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-22T21:59:36.890Z",
+  "computed_at": "2026-09-23T00:16:37.036Z",
   "market_date": "2026-09-22",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-25, demasiado antiguo (28 dias > 15) | fuentes: SEC EDGAR 5 | filtro S&P 500: filing antiguo (27 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-25, demasiado antiguo (29 dias > 15) | fuentes: SEC EDGAR 5 | filtro S&P 500: filing antiguo (28 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 44.92,
       "entry_zone_low": 44.2462,
@@ -26,7 +26,7 @@
         "total_value_usd": 9486038,
         "first_buy": "2026-07-31",
         "last_buy": "2026-08-25",
-        "stale_days": 28,
+        "stale_days": 29,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 5
@@ -109,13 +109,13 @@
         "volatility_20d": 0.4224659811571329,
         "conviction_score": 84.5,
         "conviction_filing_date": "2026-08-26",
-        "conviction_filing_age_days": 27,
+        "conviction_filing_age_days": 28,
         "conviction_rejection_reasons": [
-          "filing antiguo (27 dias)",
+          "filing antiguo (28 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (27 dias)",
+          "filing antiguo (28 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -138,7 +138,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (40 dias > 15) | fuentes: SEC EDGAR 4 | filtro S&P 500: filing antiguo (36 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (41 dias > 15) | fuentes: SEC EDGAR 4 | filtro S&P 500: filing antiguo (37 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 44.61,
       "entry_zone_low": 43.94085,
@@ -155,7 +155,7 @@
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 40,
+        "stale_days": 41,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 4
@@ -238,13 +238,13 @@
         "volatility_20d": 0.32794757979279826,
         "conviction_score": 84.5,
         "conviction_filing_date": "2026-08-17",
-        "conviction_filing_age_days": 36,
+        "conviction_filing_age_days": 37,
         "conviction_rejection_reasons": [
-          "filing antiguo (36 dias)",
+          "filing antiguo (37 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (36 dias)",
+          "filing antiguo (37 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -277,14 +277,14 @@
       "risk_reward_ratio": 8.342209135004337,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 82.9,
+      "opt_score": 82.5,
       "meta": {
         "insider_count": 4,
         "buy_count": 5,
         "total_value_usd": 2042980,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 6,
+        "stale_days": 7,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 4,
@@ -366,9 +366,9 @@
         "dollar_volume_20d": 259414106.09338084,
         "rsi14": 28.59653704142127,
         "volatility_20d": 0.601947566075802,
-        "conviction_score": 82.9,
+        "conviction_score": 82.5,
         "conviction_filing_date": "2026-09-17",
-        "conviction_filing_age_days": 5,
+        "conviction_filing_age_days": 6,
         "conviction_rejection_reasons": [
           "volatilidad 20d 60% > 60%",
           "rebote debil: RSI 28.6 bajo SMA20"
@@ -397,7 +397,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_NUEVO_INSIDER",
-      "reason": "Conviccion insider S&P 500: 2 insiders senior/materiales compraron 15,314,016 USD; filing 2026-09-10 (12 dias). | reentrada bloqueada: sin compras/filings insider posteriores al cierre 2026-09-15",
+      "reason": "Conviccion insider S&P 500: 2 insiders senior/materiales compraron 15,314,016 USD; filing 2026-09-10 (13 dias). | reentrada bloqueada: sin compras/filings insider posteriores al cierre 2026-09-15",
       "plan": "Entrada tras publicacion del Form 4/Dataroma; cerrar por tiempo a 5 sesiones si no toca stop/TP antes.",
       "last_close": 69.89,
       "entry_zone_low": 68.84165,
@@ -407,14 +407,14 @@
       "risk_reward_ratio": 5.999999999999989,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 82.7,
+      "opt_score": 82.3,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 15314016,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-10",
-        "stale_days": 12,
+        "stale_days": 13,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 2
@@ -467,9 +467,9 @@
         "dollar_volume_20d": 1355850001.0465643,
         "rsi14": 38.131603779173645,
         "volatility_20d": 0.2865825584421447,
-        "conviction_score": 82.7,
+        "conviction_score": 82.3,
         "conviction_filing_date": "2026-09-10",
-        "conviction_filing_age_days": 12,
+        "conviction_filing_age_days": 13,
         "conviction_rejection_reasons": [],
         "conviction_base_rejection_reasons": [],
         "technical_risk_rejection_reasons": [],
@@ -496,7 +496,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_NUEVO_INSIDER",
-      "reason": "Conviccion insider S&P 500: 1 insider senior compro 10,274,977 USD; filing 2026-09-16 (6 dias). | reentrada bloqueada: sin compras/filings insider posteriores al cierre 2026-09-18",
+      "reason": "Conviccion insider S&P 500: 1 insider senior compro 10,274,977 USD; filing 2026-09-16 (7 dias). | reentrada bloqueada: sin compras/filings insider posteriores al cierre 2026-09-18",
       "plan": "Entrada tras publicacion del Form 4/Dataroma; cerrar por tiempo a 5 sesiones si no toca stop/TP antes.",
       "last_close": 57.32,
       "entry_zone_low": 56.4602,
@@ -506,14 +506,14 @@
       "risk_reward_ratio": 6.000000000000006,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 82.6,
+      "opt_score": 82.2,
       "meta": {
         "insider_count": 1,
         "buy_count": 1,
         "total_value_usd": 10274977,
         "first_buy": "2026-09-15",
         "last_buy": "2026-09-15",
-        "stale_days": 6,
+        "stale_days": 7,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 1
@@ -552,11 +552,11 @@
         "above_sma50": true,
         "volume_ratio_20_60": 0.9962910434961593,
         "dollar_volume_20d": 77076074.14533077,
-        "rsi14": 45.918091223942966,
+        "rsi14": 45.918091223961014,
         "volatility_20d": 0.317830217357606,
-        "conviction_score": 82.6,
+        "conviction_score": 82.2,
         "conviction_filing_date": "2026-09-16",
-        "conviction_filing_age_days": 6,
+        "conviction_filing_age_days": 7,
         "conviction_rejection_reasons": [],
         "conviction_base_rejection_reasons": [],
         "technical_risk_rejection_reasons": [],
@@ -583,7 +583,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-12, demasiado antiguo (41 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (41 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (42 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (42 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 27.93,
       "entry_zone_low": 27.51105,
@@ -600,7 +600,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 41,
+        "stale_days": 42,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 3
@@ -665,17 +665,17 @@
         "above_sma50": true,
         "volume_ratio_20_60": 0.875480772094564,
         "dollar_volume_20d": 944882795.8774189,
-        "rsi14": 56.763016698327625,
+        "rsi14": 56.76301669576102,
         "volatility_20d": 0.1698421633280336,
         "conviction_score": 78.7,
         "conviction_filing_date": "2026-08-12",
-        "conviction_filing_age_days": 41,
+        "conviction_filing_age_days": 42,
         "conviction_rejection_reasons": [
-          "filing antiguo (41 dias)",
+          "filing antiguo (42 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (41 dias)",
+          "filing antiguo (42 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -698,7 +698,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Compra senior material de 2026-08-14, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (39 dias); accion base SENAL_CADUCADA; volatilidad 20d 69% > 60%",
+      "reason": "Compra senior material de 2026-08-14, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (40 dias); accion base SENAL_CADUCADA; volatilidad 20d 69% > 60%",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 123.86,
       "entry_zone_low": 122.0021,
@@ -715,7 +715,7 @@
         "total_value_usd": 9999985,
         "first_buy": "2026-08-11",
         "last_buy": "2026-08-11",
-        "stale_days": 39,
+        "stale_days": 40,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 1
@@ -758,14 +758,14 @@
         "volatility_20d": 0.6944546068447484,
         "conviction_score": 77,
         "conviction_filing_date": "2026-08-14",
-        "conviction_filing_age_days": 39,
+        "conviction_filing_age_days": 40,
         "conviction_rejection_reasons": [
-          "filing antiguo (39 dias)",
+          "filing antiguo (40 dias)",
           "accion base SENAL_CADUCADA",
           "volatilidad 20d 69% > 60%"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (39 dias)",
+          "filing antiguo (40 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [
@@ -790,7 +790,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "COMPRAR_LIMITADA",
-      "reason": "Conviccion insider S&P 500: 1 insider senior compro 1,015,577 USD; filing 2026-09-18 (4 dias).",
+      "reason": "Conviccion insider S&P 500: 1 insider senior compro 1,015,577 USD; filing 2026-09-18 (5 dias).",
       "plan": "Entrada tras publicacion del Form 4/Dataroma; cerrar por tiempo a 5 sesiones si no toca stop/TP antes.",
       "last_close": 48.07,
       "entry_zone_low": 47.34895,
@@ -800,14 +800,14 @@
       "risk_reward_ratio": 6.00000000000002,
       "size_pct": 0.1,
       "authorized": true,
-      "opt_score": 76.3,
+      "opt_score": 75.9,
       "meta": {
         "insider_count": 1,
         "buy_count": 1,
         "total_value_usd": 1015577,
         "first_buy": "2026-09-17",
         "last_buy": "2026-09-17",
-        "stale_days": 4,
+        "stale_days": 5,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 1
@@ -846,11 +846,11 @@
         "above_sma50": false,
         "volume_ratio_20_60": 1.0313959737704594,
         "dollar_volume_20d": 367277679.4477719,
-        "rsi14": 35.57860689032721,
+        "rsi14": 35.57860689023633,
         "volatility_20d": 0.23174617553390944,
-        "conviction_score": 76.3,
+        "conviction_score": 75.9,
         "conviction_filing_date": "2026-09-18",
-        "conviction_filing_age_days": 4,
+        "conviction_filing_age_days": 5,
         "conviction_rejection_reasons": [],
         "conviction_base_rejection_reasons": [],
         "technical_risk_rejection_reasons": [],
@@ -873,7 +873,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (84 dias > 15) | fuentes: SEC EDGAR 11 | filtro S&P 500: filing antiguo (83 dias); accion base SENAL_CADUCADA; rebote debil: RSI 39.8 bajo SMA20",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (85 dias > 15) | fuentes: SEC EDGAR 11 | filtro S&P 500: filing antiguo (84 dias); accion base SENAL_CADUCADA; rebote debil: RSI 39.8 bajo SMA20",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 205.95,
       "entry_zone_low": 202.86075,
@@ -890,7 +890,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 84,
+        "stale_days": 85,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 11
@@ -1067,18 +1067,18 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.9120412357146296,
         "dollar_volume_20d": 270501614.50384396,
-        "rsi14": 39.84158856762656,
+        "rsi14": 39.841588517947265,
         "volatility_20d": 0.1295582248615568,
         "conviction_score": 74.7,
         "conviction_filing_date": "2026-07-01",
-        "conviction_filing_age_days": 83,
+        "conviction_filing_age_days": 84,
         "conviction_rejection_reasons": [
-          "filing antiguo (83 dias)",
+          "filing antiguo (84 dias)",
           "accion base SENAL_CADUCADA",
           "rebote debil: RSI 39.8 bajo SMA20"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (83 dias)",
+          "filing antiguo (84 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [
@@ -1103,7 +1103,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-09-01, demasiado antiguo (21 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 2 | filtro S&P 500: accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-09-01, demasiado antiguo (22 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 2 | filtro S&P 500: filing antiguo (21 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 140.41,
       "entry_zone_low": 138.30384999999998,
@@ -1120,7 +1120,7 @@
         "total_value_usd": 1776960,
         "first_buy": "2026-08-24",
         "last_buy": "2026-09-01",
-        "stale_days": 21,
+        "stale_days": 22,
         "bootstrap_signal": false,
         "sources": {
           "dataroma": 1,
@@ -1172,15 +1172,17 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.9948227646976602,
         "dollar_volume_20d": 622685467.1341797,
-        "rsi14": 45.05632295944222,
+        "rsi14": 45.05632295166712,
         "volatility_20d": 0.33672775195580384,
         "conviction_score": 74.4,
         "conviction_filing_date": "2026-09-02",
-        "conviction_filing_age_days": 20,
+        "conviction_filing_age_days": 21,
         "conviction_rejection_reasons": [
+          "filing antiguo (21 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
+          "filing antiguo (21 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -1203,7 +1205,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (67 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: filing antiguo (67 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (68 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: filing antiguo (68 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 402.43,
       "entry_zone_low": 396.39355,
@@ -1220,7 +1222,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 67,
+        "stale_days": 68,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 2
@@ -1271,17 +1273,17 @@
         "above_sma50": true,
         "volume_ratio_20_60": 0.9170054352954773,
         "dollar_volume_20d": 467832106.1760429,
-        "rsi14": 48.39067819037704,
+        "rsi14": 48.3906781722899,
         "volatility_20d": 0.2866844568932924,
         "conviction_score": 73.5,
         "conviction_filing_date": "2026-07-17",
-        "conviction_filing_age_days": 67,
+        "conviction_filing_age_days": 68,
         "conviction_rejection_reasons": [
-          "filing antiguo (67 dias)",
+          "filing antiguo (68 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (67 dias)",
+          "filing antiguo (68 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -1304,7 +1306,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (49 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (48 dias); accion base SENAL_CADUCADA; rebote debil: RSI 44.0 bajo SMA20",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (50 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (49 dias); accion base SENAL_CADUCADA; rebote debil: RSI 44.0 bajo SMA20",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 32.84,
       "entry_zone_low": 32.3474,
@@ -1321,7 +1323,7 @@
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 49,
+        "stale_days": 50,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 3
@@ -1386,18 +1388,18 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.8750940598888417,
         "dollar_volume_20d": 300599981.20110786,
-        "rsi14": 43.99185775910168,
+        "rsi14": 43.99185775936199,
         "volatility_20d": 0.22956406889321945,
         "conviction_score": 73.4,
         "conviction_filing_date": "2026-08-05",
-        "conviction_filing_age_days": 48,
+        "conviction_filing_age_days": 49,
         "conviction_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA",
           "rebote debil: RSI 44.0 bajo SMA20"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [
@@ -1422,7 +1424,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-26, demasiado antiguo (27 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 1 | filtro S&P 500: filing antiguo (26 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-26, demasiado antiguo (28 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 1 | filtro S&P 500: filing antiguo (27 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 230.39,
       "entry_zone_low": 226.93415,
@@ -1439,7 +1441,7 @@
         "total_value_usd": 3012800,
         "first_buy": "2026-08-25",
         "last_buy": "2026-08-26",
-        "stale_days": 27,
+        "stale_days": 28,
         "bootstrap_signal": false,
         "sources": {
           "dataroma": 1,
@@ -1491,17 +1493,17 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.9361913725136369,
         "dollar_volume_20d": 638207252.935414,
-        "rsi14": 42.032137126336856,
+        "rsi14": 42.03213710340838,
         "volatility_20d": 0.15863348868378477,
         "conviction_score": 73.3,
         "conviction_filing_date": "2026-08-27",
-        "conviction_filing_age_days": 26,
+        "conviction_filing_age_days": 27,
         "conviction_rejection_reasons": [
-          "filing antiguo (26 dias)",
+          "filing antiguo (27 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (26 dias)",
+          "filing antiguo (27 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -1524,7 +1526,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Compra senior material de 2026-08-05, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (48 dias); accion base SENAL_CADUCADA",
+      "reason": "Compra senior material de 2026-08-05, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (49 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 28.77,
       "entry_zone_low": 28.338449999999998,
@@ -1541,7 +1543,7 @@
         "total_value_usd": 2489837,
         "first_buy": "2026-08-04",
         "last_buy": "2026-08-04",
-        "stale_days": 48,
+        "stale_days": 49,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 1
@@ -1584,13 +1586,13 @@
         "volatility_20d": 0.333687738488056,
         "conviction_score": 73.1,
         "conviction_filing_date": "2026-08-05",
-        "conviction_filing_age_days": 48,
+        "conviction_filing_age_days": 49,
         "conviction_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -1613,7 +1615,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_NUEVO_INSIDER",
-      "reason": "Conviccion insider S&P 500: 1 insider senior compro 1,001,617 USD; filing 2026-09-08 (14 dias). | reentrada bloqueada: sin compras/filings insider posteriores al cierre 2026-09-14",
+      "reason": "Conviccion insider S&P 500: 1 insider senior compro 1,001,617 USD; filing 2026-09-08 (15 dias). | reentrada bloqueada: sin compras/filings insider posteriores al cierre 2026-09-14",
       "plan": "Entrada tras publicacion del Form 4/Dataroma; cerrar por tiempo a 5 sesiones si no toca stop/TP antes.",
       "last_close": 51.82,
       "entry_zone_low": 51.042699999999996,
@@ -1623,14 +1625,14 @@
       "risk_reward_ratio": 6.0000000000000036,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 72.3,
+      "opt_score": 71.9,
       "meta": {
         "insider_count": 1,
         "buy_count": 1,
         "total_value_usd": 1001617,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-04",
-        "stale_days": 14,
+        "stale_days": 15,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 1
@@ -1669,11 +1671,11 @@
         "above_sma50": false,
         "volume_ratio_20_60": 1.1496100804286424,
         "dollar_volume_20d": 200666488.71558356,
-        "rsi14": 36.86910389486602,
+        "rsi14": 36.86910389484769,
         "volatility_20d": 0.3053238464532624,
-        "conviction_score": 72.3,
+        "conviction_score": 71.9,
         "conviction_filing_date": "2026-09-08",
-        "conviction_filing_age_days": 14,
+        "conviction_filing_age_days": 15,
         "conviction_rejection_reasons": [],
         "conviction_base_rejection_reasons": [],
         "technical_risk_rejection_reasons": [],
@@ -1702,7 +1704,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-25, demasiado antiguo (28 dias > 15) | fuentes: SEC EDGAR 5 | filtro S&P 500: filing antiguo (27 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-25, demasiado antiguo (29 dias > 15) | fuentes: SEC EDGAR 5 | filtro S&P 500: filing antiguo (28 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 44.92,
       "entry_zone_low": 44.2462,
@@ -1719,7 +1721,7 @@
         "total_value_usd": 9486038,
         "first_buy": "2026-07-31",
         "last_buy": "2026-08-25",
-        "stale_days": 28,
+        "stale_days": 29,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 5
@@ -1802,13 +1804,13 @@
         "volatility_20d": 0.4224659811571329,
         "conviction_score": 84.5,
         "conviction_filing_date": "2026-08-26",
-        "conviction_filing_age_days": 27,
+        "conviction_filing_age_days": 28,
         "conviction_rejection_reasons": [
-          "filing antiguo (27 dias)",
+          "filing antiguo (28 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (27 dias)",
+          "filing antiguo (28 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -1831,7 +1833,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (40 dias > 15) | fuentes: SEC EDGAR 4 | filtro S&P 500: filing antiguo (36 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (41 dias > 15) | fuentes: SEC EDGAR 4 | filtro S&P 500: filing antiguo (37 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 44.61,
       "entry_zone_low": 43.94085,
@@ -1848,7 +1850,7 @@
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 40,
+        "stale_days": 41,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 4
@@ -1931,13 +1933,13 @@
         "volatility_20d": 0.32794757979279826,
         "conviction_score": 84.5,
         "conviction_filing_date": "2026-08-17",
-        "conviction_filing_age_days": 36,
+        "conviction_filing_age_days": 37,
         "conviction_rejection_reasons": [
-          "filing antiguo (36 dias)",
+          "filing antiguo (37 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (36 dias)",
+          "filing antiguo (37 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -1970,14 +1972,14 @@
       "risk_reward_ratio": 8.342209135004337,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 82.9,
+      "opt_score": 82.5,
       "meta": {
         "insider_count": 4,
         "buy_count": 5,
         "total_value_usd": 2042980,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 6,
+        "stale_days": 7,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 4,
@@ -2059,9 +2061,9 @@
         "dollar_volume_20d": 259414106.09338084,
         "rsi14": 28.59653704142127,
         "volatility_20d": 0.601947566075802,
-        "conviction_score": 82.9,
+        "conviction_score": 82.5,
         "conviction_filing_date": "2026-09-17",
-        "conviction_filing_age_days": 5,
+        "conviction_filing_age_days": 6,
         "conviction_rejection_reasons": [
           "volatilidad 20d 60% > 60%",
           "rebote debil: RSI 28.6 bajo SMA20"
@@ -2090,7 +2092,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-12, demasiado antiguo (41 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (41 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (42 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (42 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 27.93,
       "entry_zone_low": 27.51105,
@@ -2107,7 +2109,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 41,
+        "stale_days": 42,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 3
@@ -2172,17 +2174,17 @@
         "above_sma50": true,
         "volume_ratio_20_60": 0.875480772094564,
         "dollar_volume_20d": 944882795.8774189,
-        "rsi14": 56.763016698327625,
+        "rsi14": 56.76301669576102,
         "volatility_20d": 0.1698421633280336,
         "conviction_score": 78.7,
         "conviction_filing_date": "2026-08-12",
-        "conviction_filing_age_days": 41,
+        "conviction_filing_age_days": 42,
         "conviction_rejection_reasons": [
-          "filing antiguo (41 dias)",
+          "filing antiguo (42 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (41 dias)",
+          "filing antiguo (42 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -2205,7 +2207,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Compra senior material de 2026-08-14, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (39 dias); accion base SENAL_CADUCADA; volatilidad 20d 69% > 60%",
+      "reason": "Compra senior material de 2026-08-14, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (40 dias); accion base SENAL_CADUCADA; volatilidad 20d 69% > 60%",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 123.86,
       "entry_zone_low": 122.0021,
@@ -2222,7 +2224,7 @@
         "total_value_usd": 9999985,
         "first_buy": "2026-08-11",
         "last_buy": "2026-08-11",
-        "stale_days": 39,
+        "stale_days": 40,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 1
@@ -2265,14 +2267,14 @@
         "volatility_20d": 0.6944546068447484,
         "conviction_score": 77,
         "conviction_filing_date": "2026-08-14",
-        "conviction_filing_age_days": 39,
+        "conviction_filing_age_days": 40,
         "conviction_rejection_reasons": [
-          "filing antiguo (39 dias)",
+          "filing antiguo (40 dias)",
           "accion base SENAL_CADUCADA",
           "volatilidad 20d 69% > 60%"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (39 dias)",
+          "filing antiguo (40 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [
@@ -2297,7 +2299,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (84 dias > 15) | fuentes: SEC EDGAR 11 | filtro S&P 500: filing antiguo (83 dias); accion base SENAL_CADUCADA; rebote debil: RSI 39.8 bajo SMA20",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (85 dias > 15) | fuentes: SEC EDGAR 11 | filtro S&P 500: filing antiguo (84 dias); accion base SENAL_CADUCADA; rebote debil: RSI 39.8 bajo SMA20",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 205.95,
       "entry_zone_low": 202.86075,
@@ -2314,7 +2316,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 84,
+        "stale_days": 85,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 11
@@ -2491,18 +2493,18 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.9120412357146296,
         "dollar_volume_20d": 270501614.50384396,
-        "rsi14": 39.84158856762656,
+        "rsi14": 39.841588517947265,
         "volatility_20d": 0.1295582248615568,
         "conviction_score": 74.7,
         "conviction_filing_date": "2026-07-01",
-        "conviction_filing_age_days": 83,
+        "conviction_filing_age_days": 84,
         "conviction_rejection_reasons": [
-          "filing antiguo (83 dias)",
+          "filing antiguo (84 dias)",
           "accion base SENAL_CADUCADA",
           "rebote debil: RSI 39.8 bajo SMA20"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (83 dias)",
+          "filing antiguo (84 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [
@@ -2527,7 +2529,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-09-01, demasiado antiguo (21 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 2 | filtro S&P 500: accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-09-01, demasiado antiguo (22 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 2 | filtro S&P 500: filing antiguo (21 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 140.41,
       "entry_zone_low": 138.30384999999998,
@@ -2544,7 +2546,7 @@
         "total_value_usd": 1776960,
         "first_buy": "2026-08-24",
         "last_buy": "2026-09-01",
-        "stale_days": 21,
+        "stale_days": 22,
         "bootstrap_signal": false,
         "sources": {
           "dataroma": 1,
@@ -2596,15 +2598,17 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.9948227646976602,
         "dollar_volume_20d": 622685467.1341797,
-        "rsi14": 45.05632295944222,
+        "rsi14": 45.05632295166712,
         "volatility_20d": 0.33672775195580384,
         "conviction_score": 74.4,
         "conviction_filing_date": "2026-09-02",
-        "conviction_filing_age_days": 20,
+        "conviction_filing_age_days": 21,
         "conviction_rejection_reasons": [
+          "filing antiguo (21 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
+          "filing antiguo (21 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -2627,7 +2631,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (67 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: filing antiguo (67 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (68 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: filing antiguo (68 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 402.43,
       "entry_zone_low": 396.39355,
@@ -2644,7 +2648,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 67,
+        "stale_days": 68,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 2
@@ -2695,17 +2699,17 @@
         "above_sma50": true,
         "volume_ratio_20_60": 0.9170054352954773,
         "dollar_volume_20d": 467832106.1760429,
-        "rsi14": 48.39067819037704,
+        "rsi14": 48.3906781722899,
         "volatility_20d": 0.2866844568932924,
         "conviction_score": 73.5,
         "conviction_filing_date": "2026-07-17",
-        "conviction_filing_age_days": 67,
+        "conviction_filing_age_days": 68,
         "conviction_rejection_reasons": [
-          "filing antiguo (67 dias)",
+          "filing antiguo (68 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (67 dias)",
+          "filing antiguo (68 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -2728,7 +2732,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (49 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (48 dias); accion base SENAL_CADUCADA; rebote debil: RSI 44.0 bajo SMA20",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (50 dias > 15) | fuentes: SEC EDGAR 3 | filtro S&P 500: filing antiguo (49 dias); accion base SENAL_CADUCADA; rebote debil: RSI 44.0 bajo SMA20",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 32.84,
       "entry_zone_low": 32.3474,
@@ -2745,7 +2749,7 @@
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 49,
+        "stale_days": 50,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 3
@@ -2810,18 +2814,18 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.8750940598888417,
         "dollar_volume_20d": 300599981.20110786,
-        "rsi14": 43.99185775910168,
+        "rsi14": 43.99185775936199,
         "volatility_20d": 0.22956406889321945,
         "conviction_score": 73.4,
         "conviction_filing_date": "2026-08-05",
-        "conviction_filing_age_days": 48,
+        "conviction_filing_age_days": 49,
         "conviction_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA",
           "rebote debil: RSI 44.0 bajo SMA20"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [
@@ -2846,7 +2850,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Cluster de 2026-08-26, demasiado antiguo (27 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 1 | filtro S&P 500: filing antiguo (26 dias); accion base SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-26, demasiado antiguo (28 dias > 15) | fuentes: Dataroma 1 + SEC EDGAR 1 | filtro S&P 500: filing antiguo (27 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 230.39,
       "entry_zone_low": 226.93415,
@@ -2863,7 +2867,7 @@
         "total_value_usd": 3012800,
         "first_buy": "2026-08-25",
         "last_buy": "2026-08-26",
-        "stale_days": 27,
+        "stale_days": 28,
         "bootstrap_signal": false,
         "sources": {
           "dataroma": 1,
@@ -2915,17 +2919,17 @@
         "above_sma50": false,
         "volume_ratio_20_60": 0.9361913725136369,
         "dollar_volume_20d": 638207252.935414,
-        "rsi14": 42.032137126336856,
+        "rsi14": 42.03213710340838,
         "volatility_20d": 0.15863348868378477,
         "conviction_score": 73.3,
         "conviction_filing_date": "2026-08-27",
-        "conviction_filing_age_days": 26,
+        "conviction_filing_age_days": 27,
         "conviction_rejection_reasons": [
-          "filing antiguo (26 dias)",
+          "filing antiguo (27 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (26 dias)",
+          "filing antiguo (27 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -2948,7 +2952,7 @@
       "strategy": "chatgpt_sp500",
       "family": "INSIDER_CONVICTION",
       "action": "ESPERAR_FILTRO_CONVICCION",
-      "reason": "Compra senior material de 2026-08-05, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (48 dias); accion base SENAL_CADUCADA",
+      "reason": "Compra senior material de 2026-08-05, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: filing antiguo (49 dias); accion base SENAL_CADUCADA",
       "plan": "Solo seguimiento hasta cumplir conviccion, frescura e importe.",
       "last_close": 28.77,
       "entry_zone_low": 28.338449999999998,
@@ -2965,7 +2969,7 @@
         "total_value_usd": 2489837,
         "first_buy": "2026-08-04",
         "last_buy": "2026-08-04",
-        "stale_days": 48,
+        "stale_days": 49,
         "bootstrap_signal": false,
         "sources": {
           "sec_edgar": 1
@@ -3008,13 +3012,13 @@
         "volatility_20d": 0.333687738488056,
         "conviction_score": 73.1,
         "conviction_filing_date": "2026-08-05",
-        "conviction_filing_age_days": 48,
+        "conviction_filing_age_days": 49,
         "conviction_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "conviction_base_rejection_reasons": [
-          "filing antiguo (48 dias)",
+          "filing antiguo (49 dias)",
           "accion base SENAL_CADUCADA"
         ],
         "technical_risk_rejection_reasons": [],
@@ -3039,13 +3043,13 @@
     "nyse_count": null,
     "universe_overlap_count": null,
     "scanned_universe_count": 503,
-    "elapsed_ms": 7853,
+    "elapsed_ms": 7270,
     "cache_only": true,
     "bootstrap_signals": false,
-    "companies_with_sec_buys": 62,
+    "companies_with_sec_buys": 59,
     "companies_with_dataroma_buys": 32,
     "companies_with_dataroma_flow": 75,
-    "companies_with_buys": 64,
+    "companies_with_buys": 61,
     "clusters_found": 10,
     "dataroma_flow_candidates": 0,
     "standalone_senior_candidates": 12,
@@ -3058,20 +3062,20 @@
     "filings_fetched": 0,
     "missing_cik": 0,
     "scanned": 0,
-    "accessions_cached": 5924,
-    "buy_rows_cached": 92,
-    "tickers_with_cached_buys": 62,
+    "accessions_cached": 5898,
+    "buy_rows_cached": 89,
+    "tickers_with_cached_buys": 59,
     "dataroma_url": "https://dataroma.com/m/ins/ins.php",
     "dataroma_timeframe": "y",
-    "dataroma_since_date": "2026-06-24",
+    "dataroma_since_date": "2026-06-25",
     "dataroma_pages_fetched": 25,
-    "dataroma_rows_raw": 2408,
+    "dataroma_rows_raw": 2406,
     "dataroma_rows_after_filters": 168,
     "dataroma_pages": [
       {
         "page": 1,
         "url": "https://dataroma.com/m/ins/ins.php?L=1&t=y&po=1",
-        "raw_rows": 89,
+        "raw_rows": 87,
         "rows_after_filters": 17,
         "newest": "2026-09-22",
         "oldest": "2026-09-14"
@@ -3088,7 +3092,7 @@
         "page": 3,
         "url": "https://dataroma.com/m/ins/ins.php?L=3&t=y&po=1",
         "raw_rows": 96,
-        "rows_after_filters": 5,
+        "rows_after_filters": 4,
         "newest": "2026-09-18",
         "oldest": "2026-05-20"
       },
@@ -3096,7 +3100,7 @@
         "page": 4,
         "url": "https://dataroma.com/m/ins/ins.php?L=4&t=y&po=1",
         "raw_rows": 97,
-        "rows_after_filters": 2,
+        "rows_after_filters": 3,
         "newest": "2026-09-16",
         "oldest": "2026-03-19"
       },
@@ -3130,21 +3134,21 @@
         "raw_rows": 97,
         "rows_after_filters": 8,
         "newest": "2026-09-10",
-        "oldest": "2026-08-19"
+        "oldest": "2026-08-08"
       },
       {
         "page": 9,
         "url": "https://dataroma.com/m/ins/ins.php?L=9&t=y&po=1",
         "raw_rows": 97,
-        "rows_after_filters": 3,
+        "rows_after_filters": 2,
         "newest": "2026-09-10",
         "oldest": "2026-07-16"
       },
       {
         "page": 10,
         "url": "https://dataroma.com/m/ins/ins.php?L=10&t=y&po=1",
-        "raw_rows": 98,
-        "rows_after_filters": 0,
+        "raw_rows": 99,
+        "rows_after_filters": 1,
         "newest": "2026-09-08",
         "oldest": "2024-03-15"
       },
@@ -3154,21 +3158,21 @@
         "raw_rows": 99,
         "rows_after_filters": 13,
         "newest": "2026-09-08",
-        "oldest": "2018-12-07"
+        "oldest": "2026-06-22"
       },
       {
         "page": 12,
         "url": "https://dataroma.com/m/ins/ins.php?L=12&t=y&po=1",
-        "raw_rows": 87,
-        "rows_after_filters": 16,
+        "raw_rows": 86,
+        "rows_after_filters": 15,
         "newest": "2026-09-03",
-        "oldest": "2026-07-02"
+        "oldest": "2018-12-07"
       },
       {
         "page": 13,
         "url": "https://dataroma.com/m/ins/ins.php?L=13&t=y&po=1",
         "raw_rows": 99,
-        "rows_after_filters": 2,
+        "rows_after_filters": 3,
         "newest": "2026-09-02",
         "oldest": "2018-12-07"
       },
@@ -3176,31 +3180,31 @@
         "page": 14,
         "url": "https://dataroma.com/m/ins/ins.php?L=14&t=y&po=1",
         "raw_rows": 95,
-        "rows_after_filters": 10,
+        "rows_after_filters": 9,
         "newest": "2026-09-01",
-        "oldest": "2026-05-28"
+        "oldest": "2025-10-24"
       },
       {
         "page": 15,
         "url": "https://dataroma.com/m/ins/ins.php?L=15&t=y&po=1",
         "raw_rows": 99,
-        "rows_after_filters": 4,
+        "rows_after_filters": 5,
         "newest": "2026-08-31",
         "oldest": "2025-05-23"
       },
       {
         "page": 16,
         "url": "https://dataroma.com/m/ins/ins.php?L=16&t=y&po=1",
-        "raw_rows": 95,
-        "rows_after_filters": 7,
+        "raw_rows": 96,
+        "rows_after_filters": 6,
         "newest": "2026-08-30",
         "oldest": "2006-08-28"
       },
       {
         "page": 17,
         "url": "https://dataroma.com/m/ins/ins.php?L=17&t=y&po=1",
-        "raw_rows": 96,
-        "rows_after_filters": 6,
+        "raw_rows": 95,
+        "rows_after_filters": 7,
         "newest": "2026-08-27",
         "oldest": "2026-05-15"
       },
@@ -3218,7 +3222,7 @@
         "raw_rows": 98,
         "rows_after_filters": 2,
         "newest": "2026-08-25",
-        "oldest": "2026-06-12"
+        "oldest": "2026-08-14"
       },
       {
         "page": 20,
@@ -3231,7 +3235,7 @@
       {
         "page": 21,
         "url": "https://dataroma.com/m/ins/ins.php?L=21&t=y&po=1",
-        "raw_rows": 95,
+        "raw_rows": 97,
         "rows_after_filters": 1,
         "newest": "2026-08-21",
         "oldest": "2026-04-10"
@@ -3239,7 +3243,7 @@
       {
         "page": 22,
         "url": "https://dataroma.com/m/ins/ins.php?L=22&t=y&po=1",
-        "raw_rows": 99,
+        "raw_rows": 98,
         "rows_after_filters": 13,
         "newest": "2026-08-20",
         "oldest": "2026-08-17"
@@ -3247,9 +3251,9 @@
       {
         "page": 23,
         "url": "https://dataroma.com/m/ins/ins.php?L=23&t=y&po=1",
-        "raw_rows": 97,
+        "raw_rows": 96,
         "rows_after_filters": 3,
-        "newest": "2026-08-19",
+        "newest": "2026-08-20",
         "oldest": "2026-06-05"
       },
       {
@@ -3272,16 +3276,26 @@
     "dataroma_flow_url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d",
     "dataroma_flow_latest_filing_date": "2026-09-22",
     "dataroma_flow_pages_fetched": 25,
-    "dataroma_flow_rows_raw": 2345,
-    "dataroma_flow_rows_after_filters": 809,
+    "dataroma_flow_rows_raw": 2432,
+    "dataroma_flow_rows_after_filters": 851,
     "dataroma_flow_purchase_rows": 27,
-    "dataroma_flow_sale_rows": 782,
+    "dataroma_flow_sale_rows": 824,
     "dataroma_flow_purchase_value_usd": 225238218,
-    "dataroma_flow_sale_value_usd": 3163065703,
+    "dataroma_flow_sale_value_usd": 3204611718,
     "dataroma_flow_pages": [
       {
         "page": 1,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d",
+        "raw_rows": 98,
+        "rows_after_filters": 42,
+        "newest_filing": "2026-09-22",
+        "oldest_filing": "2026-09-22",
+        "newest_transaction": "2026-09-22",
+        "oldest_transaction": "2026-09-16"
+      },
+      {
+        "page": 2,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=2",
         "raw_rows": 100,
         "rows_after_filters": 36,
         "newest_filing": "2026-09-22",
@@ -3290,30 +3304,20 @@
         "oldest_transaction": "2026-09-15"
       },
       {
-        "page": 2,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=2",
+        "page": 3,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=3",
         "raw_rows": 89,
-        "rows_after_filters": 6,
+        "rows_after_filters": 17,
         "newest_filing": "2026-09-22",
         "oldest_filing": "2026-09-21",
         "newest_transaction": "2026-09-22",
         "oldest_transaction": "2026-09-03"
       },
       {
-        "page": 3,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=3",
-        "raw_rows": 100,
-        "rows_after_filters": 52,
-        "newest_filing": "2026-09-21",
-        "oldest_filing": "2026-09-21",
-        "newest_transaction": "2026-09-21",
-        "oldest_transaction": "2026-06-05"
-      },
-      {
         "page": 4,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=4",
         "raw_rows": 100,
-        "rows_after_filters": 16,
+        "rows_after_filters": 53,
         "newest_filing": "2026-09-21",
         "oldest_filing": "2026-09-21",
         "newest_transaction": "2026-09-21",
@@ -3323,107 +3327,107 @@
         "page": 5,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=5",
         "raw_rows": 100,
-        "rows_after_filters": 75,
+        "rows_after_filters": 4,
         "newest_filing": "2026-09-21",
         "oldest_filing": "2026-09-21",
-        "newest_transaction": "2026-09-18",
-        "oldest_transaction": "2025-09-12"
+        "newest_transaction": "2026-09-21",
+        "oldest_transaction": "2026-06-15"
       },
       {
         "page": 6,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=6",
         "raw_rows": 100,
-        "rows_after_filters": 31,
+        "rows_after_filters": 76,
+        "newest_filing": "2026-09-21",
+        "oldest_filing": "2026-09-21",
+        "newest_transaction": "2026-09-21",
+        "oldest_transaction": "2025-09-12"
+      },
+      {
+        "page": 7,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=7",
+        "raw_rows": 100,
+        "rows_after_filters": 30,
         "newest_filing": "2026-09-21",
         "oldest_filing": "2026-09-21",
         "newest_transaction": "2026-09-21",
         "oldest_transaction": "2026-09-10"
       },
       {
-        "page": 7,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=7",
+        "page": 8,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=8",
         "raw_rows": 100,
-        "rows_after_filters": 25,
+        "rows_after_filters": 30,
         "newest_filing": "2026-09-21",
         "oldest_filing": "2026-09-18",
         "newest_transaction": "2026-09-18",
         "oldest_transaction": "2026-09-09"
       },
       {
-        "page": 8,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=8",
+        "page": 9,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=9",
         "raw_rows": 99,
-        "rows_after_filters": 20,
+        "rows_after_filters": 21,
         "newest_filing": "2026-09-18",
         "oldest_filing": "2026-09-18",
         "newest_transaction": "2026-09-18",
         "oldest_transaction": "2026-08-07"
       },
       {
-        "page": 9,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=9",
-        "raw_rows": 100,
-        "rows_after_filters": 73,
+        "page": 10,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=10",
+        "raw_rows": 99,
+        "rows_after_filters": 70,
         "newest_filing": "2026-09-18",
         "oldest_filing": "2026-09-18",
         "newest_transaction": "2026-09-18",
         "oldest_transaction": "2026-09-16"
       },
       {
-        "page": 10,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=10",
+        "page": 11,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=11",
         "raw_rows": 99,
-        "rows_after_filters": 8,
+        "rows_after_filters": 6,
         "newest_filing": "2026-09-18",
         "oldest_filing": "2026-09-18",
         "newest_transaction": "2026-09-18",
         "oldest_transaction": "2026-05-20"
       },
       {
-        "page": 11,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=11",
+        "page": 12,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=12",
         "raw_rows": 100,
-        "rows_after_filters": 23,
+        "rows_after_filters": 34,
         "newest_filing": "2026-09-18",
         "oldest_filing": "2026-09-17",
         "newest_transaction": "2026-09-17",
         "oldest_transaction": "2026-09-03"
       },
       {
-        "page": 12,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=12",
+        "page": 13,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=13",
         "raw_rows": 99,
-        "rows_after_filters": 33,
+        "rows_after_filters": 30,
         "newest_filing": "2026-09-17",
         "oldest_filing": "2026-09-17",
         "newest_transaction": "2026-09-17",
         "oldest_transaction": "2025-09-15"
       },
       {
-        "page": 13,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=13",
+        "page": 14,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=14",
         "raw_rows": 100,
-        "rows_after_filters": 76,
+        "rows_after_filters": 72,
         "newest_filing": "2026-09-17",
         "oldest_filing": "2026-09-17",
         "newest_transaction": "2026-09-17",
         "oldest_transaction": "2026-08-03"
       },
       {
-        "page": 14,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=14",
-        "raw_rows": 98,
-        "rows_after_filters": 35,
-        "newest_filing": "2026-09-17",
-        "oldest_filing": "2026-09-17",
-        "newest_transaction": "2026-09-17",
-        "oldest_transaction": "2026-09-15"
-      },
-      {
         "page": 15,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=15",
-        "raw_rows": 99,
-        "rows_after_filters": 23,
+        "raw_rows": 98,
+        "rows_after_filters": 31,
         "newest_filing": "2026-09-17",
         "oldest_filing": "2026-09-17",
         "newest_transaction": "2026-09-17",
@@ -3432,6 +3436,16 @@
       {
         "page": 16,
         "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=16",
+        "raw_rows": 99,
+        "rows_after_filters": 22,
+        "newest_filing": "2026-09-17",
+        "oldest_filing": "2026-09-17",
+        "newest_transaction": "2026-09-17",
+        "oldest_transaction": "2026-09-15"
+      },
+      {
+        "page": 17,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=17",
         "raw_rows": 97,
         "rows_after_filters": 8,
         "newest_filing": "2026-09-17",
@@ -3440,9 +3454,9 @@
         "oldest_transaction": "2026-08-05"
       },
       {
-        "page": 17,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=17",
-        "raw_rows": 100,
+        "page": 18,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=18",
+        "raw_rows": 95,
         "rows_after_filters": 1,
         "newest_filing": "2026-09-17",
         "oldest_filing": "2026-09-16",
@@ -3450,18 +3464,18 @@
         "oldest_transaction": "2026-08-14"
       },
       {
-        "page": 18,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=18",
-        "raw_rows": 90,
-        "rows_after_filters": 14,
+        "page": 19,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=19",
+        "raw_rows": 99,
+        "rows_after_filters": 24,
         "newest_filing": "2026-09-16",
         "oldest_filing": "2026-09-16",
         "newest_transaction": "2026-09-16",
         "oldest_transaction": "2026-02-17"
       },
       {
-        "page": 19,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=19",
+        "page": 20,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=20",
         "raw_rows": 99,
         "rows_after_filters": 25,
         "newest_filing": "2026-09-16",
@@ -3470,18 +3484,18 @@
         "oldest_transaction": "2026-03-19"
       },
       {
-        "page": 20,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=20",
+        "page": 21,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=21",
         "raw_rows": 100,
-        "rows_after_filters": 67,
+        "rows_after_filters": 71,
         "newest_filing": "2026-09-16",
         "oldest_filing": "2026-09-16",
         "newest_transaction": "2026-09-16",
         "oldest_transaction": "2026-09-14"
       },
       {
-        "page": 21,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=21",
+        "page": 22,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=22",
         "raw_rows": 100,
         "rows_after_filters": 81,
         "newest_filing": "2026-09-16",
@@ -3490,8 +3504,8 @@
         "oldest_transaction": "2026-09-14"
       },
       {
-        "page": 22,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=22",
+        "page": 23,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=23",
         "raw_rows": 96,
         "rows_after_filters": 40,
         "newest_filing": "2026-09-16",
@@ -3500,37 +3514,27 @@
         "oldest_transaction": "2026-08-12"
       },
       {
-        "page": 23,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=23",
+        "page": 24,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=24",
         "raw_rows": 100,
-        "rows_after_filters": 30,
+        "rows_after_filters": 17,
         "newest_filing": "2026-09-16",
         "oldest_filing": "2026-09-16",
         "newest_transaction": "2026-09-15",
         "oldest_transaction": "2026-09-11"
       },
       {
-        "page": 24,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=24",
-        "raw_rows": 80,
-        "rows_after_filters": 11,
+        "page": 25,
+        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=25",
+        "raw_rows": 66,
+        "rows_after_filters": 10,
         "newest_filing": "2026-09-16",
         "oldest_filing": "2026-09-16",
         "newest_transaction": "2026-09-16",
         "oldest_transaction": "2026-09-02"
-      },
-      {
-        "page": 25,
-        "url": "https://www.dataroma.com/m/ins/ins.php?t=w&am=0&sym=&o=fd&d=d&L=25",
-        "raw_rows": 0,
-        "rows_after_filters": 0,
-        "newest_filing": null,
-        "oldest_filing": null,
-        "newest_transaction": null,
-        "oldest_transaction": null
       }
     ],
-    "sec_buy_rows": 92,
+    "sec_buy_rows": 89,
     "dataroma_buy_rows_added": 117,
     "dataroma_duplicates": 51,
     "candidates_total": 15,
