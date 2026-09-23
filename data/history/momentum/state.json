@@ -1,35 +1,10 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-09-23T11:22:10.744Z",
+  "updated_at": "2026-09-23T16:44:12.702Z",
   "initial_equity": 100000,
-  "cash": 58155.65104551226,
+  "cash": 63232.14214477113,
   "positions": [
-    {
-      "ticker": "BBY",
-      "name": "Best Buy",
-      "sector": "Consumer Discretionary",
-      "family": "BREAKOUT_CONTINUATION",
-      "entry_date": "2026-09-11",
-      "entry_price": 90.79,
-      "qty": 54.139198,
-      "cost_basis": 4917.76,
-      "stop_price": 87.9281,
-      "target_price": 96.2276,
-      "last_price": 94.82,
-      "last_marked_date": "2026-09-22",
-      "unrealized_pnl": 215.72,
-      "unrealized_pct": 0.044388,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 6,
-        "rsi14": 60.195217,
-        "macd_hist": 0.413589,
-        "macd_hist_slope": 0.129785
-      }
-    },
     {
       "ticker": "TMO",
       "name": "Thermo Fisher Scientific",
@@ -41,10 +16,10 @@
       "cost_basis": 5887.02,
       "stop_price": 629.4866,
       "target_price": 683.2391,
-      "last_price": 658.52,
-      "last_marked_date": "2026-09-22",
-      "unrealized_pnl": 96.09,
-      "unrealized_pct": 0.016831,
+      "last_price": 659.135,
+      "last_marked_date": "2026-09-23",
+      "unrealized_pnl": 101.68,
+      "unrealized_pct": 0.01778,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -53,31 +28,6 @@
         "rsi14": 69.2048,
         "macd_hist": 0.336327,
         "macd_hist_slope": 1.816701
-      }
-    },
-    {
-      "ticker": "VRSN",
-      "name": "Verisign",
-      "sector": "Information Technology",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-09-17",
-      "entry_price": 302.81,
-      "qty": 19.492857,
-      "cost_basis": 5905.58,
-      "stop_price": 294.3313,
-      "target_price": 319.4645,
-      "last_price": 299.42,
-      "last_marked_date": "2026-09-22",
-      "unrealized_pnl": -69.03,
-      "unrealized_pct": -0.011195,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 34,
-        "rsi14": 63.609901,
-        "macd_hist": 0.966308,
-        "macd_hist_slope": 0.321878
       }
     },
     {
@@ -91,10 +41,10 @@
       "cost_basis": 5867.26,
       "stop_price": 29.7747,
       "target_price": 32.3565,
-      "last_price": 30.83,
-      "last_marked_date": "2026-09-22",
-      "unrealized_pnl": 28.63,
-      "unrealized_pct": 0.005381,
+      "last_price": 30.75,
+      "last_marked_date": "2026-09-23",
+      "unrealized_pnl": 13.33,
+      "unrealized_pct": 0.002772,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -116,10 +66,10 @@
       "cost_basis": 5865.2,
       "stop_price": 436.0102,
       "target_price": 476.8705,
-      "last_price": 453.33,
-      "last_marked_date": "2026-09-22",
-      "unrealized_pnl": 39.14,
-      "unrealized_pct": 0.007176,
+      "last_price": 455.77,
+      "last_marked_date": "2026-09-23",
+      "unrealized_pnl": 70.92,
+      "unrealized_pct": 0.012597,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -141,10 +91,10 @@
       "cost_basis": 5859.93,
       "stop_price": 1452.6346,
       "target_price": 1576.6764,
-      "last_price": 1490.76,
-      "last_marked_date": "2026-09-22",
-      "unrealized_pnl": -17.51,
-      "unrealized_pct": -0.002489,
+      "last_price": 1497.455,
+      "last_marked_date": "2026-09-23",
+      "unrealized_pnl": 8.73,
+      "unrealized_pct": 0.001991,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -166,10 +116,10 @@
       "cost_basis": 4883.27,
       "stop_price": 714.2589,
       "target_price": 792.4316,
-      "last_price": 736.595,
-      "last_marked_date": "2026-09-22",
-      "unrealized_pnl": -32.86,
-      "unrealized_pct": -0.006233,
+      "last_price": 756.28,
+      "last_marked_date": "2026-09-23",
+      "unrealized_pnl": 96.76,
+      "unrealized_pct": 0.020325,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -178,6 +128,31 @@
         "rsi14": 77.859243,
         "macd_hist": 12.098826,
         "macd_hist_slope": 1.201187
+      }
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-23",
+      "entry_price": 711.915,
+      "qty": 8.234337,
+      "cost_basis": 5865.08,
+      "stop_price": 691.9814,
+      "target_price": 751.0703,
+      "last_price": 711.915,
+      "last_marked_date": "2026-09-23",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 21,
+        "rsi14": 68.394313,
+        "macd_hist": 0.452666,
+        "macd_hist_slope": 1.495836
       }
     }
   ],
@@ -753,6 +728,58 @@
         "macd_hist": 0.351433,
         "macd_hist_slope": -0.005437
       }
+    },
+    {
+      "ticker": "BBY",
+      "name": "Best Buy",
+      "sector": "Consumer Discretionary",
+      "family": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-09-11",
+      "entry_price": 90.79,
+      "exit_date": "2026-09-23",
+      "exit_price": 96.2276,
+      "exit_reason": "OBJETIVO",
+      "qty": 54.139198,
+      "cost_basis": 4917.76,
+      "proceeds": 5207.08,
+      "pnl": 289.32,
+      "pnl_pct": 0.058832,
+      "r_multiple": 1.9,
+      "hold_days": 12,
+      "stop_price": 87.9281,
+      "target_price": 96.2276,
+      "signal_meta": {
+        "rank_today": 6,
+        "rsi14": 60.195217,
+        "macd_hist": 0.413589,
+        "macd_hist_slope": 0.129785
+      }
+    },
+    {
+      "ticker": "VRSN",
+      "name": "Verisign",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-17",
+      "entry_price": 302.81,
+      "exit_date": "2026-09-23",
+      "exit_price": 294.3313,
+      "exit_reason": "STOP",
+      "qty": 19.492857,
+      "cost_basis": 5905.58,
+      "proceeds": 5734.49,
+      "pnl": -171.09,
+      "pnl_pct": -0.028971,
+      "r_multiple": -1,
+      "hold_days": 6,
+      "stop_price": 294.3313,
+      "target_price": 319.4645,
+      "signal_meta": {
+        "rank_today": 34,
+        "rsi14": 63.609901,
+        "macd_hist": 0.966308,
+        "macd_hist_slope": 0.321878
+      }
     }
   ],
   "equity_curve": [
@@ -947,8 +974,14 @@
       "equity": 97601.84,
       "cash": 58155.65,
       "open_positions": 7
+    },
+    {
+      "date": "2026-09-23",
+      "equity": 97748.38,
+      "cash": 63232.14,
+      "open_positions": 6
     }
   ],
-  "tracked_days": 32,
-  "last_market_date": "2026-09-22"
+  "tracked_days": 33,
+  "last_market_date": "2026-09-23"
 }
