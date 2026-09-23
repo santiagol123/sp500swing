@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-23T00:15:19.879Z",
+  "computed_at": "2026-09-23T05:48:29.305Z",
   "market_date": "2026-09-22",
   "signals": [
     {
@@ -966,7 +966,7 @@
         "sector": "Industrials",
         "rank_today": 43,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.745145,
+        "score": 0.744671,
         "price": 442.49,
         "ret_1w": 0.12765,
         "ret_1m": 0.055558,
