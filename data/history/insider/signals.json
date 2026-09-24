@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-23T23:35:53.345Z",
+  "computed_at": "2026-09-24T04:32:44.188Z",
   "market_date": "2026-09-23",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (41 dias > 15)",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (42 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 45.17,
       "entry_zone_low": 44.49245,
@@ -26,7 +26,7 @@
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 41,
+        "stale_days": 42,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -97,7 +97,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-25, demasiado antiguo (29 dias > 15)",
+      "reason": "Cluster de 2026-08-25, demasiado antiguo (30 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 44.62,
       "entry_zone_low": 43.9507,
@@ -114,7 +114,7 @@
         "total_value_usd": 9486038,
         "first_buy": "2026-07-31",
         "last_buy": "2026-08-25",
-        "stale_days": 29,
+        "stale_days": 30,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -179,87 +179,13 @@
       }
     },
     {
-      "ticker": "COO",
-      "name": "Cooper Companies (The)",
-      "sector": "Health Care",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "3 insiders compraron 1,880,110 USD entre 2026-09-11 y 2026-09-16",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 56.07,
-      "entry_zone_low": 55.22895,
-      "entry_zone_high": 57.1914,
-      "invalid_below_price": 51.28667262210016,
-      "target_price": 65.63665475579967,
-      "risk_reward_ratio": 1.9999999999999993,
-      "size_pct": 0.05,
-      "authorized": true,
-      "opt_score": 60.2,
-      "meta": {
-        "insider_count": 3,
-        "buy_count": 4,
-        "total_value_usd": 1880110,
-        "first_buy": "2026-09-11",
-        "last_buy": "2026-09-16",
-        "stale_days": 7,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Kurzius Lawrence Erik",
-            "title": "Director",
-            "shares": 10000,
-            "value_usd": 539150,
-            "date": "2026-09-14",
-            "filing_date": "2026-09-15",
-            "filing_datetime": "2026-09-15T16:53:20.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Rosebrough Walter M Jr",
-            "title": "Director",
-            "shares": 10000,
-            "value_usd": 541640,
-            "date": "2026-09-11",
-            "filing_date": "2026-09-15",
-            "filing_datetime": "2026-09-15T16:56:31.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Keel Paul A",
-            "title": "Director",
-            "shares": 4701.015,
-            "value_usd": 250000,
-            "date": "2026-09-11",
-            "filing_date": "2026-09-15",
-            "filing_datetime": "2026-09-15T16:46:05.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 31.30507499340743,
-        "volatility_20d": 0.6155695647322165
-      }
-    },
-    {
       "ticker": "PFE",
       "name": "Pfizer",
       "sector": "Health Care",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-12, demasiado antiguo (42 dias > 15)",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (43 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 28.18,
       "entry_zone_low": 27.7573,
@@ -276,7 +202,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 42,
+        "stale_days": 43,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -322,7 +248,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 60.106506356770154,
+        "rsi14": 60.10650635675161,
         "volatility_20d": 0.17751415459904968
       }
     },
@@ -333,7 +259,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (85 dias > 15)",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (86 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 204.16,
       "entry_zone_low": 201.0976,
@@ -350,7 +276,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 85,
+        "stale_days": 86,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -508,8 +434,82 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 35.19507104419348,
+        "rsi14": 35.19507098636089,
         "volatility_20d": 0.12640925465531921
+      }
+    },
+    {
+      "ticker": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "3 insiders compraron 1,880,110 USD entre 2026-09-11 y 2026-09-16",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 56.07,
+      "entry_zone_low": 55.22895,
+      "entry_zone_high": 57.1914,
+      "invalid_below_price": 51.28667262210016,
+      "target_price": 65.63665475579967,
+      "risk_reward_ratio": 1.9999999999999993,
+      "size_pct": 0.05,
+      "authorized": true,
+      "opt_score": 58.8,
+      "meta": {
+        "insider_count": 3,
+        "buy_count": 4,
+        "total_value_usd": 1880110,
+        "first_buy": "2026-09-11",
+        "last_buy": "2026-09-16",
+        "stale_days": 8,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Kurzius Lawrence Erik",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 539150,
+            "date": "2026-09-14",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:53:20.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Rosebrough Walter M Jr",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 541640,
+            "date": "2026-09-11",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:56:31.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Keel Paul A",
+            "title": "Director",
+            "shares": 4701.015,
+            "value_usd": 250000,
+            "date": "2026-09-11",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:46:05.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 31.30507499340743,
+        "volatility_20d": 0.6155695647322165
       }
     },
     {
@@ -529,14 +529,14 @@
       "risk_reward_ratio": 2.0000000000000027,
       "size_pct": 0.1,
       "authorized": true,
-      "opt_score": 52.7,
+      "opt_score": 51.3,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 15314016,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-10",
-        "stale_days": 13,
+        "stale_days": 14,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -579,7 +579,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (50 dias > 15)",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (51 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 32.29,
       "entry_zone_low": 31.80565,
@@ -596,7 +596,7 @@
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 50,
+        "stale_days": 51,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -642,7 +642,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 38.9104187077702,
+        "rsi14": 38.910418685185135,
         "volatility_20d": 0.21738091664836523
       }
     },
@@ -653,7 +653,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (68 dias > 15)",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (69 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 398.56,
       "entry_zone_low": 392.5816,
@@ -670,7 +670,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 68,
+        "stale_days": 69,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -702,7 +702,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 46.035971401986856,
+        "rsi14": 46.03597141362223,
         "volatility_20d": 0.296000866511706
       }
     }
@@ -711,7 +711,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 67931,
+    "elapsed_ms": 65933,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 60,
@@ -719,8 +719,8 @@
     "signals_fresh": 2,
     "portfolio_entry_count": 2,
     "price_download_failed": 0,
-    "filings_seen": 6020,
-    "filings_fetched": 29,
+    "filings_seen": 5970,
+    "filings_fetched": 1,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
