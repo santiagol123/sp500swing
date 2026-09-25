@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-25T07:38:23.134Z",
+  "updated_at": "2026-09-25T13:37:54.452Z",
   "initial_equity": 100000,
   "cash": 70913.23873706089,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 7006.49,
       "stop_price": 23.1014,
       "target_price": 25.4912,
-      "last_price": 25.02,
-      "last_marked_date": "2026-09-24",
-      "unrealized_pnl": 691.87,
-      "unrealized_pct": 0.099297,
+      "last_price": 24.684,
+      "last_marked_date": "2026-09-25",
+      "unrealized_pnl": 588.49,
+      "unrealized_pct": 0.084534,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-21",
@@ -181,10 +181,10 @@
       "cost_basis": 10043.62,
       "stop_price": 65.9736,
       "target_price": 75.3984,
-      "last_price": 67.18,
-      "last_marked_date": "2026-09-24",
-      "unrealized_pnl": -25.89,
-      "unrealized_pct": -0.00208,
+      "last_price": 66.865,
+      "last_marked_date": "2026-09-25",
+      "unrealized_pnl": -72.86,
+      "unrealized_pct": -0.006759,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-23",
@@ -290,10 +290,10 @@
       "cost_basis": 5035.75,
       "stop_price": 130.585,
       "target_price": 150.737,
-      "last_price": 133.25,
-      "last_marked_date": "2026-09-24",
-      "unrealized_pnl": -2.52,
-      "unrealized_pct": 0,
+      "last_price": 134.975,
+      "last_marked_date": "2026-09-25",
+      "unrealized_pnl": 62.64,
+      "unrealized_pct": 0.012946,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-24",
@@ -490,12 +490,12 @@
       "entry_price": 64.58,
       "qty": 109.11036,
       "cost_basis": 7049.87,
-      "stop_price": 63.2884,
+      "stop_price": 64.6446,
       "target_price": 72.3296,
-      "last_price": 64.58,
-      "last_marked_date": "2026-09-24",
-      "unrealized_pnl": 0,
-      "unrealized_pct": 0,
+      "last_price": 66.48,
+      "last_marked_date": "2026-09-25",
+      "unrealized_pnl": 203.79,
+      "unrealized_pct": 0.029421,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-24",
@@ -624,8 +624,13 @@
         "max_loss_pct": 0.02,
         "max_loss_stop_price": 63.2884,
         "max_loss_reference_price": 64.58,
-        "original_invalid_below_price": 60.7052
-      }
+        "original_invalid_below_price": 60.7052,
+        "profit_lock_stage": "BREAKEVEN",
+        "profit_lock_stop_price": 64.6446,
+        "profit_lock_trigger_high": 66.8
+      },
+      "profit_lock_stage": "BREAKEVEN",
+      "profit_lock_trigger_high": 66.8
     }
   ],
   "trades": [
@@ -8854,8 +8859,14 @@
       "equity": 100708.91,
       "cash": 70913.24,
       "open_positions": 4
+    },
+    {
+      "date": "2026-09-25",
+      "equity": 100831.02,
+      "cash": 70913.24,
+      "open_positions": 4
     }
   ],
-  "tracked_days": 32,
-  "last_market_date": "2026-09-24"
+  "tracked_days": 33,
+  "last_market_date": "2026-09-25"
 }
