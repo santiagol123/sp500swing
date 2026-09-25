@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-24T22:13:13.569Z",
+  "computed_at": "2026-09-25T01:23:45.158Z",
   "market_date": "2026-09-24",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (42 dias > 15)",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (43 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 43.58,
       "entry_zone_low": 42.9263,
@@ -26,7 +26,7 @@
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 42,
+        "stale_days": 43,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -97,7 +97,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-25, demasiado antiguo (30 dias > 15)",
+      "reason": "Cluster de 2026-08-25, demasiado antiguo (31 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 44.68,
       "entry_zone_low": 44.0098,
@@ -114,7 +114,7 @@
         "total_value_usd": 9486038,
         "first_buy": "2026-07-31",
         "last_buy": "2026-08-25",
-        "stale_days": 30,
+        "stale_days": 31,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -185,7 +185,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-12, demasiado antiguo (43 dias > 15)",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (44 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 28.41,
       "entry_zone_low": 27.98385,
@@ -202,7 +202,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 43,
+        "stale_days": 44,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -248,7 +248,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 62.94546138088677,
+        "rsi14": 62.94546138092174,
         "volatility_20d": 0.16225644375466367
       }
     },
@@ -259,7 +259,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-06-30, demasiado antiguo (86 dias > 15)",
+      "reason": "Cluster de 2026-06-30, demasiado antiguo (87 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 204.7,
       "entry_zone_low": 201.62949999999998,
@@ -276,7 +276,7 @@
         "total_value_usd": 533051,
         "first_buy": "2026-06-30",
         "last_buy": "2026-06-30",
-        "stale_days": 86,
+        "stale_days": 87,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -434,7 +434,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 37.063397639711134,
+        "rsi14": 37.06339763994404,
         "volatility_20d": 0.12690523388559838
       }
     },
@@ -455,14 +455,14 @@
       "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0.05,
       "authorized": true,
-      "opt_score": 58.8,
+      "opt_score": 57.5,
       "meta": {
         "insider_count": 3,
         "buy_count": 4,
         "total_value_usd": 1880110,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 8,
+        "stale_days": 9,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -513,73 +513,13 @@
       }
     },
     {
-      "ticker": "UBER",
-      "name": "Uber",
-      "sector": "Industrials",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "2 insiders compraron 15,314,016 USD entre 2026-09-04 y 2026-09-10",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 69.22,
-      "entry_zone_low": 68.18169999999999,
-      "entry_zone_high": 70.6044,
-      "invalid_below_price": 65.0668,
-      "target_price": 77.52640000000001,
-      "risk_reward_ratio": 2.0000000000000027,
-      "size_pct": 0.1,
-      "authorized": true,
-      "opt_score": 51.3,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 15314016,
-        "first_buy": "2026-09-04",
-        "last_buy": "2026-09-10",
-        "stale_days": 14,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "KHOSROWSHAHI DARA",
-            "title": "Chief Executive Officer",
-            "shares": 141000,
-            "value_usd": 10005952,
-            "date": "2026-09-10",
-            "filing_date": "2026-09-10",
-            "filing_datetime": "2026-09-10T12:40:37.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Macdonald Andrew",
-            "title": "See Remarks",
-            "shares": 70000,
-            "value_usd": 5308064,
-            "date": "2026-09-04",
-            "filing_date": "2026-09-08",
-            "filing_datetime": "2026-09-08T07:02:11.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 36.359152524879256,
-        "volatility_20d": 0.27090617808464856
-      }
-    },
-    {
       "ticker": "TSCO",
       "name": "Tractor Supply",
       "sector": "Consumer Discretionary",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (51 dias > 15)",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (52 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 31.44,
       "entry_zone_low": 30.968400000000003,
@@ -596,7 +536,7 @@
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 51,
+        "stale_days": 52,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -642,8 +582,68 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 33.73560028100506,
+        "rsi14": 33.73560025318281,
         "volatility_20d": 0.22759365479907956
+      }
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber",
+      "sector": "Industrials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 15,314,016 USD entre 2026-09-04 y 2026-09-10",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 69.22,
+      "entry_zone_low": 68.18169999999999,
+      "entry_zone_high": 70.6044,
+      "invalid_below_price": 65.0668,
+      "target_price": 77.52640000000001,
+      "risk_reward_ratio": 2.0000000000000027,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 50,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 15314016,
+        "first_buy": "2026-09-04",
+        "last_buy": "2026-09-10",
+        "stale_days": 15,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "KHOSROWSHAHI DARA",
+            "title": "Chief Executive Officer",
+            "shares": 141000,
+            "value_usd": 10005952,
+            "date": "2026-09-10",
+            "filing_date": "2026-09-10",
+            "filing_datetime": "2026-09-10T12:40:37.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Macdonald Andrew",
+            "title": "See Remarks",
+            "shares": 70000,
+            "value_usd": 5308064,
+            "date": "2026-09-04",
+            "filing_date": "2026-09-08",
+            "filing_datetime": "2026-09-08T07:02:11.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 36.359152524879256,
+        "volatility_20d": 0.27090617808464856
       }
     },
     {
@@ -653,7 +653,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-07-17, demasiado antiguo (69 dias > 15)",
+      "reason": "Cluster de 2026-07-17, demasiado antiguo (70 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 398.25,
       "entry_zone_low": 392.27625,
@@ -670,7 +670,7 @@
         "total_value_usd": 1368280,
         "first_buy": "2026-07-17",
         "last_buy": "2026-07-17",
-        "stale_days": 69,
+        "stale_days": 70,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -711,16 +711,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 72784,
+    "elapsed_ms": 64645,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 60,
+    "companies_with_buys": 59,
     "clusters_found": 8,
     "signals_fresh": 2,
     "portfolio_entry_count": 2,
     "price_download_failed": 0,
-    "filings_seen": 6034,
-    "filings_fetched": 61,
+    "filings_seen": 5993,
+    "filings_fetched": 4,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,

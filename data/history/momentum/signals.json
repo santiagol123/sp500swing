@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-24T22:12:00.725Z",
+  "computed_at": "2026-09-25T01:22:40.458Z",
   "market_date": "2026-09-24",
   "signals": [
     {
@@ -884,7 +884,7 @@
         "ret_1w": 0.013611,
         "ret_1m": 0.025849,
         "dist_sma50": 0.068483,
-        "pct_from_52w_high": -0.021933,
+        "pct_from_52w_high": -0.021932,
         "volume_ratio_20_60": 0.920114,
         "risk_flags": ""
       },
