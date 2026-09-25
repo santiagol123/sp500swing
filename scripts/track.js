@@ -12,7 +12,7 @@
 const { WORKSPACES, resolveWorkspace } = require("../lib/workspaces");
 const { runStrategy } = require("../lib/runtime");
 const { readState, writeState, writeJson, readJson } = require("../lib/store");
-const { trackDay } = require("../lib/papertrading");
+const { trackDay, stampSignalDetection } = require("../lib/papertrading");
 const { computeMetrics, rankWorkspaces } = require("../lib/metrics");
 
 function arg(name, fallback = null) {
@@ -44,6 +44,7 @@ async function trackWorkspace(workspace, options) {
   // El escaneo de insiders cachea los formularios 4 ya procesados. Sin esto
   // cada ejecucion volveria a descargar miles de documentos a la SEC.
   const cache = usesInsiderFilingsCache(workspace) ? readJson(filingsCacheWorkspaceId(workspace), "filings", {}) || {} : {};
+  const previousSignals = readJson(workspace.id, "signals", {})?.signals || [];
   const state = readState(workspace);
   const bootstrapSignals =
     usesInsiderFilingsCache(workspace) &&
@@ -65,6 +66,10 @@ async function trackWorkspace(workspace, options) {
   });
 
   const authorized = result.signals.filter((s) => s.authorized);
+  const detectedAt = new Date().toISOString();
+  if (workspace.portfolio.require_new_insider_event_after_exit) {
+    stampSignalDetection(result.signals, previousSignals, detectedAt);
+  }
   console.log(`  senales: ${result.signals.length} (autorizadas: ${authorized.length})`);
   if (result.diagnostics) console.log(`  diagnostico: ${JSON.stringify(result.diagnostics)}`);
 
@@ -93,8 +98,14 @@ async function trackWorkspace(workspace, options) {
     for (const p of outcome.pruned_reentries || []) {
       console.log(`  ANULA REAPERTURA ${p.ticker}: evento ${p.signal_event_date || "sin fecha"} <= cierre ${p.last_exit_date}`);
     }
+    for (const p of outcome.pruned_timing || []) {
+      console.log(`  ANULA ENTRADA ANTICIPADA ${p.ticker}: ${p.reason}`);
+    }
     for (const p of outcome.blocked_reentries || []) {
       console.log(`  BLOQUEA REENTRADA ${p.ticker}: ${p.reason}`);
+    }
+    for (const p of outcome.blocked_timing || []) {
+      console.log(`  APLAZA ENTRADA ${p.ticker}: ${p.reason}`);
     }
     if (!outcome.closed.length && !outcome.opened.length) console.log("  sin movimientos");
     console.log(`  capital: ${outcome.equity.toFixed(2)} $`);
@@ -106,6 +117,10 @@ async function trackWorkspace(workspace, options) {
     result.diagnostics.reentry_pruned_count = outcome.pruned_reentries?.length || 0;
     result.diagnostics.reentry_blocked_tickers = (outcome.blocked_reentries || []).map((row) => row.ticker);
     result.diagnostics.reentry_pruned_tickers = (outcome.pruned_reentries || []).map((row) => row.ticker);
+    result.diagnostics.timing_blocked_count = outcome.blocked_timing?.length || 0;
+    result.diagnostics.timing_blocked_tickers = (outcome.blocked_timing || []).map((row) => row.ticker);
+    result.diagnostics.timing_pruned_count = outcome.pruned_timing?.length || 0;
+    result.diagnostics.timing_pruned_tickers = (outcome.pruned_timing || []).map((row) => row.ticker);
     result.diagnostics.stop_loss_pct = workspace.portfolio.max_loss_pct || null;
     result.diagnostics.stop_loss_adjusted_signal_count = outcome.signal_stop_adjustments?.length || 0;
     result.diagnostics.stop_loss_tightened_position_count = outcome.tightened_stops?.length || 0;
@@ -115,7 +130,7 @@ async function trackWorkspace(workspace, options) {
   // El snapshot permite que la API sirva insiders sin recalcular. Se escribe
   // despues del paper trading para que incluya senales bloqueadas por reentrada.
   writeJson(workspace.id, "signals", {
-    computed_at: new Date().toISOString(),
+    computed_at: detectedAt,
     market_date: result.market_date,
     signals: result.signals,
     watch: result.watch || [],

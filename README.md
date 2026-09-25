@@ -26,7 +26,7 @@ selector de la app o con `?workspace=<id>` en la API.
 |------------|-----------|--------|------------|
 | `momentum` | Pullbacks en tendencia (`CORE_PULLBACK`), continuaciones de ruptura (`BREAKOUT_CONTINUATION`) y lideres de fuerza relativa (`LEADER_CONTINUATION`), con filtro de regimen de mercado e integracion con la cartera real. | Yahoo Finance chart API | En vivo y snapshot horario |
 | `insider`  | Clusters de compras de directivos: 2 o mas insiders distintos comprando la misma empresa en mercado abierto dentro de 30 dias. | SEC EDGAR, formulario 4 | Por el GitHub Action (ver abajo) |
-| `insider_total` | ChatGPT SP500: compras fuertes de insiders del S&P 500, filtrando Form 4 codigo P/Dataroma por clusters, seniority, importe material y filing reciente; salida a 5 sesiones. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
+| `insider_total` | ChatGPT SP500: compras fuertes de insiders del S&P 500, filtrando Form 4 codigo P/Dataroma por clusters, seniority, importe material y filing reciente; salida a 5 dias naturales. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
 | `insider_sp500_nasdaq` | Insiders SP500+Nasdaq+NYSE: misma regla ChatGPT, pero con universo S&P 500 + Nasdaq-100 + NYSE para comparar si ampliar cobertura mejora resultados. | SEC EDGAR + Dataroma + Yahoo Finance | Por el GitHub Action (ver abajo) |
 
 Anadir otra estrategia es crear `lib/strategies/<id>.js` con la misma
@@ -69,14 +69,17 @@ de conviccion insider: no compra cualquier insider buying, sino solo senales con
 Form 4 codigo P/Dataroma, varios insiders o una compra individual muy material
 de CEO/fundador/C-level, importe material, filing reciente y sin plan 10b5-1
 cuando ese dato aparece en el Form 4. La tesis es de evento corto: si no toca
-stop ni take profit antes, se cierra a 5 sesiones. En esta pestaña, las senales
+stop ni take profit antes, se cierra a los 5 dias naturales actuales. En esta pestaña, las senales
 que pasan filtro no se sustituyen por otras con mejor puntuacion: se mantienen
 en cartera hasta su salida temporal, stop u objetivo, mientras quepa en el
 limite global de posiciones. Si una posicion se cierra, no puede reabrirse por
 la misma senal antigua: el ticker queda bloqueado hasta que aparezca una compra
-o filing insider publicado despues de la fecha de salida. En las pestanas
-ChatGPT, el stop tambien queda capado a una perdida maxima del 2,4% desde la
-entrada, porque la tesis es demasiado corta para aguantar caidas mas amplias.
+o filing insider publicado despues de la fecha de salida. Tras un stop con perdida,
+una compra posterior del mismo insider exige ademas que el precio recupere la
+entrada anterior y SMA20; un insider distinto puede validar antes la nueva tesis.
+Las senales bajo SMA20 y SMA50 con caida semanal/mensual fuerte o RSI extremo
+esperan confirmacion tecnica. En las pestanas ChatGPT, el stop queda capado a
+una perdida maxima del 2% desde la entrada.
 
 ## El ranking
 
@@ -92,8 +95,9 @@ entrada, porque la tesis es demasiado corta para aguantar caidas mas amplias.
   posiciones y sector, y los mismos costes**. Lo unico que cambia es que acciones
   elige cada estrategia, que es justo lo que se quiere comparar.
 
-Reglas del simulador (`lib/papertrading.js`): entrada al cierre del dia de la
-senal, salida por stop, objetivo o limite de dias. Si una vela toca stop y
+Reglas del simulador (`lib/papertrading.js`): entrada en el primer precio
+ejecutable posterior a la publicacion y deteccion de la senal, salida por stop,
+objetivo o limite de dias. Si una vela toca stop y
 objetivo el mismo dia se asume el stop, porque con velas diarias no se sabe cual
 llego antes y suponer lo contrario infla los resultados. Coste de 0,05% por lado.
 
@@ -233,11 +237,14 @@ No hacen falta variables de entorno. Opcionales:
 - `CHATGPT_SP500_MAX_NEW_POSITIONS_PER_DAY`: maximo de aperturas diarias para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
 - `CHATGPT_SP500_MAX_POSITIONS_PER_SECTOR`: maximo de posiciones por sector para ChatGPT SP500. Por defecto igual al maximo global de posiciones abiertas.
 - `CHATGPT_SP500_SIGNAL_FILING_FRESH_DAYS`: antiguedad maxima normal del filing. Por defecto `20`.
-- `CHATGPT_SP500_MAX_HOLD_DAYS`: sesiones maximas antes de cierre temporal. Por defecto `5`.
+- `CHATGPT_SP500_MAX_HOLD_DAYS`: dias naturales maximos antes de cierre temporal. Por defecto `5`.
 - `CHATGPT_SP500_STOP_LOSS_PCT`: stop maximo de las pestanas ChatGPT. Por defecto `0.02` (2%).
 - `CHATGPT_SP500_MAX_VOLATILITY_20D`: volatilidad anualizada maxima para nuevas entradas. Por defecto `0.60` (60%).
 - `CHATGPT_SP500_MAX_ENTRY_GAP_PCT`: gap maximo permitido frente al cierre anterior. Por defecto `0.03` (3%).
 - `CHATGPT_SP500_MIN_RSI`: RSI minimo usado junto a SMA20 para bloquear rebotes debiles. Por defecto `45`.
+- `CHATGPT_SP500_FALLING_KNIFE_WEEKLY_DROP_PCT`: caida semanal que activa espera si tambien esta bajo SMA20/SMA50. Por defecto `0.05` (5%).
+- `CHATGPT_SP500_FALLING_KNIFE_MONTHLY_DROP_PCT`: caida mensual equivalente. Por defecto `0.10` (10%).
+- `CHATGPT_SP500_FALLING_KNIFE_RSI`: RSI extremo que activa esa espera bajo ambas medias. Por defecto `25`.
 - `CHATGPT_SP500_STOP_REENTRY_COOLDOWN_DAYS`: sesiones de espera tras un stop antes de reabrir si no hay recuperacion tecnica. Por defecto `7`.
 - `CHATGPT_SP500_PROFIT_LOCK_TRIGGER_PCT`: al subir esto desde entrada, sube stop a breakeven. Por defecto `0.025` (2,5%).
 - `CHATGPT_SP500_PROFIT_LOCK_SECOND_TRIGGER_PCT`: segundo gatillo de profit lock. Por defecto `0.04` (4%).
