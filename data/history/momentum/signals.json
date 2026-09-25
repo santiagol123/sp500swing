@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-25T01:22:40.458Z",
+  "computed_at": "2026-09-25T07:36:58.206Z",
   "market_date": "2026-09-24",
   "signals": [
     {
@@ -309,7 +309,7 @@
         "sector": "Health Care",
         "rank_today": 4,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.919884,
+        "score": 0.919839,
         "price": 150.68,
         "ret_1w": 0.033967,
         "ret_1m": 0.225041,
@@ -479,7 +479,7 @@
         "ret_1w": -0.047501,
         "ret_1m": 0.141486,
         "dist_sma50": 0.130072,
-        "pct_from_52w_high": -0.099075,
+        "pct_from_52w_high": -0.099074,
         "volume_ratio_20_60": 1.219007,
         "risk_flags": ""
       },
@@ -784,25 +784,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "APA",
-        "name": "APA Corporation",
-        "sector": "Energy",
-        "rank_today": 36,
-        "setup_type": "NORMAL",
-        "score": 0.767121,
-        "price": 43.68,
-        "ret_1w": -0.024782,
-        "ret_1m": 0.01676,
-        "dist_sma50": 0.077666,
-        "pct_from_52w_high": -0.078675,
-        "volume_ratio_20_60": 0.987597,
-        "risk_flags": ""
-      },
-      {
         "ticker": "PFG",
         "name": "Principal Financial Group",
         "sector": "Financials",
-        "rank_today": 37,
+        "rank_today": 36,
         "setup_type": "NORMAL",
         "score": 0.766996,
         "price": 114.15,
@@ -811,6 +796,21 @@
         "dist_sma50": 0.011887,
         "pct_from_52w_high": -0.03679,
         "volume_ratio_20_60": 1.078011,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "APA",
+        "name": "APA Corporation",
+        "sector": "Energy",
+        "rank_today": 37,
+        "setup_type": "NORMAL",
+        "score": 0.766941,
+        "price": 43.68,
+        "ret_1w": -0.024782,
+        "ret_1m": 0.01676,
+        "dist_sma50": 0.077666,
+        "pct_from_52w_high": -0.078675,
+        "volume_ratio_20_60": 0.987597,
         "risk_flags": ""
       },
       {
