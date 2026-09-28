@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-26T01:26:11.352Z",
+  "computed_at": "2026-09-28T05:10:15.006Z",
   "market_date": "2026-09-25",
   "signals": [
     {
@@ -119,7 +119,7 @@
       "authorized": false,
       "meta": {
         "rank_today": 15,
-        "rsi14": 72.577748,
+        "rsi14": 72.577747,
         "macd_hist": 3.599883,
         "macd_hist_slope": -0.153272
       }
@@ -226,9 +226,9 @@
       "sector": "Industrials",
       "strategy": "momentum",
       "family": "BREAKOUT_CONTINUATION",
-      "action": "YA_EN_CARTERA",
-      "reason": "El ticker ya esta abierto en la cartera actual",
-      "plan": "No duplicar posicion; gestionar stop, objetivo y tiempo maximo",
+      "action": "ESPERAR_CONFIRMACION",
+      "reason": "MACD sin confirmacion",
+      "plan": "Esperar nueva entrada; no comprar a mercado",
       "last_close": 690.46,
       "entry_zone_low": 683.5554,
       "entry_zone_high": 692.53138,
@@ -338,7 +338,7 @@
     "leader_count": 9,
     "technical_entry_count": 2,
     "portfolio_entry_count": 0,
-    "open_positions_count": 7,
+    "open_positions_count": 6,
     "buys_today_count": 0,
     "hot_momentum_count": 14,
     "pullback_count": 8,
@@ -415,7 +415,7 @@
         "ret_1m": 0.200854,
         "dist_sma50": 0.28086,
         "pct_from_52w_high": -0.014239,
-        "volume_ratio_20_60": 1.521278,
+        "volume_ratio_20_60": 1.521255,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -430,7 +430,7 @@
         "ret_1m": 0.332752,
         "dist_sma50": 0.185762,
         "pct_from_52w_high": -0.039468,
-        "volume_ratio_20_60": 1.243108,
+        "volume_ratio_20_60": 1.24361,
         "risk_flags": ""
       },
       {
@@ -454,13 +454,13 @@
         "sector": "Information Technology",
         "rank_today": 7,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.905418,
+        "score": 0.905179,
         "price": 89.34,
         "ret_1w": 0.006534,
         "ret_1m": 0.341039,
         "dist_sma50": 0.245015,
         "pct_from_52w_high": -0.023073,
-        "volume_ratio_20_60": 1.311049,
+        "volume_ratio_20_60": 1.309892,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -490,7 +490,7 @@
         "ret_1m": 0.305678,
         "dist_sma50": 0.221576,
         "pct_from_52w_high": -0.033347,
-        "volume_ratio_20_60": 1.180722,
+        "volume_ratio_20_60": 1.180998,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -529,7 +529,7 @@
         "sector": "Health Care",
         "rank_today": 12,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.874571,
+        "score": 0.874331,
         "price": 270.37,
         "ret_1w": 0.014826,
         "ret_1m": 0.03388,
@@ -559,13 +559,13 @@
         "sector": "Information Technology",
         "rank_today": 14,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.859062,
+        "score": 0.858982,
         "price": 374.74,
         "ret_1w": 0.030695,
         "ret_1m": 0.104418,
         "dist_sma50": 0.051097,
         "pct_from_52w_high": -0.053687,
-        "volume_ratio_20_60": 1.102066,
+        "volume_ratio_20_60": 1.102173,
         "risk_flags": ""
       },
       {
@@ -610,7 +610,7 @@
         "ret_1m": 0.073391,
         "dist_sma50": 0.112497,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.45254,
+        "volume_ratio_20_60": 1.452636,
         "risk_flags": ""
       },
       {
@@ -634,13 +634,13 @@
         "sector": "Information Technology",
         "rank_today": 19,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.834306,
+        "score": 0.834785,
         "price": 201.145,
         "ret_1w": 0.016962,
         "ret_1m": 0.037632,
         "dist_sma50": 0.072951,
         "pct_from_52w_high": -0.02866,
-        "volume_ratio_20_60": 1.007935,
+        "volume_ratio_20_60": 1.008755,
         "risk_flags": ""
       },
       {
@@ -649,7 +649,7 @@
         "sector": "Consumer Discretionary",
         "rank_today": 20,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.820669,
+        "score": 0.820429,
         "price": 90.51,
         "ret_1w": -0.025202,
         "ret_1m": 0.045971,
@@ -709,13 +709,13 @@
         "sector": "Health Care",
         "rank_today": 24,
         "setup_type": "EXTENDED",
-        "score": 0.818039,
+        "score": 0.818278,
         "price": 198.88,
         "ret_1w": 0.291093,
         "ret_1m": 0.328879,
         "dist_sma50": 0.806197,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.920233,
+        "volume_ratio_20_60": 0.920654,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -730,7 +730,7 @@
         "ret_1m": 0.311272,
         "dist_sma50": 0.249482,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.893478,
+        "volume_ratio_20_60": 0.893646,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -745,7 +745,7 @@
         "ret_1m": 0.088116,
         "dist_sma50": 0.06007,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.909464,
+        "volume_ratio_20_60": 0.909724,
         "risk_flags": ""
       },
       {
@@ -769,13 +769,13 @@
         "sector": "Information Technology",
         "rank_today": 28,
         "setup_type": "NORMAL",
-        "score": 0.793782,
+        "score": 0.793543,
         "price": 173.46,
         "ret_1w": 0.021314,
         "ret_1m": 0.101054,
         "dist_sma50": 0.073625,
         "pct_from_52w_high": -0.02954,
-        "volume_ratio_20_60": 0.93578,
+        "volume_ratio_20_60": 0.935796,
         "risk_flags": ""
       },
       {
@@ -790,7 +790,7 @@
         "ret_1m": 0.100055,
         "dist_sma50": 0.14535,
         "pct_from_52w_high": -0.216844,
-        "volume_ratio_20_60": 1.078362,
+        "volume_ratio_20_60": 1.078484,
         "risk_flags": ""
       },
       {
@@ -805,7 +805,7 @@
         "ret_1m": 0.028346,
         "dist_sma50": 0.08928,
         "pct_from_52w_high": -0.033989,
-        "volume_ratio_20_60": 0.830134,
+        "volume_ratio_20_60": 0.830442,
         "risk_flags": ""
       },
       {
@@ -835,7 +835,7 @@
         "ret_1m": 0.074701,
         "dist_sma50": 0.042982,
         "pct_from_52w_high": -0.043079,
-        "volume_ratio_20_60": 0.941722,
+        "volume_ratio_20_60": 0.942283,
         "risk_flags": ""
       },
       {
@@ -865,7 +865,7 @@
         "ret_1m": 0.108787,
         "dist_sma50": 0.087403,
         "pct_from_52w_high": -0.028356,
-        "volume_ratio_20_60": 0.928281,
+        "volume_ratio_20_60": 0.928398,
         "risk_flags": ""
       },
       {
@@ -874,35 +874,20 @@
         "sector": "Information Technology",
         "rank_today": 35,
         "setup_type": "NORMAL",
-        "score": 0.77396,
+        "score": 0.773965,
         "price": 516.17,
         "ret_1w": 0.045344,
         "ret_1m": 0.03989,
         "dist_sma50": 0.08575,
         "pct_from_52w_high": -0.039945,
-        "volume_ratio_20_60": 0.750144,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "GRMN",
-        "name": "Garmin",
-        "sector": "Consumer Discretionary",
-        "rank_today": 36,
-        "setup_type": "NORMAL",
-        "score": 0.772625,
-        "price": 294.14,
-        "ret_1w": 0.073269,
-        "ret_1m": 0.021656,
-        "dist_sma50": 0.040937,
-        "pct_from_52w_high": -0.057099,
-        "volume_ratio_20_60": 0.948316,
+        "volume_ratio_20_60": 0.750412,
         "risk_flags": ""
       },
       {
         "ticker": "PFG",
         "name": "Principal Financial Group",
         "sector": "Financials",
-        "rank_today": 37,
+        "rank_today": 36,
         "setup_type": "NEAR_BREAKOUT",
         "score": 0.772625,
         "price": 114.77,
@@ -914,18 +899,33 @@
         "risk_flags": ""
       },
       {
+        "ticker": "GRMN",
+        "name": "Garmin",
+        "sector": "Consumer Discretionary",
+        "rank_today": 37,
+        "setup_type": "NORMAL",
+        "score": 0.772545,
+        "price": 294.14,
+        "ret_1w": 0.073269,
+        "ret_1m": 0.021656,
+        "dist_sma50": 0.040937,
+        "pct_from_52w_high": -0.057099,
+        "volume_ratio_20_60": 0.948316,
+        "risk_flags": ""
+      },
+      {
         "ticker": "PLTR",
         "name": "Palantir Technologies",
         "sector": "Information Technology",
         "rank_today": 38,
         "setup_type": "NORMAL",
-        "score": 0.770217,
+        "score": 0.770219,
         "price": 189.67,
         "ret_1w": 0.067721,
         "ret_1m": 0.068563,
         "dist_sma50": 0.157041,
         "pct_from_52w_high": -0.084516,
-        "volume_ratio_20_60": 0.723468,
+        "volume_ratio_20_60": 0.723603,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -964,13 +964,13 @@
         "sector": "Information Technology",
         "rank_today": 41,
         "setup_type": "NORMAL",
-        "score": 0.76164,
+        "score": 0.7614,
         "price": 201.97,
         "ret_1w": 0.136451,
         "ret_1m": 0.240345,
         "dist_sma50": 0.190583,
         "pct_from_52w_high": -0.188036,
-        "volume_ratio_20_60": 1.144408,
+        "volume_ratio_20_60": 1.144554,
         "risk_flags": ""
       },
       {
@@ -994,35 +994,20 @@
         "sector": "Health Care",
         "rank_today": 43,
         "setup_type": "NORMAL",
-        "score": 0.749815,
+        "score": 0.749177,
         "price": 17.83,
         "ret_1w": 0.051917,
         "ret_1m": 0.05816,
         "dist_sma50": 0.059975,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.910238,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "DDOG",
-        "name": "Datadog",
-        "sector": "Information Technology",
-        "rank_today": 44,
-        "setup_type": "NORMAL",
-        "score": 0.747944,
-        "price": 268.13,
-        "ret_1w": 0.166188,
-        "ret_1m": 0.177713,
-        "dist_sma50": 0.104765,
-        "pct_from_52w_high": -0.069478,
-        "volume_ratio_20_60": 0.851949,
+        "volume_ratio_20_60": 0.910245,
         "risk_flags": ""
       },
       {
         "ticker": "GILD",
         "name": "Gilead Sciences",
         "sector": "Health Care",
-        "rank_today": 45,
+        "rank_today": 44,
         "setup_type": "NORMAL",
         "score": 0.747335,
         "price": 150.93,
@@ -1030,7 +1015,22 @@
         "ret_1m": 0.024918,
         "dist_sma50": 0.071658,
         "pct_from_52w_high": -0.01383,
-        "volume_ratio_20_60": 0.929653,
+        "volume_ratio_20_60": 0.929777,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "DDOG",
+        "name": "Datadog",
+        "sector": "Information Technology",
+        "rank_today": 45,
+        "setup_type": "NORMAL",
+        "score": 0.746747,
+        "price": 268.13,
+        "ret_1w": 0.166188,
+        "ret_1m": 0.177713,
+        "dist_sma50": 0.104765,
+        "pct_from_52w_high": -0.069478,
+        "volume_ratio_20_60": 0.844715,
         "risk_flags": ""
       },
       {
@@ -1039,7 +1039,7 @@
         "sector": "Financials",
         "rank_today": 46,
         "setup_type": "NORMAL",
-        "score": 0.746622,
+        "score": 0.746382,
         "price": 97.7,
         "ret_1w": 0.006801,
         "ret_1m": 0.012225,
@@ -1054,7 +1054,7 @@
         "sector": "Industrials",
         "rank_today": 47,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.746362,
+        "score": 0.745724,
         "price": 439.98,
         "ret_1w": 0.035808,
         "ret_1m": 0.04897,
@@ -1069,13 +1069,13 @@
         "sector": "Energy",
         "rank_today": 48,
         "setup_type": "NORMAL",
-        "score": 0.745644,
+        "score": 0.745404,
         "price": 42.74,
         "ret_1w": -0.04747,
         "ret_1m": 0.037631,
         "dist_sma50": 0.045719,
         "pct_from_52w_high": -0.098502,
-        "volume_ratio_20_60": 1.018083,
+        "volume_ratio_20_60": 1.018586,
         "risk_flags": ""
       },
       {
@@ -1099,7 +1099,7 @@
         "sector": "Information Technology",
         "rank_today": 50,
         "setup_type": "NORMAL",
-        "score": 0.741517,
+        "score": 0.740878,
         "price": 362.15,
         "ret_1w": 0.081045,
         "ret_1m": 0.125144,
