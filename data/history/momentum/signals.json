@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-29T00:56:22.148Z",
+  "computed_at": "2026-09-29T06:45:40.016Z",
   "market_date": "2026-09-28",
   "signals": [
     {
@@ -418,7 +418,7 @@
         "ret_1m": 0.153987,
         "dist_sma50": 0.15619,
         "pct_from_52w_high": -0.014011,
-        "volume_ratio_20_60": 1.395484,
+        "volume_ratio_20_60": 1.395507,
         "risk_flags": ""
       },
       {
@@ -478,7 +478,7 @@
         "ret_1m": 0.137261,
         "dist_sma50": 0.212839,
         "pct_from_52w_high": -0.012343,
-        "volume_ratio_20_60": 1.217225,
+        "volume_ratio_20_60": 1.217259,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -487,7 +487,7 @@
         "sector": "Energy",
         "rank_today": 6,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.908169,
+        "score": 0.907959,
         "price": 389.57,
         "ret_1w": -0.009408,
         "ret_1m": 0.124008,
@@ -523,7 +523,7 @@
         "ret_1m": 0.150701,
         "dist_sma50": 0.135337,
         "pct_from_52w_high": -0.076428,
-        "volume_ratio_20_60": 1.463581,
+        "volume_ratio_20_60": 1.463666,
         "risk_flags": ""
       },
       {
@@ -598,7 +598,7 @@
         "ret_1m": 0.254045,
         "dist_sma50": 0.16036,
         "pct_from_52w_high": -0.079695,
-        "volume_ratio_20_60": 1.204597,
+        "volume_ratio_20_60": 1.20471,
         "risk_flags": ""
       },
       {
@@ -682,7 +682,7 @@
         "sector": "Health Care",
         "rank_today": 19,
         "setup_type": "NORMAL",
-        "score": 0.823683,
+        "score": 0.823209,
         "price": 294.59,
         "ret_1w": 0.05584,
         "ret_1m": -0.00614,
@@ -697,7 +697,7 @@
         "sector": "Consumer Discretionary",
         "rank_today": 20,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.822061,
+        "score": 0.821981,
         "price": 89.91,
         "ret_1w": -0.035507,
         "ret_1m": 0.087284,
@@ -742,7 +742,7 @@
         "sector": "Energy",
         "rank_today": 23,
         "setup_type": "NORMAL",
-        "score": 0.804915,
+        "score": 0.804835,
         "price": 206.37,
         "ret_1w": 0.013257,
         "ret_1m": 0.033038,
@@ -763,7 +763,7 @@
         "ret_1m": 0.381803,
         "dist_sma50": 0.748642,
         "pct_from_52w_high": -0.008045,
-        "volume_ratio_20_60": 0.884018,
+        "volume_ratio_20_60": 0.884104,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -778,7 +778,7 @@
         "ret_1m": 0.07572,
         "dist_sma50": 0.051448,
         "pct_from_52w_high": -0.007828,
-        "volume_ratio_20_60": 0.917029,
+        "volume_ratio_20_60": 0.917068,
         "risk_flags": ""
       },
       {
@@ -838,7 +838,7 @@
         "ret_1m": 0.275243,
         "dist_sma50": 0.199061,
         "pct_from_52w_high": -0.036091,
-        "volume_ratio_20_60": 0.910949,
+        "volume_ratio_20_60": 0.911002,
         "risk_flags": ""
       },
       {
@@ -862,7 +862,7 @@
         "sector": "Health Care",
         "rank_today": 31,
         "setup_type": "NORMAL",
-        "score": 0.773443,
+        "score": 0.772969,
         "price": 279.96,
         "ret_1w": 0.071371,
         "ret_1m": -0.007692,
@@ -892,7 +892,7 @@
         "sector": "Consumer Discretionary",
         "rank_today": 33,
         "setup_type": "NORMAL",
-        "score": 0.767191,
+        "score": 0.766981,
         "price": 294.05,
         "ret_1w": 0.049017,
         "ret_1m": 0.018349,
@@ -917,25 +917,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "ANET",
-        "name": "Arista Networks",
-        "sector": "Information Technology",
-        "rank_today": 35,
-        "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.760789,
-        "price": 204.92,
-        "ret_1w": -0.002434,
-        "ret_1m": 0.019046,
-        "dist_sma50": 0.073109,
-        "pct_from_52w_high": -0.026508,
-        "volume_ratio_20_60": 0.728438,
-        "risk_flags": "LOW_VOLUME_CONFIRMATION"
-      },
-      {
         "ticker": "FTNT",
         "name": "Fortinet",
         "sector": "Information Technology",
-        "rank_today": 36,
+        "rank_today": 35,
         "setup_type": "NORMAL",
         "score": 0.760569,
         "price": 176.33,
@@ -945,6 +930,21 @@
         "pct_from_52w_high": -0.013483,
         "volume_ratio_20_60": 0.917559,
         "risk_flags": ""
+      },
+      {
+        "ticker": "ANET",
+        "name": "Arista Networks",
+        "sector": "Information Technology",
+        "rank_today": 36,
+        "setup_type": "PULLBACK_IN_TREND",
+        "score": 0.760549,
+        "price": 204.92,
+        "ret_1w": -0.002434,
+        "ret_1m": 0.019046,
+        "dist_sma50": 0.073109,
+        "pct_from_52w_high": -0.026508,
+        "volume_ratio_20_60": 0.728438,
+        "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
         "ticker": "MRK",
@@ -967,13 +967,13 @@
         "sector": "Information Technology",
         "rank_today": 38,
         "setup_type": "NORMAL",
-        "score": 0.753749,
+        "score": 0.75375,
         "price": 509.22,
         "ret_1w": 0.015171,
         "ret_1m": 0.008237,
         "dist_sma50": 0.065923,
         "pct_from_52w_high": -0.052872,
-        "volume_ratio_20_60": 0.743369,
+        "volume_ratio_20_60": 0.74342,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1003,7 +1003,7 @@
         "ret_1m": 0.061042,
         "dist_sma50": 0.113623,
         "pct_from_52w_high": -0.236128,
-        "volume_ratio_20_60": 1.094467,
+        "volume_ratio_20_60": 1.094506,
         "risk_flags": ""
       },
       {
@@ -1012,7 +1012,7 @@
         "sector": "Health Care",
         "rank_today": 41,
         "setup_type": "NORMAL",
-        "score": 0.751687,
+        "score": 0.751477,
         "price": 227.33,
         "ret_1w": 0.053234,
         "ret_1m": 0.054015,
@@ -1033,7 +1033,7 @@
         "ret_1m": 0.004983,
         "dist_sma50": 0.057968,
         "pct_from_52w_high": -0.026966,
-        "volume_ratio_20_60": 0.920488,
+        "volume_ratio_20_60": 0.920527,
         "risk_flags": ""
       },
       {
@@ -1072,13 +1072,13 @@
         "sector": "Information Technology",
         "rank_today": 45,
         "setup_type": "NORMAL",
-        "score": 0.744742,
+        "score": 0.744743,
         "price": 187.48,
         "ret_1w": 0.023977,
         "ret_1m": 0.008337,
         "dist_sma50": 0.136044,
         "pct_from_52w_high": -0.095086,
-        "volume_ratio_20_60": 0.727425,
+        "volume_ratio_20_60": 0.727454,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1087,7 +1087,7 @@
         "sector": "Materials",
         "rank_today": 46,
         "setup_type": "NORMAL",
-        "score": 0.742789,
+        "score": 0.742315,
         "price": 85.72,
         "ret_1w": 0.025359,
         "ret_1m": -0.008339,
@@ -1132,7 +1132,7 @@
         "sector": "Health Care",
         "rank_today": 49,
         "setup_type": "NORMAL",
-        "score": 0.739676,
+        "score": 0.739286,
         "price": 418.13,
         "ret_1w": 0.063511,
         "ret_1m": -0.043159,
@@ -1147,7 +1147,7 @@
         "sector": "Health Care",
         "rank_today": 50,
         "setup_type": "NORMAL",
-        "score": 0.735469,
+        "score": 0.73523,
         "price": 28.72,
         "ret_1w": 0.035328,
         "ret_1m": 0.024982,
