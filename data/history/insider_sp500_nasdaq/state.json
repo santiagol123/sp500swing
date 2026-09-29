@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-09-29T06:47:02.521Z",
+  "updated_at": "2026-09-29T13:58:56.454Z",
   "initial_equity": 100000,
   "cash": 90187.5394045948,
   "positions": [
@@ -14,12 +14,12 @@
       "entry_price": 4.75,
       "qty": 2116.41744,
       "cost_basis": 10058.01,
-      "stop_price": 4.655,
+      "stop_price": 4.8212,
       "target_price": 5.32,
-      "last_price": 4.78,
-      "last_marked_date": "2026-09-28",
-      "unrealized_pnl": 58.47,
-      "unrealized_pct": 0.006316,
+      "last_price": 5.01,
+      "last_marked_date": "2026-09-29",
+      "unrealized_pnl": 545.24,
+      "unrealized_pct": 0.054737,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-09-22",
@@ -89,8 +89,13 @@
         "max_loss_pct": 0.02,
         "max_loss_stop_price": 4.655,
         "max_loss_reference_price": 4.75,
-        "original_invalid_below_price": 4.465
-      }
+        "original_invalid_below_price": 4.465,
+        "profit_lock_stage": "LOCK_1_5",
+        "profit_lock_stop_price": 4.8212,
+        "profit_lock_trigger_high": 5.015
+      },
+      "profit_lock_stage": "LOCK_1_5",
+      "profit_lock_trigger_high": 5.015
     }
   ],
   "trades": [
@@ -8851,8 +8856,14 @@
       "equity": 100304.01,
       "cash": 90187.54,
       "open_positions": 1
+    },
+    {
+      "date": "2026-09-29",
+      "equity": 100790.79,
+      "cash": 90187.54,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 34,
-  "last_market_date": "2026-09-28"
+  "tracked_days": 35,
+  "last_market_date": "2026-09-29"
 }
