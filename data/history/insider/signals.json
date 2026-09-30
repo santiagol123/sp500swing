@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-09-30T05:22:27.582Z",
+  "computed_at": "2026-09-30T12:26:05.711Z",
   "market_date": "2026-09-29",
   "signals": [
     {
@@ -248,7 +248,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 67.02215054912757,
+        "rsi14": 67.02215055600155,
         "volatility_20d": 0.1378094634990645
       }
     },
@@ -322,7 +322,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 38.180643295669654,
+        "rsi14": 38.180643309318015,
         "volatility_20d": 0.2685235940645803
       }
     },
@@ -516,7 +516,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 41.796545832035854,
+        "rsi14": 41.79654583307002,
         "volatility_20d": 0.2809244879813386
       }
     }
@@ -525,7 +525,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 66643,
+    "elapsed_ms": 66365,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 57,
@@ -534,7 +534,7 @@
     "portfolio_entry_count": 1,
     "price_download_failed": 0,
     "filings_seen": 5743,
-    "filings_fetched": 17,
+    "filings_fetched": 0,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
