@@ -1,70 +1,10 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-10-01T08:43:37.026Z",
+  "updated_at": "2026-10-01T16:18:16.143Z",
   "initial_equity": 100000,
-  "cash": 87491.30954525413,
+  "cash": 94061.54954525414,
   "positions": [
-    {
-      "ticker": "UBER",
-      "name": "Uber",
-      "sector": "Industrials",
-      "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-09-10",
-      "entry_price": 72.02,
-      "qty": 97.09966,
-      "cost_basis": 6996.61,
-      "stop_price": 67.6988,
-      "target_price": 80.6624,
-      "last_price": 68.51,
-      "last_marked_date": "2026-09-30",
-      "unrealized_pnl": -344.31,
-      "unrealized_pct": -0.048736,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": "2026-09-10",
-      "signal_meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 15314016,
-        "first_buy": "2026-09-04",
-        "last_buy": "2026-09-10",
-        "stale_days": 0,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "KHOSROWSHAHI DARA",
-            "title": "Chief Executive Officer",
-            "shares": 141000,
-            "value_usd": 10005952,
-            "date": "2026-09-10",
-            "filing_date": "2026-09-10",
-            "filing_datetime": "2026-09-10T12:40:37.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Macdonald Andrew",
-            "title": "See Remarks",
-            "shares": 70000,
-            "value_usd": 5308064,
-            "date": "2026-09-04",
-            "filing_date": "2026-09-08",
-            "filing_datetime": "2026-09-08T07:02:11.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 41.83263815722643,
-        "volatility_20d": 0.32762767787289077
-      }
-    },
     {
       "ticker": "COO",
       "name": "Cooper Companies (The)",
@@ -76,10 +16,10 @@
       "cost_basis": 4987.98,
       "stop_price": 49.09,
       "target_price": 61.6299,
-      "last_price": 56.53,
-      "last_marked_date": "2026-09-30",
-      "unrealized_pnl": 302.61,
-      "unrealized_pct": 0.061198,
+      "last_price": 56.83,
+      "last_marked_date": "2026-10-01",
+      "unrealized_pnl": 330.68,
+      "unrealized_pct": 0.066829,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-09-15",
@@ -355,6 +295,67 @@
         "rsi14": 64.12818323155193,
         "volatility_20d": 0.3279020195257347
       }
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber",
+      "sector": "Industrials",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-09-10",
+      "entry_price": 72.02,
+      "exit_date": "2026-10-01",
+      "exit_price": 67.6988,
+      "exit_reason": "STOP",
+      "qty": 97.09966,
+      "cost_basis": 6996.61,
+      "proceeds": 6570.24,
+      "pnl": -426.37,
+      "pnl_pct": -0.060939,
+      "r_multiple": -1,
+      "hold_days": 21,
+      "stop_price": 67.6988,
+      "target_price": 80.6624,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 15314016,
+        "first_buy": "2026-09-04",
+        "last_buy": "2026-09-10",
+        "stale_days": 0,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "KHOSROWSHAHI DARA",
+            "title": "Chief Executive Officer",
+            "shares": 141000,
+            "value_usd": 10005952,
+            "date": "2026-09-10",
+            "filing_date": "2026-09-10",
+            "filing_datetime": "2026-09-10T12:40:37.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Macdonald Andrew",
+            "title": "See Remarks",
+            "shares": 70000,
+            "value_usd": 5308064,
+            "date": "2026-09-04",
+            "filing_date": "2026-09-08",
+            "filing_datetime": "2026-09-08T07:02:11.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 41.83263815722643,
+        "volatility_20d": 0.32762767787289077
+      }
     }
   ],
   "equity_curve": [
@@ -615,8 +616,14 @@
       "equity": 99434.19,
       "cash": 87491.31,
       "open_positions": 2
+    },
+    {
+      "date": "2026-10-01",
+      "equity": 99380.21,
+      "cash": 94061.55,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 43,
-  "last_market_date": "2026-09-30"
+  "tracked_days": 44,
+  "last_market_date": "2026-10-01"
 }
