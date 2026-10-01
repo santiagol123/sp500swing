@@ -1,7 +1,193 @@
 {
-  "computed_at": "2026-10-01T16:18:16.139Z",
+  "computed_at": "2026-10-01T21:46:05.725Z",
   "market_date": "2026-10-01",
   "signals": [
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "sector": "Real Estate",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "11 insiders compraron 460,716 USD entre 2026-09-30 y 2026-09-30",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 200.81,
+      "entry_zone_low": 197.79785,
+      "entry_zone_high": 204.8262,
+      "invalid_below_price": 188.76139999999998,
+      "target_price": 224.90720000000002,
+      "risk_reward_ratio": 1.9999999999999982,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 76.7,
+      "meta": {
+        "insider_count": 11,
+        "buy_count": 11,
+        "total_value_usd": 460716,
+        "first_buy": "2026-09-30",
+        "last_buy": "2026-09-30",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Roe Peggy",
+            "title": "Director",
+            "shares": 88,
+            "value_usd": 17845,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:34:53.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "STEWART MARTA R",
+            "title": "Director",
+            "shares": 199,
+            "value_usd": 40353,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:31:26.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Smith Daniel C.",
+            "title": "Director",
+            "shares": 350,
+            "value_usd": 70973,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:28:30.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "SELIG STEFAN M",
+            "title": "Director",
+            "shares": 208,
+            "value_usd": 42178,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:27:05.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "RODKIN GARY M",
+            "title": "Director",
+            "shares": 232,
+            "value_usd": 47045,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:22:48.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "LEWIS RANDALL J",
+            "title": "Director",
+            "shares": 65,
+            "value_usd": 13181,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:21:07.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "LEIBOWITZ REUBEN S",
+            "title": "Director",
+            "shares": 480,
+            "value_usd": 97334,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:17:24.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Jones Nina P",
+            "title": "Director",
+            "shares": 46,
+            "value_usd": 9328,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:15:06.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "GLASSCOCK LARRY C",
+            "title": "Director",
+            "shares": 367,
+            "value_usd": 74420,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:12:56.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Cicco Martin J",
+            "title": "Director",
+            "shares": 15,
+            "value_usd": 3042,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:11:19.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Aeppel Glyn",
+            "title": "Director",
+            "shares": 222,
+            "value_usd": 45017,
+            "date": "2026-09-30",
+            "filing_date": "2026-10-01",
+            "filing_datetime": "2026-10-01T15:09:06.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 30.325134816393216,
+        "volatility_20d": 0.13328075908945267
+      }
+    },
     {
       "ticker": "APTV",
       "name": "Aptiv",
@@ -11,12 +197,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-08-13, demasiado antiguo (49 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 43.44,
-      "entry_zone_low": 42.788399999999996,
-      "entry_zone_high": 44.3088,
-      "invalid_below_price": 40.8336,
-      "target_price": 48.6528,
-      "risk_reward_ratio": 2.0000000000000013,
+      "last_close": 43.97,
+      "entry_zone_low": 43.310449999999996,
+      "entry_zone_high": 44.8494,
+      "invalid_below_price": 41.331799999999994,
+      "target_price": 49.2464,
+      "risk_reward_ratio": 1.9999999999999982,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -86,8 +272,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 40.80707629685632,
-        "volatility_20d": 0.36596872995218177
+        "rsi14": 43.508229079729816,
+        "volatility_20d": 0.373550649022425
       }
     },
     {
@@ -99,12 +285,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-08-25, demasiado antiguo (37 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 43.4,
-      "entry_zone_low": 42.748999999999995,
-      "entry_zone_high": 44.268,
-      "invalid_below_price": 40.796,
-      "target_price": 48.608000000000004,
-      "risk_reward_ratio": 2.000000000000002,
+      "last_close": 43.23,
+      "entry_zone_low": 42.58154999999999,
+      "entry_zone_high": 44.0946,
+      "invalid_below_price": 40.636199999999995,
+      "target_price": 48.4176,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 70,
@@ -174,8 +360,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 39.52410681151355,
-        "volatility_20d": 0.36832318157029875
+        "rsi14": 38.78636592143447,
+        "volatility_20d": 0.3686636338514951
       }
     },
     {
@@ -187,12 +373,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-08-12, demasiado antiguo (50 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 28.25,
-      "entry_zone_low": 27.826249999999998,
-      "entry_zone_high": 28.815,
-      "invalid_below_price": 26.555,
-      "target_price": 31.640000000000004,
-      "risk_reward_ratio": 2.0000000000000013,
+      "last_close": 28.12,
+      "entry_zone_low": 27.6982,
+      "entry_zone_high": 28.6824,
+      "invalid_below_price": 26.4328,
+      "target_price": 31.494400000000002,
+      "risk_reward_ratio": 2.000000000000001,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 60,
@@ -248,8 +434,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 56.05012620381464,
-        "volatility_20d": 0.1292421147077277
+        "rsi14": 53.54935676742537,
+        "volatility_20d": 0.13398269711186805
       }
     },
     {
@@ -261,12 +447,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-08-04, demasiado antiguo (58 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 31.265,
-      "entry_zone_low": 30.796025,
-      "entry_zone_high": 31.8903,
-      "invalid_below_price": 29.3891,
-      "target_price": 35.0168,
-      "risk_reward_ratio": 2.0000000000000004,
+      "last_close": 31.73,
+      "entry_zone_low": 31.25405,
+      "entry_zone_high": 32.3646,
+      "invalid_below_price": 29.8262,
+      "target_price": 35.537600000000005,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 50.9,
@@ -322,8 +508,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 36.78236642885927,
-        "volatility_20d": 0.2668589913922257
+        "rsi14": 41.08678925451856,
+        "volatility_20d": 0.2752596026119514
       }
     },
     {
@@ -335,11 +521,11 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-09-10, demasiado antiguo (21 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 67.545,
-      "entry_zone_low": 66.531825,
-      "entry_zone_high": 68.8959,
-      "invalid_below_price": 63.4923,
-      "target_price": 75.6504,
+      "last_close": 67.88,
+      "entry_zone_low": 66.86179999999999,
+      "entry_zone_high": 69.2376,
+      "invalid_below_price": 63.807199999999995,
+      "target_price": 76.0256,
       "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
@@ -382,8 +568,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 34.78980556345324,
-        "volatility_20d": 0.2243706620612253
+        "rsi14": 35.661332239212754,
+        "volatility_20d": 0.2227212577722431
       }
     },
     {
@@ -395,12 +581,12 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "3 insiders compraron 1,880,110 USD entre 2026-09-11 y 2026-09-16",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 56.83,
-      "entry_zone_low": 55.97755,
-      "entry_zone_high": 57.9666,
-      "invalid_below_price": 51.98615384115443,
-      "target_price": 66.51769231769113,
-      "risk_reward_ratio": 1.9999999999999993,
+      "last_close": 57.41,
+      "entry_zone_low": 56.548849999999995,
+      "entry_zone_high": 58.5582,
+      "invalid_below_price": 52.48235486859914,
+      "target_price": 67.26529026280171,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0.05,
       "authorized": true,
       "opt_score": 49.5,
@@ -456,8 +642,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 36.55244503458207,
-        "volatility_20d": 0.6150214671521524
+        "rsi14": 39.050791723791846,
+        "volatility_20d": 0.6193404807618982
       }
     },
     {
@@ -469,12 +655,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-07-17, demasiado antiguo (76 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 383.4,
-      "entry_zone_low": 377.649,
-      "entry_zone_high": 391.068,
-      "invalid_below_price": 360.39599999999996,
-      "target_price": 429.408,
-      "risk_reward_ratio": 2,
+      "last_close": 381.67,
+      "entry_zone_low": 375.94495,
+      "entry_zone_high": 389.3034,
+      "invalid_below_price": 358.7698,
+      "target_price": 427.47040000000004,
+      "risk_reward_ratio": 1.9999999999999984,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 46.9,
@@ -516,8 +702,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 35.614771935793286,
-        "volatility_20d": 0.26659501025822246
+        "rsi14": 34.635600611251704,
+        "volatility_20d": 0.26958011030837975
       }
     }
   ],
@@ -525,16 +711,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 68619,
+    "elapsed_ms": 81986,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 57,
-    "clusters_found": 7,
-    "signals_fresh": 1,
-    "portfolio_entry_count": 1,
+    "companies_with_buys": 60,
+    "clusters_found": 8,
+    "signals_fresh": 2,
+    "portfolio_entry_count": 2,
     "price_download_failed": 0,
-    "filings_seen": 5368,
-    "filings_fetched": 24,
+    "filings_seen": 5466,
+    "filings_fetched": 98,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
