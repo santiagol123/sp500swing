@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-01T21:44:43.558Z",
+  "computed_at": "2026-10-02T01:32:15.070Z",
   "market_date": "2026-10-01",
   "signals": [
     {
@@ -1135,7 +1135,7 @@
         "sector": "Consumer Discretionary",
         "rank_today": 46,
         "setup_type": "NORMAL",
-        "score": 0.746597,
+        "score": 0.746307,
         "price": 233.39,
         "ret_1w": 0.020686,
         "ret_1m": 0.050738,
@@ -1145,25 +1145,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "BE",
-        "name": "Bloom Energy",
-        "sector": "Industrials",
-        "rank_today": 47,
-        "setup_type": "NORMAL",
-        "score": 0.74573,
-        "price": 277.58,
-        "ret_1w": 0.04099,
-        "ret_1m": 0.299349,
-        "dist_sma50": 0.182607,
-        "pct_from_52w_high": -0.197398,
-        "volume_ratio_20_60": 1.136488,
-        "risk_flags": ""
-      },
-      {
         "ticker": "DDOG",
         "name": "Datadog",
         "sector": "Information Technology",
-        "rank_today": 48,
+        "rank_today": 47,
         "setup_type": "NORMAL",
         "score": 0.745399,
         "price": 276.46,
@@ -1172,6 +1157,21 @@
         "dist_sma50": 0.133007,
         "pct_from_52w_high": -0.040569,
         "volume_ratio_20_60": 0.817945,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "BE",
+        "name": "Bloom Energy",
+        "sector": "Industrials",
+        "rank_today": 48,
+        "setup_type": "NORMAL",
+        "score": 0.745091,
+        "price": 277.58,
+        "ret_1w": 0.04099,
+        "ret_1m": 0.299349,
+        "dist_sma50": 0.182607,
+        "pct_from_52w_high": -0.197398,
+        "volume_ratio_20_60": 1.136488,
         "risk_flags": ""
       },
       {
@@ -1195,7 +1195,7 @@
         "sector": "Energy",
         "rank_today": 50,
         "setup_type": "NORMAL",
-        "score": 0.737954,
+        "score": 0.737774,
         "price": 163.82,
         "ret_1w": 0.010361,
         "ret_1m": -0.004436,
