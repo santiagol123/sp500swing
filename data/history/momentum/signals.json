@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-02T20:37:28.956Z",
+  "computed_at": "2026-10-03T00:22:14.296Z",
   "market_date": "2026-10-02",
   "signals": [
     {
@@ -20,7 +20,7 @@
       "size_pct": 0.06,
       "authorized": true,
       "meta": {
-        "rank_today": 30,
+        "rank_today": 31,
         "rsi14": 64.191611,
         "macd_hist": 0.838788,
         "macd_hist_slope": 0.244591
@@ -466,7 +466,7 @@
         "ret_1m": 0.280375,
         "dist_sma50": 0.24738,
         "pct_from_52w_high": -0.00314,
-        "volume_ratio_20_60": 1.589258,
+        "volume_ratio_20_60": 1.589281,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -481,7 +481,7 @@
         "ret_1m": 0.516174,
         "dist_sma50": 0.373286,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.688636,
+        "volume_ratio_20_60": 1.688652,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -496,7 +496,7 @@
         "ret_1m": 0.341026,
         "dist_sma50": 0.246415,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.155631,
+        "volume_ratio_20_60": 1.155694,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -511,7 +511,7 @@
         "ret_1m": 0.109836,
         "dist_sma50": 0.144612,
         "pct_from_52w_high": -0.016889,
-        "volume_ratio_20_60": 1.297453,
+        "volume_ratio_20_60": 1.297502,
         "risk_flags": ""
       },
       {
@@ -541,7 +541,7 @@
         "ret_1m": 0.091292,
         "dist_sma50": 0.156651,
         "pct_from_52w_high": -0.006025,
-        "volume_ratio_20_60": 1.175975,
+        "volume_ratio_20_60": 1.175984,
         "risk_flags": ""
       },
       {
@@ -556,7 +556,7 @@
         "ret_1m": 0.3275,
         "dist_sma50": 0.228586,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.087902,
+        "volume_ratio_20_60": 1.087923,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -571,7 +571,7 @@
         "ret_1m": 0.18641,
         "dist_sma50": 0.1455,
         "pct_from_52w_high": -0.070202,
-        "volume_ratio_20_60": 1.195598,
+        "volume_ratio_20_60": 1.195914,
         "risk_flags": ""
       },
       {
@@ -586,7 +586,7 @@
         "ret_1m": 0.142869,
         "dist_sma50": 0.150451,
         "pct_from_52w_high": -0.043984,
-        "volume_ratio_20_60": 1.115247,
+        "volume_ratio_20_60": 1.115273,
         "risk_flags": ""
       },
       {
@@ -601,7 +601,7 @@
         "ret_1m": 0.229071,
         "dist_sma50": 0.165556,
         "pct_from_52w_high": -0.063671,
-        "volume_ratio_20_60": 1.220669,
+        "volume_ratio_20_60": 1.220699,
         "risk_flags": ""
       },
       {
@@ -616,7 +616,7 @@
         "ret_1m": 0.246778,
         "dist_sma50": 0.234799,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.04174,
+        "volume_ratio_20_60": 1.041931,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -631,7 +631,7 @@
         "ret_1m": 0.08982,
         "dist_sma50": 0.09623,
         "pct_from_52w_high": -0.000323,
-        "volume_ratio_20_60": 1.595482,
+        "volume_ratio_20_60": 1.595499,
         "risk_flags": ""
       },
       {
@@ -646,7 +646,7 @@
         "ret_1m": 0.251701,
         "dist_sma50": 0.176472,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.991305,
+        "volume_ratio_20_60": 0.991326,
         "risk_flags": ""
       },
       {
@@ -661,7 +661,7 @@
         "ret_1m": 0.033152,
         "dist_sma50": 0.101225,
         "pct_from_52w_high": -0.035119,
-        "volume_ratio_20_60": 1.140829,
+        "volume_ratio_20_60": 1.140884,
         "risk_flags": ""
       },
       {
@@ -676,7 +676,7 @@
         "ret_1m": 0.108263,
         "dist_sma50": 0.099969,
         "pct_from_52w_high": -0.042406,
-        "volume_ratio_20_60": 1.085209,
+        "volume_ratio_20_60": 1.085214,
         "risk_flags": ""
       },
       {
@@ -691,7 +691,7 @@
         "ret_1m": 0.076843,
         "dist_sma50": 0.061061,
         "pct_from_52w_high": -0.036506,
-        "volume_ratio_20_60": 1.117125,
+        "volume_ratio_20_60": 1.117132,
         "risk_flags": ""
       },
       {
@@ -706,7 +706,7 @@
         "ret_1m": 0.227594,
         "dist_sma50": 0.114351,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.014216,
+        "volume_ratio_20_60": 1.014245,
         "risk_flags": ""
       },
       {
@@ -721,7 +721,7 @@
         "ret_1m": 0.38693,
         "dist_sma50": 0.234407,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.968175,
+        "volume_ratio_20_60": 0.968226,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -730,13 +730,13 @@
         "sector": "Information Technology",
         "rank_today": 19,
         "setup_type": "NORMAL",
-        "score": 0.825002,
+        "score": 0.826918,
         "price": 489.9,
         "ret_1w": 0.150648,
         "ret_1m": 0.177729,
         "dist_sma50": 0.201892,
         "pct_from_52w_high": -0.083545,
-        "volume_ratio_20_60": 1.161016,
+        "volume_ratio_20_60": 1.174528,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -751,7 +751,7 @@
         "ret_1m": 0.086603,
         "dist_sma50": 0.055177,
         "pct_from_52w_high": -0.038227,
-        "volume_ratio_20_60": 1.140727,
+        "volume_ratio_20_60": 1.14073,
         "risk_flags": ""
       },
       {
@@ -766,7 +766,7 @@
         "ret_1m": 0.196094,
         "dist_sma50": 0.151251,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.857019,
+        "volume_ratio_20_60": 0.857021,
         "risk_flags": ""
       },
       {
@@ -781,7 +781,7 @@
         "ret_1m": -0.005381,
         "dist_sma50": 0.051159,
         "pct_from_52w_high": -0.0281,
-        "volume_ratio_20_60": 1.036685,
+        "volume_ratio_20_60": 1.036952,
         "risk_flags": ""
       },
       {
@@ -796,7 +796,7 @@
         "ret_1m": -0.021339,
         "dist_sma50": 0.017394,
         "pct_from_52w_high": -0.061123,
-        "volume_ratio_20_60": 1.107144,
+        "volume_ratio_20_60": 1.107236,
         "risk_flags": ""
       },
       {
@@ -811,7 +811,7 @@
         "ret_1m": 0.125152,
         "dist_sma50": 0.072612,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.034716,
+        "volume_ratio_20_60": 1.034781,
         "risk_flags": ""
       },
       {
@@ -826,7 +826,7 @@
         "ret_1m": 0.314948,
         "dist_sma50": 0.197935,
         "pct_from_52w_high": -0.071568,
-        "volume_ratio_20_60": 0.881749,
+        "volume_ratio_20_60": 0.881771,
         "risk_flags": ""
       },
       {
@@ -841,7 +841,7 @@
         "ret_1m": 0.013821,
         "dist_sma50": 0.056561,
         "pct_from_52w_high": -0.094701,
-        "volume_ratio_20_60": 1.030439,
+        "volume_ratio_20_60": 1.030447,
         "risk_flags": ""
       },
       {
@@ -856,7 +856,7 @@
         "ret_1m": 0.070491,
         "dist_sma50": 0.071205,
         "pct_from_52w_high": -0.018796,
-        "volume_ratio_20_60": 0.814601,
+        "volume_ratio_20_60": 0.814615,
         "risk_flags": ""
       },
       {
@@ -871,7 +871,7 @@
         "ret_1m": 0.033896,
         "dist_sma50": 0.041064,
         "pct_from_52w_high": -0.007375,
-        "volume_ratio_20_60": 0.987002,
+        "volume_ratio_20_60": 0.98701,
         "risk_flags": ""
       },
       {
@@ -886,29 +886,14 @@
         "ret_1m": 0.170894,
         "dist_sma50": 0.10574,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.854731,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "FFIV",
-        "name": "F5, Inc.",
-        "sector": "Information Technology",
-        "rank_today": 30,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.779032,
-        "price": 454.04,
-        "ret_1w": 0.024782,
-        "ret_1m": 0.16099,
-        "dist_sma50": 0.103621,
-        "pct_from_52w_high": -0.004276,
-        "volume_ratio_20_60": 0.953652,
+        "volume_ratio_20_60": 0.854746,
         "risk_flags": ""
       },
       {
         "ticker": "ANET",
         "name": "Arista Networks",
         "sector": "Information Technology",
-        "rank_today": 31,
+        "rank_today": 30,
         "setup_type": "NORMAL",
         "score": 0.77898,
         "price": 207.35,
@@ -916,7 +901,22 @@
         "ret_1m": 0.114186,
         "dist_sma50": 0.072037,
         "pct_from_52w_high": -0.014964,
-        "volume_ratio_20_60": 0.769271,
+        "volume_ratio_20_60": 0.769291,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "FFIV",
+        "name": "F5, Inc.",
+        "sector": "Information Technology",
+        "rank_today": 31,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.778792,
+        "price": 454.04,
+        "ret_1w": 0.024782,
+        "ret_1m": 0.16099,
+        "dist_sma50": 0.103621,
+        "pct_from_52w_high": -0.004276,
+        "volume_ratio_20_60": 0.953662,
         "risk_flags": ""
       },
       {
@@ -955,13 +955,13 @@
         "sector": "Industrials",
         "rank_today": 34,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.775609,
+        "score": 0.775369,
         "price": 161.61,
         "ret_1w": 0.021361,
         "ret_1m": 0.084777,
         "dist_sma50": 0.046097,
         "pct_from_52w_high": -0.013517,
-        "volume_ratio_20_60": 0.952619,
+        "volume_ratio_20_60": 0.952633,
         "risk_flags": ""
       },
       {
@@ -976,7 +976,7 @@
         "ret_1m": 0.043678,
         "dist_sma50": 0.072579,
         "pct_from_52w_high": -0.005325,
-        "volume_ratio_20_60": 0.899203,
+        "volume_ratio_20_60": 0.899285,
         "risk_flags": ""
       },
       {
@@ -985,13 +985,13 @@
         "sector": "Energy",
         "rank_today": 36,
         "setup_type": "NORMAL",
-        "score": 0.771392,
+        "score": 0.771153,
         "price": 206.69,
         "ret_1w": 0.010956,
         "ret_1m": -0.024034,
         "dist_sma50": 0.023504,
         "pct_from_52w_high": -0.050879,
-        "volume_ratio_20_60": 1.169352,
+        "volume_ratio_20_60": 1.169355,
         "risk_flags": ""
       },
       {
@@ -1006,7 +1006,7 @@
         "ret_1m": 0.25993,
         "dist_sma50": 0.536877,
         "pct_from_52w_high": -0.066106,
-        "volume_ratio_20_60": 0.824786,
+        "volume_ratio_20_60": 0.824827,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1021,7 +1021,7 @@
         "ret_1m": 0.113832,
         "dist_sma50": 0.111759,
         "pct_from_52w_high": -0.088956,
-        "volume_ratio_20_60": 0.675048,
+        "volume_ratio_20_60": 0.675075,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1030,13 +1030,13 @@
         "sector": "Information Technology",
         "rank_today": 39,
         "setup_type": "NORMAL",
-        "score": 0.759838,
+        "score": 0.75984,
         "price": 517.53,
         "ret_1w": 0.002635,
         "ret_1m": 0.041685,
         "dist_sma50": 0.061838,
         "pct_from_52w_high": -0.037416,
-        "volume_ratio_20_60": 0.754916,
+        "volume_ratio_20_60": 0.754985,
         "risk_flags": ""
       },
       {
@@ -1051,7 +1051,7 @@
         "ret_1m": 0.324953,
         "dist_sma50": 0.133073,
         "pct_from_52w_high": -0.037932,
-        "volume_ratio_20_60": 0.798517,
+        "volume_ratio_20_60": 0.798522,
         "risk_flags": ""
       },
       {
@@ -1060,13 +1060,13 @@
         "sector": "Energy",
         "rank_today": 41,
         "setup_type": "NORMAL",
-        "score": 0.755095,
+        "score": 0.754376,
         "price": 43.68,
         "ret_1w": 0.021993,
         "ret_1m": -0.022819,
         "dist_sma50": 0.050525,
         "pct_from_52w_high": -0.078675,
-        "volume_ratio_20_60": 1.099148,
+        "volume_ratio_20_60": 1.099156,
         "risk_flags": ""
       },
       {
@@ -1081,7 +1081,7 @@
         "ret_1m": 0.088142,
         "dist_sma50": 0.07296,
         "pct_from_52w_high": -0.012082,
-        "volume_ratio_20_60": 0.978413,
+        "volume_ratio_20_60": 0.978433,
         "risk_flags": ""
       },
       {
@@ -1096,7 +1096,7 @@
         "ret_1m": 0.115799,
         "dist_sma50": 0.034106,
         "pct_from_52w_high": -0.051852,
-        "volume_ratio_20_60": 1.001887,
+        "volume_ratio_20_60": 1.001906,
         "risk_flags": ""
       },
       {
@@ -1111,7 +1111,7 @@
         "ret_1m": 0.172725,
         "dist_sma50": 0.112804,
         "pct_from_52w_high": -0.060741,
-        "volume_ratio_20_60": 0.901611,
+        "volume_ratio_20_60": 0.901613,
         "risk_flags": ""
       },
       {
@@ -1126,7 +1126,7 @@
         "ret_1m": 0.031562,
         "dist_sma50": 0.036633,
         "pct_from_52w_high": -0.040721,
-        "volume_ratio_20_60": 0.923633,
+        "volume_ratio_20_60": 0.923922,
         "risk_flags": ""
       },
       {
@@ -1135,13 +1135,13 @@
         "sector": "Energy",
         "rank_today": 46,
         "setup_type": "NORMAL",
-        "score": 0.741507,
+        "score": 0.741267,
         "price": 47.65,
         "ret_1w": 0.012752,
         "ret_1m": -0.021852,
         "dist_sma50": 0.020119,
         "pct_from_52w_high": -0.072408,
-        "volume_ratio_20_60": 1.174068,
+        "volume_ratio_20_60": 1.174272,
         "risk_flags": ""
       },
       {
@@ -1156,7 +1156,7 @@
         "ret_1m": -0.000853,
         "dist_sma50": 0.023671,
         "pct_from_52w_high": -0.031361,
-        "volume_ratio_20_60": 0.997053,
+        "volume_ratio_20_60": 0.997062,
         "risk_flags": ""
       },
       {
@@ -1171,7 +1171,7 @@
         "ret_1m": 0.180811,
         "dist_sma50": 0.196455,
         "pct_from_52w_high": -0.255453,
-        "volume_ratio_20_60": 0.849766,
+        "volume_ratio_20_60": 0.849794,
         "risk_flags": "FAR_FROM_52W_HIGH"
       },
       {
@@ -1186,7 +1186,7 @@
         "ret_1m": 0.021759,
         "dist_sma50": 0.011981,
         "pct_from_52w_high": -0.072242,
-        "volume_ratio_20_60": 0.922039,
+        "volume_ratio_20_60": 0.922133,
         "risk_flags": ""
       },
       {
@@ -1201,7 +1201,7 @@
         "ret_1m": -0.013933,
         "dist_sma50": 0.060884,
         "pct_from_52w_high": -0.029375,
-        "volume_ratio_20_60": 1.037699,
+        "volume_ratio_20_60": 1.0377,
         "risk_flags": ""
       }
     ],
