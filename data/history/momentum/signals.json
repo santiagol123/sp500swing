@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-03T00:22:14.296Z",
+  "computed_at": "2026-10-05T05:22:47.685Z",
   "market_date": "2026-10-02",
   "signals": [
     {
@@ -20,7 +20,7 @@
       "size_pct": 0.06,
       "authorized": true,
       "meta": {
-        "rank_today": 31,
+        "rank_today": 32,
         "rsi14": 64.191611,
         "macd_hist": 0.838788,
         "macd_hist_slope": 0.244591
@@ -92,7 +92,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 13,
+        "rank_today": 12,
         "rsi14": 75.934045,
         "macd_hist": 2.716307,
         "macd_hist_slope": 0.790511
@@ -190,7 +190,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 13,
+        "rank_today": 12,
         "rsi14": 75.934045,
         "macd_hist": 2.716307,
         "macd_hist_slope": 0.790511
@@ -358,7 +358,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 12,
+        "rank_today": 13,
         "rsi14": 75.136935,
         "macd_hist": 0.111105,
         "macd_hist_slope": -0.036202
@@ -466,7 +466,7 @@
         "ret_1m": 0.280375,
         "dist_sma50": 0.24738,
         "pct_from_52w_high": -0.00314,
-        "volume_ratio_20_60": 1.589281,
+        "volume_ratio_20_60": 1.591231,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -535,7 +535,7 @@
         "sector": "Energy",
         "rank_today": 6,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.898383,
+        "score": 0.898144,
         "price": 422.33,
         "ret_1w": 0.073211,
         "ret_1m": 0.091292,
@@ -550,13 +550,13 @@
         "sector": "Information Technology",
         "rank_today": 7,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.889149,
+        "score": 0.888909,
         "price": 270.04,
         "ret_1w": 0.071035,
         "ret_1m": 0.3275,
         "dist_sma50": 0.228586,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.087923,
+        "volume_ratio_20_60": 1.088011,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -565,13 +565,13 @@
         "sector": "Information Technology",
         "rank_today": 8,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.888333,
+        "score": 0.888253,
         "price": 85.03,
         "ret_1w": -0.048243,
         "ret_1m": 0.18641,
         "dist_sma50": 0.1455,
         "pct_from_52w_high": -0.070202,
-        "volume_ratio_20_60": 1.195914,
+        "volume_ratio_20_60": 1.195925,
         "risk_flags": ""
       },
       {
@@ -601,7 +601,7 @@
         "ret_1m": 0.229071,
         "dist_sma50": 0.165556,
         "pct_from_52w_high": -0.063671,
-        "volume_ratio_20_60": 1.220699,
+        "volume_ratio_20_60": 1.220837,
         "risk_flags": ""
       },
       {
@@ -610,20 +610,35 @@
         "sector": "Information Technology",
         "rank_today": 11,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.86334,
+        "score": 0.864058,
         "price": 1085.42,
         "ret_1w": 0.152679,
         "ret_1m": 0.246778,
         "dist_sma50": 0.234799,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.041931,
+        "volume_ratio_20_60": 1.042432,
         "risk_flags": "EXTENDED_FROM_SMA50"
+      },
+      {
+        "ticker": "NTAP",
+        "name": "NetApp",
+        "sector": "Information Technology",
+        "rank_today": 12,
+        "setup_type": "HOT_MOMENTUM",
+        "score": 0.862769,
+        "price": 226.27,
+        "ret_1w": 0.124882,
+        "ret_1m": 0.251701,
+        "dist_sma50": 0.176472,
+        "pct_from_52w_high": 0,
+        "volume_ratio_20_60": 0.995602,
+        "risk_flags": ""
       },
       {
         "ticker": "WBD",
         "name": "Warner Bros. Discovery",
         "sector": "Communication Services",
-        "rank_today": 12,
+        "rank_today": 13,
         "setup_type": "NEAR_BREAKOUT",
         "score": 0.861687,
         "price": 30.94,
@@ -631,22 +646,7 @@
         "ret_1m": 0.08982,
         "dist_sma50": 0.09623,
         "pct_from_52w_high": -0.000323,
-        "volume_ratio_20_60": 1.595499,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "NTAP",
-        "name": "NetApp",
-        "sector": "Information Technology",
-        "rank_today": 13,
-        "setup_type": "HOT_MOMENTUM",
-        "score": 0.861572,
-        "price": 226.27,
-        "ret_1w": 0.124882,
-        "ret_1m": 0.251701,
-        "dist_sma50": 0.176472,
-        "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.991326,
+        "volume_ratio_20_60": 1.602678,
         "risk_flags": ""
       },
       {
@@ -700,43 +700,43 @@
         "sector": "Information Technology",
         "rank_today": 17,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.84,
+        "score": 0.839521,
         "price": 403.24,
         "ret_1w": 0.076053,
         "ret_1m": 0.227594,
         "dist_sma50": 0.114351,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.014245,
+        "volume_ratio_20_60": 1.014668,
         "risk_flags": ""
-      },
-      {
-        "ticker": "AMD",
-        "name": "Advanced Micro Devices",
-        "sector": "Information Technology",
-        "rank_today": 18,
-        "setup_type": "EXTENDED",
-        "score": 0.827602,
-        "price": 633.91,
-        "ret_1w": 0.005201,
-        "ret_1m": 0.38693,
-        "dist_sma50": 0.234407,
-        "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.968226,
-        "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
         "ticker": "SNPS",
         "name": "Synopsys",
         "sector": "Information Technology",
-        "rank_today": 19,
+        "rank_today": 18,
         "setup_type": "NORMAL",
-        "score": 0.826918,
+        "score": 0.828115,
         "price": 489.9,
         "ret_1w": 0.150648,
         "ret_1m": 0.177729,
         "dist_sma50": 0.201892,
         "pct_from_52w_high": -0.083545,
-        "volume_ratio_20_60": 1.174528,
+        "volume_ratio_20_60": 1.178705,
+        "risk_flags": "EXTENDED_FROM_SMA50"
+      },
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Devices",
+        "sector": "Information Technology",
+        "rank_today": 19,
+        "setup_type": "EXTENDED",
+        "score": 0.827842,
+        "price": 633.91,
+        "ret_1w": 0.005201,
+        "ret_1m": 0.38693,
+        "dist_sma50": 0.234407,
+        "pct_from_52w_high": 0,
+        "volume_ratio_20_60": 0.969009,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -790,7 +790,7 @@
         "sector": "Health Care",
         "rank_today": 23,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.796522,
+        "score": 0.796233,
         "price": 258.21,
         "ret_1w": -0.044975,
         "ret_1m": -0.021339,
@@ -826,7 +826,7 @@
         "ret_1m": 0.314948,
         "dist_sma50": 0.197935,
         "pct_from_52w_high": -0.071568,
-        "volume_ratio_20_60": 0.881771,
+        "volume_ratio_20_60": 0.882312,
         "risk_flags": ""
       },
       {
@@ -835,7 +835,7 @@
         "sector": "Information Technology",
         "rank_today": 26,
         "setup_type": "NORMAL",
-        "score": 0.787575,
+        "score": 0.787285,
         "price": 32.12,
         "ret_1w": 0.026198,
         "ret_1m": 0.013821,
@@ -856,7 +856,7 @@
         "ret_1m": 0.070491,
         "dist_sma50": 0.071205,
         "pct_from_52w_high": -0.018796,
-        "volume_ratio_20_60": 0.814615,
+        "volume_ratio_20_60": 0.814648,
         "risk_flags": ""
       },
       {
@@ -886,7 +886,7 @@
         "ret_1m": 0.170894,
         "dist_sma50": 0.10574,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.854746,
+        "volume_ratio_20_60": 0.854818,
         "risk_flags": ""
       },
       {
@@ -905,25 +905,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "FFIV",
-        "name": "F5, Inc.",
-        "sector": "Information Technology",
-        "rank_today": 31,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.778792,
-        "price": 454.04,
-        "ret_1w": 0.024782,
-        "ret_1m": 0.16099,
-        "dist_sma50": 0.103621,
-        "pct_from_52w_high": -0.004276,
-        "volume_ratio_20_60": 0.953662,
-        "risk_flags": ""
-      },
-      {
         "ticker": "NDSN",
         "name": "Nordson Corporation",
         "sector": "Industrials",
-        "rank_today": 32,
+        "rank_today": 31,
         "setup_type": "NEAR_BREAKOUT",
         "score": 0.778438,
         "price": 333.54,
@@ -931,7 +916,22 @@
         "ret_1m": 0.05657,
         "dist_sma50": 0.059516,
         "pct_from_52w_high": -0.000473,
-        "volume_ratio_20_60": 0.980248,
+        "volume_ratio_20_60": 0.980359,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "FFIV",
+        "name": "F5, Inc.",
+        "sector": "Information Technology",
+        "rank_today": 32,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.778154,
+        "price": 454.04,
+        "ret_1w": 0.024782,
+        "ret_1m": 0.16099,
+        "dist_sma50": 0.103621,
+        "pct_from_52w_high": -0.004276,
+        "volume_ratio_20_60": 0.953945,
         "risk_flags": ""
       },
       {
@@ -976,7 +976,7 @@
         "ret_1m": 0.043678,
         "dist_sma50": 0.072579,
         "pct_from_52w_high": -0.005325,
-        "volume_ratio_20_60": 0.899285,
+        "volume_ratio_20_60": 0.899485,
         "risk_flags": ""
       },
       {
@@ -1006,7 +1006,7 @@
         "ret_1m": 0.25993,
         "dist_sma50": 0.536877,
         "pct_from_52w_high": -0.066106,
-        "volume_ratio_20_60": 0.824827,
+        "volume_ratio_20_60": 0.824903,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1015,13 +1015,13 @@
         "sector": "Information Technology",
         "rank_today": 38,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.766939,
+        "score": 0.766944,
         "price": 188.75,
         "ret_1w": -0.004851,
         "ret_1m": 0.113832,
         "dist_sma50": 0.111759,
         "pct_from_52w_high": -0.088956,
-        "volume_ratio_20_60": 0.675075,
+        "volume_ratio_20_60": 0.67532,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1030,13 +1030,13 @@
         "sector": "Information Technology",
         "rank_today": 39,
         "setup_type": "NORMAL",
-        "score": 0.75984,
+        "score": 0.759856,
         "price": 517.53,
         "ret_1w": 0.002635,
         "ret_1m": 0.041685,
         "dist_sma50": 0.061838,
         "pct_from_52w_high": -0.037416,
-        "volume_ratio_20_60": 0.754985,
+        "volume_ratio_20_60": 0.755841,
         "risk_flags": ""
       },
       {
@@ -1045,13 +1045,13 @@
         "sector": "Information Technology",
         "rank_today": 40,
         "setup_type": "NORMAL",
-        "score": 0.757752,
+        "score": 0.757115,
         "price": 277.22,
         "ret_1w": 0.033901,
         "ret_1m": 0.324953,
         "dist_sma50": 0.133073,
         "pct_from_52w_high": -0.037932,
-        "volume_ratio_20_60": 0.798522,
+        "volume_ratio_20_60": 0.798623,
         "risk_flags": ""
       },
       {
@@ -1066,7 +1066,7 @@
         "ret_1m": -0.022819,
         "dist_sma50": 0.050525,
         "pct_from_52w_high": -0.078675,
-        "volume_ratio_20_60": 1.099156,
+        "volume_ratio_20_60": 1.099268,
         "risk_flags": ""
       },
       {
@@ -1085,33 +1085,33 @@
         "risk_flags": ""
       },
       {
+        "ticker": "ADI",
+        "name": "Analog Devices",
+        "sector": "Information Technology",
+        "rank_today": 43,
+        "setup_type": "NORMAL",
+        "score": 0.747206,
+        "price": 417.15,
+        "ret_1w": 0.059832,
+        "ret_1m": 0.172725,
+        "dist_sma50": 0.112804,
+        "pct_from_52w_high": -0.060741,
+        "volume_ratio_20_60": 0.901677,
+        "risk_flags": ""
+      },
+      {
         "ticker": "ETN",
         "name": "Eaton Corporation",
         "sector": "Industrials",
-        "rank_today": 43,
+        "rank_today": 44,
         "setup_type": "NORMAL",
-        "score": 0.747445,
+        "score": 0.747206,
         "price": 436.11,
         "ret_1w": -0.008796,
         "ret_1m": 0.115799,
         "dist_sma50": 0.034106,
         "pct_from_52w_high": -0.051852,
         "volume_ratio_20_60": 1.001906,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "ADI",
-        "name": "Analog Devices",
-        "sector": "Information Technology",
-        "rank_today": 44,
-        "setup_type": "NORMAL",
-        "score": 0.747415,
-        "price": 417.15,
-        "ret_1w": 0.059832,
-        "ret_1m": 0.172725,
-        "dist_sma50": 0.112804,
-        "pct_from_52w_high": -0.060741,
-        "volume_ratio_20_60": 0.901613,
         "risk_flags": ""
       },
       {
@@ -1135,7 +1135,7 @@
         "sector": "Energy",
         "rank_today": 46,
         "setup_type": "NORMAL",
-        "score": 0.741267,
+        "score": 0.741188,
         "price": 47.65,
         "ret_1w": 0.012752,
         "ret_1m": -0.021852,
@@ -1150,7 +1150,7 @@
         "sector": "Energy",
         "rank_today": 47,
         "setup_type": "NORMAL",
-        "score": 0.739486,
+        "score": 0.738728,
         "price": 164.01,
         "ret_1w": 0.021296,
         "ret_1m": -0.000853,
@@ -1171,7 +1171,7 @@
         "ret_1m": 0.180811,
         "dist_sma50": 0.196455,
         "pct_from_52w_high": -0.255453,
-        "volume_ratio_20_60": 0.849794,
+        "volume_ratio_20_60": 0.851155,
         "risk_flags": "FAR_FROM_52W_HIGH"
       },
       {
@@ -1195,7 +1195,7 @@
         "sector": "Industrials",
         "rank_today": 50,
         "setup_type": "NORMAL",
-        "score": 0.730459,
+        "score": 0.729351,
         "price": 687,
         "ret_1w": -0.002637,
         "ret_1m": -0.013933,
