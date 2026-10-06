@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-06T10:03:54.742Z",
+  "updated_at": "2026-10-06T16:40:21.692Z",
   "initial_equity": 100000,
-  "cash": 58362.31384278005,
+  "cash": 64803.26176266935,
   "positions": [
     {
       "ticker": "WBD",
@@ -31,31 +31,6 @@
       }
     },
     {
-      "ticker": "MTD",
-      "name": "Mettler Toledo",
-      "sector": "Health Care",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-09-22",
-      "entry_price": 1494.48,
-      "qty": 3.919088,
-      "cost_basis": 5859.93,
-      "stop_price": 1452.6346,
-      "target_price": 1576.6764,
-      "last_price": 1541.63,
-      "last_marked_date": "2026-10-05",
-      "unrealized_pnl": 181.85,
-      "unrealized_pct": 0.031549,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 17,
-        "rsi14": 69.508172,
-        "macd_hist": 15.096416,
-        "macd_hist_slope": 6.222158
-      }
-    },
-    {
       "ticker": "META",
       "name": "Meta Platforms",
       "sector": "Communication Services",
@@ -66,10 +41,10 @@
       "cost_basis": 4883.27,
       "stop_price": 714.2589,
       "target_price": 792.4316,
-      "last_price": 741.9,
-      "last_marked_date": "2026-10-05",
-      "unrealized_pnl": 2.07,
-      "unrealized_pct": 0.000924,
+      "last_price": 742.965,
+      "last_marked_date": "2026-10-06",
+      "unrealized_pnl": 9.09,
+      "unrealized_pct": 0.002361,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -78,31 +53,6 @@
         "rsi14": 77.859243,
         "macd_hist": 12.098826,
         "macd_hist_slope": 1.201187
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Nvidia",
-      "sector": "Information Technology",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-09-25",
-      "entry_price": 226.39,
-      "qty": 25.876168,
-      "cost_basis": 5861.03,
-      "stop_price": 220.0511,
-      "target_price": 238.8415,
-      "last_price": 238.9,
-      "last_marked_date": "2026-10-05",
-      "unrealized_pnl": 320.79,
-      "unrealized_pct": 0.055259,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 30,
-        "rsi14": 56.48732,
-        "macd_hist": 0.455188,
-        "macd_hist_slope": 0.034538
       }
     },
     {
@@ -116,10 +66,10 @@
       "cost_basis": 4875.22,
       "stop_price": 244.6232,
       "target_price": 265.5118,
-      "last_price": 251.92,
-      "last_marked_date": "2026-10-05",
-      "unrealized_pnl": 2.4,
-      "unrealized_pct": 0.000993,
+      "last_price": 254.73,
+      "last_marked_date": "2026-10-06",
+      "unrealized_pnl": 56.81,
+      "unrealized_pct": 0.012159,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -141,10 +91,10 @@
       "cost_basis": 5842.32,
       "stop_price": 147.5204,
       "target_price": 160.1173,
-      "last_price": 156.85,
-      "last_marked_date": "2026-10-05",
-      "unrealized_pnl": 192.54,
-      "unrealized_pct": 0.033472,
+      "last_price": 158.69,
+      "last_marked_date": "2026-10-06",
+      "unrealized_pnl": 263.33,
+      "unrealized_pct": 0.045595,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -166,10 +116,10 @@
       "cost_basis": 5866.94,
       "stop_price": 445.8953,
       "target_price": 483.9707,
-      "last_price": 458.53,
-      "last_marked_date": "2026-10-05",
-      "unrealized_pnl": -5.62,
-      "unrealized_pct": -0.000458,
+      "last_price": 467.34,
+      "last_marked_date": "2026-10-06",
+      "unrealized_pnl": 107,
+      "unrealized_pct": 0.018747,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -178,6 +128,31 @@
         "rsi14": 65.798747,
         "macd_hist": 1.138731,
         "macd_hist_slope": 0.544534
+      }
+    },
+    {
+      "ticker": "WSM",
+      "name": "Williams-Sonoma, Inc.",
+      "sector": "Consumer Discretionary",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-06",
+      "entry_price": 243.403,
+      "qty": 24.278039,
+      "cost_basis": 5912.3,
+      "stop_price": 236.5877,
+      "target_price": 256.7902,
+      "last_price": 243.403,
+      "last_marked_date": "2026-10-06",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 28,
+        "rsi14": 64.430336,
+        "macd_hist": 1.859772,
+        "macd_hist_slope": 0.461617
       }
     }
   ],
@@ -883,6 +858,58 @@
         "macd_hist": 0.336327,
         "macd_hist_slope": 1.816701
       }
+    },
+    {
+      "ticker": "MTD",
+      "name": "Mettler Toledo",
+      "sector": "Health Care",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-22",
+      "entry_price": 1494.48,
+      "exit_date": "2026-10-06",
+      "exit_price": 1576.6764,
+      "exit_reason": "OBJETIVO",
+      "qty": 3.919088,
+      "cost_basis": 5859.93,
+      "proceeds": 6176.04,
+      "pnl": 316.11,
+      "pnl_pct": 0.053945,
+      "r_multiple": 1.964,
+      "hold_days": 14,
+      "stop_price": 1452.6346,
+      "target_price": 1576.6764,
+      "signal_meta": {
+        "rank_today": 17,
+        "rsi14": 69.508172,
+        "macd_hist": 15.096416,
+        "macd_hist_slope": 6.222158
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-25",
+      "entry_price": 226.39,
+      "exit_date": "2026-10-06",
+      "exit_price": 238.8415,
+      "exit_reason": "OBJETIVO",
+      "qty": 25.876168,
+      "cost_basis": 5861.03,
+      "proceeds": 6177.21,
+      "pnl": 316.18,
+      "pnl_pct": 0.053947,
+      "r_multiple": 1.964,
+      "hold_days": 11,
+      "stop_price": 220.0511,
+      "target_price": 238.8415,
+      "signal_meta": {
+        "rank_today": 30,
+        "rsi14": 56.48732,
+        "macd_hist": 0.455188,
+        "macd_hist_slope": 0.034538
+      }
     }
   ],
   "equity_curve": [
@@ -1131,8 +1158,14 @@
       "equity": 98163.89,
       "cash": 58362.31,
       "open_positions": 7
+    },
+    {
+      "date": "2026-10-06",
+      "equity": 98535.41,
+      "cash": 64803.26,
+      "open_positions": 6
     }
   ],
-  "tracked_days": 41,
-  "last_market_date": "2026-10-05"
+  "tracked_days": 42,
+  "last_market_date": "2026-10-06"
 }
