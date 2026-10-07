@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-10-07T08:32:32.476Z",
+  "updated_at": "2026-10-07T16:19:57.681Z",
   "initial_equity": 100000,
   "cash": 99559.99456997165,
   "positions": [],
@@ -2054,8 +2054,14 @@
       "equity": 99559.99,
       "cash": 99559.99,
       "open_positions": 0
+    },
+    {
+      "date": "2026-10-07",
+      "equity": 99559.99,
+      "cash": 99559.99,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 41,
-  "last_market_date": "2026-10-06"
+  "tracked_days": 42,
+  "last_market_date": "2026-10-07"
 }
