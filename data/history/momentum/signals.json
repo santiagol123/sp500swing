@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-08T21:58:26.432Z",
+  "computed_at": "2026-10-09T01:56:42.015Z",
   "market_date": "2026-10-08",
   "signals": [
     {
@@ -1160,7 +1160,7 @@
         "sector": "Health Care",
         "rank_today": 41,
         "setup_type": "NORMAL",
-        "score": 0.76347,
+        "score": 0.76283,
         "price": 272.42,
         "ret_1w": 0.048051,
         "ret_1m": 0.085728,
@@ -1215,25 +1215,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "VRSN",
-        "name": "Verisign",
-        "sector": "Information Technology",
-        "rank_today": 45,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.756985,
-        "price": 297.79,
-        "ret_1w": 0.037957,
-        "ret_1m": 0.037813,
-        "dist_sma50": 0.026661,
-        "pct_from_52w_high": -0.036567,
-        "volume_ratio_20_60": 1.084682,
-        "risk_flags": ""
-      },
-      {
         "ticker": "EMR",
         "name": "Emerson Electric",
         "sector": "Industrials",
-        "rank_today": 46,
+        "rank_today": 45,
         "setup_type": "NEAR_BREAKOUT",
         "score": 0.756785,
         "price": 159.06,
@@ -1242,6 +1227,21 @@
         "dist_sma50": 0.023069,
         "pct_from_52w_high": -0.029083,
         "volume_ratio_20_60": 0.9699,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "VRSN",
+        "name": "Verisign",
+        "sector": "Information Technology",
+        "rank_today": 46,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.756345,
+        "price": 297.79,
+        "ret_1w": 0.037957,
+        "ret_1m": 0.037813,
+        "dist_sma50": 0.026661,
+        "pct_from_52w_high": -0.036567,
+        "volume_ratio_20_60": 1.084682,
         "risk_flags": ""
       },
       {
