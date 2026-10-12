@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-10T00:40:59.833Z",
+  "computed_at": "2026-10-12T05:43:31.383Z",
   "market_date": "2026-10-09",
   "signals": [
     {
@@ -20,7 +20,7 @@
       "size_pct": 0.06,
       "authorized": true,
       "meta": {
-        "rank_today": 32,
+        "rank_today": 33,
         "rsi14": 67.524701,
         "macd_hist": 1.489778,
         "macd_hist_slope": 0.345231
@@ -44,7 +44,7 @@
       "size_pct": 0.06,
       "authorized": true,
       "meta": {
-        "rank_today": 33,
+        "rank_today": 32,
         "rsi14": 54.857719,
         "macd_hist": 0.816313,
         "macd_hist_slope": 0.330128
@@ -68,7 +68,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 36,
+        "rank_today": 37,
         "rsi14": 61.046976,
         "macd_hist": 0.54176,
         "macd_hist_slope": -0.004578
@@ -120,6 +120,30 @@
         "rsi14": 70.00716,
         "macd_hist": 2.094563,
         "macd_hist_slope": 0.658152
+      }
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "strategy": "momentum",
+      "family": "LEADER_CONTINUATION",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "Entrada tecnicamente valida, pero excede limite diario o limite por sector",
+      "plan": "No abrir por limite de cartera/sector; mantener en radar",
+      "last_close": 387.18,
+      "entry_zone_low": 383.3082,
+      "entry_zone_high": 388.34154,
+      "invalid_below_price": 376.33896,
+      "target_price": 408.4749,
+      "risk_reward_ratio": 1.964286,
+      "size_pct": 0,
+      "authorized": false,
+      "meta": {
+        "rank_today": 24,
+        "rsi14": 67.623835,
+        "macd_hist": 1.286174,
+        "macd_hist_slope": -0.03615
       }
     },
     {
@@ -206,16 +230,16 @@
       "last_close": 237.15,
       "entry_zone_low": 234.7785,
       "entry_zone_high": 237.86145,
-      "invalid_below_price": 230.423147,
+      "invalid_below_price": 230.396066,
       "target_price": 250.19325,
-      "risk_reward_ratio": 1.938983,
+      "risk_reward_ratio": 1.931208,
       "size_pct": 0,
       "authorized": false,
       "meta": {
         "rank_today": 9,
-        "rsi14": 74.5678,
-        "macd_hist": 3.088417,
-        "macd_hist_slope": -0.039073
+        "rsi14": 74.784432,
+        "macd_hist": 3.115527,
+        "macd_hist_slope": -0.004924
       }
     },
     {
@@ -310,7 +334,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 36,
+        "rank_today": 37,
         "rsi14": 61.046976,
         "macd_hist": 0.54176,
         "macd_hist_slope": -0.004578
@@ -362,6 +386,30 @@
         "rsi14": 70.00716,
         "macd_hist": 2.094563,
         "macd_hist_slope": 0.658152
+      }
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "strategy": "momentum",
+      "family": "LEADER_CONTINUATION",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "Entrada tecnicamente valida, pero excede limite diario o limite por sector",
+      "plan": "No abrir por limite de cartera/sector; mantener en radar",
+      "last_close": 387.18,
+      "entry_zone_low": 383.3082,
+      "entry_zone_high": 388.34154,
+      "invalid_below_price": 376.33896,
+      "target_price": 408.4749,
+      "risk_reward_ratio": 1.964286,
+      "size_pct": 0,
+      "authorized": false,
+      "meta": {
+        "rank_today": 24,
+        "rsi14": 67.623835,
+        "macd_hist": 1.286174,
+        "macd_hist_slope": -0.03615
       }
     },
     {
@@ -448,16 +496,16 @@
       "last_close": 237.15,
       "entry_zone_low": 234.7785,
       "entry_zone_high": 237.86145,
-      "invalid_below_price": 230.423147,
+      "invalid_below_price": 230.396066,
       "target_price": 250.19325,
-      "risk_reward_ratio": 1.938983,
+      "risk_reward_ratio": 1.931208,
       "size_pct": 0,
       "authorized": false,
       "meta": {
         "rank_today": 9,
-        "rsi14": 74.5678,
-        "macd_hist": 3.088417,
-        "macd_hist_slope": -0.039073
+        "rsi14": 74.784432,
+        "macd_hist": 3.115527,
+        "macd_hist_slope": -0.004924
       }
     },
     {
@@ -562,9 +610,9 @@
       "sector": "Information Technology",
       "strategy": "momentum",
       "family": "LEADER_CONTINUATION",
-      "action": "ESPERAR_CONFIRMACION",
-      "reason": "MACD confirmado pero perdiendo fuerza",
-      "plan": "Esperar nueva entrada; no comprar a mercado",
+      "action": "YA_EN_CARTERA",
+      "reason": "El ticker ya esta abierto en la cartera actual",
+      "plan": "No duplicar posicion; gestionar stop, objetivo y tiempo maximo",
       "last_close": 382.75,
       "entry_zone_low": 378.9225,
       "entry_zone_high": 383.89825,
@@ -650,30 +698,6 @@
         "rsi14": 57.254944,
         "macd_hist": 0.021218,
         "macd_hist_slope": -0.287149
-      }
-    },
-    {
-      "ticker": "ZBRA",
-      "name": "Zebra Technologies",
-      "sector": "Information Technology",
-      "strategy": "momentum",
-      "family": "LEADER_CONTINUATION",
-      "action": "YA_EN_CARTERA",
-      "reason": "El ticker ya esta abierto en la cartera actual",
-      "plan": "No duplicar posicion; gestionar stop, objetivo y tiempo maximo",
-      "last_close": 387.18,
-      "entry_zone_low": 383.3082,
-      "entry_zone_high": 388.34154,
-      "invalid_below_price": 376.33896,
-      "target_price": 408.4749,
-      "risk_reward_ratio": 1.964286,
-      "size_pct": 0,
-      "authorized": false,
-      "meta": {
-        "rank_today": 24,
-        "rsi14": 67.623835,
-        "macd_hist": 1.286174,
-        "macd_hist_slope": -0.03615
       }
     },
     {
@@ -796,7 +820,7 @@
     "core_count": 0,
     "breakout_count": 1,
     "leader_count": 23,
-    "technical_entry_count": 12,
+    "technical_entry_count": 13,
     "portfolio_entry_count": 2,
     "open_positions_count": 8,
     "buys_today_count": 2,
@@ -875,7 +899,7 @@
         "ret_1m": 0.382074,
         "dist_sma50": 0.22587,
         "pct_from_52w_high": -0.052845,
-        "volume_ratio_20_60": 1.638674,
+        "volume_ratio_20_60": 1.638689,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -905,7 +929,7 @@
         "ret_1m": 0.510643,
         "dist_sma50": 0.306698,
         "pct_from_52w_high": -0.055472,
-        "volume_ratio_20_60": 1.721479,
+        "volume_ratio_20_60": 1.72148,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -935,7 +959,7 @@
         "ret_1m": 0.316863,
         "dist_sma50": 0.202613,
         "pct_from_52w_high": -0.013699,
-        "volume_ratio_20_60": 1.11524,
+        "volume_ratio_20_60": 1.115342,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -944,13 +968,13 @@
         "sector": "Information Technology",
         "rank_today": 9,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.88109,
+        "score": 0.880796,
         "price": 237.15,
-        "ret_1w": 0.048084,
-        "ret_1m": 0.291667,
-        "dist_sma50": 0.196112,
+        "ret_1w": 0.050448,
+        "ret_1m": 0.29458,
+        "dist_sma50": 0.198745,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.044506,
+        "volume_ratio_20_60": 1.044521,
         "risk_flags": ""
       },
       {
@@ -1004,13 +1028,13 @@
         "sector": "Information Technology",
         "rank_today": 13,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.863226,
+        "score": 0.864666,
         "price": 509.99,
         "ret_1w": 0.041008,
         "ret_1m": 0.28406,
         "dist_sma50": 0.214718,
         "pct_from_52w_high": -0.045963,
-        "volume_ratio_20_60": 1.192899,
+        "volume_ratio_20_60": 1.199017,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1070,7 +1094,7 @@
         "ret_1m": 0.237201,
         "dist_sma50": 0.129236,
         "pct_from_52w_high": -0.002691,
-        "volume_ratio_20_60": 1.004371,
+        "volume_ratio_20_60": 1.004397,
         "risk_flags": ""
       },
       {
@@ -1094,13 +1118,13 @@
         "sector": "Information Technology",
         "rank_today": 19,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.832451,
-        "price": 1103.35,
-        "ret_1w": 0.016519,
-        "ret_1m": 0.179171,
-        "dist_sma50": 0.198853,
-        "pct_from_52w_high": -0.026513,
-        "volume_ratio_20_60": 1.015,
+        "score": 0.83245,
+        "price": 1103.355,
+        "ret_1w": 0.016524,
+        "ret_1m": 0.179176,
+        "dist_sma50": 0.198858,
+        "pct_from_52w_high": -0.026509,
+        "volume_ratio_20_60": 1.015109,
         "risk_flags": ""
       },
       {
@@ -1124,13 +1148,13 @@
         "sector": "Information Technology",
         "rank_today": 21,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.820915,
+        "score": 0.82092,
         "price": 209.05,
         "ret_1w": 0.10755,
         "ret_1m": 0.2604,
         "dist_sma50": 0.18121,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.721745,
+        "volume_ratio_20_60": 0.72201,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
@@ -1145,7 +1169,7 @@
         "ret_1m": 0.225999,
         "dist_sma50": 0.163572,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.892584,
+        "volume_ratio_20_60": 0.892617,
         "risk_flags": ""
       },
       {
@@ -1160,7 +1184,7 @@
         "ret_1m": 0.646904,
         "dist_sma50": 0.627386,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.924412,
+        "volume_ratio_20_60": 0.924648,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -1175,7 +1199,7 @@
         "ret_1m": 0.125491,
         "dist_sma50": 0.070732,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.808796,
+        "volume_ratio_20_60": 0.808818,
         "risk_flags": ""
       },
       {
@@ -1190,7 +1214,7 @@
         "ret_1m": 0.204151,
         "dist_sma50": 0.146405,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.961422,
+        "volume_ratio_20_60": 0.961431,
         "risk_flags": ""
       },
       {
@@ -1229,7 +1253,7 @@
         "sector": "Information Technology",
         "rank_today": 28,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.798725,
+        "score": 0.798485,
         "price": 382.75,
         "ret_1w": -0.004914,
         "ret_1m": 0.175342,
@@ -1250,7 +1274,7 @@
         "ret_1m": 0.030317,
         "dist_sma50": 0.080434,
         "pct_from_52w_high": -0.032272,
-        "volume_ratio_20_60": 1.095555,
+        "volume_ratio_20_60": 1.095557,
         "risk_flags": ""
       },
       {
@@ -1284,10 +1308,25 @@
         "risk_flags": "FAR_FROM_52W_HIGH"
       },
       {
+        "ticker": "AMGN",
+        "name": "Amgen",
+        "sector": "Health Care",
+        "rank_today": 32,
+        "setup_type": "EARLY_MOMENTUM",
+        "score": 0.78652,
+        "price": 414.87,
+        "ret_1w": 0.029352,
+        "ret_1m": 0.084713,
+        "dist_sma50": 0.008999,
+        "pct_from_52w_high": -0.065861,
+        "volume_ratio_20_60": 1.102056,
+        "risk_flags": ""
+      },
+      {
         "ticker": "MSFT",
         "name": "Microsoft",
         "sector": "Information Technology",
-        "rank_today": 32,
+        "rank_today": 33,
         "setup_type": "HOT_MOMENTUM",
         "score": 0.785905,
         "price": 535.07,
@@ -1295,22 +1334,7 @@
         "ret_1m": 0.086569,
         "dist_sma50": 0.069737,
         "pct_from_52w_high": -0.004792,
-        "volume_ratio_20_60": 0.820653,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "AMGN",
-        "name": "Amgen",
-        "sector": "Health Care",
-        "rank_today": 33,
-        "setup_type": "EARLY_MOMENTUM",
-        "score": 0.78484,
-        "price": 414.87,
-        "ret_1w": 0.029352,
-        "ret_1m": 0.084713,
-        "dist_sma50": 0.008999,
-        "pct_from_52w_high": -0.065861,
-        "volume_ratio_20_60": 1.095895,
+        "volume_ratio_20_60": 0.821465,
         "risk_flags": ""
       },
       {
@@ -1319,13 +1343,13 @@
         "sector": "Information Technology",
         "rank_today": 34,
         "setup_type": "NORMAL",
-        "score": 0.78242,
+        "score": 0.78224,
         "price": 608.1,
         "ret_1w": -0.040716,
         "ret_1m": 0.207506,
         "dist_sma50": 0.149699,
         "pct_from_52w_high": -0.063626,
-        "volume_ratio_20_60": 0.96266,
+        "volume_ratio_20_60": 0.962762,
         "risk_flags": ""
       },
       {
@@ -1344,12 +1368,27 @@
         "risk_flags": ""
       },
       {
+        "ticker": "DDOG",
+        "name": "Datadog",
+        "sector": "Information Technology",
+        "rank_today": 36,
+        "setup_type": "NORMAL",
+        "score": 0.779644,
+        "price": 293.26,
+        "ret_1w": 0.05786,
+        "ret_1m": 0.322659,
+        "dist_sma50": 0.187884,
+        "pct_from_52w_high": 0,
+        "volume_ratio_20_60": 0.762834,
+        "risk_flags": ""
+      },
+      {
         "ticker": "EMR",
         "name": "Emerson Electric",
         "sector": "Industrials",
-        "rank_today": 36,
+        "rank_today": 37,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.77986,
+        "score": 0.77962,
         "price": 161.83,
         "ret_1w": 0.001361,
         "ret_1m": 0.090719,
@@ -1359,33 +1398,18 @@
         "risk_flags": ""
       },
       {
-        "ticker": "DDOG",
-        "name": "Datadog",
-        "sector": "Information Technology",
-        "rank_today": 37,
-        "setup_type": "NORMAL",
-        "score": 0.779643,
-        "price": 293.26,
-        "ret_1w": 0.05786,
-        "ret_1m": 0.322659,
-        "dist_sma50": 0.187884,
-        "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.762768,
-        "risk_flags": ""
-      },
-      {
         "ticker": "BIIB",
         "name": "Biogen",
         "sector": "Health Care",
         "rank_today": 38,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.778225,
+        "score": 0.777985,
         "price": 225.71,
         "ret_1w": 0.026514,
         "ret_1m": 0.047719,
         "dist_sma50": 0.039906,
         "pct_from_52w_high": -0.013031,
-        "volume_ratio_20_60": 1.198537,
+        "volume_ratio_20_60": 1.19854,
         "risk_flags": ""
       },
       {
@@ -1400,7 +1424,7 @@
         "ret_1m": 0.116169,
         "dist_sma50": 0.123976,
         "pct_from_52w_high": -0.075773,
-        "volume_ratio_20_60": 1.16101,
+        "volume_ratio_20_60": 1.161065,
         "risk_flags": ""
       },
       {
@@ -1409,7 +1433,7 @@
         "sector": "Information Technology",
         "rank_today": 40,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.77289,
+        "score": 0.77268,
         "price": 303.74,
         "ret_1w": 0.053482,
         "ret_1m": 0.051549,
@@ -1430,7 +1454,7 @@
         "ret_1m": 0.067393,
         "dist_sma50": 0.031332,
         "pct_from_52w_high": -0.018718,
-        "volume_ratio_20_60": 1.025173,
+        "volume_ratio_20_60": 1.025174,
         "risk_flags": ""
       },
       {
@@ -1499,7 +1523,7 @@
         "sector": "Information Technology",
         "rank_today": 46,
         "setup_type": "EARLY_MOMENTUM",
-        "score": 0.762331,
+        "score": 0.762091,
         "price": 104.35,
         "ret_1w": 0.073449,
         "ret_1m": 0.082806,
@@ -1514,13 +1538,13 @@
         "sector": "Information Technology",
         "rank_today": 47,
         "setup_type": "NORMAL",
-        "score": 0.760585,
+        "score": 0.760375,
         "price": 275.28,
-        "ret_1w": 0.010981,
-        "ret_1m": 0.212901,
-        "dist_sma50": 0.164009,
-        "pct_from_52w_high": -0.12983,
-        "volume_ratio_20_60": 0.882537,
+        "ret_1w": 0.011202,
+        "ret_1m": 0.213166,
+        "dist_sma50": 0.164258,
+        "pct_from_52w_high": -0.12964,
+        "volume_ratio_20_60": 0.88263,
         "risk_flags": ""
       },
       {
@@ -1544,7 +1568,7 @@
         "sector": "Industrials",
         "rank_today": 49,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.757226,
+        "score": 0.756776,
         "price": 280.5,
         "ret_1w": -0.029915,
         "ret_1m": 0.085148,
