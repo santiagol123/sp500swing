@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-15T13:18:33.645Z",
+  "updated_at": "2026-10-15T18:10:53.680Z",
   "initial_equity": 100000,
-  "cash": 53423.57426706013,
+  "cash": 75756.17426706014,
   "positions": [
     {
       "ticker": "WBD",
@@ -42,7 +42,7 @@
       "stop_price": 714.2589,
       "target_price": 792.4316,
       "last_price": 737.54,
-      "last_marked_date": "2026-10-14",
+      "last_marked_date": "2026-10-15",
       "unrealized_pnl": -26.64,
       "unrealized_pct": -0.004958,
       "max_loss_stop_applied": false,
@@ -56,81 +56,6 @@
       }
     },
     {
-      "ticker": "AME",
-      "name": "Ametek",
-      "sector": "Industrials",
-      "family": "BREAKOUT_CONTINUATION",
-      "entry_date": "2026-09-28",
-      "entry_price": 251.67,
-      "qty": 19.361779,
-      "cost_basis": 4875.22,
-      "stop_price": 244.6232,
-      "target_price": 265.5118,
-      "last_price": 246.83,
-      "last_marked_date": "2026-10-14",
-      "unrealized_pnl": -96.15,
-      "unrealized_pct": -0.019232,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 32,
-        "rsi14": 64.258655,
-        "macd_hist": 2.048992,
-        "macd_hist_slope": 0.135522
-      }
-    },
-    {
-      "ticker": "JCI",
-      "name": "Johnson Controls",
-      "sector": "Industrials",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-01",
-      "entry_price": 151.77,
-      "qty": 38.475335,
-      "cost_basis": 5842.32,
-      "stop_price": 147.5204,
-      "target_price": 160.1173,
-      "last_price": 152.44,
-      "last_marked_date": "2026-10-14",
-      "unrealized_pnl": 22.86,
-      "unrealized_pct": 0.004415,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 37,
-        "rsi14": 62.472251,
-        "macd_hist": 0.997309,
-        "macd_hist_slope": 0.087596
-      }
-    },
-    {
-      "ticker": "FFIV",
-      "name": "F5, Inc.",
-      "sector": "Information Technology",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-02",
-      "entry_price": 458.74,
-      "qty": 12.782851,
-      "cost_basis": 5866.94,
-      "stop_price": 445.8953,
-      "target_price": 483.9707,
-      "last_price": 457.26,
-      "last_marked_date": "2026-10-14",
-      "unrealized_pnl": -21.85,
-      "unrealized_pct": -0.003226,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 27,
-        "rsi14": 65.798747,
-        "macd_hist": 1.138731,
-        "macd_hist_slope": 0.544534
-      }
-    },
-    {
       "ticker": "PM",
       "name": "Philip Morris International",
       "sector": "Consumer Staples",
@@ -141,10 +66,10 @@
       "cost_basis": 5884.26,
       "stop_price": 194.9103,
       "target_price": 211.5539,
-      "last_price": 205.58,
-      "last_marked_date": "2026-10-14",
-      "unrealized_pnl": 145.32,
-      "unrealized_pct": 0.025209,
+      "last_price": 200.39,
+      "last_marked_date": "2026-10-15",
+      "unrealized_pnl": -6.91,
+      "unrealized_pct": -0.000673,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -153,31 +78,6 @@
         "rsi14": 68.031009,
         "macd_hist": 0.777826,
         "macd_hist_slope": 0.613652
-      }
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "sector": "Health Care",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-09",
-      "entry_price": 414.87,
-      "qty": 14.237837,
-      "cost_basis": 5909.8,
-      "stop_price": 403.2536,
-      "target_price": 437.6879,
-      "last_price": 426.11,
-      "last_marked_date": "2026-10-14",
-      "unrealized_pnl": 157.08,
-      "unrealized_pct": 0.027093,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 33,
-        "rsi14": 54.857719,
-        "macd_hist": 0.816313,
-        "macd_hist_slope": 0.330128
       }
     },
     {
@@ -191,10 +91,10 @@
       "cost_basis": 5938.45,
       "stop_price": 530.3669,
       "target_price": 575.6555,
-      "last_price": 533.69,
-      "last_marked_date": "2026-10-14",
-      "unrealized_pnl": -133.02,
-      "unrealized_pct": -0.02191,
+      "last_price": 539.356,
+      "last_marked_date": "2026-10-15",
+      "unrealized_pnl": -71.38,
+      "unrealized_pct": -0.011526,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -1116,6 +1016,110 @@
         "macd_hist": 0.56394,
         "macd_hist_slope": 0.604285
       }
+    },
+    {
+      "ticker": "AME",
+      "name": "Ametek",
+      "sector": "Industrials",
+      "family": "BREAKOUT_CONTINUATION",
+      "entry_date": "2026-09-28",
+      "entry_price": 251.67,
+      "exit_date": "2026-10-15",
+      "exit_price": 244.6232,
+      "exit_reason": "STOP",
+      "qty": 19.361779,
+      "cost_basis": 4875.22,
+      "proceeds": 4733.97,
+      "pnl": -141.25,
+      "pnl_pct": -0.028973,
+      "r_multiple": -1,
+      "hold_days": 17,
+      "stop_price": 244.6232,
+      "target_price": 265.5118,
+      "signal_meta": {
+        "rank_today": 32,
+        "rsi14": 64.258655,
+        "macd_hist": 2.048992,
+        "macd_hist_slope": 0.135522
+      }
+    },
+    {
+      "ticker": "JCI",
+      "name": "Johnson Controls",
+      "sector": "Industrials",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-01",
+      "entry_price": 151.77,
+      "exit_date": "2026-10-15",
+      "exit_price": 147.5204,
+      "exit_reason": "STOP",
+      "qty": 38.475335,
+      "cost_basis": 5842.32,
+      "proceeds": 5673.06,
+      "pnl": -169.26,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 14,
+      "stop_price": 147.5204,
+      "target_price": 160.1173,
+      "signal_meta": {
+        "rank_today": 37,
+        "rsi14": 62.472251,
+        "macd_hist": 0.997309,
+        "macd_hist_slope": 0.087596
+      }
+    },
+    {
+      "ticker": "FFIV",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-02",
+      "entry_price": 458.74,
+      "exit_date": "2026-10-15",
+      "exit_price": 445.8953,
+      "exit_reason": "STOP",
+      "qty": 12.782851,
+      "cost_basis": 5866.94,
+      "proceeds": 5696.96,
+      "pnl": -169.98,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 13,
+      "stop_price": 445.8953,
+      "target_price": 483.9707,
+      "signal_meta": {
+        "rank_today": 27,
+        "rsi14": 65.798747,
+        "macd_hist": 1.138731,
+        "macd_hist_slope": 0.544534
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "sector": "Health Care",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-09",
+      "entry_price": 414.87,
+      "exit_date": "2026-10-15",
+      "exit_price": 437.6879,
+      "exit_reason": "OBJETIVO",
+      "qty": 14.237837,
+      "cost_basis": 5909.8,
+      "proceeds": 6228.61,
+      "pnl": 318.81,
+      "pnl_pct": 0.053947,
+      "r_multiple": 1.964,
+      "hold_days": 6,
+      "stop_price": 403.2536,
+      "target_price": 437.6879,
+      "signal_meta": {
+        "rank_today": 33,
+        "rsi14": 54.857719,
+        "macd_hist": 0.816313,
+        "macd_hist_slope": 0.330128
+      }
     }
   ],
   "equity_curve": [
@@ -1406,8 +1410,14 @@
       "equity": 98590.27,
       "cash": 53423.57,
       "open_positions": 8
+    },
+    {
+      "date": "2026-10-15",
+      "equity": 98276.06,
+      "cash": 75756.17,
+      "open_positions": 4
     }
   ],
-  "tracked_days": 48,
-  "last_market_date": "2026-10-14"
+  "tracked_days": 49,
+  "last_market_date": "2026-10-15"
 }
