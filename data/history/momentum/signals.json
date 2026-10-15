@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-15T07:17:33.852Z",
+  "computed_at": "2026-10-15T13:18:33.643Z",
   "market_date": "2026-10-14",
   "signals": [],
   "watch": [
@@ -763,7 +763,7 @@
         "sector": "Information Technology",
         "rank_today": 21,
         "setup_type": "EARLY_MOMENTUM",
-        "score": 0.814207,
+        "score": 0.814208,
         "price": 214.96,
         "ret_1w": 0.101935,
         "ret_1m": 0.120395,
