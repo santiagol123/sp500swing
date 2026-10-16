@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-16T11:12:25.687Z",
+  "updated_at": "2026-10-16T16:30:57.050Z",
   "initial_equity": 100000,
-  "cash": 75756.17426706014,
+  "cash": 81522.57426706013,
   "positions": [
     {
       "ticker": "WBD",
@@ -41,10 +41,10 @@
       "cost_basis": 4883.27,
       "stop_price": 714.2589,
       "target_price": 792.4316,
-      "last_price": 736.72,
-      "last_marked_date": "2026-10-15",
-      "unrealized_pnl": -32.04,
-      "unrealized_pct": -0.006064,
+      "last_price": 718.2,
+      "last_marked_date": "2026-10-16",
+      "unrealized_pnl": -153.99,
+      "unrealized_pct": -0.03105,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -66,10 +66,10 @@
       "cost_basis": 5884.26,
       "stop_price": 194.9103,
       "target_price": 211.5539,
-      "last_price": 199.9,
-      "last_marked_date": "2026-10-15",
-      "unrealized_pnl": -21.28,
-      "unrealized_pct": -0.003117,
+      "last_price": 204.16,
+      "last_marked_date": "2026-10-16",
+      "unrealized_pnl": 103.67,
+      "unrealized_pct": 0.018127,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -78,31 +78,6 @@
         "rsi14": 68.031009,
         "macd_hist": 0.777826,
         "macd_hist_slope": 0.613652
-      }
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "sector": "Information Technology",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-13",
-      "entry_price": 545.645,
-      "qty": 10.877913,
-      "cost_basis": 5938.45,
-      "stop_price": 530.3669,
-      "target_price": 575.6555,
-      "last_price": 539.44,
-      "last_marked_date": "2026-10-15",
-      "unrealized_pnl": -70.47,
-      "unrealized_pct": -0.011372,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 29,
-        "rsi14": 71.572573,
-        "macd_hist": 2.3067,
-        "macd_hist_slope": 0.374535
       }
     }
   ],
@@ -1120,6 +1095,32 @@
         "macd_hist": 0.816313,
         "macd_hist_slope": 0.330128
       }
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "sector": "Information Technology",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-13",
+      "entry_price": 545.645,
+      "exit_date": "2026-10-16",
+      "exit_price": 530.3669,
+      "exit_reason": "STOP",
+      "qty": 10.877913,
+      "cost_basis": 5938.45,
+      "proceeds": 5766.4,
+      "pnl": -172.05,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 3,
+      "stop_price": 530.3669,
+      "target_price": 575.6555,
+      "signal_meta": {
+        "rank_today": 29,
+        "rsi14": 71.572573,
+        "macd_hist": 2.3067,
+        "macd_hist_slope": 0.374535
+      }
     }
   ],
   "equity_curve": [
@@ -1416,8 +1417,14 @@
       "equity": 98257.21,
       "cash": 75756.17,
       "open_positions": 4
+    },
+    {
+      "date": "2026-10-16",
+      "equity": 98158.62,
+      "cash": 81522.57,
+      "open_positions": 3
     }
   ],
-  "tracked_days": 49,
-  "last_market_date": "2026-10-15"
+  "tracked_days": 50,
+  "last_market_date": "2026-10-16"
 }
