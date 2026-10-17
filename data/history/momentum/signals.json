@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-16T22:44:39.986Z",
+  "computed_at": "2026-10-17T01:13:57.617Z",
   "market_date": "2026-10-16",
   "signals": [],
   "watch": [
@@ -509,7 +509,7 @@
     "leader_count": 24,
     "technical_entry_count": 0,
     "portfolio_entry_count": 0,
-    "open_positions_count": 2,
+    "open_positions_count": 3,
     "buys_today_count": 0,
     "hot_momentum_count": 11,
     "pullback_count": 7,
