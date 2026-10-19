@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-19T10:39:58.702Z",
+  "updated_at": "2026-10-19T17:24:39.133Z",
   "initial_equity": 100000,
-  "cash": 81522.57426706013,
+  "cash": 86223.55426706013,
   "positions": [
     {
       "ticker": "WBD",
@@ -31,31 +31,6 @@
       }
     },
     {
-      "ticker": "META",
-      "name": "Meta Platforms",
-      "sector": "Communication Services",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-09-22",
-      "entry_price": 741.215,
-      "qty": 6.584907,
-      "cost_basis": 4883.27,
-      "stop_price": 714.2589,
-      "target_price": 792.4316,
-      "last_price": 709.325,
-      "last_marked_date": "2026-10-16",
-      "unrealized_pnl": -212.43,
-      "unrealized_pct": -0.043024,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 13,
-        "rsi14": 77.859243,
-        "macd_hist": 12.098826,
-        "macd_hist_slope": 1.201187
-      }
-    },
-    {
       "ticker": "PM",
       "name": "Philip Morris International",
       "sector": "Consumer Staples",
@@ -66,10 +41,10 @@
       "cost_basis": 5884.26,
       "stop_price": 194.9103,
       "target_price": 211.5539,
-      "last_price": 205.2,
-      "last_marked_date": "2026-10-16",
-      "unrealized_pnl": 134.17,
-      "unrealized_pct": 0.023314,
+      "last_price": 202.05,
+      "last_marked_date": "2026-10-19",
+      "unrealized_pnl": 41.78,
+      "unrealized_pct": 0.007605,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -1121,6 +1096,32 @@
         "macd_hist": 2.3067,
         "macd_hist_slope": 0.374535
       }
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-09-22",
+      "entry_price": 741.215,
+      "exit_date": "2026-10-19",
+      "exit_price": 714.2589,
+      "exit_reason": "STOP",
+      "qty": 6.584907,
+      "cost_basis": 4883.27,
+      "proceeds": 4700.98,
+      "pnl": -182.29,
+      "pnl_pct": -0.03733,
+      "r_multiple": -1,
+      "hold_days": 27,
+      "stop_price": 714.2589,
+      "target_price": 792.4316,
+      "signal_meta": {
+        "rank_today": 13,
+        "rsi14": 77.859243,
+        "macd_hist": 12.098826,
+        "macd_hist_slope": 1.201187
+      }
     }
   ],
   "equity_curve": [
@@ -1423,8 +1424,14 @@
       "equity": 98130.68,
       "cash": 81522.57,
       "open_positions": 3
+    },
+    {
+      "date": "2026-10-19",
+      "equity": 98068.43,
+      "cash": 86223.55,
+      "open_positions": 2
     }
   ],
-  "tracked_days": 50,
-  "last_market_date": "2026-10-16"
+  "tracked_days": 51,
+  "last_market_date": "2026-10-19"
 }
