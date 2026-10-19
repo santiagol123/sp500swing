@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-10-17T01:15:27.562Z",
+  "updated_at": "2026-10-19T04:26:31.623Z",
   "initial_equity": 100000,
   "cash": 80189.21972171622,
   "positions": [
@@ -188,10 +188,10 @@
         "original_invalid_below_price": 280.7686,
         "profit_lock_stage": "LOCK_1_5",
         "profit_lock_stop_price": 303.1703,
-        "profit_lock_trigger_high": 315.615
+        "profit_lock_trigger_high": 315.83
       },
       "profit_lock_stage": "LOCK_1_5",
-      "profit_lock_trigger_high": 315.615
+      "profit_lock_trigger_high": 315.83
     },
     {
       "ticker": "PAM",

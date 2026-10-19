@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-17T01:13:57.617Z",
+  "computed_at": "2026-10-19T04:25:07.876Z",
   "market_date": "2026-10-16",
   "signals": [],
   "watch": [
@@ -21,7 +21,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 19,
+        "rank_today": 20,
         "rsi14": 70.692867,
         "macd_hist": 1.961145,
         "macd_hist_slope": -0.156449
@@ -45,7 +45,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 26,
+        "rank_today": 27,
         "rsi14": 72.994195,
         "macd_hist": 1.380018,
         "macd_hist_slope": 0.152659
@@ -141,7 +141,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 27,
+        "rank_today": 28,
         "rsi14": 69.198366,
         "macd_hist": 0.050371,
         "macd_hist_slope": 0.057656
@@ -165,7 +165,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 9,
+        "rank_today": 8,
         "rsi14": 73.731987,
         "macd_hist": 0.710955,
         "macd_hist_slope": 0.089324
@@ -213,10 +213,10 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 21,
-        "rsi14": 66.233652,
-        "macd_hist": 1.699388,
-        "macd_hist_slope": 0.092702
+        "rank_today": 19,
+        "rsi14": 67.378813,
+        "macd_hist": 1.742405,
+        "macd_hist_slope": 0.140564
       }
     },
     {
@@ -405,10 +405,10 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 32,
-        "rsi14": 70.273015,
-        "macd_hist": 1.567921,
-        "macd_hist_slope": 0.218646
+        "rank_today": 26,
+        "rsi14": 71.324728,
+        "macd_hist": 1.624835,
+        "macd_hist_slope": 0.284578
       }
     },
     {
@@ -453,7 +453,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 8,
+        "rank_today": 9,
         "rsi14": 71.192545,
         "macd_hist": 2.007613,
         "macd_hist_slope": 0.137006
@@ -509,7 +509,7 @@
     "leader_count": 24,
     "technical_entry_count": 0,
     "portfolio_entry_count": 0,
-    "open_positions_count": 3,
+    "open_positions_count": 2,
     "buys_today_count": 0,
     "hot_momentum_count": 11,
     "pullback_count": 7,
@@ -541,7 +541,7 @@
         "ret_1m": 0.435436,
         "dist_sma50": 0.252661,
         "pct_from_52w_high": -0.062612,
-        "volume_ratio_20_60": 1.73172,
+        "volume_ratio_20_60": 1.731722,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -550,7 +550,7 @@
         "sector": "Health Care",
         "rank_today": 2,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.87519,
+        "score": 0.87515,
         "price": 172.97,
         "ret_1w": 0.014249,
         "ret_1m": 0.10802,
@@ -616,7 +616,7 @@
         "ret_1m": 0.08117,
         "dist_sma50": 0.126963,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.960757,
+        "volume_ratio_20_60": 0.960739,
         "risk_flags": ""
       },
       {
@@ -635,10 +635,25 @@
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
+        "ticker": "IFF",
+        "name": "International Flavors & Fragrances",
+        "sector": "Materials",
+        "rank_today": 8,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.83154,
+        "price": 90.68,
+        "ret_1w": 0.072501,
+        "ret_1m": 0.073009,
+        "dist_sma50": 0.067973,
+        "pct_from_52w_high": 0,
+        "volume_ratio_20_60": 1.094368,
+        "risk_flags": ""
+      },
+      {
         "ticker": "VEEV",
         "name": "Veeva Systems",
         "sector": "Health Care",
-        "rank_today": 8,
+        "rank_today": 9,
         "setup_type": "HOT_MOMENTUM",
         "score": 0.831515,
         "price": 310.36,
@@ -647,21 +662,6 @@
         "dist_sma50": 0.154546,
         "pct_from_52w_high": -0.00853,
         "volume_ratio_20_60": 0.851103,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "IFF",
-        "name": "International Flavors & Fragrances",
-        "sector": "Materials",
-        "rank_today": 9,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.83134,
-        "price": 90.68,
-        "ret_1w": 0.072501,
-        "ret_1m": 0.073009,
-        "dist_sma50": 0.067973,
-        "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 1.094368,
         "risk_flags": ""
       },
       {
@@ -676,7 +676,7 @@
         "ret_1m": 0.109482,
         "dist_sma50": 0.103104,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.998016,
+        "volume_ratio_20_60": 0.998021,
         "risk_flags": ""
       },
       {
@@ -691,7 +691,7 @@
         "ret_1m": 0.062086,
         "dist_sma50": 0.058903,
         "pct_from_52w_high": -0.011472,
-        "volume_ratio_20_60": 1.242726,
+        "volume_ratio_20_60": 1.242731,
         "risk_flags": ""
       },
       {
@@ -736,7 +736,7 @@
         "ret_1m": 0.138791,
         "dist_sma50": 0.043339,
         "pct_from_52w_high": -0.026187,
-        "volume_ratio_20_60": 0.996818,
+        "volume_ratio_20_60": 0.996915,
         "risk_flags": ""
       },
       {
@@ -751,29 +751,14 @@
         "ret_1m": 0.112663,
         "dist_sma50": 0.070655,
         "pct_from_52w_high": -0.046559,
-        "volume_ratio_20_60": 1.058964,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "TMO",
-        "name": "Thermo Fisher Scientific",
-        "sector": "Health Care",
-        "rank_today": 16,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.816875,
-        "price": 690,
-        "ret_1w": 0.0486,
-        "ret_1m": 0.048122,
-        "dist_sma50": 0.084146,
-        "pct_from_52w_high": -0.009318,
-        "volume_ratio_20_60": 1.068425,
+        "volume_ratio_20_60": 1.058967,
         "risk_flags": ""
       },
       {
         "ticker": "RVTY",
         "name": "Revvity",
         "sector": "Health Care",
-        "rank_today": 17,
+        "rank_today": 16,
         "setup_type": "PULLBACK_IN_TREND",
         "score": 0.816775,
         "price": 152.64,
@@ -785,12 +770,27 @@
         "risk_flags": ""
       },
       {
+        "ticker": "TMO",
+        "name": "Thermo Fisher Scientific",
+        "sector": "Health Care",
+        "rank_today": 17,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.816595,
+        "price": 690,
+        "ret_1w": 0.0486,
+        "ret_1m": 0.048122,
+        "dist_sma50": 0.084146,
+        "pct_from_52w_high": -0.009318,
+        "volume_ratio_20_60": 1.068425,
+        "risk_flags": ""
+      },
+      {
         "ticker": "ABBV",
         "name": "AbbVie",
         "sector": "Health Care",
         "rank_today": 18,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.815775,
+        "score": 0.8153,
         "price": 285.42,
         "ret_1w": 0.038711,
         "ret_1m": 0.087692,
@@ -800,10 +800,25 @@
         "risk_flags": ""
       },
       {
+        "ticker": "WSM",
+        "name": "Williams-Sonoma, Inc.",
+        "sector": "Consumer Discretionary",
+        "rank_today": 19,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.81331,
+        "price": 250.16,
+        "ret_1w": 0.037789,
+        "ret_1m": 0.146157,
+        "dist_sma50": 0.06934,
+        "pct_from_52w_high": -0.004418,
+        "volume_ratio_20_60": 1.008951,
+        "risk_flags": ""
+      },
+      {
         "ticker": "PSX",
         "name": "Phillips 66",
         "sector": "Energy",
-        "rank_today": 19,
+        "rank_today": 20,
         "setup_type": "NORMAL",
         "score": 0.811785,
         "price": 293.17,
@@ -818,9 +833,9 @@
         "ticker": "MA",
         "name": "Mastercard",
         "sector": "Financials",
-        "rank_today": 20,
+        "rank_today": 21,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.811065,
+        "score": 0.81059,
         "price": 617.42,
         "ret_1w": 0.048002,
         "ret_1m": 0.093023,
@@ -830,27 +845,12 @@
         "risk_flags": ""
       },
       {
-        "ticker": "WSM",
-        "name": "Williams-Sonoma, Inc.",
-        "sector": "Consumer Discretionary",
-        "rank_today": 21,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.810855,
-        "price": 250.16,
-        "ret_1w": 0.03466,
-        "ret_1m": 0.142701,
-        "dist_sma50": 0.066184,
-        "pct_from_52w_high": -0.00742,
-        "volume_ratio_20_60": 1.008951,
-        "risk_flags": ""
-      },
-      {
         "ticker": "CAH",
         "name": "Cardinal Health",
         "sector": "Health Care",
         "rank_today": 22,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.8014,
+        "score": 0.80136,
         "price": 254.06,
         "ret_1w": 0.069411,
         "ret_1m": 0.12508,
@@ -905,12 +905,27 @@
         "risk_flags": ""
       },
       {
+        "ticker": "EOG",
+        "name": "EOG Resources",
+        "sector": "Energy",
+        "rank_today": 26,
+        "setup_type": "NEAR_BREAKOUT",
+        "score": 0.793375,
+        "price": 158.01,
+        "ret_1w": 0.073658,
+        "ret_1m": 0.093512,
+        "dist_sma50": 0.091062,
+        "pct_from_52w_high": 0,
+        "volume_ratio_20_60": 0.958628,
+        "risk_flags": ""
+      },
+      {
         "ticker": "XOM",
         "name": "ExxonMobil",
         "sector": "Energy",
-        "rank_today": 26,
+        "rank_today": 27,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.79339,
+        "score": 0.7933,
         "price": 178.98,
         "ret_1w": 0.059429,
         "ret_1m": 0.096221,
@@ -923,22 +938,22 @@
         "ticker": "VTRS",
         "name": "Viatris",
         "sector": "Health Care",
-        "rank_today": 27,
+        "rank_today": 28,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.79183,
+        "score": 0.791355,
         "price": 18.655,
         "ret_1w": 0.05754,
         "ret_1m": 0.089025,
         "dist_sma50": 0.100333,
         "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.989576,
+        "volume_ratio_20_60": 0.989601,
         "risk_flags": ""
       },
       {
         "ticker": "CBOE",
         "name": "Cboe Global Markets",
         "sector": "Financials",
-        "rank_today": 28,
+        "rank_today": 29,
         "setup_type": "EARLY_MOMENTUM",
         "score": 0.78981,
         "price": 314.98,
@@ -953,7 +968,7 @@
         "ticker": "ILMN",
         "name": "Illumina, Inc.",
         "sector": "Health Care",
-        "rank_today": 29,
+        "rank_today": 30,
         "setup_type": "PULLBACK_IN_TREND",
         "score": 0.786924,
         "price": 262.54,
@@ -968,9 +983,9 @@
         "ticker": "MCK",
         "name": "McKesson",
         "sector": "Health Care",
-        "rank_today": 30,
+        "rank_today": 31,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.785947,
+        "score": 0.785707,
         "price": 1004.84,
         "ret_1w": 0.070299,
         "ret_1m": 0.142422,
@@ -983,7 +998,7 @@
         "ticker": "EL",
         "name": "Estée Lauder Companies (The)",
         "sector": "Consumer Staples",
-        "rank_today": 31,
+        "rank_today": 32,
         "setup_type": "HOT_MOMENTUM",
         "score": 0.783725,
         "price": 104.54,
@@ -995,27 +1010,12 @@
         "risk_flags": ""
       },
       {
-        "ticker": "EOG",
-        "name": "EOG Resources",
-        "sector": "Energy",
-        "rank_today": 32,
-        "setup_type": "NEAR_BREAKOUT",
-        "score": 0.782195,
-        "price": 158.01,
-        "ret_1w": 0.066482,
-        "ret_1m": 0.086203,
-        "dist_sma50": 0.083928,
-        "pct_from_52w_high": 0,
-        "volume_ratio_20_60": 0.958628,
-        "risk_flags": ""
-      },
-      {
         "ticker": "MRNA",
         "name": "Moderna",
         "sector": "Health Care",
         "rank_today": 33,
         "setup_type": "EXTENDED",
-        "score": 0.781603,
+        "score": 0.781843,
         "price": 218.01,
         "ret_1w": -0.031067,
         "ret_1m": 0.379199,
@@ -1045,7 +1045,7 @@
         "sector": "Real Estate",
         "rank_today": 35,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.775575,
+        "score": 0.774295,
         "price": 185.27,
         "ret_1w": 0.016626,
         "ret_1m": 0.066597,
@@ -1055,12 +1055,27 @@
         "risk_flags": ""
       },
       {
+        "ticker": "SNPS",
+        "name": "Synopsys",
+        "sector": "Information Technology",
+        "rank_today": 36,
+        "setup_type": "EARLY_MOMENTUM",
+        "score": 0.772913,
+        "price": 454.63,
+        "ret_1w": -0.108551,
+        "ret_1m": 0.192722,
+        "dist_sma50": 0.062204,
+        "pct_from_52w_high": -0.149525,
+        "volume_ratio_20_60": 1.248798,
+        "risk_flags": "SHARP_1W_DROP"
+      },
+      {
         "ticker": "PM",
         "name": "Philip Morris International",
         "sector": "Consumer Staples",
-        "rank_today": 36,
+        "rank_today": 37,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.773375,
+        "score": 0.7729,
         "price": 205.2,
         "ret_1w": 0.019931,
         "ret_1m": 0.086517,
@@ -1070,27 +1085,12 @@
         "risk_flags": ""
       },
       {
-        "ticker": "SNPS",
-        "name": "Synopsys",
-        "sector": "Information Technology",
-        "rank_today": 37,
-        "setup_type": "EARLY_MOMENTUM",
-        "score": 0.772913,
-        "price": 454.63,
-        "ret_1w": -0.108551,
-        "ret_1m": 0.192722,
-        "dist_sma50": 0.062204,
-        "pct_from_52w_high": -0.149525,
-        "volume_ratio_20_60": 1.248743,
-        "risk_flags": "SHARP_1W_DROP"
-      },
-      {
         "ticker": "V",
         "name": "Visa Inc.",
         "sector": "Financials",
         "rank_today": 38,
         "setup_type": "NORMAL",
-        "score": 0.76976,
+        "score": 0.769195,
         "price": 402.61,
         "ret_1w": 0.044519,
         "ret_1m": 0.088341,
@@ -1105,7 +1105,7 @@
         "sector": "Energy",
         "rank_today": 39,
         "setup_type": "NORMAL",
-        "score": 0.76498,
+        "score": 0.76452,
         "price": 224.99,
         "ret_1w": 0.061374,
         "ret_1m": 0.063431,
@@ -1120,7 +1120,7 @@
         "sector": "Health Care",
         "rank_today": 40,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.76127,
+        "score": 0.76063,
         "price": 428.26,
         "ret_1w": 0.037703,
         "ret_1m": 0.033795,
@@ -1150,7 +1150,7 @@
         "sector": "Health Care",
         "rank_today": 42,
         "setup_type": "NORMAL",
-        "score": 0.75802,
+        "score": 0.758215,
         "price": 436.95,
         "ret_1w": 0.007331,
         "ret_1m": 0.016825,
@@ -1165,7 +1165,7 @@
         "sector": "Health Care",
         "rank_today": 43,
         "setup_type": "NORMAL",
-        "score": 0.75637,
+        "score": 0.75661,
         "price": 29.58,
         "ret_1w": 0.045969,
         "ret_1m": 0.070188,
@@ -1201,7 +1201,7 @@
         "ret_1m": 0.037414,
         "dist_sma50": 0.012466,
         "pct_from_52w_high": -0.025964,
-        "volume_ratio_20_60": 1.132657,
+        "volume_ratio_20_60": 1.132661,
         "risk_flags": ""
       },
       {
@@ -1210,7 +1210,7 @@
         "sector": "Health Care",
         "rank_today": 46,
         "setup_type": "NORMAL",
-        "score": 0.75409,
+        "score": 0.75401,
         "price": 94.75,
         "ret_1w": 0.070863,
         "ret_1m": 0.02972,
@@ -1240,13 +1240,13 @@
         "sector": "Financials",
         "rank_today": 48,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.750735,
+        "score": 0.750975,
         "price": 293.87,
         "ret_1w": 0.047441,
         "ret_1m": 0.083791,
         "dist_sma50": 0.075652,
         "pct_from_52w_high": -0.069181,
-        "volume_ratio_20_60": 0.956047,
+        "volume_ratio_20_60": 0.956804,
         "risk_flags": ""
       },
       {
