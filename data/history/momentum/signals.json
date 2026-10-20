@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-19T22:15:17.882Z",
+  "computed_at": "2026-10-20T01:40:46.366Z",
   "market_date": "2026-10-19",
   "signals": [],
   "watch": [
@@ -841,7 +841,7 @@
         "ret_1m": 0.472929,
         "dist_sma50": 0.433403,
         "pct_from_52w_high": -0.040634,
-        "volume_ratio_20_60": 0.897667,
+        "volume_ratio_20_60": 0.897728,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -976,7 +976,7 @@
         "ret_1m": 0.058584,
         "dist_sma50": 0.057943,
         "pct_from_52w_high": -0.005112,
-        "volume_ratio_20_60": 0.998375,
+        "volume_ratio_20_60": 0.998409,
         "risk_flags": ""
       },
       {
@@ -1051,7 +1051,7 @@
         "ret_1m": 0.080481,
         "dist_sma50": 0.054273,
         "pct_from_52w_high": -0.018272,
-        "volume_ratio_20_60": 0.81956,
+        "volume_ratio_20_60": 0.819602,
         "risk_flags": ""
       },
       {
@@ -1210,13 +1210,13 @@
         "sector": "Information Technology",
         "rank_today": 46,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.754348,
+        "score": 0.75435,
         "price": 194.15,
         "ret_1w": -0.071053,
         "ret_1m": 0.092941,
         "dist_sma50": 0.060863,
         "pct_from_52w_high": -0.071275,
-        "volume_ratio_20_60": 0.704886,
+        "volume_ratio_20_60": 0.705004,
         "risk_flags": "LOW_VOLUME_CONFIRMATION"
       },
       {
