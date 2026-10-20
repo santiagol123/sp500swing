@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-10-20T07:25:44.126Z",
+  "updated_at": "2026-10-20T13:31:50.798Z",
   "initial_equity": 100000,
   "cash": 80498.4152431546,
   "positions": [
@@ -11187,8 +11187,14 @@
       "equity": 100458.01,
       "cash": 80498.42,
       "open_positions": 2
+    },
+    {
+      "date": "2026-10-20",
+      "equity": 100458.01,
+      "cash": 80498.42,
+      "open_positions": 2
     }
   ],
-  "tracked_days": 49,
-  "last_market_date": "2026-10-19"
+  "tracked_days": 50,
+  "last_market_date": "2026-10-20"
 }
