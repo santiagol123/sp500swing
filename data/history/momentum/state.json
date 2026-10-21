@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-21T07:26:02.455Z",
+  "updated_at": "2026-10-21T13:40:43.700Z",
   "initial_equity": 100000,
-  "cash": 86223.55426706013,
+  "cash": 91937.33426706013,
   "positions": [
     {
       "ticker": "WBD",
@@ -28,31 +28,6 @@
         "rsi14": 75.229396,
         "macd_hist": 0.064075,
         "macd_hist_slope": 0.178269
-      }
-    },
-    {
-      "ticker": "PM",
-      "name": "Philip Morris International",
-      "sector": "Consumer Staples",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-08",
-      "entry_price": 200.525,
-      "qty": 29.329582,
-      "cost_basis": 5884.26,
-      "stop_price": 194.9103,
-      "target_price": 211.5539,
-      "last_price": 199.9,
-      "last_marked_date": "2026-10-20",
-      "unrealized_pnl": -21.28,
-      "unrealized_pct": -0.003117,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 32,
-        "rsi14": 68.031009,
-        "macd_hist": 0.777826,
-        "macd_hist_slope": 0.613652
       }
     }
   ],
@@ -1122,6 +1097,32 @@
         "macd_hist": 12.098826,
         "macd_hist_slope": 1.201187
       }
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International",
+      "sector": "Consumer Staples",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-08",
+      "entry_price": 200.525,
+      "exit_date": "2026-10-21",
+      "exit_price": 194.9103,
+      "exit_reason": "STOP",
+      "qty": 29.329582,
+      "cost_basis": 5884.26,
+      "proceeds": 5713.78,
+      "pnl": -170.48,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 13,
+      "stop_price": 194.9103,
+      "target_price": 211.5539,
+      "signal_meta": {
+        "rank_today": 32,
+        "rsi14": 68.031009,
+        "macd_hist": 0.777826,
+        "macd_hist_slope": 0.613652
+      }
     }
   ],
   "equity_curve": [
@@ -1436,8 +1437,14 @@
       "equity": 98005.37,
       "cash": 86223.55,
       "open_positions": 2
+    },
+    {
+      "date": "2026-10-21",
+      "equity": 97856.17,
+      "cash": 91937.33,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 52,
-  "last_market_date": "2026-10-20"
+  "tracked_days": 53,
+  "last_market_date": "2026-10-21"
 }
