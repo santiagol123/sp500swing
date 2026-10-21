@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-21T13:40:43.700Z",
+  "updated_at": "2026-10-21T18:31:55.326Z",
   "initial_equity": 100000,
-  "cash": 91937.33426706013,
+  "cash": 80194.59404289493,
   "positions": [
     {
       "ticker": "WBD",
@@ -28,6 +28,56 @@
         "rsi14": 75.229396,
         "macd_hist": 0.064075,
         "macd_hist_slope": 0.178269
+      }
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-21",
+      "entry_price": 49.905,
+      "qty": 117.592143,
+      "cost_basis": 5871.37,
+      "stop_price": 48.5077,
+      "target_price": 52.6498,
+      "last_price": 49.905,
+      "last_marked_date": "2026-10-21",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 7,
+        "rsi14": 71.724068,
+        "macd_hist": 0.47766,
+        "macd_hist_slope": -0.03019
+      }
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Care",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-21",
+      "entry_price": 440.57,
+      "qty": 13.320099,
+      "cost_basis": 5871.37,
+      "stop_price": 428.234,
+      "target_price": 464.8014,
+      "last_price": 440.57,
+      "last_marked_date": "2026-10-21",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": null,
+      "signal_meta": {
+        "rank_today": 10,
+        "rsi14": 73.240812,
+        "macd_hist": 3.771094,
+        "macd_hist_slope": -0.025341
       }
     }
   ],
@@ -1440,9 +1490,9 @@
     },
     {
       "date": "2026-10-21",
-      "equity": 97856.17,
-      "cash": 91937.33,
-      "open_positions": 1
+      "equity": 97850.3,
+      "cash": 80194.59,
+      "open_positions": 3
     }
   ],
   "tracked_days": 53,
