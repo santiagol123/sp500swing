@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-10-22T18:28:35.092Z",
+  "updated_at": "2026-10-22T18:35:38.721Z",
   "initial_equity": 100000,
   "cash": 99583.5651129745,
   "positions": [],
@@ -2355,5 +2355,41 @@
     }
   ],
   "tracked_days": 53,
-  "last_market_date": "2026-10-22"
+  "last_market_date": "2026-10-22",
+  "rejected_signal_observations": [
+    {
+      "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "INTC",
+      "name": "Intel",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Compra senior material de 2026-08-14, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (69 dias); accion base SENAL_CADUCADA; rebote debil: RSI 30.8 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -9.9%, 1m -29.9%, RSI 30.8); esperar confirmacion",
+      "entry_date": "2026-10-22",
+      "entry_price": 85.965,
+      "latest_date": "2026-10-22",
+      "latest_price": 85.965,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-08-14",
+      "first_detected_at": "2026-09-25T17:47:15.424Z"
+    },
+    {
+      "key": "VST:2026-09-02:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Compra senior material de 2026-09-02, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (50 dias); accion base SENAL_CADUCADA; volatilidad 20d 71% > 60%; rebote debil: RSI 42.7 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -9.0%, 1m 1.7%, RSI 42.7); esperar confirmacion",
+      "entry_date": "2026-10-22",
+      "entry_price": 140.28,
+      "latest_date": "2026-10-22",
+      "latest_price": 140.28,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-09-02",
+      "first_detected_at": "2026-09-25T17:47:15.424Z"
+    }
+  ]
 }
