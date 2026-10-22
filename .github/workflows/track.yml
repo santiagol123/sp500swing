@@ -3,9 +3,12 @@ name: Paper trading y escaneo insiders
 # Registra el rendimiento y refresca los snapshots que lee Vercel.
 on:
   schedule:
-    # Cada hora de lunes a viernes. Se usa GitHub Actions porque Vercel Hobby
-    # no permite cron horario; Vercel solo lee los snapshots commiteados.
-    - cron: "7 * * * 1-5"
+    # Insiders cada hora, desplazado del inicio de la hora para reducir retrasos
+    # del scheduler. Vercel solo lee los snapshots commiteados.
+    - cron: "23 * * * 1-5"
+    # Momentum necesita menos frecuencia y queda fuera del escaneo horario para
+    # que las compras insider lleguen antes al dashboard.
+    - cron: "41 1,7,13,19 * * 1-5"
   workflow_dispatch:
     inputs:
       workspace:
@@ -40,8 +43,9 @@ jobs:
           # La SEC exige un User-Agent identificable con contacto real.
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'sp500swing paper-trading research danielsilvaiglesias@gmail.com' }}
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "41 1,7,13,19 * * 1-5" ]; then
             node scripts/track.js --workspace=momentum
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
             node scripts/track.js --workspace=insider
             node scripts/track.js --workspace=insider_total --cacheOnly
             node scripts/track.js --workspace=insider_sp500_nasdaq --cacheOnly

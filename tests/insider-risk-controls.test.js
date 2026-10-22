@@ -4,11 +4,14 @@ const assert = require("node:assert/strict");
 const {
   openNewPositions,
   pruneInvalidTimingPositions,
+  reentryBlock,
   signalTimingBlock,
+  staleSignalEntryBlock,
   stampSignalDetection,
   stopReentryCooldownBlock,
+  updateRejectedSignalObservations,
 } = require("../lib/papertrading");
-const { technicalRiskReview } = require("../lib/strategies/chatgpt_sp500");
+const { rejectionReasons, technicalRiskReview } = require("../lib/strategies/chatgpt_sp500");
 
 function workspace() {
   return {
@@ -20,6 +23,13 @@ function workspace() {
       max_loss_pct: 0.02,
       require_new_insider_event_after_exit: true,
       stop_reentry_cooldown_days: 7,
+      max_entries_per_ticker: 2,
+      entry_frequency_lookback_days: 30,
+      post_stop_require_technical_recovery: true,
+      post_stop_reentry_max_size_pct: 0.05,
+      max_signal_age_sessions: 3,
+      stale_signal_min_rsi: 45,
+      stale_signal_max_size_pct: 0.05,
     },
   };
 }
@@ -147,9 +157,24 @@ test("flags accelerated declines under both moving averages", () => {
     },
   });
   assert.equal(controlledPullback.falling_knife, false);
+
+  const oversoldPullback = technicalRiskReview({
+    size_pct: 0.07,
+    meta: {
+      total_value_usd: 5_000_000,
+      above_sma20: false,
+      above_sma50: false,
+      ret_1w: -0.02,
+      ret_1m: -0.08,
+      rsi14: 26,
+      volatility_20d: 0.25,
+      entry_gap_1d: 0,
+    },
+  });
+  assert.equal(oversoldPullback.falling_knife, true);
 });
 
-test("requires a different insider or full technical recovery after a losing stop", () => {
+test("requires full technical recovery after a losing stop and caps reentry size", () => {
   const stoppedState = state({
     trades: [
       {
@@ -181,12 +206,99 @@ test("requires a different insider or full technical recovery after a losing sto
   assert.ok(stopReentryCooldownBlock(sameInsider, stoppedState, workspace(), chart, "2026-09-17"));
 
   const differentInsider = signal({
+    size_pct: 0.10,
     meta: { ...signal().meta, above_sma20: false, insiders: [{ name: "ALICE" }, { name: "BOB" }] },
   });
-  assert.equal(stopReentryCooldownBlock(differentInsider, stoppedState, workspace(), chart, "2026-09-17"), null);
+  assert.ok(stopReentryCooldownBlock(differentInsider, stoppedState, workspace(), chart, "2026-09-17"));
 
   const recoveredChart = { rows: [...chart.rows.slice(0, -1), { date: "2026-09-17", close_raw: 101, high: 102 }] };
-  assert.equal(stopReentryCooldownBlock(sameInsider, stoppedState, workspace(), recoveredChart, "2026-09-17"), null);
+  const recoveredSignal = signal({ size_pct: 0.10, meta: { ...signal().meta, above_sma20: true } });
+  assert.equal(stopReentryCooldownBlock(recoveredSignal, stoppedState, workspace(), recoveredChart, "2026-09-17"), null);
+  assert.equal(recoveredSignal.size_pct, 0.05);
+  assert.equal(recoveredSignal.meta.post_stop_technical_recovery, true);
+});
+
+test("limits a ticker to two entries in a rolling 30 day window", () => {
+  const portfolio = state({
+    last_market_date: "2026-09-20",
+    trades: [
+      { ticker: "TEST", entry_date: "2026-09-02", exit_date: "2026-09-05", exit_reason: "LIMITE_DIAS" },
+      { ticker: "TEST", entry_date: "2026-09-10", exit_date: "2026-09-14", exit_reason: "STOP" },
+    ],
+  });
+  const freshEvent = signal({
+    meta: { ...signal().meta, last_filing: "2026-09-19", conviction_filing_date: "2026-09-19" },
+  });
+  const block = reentryBlock(freshEvent, portfolio, workspace(), "2026-09-20");
+  assert.equal(block.action, "ESPERAR_LIMITE_REENTRADAS");
+});
+
+test("blocks stale signals without recovery and halves confirmed stale entries", () => {
+  const chart = {
+    rows: [
+      { date: "2026-09-17", close_raw: 100 },
+      { date: "2026-09-18", close_raw: 99 },
+      { date: "2026-09-21", close_raw: 98 },
+      { date: "2026-09-22", close_raw: 97 },
+      { date: "2026-09-23", close_raw: 98 },
+    ],
+  };
+  const stale = signal({ meta: { ...signal().meta, above_sma20: false, rsi14: 40 } });
+  assert.ok(staleSignalEntryBlock(stale, chart, "2026-09-23", workspace()));
+
+  const recovered = signal({ size_pct: 0.10, meta: { ...signal().meta, above_sma20: true, rsi14: 50 } });
+  assert.equal(staleSignalEntryBlock(recovered, chart, "2026-09-23", workspace()), null);
+  assert.equal(recovered.size_pct, 0.05);
+  assert.equal(recovered.meta.stale_signal_technical_confirmation, true);
+});
+
+test("uses recently published purchases instead of accumulated cluster value", () => {
+  const accumulated = signal({
+    meta: {
+      ...signal().meta,
+      total_value_usd: 2_000_000,
+      insider_count: 2,
+      last_filing: "2026-09-17",
+      insiders: [
+        { name: "ALICE", title: "CEO", value_usd: 1_900_000, filing_date: "2026-09-01" },
+        { name: "BOB", title: "Director", value_usd: 100_000, filing_date: "2026-09-17" },
+      ],
+    },
+  });
+  const reasons = rejectionReasons(accumulated, "2026-09-17", 20);
+  assert.ok(reasons.some((reason) => reason.includes("importe publicado")));
+});
+
+test("tracks rejected signals in shadow mode through the five day risk rules", () => {
+  const portfolio = state();
+  const rejected = signal({
+    authorized: false,
+    action: "ESPERAR_CONFIRMACION_REENTRADA",
+    meta: { ...signal().meta, reentry_blocked: true },
+  });
+  const firstCharts = new Map([
+    ["TEST", { symbol: "TEST", rows: [{ date: "2026-09-17", close_raw: 100, low: 99, high: 101 }] }],
+  ]);
+  const added = updateRejectedSignalObservations(portfolio, [rejected], firstCharts, "2026-09-17", workspace());
+  assert.equal(added.length, 1);
+  assert.equal(portfolio.rejected_signal_observations[0].status, "TRACKING");
+
+  const stoppedCharts = new Map([
+    [
+      "TEST",
+      {
+        symbol: "TEST",
+        rows: [
+          { date: "2026-09-17", close_raw: 100, low: 99, high: 101 },
+          { date: "2026-09-18", close_raw: 97.5, low: 97, high: 100 },
+        ],
+      },
+    ],
+  ]);
+  updateRejectedSignalObservations(portfolio, [], stoppedCharts, "2026-09-18", workspace());
+  assert.equal(portfolio.rejected_signal_observations[0].status, "COMPLETE");
+  assert.equal(portfolio.rejected_signal_observations[0].exit_reason, "SHADOW_STOP");
+  assert.equal(portfolio.rejected_signal_observations[0].return_pct, -0.02);
 });
 
 test("removes an open position whose event was published after its entry", () => {

@@ -107,6 +107,12 @@ async function trackWorkspace(workspace, options) {
     for (const p of outcome.blocked_timing || []) {
       console.log(`  APLAZA ENTRADA ${p.ticker}: ${p.reason}`);
     }
+    for (const p of outcome.blocked_stale_signals || []) {
+      console.log(`  BLOQUEA SENAL ANTIGUA ${p.ticker}: ${p.reason}`);
+    }
+    if (outcome.shadow_observations_added?.length) {
+      console.log(`  SHADOW: ${outcome.shadow_observations_added.length} senales rechazadas nuevas en seguimiento`);
+    }
     if (!outcome.closed.length && !outcome.opened.length) console.log("  sin movimientos");
     console.log(`  capital: ${outcome.equity.toFixed(2)} $`);
     writeState(workspace, state);
@@ -121,6 +127,13 @@ async function trackWorkspace(workspace, options) {
     result.diagnostics.timing_blocked_tickers = (outcome.blocked_timing || []).map((row) => row.ticker);
     result.diagnostics.timing_pruned_count = outcome.pruned_timing?.length || 0;
     result.diagnostics.timing_pruned_tickers = (outcome.pruned_timing || []).map((row) => row.ticker);
+    result.diagnostics.stale_signal_blocked_count = outcome.blocked_stale_signals?.length || 0;
+    result.diagnostics.stale_signal_blocked_tickers = (outcome.blocked_stale_signals || []).map((row) => row.ticker);
+    result.diagnostics.shadow_rejected_added_count = outcome.shadow_observations_added?.length || 0;
+    result.diagnostics.shadow_rejected_total_count = state.rejected_signal_observations?.length || 0;
+    result.diagnostics.shadow_rejected_tracking_count = (state.rejected_signal_observations || []).filter(
+      (row) => row.status === "TRACKING",
+    ).length;
     result.diagnostics.stop_loss_pct = workspace.portfolio.max_loss_pct || null;
     result.diagnostics.stop_loss_adjusted_signal_count = outcome.signal_stop_adjustments?.length || 0;
     result.diagnostics.stop_loss_tightened_position_count = outcome.tightened_stops?.length || 0;
