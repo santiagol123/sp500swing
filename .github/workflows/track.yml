@@ -2,6 +2,13 @@ name: Paper trading y escaneo insiders
 
 # Registra el rendimiento y refresca los snapshots que lee Vercel.
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/track.yml"
+      - "lib/**"
+      - "scripts/**"
   schedule:
     # Insiders cada hora, desplazado del inicio de la hora para reducir retrasos
     # del scheduler. Vercel solo lee los snapshots commiteados.
@@ -45,7 +52,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "41 1,7,13,19 * * 1-5" ]; then
             node scripts/track.js --workspace=momentum
-          elif [ "${{ github.event_name }}" = "schedule" ]; then
+          elif [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "push" ]; then
             node scripts/track.js --workspace=insider
             node scripts/track.js --workspace=insider_total --cacheOnly
             node scripts/track.js --workspace=insider_sp500_nasdaq --cacheOnly
