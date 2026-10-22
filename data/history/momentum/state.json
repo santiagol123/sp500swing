@@ -1,7 +1,7 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-22T18:27:18.948Z",
+  "updated_at": "2026-10-22T22:43:02.475Z",
   "initial_equity": 100000,
   "cash": 80194.59404289493,
   "positions": [
@@ -41,10 +41,10 @@
       "cost_basis": 5871.37,
       "stop_price": 48.5077,
       "target_price": 52.6498,
-      "last_price": 49.37,
+      "last_price": 49.44,
       "last_marked_date": "2026-10-22",
-      "unrealized_pnl": -65.85,
-      "unrealized_pct": -0.01072,
+      "unrealized_pnl": -57.61,
+      "unrealized_pct": -0.009318,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -66,10 +66,10 @@
       "cost_basis": 5871.37,
       "stop_price": 428.234,
       "target_price": 464.8014,
-      "last_price": 446.55,
+      "last_price": 445.28,
       "last_marked_date": "2026-10-22",
-      "unrealized_pnl": 76.72,
-      "unrealized_pct": 0.013573,
+      "unrealized_pnl": 59.8,
+      "unrealized_pct": 0.010691,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -1496,11 +1496,12 @@
     },
     {
       "date": "2026-10-22",
-      "equity": 97867.04,
+      "equity": 97858.36,
       "cash": 80194.59,
       "open_positions": 3
     }
   ],
   "tracked_days": 54,
-  "last_market_date": "2026-10-22"
+  "last_market_date": "2026-10-22",
+  "rejected_signal_observations": []
 }
