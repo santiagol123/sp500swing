@@ -1,84 +1,10 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-10-23T07:44:37.819Z",
+  "updated_at": "2026-10-23T13:38:15.720Z",
   "initial_equity": 100000,
-  "cash": 84118.10006135472,
+  "cash": 89883.10006135472,
   "positions": [
-    {
-      "ticker": "COO",
-      "name": "Cooper Companies (The)",
-      "sector": "Health Care",
-      "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-09-15",
-      "entry_price": 53.27,
-      "qty": 93.589014,
-      "cost_basis": 4987.98,
-      "stop_price": 49.09,
-      "target_price": 61.6299,
-      "last_price": 61.65,
-      "last_marked_date": "2026-10-22",
-      "unrealized_pnl": 781.78,
-      "unrealized_pct": 0.157312,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": "2026-09-15",
-      "signal_meta": {
-        "insider_count": 3,
-        "buy_count": 3,
-        "total_value_usd": 1330790,
-        "first_buy": "2026-09-11",
-        "last_buy": "2026-09-14",
-        "stale_days": 1,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Kurzius Lawrence Erik",
-            "title": "Director",
-            "shares": 10000,
-            "value_usd": 539150,
-            "date": "2026-09-14",
-            "filing_date": "2026-09-15",
-            "filing_datetime": "2026-09-15T16:53:20.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Rosebrough Walter M Jr",
-            "title": "Director",
-            "shares": 10000,
-            "value_usd": 541640,
-            "date": "2026-09-11",
-            "filing_date": "2026-09-15",
-            "filing_datetime": "2026-09-15T16:56:31.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Keel Paul A",
-            "title": "Director",
-            "shares": 4701.015,
-            "value_usd": 250000,
-            "date": "2026-09-11",
-            "filing_date": "2026-09-15",
-            "filing_datetime": "2026-09-15T16:46:05.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 15.03020507219739,
-        "volatility_20d": 0.5661959480629407
-      }
-    },
     {
       "ticker": "SPG",
       "name": "Simon Property Group",
@@ -90,10 +16,10 @@
       "cost_basis": 9943.45,
       "stop_price": 188.7614,
       "target_price": 224.9072,
-      "last_price": 212.04,
-      "last_marked_date": "2026-10-22",
-      "unrealized_pnl": 550.82,
-      "unrealized_pct": 0.055924,
+      "last_price": 212.88,
+      "last_marked_date": "2026-10-23",
+      "unrealized_pnl": 592.4,
+      "unrealized_pct": 0.060107,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-01",
@@ -542,6 +468,81 @@
         "rsi14": 41.83263815722643,
         "volatility_20d": 0.32762767787289077
       }
+    },
+    {
+      "ticker": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-09-15",
+      "entry_price": 53.27,
+      "exit_date": "2026-10-23",
+      "exit_price": 61.6299,
+      "exit_reason": "OBJETIVO",
+      "qty": 93.589014,
+      "cost_basis": 4987.98,
+      "proceeds": 5765,
+      "pnl": 777.02,
+      "pnl_pct": 0.155778,
+      "r_multiple": 2,
+      "hold_days": 38,
+      "stop_price": 49.09,
+      "target_price": 61.6299,
+      "signal_meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 1330790,
+        "first_buy": "2026-09-11",
+        "last_buy": "2026-09-14",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Kurzius Lawrence Erik",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 539150,
+            "date": "2026-09-14",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:53:20.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Rosebrough Walter M Jr",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 541640,
+            "date": "2026-09-11",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:56:31.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Keel Paul A",
+            "title": "Director",
+            "shares": 4701.015,
+            "value_usd": 250000,
+            "date": "2026-09-11",
+            "filing_date": "2026-09-15",
+            "filing_datetime": "2026-09-15T16:46:05.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 15.03020507219739,
+        "volatility_20d": 0.5661959480629407
+      }
     }
   ],
   "equity_curve": [
@@ -898,9 +899,15 @@
       "equity": 100382.14,
       "cash": 84118.1,
       "open_positions": 2
+    },
+    {
+      "date": "2026-10-23",
+      "equity": 100418.95,
+      "cash": 89883.1,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 59,
-  "last_market_date": "2026-10-22",
+  "tracked_days": 60,
+  "last_market_date": "2026-10-23",
   "rejected_signal_observations": []
 }
