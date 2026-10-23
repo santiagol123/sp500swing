@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-10-23T18:31:42.845Z",
+  "updated_at": "2026-10-23T22:24:47.749Z",
   "initial_equity": 100000,
   "cash": 99583.5651129745,
   "positions": [],
@@ -2372,8 +2372,8 @@
       "entry_date": "2026-10-22",
       "entry_price": 85.965,
       "latest_date": "2026-10-23",
-      "latest_price": 86.98,
-      "return_pct": 0.011807,
+      "latest_price": 86.96,
+      "return_pct": 0.011574,
       "mae_pct": -0.01425,
       "mfe_pct": 0.022102,
       "status": "TRACKING",
@@ -2399,6 +2399,23 @@
       "exit_date": "2026-10-23",
       "exit_price": 137.4744,
       "exit_reason": "SHADOW_STOP"
+    },
+    {
+      "key": "UBER:2026-09-10:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "UBER",
+      "name": "Uber",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Cluster de 2026-09-10, demasiado antiguo (43 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (43 dias); accion base SENAL_CADUCADA; rebote debil: RSI 38.6 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.2%, 1m -3.6%, RSI 38.6); esperar confirmacion",
+      "entry_date": "2026-10-23",
+      "entry_price": 66.7,
+      "latest_date": "2026-10-23",
+      "latest_price": 66.7,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-09-10",
+      "first_detected_at": "2026-09-25T17:47:15.424Z"
     }
   ]
 }
