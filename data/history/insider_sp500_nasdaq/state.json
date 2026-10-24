@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-10-23T22:24:56.608Z",
+  "updated_at": "2026-10-24T01:45:02.505Z",
   "initial_equity": 100000,
   "cash": 100189.2052431546,
   "positions": [],
@@ -11246,7 +11246,7 @@
       "latest_price": 86.96,
       "return_pct": 0.011633,
       "mae_pct": -0.014193,
-      "mfe_pct": 0.022161,
+      "mfe_pct": 0.02222,
       "status": "TRACKING",
       "signal_event_date": "2026-08-14",
       "first_detected_at": "2026-09-25T17:46:45.216Z"
@@ -11282,8 +11282,8 @@
       "latest_date": "2026-10-23",
       "latest_price": 4.29,
       "return_pct": 0.003509,
-      "mae_pct": -0.015181,
-      "mfe_pct": 0.01752,
+      "mae_pct": -0.015205,
+      "mfe_pct": 0.017544,
       "status": "TRACKING",
       "signal_event_date": "2026-09-22",
       "first_detected_at": "2026-10-20T01:42:13.065Z"
