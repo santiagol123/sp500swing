@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-26T05:02:29.319Z",
+  "computed_at": "2026-10-26T11:18:59.383Z",
   "market_date": "2026-10-23",
   "signals": [
     {
@@ -434,7 +434,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 62.20817189538914,
+        "rsi14": 62.20817189549143,
         "volatility_20d": 0.2121759532542799
       }
     },
@@ -508,7 +508,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 52.4319412342198,
+        "rsi14": 52.43194123390553,
         "volatility_20d": 0.3563997993126316
       }
     },
@@ -651,7 +651,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 65773,
+    "elapsed_ms": 63771,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 62,
