@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-10-27T08:04:06.506Z",
+  "updated_at": "2026-10-27T14:42:29.231Z",
   "initial_equity": 100000,
   "cash": 99583.5651129745,
   "positions": [],
@@ -2364,10 +2364,16 @@
       "equity": 99583.57,
       "cash": 99583.57,
       "open_positions": 0
+    },
+    {
+      "date": "2026-10-27",
+      "equity": 99583.57,
+      "cash": 99583.57,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 55,
-  "last_market_date": "2026-10-26",
+  "tracked_days": 56,
+  "last_market_date": "2026-10-27",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -2377,14 +2383,17 @@
       "reason": "Compra senior material de 2026-08-14, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (69 dias); accion base SENAL_CADUCADA; rebote debil: RSI 30.8 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -9.9%, 1m -29.9%, RSI 30.8); esperar confirmacion",
       "entry_date": "2026-10-22",
       "entry_price": 85.965,
-      "latest_date": "2026-10-26",
-      "latest_price": 90.47,
-      "return_pct": 0.052405,
+      "latest_date": "2026-10-27",
+      "latest_price": 92.565,
+      "return_pct": 0.076775,
       "mae_pct": -0.01425,
-      "mfe_pct": 0.07125,
-      "status": "TRACKING",
+      "mfe_pct": 0.094515,
+      "status": "COMPLETE",
       "signal_event_date": "2026-08-14",
-      "first_detected_at": "2026-09-25T17:47:15.424Z"
+      "first_detected_at": "2026-09-25T17:47:15.424Z",
+      "exit_date": "2026-10-27",
+      "exit_price": 92.565,
+      "exit_reason": "SHADOW_TIME_EXIT"
     },
     {
       "key": "VST:2026-09-02:ESPERAR_CONFIRMACION_TECNICA",
@@ -2414,10 +2423,10 @@
       "reason": "Cluster de 2026-09-10, demasiado antiguo (43 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (43 dias); accion base SENAL_CADUCADA; rebote debil: RSI 38.6 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.2%, 1m -3.6%, RSI 38.6); esperar confirmacion",
       "entry_date": "2026-10-23",
       "entry_price": 66.7,
-      "latest_date": "2026-10-26",
-      "latest_price": 66.13,
-      "return_pct": -0.008546,
-      "mae_pct": -0.015292,
+      "latest_date": "2026-10-27",
+      "latest_price": 65.881,
+      "return_pct": -0.012279,
+      "mae_pct": -0.018441,
       "mfe_pct": 0.004498,
       "status": "TRACKING",
       "signal_event_date": "2026-09-10",
