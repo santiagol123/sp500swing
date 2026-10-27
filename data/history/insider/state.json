@@ -1,7 +1,7 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-10-27T14:42:22.138Z",
+  "updated_at": "2026-10-27T20:09:49.568Z",
   "initial_equity": 100000,
   "cash": 89883.10006135472,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 9943.45,
       "stop_price": 188.7614,
       "target_price": 224.9072,
-      "last_price": 211.9,
+      "last_price": 212.31,
       "last_marked_date": "2026-10-27",
-      "unrealized_pnl": 543.9,
-      "unrealized_pct": 0.055226,
+      "unrealized_pnl": 564.19,
+      "unrealized_pct": 0.057268,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-01",
@@ -914,7 +914,7 @@
     },
     {
       "date": "2026-10-27",
-      "equity": 100370.45,
+      "equity": 100390.74,
       "cash": 89883.1,
       "open_positions": 1
     }
