@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-26T23:18:33.185Z",
+  "computed_at": "2026-10-27T06:47:45.414Z",
   "market_date": "2026-10-26",
   "signals": [],
   "watch": [
@@ -165,7 +165,7 @@
       "size_pct": 0,
       "authorized": false,
       "meta": {
-        "rank_today": 23,
+        "rank_today": 24,
         "rsi14": 66.921052,
         "macd_hist": 0.979648,
         "macd_hist_slope": -0.057542
@@ -511,7 +511,7 @@
     "portfolio_entry_count": 0,
     "open_positions_count": 1,
     "buys_today_count": 0,
-    "hot_momentum_count": 15,
+    "hot_momentum_count": 14,
     "pullback_count": 2,
     "near_breakout_count": 57,
     "reentry_blocked_count": 0,
@@ -605,7 +605,7 @@
         "ret_1w": 0.043473,
         "ret_1m": 0.4151,
         "dist_sma50": 0.26117,
-        "pct_from_52w_high": -0.118498,
+        "pct_from_52w_high": -0.118497,
         "volume_ratio_20_60": 1.342155,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
@@ -645,7 +645,7 @@
         "sector": "Financials",
         "rank_today": 8,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.825005,
+        "score": 0.824825,
         "price": 308.06,
         "ret_1w": 0.049501,
         "ret_1m": 0.164776,
@@ -831,7 +831,7 @@
         "ret_1m": 0.126803,
         "dist_sma50": 0.070612,
         "pct_from_52w_high": -0.023833,
-        "volume_ratio_20_60": 1.026283,
+        "volume_ratio_20_60": 1.026356,
         "risk_flags": ""
       },
       {
@@ -840,7 +840,7 @@
         "sector": "Energy",
         "rank_today": 21,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.787915,
+        "score": 0.78744,
         "price": 184.54,
         "ret_1w": 0.035113,
         "ret_1m": 0.149138,
@@ -865,25 +865,10 @@
         "risk_flags": ""
       },
       {
-        "ticker": "EL",
-        "name": "Estée Lauder Companies (The)",
-        "sector": "Consumer Staples",
-        "rank_today": 23,
-        "setup_type": "HOT_MOMENTUM",
-        "score": 0.77808,
-        "price": 108.82,
-        "ret_1w": 0.028739,
-        "ret_1m": 0.1519,
-        "dist_sma50": 0.10095,
-        "pct_from_52w_high": -0.080715,
-        "volume_ratio_20_60": 0.905156,
-        "risk_flags": ""
-      },
-      {
         "ticker": "FDS",
         "name": "FactSet",
         "sector": "Financials",
-        "rank_today": 24,
+        "rank_today": 23,
         "setup_type": "NORMAL",
         "score": 0.77801,
         "price": 323.39,
@@ -892,6 +877,21 @@
         "dist_sma50": 0.114987,
         "pct_from_52w_high": -0.035952,
         "volume_ratio_20_60": 0.949974,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "EL",
+        "name": "Estée Lauder Companies (The)",
+        "sector": "Consumer Staples",
+        "rank_today": 24,
+        "setup_type": "HOT_MOMENTUM",
+        "score": 0.777605,
+        "price": 108.82,
+        "ret_1w": 0.028739,
+        "ret_1m": 0.1519,
+        "dist_sma50": 0.10095,
+        "pct_from_52w_high": -0.080715,
+        "volume_ratio_20_60": 0.905156,
         "risk_flags": ""
       },
       {
@@ -1020,7 +1020,7 @@
         "sector": "Industrials",
         "rank_today": 33,
         "setup_type": "NORMAL",
-        "score": 0.767195,
+        "score": 0.76672,
         "price": 301.12,
         "ret_1w": 0.049089,
         "ret_1m": 0.142034,
@@ -1125,13 +1125,13 @@
         "sector": "Information Technology",
         "rank_today": 40,
         "setup_type": "NORMAL",
-        "score": 0.745036,
+        "score": 0.745037,
         "price": 158.18,
         "ret_1w": 0.088195,
         "ret_1m": 0.166347,
         "dist_sma50": 0.144798,
         "pct_from_52w_high": -0.16421,
-        "volume_ratio_20_60": 0.788189,
+        "volume_ratio_20_60": 0.788234,
         "risk_flags": ""
       },
       {
@@ -1155,7 +1155,7 @@
         "sector": "Industrials",
         "rank_today": 42,
         "setup_type": "NORMAL",
-        "score": 0.74146,
+        "score": 0.740985,
         "price": 241.31,
         "ret_1w": 0.053617,
         "ret_1m": 0.141413,
@@ -1191,7 +1191,7 @@
         "ret_1m": 0.140541,
         "dist_sma50": 0.100531,
         "pct_from_52w_high": -0.074969,
-        "volume_ratio_20_60": 0.838969,
+        "volume_ratio_20_60": 0.83962,
         "risk_flags": ""
       },
       {
@@ -1275,7 +1275,7 @@
         "sector": "Health Care",
         "rank_today": 50,
         "setup_type": "NORMAL",
-        "score": 0.725245,
+        "score": 0.724725,
         "price": 251.54,
         "ret_1w": -0.004393,
         "ret_1m": 0.144876,
