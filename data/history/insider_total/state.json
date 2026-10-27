@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-10-26T22:48:17.632Z",
+  "updated_at": "2026-10-27T02:11:45.887Z",
   "initial_equity": 100000,
   "cash": 99583.5651129745,
   "positions": [],
@@ -2381,7 +2381,7 @@
       "latest_price": 90.47,
       "return_pct": 0.052405,
       "mae_pct": -0.01425,
-      "mfe_pct": 0.071217,
+      "mfe_pct": 0.07125,
       "status": "TRACKING",
       "signal_event_date": "2026-08-14",
       "first_detected_at": "2026-09-25T17:47:15.424Z"
@@ -2417,8 +2417,8 @@
       "latest_date": "2026-10-26",
       "latest_price": 66.13,
       "return_pct": -0.008546,
-      "mae_pct": -0.014693,
-      "mfe_pct": 0.002099,
+      "mae_pct": -0.015292,
+      "mfe_pct": 0.004498,
       "status": "TRACKING",
       "signal_event_date": "2026-09-10",
       "first_detected_at": "2026-09-25T17:47:15.424Z"

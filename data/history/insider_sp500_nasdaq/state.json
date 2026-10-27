@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-10-26T22:48:27.048Z",
+  "updated_at": "2026-10-27T02:11:54.930Z",
   "initial_equity": 100000,
   "cash": 100189.2052431546,
   "positions": [],
@@ -11255,7 +11255,7 @@
       "latest_price": 90.47,
       "return_pct": 0.052466,
       "mae_pct": -0.014193,
-      "mfe_pct": 0.07128,
+      "mfe_pct": 0.071312,
       "status": "TRACKING",
       "signal_event_date": "2026-08-14",
       "first_detected_at": "2026-09-25T17:46:45.216Z"
@@ -11388,7 +11388,7 @@
       "latest_date": "2026-10-26",
       "latest_price": 309.71,
       "return_pct": 0.084913,
-      "mae_pct": 0.038507,
+      "mae_pct": 0.038498,
       "mfe_pct": 0.085473,
       "status": "TRACKING",
       "signal_event_date": "2026-10-13",
@@ -11405,8 +11405,8 @@
       "latest_date": "2026-10-26",
       "latest_price": 66.13,
       "return_pct": -0.008546,
-      "mae_pct": -0.014693,
-      "mfe_pct": 0.002099,
+      "mae_pct": -0.015292,
+      "mfe_pct": 0.004498,
       "status": "TRACKING",
       "signal_event_date": "2026-09-10",
       "first_detected_at": "2026-09-25T17:46:45.216Z"
@@ -11427,6 +11427,40 @@
       "status": "TRACKING",
       "signal_event_date": "2026-09-25",
       "first_detected_at": "2026-10-23T22:24:56.601Z"
+    },
+    {
+      "key": "OPTU:2026-10-26:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "OPTU",
+      "name": "Optimum Communications Inc.",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Flujo Dataroma semanal: compras 1,163,551 USD vs ventas 0 USD (sin ventas recientes); neto comprador 1,163,551 USD. Compras publicadas el 2026-10-26: 1,163,551 USD. | filtro S&P 500 + Nasdaq-100 + NYSE: menos de 2 insiders y compra senior individual < 500,000 USD; sin CEO/CFO/officer/director claro; volatilidad 20d 116% > 60%; rebote debil: RSI 38.6 bajo SMA20; gap de entrada 9.8% > 3.0%; caida acelerada bajo SMA20/SMA50 (1s -19.7%, 1m -28.2%, RSI 38.6); esperar confirmacion",
+      "entry_date": "2026-10-26",
+      "entry_price": 0.725,
+      "latest_date": "2026-10-26",
+      "latest_price": 0.725,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-10-26",
+      "first_detected_at": "2026-10-27T02:11:54.923Z"
+    },
+    {
+      "key": "STC:2026-10-26:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "STC",
+      "name": "Stewart Information Services Corporation",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "3 insiders compraron 283,710 USD entre 2026-10-23 y 2026-10-23 | fuentes: Dataroma 4 | filtro S&P 500 + Nasdaq-100 + NYSE: importe publicado en 3 dias < 250,000 USD; importe total < 500,000 USD; volatilidad 20d 65% > 60%; rebote debil: RSI 20.1 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -17.6%, 1m -27.4%, RSI 20.1); esperar confirmacion",
+      "entry_date": "2026-10-26",
+      "entry_price": 42.96,
+      "latest_date": "2026-10-26",
+      "latest_price": 42.96,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-10-26",
+      "first_detected_at": "2026-10-27T02:11:54.923Z"
     }
   ]
 }
