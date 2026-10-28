@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-10-28T13:15:55.162Z",
+  "updated_at": "2026-10-28T18:57:35.201Z",
   "initial_equity": 100000,
   "cash": 99583.5651129745,
   "positions": [],
@@ -2370,10 +2370,16 @@
       "equity": 99583.57,
       "cash": 99583.57,
       "open_positions": 0
+    },
+    {
+      "date": "2026-10-28",
+      "equity": 99583.57,
+      "cash": 99583.57,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 56,
-  "last_market_date": "2026-10-27",
+  "tracked_days": 57,
+  "last_market_date": "2026-10-28",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -2423,13 +2429,33 @@
       "reason": "Cluster de 2026-09-10, demasiado antiguo (43 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (43 dias); accion base SENAL_CADUCADA; rebote debil: RSI 38.6 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.2%, 1m -3.6%, RSI 38.6); esperar confirmacion",
       "entry_date": "2026-10-23",
       "entry_price": 66.7,
-      "latest_date": "2026-10-27",
-      "latest_price": 65.78,
-      "return_pct": -0.013793,
-      "mae_pct": -0.018441,
+      "latest_date": "2026-10-28",
+      "latest_price": 65.14,
+      "return_pct": -0.02,
+      "mae_pct": -0.030135,
       "mfe_pct": 0.004498,
-      "status": "TRACKING",
+      "status": "COMPLETE",
       "signal_event_date": "2026-09-10",
+      "first_detected_at": "2026-09-25T17:47:15.424Z",
+      "exit_date": "2026-10-28",
+      "exit_price": 65.366,
+      "exit_reason": "SHADOW_STOP"
+    },
+    {
+      "key": "CSGP:2026-08-05:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Compra senior material de 2026-08-05, demasiado antigua | fuentes: SEC EDGAR 1 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (84 dias); accion base SENAL_CADUCADA; volatilidad 20d 79% > 60%; rebote debil: RSI 37.5 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -17.3%, 1m 1.0%, RSI 37.5); esperar confirmacion",
+      "entry_date": "2026-10-28",
+      "entry_price": 27.215,
+      "latest_date": "2026-10-28",
+      "latest_price": 27.215,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-08-05",
       "first_detected_at": "2026-09-25T17:47:15.424Z"
     }
   ]
