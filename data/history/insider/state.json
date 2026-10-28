@@ -1,9 +1,9 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-10-28T05:58:52.723Z",
+  "updated_at": "2026-10-28T13:15:48.047Z",
   "initial_equity": 100000,
-  "cash": 89883.10006135472,
+  "cash": 84863.63740546099,
   "positions": [
     {
       "ticker": "SPG",
@@ -189,6 +189,66 @@
         ],
         "rsi14": 30.325134816393216,
         "volatility_20d": 0.13328075908945267
+      }
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-10-27",
+      "entry_price": 235.16,
+      "qty": 21.334216,
+      "cost_basis": 5019.46,
+      "stop_price": 210.3572,
+      "target_price": 284.7656,
+      "last_price": 235.16,
+      "last_marked_date": "2026-10-27",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": "2026-10-28",
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 3200889,
+        "first_buy": "2026-10-26",
+        "last_buy": "2026-10-26",
+        "stale_days": 2,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Sweet Julie Spellman",
+            "title": "Chair and CEO",
+            "shares": 12200,
+            "value_usd": 3001041,
+            "date": "2026-10-26",
+            "filing_date": "2026-10-28",
+            "filing_datetime": "2026-10-28T10:45:40.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Price Paula A",
+            "title": "Director",
+            "shares": 800,
+            "value_usd": 199848,
+            "date": "2026-10-26",
+            "filing_date": "2026-10-28",
+            "filing_datetime": "2026-10-28T10:45:35.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 61.43725076790229,
+        "volatility_20d": 0.7610530036972669
       }
     }
   ],
@@ -914,9 +974,9 @@
     },
     {
       "date": "2026-10-27",
-      "equity": 100389.25,
-      "cash": 89883.1,
-      "open_positions": 1
+      "equity": 100386.74,
+      "cash": 84863.64,
+      "open_positions": 2
     }
   ],
   "tracked_days": 62,

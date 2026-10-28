@@ -19,6 +19,46 @@
   "0001997505-26-000010": [],
   "0001171780-26-000014": [],
   "0001762951-26-000006": [],
+  "0001487630-26-000022": [
+    {
+      "symbol": "ACN",
+      "issuer_cik": "0001467373",
+      "issuer_name": "Accenture plc",
+      "accession": "0001487630-26-000022",
+      "filing_date": "2026-10-28",
+      "filing_datetime": "2026-10-28T10:45:40.000Z",
+      "filing_acceptance_datetime": "2026-10-28T10:45:40.000Z",
+      "transaction_date": "2026-10-26",
+      "owner_cik": "0001487630",
+      "owner_name": "Sweet Julie Spellman",
+      "owner_title": "Chair and CEO",
+      "is_officer": true,
+      "is_director": true,
+      "has_10b5_1_plan": false,
+      "shares": 12200,
+      "value_usd": 3001041.2399999998
+    }
+  ],
+  "0001369240-26-000014": [
+    {
+      "symbol": "ACN",
+      "issuer_cik": "0001467373",
+      "issuer_name": "Accenture plc",
+      "accession": "0001369240-26-000014",
+      "filing_date": "2026-10-28",
+      "filing_datetime": "2026-10-28T10:45:35.000Z",
+      "filing_acceptance_datetime": "2026-10-28T10:45:35.000Z",
+      "transaction_date": "2026-10-26",
+      "owner_cik": "0001369240",
+      "owner_name": "Price Paula A",
+      "owner_title": "Director",
+      "is_officer": false,
+      "is_director": true,
+      "has_10b5_1_plan": false,
+      "shares": 800,
+      "value_usd": 199847.75999999998
+    }
+  ],
   "0001455134-26-000023": [],
   "0002030833-26-000004": [],
   "0002030833-26-000003": [],
