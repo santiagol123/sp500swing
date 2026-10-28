@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-10-28T07:20:23.969Z",
+  "updated_at": "2026-10-28T14:27:31.990Z",
   "initial_equity": 100000,
-  "cash": 80194.59404289493,
+  "cash": 85895.86404289493,
   "positions": [
     {
       "ticker": "WBD",
@@ -41,10 +41,10 @@
       "cost_basis": 5871.37,
       "stop_price": 48.5077,
       "target_price": 52.6498,
-      "last_price": 50.79,
-      "last_marked_date": "2026-10-27",
-      "unrealized_pnl": 101.13,
-      "unrealized_pct": 0.017734,
+      "last_price": 51.525,
+      "last_marked_date": "2026-10-28",
+      "unrealized_pnl": 187.57,
+      "unrealized_pct": 0.032462,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -53,31 +53,6 @@
         "rsi14": 71.724068,
         "macd_hist": 0.47766,
         "macd_hist_slope": -0.03019
-      }
-    },
-    {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "sector": "Health Care",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-21",
-      "entry_price": 440.57,
-      "qty": 13.320099,
-      "cost_basis": 5871.37,
-      "stop_price": 428.234,
-      "target_price": 464.8014,
-      "last_price": 421.49,
-      "last_marked_date": "2026-10-27",
-      "unrealized_pnl": -257.08,
-      "unrealized_pct": -0.043308,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 10,
-        "rsi14": 73.240812,
-        "macd_hist": 3.771094,
-        "macd_hist_slope": -0.025341
       }
     }
   ],
@@ -1173,6 +1148,32 @@
         "macd_hist": 0.777826,
         "macd_hist_slope": 0.613652
       }
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Care",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-21",
+      "entry_price": 440.57,
+      "exit_date": "2026-10-28",
+      "exit_price": 428.234,
+      "exit_reason": "STOP",
+      "qty": 13.320099,
+      "cost_basis": 5871.37,
+      "proceeds": 5701.27,
+      "pnl": -170.1,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 7,
+      "stop_price": 428.234,
+      "target_price": 464.8014,
+      "signal_meta": {
+        "rank_today": 10,
+        "rsi14": 73.240812,
+        "macd_hist": 3.771094,
+        "macd_hist_slope": -0.025341
+      }
     }
   ],
   "equity_curve": [
@@ -1517,9 +1518,15 @@
       "equity": 97700.22,
       "cash": 80194.59,
       "open_positions": 3
+    },
+    {
+      "date": "2026-10-28",
+      "equity": 97873.63,
+      "cash": 85895.86,
+      "open_positions": 2
     }
   ],
-  "tracked_days": 57,
-  "last_market_date": "2026-10-27",
+  "tracked_days": 58,
+  "last_market_date": "2026-10-28",
   "rejected_signal_observations": []
 }
