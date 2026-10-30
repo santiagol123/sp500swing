@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-10-29T21:54:19.736Z",
+  "updated_at": "2026-10-30T02:03:17.605Z",
   "initial_equity": 100000,
   "cash": 85264.23644609726,
   "positions": [
@@ -11885,7 +11885,7 @@
       "latest_price": 28.14,
       "return_pct": 0.033989,
       "mae_pct": -0.005328,
-      "mfe_pct": 0.042991,
+      "mfe_pct": 0.043175,
       "status": "TRACKING",
       "signal_event_date": "2026-08-05",
       "first_detected_at": "2026-09-25T17:46:45.216Z"
