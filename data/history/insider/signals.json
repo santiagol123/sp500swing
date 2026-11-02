@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-10-31T00:54:18.610Z",
+  "computed_at": "2026-11-02T06:29:51.970Z",
   "market_date": "2026-10-30",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (79 dias > 15)",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (81 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 43.93,
       "entry_zone_low": 43.27105,
@@ -26,7 +26,7 @@
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 79,
+        "stale_days": 81,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -91,13 +91,73 @@
       }
     },
     {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 3,200,889 USD entre 2026-10-26 y 2026-10-26",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 258.24,
+      "entry_zone_low": 254.3664,
+      "entry_zone_high": 263.4048,
+      "invalid_below_price": 240.7340003127763,
+      "target_price": 293.25199937444745,
+      "risk_reward_ratio": 1.9999999999999991,
+      "size_pct": 0.05,
+      "authorized": true,
+      "opt_score": 60.7,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 3200889,
+        "first_buy": "2026-10-26",
+        "last_buy": "2026-10-26",
+        "stale_days": 7,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Sweet Julie Spellman",
+            "title": "Chair and CEO",
+            "shares": 12200,
+            "value_usd": 3001041,
+            "date": "2026-10-26",
+            "filing_date": "2026-10-28",
+            "filing_datetime": "2026-10-28T10:45:40.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Price Paula A",
+            "title": "Director",
+            "shares": 800,
+            "value_usd": 199848,
+            "date": "2026-10-26",
+            "filing_date": "2026-10-28",
+            "filing_datetime": "2026-10-28T10:45:35.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 70.5517277012778,
+        "volatility_20d": 0.4891488005234924
+      }
+    },
+    {
       "ticker": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-25, demasiado antiguo (67 dias > 15)",
+      "reason": "Cluster de 2026-08-25, demasiado antiguo (69 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 41.98,
       "entry_zone_low": 41.3503,
@@ -107,14 +167,14 @@
       "risk_reward_ratio": 2.0000000000000027,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 70,
+      "opt_score": 60,
       "meta": {
-        "insider_count": 4,
-        "buy_count": 5,
-        "total_value_usd": 9486038,
-        "first_buy": "2026-07-31",
+        "insider_count": 3,
+        "buy_count": 4,
+        "total_value_usd": 9258639,
+        "first_buy": "2026-08-03",
         "last_buy": "2026-08-25",
-        "stale_days": 67,
+        "stale_days": 69,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -158,84 +218,10 @@
             "is_director": true,
             "is_ten_percent_owner": false,
             "has_10b5_1_plan": false
-          },
-          {
-            "name": "LUDWIG EDWARD J",
-            "title": "Director",
-            "shares": 5000,
-            "value_usd": 227400,
-            "date": "2026-07-31",
-            "filing_date": "2026-08-03",
-            "filing_datetime": "2026-08-03T20:29:44.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
           }
         ],
         "rsi14": 38.77496421279683,
         "volatility_20d": 0.329793099459686
-      }
-    },
-    {
-      "ticker": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "2 insiders compraron 3,200,889 USD entre 2026-10-26 y 2026-10-26",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 258.24,
-      "entry_zone_low": 254.3664,
-      "entry_zone_high": 263.4048,
-      "invalid_below_price": 240.7340003127763,
-      "target_price": 293.25199937444745,
-      "risk_reward_ratio": 1.9999999999999991,
-      "size_pct": 0.05,
-      "authorized": true,
-      "opt_score": 63.3,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 3200889,
-        "first_buy": "2026-10-26",
-        "last_buy": "2026-10-26",
-        "stale_days": 5,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Sweet Julie Spellman",
-            "title": "Chair and CEO",
-            "shares": 12200,
-            "value_usd": 3001041,
-            "date": "2026-10-26",
-            "filing_date": "2026-10-28",
-            "filing_datetime": "2026-10-28T10:45:40.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Price Paula A",
-            "title": "Director",
-            "shares": 800,
-            "value_usd": 199848,
-            "date": "2026-10-26",
-            "filing_date": "2026-10-28",
-            "filing_datetime": "2026-10-28T10:45:35.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 70.5517277012778,
-        "volatility_20d": 0.4891488005234924
       }
     },
     {
@@ -245,7 +231,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-12, demasiado antiguo (80 dias > 15)",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (82 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 30.52,
       "entry_zone_low": 30.0622,
@@ -262,7 +248,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 80,
+        "stale_days": 82,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -308,7 +294,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 66.57803325948689,
+        "rsi14": 66.57803325949295,
         "volatility_20d": 0.211605658549094
       }
     },
@@ -319,7 +305,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-30, demasiado antiguo (31 dias > 15)",
+      "reason": "Cluster de 2026-09-30, demasiado antiguo (33 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 217.75,
       "entry_zone_low": 214.48375,
@@ -336,7 +322,7 @@
         "total_value_usd": 460716,
         "first_buy": "2026-09-30",
         "last_buy": "2026-09-30",
-        "stale_days": 31,
+        "stale_days": 33,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -494,7 +480,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 68.89179435585956,
+        "rsi14": 68.89179435649018,
         "volatility_20d": 0.21255160873299642
       }
     },
@@ -505,7 +491,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (88 dias > 15)",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (90 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 33.94,
       "entry_zone_low": 33.430899999999994,
@@ -522,7 +508,7 @@
         "total_value_usd": 652394,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-04",
-        "stale_days": 88,
+        "stale_days": 90,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -568,7 +554,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 55.453074442362094,
+        "rsi14": 55.4530744417425,
         "volatility_20d": 0.4250502246612621
       }
     },
@@ -579,7 +565,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-10, demasiado antiguo (51 dias > 15)",
+      "reason": "Cluster de 2026-09-10, demasiado antiguo (53 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 65.25,
       "entry_zone_low": 64.27125,
@@ -596,7 +582,7 @@
         "total_value_usd": 15314016,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-10",
-        "stale_days": 51,
+        "stale_days": 53,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -639,7 +625,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-16, demasiado antiguo (45 dias > 15)",
+      "reason": "Cluster de 2026-09-16, demasiado antiguo (47 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 59.55,
       "entry_zone_low": 58.656749999999995,
@@ -656,7 +642,7 @@
         "total_value_usd": 1880110,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 45,
+        "stale_days": 47,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -723,14 +709,14 @@
       "risk_reward_ratio": 1.9999999999999987,
       "size_pct": 0.1,
       "authorized": true,
-      "opt_score": 42.6,
+      "opt_score": 39.9,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 453555,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-27",
-        "stale_days": 4,
+        "stale_days": 6,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -762,7 +748,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.30173635377483,
+        "rsi14": 53.3017363622123,
         "volatility_20d": 0.15504664181302766
       }
     }
@@ -771,16 +757,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 68583,
+    "elapsed_ms": 64691,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 64,
+    "companies_with_buys": 63,
     "clusters_found": 9,
     "signals_fresh": 2,
     "portfolio_entry_count": 2,
     "price_download_failed": 0,
-    "filings_seen": 5958,
-    "filings_fetched": 15,
+    "filings_seen": 5838,
+    "filings_fetched": 0,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
