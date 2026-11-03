@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-03T15:23:00.178Z",
+  "updated_at": "2026-11-03T21:12:06.592Z",
   "initial_equity": 100000,
   "cash": 89571.15239246582,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 9977.6,
       "stop_price": 15.4497,
       "target_price": 17.6568,
-      "last_price": 15.965,
+      "last_price": 15.86,
       "last_marked_date": "2026-11-03",
-      "unrealized_pnl": 121.53,
-      "unrealized_pct": 0.012686,
+      "unrealized_pnl": 55.1,
+      "unrealized_pct": 0.006026,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-10-29",
@@ -2737,7 +2737,7 @@
     },
     {
       "date": "2026-11-03",
-      "equity": 99670.28,
+      "equity": 99603.86,
       "cash": 89571.15,
       "open_positions": 1
     }
@@ -2891,13 +2891,47 @@
       "entry_date": "2026-10-30",
       "entry_price": 48.79,
       "latest_date": "2026-11-03",
-      "latest_price": 49.795,
-      "return_pct": 0.020598,
+      "latest_price": 49.42,
+      "return_pct": 0.012912,
       "mae_pct": 0.003484,
       "mfe_pct": 0.029719,
       "status": "TRACKING",
       "signal_event_date": "2026-10-29",
       "first_detected_at": "2026-10-29T17:01:54.379Z"
+    },
+    {
+      "key": "CAT:2026-11-03:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Flujo Dataroma semanal: compras 620,390 USD vs ventas 0 USD (sin ventas recientes); neto comprador 620,390 USD. Compras publicadas el 2026-11-03: 620,390 USD. | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; rebote debil: RSI 26.5 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -12.5%, 1m -26.3%, RSI 26.5); esperar confirmacion",
+      "entry_date": "2026-11-03",
+      "entry_price": 623.86,
+      "latest_date": "2026-11-03",
+      "latest_price": 623.86,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-03",
+      "first_detected_at": "2026-11-03T21:12:06.585Z"
+    },
+    {
+      "key": "APTV:2026-08-17:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "APTV",
+      "name": "Aptiv",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (82 dias > 15) | fuentes: SEC EDGAR 4 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (78 dias); accion base SENAL_CADUCADA; rebote debil: RSI 35.6 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.3%, 1m -5.8%, RSI 35.6); esperar confirmacion",
+      "entry_date": "2026-11-03",
+      "entry_price": 41.35,
+      "latest_date": "2026-11-03",
+      "latest_price": 41.35,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-08-17",
+      "first_detected_at": "2026-09-25T17:47:15.424Z"
     }
   ]
 }

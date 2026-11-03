@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-11-03T15:23:11.258Z",
+  "updated_at": "2026-11-03T21:12:16.474Z",
   "initial_equity": 100000,
   "cash": 93156.68639567116,
   "positions": [
@@ -14,12 +14,12 @@
       "entry_price": 113.2,
       "qty": 62.090598,
       "cost_basis": 7032.17,
-      "stop_price": 110.936,
+      "stop_price": 113.3132,
       "target_price": 127.1688,
-      "last_price": 113.7,
+      "last_price": 113.46,
       "last_marked_date": "2026-11-03",
-      "unrealized_pnl": 27.53,
-      "unrealized_pct": 0.004417,
+      "unrealized_pnl": 12.63,
+      "unrealized_pct": 0.002297,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-10-29",
@@ -123,8 +123,13 @@
         "original_invalid_below_price": 106.2156,
         "signal_age_sessions": 1,
         "first_filing": "2026-10-29",
-        "last_filing": "2026-10-29"
-      }
+        "last_filing": "2026-10-29",
+        "profit_lock_stage": "BREAKEVEN",
+        "profit_lock_stop_price": 113.3132,
+        "profit_lock_trigger_high": 116.85
+      },
+      "profit_lock_stage": "BREAKEVEN",
+      "profit_lock_trigger_high": 116.85
     }
   ],
   "trades": [
@@ -11725,7 +11730,7 @@
     },
     {
       "date": "2026-11-03",
-      "equity": 100216.39,
+      "equity": 100201.49,
       "cash": 93156.69,
       "open_positions": 1
     }
@@ -12116,13 +12121,16 @@
       "entry_date": "2026-10-30",
       "entry_price": 16.065,
       "latest_date": "2026-11-03",
-      "latest_price": 15.97,
-      "return_pct": -0.005913,
-      "mae_pct": -0.016495,
+      "latest_price": 15.77,
+      "return_pct": -0.02,
+      "mae_pct": -0.020853,
       "mfe_pct": 0.018363,
-      "status": "TRACKING",
+      "status": "COMPLETE",
       "signal_event_date": "2026-10-29",
-      "first_detected_at": "2026-10-30T16:03:37.922Z"
+      "first_detected_at": "2026-10-30T16:03:37.922Z",
+      "exit_date": "2026-11-03",
+      "exit_price": 15.7437,
+      "exit_reason": "SHADOW_STOP"
     },
     {
       "key": "PAM:2026-10-16:ESPERAR_CONFIRMACION_TECNICA",
@@ -12173,8 +12181,8 @@
       "entry_date": "2026-10-30",
       "entry_price": 48.79,
       "latest_date": "2026-11-03",
-      "latest_price": 49.79,
-      "return_pct": 0.020496,
+      "latest_price": 49.42,
+      "return_pct": 0.012912,
       "mae_pct": 0.003484,
       "mfe_pct": 0.029719,
       "status": "TRACKING",
@@ -12190,10 +12198,10 @@
       "entry_date": "2026-10-30",
       "entry_price": 3.02,
       "latest_date": "2026-11-03",
-      "latest_price": 3.09,
-      "return_pct": 0.023179,
+      "latest_price": 3.1,
+      "return_pct": 0.02649,
       "mae_pct": 0.003311,
-      "mfe_pct": 0.023179,
+      "mfe_pct": 0.033113,
       "status": "TRACKING",
       "signal_event_date": "2026-10-13",
       "first_detected_at": "2026-10-30T16:03:37.922Z"
@@ -12207,10 +12215,10 @@
       "entry_date": "2026-11-02",
       "entry_price": 111.66,
       "latest_date": "2026-11-03",
-      "latest_price": 113.7,
-      "return_pct": 0.01827,
+      "latest_price": 113.46,
+      "return_pct": 0.01612,
       "mae_pct": -0.005014,
-      "mfe_pct": 0.023464,
+      "mfe_pct": 0.04648,
       "status": "TRACKING",
       "signal_event_date": "2026-10-29",
       "first_detected_at": "2026-10-29T21:54:19.722Z"
@@ -12248,6 +12256,40 @@
       "status": "TRACKING",
       "signal_event_date": "2026-09-28",
       "first_detected_at": "2026-10-30T16:03:37.922Z"
+    },
+    {
+      "key": "CAT:2026-11-03:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Flujo Dataroma semanal: compras 620,390 USD vs ventas 0 USD (sin ventas recientes); neto comprador 620,390 USD. Compras publicadas el 2026-11-03: 620,390 USD. | filtro S&P 500 + Nasdaq-100 + NYSE: menos de 2 insiders y compra senior individual < 500,000 USD; rebote debil: RSI 26.5 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -12.5%, 1m -26.3%, RSI 26.5); esperar confirmacion",
+      "entry_date": "2026-11-03",
+      "entry_price": 623.86,
+      "latest_date": "2026-11-03",
+      "latest_price": 623.86,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-03",
+      "first_detected_at": "2026-11-03T21:12:16.465Z"
+    },
+    {
+      "key": "APTV:2026-08-17:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "APTV",
+      "name": "Aptiv",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (82 dias > 15) | fuentes: SEC EDGAR 4 | filtro S&P 500 + Nasdaq-100 + NYSE: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (78 dias); accion base SENAL_CADUCADA; importe total < 500,000 USD; rebote debil: RSI 35.6 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.3%, 1m -5.8%, RSI 35.6); esperar confirmacion",
+      "entry_date": "2026-11-03",
+      "entry_price": 41.35,
+      "latest_date": "2026-11-03",
+      "latest_price": 41.35,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-08-17",
+      "first_detected_at": "2026-09-25T17:46:45.216Z"
     }
   ]
 }
