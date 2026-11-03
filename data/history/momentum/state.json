@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-11-03T08:32:16.752Z",
+  "updated_at": "2026-11-03T20:16:41.909Z",
   "initial_equity": 100000,
-  "cash": 74156.88411418193,
+  "cash": 79858.15411418193,
   "positions": [
     {
       "ticker": "WBD",
@@ -31,31 +31,6 @@
       }
     },
     {
-      "ticker": "APA",
-      "name": "APA Corporation",
-      "sector": "Energy",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-21",
-      "entry_price": 49.905,
-      "qty": 117.592143,
-      "cost_basis": 5871.37,
-      "stop_price": 48.5077,
-      "target_price": 52.6498,
-      "last_price": 48.82,
-      "last_marked_date": "2026-11-02",
-      "unrealized_pnl": -130.52,
-      "unrealized_pct": -0.021741,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 7,
-        "rsi14": 71.724068,
-        "macd_hist": 0.47766,
-        "macd_hist_slope": -0.03019
-      }
-    },
-    {
       "ticker": "URI",
       "name": "United Rentals",
       "sector": "Industrials",
@@ -66,10 +41,10 @@
       "cost_basis": 5869.49,
       "stop_price": 1141.7209,
       "target_price": 1239.2135,
-      "last_price": 1175.42,
-      "last_marked_date": "2026-11-02",
-      "unrealized_pnl": 1.11,
-      "unrealized_pct": 0.00069,
+      "last_price": 1170.83,
+      "last_marked_date": "2026-11-03",
+      "unrealized_pnl": -21.81,
+      "unrealized_pct": -0.003218,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -91,10 +66,10 @@
       "cost_basis": 5869.49,
       "stop_price": 102.5946,
       "target_price": 111.3552,
-      "last_price": 108.62,
-      "last_marked_date": "2026-11-02",
-      "unrealized_pnl": 167.7,
-      "unrealized_pct": 0.029086,
+      "last_price": 107.56,
+      "last_marked_date": "2026-11-03",
+      "unrealized_pnl": 108.78,
+      "unrealized_pct": 0.019043,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -1224,6 +1199,32 @@
         "macd_hist": 3.771094,
         "macd_hist_slope": -0.025341
       }
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-21",
+      "entry_price": 49.905,
+      "exit_date": "2026-11-03",
+      "exit_price": 48.5077,
+      "exit_reason": "STOP",
+      "qty": 117.592143,
+      "cost_basis": 5871.37,
+      "proceeds": 5701.27,
+      "pnl": -170.1,
+      "pnl_pct": -0.028971,
+      "r_multiple": -1,
+      "hold_days": 13,
+      "stop_price": 48.5077,
+      "target_price": 52.6498,
+      "signal_meta": {
+        "rank_today": 7,
+        "rsi14": 71.724068,
+        "macd_hist": 0.47766,
+        "macd_hist_slope": -0.03019
+      }
     }
   ],
   "equity_curve": [
@@ -1592,9 +1593,15 @@
       "equity": 97724.36,
       "cash": 74156.88,
       "open_positions": 4
+    },
+    {
+      "date": "2026-11-03",
+      "equity": 97602.94,
+      "cash": 79858.15,
+      "open_positions": 3
     }
   ],
-  "tracked_days": 61,
-  "last_market_date": "2026-11-02",
+  "tracked_days": 62,
+  "last_market_date": "2026-11-03",
   "rejected_signal_observations": []
 }
