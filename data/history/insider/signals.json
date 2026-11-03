@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-02T23:57:54.002Z",
+  "computed_at": "2026-11-03T07:01:40.921Z",
   "market_date": "2026-11-02",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (81 dias > 15)",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (82 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 44.23,
       "entry_zone_low": 43.56655,
@@ -26,7 +26,7 @@
         "total_value_usd": 8254508,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-13",
-        "stale_days": 81,
+        "stale_days": 82,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -91,73 +91,13 @@
       }
     },
     {
-      "ticker": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "2 insiders compraron 3,200,889 USD entre 2026-10-26 y 2026-10-26",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 260.94,
-      "entry_zone_low": 257.0259,
-      "entry_zone_high": 266.1588,
-      "invalid_below_price": 243.82099910870986,
-      "target_price": 295.1780017825803,
-      "risk_reward_ratio": 2.0000000000000013,
-      "size_pct": 0.05,
-      "authorized": true,
-      "opt_score": 60.7,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 3200889,
-        "first_buy": "2026-10-26",
-        "last_buy": "2026-10-26",
-        "stale_days": 7,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Sweet Julie Spellman",
-            "title": "Chair and CEO",
-            "shares": 12200,
-            "value_usd": 3001041,
-            "date": "2026-10-26",
-            "filing_date": "2026-10-28",
-            "filing_datetime": "2026-10-28T10:45:40.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Price Paula A",
-            "title": "Director",
-            "shares": 800,
-            "value_usd": 199848,
-            "date": "2026-10-26",
-            "filing_date": "2026-10-28",
-            "filing_datetime": "2026-10-28T10:45:35.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 71.45686438452728,
-        "volatility_20d": 0.4733859304359083
-      }
-    },
-    {
       "ticker": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-25, demasiado antiguo (69 dias > 15)",
+      "reason": "Cluster de 2026-08-25, demasiado antiguo (70 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 44.32,
       "entry_zone_low": 43.6552,
@@ -174,7 +114,7 @@
         "total_value_usd": 9258639,
         "first_buy": "2026-08-03",
         "last_buy": "2026-08-25",
-        "stale_days": 69,
+        "stale_days": 70,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -231,7 +171,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-12, demasiado antiguo (82 dias > 15)",
+      "reason": "Cluster de 2026-08-12, demasiado antiguo (83 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 30.67,
       "entry_zone_low": 30.209950000000003,
@@ -248,7 +188,7 @@
         "total_value_usd": 2960110,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-12",
-        "stale_days": 82,
+        "stale_days": 83,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -294,8 +234,68 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 67.74212869454081,
+        "rsi14": 67.74212869453399,
         "volatility_20d": 0.19964000300619017
+      }
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 3,200,889 USD entre 2026-10-26 y 2026-10-26",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 260.94,
+      "entry_zone_low": 257.0259,
+      "entry_zone_high": 266.1588,
+      "invalid_below_price": 243.82099910870986,
+      "target_price": 295.1780017825803,
+      "risk_reward_ratio": 2.0000000000000013,
+      "size_pct": 0.05,
+      "authorized": true,
+      "opt_score": 59.3,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 3200889,
+        "first_buy": "2026-10-26",
+        "last_buy": "2026-10-26",
+        "stale_days": 8,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Sweet Julie Spellman",
+            "title": "Chair and CEO",
+            "shares": 12200,
+            "value_usd": 3001041,
+            "date": "2026-10-26",
+            "filing_date": "2026-10-28",
+            "filing_datetime": "2026-10-28T10:45:40.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Price Paula A",
+            "title": "Director",
+            "shares": 800,
+            "value_usd": 199848,
+            "date": "2026-10-26",
+            "filing_date": "2026-10-28",
+            "filing_datetime": "2026-10-28T10:45:35.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 71.45686438452728,
+        "volatility_20d": 0.4733859304359083
       }
     },
     {
@@ -305,7 +305,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-30, demasiado antiguo (33 dias > 15)",
+      "reason": "Cluster de 2026-09-30, demasiado antiguo (34 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 221.73,
       "entry_zone_low": 218.40404999999998,
@@ -322,7 +322,7 @@
         "total_value_usd": 460716,
         "first_buy": "2026-09-30",
         "last_buy": "2026-09-30",
-        "stale_days": 33,
+        "stale_days": 34,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -480,82 +480,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 73.01454543300953,
+        "rsi14": 73.01454543277401,
         "volatility_20d": 0.21823069949556081
-      }
-    },
-    {
-      "ticker": "TSCO",
-      "name": "Tractor Supply",
-      "sector": "Consumer Discretionary",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-04, demasiado antiguo (90 dias > 15)",
-      "plan": "Solo seguimiento",
-      "last_close": 35.31,
-      "entry_zone_low": 34.78035,
-      "entry_zone_high": 36.016200000000005,
-      "invalid_below_price": 33.14098851282758,
-      "target_price": 39.64802297434484,
-      "risk_reward_ratio": 1.9999999999999993,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 50.9,
-      "meta": {
-        "insider_count": 3,
-        "buy_count": 3,
-        "total_value_usd": 652394,
-        "first_buy": "2026-08-03",
-        "last_buy": "2026-08-04",
-        "stale_days": 90,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "MORRIS EDNA",
-            "title": "Director",
-            "shares": 1560,
-            "value_usd": 50606,
-            "date": "2026-08-04",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:41:02.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Lawton III Harry A",
-            "title": "President &amp; CEO",
-            "shares": 15600,
-            "value_usd": 501524,
-            "date": "2026-08-04",
-            "filing_date": "2026-08-05",
-            "filing_datetime": "2026-08-05T20:40:16.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Hawaux Andre J",
-            "title": "Director",
-            "shares": 3150,
-            "value_usd": 100265,
-            "date": "2026-08-03",
-            "filing_date": "2026-08-04",
-            "filing_datetime": "2026-08-04T20:42:55.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 61.46820555471046,
-        "volatility_20d": 0.44324283508925466
       }
     },
     {
@@ -565,7 +491,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-10, demasiado antiguo (53 dias > 15)",
+      "reason": "Cluster de 2026-09-10, demasiado antiguo (54 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 66.71,
       "entry_zone_low": 65.70934999999999,
@@ -582,7 +508,7 @@
         "total_value_usd": 15314016,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-10",
-        "stale_days": 53,
+        "stale_days": 54,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -625,7 +551,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-16, demasiado antiguo (47 dias > 15)",
+      "reason": "Cluster de 2026-09-16, demasiado antiguo (48 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 61.3,
       "entry_zone_low": 60.3805,
@@ -642,7 +568,7 @@
         "total_value_usd": 1880110,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 47,
+        "stale_days": 48,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -693,6 +619,66 @@
       }
     },
     {
+      "ticker": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-08-04, demasiado antiguo (91 dias > 15)",
+      "plan": "Solo seguimiento",
+      "last_close": 35.31,
+      "entry_zone_low": 34.78035,
+      "entry_zone_high": 36.016200000000005,
+      "invalid_below_price": 33.14098851282758,
+      "target_price": 39.64802297434484,
+      "risk_reward_ratio": 1.9999999999999993,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 39.5,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 552130,
+        "first_buy": "2026-08-04",
+        "last_buy": "2026-08-04",
+        "stale_days": 91,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "MORRIS EDNA",
+            "title": "Director",
+            "shares": 1560,
+            "value_usd": 50606,
+            "date": "2026-08-04",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:41:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Lawton III Harry A",
+            "title": "President &amp; CEO",
+            "shares": 15600,
+            "value_usd": 501524,
+            "date": "2026-08-04",
+            "filing_date": "2026-08-05",
+            "filing_datetime": "2026-08-05T20:40:16.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 61.4682055559966,
+        "volatility_20d": 0.44324283508925466
+      }
+    },
+    {
       "ticker": "HBAN",
       "name": "Huntington Bancshares",
       "sector": "Financials",
@@ -709,14 +695,14 @@
       "risk_reward_ratio": 1.9999999999999993,
       "size_pct": 0.1,
       "authorized": true,
-      "opt_score": 39.9,
+      "opt_score": 38.6,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 453555,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-27",
-        "stale_days": 6,
+        "stale_days": 7,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -757,16 +743,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 75943,
+    "elapsed_ms": 64650,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 64,
+    "companies_with_buys": 62,
     "clusters_found": 9,
     "signals_fresh": 2,
     "portfolio_entry_count": 2,
     "price_download_failed": 0,
-    "filings_seen": 5954,
-    "filings_fetched": 97,
+    "filings_seen": 5731,
+    "filings_fetched": 7,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
