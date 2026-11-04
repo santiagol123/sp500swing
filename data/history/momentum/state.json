@@ -1,9 +1,9 @@
 {
   "workspace": "momentum",
   "created_at": "2026-07-31T20:55:47.290Z",
-  "updated_at": "2026-11-04T07:57:54.610Z",
+  "updated_at": "2026-11-04T20:30:58.843Z",
   "initial_equity": 100000,
-  "cash": 79858.15411418193,
+  "cash": 85557.59411418193,
   "positions": [
     {
       "ticker": "WBD",
@@ -31,31 +31,6 @@
       }
     },
     {
-      "ticker": "URI",
-      "name": "United Rentals",
-      "sector": "Industrials",
-      "family": "LEADER_CONTINUATION",
-      "entry_date": "2026-10-28",
-      "entry_price": 1174.61,
-      "qty": 4.994472,
-      "cost_basis": 5869.49,
-      "stop_price": 1141.7209,
-      "target_price": 1239.2135,
-      "last_price": 1175.17,
-      "last_marked_date": "2026-11-03",
-      "unrealized_pnl": -0.14,
-      "unrealized_pct": 0.000477,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": null,
-      "signal_meta": {
-        "rank_today": 7,
-        "rsi14": 70.616694,
-        "macd_hist": 13.450506,
-        "macd_hist_slope": 2.217634
-      }
-    },
-    {
       "ticker": "NDAQ",
       "name": "Nasdaq, Inc.",
       "sector": "Financials",
@@ -66,10 +41,10 @@
       "cost_basis": 5869.49,
       "stop_price": 102.5946,
       "target_price": 111.3552,
-      "last_price": 106.97,
-      "last_marked_date": "2026-11-03",
-      "unrealized_pnl": 75.99,
-      "unrealized_pct": 0.013453,
+      "last_price": 109.88,
+      "last_marked_date": "2026-11-04",
+      "unrealized_pnl": 237.73,
+      "unrealized_pct": 0.041023,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": null,
@@ -1225,6 +1200,32 @@
         "macd_hist": 0.47766,
         "macd_hist_slope": -0.03019
       }
+    },
+    {
+      "ticker": "URI",
+      "name": "United Rentals",
+      "sector": "Industrials",
+      "family": "LEADER_CONTINUATION",
+      "entry_date": "2026-10-28",
+      "entry_price": 1174.61,
+      "exit_date": "2026-11-04",
+      "exit_price": 1141.7209,
+      "exit_reason": "STOP",
+      "qty": 4.994472,
+      "cost_basis": 5869.49,
+      "proceeds": 5699.44,
+      "pnl": -170.05,
+      "pnl_pct": -0.028972,
+      "r_multiple": -1,
+      "hold_days": 7,
+      "stop_price": 1141.7209,
+      "target_price": 1239.2135,
+      "signal_meta": {
+        "rank_today": 7,
+        "rsi14": 70.616694,
+        "macd_hist": 13.450506,
+        "macd_hist_slope": 2.217634
+      }
     }
   ],
   "equity_curve": [
@@ -1599,9 +1600,15 @@
       "equity": 97591.82,
       "cash": 79858.15,
       "open_positions": 3
+    },
+    {
+      "date": "2026-11-04",
+      "equity": 97583.65,
+      "cash": 85557.59,
+      "open_positions": 2
     }
   ],
-  "tracked_days": 62,
-  "last_market_date": "2026-11-03",
+  "tracked_days": 63,
+  "last_market_date": "2026-11-04",
   "rejected_signal_observations": []
 }
