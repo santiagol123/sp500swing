@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-03T21:12:06.592Z",
+  "updated_at": "2026-11-04T01:31:35.238Z",
   "initial_equity": 100000,
   "cash": 89571.15239246582,
   "positions": [
@@ -2891,8 +2891,8 @@
       "entry_date": "2026-10-30",
       "entry_price": 48.79,
       "latest_date": "2026-11-03",
-      "latest_price": 49.42,
-      "return_pct": 0.012912,
+      "latest_price": 49.41,
+      "return_pct": 0.012708,
       "mae_pct": 0.003484,
       "mfe_pct": 0.029719,
       "status": "TRACKING",
@@ -2932,6 +2932,23 @@
       "status": "TRACKING",
       "signal_event_date": "2026-08-17",
       "first_detected_at": "2026-09-25T17:47:15.424Z"
+    },
+    {
+      "key": "BA:2026-11-04:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "BA",
+      "name": "Boeing",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "2 insiders compraron 1,508,848 USD entre 2026-10-30 y 2026-10-30 | fuentes: SEC EDGAR 2 | Flujo Dataroma semanal: compras 1,508,848 USD vs ventas 0 USD (sin ventas recientes); neto comprador 1,508,848 USD. Compras publicadas el 2026-11-03: 1,508,848 USD. | filtro S&P 500: caida acelerada bajo SMA20/SMA50 (1s 3.1%, 1m -10.1%, RSI 36.1); esperar confirmacion",
+      "entry_date": "2026-11-03",
+      "entry_price": 173.31,
+      "latest_date": "2026-11-03",
+      "latest_price": 173.31,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-04",
+      "first_detected_at": "2026-11-04T01:31:35.232Z"
     }
   ]
 }

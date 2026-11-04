@@ -1,9 +1,9 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-11-03T21:11:59.372Z",
+  "updated_at": "2026-11-04T01:31:27.081Z",
   "initial_equity": 100000,
-  "cash": 74782.2086374149,
+  "cash": 67697.42420556705,
   "positions": [
     {
       "ticker": "SPG",
@@ -16,10 +16,10 @@
       "cost_basis": 9943.45,
       "stop_price": 188.7614,
       "target_price": 224.9072,
-      "last_price": 222.12,
+      "last_price": 222.08,
       "last_marked_date": "2026-11-03",
-      "unrealized_pnl": 1049.7,
-      "unrealized_pct": 0.10612,
+      "unrealized_pnl": 1047.72,
+      "unrealized_pct": 0.105921,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-01",
@@ -202,10 +202,10 @@
       "cost_basis": 5019.46,
       "stop_price": 210.3572,
       "target_price": 284.7656,
-      "last_price": 254.565,
+      "last_price": 254.56,
       "last_marked_date": "2026-11-03",
-      "unrealized_pnl": 411.48,
-      "unrealized_pct": 0.082518,
+      "unrealized_pnl": 411.38,
+      "unrealized_pct": 0.082497,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-28",
@@ -309,6 +309,66 @@
         ],
         "rsi14": 59.354496117362814,
         "volatility_20d": 0.14885254814323964
+      }
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-03",
+      "entry_price": 173.31,
+      "qty": 40.85883,
+      "cost_basis": 7084.78,
+      "stop_price": 162.6484,
+      "target_price": 194.6333,
+      "last_price": 173.31,
+      "last_marked_date": "2026-11-03",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": "2026-11-04",
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1508848,
+        "first_buy": "2026-10-30",
+        "last_buy": "2026-10-30",
+        "stale_days": 5,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Buckley Mortimer J",
+            "title": "Director",
+            "shares": 5820,
+            "value_usd": 998421,
+            "date": "2026-10-30",
+            "filing_date": "2026-11-03",
+            "filing_datetime": "2026-11-04T00:37:23.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "MOLLENKOPF STEVEN M",
+            "title": "Director",
+            "shares": 2950,
+            "value_usd": 510427,
+            "date": "2026-10-30",
+            "filing_date": "2026-11-03",
+            "filing_datetime": "2026-11-04T00:37:22.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 36.094718783360555,
+        "volatility_20d": 0.4438920767804687
       }
     }
   ],
@@ -1064,9 +1124,9 @@
     },
     {
       "date": "2026-11-03",
-      "equity": 101213.29,
-      "cash": 74782.21,
-      "open_positions": 3
+      "equity": 101207.67,
+      "cash": 67697.42,
+      "open_positions": 4
     }
   ],
   "tracked_days": 67,
