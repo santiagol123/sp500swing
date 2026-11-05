@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-05T15:39:46.940Z",
+  "updated_at": "2026-11-05T22:09:29.074Z",
   "initial_equity": 100000,
   "cash": 99614.37377284255,
   "positions": [],
@@ -3044,13 +3044,16 @@
       "entry_date": "2026-11-03",
       "entry_price": 41.35,
       "latest_date": "2026-11-05",
-      "latest_price": 41.27,
-      "return_pct": -0.001935,
-      "mae_pct": -0.005562,
+      "latest_price": 40.85,
+      "return_pct": -0.02,
+      "mae_pct": -0.032648,
       "mfe_pct": 0.064087,
-      "status": "TRACKING",
+      "status": "COMPLETE",
       "signal_event_date": "2026-08-17",
-      "first_detected_at": "2026-09-25T17:47:15.424Z"
+      "first_detected_at": "2026-09-25T17:47:15.424Z",
+      "exit_date": "2026-11-05",
+      "exit_price": 40.523,
+      "exit_reason": "SHADOW_STOP"
     },
     {
       "key": "BA:2026-11-04:ESPERAR_CONFIRMACION_TECNICA",
@@ -3061,13 +3064,16 @@
       "entry_date": "2026-11-03",
       "entry_price": 173.31,
       "latest_date": "2026-11-05",
-      "latest_price": 172.26,
-      "return_pct": -0.006059,
-      "mae_pct": -0.013848,
+      "latest_price": 172.5,
+      "return_pct": -0.02,
+      "mae_pct": -0.022503,
       "mfe_pct": 0.033928,
-      "status": "TRACKING",
+      "status": "COMPLETE",
       "signal_event_date": "2026-11-04",
-      "first_detected_at": "2026-11-04T01:31:35.232Z"
+      "first_detected_at": "2026-11-04T01:31:35.232Z",
+      "exit_date": "2026-11-05",
+      "exit_price": 169.8438,
+      "exit_reason": "SHADOW_STOP"
     },
     {
       "key": "INTC:2026-11-04:ESPERAR_CONFIRMACION_TECNICA",
@@ -3105,6 +3111,23 @@
       "status": "TRACKING",
       "signal_event_date": "2026-11-04",
       "first_detected_at": "2026-11-04T01:31:35.232Z"
+    },
+    {
+      "key": "BKR:2026-11-05:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "BKR",
+      "name": "Baker Hughes",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Flujo Dataroma semanal: compras 531,000 USD vs ventas 0 USD (sin ventas recientes); neto comprador 531,000 USD. Compras publicadas el 2026-11-05: 531,000 USD. | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; rebote debil: RSI 27.2 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -15.2%, 1m -16.6%, RSI 27.2); esperar confirmacion",
+      "entry_date": "2026-11-05",
+      "entry_price": 46.2,
+      "latest_date": "2026-11-05",
+      "latest_price": 46.2,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-05",
+      "first_detected_at": "2026-11-05T22:09:29.060Z"
     }
   ]
 }

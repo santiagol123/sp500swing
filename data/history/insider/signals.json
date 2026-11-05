@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-05T15:39:39.306Z",
+  "computed_at": "2026-11-05T22:09:21.395Z",
   "market_date": "2026-11-05",
   "signals": [
     {
@@ -11,12 +11,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-08-13, demasiado antiguo (84 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 41.27,
-      "entry_zone_low": 40.65095,
-      "entry_zone_high": 42.095400000000005,
-      "invalid_below_price": 38.7938,
-      "target_price": 46.22240000000001,
-      "risk_reward_ratio": 1.9999999999999973,
+      "last_close": 40.85,
+      "entry_zone_low": 40.23725,
+      "entry_zone_high": 41.667,
+      "invalid_below_price": 38.399,
+      "target_price": 45.752,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 60,
@@ -72,8 +72,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 39.05673697448122,
-        "volatility_20d": 0.39783499226214647
+        "rsi14": 37.81090254323367,
+        "volatility_20d": 0.4129169995004264
       }
     },
     {
@@ -85,12 +85,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-09-30, demasiado antiguo (36 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 229.155,
-      "entry_zone_low": 225.71767499999999,
-      "entry_zone_high": 233.7381,
-      "invalid_below_price": 215.4057,
-      "target_price": 256.65360000000004,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 226.55,
+      "entry_zone_low": 223.15175000000002,
+      "entry_zone_high": 231.08100000000002,
+      "invalid_below_price": 212.957,
+      "target_price": 253.73600000000005,
+      "risk_reward_ratio": 1.9999999999999993,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 58.1,
@@ -258,8 +258,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 79.04408096868433,
-        "volatility_20d": 0.21253833776971257
+        "rsi14": 73.84030983377576,
+        "volatility_20d": 0.21923310514259922
       }
     },
     {
@@ -271,12 +271,12 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "2 insiders compraron 3,200,889 USD entre 2026-10-26 y 2026-10-26",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 269.615,
-      "entry_zone_low": 265.570775,
-      "entry_zone_high": 275.0073,
-      "invalid_below_price": 252.16320248973497,
-      "target_price": 304.5185950205301,
-      "risk_reward_ratio": 1.9999999999999996,
+      "last_close": 265.16,
+      "entry_zone_low": 261.18260000000004,
+      "entry_zone_high": 270.46320000000003,
+      "invalid_below_price": 247.96907818063664,
+      "target_price": 299.5418436387268,
+      "risk_reward_ratio": 1.9999999999999982,
       "size_pct": 0.05,
       "authorized": true,
       "opt_score": 56.7,
@@ -318,8 +318,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 71.6434278465701,
-        "volatility_20d": 0.46706110709935655
+        "rsi14": 70.17003659987432,
+        "volatility_20d": 0.4678091849379741
       }
     },
     {
@@ -331,12 +331,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-09-10, demasiado antiguo (56 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 68.595,
-      "entry_zone_low": 67.566075,
-      "entry_zone_high": 69.9669,
-      "invalid_below_price": 64.4793,
-      "target_price": 76.8264,
-      "risk_reward_ratio": 1.9999999999999998,
+      "last_close": 68.78,
+      "entry_zone_low": 67.7483,
+      "entry_zone_high": 70.1556,
+      "invalid_below_price": 64.6532,
+      "target_price": 77.0336,
+      "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 50,
@@ -378,8 +378,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 50.370212508326425,
-        "volatility_20d": 0.32307732691819707
+        "rsi14": 50.99336194506783,
+        "volatility_20d": 0.3213332852537083
       }
     },
     {
@@ -391,12 +391,12 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "2 insiders compraron 1,508,848 USD entre 2026-10-30 y 2026-10-30",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 172.35,
-      "entry_zone_low": 169.76475,
-      "entry_zone_high": 175.797,
-      "invalid_below_price": 161.35521207954466,
-      "target_price": 194.33957584091067,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 172.5,
+      "entry_zone_low": 169.9125,
+      "entry_zone_high": 175.95000000000002,
+      "invalid_below_price": 161.50850343370254,
+      "target_price": 194.48299313259494,
+      "risk_reward_ratio": 2.0000000000000018,
       "size_pct": 0.05,
       "authorized": true,
       "opt_score": 49.7,
@@ -438,8 +438,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 37.15873921105742,
-        "volatility_20d": 0.4603129132909538
+        "rsi14": 37.27510195648038,
+        "volatility_20d": 0.45977496364969883
       }
     },
     {
@@ -451,12 +451,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-09-16, demasiado antiguo (50 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 64.06,
-      "entry_zone_low": 63.0991,
-      "entry_zone_high": 65.3412,
-      "invalid_below_price": 60.2164,
-      "target_price": 71.7472,
-      "risk_reward_ratio": 2.000000000000001,
+      "last_close": 63.51,
+      "entry_zone_low": 62.55735,
+      "entry_zone_high": 64.7802,
+      "invalid_below_price": 59.6994,
+      "target_price": 71.1312,
+      "risk_reward_ratio": 2.0000000000000013,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 49.5,
@@ -512,8 +512,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 65.23295512660891,
-        "volatility_20d": 0.3510730635845362
+        "rsi14": 62.8521245608497,
+        "volatility_20d": 0.35688572825376635
       }
     },
     {
@@ -525,12 +525,12 @@
       "action": "COMPRAR_LIMITADA",
       "reason": "2 insiders compraron 453,555 USD entre 2026-10-26 y 2026-10-27",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 15.885,
-      "entry_zone_low": 15.646725,
-      "entry_zone_high": 16.2027,
-      "invalid_below_price": 14.931899999999999,
-      "target_price": 17.7912,
-      "risk_reward_ratio": 1.9999999999999998,
+      "last_close": 15.61,
+      "entry_zone_low": 15.37585,
+      "entry_zone_high": 15.9222,
+      "invalid_below_price": 14.673399999999999,
+      "target_price": 17.4832,
+      "risk_reward_ratio": 2.000000000000001,
       "size_pct": 0.1,
       "authorized": true,
       "opt_score": 35.9,
@@ -572,8 +572,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.811778471036774,
-        "volatility_20d": 0.16612541624676602
+        "rsi14": 47.47260432033187,
+        "volatility_20d": 0.19239058353506716
       }
     },
     {
@@ -585,12 +585,12 @@
       "action": "SENAL_CADUCADA",
       "reason": "Cluster de 2026-08-25, demasiado antiguo (72 dias > 15)",
       "plan": "Solo seguimiento",
-      "last_close": 45.155,
-      "entry_zone_low": 44.477675,
-      "entry_zone_high": 46.0581,
-      "invalid_below_price": 42.4457,
-      "target_price": 50.573600000000006,
-      "risk_reward_ratio": 2.0000000000000027,
+      "last_close": 44.64,
+      "entry_zone_low": 43.9704,
+      "entry_zone_high": 45.5328,
+      "invalid_below_price": 41.92154116642765,
+      "target_price": 50.0769176671447,
+      "risk_reward_ratio": 1.9999999999999991,
       "size_pct": 0,
       "authorized": false,
       "opt_score": 21.3,
@@ -632,8 +632,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.650901411007524,
-        "volatility_20d": 0.4312728001127398
+        "rsi14": 51.60664753658968,
+        "volatility_20d": 0.4394163015028809
       }
     }
   ],
@@ -641,16 +641,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 64644,
+    "elapsed_ms": 73029,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 62,
+    "companies_with_buys": 65,
     "clusters_found": 8,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 5859,
-    "filings_fetched": 3,
+    "filings_seen": 5928,
+    "filings_fetched": 69,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
