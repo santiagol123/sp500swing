@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-04T23:49:13.104Z",
+  "computed_at": "2026-11-05T07:03:35.770Z",
   "market_date": "2026-11-04",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (83 dias > 15)",
+      "reason": "Cluster de 2026-08-13, demasiado antiguo (84 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 43.26,
       "entry_zone_low": 42.6111,
@@ -19,14 +19,14 @@
       "risk_reward_ratio": 1.9999999999999982,
       "size_pct": 0,
       "authorized": false,
-      "opt_score": 70,
+      "opt_score": 60,
       "meta": {
-        "insider_count": 4,
-        "buy_count": 4,
-        "total_value_usd": 8254508,
-        "first_buy": "2026-08-05",
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 3254550,
+        "first_buy": "2026-08-10",
         "last_buy": "2026-08-13",
-        "stale_days": 83,
+        "stale_days": 84,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -70,20 +70,6 @@
             "is_director": true,
             "is_ten_percent_owner": false,
             "has_10b5_1_plan": false
-          },
-          {
-            "name": "MEISTER PAUL M",
-            "title": "Director",
-            "shares": 105631,
-            "value_usd": 4999959,
-            "date": "2026-08-05",
-            "filing_date": "2026-08-06",
-            "filing_datetime": "2026-08-06T20:05:30.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
           }
         ],
         "rsi14": 46.282110261905146,
@@ -97,7 +83,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-30, demasiado antiguo (35 dias > 15)",
+      "reason": "Cluster de 2026-09-30, demasiado antiguo (36 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 228.5,
       "entry_zone_low": 225.0725,
@@ -114,7 +100,7 @@
         "total_value_usd": 460716,
         "first_buy": "2026-09-30",
         "last_buy": "2026-09-30",
-        "stale_days": 35,
+        "stale_days": 36,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -272,7 +258,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 78.59118970676771,
+        "rsi14": 78.59118970665892,
         "volatility_20d": 0.212240233416011
       }
     },
@@ -293,14 +279,14 @@
       "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0.05,
       "authorized": true,
-      "opt_score": 58,
+      "opt_score": 56.7,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 3200889,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-26",
-        "stale_days": 9,
+        "stale_days": 10,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -332,68 +318,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 69.85714667313408,
+        "rsi14": 69.85714668459846,
         "volatility_20d": 0.4943804214726484
-      }
-    },
-    {
-      "ticker": "BA",
-      "name": "Boeing",
-      "sector": "Industrials",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "2 insiders compraron 1,508,848 USD entre 2026-10-30 y 2026-10-30",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 177,
-      "entry_zone_low": 174.345,
-      "entry_zone_high": 180.54,
-      "invalid_below_price": 165.89709674028015,
-      "target_price": 199.2058065194397,
-      "risk_reward_ratio": 2.0000000000000004,
-      "size_pct": 0.05,
-      "authorized": true,
-      "opt_score": 51,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 1508848,
-        "first_buy": "2026-10-30",
-        "last_buy": "2026-10-30",
-        "stale_days": 5,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Buckley Mortimer J",
-            "title": "Director",
-            "shares": 5820,
-            "value_usd": 998421,
-            "date": "2026-10-30",
-            "filing_date": "2026-11-03",
-            "filing_datetime": "2026-11-04T00:37:23.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "MOLLENKOPF STEVEN M",
-            "title": "Director",
-            "shares": 2950,
-            "value_usd": 510427,
-            "date": "2026-10-30",
-            "filing_date": "2026-11-03",
-            "filing_datetime": "2026-11-04T00:37:22.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 41.14000461810655,
-        "volatility_20d": 0.452627440000418
       }
     },
     {
@@ -403,7 +329,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-10, demasiado antiguo (55 dias > 15)",
+      "reason": "Cluster de 2026-09-10, demasiado antiguo (56 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 69.87,
       "entry_zone_low": 68.82195,
@@ -420,7 +346,7 @@
         "total_value_usd": 15314016,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-10",
-        "stale_days": 55,
+        "stale_days": 56,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -457,13 +383,73 @@
       }
     },
     {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 1,508,848 USD entre 2026-10-30 y 2026-10-30",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 177,
+      "entry_zone_low": 174.345,
+      "entry_zone_high": 180.54,
+      "invalid_below_price": 165.89709674028015,
+      "target_price": 199.2058065194397,
+      "risk_reward_ratio": 2.0000000000000004,
+      "size_pct": 0.05,
+      "authorized": true,
+      "opt_score": 49.7,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1508848,
+        "first_buy": "2026-10-30",
+        "last_buy": "2026-10-30",
+        "stale_days": 6,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Buckley Mortimer J",
+            "title": "Director",
+            "shares": 5820,
+            "value_usd": 998421,
+            "date": "2026-10-30",
+            "filing_date": "2026-11-03",
+            "filing_datetime": "2026-11-04T00:37:23.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "MOLLENKOPF STEVEN M",
+            "title": "Director",
+            "shares": 2950,
+            "value_usd": 510427,
+            "date": "2026-10-30",
+            "filing_date": "2026-11-03",
+            "filing_datetime": "2026-11-04T00:37:22.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 41.14000461810655,
+        "volatility_20d": 0.452627440000418
+      }
+    },
+    {
       "ticker": "COO",
       "name": "Cooper Companies (The)",
       "sector": "Health Care",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-16, demasiado antiguo (49 dias > 15)",
+      "reason": "Cluster de 2026-09-16, demasiado antiguo (50 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 64.42,
       "entry_zone_low": 63.4537,
@@ -480,7 +466,7 @@
         "total_value_usd": 1880110,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 49,
+        "stale_days": 50,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -547,14 +533,14 @@
       "risk_reward_ratio": 1.999999999999999,
       "size_pct": 0.1,
       "authorized": true,
-      "opt_score": 37.3,
+      "opt_score": 35.9,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 453555,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-27",
-        "stale_days": 8,
+        "stale_days": 9,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -586,7 +572,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 58.80912207389662,
+        "rsi14": 58.80912206727725,
         "volatility_20d": 0.16388127642922806
       }
     },
@@ -597,7 +583,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-25, demasiado antiguo (71 dias > 15)",
+      "reason": "Cluster de 2026-08-25, demasiado antiguo (72 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 45.82,
       "entry_zone_low": 45.1327,
@@ -614,7 +600,7 @@
         "total_value_usd": 200345,
         "first_buy": "2026-08-05",
         "last_buy": "2026-08-25",
-        "stale_days": 71,
+        "stale_days": 72,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -655,16 +641,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 79564,
+    "elapsed_ms": 64964,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 62,
+    "companies_with_buys": 61,
     "clusters_found": 8,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 5956,
-    "filings_fetched": 120,
+    "filings_seen": 5856,
+    "filings_fetched": 9,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
