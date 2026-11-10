@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-10T01:41:37.607Z",
+  "computed_at": "2026-11-10T10:06:30.121Z",
   "market_date": "2026-11-09",
   "signals": [
     {
@@ -184,7 +184,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 78.68784888927044,
+        "rsi14": 78.68784888935319,
         "volatility_20d": 0.2223542100104146
       }
     },
@@ -244,7 +244,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 61.474539195719146,
+        "rsi14": 61.47453919565578,
         "volatility_20d": 0.4911526971612981
       }
     },
@@ -567,7 +567,7 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 74715,
+    "elapsed_ms": 64074,
     "cache_only": false,
     "bootstrap_signals": false,
     "companies_with_buys": 70,
@@ -576,7 +576,7 @@
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
     "filings_seen": 5887,
-    "filings_fetched": 84,
+    "filings_fetched": 0,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,

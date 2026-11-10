@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-11-10T01:41:55.723Z",
+  "updated_at": "2026-11-10T10:06:48.612Z",
   "initial_equity": 100000,
   "cash": 87613.94070813812,
   "positions": [
@@ -14,7 +14,7 @@
       "entry_price": 6.26,
       "qty": 1114.598653,
       "cost_basis": 6980.88,
-      "stop_price": 6.1348,
+      "stop_price": 6.2663,
       "target_price": 7.0112,
       "last_price": 6.4,
       "last_marked_date": "2026-11-09",
@@ -105,8 +105,13 @@
         "max_loss_stop_price": 6.1348,
         "max_loss_reference_price": 6.26,
         "original_invalid_below_price": 5.8844,
-        "signal_age_sessions": 1
-      }
+        "signal_age_sessions": 1,
+        "profit_lock_stage": "BREAKEVEN",
+        "profit_lock_stop_price": 6.2663,
+        "profit_lock_trigger_high": 6.47
+      },
+      "profit_lock_stage": "BREAKEVEN",
+      "profit_lock_trigger_high": 6.47
     },
     {
       "ticker": "CVS",
@@ -13179,8 +13184,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 172.38,
       "return_pct": 0.001918,
-      "mae_pct": -0.012613,
-      "mfe_pct": 0.014066,
+      "mae_pct": -0.018367,
+      "mfe_pct": 0.031037,
       "status": "TRACKING",
       "signal_event_date": "2026-11-04",
       "first_detected_at": "2026-11-04T01:31:46.941Z"
@@ -13271,7 +13276,7 @@
       "latest_price": 12.93,
       "return_pct": 0.139207,
       "mae_pct": 0.014537,
-      "mfe_pct": 0.139207,
+      "mfe_pct": 0.1837,
       "status": "TRACKING",
       "signal_event_date": "2026-11-05",
       "first_detected_at": "2026-11-06T02:37:24.251Z"
@@ -13287,7 +13292,7 @@
       "latest_date": "2026-11-09",
       "latest_price": 49.97,
       "return_pct": 0.002005,
-      "mae_pct": -0.005815,
+      "mae_pct": -0.013234,
       "mfe_pct": 0.03068,
       "status": "TRACKING",
       "signal_event_date": "2026-11-05",
@@ -13304,8 +13309,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 186.06,
       "return_pct": 0.012902,
-      "mae_pct": 0.012902,
-      "mfe_pct": 0.012902,
+      "mae_pct": -0.005226,
+      "mfe_pct": 0.022266,
       "status": "TRACKING",
       "signal_event_date": "2026-11-04",
       "first_detected_at": "2026-11-04T23:49:32.644Z"
@@ -13341,8 +13346,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 117.44,
       "return_pct": 0.044654,
-      "mae_pct": 0.044654,
-      "mfe_pct": 0.044654,
+      "mae_pct": 0.017879,
+      "mfe_pct": 0.057997,
       "status": "TRACKING",
       "signal_event_date": "2026-11-03",
       "first_detected_at": "2026-11-04T01:31:46.941Z"
@@ -13358,8 +13363,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 44.6,
       "return_pct": 0.008137,
-      "mae_pct": 0.008137,
-      "mfe_pct": 0.008137,
+      "mae_pct": -0.012658,
+      "mfe_pct": 0.015597,
       "status": "TRACKING",
       "signal_event_date": "2026-11-04",
       "first_detected_at": "2026-11-04T23:49:32.644Z"
@@ -13392,8 +13397,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 85.25,
       "return_pct": 0.016696,
-      "mae_pct": 0.016696,
-      "mfe_pct": 0.016696,
+      "mae_pct": -0.000238,
+      "mfe_pct": 0.02266,
       "status": "TRACKING",
       "signal_event_date": "2026-11-06",
       "first_detected_at": "2026-11-06T23:20:40.515Z"
@@ -13409,8 +13414,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 30.57,
       "return_pct": 0.02036,
-      "mae_pct": 0.02036,
-      "mfe_pct": 0.02036,
+      "mae_pct": -0.005007,
+      "mfe_pct": 0.0247,
       "status": "TRACKING",
       "signal_event_date": "2026-11-06",
       "first_detected_at": "2026-11-07T02:58:27.881Z"
@@ -13550,6 +13555,23 @@
       "status": "TRACKING",
       "signal_event_date": "2026-11-09",
       "first_detected_at": "2026-11-10T01:41:55.713Z"
+    },
+    {
+      "key": "NXRT:2026-11-09:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "NXRT",
+      "name": "NexPoint Residential Trust Inc.",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "2 insiders compraron 302,319 USD entre 2026-11-05 y 2026-11-09 | fuentes: Dataroma 5 | filtro S&P 500 + Nasdaq-100 + NYSE: importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; importe total < 500,000 USD; rebote debil: RSI 31.4 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -12.7%, 1m -18.6%, RSI 31.4); esperar confirmacion",
+      "entry_date": "2026-11-09",
+      "entry_price": 15.75,
+      "latest_date": "2026-11-09",
+      "latest_price": 15.75,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-09",
+      "first_detected_at": "2026-11-10T10:06:48.604Z"
     }
   ]
 }

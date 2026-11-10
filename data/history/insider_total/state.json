@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-10T01:41:45.920Z",
+  "updated_at": "2026-11-10T10:06:37.721Z",
   "initial_equity": 100000,
   "cash": 94633.65508420042,
   "positions": [
@@ -3210,8 +3210,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 172.38,
       "return_pct": 0.000697,
-      "mae_pct": -0.013816,
-      "mfe_pct": 0.012829,
+      "mae_pct": -0.019563,
+      "mfe_pct": 0.029781,
       "status": "TRACKING",
       "signal_event_date": "2026-11-04",
       "first_detected_at": "2026-11-04T01:31:35.232Z"
@@ -3244,8 +3244,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 85.25,
       "return_pct": 0.016696,
-      "mae_pct": 0.016696,
-      "mfe_pct": 0.016696,
+      "mae_pct": -0.000238,
+      "mfe_pct": 0.02266,
       "status": "TRACKING",
       "signal_event_date": "2026-11-06",
       "first_detected_at": "2026-11-06T23:20:30.165Z"
@@ -3261,8 +3261,8 @@
       "latest_date": "2026-11-09",
       "latest_price": 30.57,
       "return_pct": 0.02036,
-      "mae_pct": 0.02036,
-      "mfe_pct": 0.02036,
+      "mae_pct": -0.005007,
+      "mfe_pct": 0.0247,
       "status": "TRACKING",
       "signal_event_date": "2026-11-06",
       "first_detected_at": "2026-11-07T02:58:16.047Z"
