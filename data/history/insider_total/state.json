@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-10T10:06:37.721Z",
+  "updated_at": "2026-11-10T18:00:07.702Z",
   "initial_equity": 100000,
   "cash": 94633.65508420042,
   "positions": [
@@ -14,12 +14,12 @@
       "entry_price": 85.54,
       "qty": 58.19768,
       "cost_basis": 4980.72,
-      "stop_price": 83.8292,
+      "stop_price": 85.6255,
       "target_price": 98.3781,
-      "last_price": 85.25,
-      "last_marked_date": "2026-11-09",
-      "unrealized_pnl": -19.37,
-      "unrealized_pct": -0.00339,
+      "last_price": 87.65,
+      "last_marked_date": "2026-11-10",
+      "unrealized_pnl": 120.31,
+      "unrealized_pct": 0.024667,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-11-06",
@@ -93,8 +93,13 @@
         "max_loss_stop_price": 83.8292,
         "max_loss_reference_price": 85.54,
         "original_invalid_below_price": 79.1209,
-        "signal_age_sessions": 1
-      }
+        "signal_age_sessions": 1,
+        "profit_lock_stage": "BREAKEVEN",
+        "profit_lock_stop_price": 85.6255,
+        "profit_lock_trigger_high": 87.72
+      },
+      "profit_lock_stage": "BREAKEVEN",
+      "profit_lock_trigger_high": 87.72
     }
   ],
   "trades": [
@@ -2960,10 +2965,16 @@
       "equity": 99595.01,
       "cash": 94633.66,
       "open_positions": 1
+    },
+    {
+      "date": "2026-11-10",
+      "equity": 99734.68,
+      "cash": 94633.66,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 65,
-  "last_market_date": "2026-11-09",
+  "tracked_days": 66,
+  "last_market_date": "2026-11-10",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -3207,14 +3218,17 @@
       "reason": "Conviccion insider S&P 500: 2 insiders senior/materiales compraron 1,508,848 USD; filing 2026-11-03 (2 dias). | reentrada bloqueada: sin compras/filings insider posteriores al cierre 2026-11-05",
       "entry_date": "2026-11-05",
       "entry_price": 172.26,
-      "latest_date": "2026-11-09",
-      "latest_price": 172.38,
-      "return_pct": 0.000697,
+      "latest_date": "2026-11-10",
+      "latest_price": 173.014,
+      "return_pct": 0.004377,
       "mae_pct": -0.019563,
       "mfe_pct": 0.029781,
-      "status": "TRACKING",
+      "status": "COMPLETE",
       "signal_event_date": "2026-11-04",
-      "first_detected_at": "2026-11-04T01:31:35.232Z"
+      "first_detected_at": "2026-11-04T01:31:35.232Z",
+      "exit_date": "2026-11-10",
+      "exit_price": 173.014,
+      "exit_reason": "SHADOW_TIME_EXIT"
     },
     {
       "key": "BKR:2026-11-05:ESPERAR_CONFIRMACION_TECNICA",
@@ -3241,11 +3255,11 @@
       "reason": "Flujo Dataroma semanal: compras 2,001,315 USD vs ventas 0 USD (sin ventas recientes); neto comprador 2,001,315 USD. Compras publicadas el 2026-11-06: 2,001,315 USD. | filtro S&P 500: gap de entrada 3.1% > 3.0%; caida acelerada bajo SMA20/SMA50 (1s -7.1%, 1m -3.8%, RSI 40.5); esperar confirmacion",
       "entry_date": "2026-11-06",
       "entry_price": 83.85,
-      "latest_date": "2026-11-09",
-      "latest_price": 85.25,
-      "return_pct": 0.016696,
+      "latest_date": "2026-11-10",
+      "latest_price": 87.65,
+      "return_pct": 0.045319,
       "mae_pct": -0.000238,
-      "mfe_pct": 0.02266,
+      "mfe_pct": 0.046154,
       "status": "TRACKING",
       "signal_event_date": "2026-11-06",
       "first_detected_at": "2026-11-06T23:20:30.165Z"
@@ -3258,11 +3272,11 @@
       "reason": "Flujo Dataroma semanal: compras 14,994,200 USD vs ventas 0 USD (sin ventas recientes); neto comprador 14,994,200 USD. Compras publicadas el 2026-11-06: 14,994,200 USD. | filtro S&P 500: caida acelerada bajo SMA20/SMA50 (1s -10.8%, 1m -6.3%, RSI 32.6); esperar confirmacion",
       "entry_date": "2026-11-06",
       "entry_price": 29.96,
-      "latest_date": "2026-11-09",
-      "latest_price": 30.57,
-      "return_pct": 0.02036,
+      "latest_date": "2026-11-10",
+      "latest_price": 31.225,
+      "return_pct": 0.042223,
       "mae_pct": -0.005007,
-      "mfe_pct": 0.0247,
+      "mfe_pct": 0.046395,
       "status": "TRACKING",
       "signal_event_date": "2026-11-06",
       "first_detected_at": "2026-11-07T02:58:16.047Z"
@@ -3275,11 +3289,11 @@
       "reason": "Flujo Dataroma semanal: compras 1,545,449 USD vs ventas 0 USD (sin ventas recientes); neto comprador 1,545,449 USD. Compras publicadas el 2026-11-09: 1,545,449 USD. | filtro S&P 500: gap de entrada 3.6% > 3.0%; caida acelerada bajo SMA20/SMA50 (1s -11.5%, 1m -10.0%, RSI 35.9); esperar confirmacion",
       "entry_date": "2026-11-09",
       "entry_price": 389.36,
-      "latest_date": "2026-11-09",
-      "latest_price": 389.36,
-      "return_pct": 0,
-      "mae_pct": 0,
-      "mfe_pct": 0,
+      "latest_date": "2026-11-10",
+      "latest_price": 392.45,
+      "return_pct": 0.007936,
+      "mae_pct": -0.002453,
+      "mfe_pct": 0.017465,
       "status": "TRACKING",
       "signal_event_date": "2026-11-09",
       "first_detected_at": "2026-11-10T01:41:45.914Z"
