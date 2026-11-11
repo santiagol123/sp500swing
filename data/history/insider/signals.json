@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-10T23:35:58.162Z",
+  "computed_at": "2026-11-11T06:50:00.721Z",
   "market_date": "2026-11-10",
   "signals": [
     {
@@ -9,7 +9,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-30, demasiado antiguo (41 dias > 15)",
+      "reason": "Cluster de 2026-09-30, demasiado antiguo (42 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 234.48,
       "entry_zone_low": 230.9628,
@@ -26,7 +26,7 @@
         "total_value_usd": 460716,
         "first_buy": "2026-09-30",
         "last_buy": "2026-09-30",
-        "stale_days": 41,
+        "stale_days": 42,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -184,7 +184,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 79.63228837823115,
+        "rsi14": 79.63228837857936,
         "volatility_20d": 0.21847732231500241
       }
     },
@@ -194,17 +194,17 @@
       "sector": "Information Technology",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "2 insiders compraron 3,200,889 USD entre 2026-10-26 y 2026-10-26",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-10-26, demasiado antiguo (16 dias > 15)",
+      "plan": "Solo seguimiento",
       "last_close": 258.51,
       "entry_zone_low": 254.63234999999997,
       "entry_zone_high": 263.6802,
       "invalid_below_price": 240.9224087948354,
       "target_price": 293.68518241032916,
       "risk_reward_ratio": 2.0000000000000018,
-      "size_pct": 0.05,
-      "authorized": true,
+      "size_pct": 0,
+      "authorized": false,
       "opt_score": 50,
       "meta": {
         "insider_count": 2,
@@ -212,7 +212,7 @@
         "total_value_usd": 3200889,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-26",
-        "stale_days": 15,
+        "stale_days": 16,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -244,7 +244,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 63.407852401879914,
+        "rsi14": 63.40785240176023,
         "volatility_20d": 0.49091534165584233
       }
     },
@@ -255,7 +255,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-10, demasiado antiguo (61 dias > 15)",
+      "reason": "Cluster de 2026-09-10, demasiado antiguo (62 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 70.05,
       "entry_zone_low": 68.99924999999999,
@@ -272,7 +272,7 @@
         "total_value_usd": 15314016,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-10",
-        "stale_days": 61,
+        "stale_days": 62,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -315,7 +315,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-16, demasiado antiguo (55 dias > 15)",
+      "reason": "Cluster de 2026-09-16, demasiado antiguo (56 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 63.57,
       "entry_zone_low": 62.61645,
@@ -332,7 +332,7 @@
         "total_value_usd": 1880110,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 55,
+        "stale_days": 56,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -399,14 +399,14 @@
       "risk_reward_ratio": 2.000000000000002,
       "size_pct": 0.07,
       "authorized": true,
-      "opt_score": 46.8,
+      "opt_score": 45.5,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 758960,
         "first_buy": "2026-11-03",
         "last_buy": "2026-11-06",
-        "stale_days": 4,
+        "stale_days": 5,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -438,7 +438,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 63.84024570712196,
+        "rsi14": 63.84024570691321,
         "volatility_20d": 0.42896718446662624
       }
     },
@@ -459,14 +459,14 @@
       "risk_reward_ratio": 1.9999999999999991,
       "size_pct": 0.05,
       "authorized": true,
-      "opt_score": 43,
+      "opt_score": 41.7,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 1508848,
         "first_buy": "2026-10-30",
         "last_buy": "2026-10-30",
-        "stale_days": 11,
+        "stale_days": 12,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -503,73 +503,13 @@
       }
     },
     {
-      "ticker": "APTV",
-      "name": "Aptiv",
-      "sector": "Consumer Discretionary",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-08-13, demasiado antiguo (89 dias > 15)",
-      "plan": "Solo seguimiento",
-      "last_close": 39.57,
-      "entry_zone_low": 38.97645,
-      "entry_zone_high": 40.3614,
-      "invalid_below_price": 37.1958,
-      "target_price": 44.318400000000004,
-      "risk_reward_ratio": 2.0000000000000004,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 32,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 751865,
-        "first_buy": "2026-08-11",
-        "last_buy": "2026-08-13",
-        "stale_days": 89,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Agnevall Hakan",
-            "title": "Director",
-            "shares": 4100,
-            "value_usd": 199182,
-            "date": "2026-08-13",
-            "filing_date": "2026-08-17",
-            "filing_datetime": "2026-08-17T16:02:23.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Mahoney Sean O",
-            "title": "Director",
-            "shares": 11000,
-            "value_usd": 552683,
-            "date": "2026-08-11",
-            "filing_date": "2026-08-12",
-            "filing_datetime": "2026-08-12T16:04:33.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 35.283155507679936,
-        "volatility_20d": 0.4245452327618951
-      }
-    },
-    {
       "ticker": "HBAN",
       "name": "Huntington Bancshares",
       "sector": "Financials",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "2 insiders compraron 453,555 USD entre 2026-10-26 y 2026-10-27 | bloqueada por limite diario o de sector",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 453,555 USD entre 2026-10-26 y 2026-10-27",
       "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
       "last_close": 15.84,
       "entry_zone_low": 15.6024,
@@ -577,16 +517,16 @@
       "invalid_below_price": 14.8896,
       "target_price": 17.7408,
       "risk_reward_ratio": 2.0000000000000013,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 29.3,
+      "size_pct": 0.1,
+      "authorized": true,
+      "opt_score": 27.9,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 453555,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-27",
-        "stale_days": 14,
+        "stale_days": 15,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -618,7 +558,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 52.46551306211098,
+        "rsi14": 52.46551306587419,
         "volatility_20d": 0.21635849068251414
       }
     }
@@ -627,16 +567,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 81682,
+    "elapsed_ms": 66228,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 72,
-    "clusters_found": 8,
+    "companies_with_buys": 67,
+    "clusters_found": 7,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 5993,
-    "filings_fetched": 100,
+    "filings_seen": 5908,
+    "filings_fetched": 18,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
