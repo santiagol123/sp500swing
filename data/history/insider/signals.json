@@ -1,7 +1,67 @@
 {
-  "computed_at": "2026-11-12T03:57:06.559Z",
+  "computed_at": "2026-11-12T12:59:27.331Z",
   "market_date": "2026-11-11",
   "signals": [
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 1,220,285 USD entre 2026-11-09 y 2026-11-10",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 234.51,
+      "entry_zone_low": 230.99235,
+      "entry_zone_high": 239.2002,
+      "invalid_below_price": 208.7139,
+      "target_price": 286.1022,
+      "risk_reward_ratio": 2,
+      "size_pct": 0.05,
+      "authorized": true,
+      "opt_score": 63.3,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1220285,
+        "first_buy": "2026-11-09",
+        "last_buy": "2026-11-10",
+        "stale_days": 2,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Digirolomo Enrico",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 222885,
+            "date": "2026-11-10",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:01:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "ANDERSON JAMES ROBERT",
+            "title": "CEO",
+            "shares": 5000,
+            "value_usd": 997400,
+            "date": "2026-11-09",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:02:52.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 49.81570869085108,
+        "volatility_20d": 1.2924440646411381
+      }
+    },
     {
       "ticker": "SPG",
       "name": "Simon Property Group",
@@ -184,7 +244,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 79.80927093067193,
+        "rsi14": 79.80927093058125,
         "volatility_20d": 0.21009079494230734
       }
     },
@@ -244,7 +304,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 59.63244648520832,
+        "rsi14": 59.632446480976085,
         "volatility_20d": 0.5014160951671595
       }
     },
@@ -438,7 +498,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 62.31554077266461,
+        "rsi14": 62.315540772522866,
         "volatility_20d": 0.42570986091799834
       }
     },
@@ -558,7 +618,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.274630338736955,
+        "rsi14": 53.274630338744466,
         "volatility_20d": 0.2122677808921579
       }
     }
@@ -567,16 +627,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 65314,
+    "elapsed_ms": 66600,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 65,
-    "clusters_found": 7,
-    "signals_fresh": 2,
-    "portfolio_entry_count": 2,
+    "companies_with_buys": 66,
+    "clusters_found": 8,
+    "signals_fresh": 3,
+    "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 5846,
-    "filings_fetched": 0,
+    "filings_seen": 5851,
+    "filings_fetched": 5,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
