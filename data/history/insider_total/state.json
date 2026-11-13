@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-13T09:47:08.258Z",
+  "updated_at": "2026-11-13T17:55:31.904Z",
   "initial_equity": 100000,
   "cash": 94633.64682999041,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 4980.72,
       "stop_price": 396.6305,
       "target_price": 471.5462,
-      "last_price": 404.2,
-      "last_marked_date": "2026-11-12",
-      "unrealized_pnl": -8.95,
-      "unrealized_pct": -0.001297,
+      "last_price": 402.435,
+      "last_marked_date": "2026-11-13",
+      "unrealized_pnl": -30.66,
+      "unrealized_pct": -0.005658,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-11-09",
@@ -3073,10 +3073,16 @@
       "equity": 99605.42,
       "cash": 94633.65,
       "open_positions": 1
+    },
+    {
+      "date": "2026-11-13",
+      "equity": 99583.71,
+      "cash": 94633.65,
+      "open_positions": 1
     }
   ],
-  "tracked_days": 68,
-  "last_market_date": "2026-11-12",
+  "tracked_days": 69,
+  "last_market_date": "2026-11-13",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -3397,9 +3403,9 @@
       "reason": "Flujo Dataroma semanal: compras 1,545,449 USD vs ventas 0 USD (sin ventas recientes); neto comprador 1,545,449 USD. Compras publicadas el 2026-11-09: 1,545,449 USD. | filtro S&P 500: gap de entrada 3.6% > 3.0%; caida acelerada bajo SMA20/SMA50 (1s -11.5%, 1m -10.0%, RSI 35.9); esperar confirmacion",
       "entry_date": "2026-11-09",
       "entry_price": 389.36,
-      "latest_date": "2026-11-12",
-      "latest_price": 404.2,
-      "return_pct": 0.038114,
+      "latest_date": "2026-11-13",
+      "latest_price": 402.435,
+      "return_pct": 0.033581,
       "mae_pct": -0.00244,
       "mfe_pct": 0.065852,
       "status": "TRACKING",
@@ -3431,14 +3437,31 @@
       "reason": "2 insiders compraron 109,894 USD entre 2026-10-15 y 2026-11-06 | fuentes: SEC EDGAR 1 + Dataroma 1 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; volatilidad 20d 93% > 60%; rebote debil: RSI 29.4 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -27.4%, 1m -17.4%, RSI 29.4); esperar confirmacion",
       "entry_date": "2026-11-10",
       "entry_price": 28.31,
-      "latest_date": "2026-11-12",
-      "latest_price": 28.36,
-      "return_pct": 0.001766,
+      "latest_date": "2026-11-13",
+      "latest_price": 29.05,
+      "return_pct": 0.026139,
       "mae_pct": -0.013423,
       "mfe_pct": 0.077358,
       "status": "TRACKING",
       "signal_event_date": "2026-11-10",
       "first_detected_at": "2026-11-10T23:36:06.632Z"
+    },
+    {
+      "key": "COHR:2026-11-12:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "2 insiders compraron 1,220,285 USD entre 2026-11-09 y 2026-11-10 | fuentes: SEC EDGAR 2 | filtro S&P 500: volatilidad 20d 129% > 60%; rebote debil: RSI 44.3 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s 10.0%, 1m -15.4%, RSI 44.3); esperar confirmacion",
+      "entry_date": "2026-11-13",
+      "entry_price": 212.04,
+      "latest_date": "2026-11-13",
+      "latest_price": 212.04,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-12",
+      "first_detected_at": "2026-11-12T12:59:36.278Z"
     }
   ]
 }

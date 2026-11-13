@@ -1,9 +1,9 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-11-13T09:47:00.583Z",
+  "updated_at": "2026-11-13T17:55:23.898Z",
   "initial_equity": 100000,
-  "cash": 66658.43369518266,
+  "cash": 66146.12507232702,
   "positions": [
     {
       "ticker": "ACN",
@@ -16,10 +16,10 @@
       "cost_basis": 5019.46,
       "stop_price": 210.3572,
       "target_price": 284.7656,
-      "last_price": 249.95,
-      "last_marked_date": "2026-11-12",
-      "unrealized_pnl": 313.03,
-      "unrealized_pct": 0.062893,
+      "last_price": 253.01,
+      "last_marked_date": "2026-11-13",
+      "unrealized_pnl": 378.31,
+      "unrealized_pct": 0.075906,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-28",
@@ -76,10 +76,10 @@
       "cost_basis": 10081.43,
       "stop_price": 15.0118,
       "target_price": 17.8864,
-      "last_price": 15.73,
-      "last_marked_date": "2026-11-12",
-      "unrealized_pnl": -156.47,
-      "unrealized_pct": -0.015028,
+      "last_price": 15.765,
+      "last_marked_date": "2026-11-13",
+      "unrealized_pnl": -134.39,
+      "unrealized_pct": -0.012837,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-29",
@@ -136,10 +136,10 @@
       "cost_basis": 7084.78,
       "stop_price": 162.6484,
       "target_price": 194.6333,
-      "last_price": 171.55,
-      "last_marked_date": "2026-11-12",
-      "unrealized_pnl": -75.45,
-      "unrealized_pct": -0.010155,
+      "last_price": 170.725,
+      "last_marked_date": "2026-11-13",
+      "unrealized_pnl": -109.16,
+      "unrealized_pct": -0.014915,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-04",
@@ -196,10 +196,10 @@
       "cost_basis": 7098.05,
       "stop_price": 91.1612,
       "target_price": 108.6176,
-      "last_price": 93.92,
-      "last_marked_date": "2026-11-12",
-      "unrealized_pnl": -227.4,
-      "unrealized_pct": -0.031553,
+      "last_price": 93.715,
+      "last_marked_date": "2026-11-13",
+      "unrealized_pnl": -242.4,
+      "unrealized_pct": -0.033667,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-10",
@@ -250,16 +250,16 @@
       "name": "Coherent Corp.",
       "sector": "Information Technology",
       "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-11-11",
-      "entry_price": 234.51,
-      "qty": 21.593714,
-      "cost_basis": 5066.47,
-      "stop_price": 208.7139,
-      "target_price": 286.1022,
-      "last_price": 232.08,
-      "last_marked_date": "2026-11-12",
-      "unrealized_pnl": -55,
-      "unrealized_pct": -0.010362,
+      "entry_date": "2026-11-13",
+      "entry_price": 212.05,
+      "qty": 23.647495,
+      "cost_basis": 5016.96,
+      "stop_price": 188.7245,
+      "target_price": 258.701,
+      "last_price": 212.05,
+      "last_marked_date": "2026-11-13",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-12",
@@ -269,7 +269,7 @@
         "total_value_usd": 1220285,
         "first_buy": "2026-11-09",
         "last_buy": "2026-11-10",
-        "stale_days": 2,
+        "stale_days": 3,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -301,8 +301,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 49.81570869085108,
-        "volatility_20d": 1.2924440646411381
+        "rsi14": 44.321751200459026,
+        "volatility_20d": 1.2941224115327972
       }
     }
   ],
@@ -844,6 +844,67 @@
         "rsi14": 30.325134816393216,
         "volatility_20d": 0.13328075908945267
       }
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-11",
+      "entry_price": 234.51,
+      "exit_date": "2026-11-13",
+      "exit_price": 208.7139,
+      "exit_reason": "STOP",
+      "qty": 21.593714,
+      "cost_basis": 5066.47,
+      "proceeds": 4504.65,
+      "pnl": -561.82,
+      "pnl_pct": -0.110889,
+      "r_multiple": -1,
+      "hold_days": 2,
+      "stop_price": 208.7139,
+      "target_price": 286.1022,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1220285,
+        "first_buy": "2026-11-09",
+        "last_buy": "2026-11-10",
+        "stale_days": 2,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Digirolomo Enrico",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 222885,
+            "date": "2026-11-10",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:01:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "ANDERSON JAMES ROBERT",
+            "title": "CEO",
+            "shares": 5000,
+            "value_usd": 997400,
+            "date": "2026-11-09",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:02:52.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 49.81570869085108,
+        "volatility_20d": 1.2924440646411381
+      }
     }
   ],
   "equity_curve": [
@@ -1290,9 +1351,15 @@
       "equity": 100807.33,
       "cash": 66658.43,
       "open_positions": 5
+    },
+    {
+      "date": "2026-11-13",
+      "equity": 100336.67,
+      "cash": 66146.13,
+      "open_positions": 5
     }
   ],
-  "tracked_days": 74,
-  "last_market_date": "2026-11-12",
+  "tracked_days": 75,
+  "last_market_date": "2026-11-13",
   "rejected_signal_observations": []
 }
