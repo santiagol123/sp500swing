@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-12T20:58:52.778Z",
+  "updated_at": "2026-11-13T01:59:38.006Z",
   "initial_equity": 100000,
   "cash": 94633.64682999041,
   "positions": [
@@ -16,10 +16,10 @@
       "cost_basis": 4980.72,
       "stop_price": 396.6305,
       "target_price": 471.5462,
-      "last_price": 404.725,
+      "last_price": 404.2,
       "last_marked_date": "2026-11-12",
-      "unrealized_pnl": 0,
-      "unrealized_pct": 0,
+      "unrealized_pnl": -8.95,
+      "unrealized_pct": -0.001297,
       "max_loss_stop_applied": false,
       "stop_loss_pct": 0.02,
       "signal_event_date": "2026-11-09",
@@ -3070,7 +3070,7 @@
     },
     {
       "date": "2026-11-12",
-      "equity": 99611.88,
+      "equity": 99605.42,
       "cash": 94633.65,
       "open_positions": 1
     }
@@ -3398,8 +3398,8 @@
       "entry_date": "2026-11-09",
       "entry_price": 389.36,
       "latest_date": "2026-11-12",
-      "latest_price": 404.725,
-      "return_pct": 0.039462,
+      "latest_price": 404.2,
+      "return_pct": 0.038114,
       "mae_pct": -0.00244,
       "mfe_pct": 0.065852,
       "status": "TRACKING",
@@ -3432,8 +3432,8 @@
       "entry_date": "2026-11-10",
       "entry_price": 28.31,
       "latest_date": "2026-11-12",
-      "latest_price": 28.385,
-      "return_pct": 0.002649,
+      "latest_price": 28.36,
+      "return_pct": 0.001766,
       "mae_pct": -0.013423,
       "mfe_pct": 0.077358,
       "status": "TRACKING",
