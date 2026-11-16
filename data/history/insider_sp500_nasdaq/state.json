@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-11-13T23:44:49.208Z",
+  "updated_at": "2026-11-16T06:52:16.360Z",
   "initial_equity": 100000,
   "cash": 94601.37117273122,
   "positions": [
@@ -13739,7 +13739,7 @@
       "latest_price": 53.47,
       "return_pct": 0.067479,
       "mae_pct": 0.000799,
-      "mfe_pct": 0.068656,
+      "mfe_pct": 0.070473,
       "status": "TRACKING",
       "signal_event_date": "2026-11-10",
       "first_detected_at": "2026-11-10T18:00:16.715Z"
@@ -13846,8 +13846,8 @@
       "latest_date": "2026-11-13",
       "latest_price": 65.21,
       "return_pct": 0.033439,
-      "mae_pct": -0.003249,
-      "mfe_pct": 0.035737,
+      "mae_pct": -0.00317,
+      "mfe_pct": 0.035816,
       "status": "TRACKING",
       "signal_event_date": "2026-11-12",
       "first_detected_at": "2026-11-12T20:59:03.315Z"
@@ -13923,7 +13923,7 @@
       "latest_date": "2026-11-13",
       "latest_price": 15.8,
       "return_pct": 0.100279,
-      "mae_pct": 0.003482,
+      "mae_pct": 0.002785,
       "mfe_pct": 0.117688,
       "status": "TRACKING",
       "signal_event_date": "2026-11-12",
@@ -13941,7 +13941,7 @@
       "latest_price": 8.86,
       "return_pct": 0.006818,
       "mae_pct": -0.017045,
-      "mfe_pct": 0.072716,
+      "mfe_pct": 0.072727,
       "status": "TRACKING",
       "signal_event_date": "2026-11-12",
       "first_detected_at": "2026-11-13T01:59:48.427Z"
@@ -13957,8 +13957,8 @@
       "latest_date": "2026-11-13",
       "latest_price": 165.04,
       "return_pct": 0.053559,
-      "mae_pct": 0.013884,
-      "mfe_pct": 0.074561,
+      "mae_pct": 0.013916,
+      "mfe_pct": 0.074689,
       "status": "TRACKING",
       "signal_event_date": "2026-11-12",
       "first_detected_at": "2026-11-13T01:59:48.427Z"
@@ -14064,6 +14064,23 @@
       "status": "TRACKING",
       "signal_event_date": "2026-11-13",
       "first_detected_at": "2026-11-13T23:44:49.202Z"
+    },
+    {
+      "key": "STWD:2026-11-13:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "STWD",
+      "name": "STARWOOD PROPERTY TRUST INC. Starwood Property Trust Inc.",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "2 insiders compraron 16,711,132 USD entre 2026-11-11 y 2026-11-12 | fuentes: Dataroma 4 | Flujo Dataroma semanal: compras 16,711,132 USD vs ventas 0 USD (sin ventas recientes); neto comprador 16,711,132 USD. Compras publicadas el 2026-11-13: 16,711,132 USD. | filtro S&P 500 + Nasdaq-100 + NYSE: caida acelerada bajo SMA20/SMA50 (1s -5.9%, 1m -10.1%, RSI 29.1); esperar confirmacion",
+      "entry_date": "2026-11-13",
+      "entry_price": 11.34,
+      "latest_date": "2026-11-13",
+      "latest_price": 11.34,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-13",
+      "first_detected_at": "2026-11-16T06:52:16.351Z"
     }
   ]
 }
