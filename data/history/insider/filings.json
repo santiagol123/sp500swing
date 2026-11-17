@@ -6152,6 +6152,26 @@
   "0001803666-26-000012": [],
   "0001942369-26-000008": [],
   "0001803666-26-000010": [],
+  "0000895345-26-000491": [
+    {
+      "symbol": "SKYD",
+      "issuer_cik": "0002041610",
+      "issuer_name": "Skydance Corp",
+      "accession": "0000895345-26-000491",
+      "filing_date": "2026-11-16",
+      "filing_datetime": "2026-11-17T02:04:59.000Z",
+      "filing_acceptance_datetime": "2026-11-17T02:04:59.000Z",
+      "transaction_date": "2026-11-11",
+      "owner_cik": "0001447258",
+      "owner_name": "Cardinale Gerald J.",
+      "owner_title": "Director",
+      "is_officer": false,
+      "is_director": true,
+      "has_10b5_1_plan": false,
+      "shares": 129650,
+      "value_usd": 1000637.145
+    }
+  ],
   "0001225208-26-008807": [],
   "0001225208-26-008806": [],
   "0000895345-26-000470": [],
