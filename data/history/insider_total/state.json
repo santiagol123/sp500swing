@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-18T01:45:02.757Z",
+  "updated_at": "2026-11-18T10:24:08.489Z",
   "initial_equity": 100000,
   "cash": 99509.8768299904,
   "positions": [],
@@ -3517,12 +3517,15 @@
       "entry_price": 7.04,
       "latest_date": "2026-11-17",
       "latest_price": 6.92,
-      "return_pct": -0.017045,
-      "mae_pct": -0.017045,
-      "mfe_pct": -0.017045,
-      "status": "TRACKING",
+      "return_pct": -0.02,
+      "mae_pct": -0.02983,
+      "mfe_pct": 0.018466,
+      "status": "COMPLETE",
       "signal_event_date": "2026-11-17",
-      "first_detected_at": "2026-11-17T09:21:25.621Z"
+      "first_detected_at": "2026-11-17T09:21:25.621Z",
+      "exit_date": "2026-11-17",
+      "exit_price": 6.8992,
+      "exit_reason": "SHADOW_STOP"
     },
     {
       "key": "ETN:2026-11-17:ESPERAR_CONFIRMACION_TECNICA",
