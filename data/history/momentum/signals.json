@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-17T21:53:10.230Z",
+  "computed_at": "2026-11-18T09:03:38.249Z",
   "market_date": "2026-11-17",
   "signals": [],
   "watch": [
@@ -546,7 +546,7 @@
         "ret_1m": 0.224694,
         "dist_sma50": 0.165705,
         "pct_from_52w_high": -0.016027,
-        "volume_ratio_20_60": 1.2787,
+        "volume_ratio_20_60": 1.278727,
         "risk_flags": ""
       },
       {
@@ -561,7 +561,7 @@
         "ret_1m": 0.208782,
         "dist_sma50": 0.156759,
         "pct_from_52w_high": -0.016052,
-        "volume_ratio_20_60": 1.275984,
+        "volume_ratio_20_60": 1.275988,
         "risk_flags": ""
       },
       {
@@ -576,7 +576,7 @@
         "ret_1m": 0.230561,
         "dist_sma50": 0.158685,
         "pct_from_52w_high": -0.041242,
-        "volume_ratio_20_60": 1.279367,
+        "volume_ratio_20_60": 1.279387,
         "risk_flags": ""
       },
       {
@@ -585,7 +585,7 @@
         "sector": "Industrials",
         "rank_today": 4,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.872435,
+        "score": 0.871955,
         "price": 118.38,
         "ret_1w": 0.001438,
         "ret_1m": 0.178262,
@@ -606,7 +606,7 @@
         "ret_1m": 0.201645,
         "dist_sma50": 0.152085,
         "pct_from_52w_high": -0.045718,
-        "volume_ratio_20_60": 1.162815,
+        "volume_ratio_20_60": 1.162819,
         "risk_flags": ""
       },
       {
@@ -621,7 +621,7 @@
         "ret_1m": 0.129391,
         "dist_sma50": 0.120263,
         "pct_from_52w_high": -0.011971,
-        "volume_ratio_20_60": 1.125892,
+        "volume_ratio_20_60": 1.126902,
         "risk_flags": ""
       },
       {
@@ -636,7 +636,7 @@
         "ret_1m": 0.07937,
         "dist_sma50": 0.081113,
         "pct_from_52w_high": -0.008808,
-        "volume_ratio_20_60": 1.247083,
+        "volume_ratio_20_60": 1.247085,
         "risk_flags": ""
       },
       {
@@ -645,13 +645,13 @@
         "sector": "Financials",
         "rank_today": 8,
         "setup_type": "PULLBACK_IN_TREND",
-        "score": 0.848815,
+        "score": 0.848575,
         "price": 322.16,
         "ret_1w": 0,
         "ret_1m": 0.148275,
         "dist_sma50": 0.12741,
         "pct_from_52w_high": -0.005065,
-        "volume_ratio_20_60": 1.097166,
+        "volume_ratio_20_60": 1.097222,
         "risk_flags": ""
       },
       {
@@ -660,13 +660,13 @@
         "sector": "Health Care",
         "rank_today": 9,
         "setup_type": "HOT_MOMENTUM",
-        "score": 0.84771,
+        "score": 0.84747,
         "price": 690.24,
         "ret_1w": -0.009187,
         "ret_1m": 0.241886,
         "dist_sma50": 0.212832,
         "pct_from_52w_high": -0.099703,
-        "volume_ratio_20_60": 1.202703,
+        "volume_ratio_20_60": 1.202712,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -681,7 +681,7 @@
         "ret_1m": 0.146546,
         "dist_sma50": 0.10727,
         "pct_from_52w_high": -0.016946,
-        "volume_ratio_20_60": 1.245359,
+        "volume_ratio_20_60": 1.24536,
         "risk_flags": ""
       },
       {
@@ -690,13 +690,13 @@
         "sector": "Industrials",
         "rank_today": 11,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.83427,
+        "score": 0.83451,
         "price": 66.07,
         "ret_1w": -0.024509,
         "ret_1m": 0.149443,
         "dist_sma50": 0.104447,
         "pct_from_52w_high": -0.033216,
-        "volume_ratio_20_60": 1.316938,
+        "volume_ratio_20_60": 1.318166,
         "risk_flags": ""
       },
       {
@@ -711,7 +711,7 @@
         "ret_1m": 0.142645,
         "dist_sma50": 0.131405,
         "pct_from_52w_high": -0.019363,
-        "volume_ratio_20_60": 1.171727,
+        "volume_ratio_20_60": 1.171913,
         "risk_flags": ""
       },
       {
@@ -726,7 +726,7 @@
         "ret_1m": 0.096181,
         "dist_sma50": 0.11015,
         "pct_from_52w_high": -0.007514,
-        "volume_ratio_20_60": 1.118368,
+        "volume_ratio_20_60": 1.118391,
         "risk_flags": ""
       },
       {
@@ -735,7 +735,7 @@
         "sector": "Health Care",
         "rank_today": 14,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.82301,
+        "score": 0.82277,
         "price": 368.24,
         "ret_1w": -0.007118,
         "ret_1m": 0.154973,
@@ -750,13 +750,13 @@
         "sector": "Financials",
         "rank_today": 15,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.822435,
+        "score": 0.822675,
         "price": 282.88,
         "ret_1w": 0.000814,
         "ret_1m": 0.118059,
         "dist_sma50": 0.119179,
         "pct_from_52w_high": -0.019072,
-        "volume_ratio_20_60": 1.192535,
+        "volume_ratio_20_60": 1.193238,
         "risk_flags": ""
       },
       {
@@ -771,7 +771,7 @@
         "ret_1m": 0.102456,
         "dist_sma50": 0.100837,
         "pct_from_52w_high": -0.010423,
-        "volume_ratio_20_60": 1.102141,
+        "volume_ratio_20_60": 1.102379,
         "risk_flags": ""
       },
       {
@@ -786,7 +786,7 @@
         "ret_1m": 0.119934,
         "dist_sma50": 0.119824,
         "pct_from_52w_high": -0.028965,
-        "volume_ratio_20_60": 1.051191,
+        "volume_ratio_20_60": 1.051197,
         "risk_flags": ""
       },
       {
@@ -801,7 +801,7 @@
         "ret_1m": 0.306563,
         "dist_sma50": 0.22561,
         "pct_from_52w_high": -0.107946,
-        "volume_ratio_20_60": 1.190608,
+        "volume_ratio_20_60": 1.190628,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -816,7 +816,7 @@
         "ret_1m": 0.087019,
         "dist_sma50": 0.091464,
         "pct_from_52w_high": -0.0197,
-        "volume_ratio_20_60": 1.160142,
+        "volume_ratio_20_60": 1.160143,
         "risk_flags": ""
       },
       {
@@ -831,7 +831,7 @@
         "ret_1m": 0.112302,
         "dist_sma50": 0.092542,
         "pct_from_52w_high": -0.024186,
-        "volume_ratio_20_60": 1.083023,
+        "volume_ratio_20_60": 1.083434,
         "risk_flags": ""
       },
       {
@@ -846,7 +846,7 @@
         "ret_1m": 0.159661,
         "dist_sma50": 0.145078,
         "pct_from_52w_high": -0.033604,
-        "volume_ratio_20_60": 1.233518,
+        "volume_ratio_20_60": 1.233521,
         "risk_flags": ""
       },
       {
@@ -876,7 +876,7 @@
         "ret_1m": 0.207524,
         "dist_sma50": 0.200926,
         "pct_from_52w_high": -0.019682,
-        "volume_ratio_20_60": 1.032747,
+        "volume_ratio_20_60": 1.032748,
         "risk_flags": "EXTENDED_FROM_SMA50"
       },
       {
@@ -906,7 +906,7 @@
         "ret_1m": 0.082007,
         "dist_sma50": 0.116976,
         "pct_from_52w_high": -0.015005,
-        "volume_ratio_20_60": 1.11756,
+        "volume_ratio_20_60": 1.117577,
         "risk_flags": ""
       },
       {
@@ -921,7 +921,7 @@
         "ret_1m": 0.173823,
         "dist_sma50": 0.150887,
         "pct_from_52w_high": -0.069822,
-        "volume_ratio_20_60": 1.161077,
+        "volume_ratio_20_60": 1.1611,
         "risk_flags": ""
       },
       {
@@ -930,13 +930,13 @@
         "sector": "Industrials",
         "rank_today": 27,
         "setup_type": "EARLY_MOMENTUM",
-        "score": 0.799558,
+        "score": 0.799318,
         "price": 108.81,
         "ret_1w": -0.065527,
         "ret_1m": 0.193223,
         "dist_sma50": 0.11941,
         "pct_from_52w_high": -0.080453,
-        "volume_ratio_20_60": 1.172849,
+        "volume_ratio_20_60": 1.172852,
         "risk_flags": ""
       },
       {
@@ -945,13 +945,13 @@
         "sector": "Health Care",
         "rank_today": 28,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.798345,
+        "score": 0.798825,
         "price": 279.25,
         "ret_1w": 0.008888,
         "ret_1m": 0.105284,
         "dist_sma50": 0.137354,
         "pct_from_52w_high": -0.016206,
-        "volume_ratio_20_60": 0.97983,
+        "volume_ratio_20_60": 0.980709,
         "risk_flags": ""
       },
       {
@@ -960,13 +960,13 @@
         "sector": "Industrials",
         "rank_today": 29,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.792335,
+        "score": 0.792815,
         "price": 1466.96,
         "ret_1w": -0.00404,
         "ret_1m": 0.114896,
         "dist_sma50": 0.099102,
         "pct_from_52w_high": -0.023725,
-        "volume_ratio_20_60": 1.110332,
+        "volume_ratio_20_60": 1.111088,
         "risk_flags": ""
       },
       {
@@ -981,7 +981,7 @@
         "ret_1m": 0.074069,
         "dist_sma50": 0.090016,
         "pct_from_52w_high": -0.016399,
-        "volume_ratio_20_60": 1.13088,
+        "volume_ratio_20_60": 1.130919,
         "risk_flags": ""
       },
       {
@@ -996,7 +996,7 @@
         "ret_1m": 0.144368,
         "dist_sma50": 0.126503,
         "pct_from_52w_high": -0.037792,
-        "volume_ratio_20_60": 1.065191,
+        "volume_ratio_20_60": 1.065192,
         "risk_flags": ""
       },
       {
@@ -1005,13 +1005,13 @@
         "sector": "Health Care",
         "rank_today": 32,
         "setup_type": "EARLY_MOMENTUM",
-        "score": 0.790245,
+        "score": 0.790005,
         "price": 332.16,
         "ret_1w": -0.039445,
         "ret_1m": 0.107126,
         "dist_sma50": 0.061103,
         "pct_from_52w_high": -0.116831,
-        "volume_ratio_20_60": 1.211599,
+        "volume_ratio_20_60": 1.211654,
         "risk_flags": ""
       },
       {
@@ -1020,13 +1020,13 @@
         "sector": "Consumer Staples",
         "rank_today": 33,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.78855,
+        "score": 0.78879,
         "price": 1110.08,
         "ret_1w": 0.041214,
         "ret_1m": 0.116712,
         "dist_sma50": 0.13966,
         "pct_from_52w_high": -0.003286,
-        "volume_ratio_20_60": 1.079359,
+        "volume_ratio_20_60": 1.079841,
         "risk_flags": ""
       },
       {
@@ -1035,13 +1035,13 @@
         "sector": "Health Care",
         "rank_today": 34,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.787155,
+        "score": 0.787635,
         "price": 443.34,
         "ret_1w": 0.012053,
         "ret_1m": 0.07061,
         "dist_sma50": 0.081205,
         "pct_from_52w_high": -0.038829,
-        "volume_ratio_20_60": 1.124083,
+        "volume_ratio_20_60": 1.124637,
         "risk_flags": ""
       },
       {
@@ -1050,13 +1050,13 @@
         "sector": "Industrials",
         "rank_today": 35,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.782055,
+        "score": 0.782295,
         "price": 252.93,
         "ret_1w": 0.021444,
         "ret_1m": 0.104353,
         "dist_sma50": 0.10605,
         "pct_from_52w_high": -0.010291,
-        "volume_ratio_20_60": 1.017698,
+        "volume_ratio_20_60": 1.018766,
         "risk_flags": ""
       },
       {
@@ -1071,7 +1071,7 @@
         "ret_1m": 0.080401,
         "dist_sma50": 0.133515,
         "pct_from_52w_high": -0.012099,
-        "volume_ratio_20_60": 0.897226,
+        "volume_ratio_20_60": 0.897625,
         "risk_flags": ""
       },
       {
@@ -1080,13 +1080,13 @@
         "sector": "Industrials",
         "rank_today": 37,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.78009,
+        "score": 0.78057,
         "price": 110.31,
         "ret_1w": 0.008044,
         "ret_1m": 0.148608,
         "dist_sma50": 0.107769,
         "pct_from_52w_high": -0.03391,
-        "volume_ratio_20_60": 1.152191,
+        "volume_ratio_20_60": 1.156664,
         "risk_flags": ""
       },
       {
@@ -1101,7 +1101,7 @@
         "ret_1m": 0.074139,
         "dist_sma50": 0.06842,
         "pct_from_52w_high": -0.016008,
-        "volume_ratio_20_60": 1.084134,
+        "volume_ratio_20_60": 1.08414,
         "risk_flags": ""
       },
       {
@@ -1116,7 +1116,7 @@
         "ret_1m": 0.101807,
         "dist_sma50": 0.097144,
         "pct_from_52w_high": -0.075691,
-        "volume_ratio_20_60": 1.044205,
+        "volume_ratio_20_60": 1.044214,
         "risk_flags": ""
       },
       {
@@ -1146,7 +1146,7 @@
         "ret_1m": 0.123584,
         "dist_sma50": 0.098816,
         "pct_from_52w_high": -0.02144,
-        "volume_ratio_20_60": 1.023201,
+        "volume_ratio_20_60": 1.02321,
         "risk_flags": ""
       },
       {
@@ -1161,7 +1161,7 @@
         "ret_1m": 0.137021,
         "dist_sma50": 0.121878,
         "pct_from_52w_high": -0.133976,
-        "volume_ratio_20_60": 1.072989,
+        "volume_ratio_20_60": 1.07299,
         "risk_flags": ""
       },
       {
@@ -1176,7 +1176,7 @@
         "ret_1m": 0.143776,
         "dist_sma50": 0.086645,
         "pct_from_52w_high": -0.012544,
-        "volume_ratio_20_60": 1.045467,
+        "volume_ratio_20_60": 1.045468,
         "risk_flags": ""
       },
       {
@@ -1191,7 +1191,7 @@
         "ret_1m": 0.127951,
         "dist_sma50": 0.071246,
         "pct_from_52w_high": -0.044492,
-        "volume_ratio_20_60": 1.158009,
+        "volume_ratio_20_60": 1.158018,
         "risk_flags": ""
       },
       {
@@ -1206,7 +1206,7 @@
         "ret_1m": 0.12825,
         "dist_sma50": 0.091833,
         "pct_from_52w_high": -0.018074,
-        "volume_ratio_20_60": 1.196791,
+        "volume_ratio_20_60": 1.196792,
         "risk_flags": ""
       },
       {
@@ -1215,13 +1215,13 @@
         "sector": "Utilities",
         "rank_today": 46,
         "setup_type": "NEAR_BREAKOUT",
-        "score": 0.757785,
+        "score": 0.758025,
         "price": 119.23,
         "ret_1w": -0.000419,
         "ret_1m": 0.086972,
         "dist_sma50": 0.078202,
         "pct_from_52w_high": -0.021743,
-        "volume_ratio_20_60": 1.172659,
+        "volume_ratio_20_60": 1.173326,
         "risk_flags": ""
       },
       {
@@ -1236,29 +1236,14 @@
         "ret_1m": 0.057118,
         "dist_sma50": 0.076544,
         "pct_from_52w_high": -0.04552,
-        "volume_ratio_20_60": 1.227029,
-        "risk_flags": ""
-      },
-      {
-        "ticker": "TSN",
-        "name": "Tyson Foods",
-        "sector": "Consumer Staples",
-        "rank_today": 48,
-        "setup_type": "EARLY_MOMENTUM",
-        "score": 0.750315,
-        "price": 63.65,
-        "ret_1w": 0.055731,
-        "ret_1m": 0.178704,
-        "dist_sma50": 0.160137,
-        "pct_from_52w_high": -0.057663,
-        "volume_ratio_20_60": 1.124615,
+        "volume_ratio_20_60": 1.227031,
         "risk_flags": ""
       },
       {
         "ticker": "CDW",
         "name": "CDW Corporation",
         "sector": "Information Technology",
-        "rank_today": 49,
+        "rank_today": 48,
         "setup_type": "PULLBACK_IN_TREND",
         "score": 0.749905,
         "price": 163.07,
@@ -1266,7 +1251,22 @@
         "ret_1m": 0.068261,
         "dist_sma50": 0.077411,
         "pct_from_52w_high": -0.057835,
-        "volume_ratio_20_60": 1.040848,
+        "volume_ratio_20_60": 1.040887,
+        "risk_flags": ""
+      },
+      {
+        "ticker": "TSN",
+        "name": "Tyson Foods",
+        "sector": "Consumer Staples",
+        "rank_today": 49,
+        "setup_type": "EARLY_MOMENTUM",
+        "score": 0.749835,
+        "price": 63.65,
+        "ret_1w": 0.055731,
+        "ret_1m": 0.178704,
+        "dist_sma50": 0.160137,
+        "pct_from_52w_high": -0.057663,
+        "volume_ratio_20_60": 1.124629,
         "risk_flags": ""
       },
       {
@@ -1281,7 +1281,7 @@
         "ret_1m": 0.095711,
         "dist_sma50": 0.081316,
         "pct_from_52w_high": -0.011139,
-        "volume_ratio_20_60": 1.231672,
+        "volume_ratio_20_60": 1.231839,
         "risk_flags": ""
       }
     ],
