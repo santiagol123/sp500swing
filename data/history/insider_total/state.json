@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-18T10:24:08.489Z",
+  "updated_at": "2026-11-18T18:58:40.165Z",
   "initial_equity": 100000,
   "cash": 99509.8768299904,
   "positions": [],
@@ -3091,10 +3091,16 @@
       "equity": 99509.88,
       "cash": 99509.88,
       "open_positions": 0
+    },
+    {
+      "date": "2026-11-18",
+      "equity": 99509.88,
+      "cash": 99509.88,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 71,
-  "last_market_date": "2026-11-17",
+  "tracked_days": 72,
+  "last_market_date": "2026-11-18",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -3535,14 +3541,31 @@
       "reason": "2 insiders compraron 170,894 USD entre 2026-11-16 y 2026-11-16 | fuentes: SEC EDGAR 2 | filtro S&P 500: importe publicado en 3 dias < 250,000 USD; volatilidad 20d 71% > 60%; rebote debil: RSI 37.8 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -4.8%, 1m -13.6%, RSI 37.8); esperar confirmacion",
       "entry_date": "2026-11-17",
       "entry_price": 337.11,
-      "latest_date": "2026-11-17",
-      "latest_price": 337.11,
+      "latest_date": "2026-11-18",
+      "latest_price": 341.235,
+      "return_pct": 0.012236,
+      "mae_pct": -0.013912,
+      "mfe_pct": 0.015811,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-17",
+      "first_detected_at": "2026-11-18T01:45:02.751Z"
+    },
+    {
+      "key": "HBAN:2026-10-29:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "HBAN",
+      "name": "Huntington Bancshares",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Cluster de 2026-10-27, demasiado antiguo (22 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; accion base SENAL_CADUCADA; rebote debil: RSI 37.5 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.1%, 1m -3.0%, RSI 37.5); esperar confirmacion",
+      "entry_date": "2026-11-18",
+      "entry_price": 15.075,
+      "latest_date": "2026-11-18",
+      "latest_price": 15.075,
       "return_pct": 0,
       "mae_pct": 0,
       "mfe_pct": 0,
       "status": "TRACKING",
-      "signal_event_date": "2026-11-17",
-      "first_detected_at": "2026-11-18T01:45:02.751Z"
+      "signal_event_date": "2026-10-29",
+      "first_detected_at": "2026-10-29T21:54:10.285Z"
     }
   ]
 }
