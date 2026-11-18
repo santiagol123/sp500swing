@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-17T18:42:26.960Z",
+  "updated_at": "2026-11-18T01:45:02.757Z",
   "initial_equity": 100000,
   "cash": 99509.8768299904,
   "positions": [],
@@ -3516,13 +3516,30 @@
       "entry_date": "2026-11-16",
       "entry_price": 7.04,
       "latest_date": "2026-11-17",
-      "latest_price": 6.97,
-      "return_pct": -0.009943,
-      "mae_pct": -0.014205,
-      "mfe_pct": 0.017756,
+      "latest_price": 6.92,
+      "return_pct": -0.017045,
+      "mae_pct": -0.017045,
+      "mfe_pct": -0.017045,
       "status": "TRACKING",
       "signal_event_date": "2026-11-17",
       "first_detected_at": "2026-11-17T09:21:25.621Z"
+    },
+    {
+      "key": "ETN:2026-11-17:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "2 insiders compraron 170,894 USD entre 2026-11-16 y 2026-11-16 | fuentes: SEC EDGAR 2 | filtro S&P 500: importe publicado en 3 dias < 250,000 USD; volatilidad 20d 71% > 60%; rebote debil: RSI 37.8 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -4.8%, 1m -13.6%, RSI 37.8); esperar confirmacion",
+      "entry_date": "2026-11-17",
+      "entry_price": 337.11,
+      "latest_date": "2026-11-17",
+      "latest_price": 337.11,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-17",
+      "first_detected_at": "2026-11-18T01:45:02.751Z"
     }
   ]
 }
