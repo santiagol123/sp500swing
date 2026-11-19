@@ -1,9 +1,9 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-11-19T08:55:57.326Z",
+  "updated_at": "2026-11-19T18:25:48.780Z",
   "initial_equity": 100000,
-  "cash": 78971.08818273622,
+  "cash": 78664.43208317166,
   "positions": [
     {
       "ticker": "ACN",
@@ -16,10 +16,10 @@
       "cost_basis": 5019.46,
       "stop_price": 210.3572,
       "target_price": 284.7656,
-      "last_price": 227.49,
-      "last_marked_date": "2026-11-18",
-      "unrealized_pnl": -166.14,
-      "unrealized_pct": -0.032616,
+      "last_price": 218.34,
+      "last_marked_date": "2026-11-19",
+      "unrealized_pnl": -361.35,
+      "unrealized_pct": -0.071526,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-28",
@@ -76,10 +76,10 @@
       "cost_basis": 5016.96,
       "stop_price": 188.7245,
       "target_price": 258.701,
-      "last_price": 212.84,
-      "last_marked_date": "2026-11-18",
-      "unrealized_pnl": 16.17,
-      "unrealized_pct": 0.003726,
+      "last_price": 216.58,
+      "last_marked_date": "2026-11-19",
+      "unrealized_pnl": 104.61,
+      "unrealized_pct": 0.021363,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-12",
@@ -126,66 +126,6 @@
       }
     },
     {
-      "ticker": "CAT",
-      "name": "Caterpillar Inc.",
-      "sector": "Industrials",
-      "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-11-13",
-      "entry_price": 600.2,
-      "qty": 8.364105,
-      "cost_basis": 5022.65,
-      "stop_price": 550.4602,
-      "target_price": 699.6796,
-      "last_price": 558.77,
-      "last_marked_date": "2026-11-18",
-      "unrealized_pnl": -349.04,
-      "unrealized_pct": -0.069027,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": "2026-11-13",
-      "signal_meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 829025,
-        "first_buy": "2026-11-02",
-        "last_buy": "2026-11-12",
-        "stale_days": 1,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "MacLennan David",
-            "title": "Director",
-            "shares": 350,
-            "value_usd": 208635,
-            "date": "2026-11-12",
-            "filing_date": "2026-11-13",
-            "filing_datetime": "2026-11-13T21:21:28.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Fish James C Jr",
-            "title": "Director",
-            "shares": 1000,
-            "value_usd": 620390,
-            "date": "2026-11-02",
-            "filing_date": "2026-11-03",
-            "filing_datetime": "2026-11-03T16:43:02.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 35.653945225456,
-        "volatility_20d": 0.5979783883635664
-      }
-    },
-    {
       "ticker": "ETN",
       "name": "Eaton Corporation",
       "sector": "Industrials",
@@ -196,10 +136,10 @@
       "cost_basis": 4927.25,
       "stop_price": 308.2576,
       "target_price": 407.1898,
-      "last_price": 338.34,
-      "last_marked_date": "2026-11-18",
-      "unrealized_pnl": -44.24,
-      "unrealized_pct": -0.008484,
+      "last_price": 333.735,
+      "last_marked_date": "2026-11-19",
+      "unrealized_pnl": -110.7,
+      "unrealized_pct": -0.021979,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-17",
@@ -243,6 +183,80 @@
         ],
         "rsi14": 39.62970325182802,
         "volatility_20d": 0.6973335708401323
+      }
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-19",
+      "entry_price": 160.965,
+      "qty": 30.478695,
+      "cost_basis": 4908.46,
+      "stop_price": 150.9049,
+      "target_price": 181.0851,
+      "last_price": 160.965,
+      "last_marked_date": "2026-11-19",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": "2026-11-18",
+      "signal_meta": {
+        "insider_count": 3,
+        "buy_count": 3,
+        "total_value_usd": 2008915,
+        "first_buy": "2026-10-30",
+        "last_buy": "2026-11-17",
+        "stale_days": 2,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "JOHRI AKHIL",
+            "title": "Director",
+            "shares": 3000,
+            "value_usd": 500067,
+            "date": "2026-11-17",
+            "filing_date": "2026-11-18",
+            "filing_datetime": "2026-11-18T22:43:52.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Buckley Mortimer J",
+            "title": "Director",
+            "shares": 5820,
+            "value_usd": 998421,
+            "date": "2026-10-30",
+            "filing_date": "2026-11-03",
+            "filing_datetime": "2026-11-04T00:37:23.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "MOLLENKOPF STEVEN M",
+            "title": "Director",
+            "shares": 2950,
+            "value_usd": 510427,
+            "date": "2026-10-30",
+            "filing_date": "2026-11-03",
+            "filing_datetime": "2026-11-04T00:37:22.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 28.382721242295048,
+        "volatility_20d": 0.4509694305892297
       }
     }
   ],
@@ -1028,6 +1042,67 @@
         "rsi14": 64.13165745529113,
         "volatility_20d": 0.42827644322211017
       }
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-13",
+      "entry_price": 600.2,
+      "exit_date": "2026-11-19",
+      "exit_price": 550.4602,
+      "exit_reason": "STOP",
+      "qty": 8.364105,
+      "cost_basis": 5022.65,
+      "proceeds": 4601.8,
+      "pnl": -420.85,
+      "pnl_pct": -0.083789,
+      "r_multiple": -1,
+      "hold_days": 6,
+      "stop_price": 550.4602,
+      "target_price": 699.6796,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 829025,
+        "first_buy": "2026-11-02",
+        "last_buy": "2026-11-12",
+        "stale_days": 1,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "MacLennan David",
+            "title": "Director",
+            "shares": 350,
+            "value_usd": 208635,
+            "date": "2026-11-12",
+            "filing_date": "2026-11-13",
+            "filing_datetime": "2026-11-13T21:21:28.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Fish James C Jr",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 620390,
+            "date": "2026-11-02",
+            "filing_date": "2026-11-03",
+            "filing_datetime": "2026-11-03T16:43:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 35.653945225456,
+        "volatility_20d": 0.5979783883635664
+      }
     }
   ],
   "equity_curve": [
@@ -1498,9 +1573,15 @@
       "equity": 98414.16,
       "cash": 78971.09,
       "open_positions": 4
+    },
+    {
+      "date": "2026-11-19",
+      "equity": 98166.67,
+      "cash": 78664.43,
+      "open_positions": 4
     }
   ],
-  "tracked_days": 78,
-  "last_market_date": "2026-11-18",
+  "tracked_days": 79,
+  "last_market_date": "2026-11-19",
   "rejected_signal_observations": []
 }

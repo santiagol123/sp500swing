@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-19T08:56:06.256Z",
+  "updated_at": "2026-11-19T18:25:56.728Z",
   "initial_equity": 100000,
   "cash": 99509.8768299904,
   "positions": [],
@@ -3097,10 +3097,16 @@
       "equity": 99509.88,
       "cash": 99509.88,
       "open_positions": 0
+    },
+    {
+      "date": "2026-11-19",
+      "equity": 99509.88,
+      "cash": 99509.88,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 72,
-  "last_market_date": "2026-11-18",
+  "tracked_days": 73,
+  "last_market_date": "2026-11-19",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -3541,11 +3547,11 @@
       "reason": "2 insiders compraron 170,894 USD entre 2026-11-16 y 2026-11-16 | fuentes: SEC EDGAR 2 | filtro S&P 500: importe publicado en 3 dias < 250,000 USD; volatilidad 20d 71% > 60%; rebote debil: RSI 37.8 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -4.8%, 1m -13.6%, RSI 37.8); esperar confirmacion",
       "entry_date": "2026-11-17",
       "entry_price": 337.11,
-      "latest_date": "2026-11-18",
-      "latest_price": 338.34,
-      "return_pct": 0.003649,
-      "mae_pct": -0.013912,
-      "mfe_pct": 0.015811,
+      "latest_date": "2026-11-19",
+      "latest_price": 333.55,
+      "return_pct": -0.01056,
+      "mae_pct": -0.017976,
+      "mfe_pct": 0.029931,
       "status": "TRACKING",
       "signal_event_date": "2026-11-17",
       "first_detected_at": "2026-11-18T01:45:02.751Z"
@@ -3558,14 +3564,17 @@
       "reason": "Cluster de 2026-10-27, demasiado antiguo (22 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; accion base SENAL_CADUCADA; rebote debil: RSI 37.5 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.1%, 1m -3.0%, RSI 37.5); esperar confirmacion",
       "entry_date": "2026-11-18",
       "entry_price": 15.075,
-      "latest_date": "2026-11-18",
-      "latest_price": 15.075,
-      "return_pct": 0,
-      "mae_pct": 0,
-      "mfe_pct": 0,
-      "status": "TRACKING",
+      "latest_date": "2026-11-19",
+      "latest_price": 14.677,
+      "return_pct": -0.02,
+      "mae_pct": -0.038143,
+      "mfe_pct": 0.001658,
+      "status": "COMPLETE",
       "signal_event_date": "2026-10-29",
-      "first_detected_at": "2026-10-29T21:54:10.285Z"
+      "first_detected_at": "2026-10-29T21:54:10.285Z",
+      "exit_date": "2026-11-19",
+      "exit_price": 14.7735,
+      "exit_reason": "SHADOW_STOP"
     },
     {
       "key": "BA:2026-11-18:ESPERAR_CONFIRMACION_TECNICA",
@@ -3575,14 +3584,51 @@
       "reason": "3 insiders compraron 2,008,915 USD entre 2026-10-30 y 2026-11-17 | fuentes: SEC EDGAR 3 | Flujo Dataroma semanal: compras 500,067 USD vs ventas 0 USD (sin ventas recientes); neto comprador 500,067 USD. Compras publicadas el 2026-11-18: 500,067 USD. | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; rebote debil: RSI 30.0 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -6.7%, 1m -14.5%, RSI 30.0); esperar confirmacion",
       "entry_date": "2026-11-18",
       "entry_price": 162.91,
-      "latest_date": "2026-11-18",
-      "latest_price": 162.91,
+      "latest_date": "2026-11-19",
+      "latest_price": 160.9,
+      "return_pct": -0.02,
+      "mae_pct": -0.024492,
+      "mfe_pct": 0.007918,
+      "status": "COMPLETE",
+      "signal_event_date": "2026-11-18",
+      "first_detected_at": "2026-11-19T01:19:48.493Z",
+      "exit_date": "2026-11-19",
+      "exit_price": 159.6518,
+      "exit_reason": "SHADOW_STOP"
+    },
+    {
+      "key": "ACN:2026-10-28:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "ACN",
+      "name": "Accenture",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Cluster de 2026-10-26, demasiado antiguo (24 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (22 dias); accion base SENAL_CADUCADA; rebote debil: RSI 37.2 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -12.7%, 1m -9.2%, RSI 37.2); esperar confirmacion",
+      "entry_date": "2026-11-19",
+      "entry_price": 218.25,
+      "latest_date": "2026-11-19",
+      "latest_price": 218.25,
       "return_pct": 0,
       "mae_pct": 0,
       "mfe_pct": 0,
       "status": "TRACKING",
-      "signal_event_date": "2026-11-18",
-      "first_detected_at": "2026-11-19T01:19:48.493Z"
+      "signal_event_date": "2026-10-28",
+      "first_detected_at": "2026-10-28T13:15:55.158Z"
+    },
+    {
+      "key": "TFC:2026-10-29:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "TFC",
+      "name": "Truist Financial",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "Compra senior material de 2026-10-29, demasiado antigua | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (21 dias); accion base SENAL_CADUCADA; rebote debil: RSI 39.9 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.3%, 1m -1.0%, RSI 39.9); esperar confirmacion",
+      "entry_date": "2026-11-19",
+      "entry_price": 46.77,
+      "latest_date": "2026-11-19",
+      "latest_price": 46.77,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-10-29",
+      "first_detected_at": "2026-10-29T17:01:54.379Z"
     }
   ]
 }
