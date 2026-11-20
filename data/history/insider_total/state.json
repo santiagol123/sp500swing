@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-20T01:22:42.126Z",
+  "updated_at": "2026-11-20T08:49:13.546Z",
   "initial_equity": 100000,
   "cash": 99509.8768299904,
   "positions": [],
@@ -3549,12 +3549,15 @@
       "entry_price": 337.11,
       "latest_date": "2026-11-19",
       "latest_price": 330.57,
-      "return_pct": -0.0194,
-      "mae_pct": -0.0194,
-      "mfe_pct": 0.015811,
-      "status": "TRACKING",
+      "return_pct": -0.02,
+      "mae_pct": -0.02121,
+      "mfe_pct": 0.029931,
+      "status": "COMPLETE",
       "signal_event_date": "2026-11-17",
-      "first_detected_at": "2026-11-18T01:45:02.751Z"
+      "first_detected_at": "2026-11-18T01:45:02.751Z",
+      "exit_date": "2026-11-19",
+      "exit_price": 330.3678,
+      "exit_reason": "SHADOW_STOP"
     },
     {
       "key": "HBAN:2026-10-29:ESPERAR_CONFIRMACION_TECNICA",
