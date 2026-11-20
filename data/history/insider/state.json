@@ -1,9 +1,9 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-11-20T08:49:05.680Z",
+  "updated_at": "2026-11-20T17:56:28.867Z",
   "initial_equity": 100000,
-  "cash": 78664.43208317166,
+  "cash": 78263.90656482683,
   "positions": [
     {
       "ticker": "ACN",
@@ -16,10 +16,10 @@
       "cost_basis": 5019.46,
       "stop_price": 210.3572,
       "target_price": 284.7656,
-      "last_price": 218.58,
-      "last_marked_date": "2026-11-19",
-      "unrealized_pnl": -356.23,
-      "unrealized_pct": -0.070505,
+      "last_price": 225.79,
+      "last_marked_date": "2026-11-20",
+      "unrealized_pnl": -202.41,
+      "unrealized_pct": -0.039845,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-28",
@@ -66,66 +66,6 @@
       }
     },
     {
-      "ticker": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-11-13",
-      "entry_price": 212.05,
-      "qty": 23.647495,
-      "cost_basis": 5016.96,
-      "stop_price": 188.7245,
-      "target_price": 258.701,
-      "last_price": 214.94,
-      "last_marked_date": "2026-11-19",
-      "unrealized_pnl": 65.83,
-      "unrealized_pct": 0.013629,
-      "max_loss_stop_applied": false,
-      "stop_loss_pct": null,
-      "signal_event_date": "2026-11-12",
-      "signal_meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 1220285,
-        "first_buy": "2026-11-09",
-        "last_buy": "2026-11-10",
-        "stale_days": 3,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Digirolomo Enrico",
-            "title": "Director",
-            "shares": 1000,
-            "value_usd": 222885,
-            "date": "2026-11-10",
-            "filing_date": "2026-11-12",
-            "filing_datetime": "2026-11-12T11:01:02.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "ANDERSON JAMES ROBERT",
-            "title": "CEO",
-            "shares": 5000,
-            "value_usd": 997400,
-            "date": "2026-11-09",
-            "filing_date": "2026-11-12",
-            "filing_datetime": "2026-11-12T11:02:52.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 44.321751200459026,
-        "volatility_20d": 1.2941224115327972
-      }
-    },
-    {
       "ticker": "ETN",
       "name": "Eaton Corporation",
       "sector": "Industrials",
@@ -136,10 +76,10 @@
       "cost_basis": 4927.25,
       "stop_price": 308.2576,
       "target_price": 407.1898,
-      "last_price": 330.57,
-      "last_marked_date": "2026-11-19",
-      "unrealized_pnl": -156.38,
-      "unrealized_pct": -0.031254,
+      "last_price": 310.05,
+      "last_marked_date": "2026-11-20",
+      "unrealized_pnl": -452.53,
+      "unrealized_pct": -0.091389,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-17",
@@ -196,10 +136,10 @@
       "cost_basis": 4908.46,
       "stop_price": 150.9049,
       "target_price": 181.0851,
-      "last_price": 160.51,
-      "last_marked_date": "2026-11-19",
-      "unrealized_pnl": -16.32,
-      "unrealized_pct": -0.002827,
+      "last_price": 157.693,
+      "last_marked_date": "2026-11-20",
+      "unrealized_pnl": -102.18,
+      "unrealized_pct": -0.020327,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-18",
@@ -257,6 +197,66 @@
         ],
         "rsi14": 28.382721242295048,
         "volatility_20d": 0.4509694305892297
+      }
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-20",
+      "entry_price": 182.76,
+      "qty": 26.585282,
+      "cost_basis": 4861.16,
+      "stop_price": 162.6564,
+      "target_price": 222.9672,
+      "last_price": 182.76,
+      "last_marked_date": "2026-11-20",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": "2026-11-12",
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1220285,
+        "first_buy": "2026-11-09",
+        "last_buy": "2026-11-10",
+        "stale_days": 10,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Digirolomo Enrico",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 222885,
+            "date": "2026-11-10",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:01:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "ANDERSON JAMES ROBERT",
+            "title": "CEO",
+            "shares": 5000,
+            "value_usd": 997400,
+            "date": "2026-11-09",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:02:52.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 37.99379277347141,
+        "volatility_20d": 1.3351703035058269
       }
     }
   ],
@@ -1103,6 +1103,67 @@
         "rsi14": 35.653945225456,
         "volatility_20d": 0.5979783883635664
       }
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-13",
+      "entry_price": 212.05,
+      "exit_date": "2026-11-20",
+      "exit_price": 188.7245,
+      "exit_reason": "STOP",
+      "qty": 23.647495,
+      "cost_basis": 5016.96,
+      "proceeds": 4460.63,
+      "pnl": -556.33,
+      "pnl_pct": -0.11089,
+      "r_multiple": -1,
+      "hold_days": 7,
+      "stop_price": 188.7245,
+      "target_price": 258.701,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1220285,
+        "first_buy": "2026-11-09",
+        "last_buy": "2026-11-10",
+        "stale_days": 3,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Digirolomo Enrico",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 222885,
+            "date": "2026-11-10",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:01:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "ANDERSON JAMES ROBERT",
+            "title": "CEO",
+            "shares": 5000,
+            "value_usd": 997400,
+            "date": "2026-11-09",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:02:52.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 44.321751200459026,
+        "volatility_20d": 1.2941224115327972
+      }
     }
   ],
   "equity_curve": [
@@ -1579,9 +1640,15 @@
       "equity": 98073.46,
       "cash": 78664.43,
       "open_positions": 4
+    },
+    {
+      "date": "2026-11-20",
+      "equity": 97220.68,
+      "cash": 78263.91,
+      "open_positions": 4
     }
   ],
-  "tracked_days": 79,
-  "last_market_date": "2026-11-19",
+  "tracked_days": 80,
+  "last_market_date": "2026-11-20",
   "rejected_signal_observations": []
 }
