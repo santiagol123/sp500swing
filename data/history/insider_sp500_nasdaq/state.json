@@ -1,7 +1,7 @@
 {
   "workspace": "insider_sp500_nasdaq",
   "created_at": "2026-08-11T19:25:21.306Z",
-  "updated_at": "2026-11-21T00:05:22.909Z",
+  "updated_at": "2026-11-23T07:56:11.615Z",
   "initial_equity": 100000,
   "cash": 89434.42615268519,
   "positions": [
@@ -14898,7 +14898,7 @@
       "latest_price": 6.05,
       "return_pct": 0.001656,
       "mae_pct": -0.006623,
-      "mfe_pct": 0.029801,
+      "mfe_pct": 0.031457,
       "status": "TRACKING",
       "signal_event_date": "2026-11-05",
       "first_detected_at": "2026-11-05T22:09:39.889Z"
@@ -15072,7 +15072,7 @@
       "latest_price": 2.42,
       "return_pct": 0.016807,
       "mae_pct": -0.012605,
-      "mfe_pct": 0.05042,
+      "mfe_pct": 0.052521,
       "status": "TRACKING",
       "signal_event_date": "2026-11-18",
       "first_detected_at": "2026-11-19T01:20:01.120Z"
@@ -15185,7 +15185,7 @@
       "latest_date": "2026-11-20",
       "latest_price": 221.17,
       "return_pct": 0.013611,
-      "mae_pct": 0.011434,
+      "mae_pct": 0.011137,
       "mfe_pct": 0.047342,
       "status": "TRACKING",
       "signal_event_date": "2026-10-28",
@@ -15223,7 +15223,7 @@
       "latest_price": 10.81,
       "return_pct": -0.001847,
       "mae_pct": -0.001847,
-      "mfe_pct": 0.04109,
+      "mfe_pct": 0.041551,
       "status": "TRACKING",
       "signal_event_date": "2026-11-19",
       "first_detected_at": "2026-11-20T01:22:53.747Z"

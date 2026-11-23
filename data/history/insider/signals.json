@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-21T00:05:04.323Z",
+  "computed_at": "2026-11-23T07:55:53.333Z",
   "market_date": "2026-11-20",
   "signals": [
     {
@@ -19,14 +19,14 @@
       "risk_reward_ratio": 1.9999999999999978,
       "size_pct": 0.05,
       "authorized": true,
-      "opt_score": 64.7,
+      "opt_score": 62,
       "meta": {
         "insider_count": 3,
         "buy_count": 3,
         "total_value_usd": 2008915,
         "first_buy": "2026-10-30",
         "last_buy": "2026-11-17",
-        "stale_days": 4,
+        "stale_days": 6,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -83,7 +83,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-30, demasiado antiguo (52 dias > 15)",
+      "reason": "Cluster de 2026-09-30, demasiado antiguo (54 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 224.35,
       "entry_zone_low": 220.98475,
@@ -100,7 +100,7 @@
         "total_value_usd": 460716,
         "first_buy": "2026-09-30",
         "last_buy": "2026-09-30",
-        "stale_days": 52,
+        "stale_days": 54,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -258,68 +258,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 53.52280810226762,
+        "rsi14": 53.522808102261976,
         "volatility_20d": 0.20173499772376496
-      }
-    },
-    {
-      "ticker": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "COMPRAR_LIMITADA",
-      "reason": "2 insiders compraron 1,220,285 USD entre 2026-11-09 y 2026-11-10",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 187.22,
-      "entry_zone_low": 184.4117,
-      "entry_zone_high": 190.9644,
-      "invalid_below_price": 166.6258,
-      "target_price": 228.4084,
-      "risk_reward_ratio": 1.9999999999999998,
-      "size_pct": 0.05,
-      "authorized": true,
-      "opt_score": 51.3,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 1220285,
-        "first_buy": "2026-11-09",
-        "last_buy": "2026-11-10",
-        "stale_days": 11,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Digirolomo Enrico",
-            "title": "Director",
-            "shares": 1000,
-            "value_usd": 222885,
-            "date": "2026-11-10",
-            "filing_date": "2026-11-12",
-            "filing_datetime": "2026-11-12T11:01:02.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "ANDERSON JAMES ROBERT",
-            "title": "CEO",
-            "shares": 5000,
-            "value_usd": 997400,
-            "date": "2026-11-09",
-            "filing_date": "2026-11-12",
-            "filing_datetime": "2026-11-12T11:02:52.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 38.916904524779014,
-        "volatility_20d": 1.306738740362068
       }
     },
     {
@@ -329,7 +269,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-10-26, demasiado antiguo (26 dias > 15)",
+      "reason": "Cluster de 2026-10-26, demasiado antiguo (28 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 221.17,
       "entry_zone_low": 217.85244999999998,
@@ -346,7 +286,7 @@
         "total_value_usd": 3200889,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-26",
-        "stale_days": 26,
+        "stale_days": 28,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -378,7 +318,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 39.313704624598614,
+        "rsi14": 39.31370462160325,
         "volatility_20d": 0.43914820085484285
       }
     },
@@ -389,7 +329,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-10, demasiado antiguo (72 dias > 15)",
+      "reason": "Cluster de 2026-09-10, demasiado antiguo (74 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 63.47,
       "entry_zone_low": 62.51795,
@@ -406,7 +346,7 @@
         "total_value_usd": 15314016,
         "first_buy": "2026-09-04",
         "last_buy": "2026-09-10",
-        "stale_days": 72,
+        "stale_days": 74,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -449,7 +389,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-09-16, demasiado antiguo (66 dias > 15)",
+      "reason": "Cluster de 2026-09-16, demasiado antiguo (68 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 58.88,
       "entry_zone_low": 57.9968,
@@ -466,7 +406,7 @@
         "total_value_usd": 1880110,
         "first_buy": "2026-09-11",
         "last_buy": "2026-09-16",
-        "stale_days": 66,
+        "stale_days": 68,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -517,6 +457,66 @@
       }
     },
     {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "COMPRAR_LIMITADA",
+      "reason": "2 insiders compraron 1,220,285 USD entre 2026-11-09 y 2026-11-10",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 187.22,
+      "entry_zone_low": 184.4117,
+      "entry_zone_high": 190.9644,
+      "invalid_below_price": 166.6258,
+      "target_price": 228.4084,
+      "risk_reward_ratio": 1.9999999999999998,
+      "size_pct": 0.05,
+      "authorized": true,
+      "opt_score": 48.6,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1220285,
+        "first_buy": "2026-11-09",
+        "last_buy": "2026-11-10",
+        "stale_days": 13,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Digirolomo Enrico",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 222885,
+            "date": "2026-11-10",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:01:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "ANDERSON JAMES ROBERT",
+            "title": "CEO",
+            "shares": 5000,
+            "value_usd": 997400,
+            "date": "2026-11-09",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:02:52.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 38.916904524779014,
+        "volatility_20d": 1.306738740362068
+      }
+    },
+    {
       "ticker": "CAT",
       "name": "Caterpillar Inc.",
       "sector": "Industrials",
@@ -533,14 +533,14 @@
       "risk_reward_ratio": 2.0000000000000004,
       "size_pct": 0.05,
       "authorized": true,
-      "opt_score": 40.8,
+      "opt_score": 38.2,
       "meta": {
         "insider_count": 2,
         "buy_count": 2,
         "total_value_usd": 829025,
         "first_buy": "2026-11-02",
         "last_buy": "2026-11-12",
-        "stale_days": 9,
+        "stale_days": 11,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -572,68 +572,8 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 24.163114322301,
+        "rsi14": 24.163114322069816,
         "volatility_20d": 0.6108159522662524
-      }
-    },
-    {
-      "ticker": "ETN",
-      "name": "Eaton Corporation",
-      "sector": "Industrials",
-      "strategy": "insider",
-      "family": "INSIDER_CLUSTER",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "2 insiders compraron 170,894 USD entre 2026-11-16 y 2026-11-16 | bloqueada por limite diario o de sector",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
-      "last_close": 311.33,
-      "entry_zone_low": 306.66004999999996,
-      "entry_zone_high": 317.5566,
-      "invalid_below_price": 281.463780194637,
-      "target_price": 371.0624396107259,
-      "risk_reward_ratio": 2,
-      "size_pct": 0,
-      "authorized": false,
-      "opt_score": 33.3,
-      "meta": {
-        "insider_count": 2,
-        "buy_count": 2,
-        "total_value_usd": 170894,
-        "first_buy": "2026-11-16",
-        "last_buy": "2026-11-16",
-        "stale_days": 5,
-        "bootstrap_signal": false,
-        "insiders": [
-          {
-            "name": "Johnson Gerald",
-            "title": "Director",
-            "shares": 300,
-            "value_usd": 101646,
-            "date": "2026-11-16",
-            "filing_date": "2026-11-17",
-            "filing_datetime": "2026-11-17T21:15:53.000Z",
-            "source": "sec_edgar",
-            "is_officer": false,
-            "is_director": true,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          },
-          {
-            "name": "Foster David B",
-            "title": "See Remarks below.",
-            "shares": 200,
-            "value_usd": 69248,
-            "date": "2026-11-16",
-            "filing_date": "2026-11-17",
-            "filing_datetime": "2026-11-17T21:15:17.000Z",
-            "source": "sec_edgar",
-            "is_officer": true,
-            "is_director": false,
-            "is_ten_percent_owner": false,
-            "has_10b5_1_plan": false
-          }
-        ],
-        "rsi14": 31.49636573737044,
-        "volatility_20d": 0.692208415565322
       }
     },
     {
@@ -642,9 +582,9 @@
       "sector": "Materials",
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
-      "action": "ESPERAR_LIMITE_CARTERA",
-      "reason": "2 insiders compraron 758,960 USD entre 2026-11-03 y 2026-11-06 | bloqueada por limite diario o de sector",
-      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "action": "SENAL_CADUCADA",
+      "reason": "Cluster de 2026-11-06, demasiado antiguo (17 dias > 15)",
+      "plan": "Solo seguimiento",
       "last_close": 88.05,
       "entry_zone_low": 86.72925,
       "entry_zone_high": 89.81099999999999,
@@ -660,7 +600,7 @@
         "total_value_usd": 758960,
         "first_buy": "2026-11-03",
         "last_buy": "2026-11-06",
-        "stale_days": 15,
+        "stale_days": 17,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -692,8 +632,68 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 44.40600192324076,
+        "rsi14": 44.406001928277824,
         "volatility_20d": 0.4531842234099295
+      }
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "strategy": "insider",
+      "family": "INSIDER_CLUSTER",
+      "action": "ESPERAR_LIMITE_CARTERA",
+      "reason": "2 insiders compraron 170,894 USD entre 2026-11-16 y 2026-11-16 | bloqueada por limite diario o de sector",
+      "plan": "Entrada limitada dentro de zona; tesis de semanas, no de dias",
+      "last_close": 311.33,
+      "entry_zone_low": 306.66004999999996,
+      "entry_zone_high": 317.5566,
+      "invalid_below_price": 281.463780194637,
+      "target_price": 371.0624396107259,
+      "risk_reward_ratio": 2,
+      "size_pct": 0,
+      "authorized": false,
+      "opt_score": 30.7,
+      "meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 170894,
+        "first_buy": "2026-11-16",
+        "last_buy": "2026-11-16",
+        "stale_days": 7,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Johnson Gerald",
+            "title": "Director",
+            "shares": 300,
+            "value_usd": 101646,
+            "date": "2026-11-16",
+            "filing_date": "2026-11-17",
+            "filing_datetime": "2026-11-17T21:15:53.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Foster David B",
+            "title": "See Remarks below.",
+            "shares": 200,
+            "value_usd": 69248,
+            "date": "2026-11-16",
+            "filing_date": "2026-11-17",
+            "filing_datetime": "2026-11-17T21:15:17.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": false,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 31.49636573702034,
+        "volatility_20d": 0.692208415565322
       }
     },
     {
@@ -703,7 +703,7 @@
       "strategy": "insider",
       "family": "INSIDER_CLUSTER",
       "action": "SENAL_CADUCADA",
-      "reason": "Cluster de 2026-10-27, demasiado antiguo (25 dias > 15)",
+      "reason": "Cluster de 2026-10-27, demasiado antiguo (27 dias > 15)",
       "plan": "Solo seguimiento",
       "last_close": 14.28,
       "entry_zone_low": 14.0658,
@@ -720,7 +720,7 @@
         "total_value_usd": 453555,
         "first_buy": "2026-10-26",
         "last_buy": "2026-10-27",
-        "stale_days": 25,
+        "stale_days": 27,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -752,7 +752,7 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 27.740154673956113,
+        "rsi14": 27.740154675329407,
         "volatility_20d": 0.24715515978151636
       }
     }
@@ -761,16 +761,16 @@
   "diagnostics": {
     "universe_source": "wikipedia",
     "universe_count": 503,
-    "elapsed_ms": 72919,
+    "elapsed_ms": 65600,
     "cache_only": false,
     "bootstrap_signals": false,
-    "companies_with_buys": 72,
+    "companies_with_buys": 71,
     "clusters_found": 10,
     "signals_fresh": 3,
     "portfolio_entry_count": 3,
     "price_download_failed": 0,
-    "filings_seen": 6121,
-    "filings_fetched": 66,
+    "filings_seen": 5997,
+    "filings_fetched": 12,
     "missing_cik": 0,
     "scanned": 503,
     "reentry_blocked_count": 0,
