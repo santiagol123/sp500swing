@@ -1,9 +1,9 @@
 {
   "workspace": "insider",
   "created_at": "2026-07-31T22:49:12.719Z",
-  "updated_at": "2026-11-23T07:55:53.336Z",
+  "updated_at": "2026-11-23T20:23:46.968Z",
   "initial_equity": 100000,
-  "cash": 78263.90656482683,
+  "cash": 72338.19719785902,
   "positions": [
     {
       "ticker": "ACN",
@@ -16,10 +16,10 @@
       "cost_basis": 5019.46,
       "stop_price": 210.3572,
       "target_price": 284.7656,
-      "last_price": 221.17,
-      "last_marked_date": "2026-11-20",
-      "unrealized_pnl": -300.97,
-      "unrealized_pct": -0.059491,
+      "last_price": 222.63,
+      "last_marked_date": "2026-11-23",
+      "unrealized_pnl": -269.82,
+      "unrealized_pct": -0.053283,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-10-28",
@@ -76,10 +76,10 @@
       "cost_basis": 4927.25,
       "stop_price": 308.2576,
       "target_price": 407.1898,
-      "last_price": 311.33,
-      "last_marked_date": "2026-11-20",
-      "unrealized_pnl": -434.06,
-      "unrealized_pct": -0.087638,
+      "last_price": 336.7,
+      "last_marked_date": "2026-11-23",
+      "unrealized_pnl": -67.91,
+      "unrealized_pct": -0.01329,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-17",
@@ -136,10 +136,10 @@
       "cost_basis": 4908.46,
       "stop_price": 150.9049,
       "target_price": 181.0851,
-      "last_price": 155.89,
-      "last_marked_date": "2026-11-20",
-      "unrealized_pnl": -157.14,
-      "unrealized_pct": -0.031529,
+      "last_price": 162.595,
+      "last_marked_date": "2026-11-23",
+      "unrealized_pnl": 47.22,
+      "unrealized_pct": 0.010126,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-18",
@@ -204,16 +204,16 @@
       "name": "Coherent Corp.",
       "sector": "Information Technology",
       "family": "INSIDER_CLUSTER",
-      "entry_date": "2026-11-20",
-      "entry_price": 182.76,
-      "qty": 26.585282,
-      "cost_basis": 4861.16,
-      "stop_price": 162.6564,
-      "target_price": 222.9672,
-      "last_price": 187.22,
-      "last_marked_date": "2026-11-20",
-      "unrealized_pnl": 116.14,
-      "unrealized_pct": 0.024404,
+      "entry_date": "2026-11-23",
+      "entry_price": 216.16,
+      "qty": 22.831211,
+      "cost_basis": 4937.66,
+      "stop_price": 192.3824,
+      "target_price": 263.7152,
+      "last_price": 216.16,
+      "last_marked_date": "2026-11-23",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
       "max_loss_stop_applied": false,
       "stop_loss_pct": null,
       "signal_event_date": "2026-11-12",
@@ -223,7 +223,7 @@
         "total_value_usd": 1220285,
         "first_buy": "2026-11-09",
         "last_buy": "2026-11-10",
-        "stale_days": 10,
+        "stale_days": 13,
         "bootstrap_signal": false,
         "insiders": [
           {
@@ -255,8 +255,68 @@
             "has_10b5_1_plan": false
           }
         ],
-        "rsi14": 37.99379277347141,
-        "volatility_20d": 1.3351703035058269
+        "rsi14": 47.782467480578994,
+        "volatility_20d": 1.406844213675848
+      }
+    },
+    {
+      "ticker": "WMB",
+      "name": "Williams Companies",
+      "sector": "Energy",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-23",
+      "entry_price": 65.615,
+      "qty": 105.300198,
+      "cost_basis": 6912.73,
+      "stop_price": 61.6781,
+      "target_price": 73.4888,
+      "last_price": 65.615,
+      "last_marked_date": "2026-11-23",
+      "unrealized_pnl": 0,
+      "unrealized_pct": 0,
+      "max_loss_stop_applied": false,
+      "stop_loss_pct": null,
+      "signal_event_date": "2026-11-23",
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 651341,
+        "first_buy": "2026-11-19",
+        "last_buy": "2026-11-20",
+        "stale_days": 3,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Turner Robb E",
+            "title": "Director",
+            "shares": 10000,
+            "value_usd": 646500,
+            "date": "2026-11-20",
+            "filing_date": "2026-11-23",
+            "filing_datetime": "2026-11-23T18:45:35.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "Tyson Jesse J",
+            "title": "Director",
+            "shares": 72,
+            "value_usd": 4841,
+            "date": "2026-11-19",
+            "filing_date": "2026-11-20",
+            "filing_datetime": "2026-11-20T20:09:06.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 40.54973482912714,
+        "volatility_20d": 0.4297581396081836
       }
     }
   ],
@@ -1164,6 +1224,67 @@
         "rsi14": 44.321751200459026,
         "volatility_20d": 1.2941224115327972
       }
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "family": "INSIDER_CLUSTER",
+      "entry_date": "2026-11-20",
+      "entry_price": 182.76,
+      "exit_date": "2026-11-23",
+      "exit_price": 222.9672,
+      "exit_reason": "OBJETIVO",
+      "qty": 26.585282,
+      "cost_basis": 4861.16,
+      "proceeds": 5924.68,
+      "pnl": 1063.52,
+      "pnl_pct": 0.218779,
+      "r_multiple": 2,
+      "hold_days": 3,
+      "stop_price": 162.6564,
+      "target_price": 222.9672,
+      "signal_meta": {
+        "insider_count": 2,
+        "buy_count": 2,
+        "total_value_usd": 1220285,
+        "first_buy": "2026-11-09",
+        "last_buy": "2026-11-10",
+        "stale_days": 10,
+        "bootstrap_signal": false,
+        "insiders": [
+          {
+            "name": "Digirolomo Enrico",
+            "title": "Director",
+            "shares": 1000,
+            "value_usd": 222885,
+            "date": "2026-11-10",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:01:02.000Z",
+            "source": "sec_edgar",
+            "is_officer": false,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          },
+          {
+            "name": "ANDERSON JAMES ROBERT",
+            "title": "CEO",
+            "shares": 5000,
+            "value_usd": 997400,
+            "date": "2026-11-09",
+            "filing_date": "2026-11-12",
+            "filing_datetime": "2026-11-12T11:02:52.000Z",
+            "source": "sec_edgar",
+            "is_officer": true,
+            "is_director": true,
+            "is_ten_percent_owner": false,
+            "has_10b5_1_plan": false
+          }
+        ],
+        "rsi14": 37.99379277347141,
+        "volatility_20d": 1.3351703035058269
+      }
     }
   ],
   "equity_curve": [
@@ -1646,9 +1767,15 @@
       "equity": 97204.21,
       "cash": 78263.91,
       "open_positions": 4
+    },
+    {
+      "date": "2026-11-23",
+      "equity": 98747.32,
+      "cash": 72338.2,
+      "open_positions": 5
     }
   ],
-  "tracked_days": 80,
-  "last_market_date": "2026-11-20",
+  "tracked_days": 81,
+  "last_market_date": "2026-11-23",
   "rejected_signal_observations": []
 }

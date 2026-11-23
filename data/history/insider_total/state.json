@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-23T07:56:01.016Z",
+  "updated_at": "2026-11-23T20:23:54.844Z",
   "initial_equity": 100000,
   "cash": 99509.8768299904,
   "positions": [],
@@ -3109,10 +3109,16 @@
       "equity": 99509.88,
       "cash": 99509.88,
       "open_positions": 0
+    },
+    {
+      "date": "2026-11-23",
+      "equity": 99509.88,
+      "cash": 99509.88,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 74,
-  "last_market_date": "2026-11-20",
+  "tracked_days": 75,
+  "last_market_date": "2026-11-23",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -3613,10 +3619,10 @@
       "reason": "Cluster de 2026-10-26, demasiado antiguo (24 dias > 15) | fuentes: SEC EDGAR 2 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; filing antiguo (22 dias); accion base SENAL_CADUCADA; rebote debil: RSI 37.2 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -12.7%, 1m -9.2%, RSI 37.2); esperar confirmacion",
       "entry_date": "2026-11-19",
       "entry_price": 218.25,
-      "latest_date": "2026-11-20",
-      "latest_price": 221.17,
-      "return_pct": 0.013379,
-      "mae_pct": 0.010905,
+      "latest_date": "2026-11-23",
+      "latest_price": 222.48,
+      "return_pct": 0.019381,
+      "mae_pct": 0.008431,
       "mfe_pct": 0.047102,
       "status": "TRACKING",
       "signal_event_date": "2026-10-28",
@@ -3661,6 +3667,23 @@
       "exit_date": "2026-11-20",
       "exit_price": 6.2132,
       "exit_reason": "SHADOW_STOP"
+    },
+    {
+      "key": "BG:2026-11-23:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "BG",
+      "name": "Bunge Global",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "2 insiders compraron 1,623,100 USD entre 2026-11-19 y 2026-11-20 | fuentes: Dataroma 1 + SEC EDGAR 1 | Flujo Dataroma semanal: compras 1,161,650 USD vs ventas 0 USD (sin ventas recientes); neto comprador 1,161,650 USD. Compras publicadas el 2026-11-23: 1,161,650 USD. | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; caida acelerada bajo SMA20/SMA50 (1s -6.9%, 1m -10.7%, RSI 32.8); esperar confirmacion",
+      "entry_date": "2026-11-23",
+      "entry_price": 91.52,
+      "latest_date": "2026-11-23",
+      "latest_price": 91.52,
+      "return_pct": 0,
+      "mae_pct": 0,
+      "mfe_pct": 0,
+      "status": "TRACKING",
+      "signal_event_date": "2026-11-23",
+      "first_detected_at": "2026-11-23T20:23:54.839Z"
     }
   ]
 }
