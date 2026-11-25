@@ -1,7 +1,7 @@
 {
   "workspace": "insider_total",
   "created_at": "2026-08-10T00:00:00.000Z",
-  "updated_at": "2026-11-25T09:57:24.494Z",
+  "updated_at": "2026-11-25T20:00:33.315Z",
   "initial_equity": 100000,
   "cash": 99509.8768299904,
   "positions": [],
@@ -3121,10 +3121,16 @@
       "equity": 99509.88,
       "cash": 99509.88,
       "open_positions": 0
+    },
+    {
+      "date": "2026-11-25",
+      "equity": 99509.88,
+      "cash": 99509.88,
+      "open_positions": 0
     }
   ],
-  "tracked_days": 76,
-  "last_market_date": "2026-11-24",
+  "tracked_days": 77,
+  "last_market_date": "2026-11-25",
   "rejected_signal_observations": [
     {
       "key": "INTC:2026-08-14:ESPERAR_CONFIRMACION_TECNICA",
@@ -3705,10 +3711,10 @@
       "reason": "2 insiders compraron 3,298,594 USD entre 2026-11-11 y 2026-11-20 | fuentes: Dataroma 2 + SEC EDGAR 3 | Flujo Dataroma semanal: compras 1,196,150 USD vs ventas 0 USD (sin ventas recientes); neto comprador 1,196,150 USD. Compras publicadas el 2026-11-23: 701,306 USD. | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; sin CEO/CFO/officer/director claro; volatilidad 20d 60% > 60%; rebote debil: RSI 31.2 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -10.1%, 1m -18.5%, RSI 31.2); esperar confirmacion",
       "entry_date": "2026-11-23",
       "entry_price": 6.33,
-      "latest_date": "2026-11-24",
-      "latest_price": 6.5,
-      "return_pct": 0.026856,
-      "mae_pct": 0.006319,
+      "latest_date": "2026-11-25",
+      "latest_price": 6.545,
+      "return_pct": 0.033965,
+      "mae_pct": -0.007899,
       "mfe_pct": 0.058452,
       "status": "TRACKING",
       "signal_event_date": "2026-11-23",
@@ -3722,14 +3728,17 @@
       "reason": "3 insiders compraron 316,223 USD entre 2026-11-16 y 2026-11-20 | fuentes: SEC EDGAR 4 | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; importe publicado en 3 dias < 250,000 USD; volatilidad 20d 76% > 60%; rebote debil: RSI 37.5 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -5.7%, 1m -14.3%, RSI 37.5); esperar confirmacion",
       "entry_date": "2026-11-24",
       "entry_price": 317.88,
-      "latest_date": "2026-11-24",
-      "latest_price": 317.88,
-      "return_pct": 0,
-      "mae_pct": 0,
-      "mfe_pct": 0,
-      "status": "TRACKING",
+      "latest_date": "2026-11-25",
+      "latest_price": 317.185,
+      "return_pct": -0.02,
+      "mae_pct": -0.051758,
+      "mfe_pct": 0.001793,
+      "status": "COMPLETE",
       "signal_event_date": "2026-11-23",
-      "first_detected_at": "2026-11-24T04:55:30.514Z"
+      "first_detected_at": "2026-11-24T04:55:30.514Z",
+      "exit_date": "2026-11-25",
+      "exit_price": 311.5224,
+      "exit_reason": "SHADOW_STOP"
     },
     {
       "key": "COHR:2026-11-24:ESPERAR_CONFIRMACION_TECNICA",
@@ -3739,14 +3748,34 @@
       "reason": "3 insiders compraron 16,438,969 USD entre 2026-11-09 y 2026-11-20 | fuentes: SEC EDGAR 3 | Flujo Dataroma semanal: compras 15,218,684 USD vs ventas 0 USD (sin ventas recientes); neto comprador 15,218,684 USD. Compras publicadas el 2026-11-24: 15,218,684 USD. | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; volatilidad 20d 142% > 60%; rebote debil: RSI 43.1 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -6.9%, 1m -11.4%, RSI 43.1); esperar confirmacion",
       "entry_date": "2026-11-24",
       "entry_price": 196.24,
-      "latest_date": "2026-11-24",
-      "latest_price": 196.24,
+      "latest_date": "2026-11-25",
+      "latest_price": 196.49,
+      "return_pct": -0.02,
+      "mae_pct": -0.108438,
+      "mfe_pct": 0.018753,
+      "status": "COMPLETE",
+      "signal_event_date": "2026-11-24",
+      "first_detected_at": "2026-11-25T00:56:12.703Z",
+      "exit_date": "2026-11-25",
+      "exit_price": 192.3152,
+      "exit_reason": "SHADOW_STOP"
+    },
+    {
+      "key": "WMB:2026-11-25:ESPERAR_CONFIRMACION_TECNICA",
+      "ticker": "WMB",
+      "name": "Williams Companies",
+      "action": "ESPERAR_CONFIRMACION_TECNICA",
+      "reason": "2 insiders compraron 1,629,991 USD entre 2026-11-19 y 2026-11-24 | fuentes: SEC EDGAR 3 | Flujo Dataroma semanal: compras 1,629,991 USD vs ventas 0 USD (sin ventas recientes); neto comprador 1,629,991 USD. Compras publicadas el 2026-11-25: 978,650 USD. | filtro S&P 500: menos de 2 insiders y compra senior individual < 500,000 USD; rebote debil: RSI 44.1 bajo SMA20; caida acelerada bajo SMA20/SMA50 (1s -1.0%, 1m -10.1%, RSI 44.1); esperar confirmacion",
+      "entry_date": "2026-11-25",
+      "entry_price": 66.59,
+      "latest_date": "2026-11-25",
+      "latest_price": 66.59,
       "return_pct": 0,
       "mae_pct": 0,
       "mfe_pct": 0,
       "status": "TRACKING",
-      "signal_event_date": "2026-11-24",
-      "first_detected_at": "2026-11-25T00:56:12.703Z"
+      "signal_event_date": "2026-11-25",
+      "first_detected_at": "2026-11-25T20:00:33.307Z"
     }
   ]
 }
